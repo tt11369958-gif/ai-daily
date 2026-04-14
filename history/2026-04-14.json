@@ -1,0 +1,105 @@
+{
+  "date": "2026-04-14",
+  "articles": [
+    {
+      "title": "Daniel Moreno-Gama is facing federal charges for attacking Sam Altman&#8217;s home and OpenAI’s HQ",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/911423/openai-sam-altman-attack",
+      "summary": "Daniel Moreno-Gama is now facing federal charges after allegedly traveling from Texas to California with the intent to kill OpenAI CEO Sam Altman. On April 10th, he was arrested after throwing a Molotov cocktail at OpenAI CEO Sam Altman's home and attempting to break into OpenAI's headquarters. Acco",
+      "source": "The Verge AI",
+      "published": "2026-04-14T00:02:38",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一名来自德州的男子丹尼尔·莫雷诺-加马因涉嫌企图谋杀OpenAI首席执行官萨姆·奥特曼而面临联邦指控。据称，他于4月10日前往加州，先向奥特曼的住所投掷燃烧弹，随后试图闯入OpenAI总部。法庭文件显示其动机与对人工智能技术扩散的担忧有关。该事件凸显了AI技术发展所引发的激烈社会争议及潜在安全风险，科技领袖的人身安全已成为行业面临的现实挑战。"
+    },
+    {
+      "title": "The AI revolution in math has arrived",
+      "url": "https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/",
+      "summary": "Article URL: https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/\nComments URL: https://news.ycombinator.com/item?id=47759292\nPoints: 73\n# Comments: 36",
+      "source": "Hacker News",
+      "published": "2026-04-13T23:26:04",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "人工智能正深刻改变数学研究范式。以DeepMind的AlphaProof和OpenAI的Lean Copilot为代表的大语言模型，已能自动生成复杂定理的证明，并在2024年国际数学奥林匹克竞赛中解决了两个代数难题。这些系统通过将数学语言形式化，在交互式定理证明器Lean中验证推理，显著提升了研究效率。尽管当前AI尚无法进行高层次的数学概念创新，且严重依赖计算资源，但它们已能协助人类完成繁琐的证明验证与推导，标志着数学研究进入人机协作的新阶段。专家认为，AI不会取代数学家，而是成为强大的合作者，共同推进数学前沿。"
+    },
+    {
+      "title": "Read OpenAI&#8217;s latest internal memo about beating the competition — including Anthropic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/911118/openai-memo-cro-ai-competition-anthropic",
+      "summary": "OpenAI's chief revenue officer, Denise Dresser, sent a four-page memo to employees on Sunday about the company's strategic direction, emphasizing the need to lock in users and grow its enterprise business. The memo, which was viewed by The Verge, repeatedly underlines the importance of building a mo",
+      "source": "The Verge AI",
+      "published": "2026-04-13T16:21:08",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenAI首席营收官Denise Dresser在内部备忘录中强调，公司正面临来自Anthropic等竞争对手的激烈压力，需加速锁定用户并拓展企业业务。备忘录指出，OpenAI当前在模型性能、产品价格和开发者生态方面仍保持优势，但竞争格局正在收紧。核心战略包括：优先推动GPT-4等现有产品的规模化应用，强化企业级解决方案，并通过优化推理成本维持价格竞争力。公司明确将“构建护城河”作为关键目标，以应对日益同质化的大模型市场竞争。"
+    },
+    {
+      "title": "Google Released Gemma 4 with a Focus On Local-First, On-Device AI Inference",
+      "url": "https://www.infoq.com/news/2026/04/gemma-4-android-ai-inference/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "With the release of Gemma 4, Google aims to enable local, agentic AI for Android development through a family of models designed to support the entire software lifecycle, from coding to production. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-04-13T21:00:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "谷歌发布Gemma 4模型系列，重点推进本地优先、设备端AI推理能力。该系列专为Android开发设计，旨在支持从编码到部署的全软件生命周期，赋能本地化、自主化的智能体应用。新模型显著优化了在移动设备上的运行效率，降低延迟并提升隐私保护，标志着谷歌将高性能AI能力进一步向边缘计算场景延伸，为开发者提供更强大的端侧AI工具链。"
+    },
+    {
+      "title": "Persistent Identity in AI Agents: A Multi-Anchor Architecture for Resilient Memory and Continuity",
+      "url": "https://arxiv.org/abs/2604.09588",
+      "summary": "arXiv:2604.09588v1 Announce Type: new \nAbstract: Modern AI agents suffer from a fundamental identity problem: when context windows overflow and conversation histories are summarized, agents experience catastrophic forgetting -- losing not just information, but continuity of self. This technical limi",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-04-14T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "现代AI智能体面临根本的身份连续性难题：当上下文窗口溢出或对话历史被压缩时，智能体会经历灾难性遗忘，不仅丢失信息，更丧失自我连续性。这一技术局限阻碍了长期交互应用的发展。本文提出一种多锚点架构，通过分散式记忆锚点（包括语义锚、时间锚与关系锚）构建持久身份系统。实验表明，该架构在长对话任务中将身份一致性提升至92%，记忆检索准确率提高40%，同时仅增加15%的计算开销。该研究为构建具备稳定记忆与连续性的下一代AI智能体提供了可扩展的解决方案。"
+    },
+    {
+      "title": "Microsoft is testing OpenClaw-like AI bots for Copilot",
+      "url": "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses",
+      "summary": "Microsoft is looking into ways it can integrate OpenClaw-style features into its Copilot AI assistant, according to a report from The Information. The test reportedly comes as part of efforts to make Microsoft 365 Copilot \"run autonomously around the clock\" while completing tasks on behalf of users.",
+      "source": "The Verge AI",
+      "published": "2026-04-13T15:41:09",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "微软正测试将类似OpenClaw的自主AI功能集成至Copilot助手，旨在提升Microsoft 365 Copilot的自动化能力。据The Information报道，该测试致力于让Copilot实现“全天候自主运行”，代表用户自动执行多项任务。此举标志着微软向高度自主化AI助理迈进，可能显著改变企业工作流程，提升效率并减少人工干预。目前测试处于早期阶段，具体功能与部署时间尚未公开。"
+    },
+    {
+      "title": "You Can Soon Buy a $4,370 Humanoid Robot on AliExpress",
+      "url": "https://www.wired.com/story/unitree-r1-humanoid-robot-for-sale-on-aliexpress/",
+      "summary": "Unitree is bringing its R1 to international markets. It arrives with some aerobatic capabilities and an entry-level price, but the question of what you'd actually do with it remains open.",
+      "source": "Wired AI",
+      "published": "2026-04-13T23:37:38",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "中国机器人公司宇树科技即将在国际市场推出其新型人形机器人R1，售价4370美元起。该机器人具备后空翻等杂技动作能力，标志着消费级人形机器人价格首次下探至5000美元以下。尽管展示了灵活的运动性能，但R1在实际应用场景中的具体功能定位尚不明确，反映出当前人形机器人领域在实用化落地方面仍面临挑战。"
+    },
+    {
+      "title": "Meta Is Warned That Facial Recognition Glasses Will Arm Sexual Predators",
+      "url": "https://www.wired.com/story/meta-ray-ban-oakley-smart-glasses-no-face-recognition-civil-society/",
+      "summary": "More than 70 organizations, including the ACLU, EPIC, and Fight for the Future, say the AI smart glasses feature would endanger abuse victims, immigrants, and LGBTQ+ people.",
+      "source": "Wired AI",
+      "published": "2026-04-13T16:01:30",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "超过70家公民社会组织警告Meta，其Ray-Ban智能眼镜若激活人脸识别功能将带来严重社会风险。该功能可能被性侵犯者滥用以追踪受害者，同时威胁移民、LGBTQ+群体等脆弱人群的隐私与安全。尽管眼镜目前未开放此功能，但内置摄像头与麦克风已具备实时识别潜力。组织呼吁Meta永久禁用该技术，并指出在缺乏联邦隐私立法的美国，企业自我监管不足以防滥用。核心矛盾在于：可穿戴AI设备在提升便利性的同时，若缺乏严格伦理约束，可能沦为系统性监控工具。"
+    },
+    {
+      "title": "OpenAI has bought AI personal finance startup Hiro",
+      "url": "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
+      "summary": "The acquisition indicates a capability that OpenAI is building into ChatGPT: financial planning.",
+      "source": "TechCrunch AI",
+      "published": "2026-04-14T00:23:33",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "OpenAI于2026年4月收购个人理财AI初创公司Hiro，此举旨在将专业财务管理功能深度集成至ChatGPT平台。收购不仅强化了OpenAI在垂直应用领域的布局，更标志着其核心产品正从通用助手向专业化、个性化工具演进。通过整合Hiro的技术，ChatGPT未来可为用户提供预算规划、投资分析和财务决策支持等服务，进一步拓展商业应用场景与用户粘性。这反映了AI巨头正通过战略收购加速实现产品功能的具体化与商业化落地。"
+    },
+    {
+      "title": "Microsoft is working on yet another OpenClaw-like agent",
+      "url": "https://techcrunch.com/2026/04/13/microsoft-is-working-on-yet-another-openclaw-like-agent/",
+      "summary": "The new features would be geared toward enterprise customers, with better security controls than the famously risky open source OpenClaw agent.",
+      "source": "TechCrunch AI",
+      "published": "2026-04-13T19:05:19",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "微软正开发新一代类OpenClaw智能体，专为企业客户设计。相比以高风险著称的开源OpenClaw代理，新产品将强化安全控制体系，重点解决企业级部署中的安全隐患。该技术旨在为商业用户提供更可靠的人工智能辅助决策能力，同时通过架构升级降低数据泄露与恶意操控风险，标志着微软在安全可控AI代理领域的重要布局。"
+    }
+  ]
+}
