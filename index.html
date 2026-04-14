@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报｜2026-04-14</title>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --card-bg: #13131c;
+    --card-border: #1e1e2e;
+    --text: #e2e8f0;
+    --text-dim: #94a3b8;
+    --accent: #8b5cf6;
+    --accent2: #06b6d4;
+  }
+  * { margin:0; padding:0; box-sizing:border-box }
+  body { font-family:'Inter','PingFang SC','Microsoft YaHei',sans-serif;
+         background:var(--bg); color:var(--text);
+         min-height:100vh; line-height:1.6 }
+  a { color:inherit; text-decoration:none }
+
+  header {
+    background:linear-gradient(135deg,#0f0f1a 0%,#1a1035 100%);
+    border-bottom:1px solid #2a2a4a;
+    padding:2.5rem 2rem 2rem;
+    text-align:center;
+    position:sticky;top:0;z-index:100;
+  }
+  .header-badge {
+    display:inline-block;
+    background:linear-gradient(135deg,#8b5cf6,#06b6d4);
+    color:#fff;font-size:.7rem;font-weight:700;
+    padding:.25rem .75rem;border-radius:2rem;
+    letter-spacing:.05em;margin-bottom:.75rem;
+  }
+  h1 { font-size:2rem;font-weight:800;letter-spacing:-.02em;margin-bottom:.25rem }
+  .subtitle { color:var(--text-dim);font-size:.9rem }
+  .subtitle span { margin:0 .5rem }
+
+  .filter-bar {
+    display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;
+    padding:1.25rem 2rem;background:#0d0d18;
+    border-bottom:1px solid #1e1e2e;
+    position:sticky;top:85px;z-index:99;
+  }
+  .cat-btn {
+    background:#1a1a2e;border:1px solid #2a2a4a;color:var(--text-dim);
+    padding:.4rem 1rem;border-radius:.5rem;cursor:pointer;
+    font-size:.82rem;transition:all .2s;
+  }
+  .cat-btn:hover { border-color:var(--accent);color:var(--accent) }
+  .cat-btn.active { background:var(--accent);color:#fff;border-color:var(--accent) }
+
+  main { max-width:900px;margin:0 auto;padding:2rem 1.5rem }
+
+  .hero-card {
+    background:linear-gradient(135deg,#1a1035,#0f2540);
+    border:1px solid #8b5cf640;border-radius:1rem;
+    padding:1.75rem;margin-bottom:1.5rem;
+    animation:fadeIn .5s ease;
+  }
+  .hero-card .hero-label {
+    font-size:.7rem;color:#8b5cf6;font-weight:700;
+    letter-spacing:.1em;text-transform:uppercase;margin-bottom:.5rem
+  }
+  .hero-card h2 { font-size:1.4rem;line-height:1.3;margin-bottom:.75rem }
+  .hero-card h2 a:hover { color:var(--accent) }
+  .hero-card p { color:var(--text-dim);font-size:.9rem;line-height:1.7 }
+  .hero-card .read-more {
+    display:inline-block;margin-top:1rem;
+    background:var(--accent);color:#fff;
+    padding:.5rem 1.25rem;border-radius:.5rem;font-size:.85rem;
+    transition:opacity .2s;
+  }
+  .hero-card .read-more:hover { opacity:.85 }
+
+  .news-grid {
+    display:grid;grid-template-columns:1fr;
+    gap:1rem;
+  }
+  @media(min-width:640px) {
+    .news-grid { grid-template-columns:repeat(2,1fr) }
+  }
+
+  .news-card {
+    background:var(--card-bg);border:1px solid var(--card-border);
+    border-radius:.875rem;padding:1.25rem;
+    transition:transform .25s,border-color .25s,box-shadow .25s;
+    animation:fadeIn .5s ease backwards;
+  }
+  .news-card:hover {
+    transform:translateY(-3px);border-color:var(--accent);
+    box-shadow:0 8px 32px #8b5cf620;
+  }
+  .card-header { display:flex;align-items:center;gap:.5rem;margin-bottom:.75rem }
+  .rank { font-size:.75rem;font-weight:800 }
+  .source-tag,.cat-tag {
+    font-size:.68rem;padding:.15rem .5rem;border-radius:.25rem;font-weight:600
+  }
+  .cat-tag { opacity:.85 }
+  .card-title { font-size:.95rem;font-weight:700;line-height:1.4;margin-bottom:.75rem }
+  .card-title a:hover { color:var(--accent) }
+  .card-summary {
+    font-size:.82rem;color:var(--text-dim);line-height:1.65;
+    display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden
+  }
+  .card-footer {
+    display:flex;justify-content:space-between;align-items:center;
+    margin-top:1rem;padding-top:.75rem;border-top:1px solid #1e1e2e
+  }
+  .read-more { font-size:.78rem;color:var(--accent);font-weight:600 }
+  .read-more:hover { opacity:.8 }
+  .pub-date { font-size:.72rem;color:#555 }
+
+  footer {
+    text-align:center;padding:3rem 2rem;
+    color:#555;font-size:.78rem;
+    border-top:1px solid #1a1a2e;margin-top:3rem
+  }
+  footer a { color:var(--accent) }
+
+  .sources-section { margin-top:1.25rem;padding-top:1rem;border-top:1px solid #1a1a2e }
+  .sources-label { font-size:.72rem;color:#444;margin-bottom:.3rem }
+  .sources-list { font-size:.75rem;color:#555;line-height:1.8 }
+
+  .hidden { display:none }
+
+  @keyframes fadeIn {
+    from{opacity:0;transform:translateY(12px)}
+    to{opacity:1;transform:translateY(0)}
+  }
+
+  .stats-bar {
+    display:flex;justify-content:center;gap:2rem;
+    padding:1rem;font-size:.8rem;color:var(--text-dim)
+  }
+  .stats-bar strong { color:var(--accent) }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-badge">🤖 每日 AI 资讯精选</div>
+  <h1>AI 日报</h1>
+  <div class="subtitle">
+    <span>2026-04-14</span>·<span>周二</span>·<span><strong>10</strong> 条精选</span>
+  </div>
+</header>
+
+<div class="filter-bar">
+        <button class="cat-btn active" data-cat="全部">🤖 全部</button>
+        <button class="cat-btn" data-cat="产品发布">🛠 产品发布</button>
+        <button class="cat-btn" data-cat="融资并购">💰 融资并购</button>
+        <button class="cat-btn" data-cat="行业动态">📊 行业动态</button>
+</div>
+
+<main>
+  <div class="stats-bar">
+    <span>🔍 已过滤低价值内容，点击分类查看</span>
+    <span>🚀 <a href="#" target="_blank">GitHub Pages</a></span>
+  </div>
+
+  <div class="news-grid" id="newsGrid">
+
+        <article class="news-card" data-category="行业动态" data-rank="1">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#ffd700">#1</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Hacker News</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/" target="_blank" rel="noopener">The AI revolution in math has arrived</a>
+            </h2>
+            <p class="card-summary">人工智能正引发数学研究范式的根本性变革。以DeepMind的AlphaProof和OpenAI的成果为代表，AI系统已能解决国际数学奥林匹克竞赛级别的难题，并在组合优化等领域的猜想提出上展现潜力。这些系统并非简单检索，而是通过强化学习等机制进行类人的逻辑推理与探索。尽管当前AI更擅长解决已知结构问题，在开创性概念生成上仍有局限，但其已能作为强大工具辅助数学家，将人类直觉与机器计算力结合，加速从猜想验证到新理论发现的进程。这标志着数学研究正进入人机协同的新时代。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-13</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="产品发布" data-rank="2">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#c0c0c0">#2</span>
+                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 InfoQ</span>
+                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://www.infoq.com/news/2026/04/gemma-4-android-ai-inference/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global" target="_blank" rel="noopener">Google Released Gemma 4 with a Focus On Local-First, On-Device AI Inference</a>
+            </h2>
+            <p class="card-summary">谷歌发布Gemma 4模型系列，重点推动本地优先、设备端AI推理能力。该系列模型专为Android开发设计，旨在支持从编码到部署的全软件生命周期，赋能本地化、自主化的智能体应用。Gemma 4的推出标志着谷歌将高性能AI模型直接部署至终端设备的战略方向，有望降低延迟、增强隐私保护并实现离线运行，为移动开发者提供更高效的端侧AI解决方案。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://www.infoq.com/news/2026/04/gemma-4-android-ai-inference/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-13</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="行业动态" data-rank="3">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#cd7f32">#3</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 The Verge AI</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://www.theverge.com/ai-artificial-intelligence/911423/openai-sam-altman-attack" target="_blank" rel="noopener">Daniel Moreno-Gama is facing federal charges for attacking Sam Altman&#8217;s home and OpenAI’s HQ</a>
+            </h2>
+            <p class="card-summary">一名来自德克萨斯州的男子丹尼尔·莫雷诺-加马因涉嫌企图谋杀OpenAI首席执行官萨姆·阿尔特曼而面临联邦指控。据称，他于4月10日前往加利福尼亚州，向阿尔特曼的住所投掷了燃烧瓶，并试图闯入OpenAI总部。法庭文件显示，其动机源于对人工智能技术潜在风险的扭曲信念，认为OpenAI的AGI发展可能导致人类灭绝。该事件凸显了AI领军人物及其机构所面临的实际安全威胁，并反映出公众对AI技术影响的极端焦虑。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://www.theverge.com/ai-artificial-intelligence/911423/openai-sam-altman-attack" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-14</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="融资并购" data-rank="4">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#4</span>
+                    <span class="source-tag" style="background:#ef444420;color:#ef4444">💰 Ars Technica</span>
+                    <span class="cat-tag" style="background:#ef444430;color:#ef4444">融资并购</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://arstechnica.com/cars/2026/04/slate-auto-raises-650-million-as-production-gets-closer-and-closer/" target="_blank" rel="noopener">Slate Auto raises $650 million as production gets closer and closer</a>
+            </h2>
+            <p class="card-summary">美国电动汽车初创企业Slate Auto近日完成6.5亿美元新一轮融资，加速推进首款车型Slate Truck的量产进程。该车型定位亲民，预计2026年底上市，起售价为2.5万美元区间。此次融资反映出资本市场对平价电动皮卡市场前景的持续看好，也为Slate Auto实现规模化生产提供了关键资金支持，有望推动其成为特斯拉Cybertruck等产品的重要竞争者。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://arstechnica.com/cars/2026/04/slate-auto-raises-650-million-as-production-gets-closer-and-closer/" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-13</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="行业动态" data-rank="5">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#5</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Hacker News</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://amd-gaia.ai/docs" target="_blank" rel="noopener">GAIA – Open-source framework for building AI agents that run on local hardware</a>
+            </h2>
+            <p class="card-summary">AMD推出开源框架GAIA，旨在帮助开发者在本地硬件上构建和运行AI智能体。该框架通过优化计算资源分配，显著降低了大型语言模型在消费级设备上的运行门槛，支持在单张AMD Radeon RX 7900 XTX显卡上高效执行130亿参数模型。关键优势包括提升本地AI处理性能、保障数据隐私、减少云端依赖，并为边缘计算和个性化AI应用提供灵活解决方案。GAIA的开源特性预计将加速AI智能体在终端设备的普及与创新。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://amd-gaia.ai/docs" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-13</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="行业动态" data-rank="6">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#6</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Hacker News</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://spectrum.ieee.org/mems-photonics" target="_blank" rel="noopener">MEMS Array Chip Can Project Video the Size of a Grain of Sand</a>
+            </h2>
+            <p class="card-summary">研究人员开发出一种基于微机电系统（MEMS）阵列的新型光子芯片，其投影核心仅沙粒大小。该芯片通过密集排列的微小光学天线控制光线，无需传统透镜即可将动态视频图像直接投射到表面上。其关键突破在于实现了高分辨率投影与极小体积的结合，尺寸仅为传统投影系统的千分之一，同时能耗显著降低。这项技术有望推动超微型显示设备在增强现实眼镜、医疗内窥成像及便携式设备中的集成应用，标志着微型化投影领域的重要进展。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://spectrum.ieee.org/mems-photonics" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-13</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="行业动态" data-rank="7">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#7</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Wired AI</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://www.wired.com/story/unitree-r1-humanoid-robot-for-sale-on-aliexpress/" target="_blank" rel="noopener">You Can Soon Buy a $4,370 Humanoid Robot on AliExpress</a>
+            </h2>
+            <p class="card-summary">中国机器人公司宇树科技即将通过全球速卖通以4370美元起售价在国际市场发售其R1双足人形机器人。该机器人具备后空翻等杂技动作能力，标志着消费级人形机器人价格首次下探至中端家电水平。尽管展示了灵活的运动性能，但产品在实际家庭和工作场景中的具体应用场景仍不明确，反映出当前人形机器人领域在实用化进程中面临的核心挑战。此次商业化尝试将为人机交互和机器人日常化应用提供重要的市场验证数据。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://www.wired.com/story/unitree-r1-humanoid-robot-for-sale-on-aliexpress/" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-13</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="融资并购" data-rank="8">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#8</span>
+                    <span class="source-tag" style="background:#ef444420;color:#ef4444">💰 TechCrunch AI</span>
+                    <span class="cat-tag" style="background:#ef444430;color:#ef4444">融资并购</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/" target="_blank" rel="noopener">OpenAI has bought AI personal finance startup Hiro</a>
+            </h2>
+            <p class="card-summary">OpenAI于2026年4月收购个人理财AI初创公司Hiro，此举旨在将专业金融规划能力深度集成至ChatGPT中。该收购不仅强化了OpenAI在垂直应用领域的布局，更标志着其正从通用AI向具备具体领域专业知识的助手演进。通过整合Hiro的技术，ChatGPT未来可为用户提供个性化预算管理、投资分析和财务决策支持，使AI在敏感且复杂的金融场景中实现更可靠、落地的辅助功能。这反映出AI巨头正通过战略收购加速产品商业化，并推动生成式AI向专业化、工具化方向发展。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-14</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="行业动态" data-rank="9">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#9</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 TechCrunch AI</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/" target="_blank" rel="noopener">Stanford report highlights growing disconnect between AI insiders and everyone else</a>
+            </h2>
+            <p class="card-summary">斯坦福大学2026年AI指数报告揭示，人工智能领域专家与公众之间的认知差距正持续扩大。数据显示，公众对AI在就业、医疗及经济领域的影响日益焦虑，而行业内部人员则相对乐观。报告指出，这种认知脱节可能阻碍技术的社会整合与合理监管，亟需通过透明沟通与公共教育来弥合分歧，确保AI发展兼顾技术创新与社会福祉。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-13</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="产品发布" data-rank="10">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#10</span>
+                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 The Verge AI</span>
+                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://www.theverge.com/ai-artificial-intelligence/911118/openai-memo-cro-ai-competition-anthropic" target="_blank" rel="noopener">Read OpenAI&#8217;s latest internal memo about beating the competition — including Anthropic</a>
+            </h2>
+            <p class="card-summary">OpenAI首席营收官Denise Dresser在内部备忘录中强调，公司正面临来自Anthropic等竞争对手的激烈挑战，需加速构建商业“护城河”。备忘录指出，OpenAI当前企业业务年化收入仅约20亿美元，远低于行业预期。为实现持续领先，公司战略核心将聚焦用户留存与企业业务扩张，通过优化产品矩阵（包括ChatGPT企业版和API服务）锁定客户。关键结论显示，OpenAI正从技术探索转向商业化攻坚阶段，市场竞争已进入生态构建与规模化营收并重的关键期。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://www.theverge.com/ai-artificial-intelligence/911118/openai-memo-cro-ai-competition-anthropic" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-13</span>
+            </div>
+        </article>
+  </div>
+</main>
+
+<footer>
+  <p>由 <strong>AI 日报自动化系统</strong> 生成 · 每日更新</p>
+  <div class="sources-section">
+    <p class="sources-label">📡 数据来源</p>
+    <p class="sources-list">Ars Technica · Hacker News · InfoQ · TechCrunch AI · The Verge AI · Wired AI</p>
+  </div>
+</footer>
+
+<script>
+// 分类过滤
+const btns = document.querySelectorAll('.cat-btn');
+btns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    btns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const cat = btn.dataset.cat;
+    document.querySelectorAll('.news-card').forEach(card => {
+      card.classList.toggle('hidden', cat !== '全部' && card.dataset.category !== cat);
+    });
+  });
+});
+
+// 入场动画 stagger
+document.querySelectorAll('.news-card').forEach((card, i) => {
+  card.style.animationDelay = `${i * 0.07}s`;
+});
+</script>
+</body>
+</html>
