@@ -1,0 +1,35 @@
+name: AI Daily Auto Run
+
+on:
+  schedule:
+    # 北京时间 08:30 = UTC 00:30
+    - cron: '30 0 * * *'
+  workflow_dispatch:   # 也支持手动触发
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests feedparser openai Pillow
+
+      - name: Run AI Daily
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_API_BASE: ${{ secrets.DEEPSEEK_API_BASE }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ secrets.GITHUB_USER }}
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+        run: python scripts/run.py
+        working-directory: scripts
