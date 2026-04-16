@@ -31,17 +31,30 @@ def _generate_history_nav(user, repo, token):
     生成历史日报导航区域 HTML。
     横向日期选择器 + 嵌入式历史 banner，不依赖下拉框。
     """
-    today = datetime.now().strftime("%Y-%m-%d")
-    today_weekday = ["周一","周二","周三","周四","周五","周六","周日"][datetime.now().weekday()]
+    today = datetime.now()
+    days = []
+    for i in range(8):  # 今天 + 过去7天
+        d = today - timedelta(days=i)
+        date_str = d.strftime("%Y-%m-%d")
+        weekday_short = ["周一","周二","周三","周四","周五","周六","周日"][d.weekday()]
+        day_num = date_str[5:]  # MM-DD
+        if i == 0:
+            tag = "今天"
+            cls = "hs-date hs-today active"
+        else:
+            tag = f"{i}天前" if i <= 7 else ""
+            cls = "hs-date"
+        days.append(f'''
+      <span class="{cls}" data-date="{date_str}" onclick="onDateClick(this)">
+        <span class="hs-day">{weekday_short}</span>
+        <span class="hs-num">{day_num}</span>
+        <span class="hs-tag">{tag}</span>
+      </span>''')
 
     return f'''
   <div class="history-strip-wrap">
     <div class="history-strip" id="historyStrip">
-      <span class="hs-date hs-today active" data-date="{today}" onclick="onDateClick(this)">
-        <span class="hs-day">{today_weekday}</span>
-        <span class="hs-num">{today[5:]}</span>
-        <span class="hs-tag">今天</span>
-      </span>
+  {chr(10).join(days)}
     </div>
   </div>
   <div id="historyBanner" style="display:none;background:#1a1035;border:1px solid #8b5cf640;border-radius:.75rem;padding:.75rem 1.25rem;margin:.5rem auto;max-width:700px;font-size:.82rem;color:#94a3b8;text-align:center;">
@@ -101,11 +114,11 @@ def generate_html(articles, config, output_path=None, pages_url="", user="", rep
         source_name = _escape_html(a.get("source", ""))
         cat_name = _escape_html(a.get("category", ""))
 
-        # 把完整文章数据传给弹窗（用序列化的 JSON 作为 data 属性）
-        article_json = _escape_html(json.dumps(a, ensure_ascii=False))
+        # 把完整文章数据传给弹窗（直接写 JSON，用变量存避免 HTML 转义）
+        article_json = json.dumps(a, ensure_ascii=False)
         cards.append(f'''
-        <article class="news-card" data-rank="{rank}" data-json="{article_json}"
-                 onclick="openDetail(this)" style="cursor:pointer">
+        <article class="news-card" data-rank="{rank}" data-idx="{i}"
+                 onclick="openDetail({i})" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:{rank_color}">#{rank}</span>
@@ -124,6 +137,7 @@ def generate_html(articles, config, output_path=None, pages_url="", user="", rep
     cards_html = "\n".join(cards)
 
     # 用 replace() 代替 .format()，彻底避免 {placeholder} 被二次解析
+    articles_json = json.dumps(articles, ensure_ascii=False)
     html = (HTML_TEMPLATE
         .replace("{title}", config.get("newspaper_title", "AI 日报"))
         .replace("{date_str}", date_str)
@@ -134,6 +148,7 @@ def generate_html(articles, config, output_path=None, pages_url="", user="", rep
         .replace("{sources_html}", sources_html)
         .replace("{pages_url}", pages_url or "#")
         .replace("{history_nav}", history_nav)
+        .replace("{articles_json}", articles_json)
     )
 
     with open(output_path, "w", encoding="utf-8") as f:
@@ -449,18 +464,19 @@ const CAT_ICONS = {{
 }};
 const WEEKDAYS = ["周日","周一","周二","周三","周四","周五","周六"];
 
-// ── AI 总结详情弹窗 ──
-function openDetail(cardEl) {{
-  const raw = cardEl.dataset.json;
-  let a;
-  try {{ a = JSON.parse(raw); }} catch(e) {{ console.error(e); return; }}
+// ── 文章数据（由 Python 注入，避免 data-* 属性的 HTML 转义问题）──
+const ARTICLES = {articles_json};
 
-  const rank = cardEl.dataset.rank;
+// ── AI 总结详情弹窗 ──
+function openDetail(idx) {{
+  const a = ARTICLES[idx];
+  if (!a) return;
+
   const color = CAT_COLORS[a.category] || '#8b5cf6';
   const icon = CAT_ICONS[a.category] || '📌';
   const weekday = WEEKDAYS[new Date((a.published||'{date_str}').substring(0,10)).getDay()];
 
-  document.getElementById('dlRank').textContent = `#${rank} · ${icon} ${a.category}`;
+  document.getElementById('dlRank').textContent = `#${idx+1} · ${icon} ${a.category}`;
   document.getElementById('dlMeta').innerHTML =
     `<span style="background:${{color}}20;color:${{color}}">${{icon}} ${{a.source}}</span>` +
     `<span style="background:${{color}}30;color:${{color}}">${{a.category}}</span>` +
@@ -487,10 +503,7 @@ document.addEventListener('keydown', e => {{ if(e.key==='Escape') closeDetail();
 
 // ── 今日头条点击也打开详情 ──
 document.querySelectorAll('.hero-card').forEach(el => {{
-  el.addEventListener('click', () => {{
-    const first = document.querySelector('.news-card[data-rank="1"]');
-    if (first) openDetail(first);
-  }});
+  el.addEventListener('click', () => {{ openDetail(0); }});
 }});
 
 // ── 分类过滤 ──
