@@ -32,20 +32,22 @@ def load_config():
 
 def build_pages_url():
     """构建 GitHub Pages URL"""
+    # 优先从环境变量获取（GitHub Actions 部署后会自动设置）
     url = os.environ.get("GITHUB_PAGES_URL", "").strip()
     if url:
         return url
+    # fallback: 从 config 或环境变量构建
     config = load_config()
-    user = os.environ.get("GH_USER", "") or get(config, "github", "user", default="")
+    user = os.environ.get("GH_USER", "") or get(config, "github", "user", default="tt11369958-gif")
     repo = os.environ.get("GH_REPO", "") or get(config, "github", "repo", default="ai-daily")
     if user:
         return f"https://{user}.github.io/{repo}"
-    return ""
+    return "https://tt11369958-gif.github.io/ai-daily"
 
 def build_cover_url(pages_url):
     """从 output/assets/ 找到封面图，构建公网 URL"""
     if not pages_url:
-        return ""
+        pages_url = build_pages_url()
     covers = glob.glob(os.path.join(BASE_DIR, "output", "assets", "cover-*.png"))
     if covers:
         latest = max(covers, key=os.path.getmtime)
@@ -68,29 +70,46 @@ def send_wecom_notification(articles, pages_url="", cover_url=""):
         print("⚠ 无文章数据，跳过企微推送")
         return
 
-    headline = articles[0]
-    title = headline.get("title", "AI 资讯日报")[:50]
+    # 确保 pages_url 不为空
+    if not pages_url:
+        pages_url = build_pages_url()
 
+    # 构建文章摘要
+    from datetime import datetime
+    date_str = datetime.now().strftime("%Y-%m-%d")
+    weekday = ["周一","周二","周三","周四","周五","周六","周日"][datetime.now().weekday()]
+
+    headline = articles[0]
+    headline_title = headline.get("chinese_summary", headline.get("title", ""))[:50]
+    headline_source = headline.get("source", "")
+
+    # 构建要闻列表
     highlights = []
-    for a in articles[1:7]:
-        t = a.get("title", "")[:30]
+    for a in articles[1:8]:
+        t = a.get("chinese_summary", a.get("title", ""))[:40]
         src = a.get("source", "")
         highlights.append(f"• {t} [{src}]")
-
     digest = "\n".join(highlights) if highlights else "查看完整日报获取更多资讯"
+
+    # 封面图 URL
+    if not cover_url:
+        cover_url = build_cover_url(pages_url)
+    # 如果还是没有封面图，用空字符串
+    card_image = {"url": cover_url, "aspect_ratio": 2} if cover_url else {"url": "", "aspect_ratio": 2}
 
     payload = {
         "msgtype": "template_card",
         "template_card": {
             "card_type": "news_notice",
-            "source": {"desc": "AI Daily", "desc_color": 1},
-            "main_title": {"title": title, "desc": "每日 AI 资讯精选 · "},
-            "card_image": cover_url,
-            "quote_area": {"title": "📰 要闻速览", "digest": digest[:500]},
-            "action_menu": {
-                "desc": "查看完整日报",
-                "action_list": [{"text": "📖 阅读完整原文", "type": 1}]
+            "source": {
+                "icon_url": "https://cdn-icons-png.flaticon.com/512/5968/5968751.png",
+                "desc": f"{date_str} {weekday} · AI Daily"
             },
+            "main_title": {
+                "title": f"🤖 {headline_title[:30]}",
+                "desc": f"来源：{headline_source}"
+            },
+            "card_image": card_image,
             "card_action": {
                 "type": 1,
                 "url": pages_url
@@ -99,15 +118,19 @@ def send_wecom_notification(articles, pages_url="", cover_url=""):
     }
 
     import requests
+    print(f"发送企微卡片...")
+    print(f"  URL: {pages_url}")
+    print(f"  封面: {cover_url}")
+
     r = requests.post(webhook, json=payload, timeout=15)
     if r.status_code == 200:
         result = r.json()
         if result.get("errcode") == 0:
             print(f"✅ 企微推送成功！")
         else:
-            print(f"❌ 企微推送失败: {result.get('errmsg')}")
+            print(f"❌ 企微推送失败: {result}")
     else:
-        print(f"❌ 企微推送请求失败: {r.status_code}")
+        print(f"❌ 企微推送请求失败: {r.status_code} - {r.text}")
 
 def run():
     print("=" * 50)
