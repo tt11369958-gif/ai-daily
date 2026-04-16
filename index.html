@@ -67,6 +67,7 @@
   .date-tab:hover { border-color:var(--accent);color:var(--accent) }
   .date-tab.active { background:var(--accent);color:#fff;border-color:var(--accent) }
   .date-tab.today-tab { border-color:#8b5cf640 }
+  .date-tab.test-date { opacity:.45 }
 
   .filter-bar {
     display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;
@@ -569,6 +570,23 @@ function switchToDate(dateStr) {
   } catch(e) {
     console.warn('history_index.json load failed:', e);
   }
+
+  // ── 测试用：注入更多历史日期，展示长列表滚动效果 ──
+  const EXTRA_TEST_DATES = [
+    '04-15','04-13','04-12','04-11','04-10',
+    '04-09','04-08','04-07','04-06','04-05',
+    '04-04','04-03','04-02','04-01','03-31',
+    '03-30','03-29','03-28'
+  ];
+  EXTRA_TEST_DATES.forEach(mmdd => {
+    const d = '2026-' + mmdd;
+    const btn = document.createElement('button');
+    btn.className = 'date-tab test-date';
+    btn.dataset.date = d;
+    btn.textContent = mmdd;
+    btn.title = d;
+    container.appendChild(btn);
+  });
 
   // 绑定点击事件
   container.addEventListener('click', (e) => {
