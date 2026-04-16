@@ -119,7 +119,7 @@ def run():
     except Exception as e:
         log(f"GitHub 发布失败（可跳过）: {e}", "⚠")
 
-    # 复制文章数据到 output/（供 notify_only.py 使用）
+    # 复制文章数据 + index.html 到 output/（供 GitHub Pages 部署）
     output_dir = os.path.join(BASE, "..", "output")
     os.makedirs(output_dir, exist_ok=True)
     os.makedirs(os.path.join(output_dir, "assets"), exist_ok=True)
@@ -127,6 +127,13 @@ def run():
         json.dump(summarized, f, ensure_ascii=False, indent=2)
     with open(os.path.join(output_dir, "pages_url.txt"), "w", encoding="utf-8") as f:
         f.write(pages_url)
+    # 关键：将 index.html 复制到 output/（GitHub Pages 从 output/ 部署）
+    import shutil
+    src_html = os.path.join(BASE, "..", "index.html")
+    dst_html = os.path.join(output_dir, "index.html")
+    if os.path.exists(src_html):
+        shutil.copy2(src_html, dst_html)
+        log(f"index.html 已复制到 output/")
     log(f"数据文件已写入 output/")
 
     # ── Step 6: 企业微信推送（仅本地运行时，GitHub Actions 用 notify_only.py）──
