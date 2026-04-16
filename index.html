@@ -47,24 +47,26 @@
   .history-label {
     font-size:.8rem;color:var(--text-dim);
   }
-  /* 移动端友好的日期选择按钮组 */
+  /* 日期选择按钮组 - 横向滚动（移动端友好） */
   .date-tabs {
-    display:flex;gap:.4rem;flex-wrap:wrap;justify-content:center;
+    display:flex;gap:.4rem;
+    overflow-x:auto;  /* 横向滚动，不换行 */
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+    justify-content:center;
+    max-width:100%;
+    padding:.1rem .25rem;
   }
+  .date-tabs::-webkit-scrollbar { display:none }
   .date-tab {
     background:#1a1a2e;border:1px solid #2a2a4a;color:var(--text-dim);
     padding:.4rem .75rem;border-radius:.5rem;font-size:.78rem;
     cursor:pointer;transition:all .2s;white-space:nowrap;
-    min-width:90px;text-align:center;
+    min-width:70px;text-align:center;flex-shrink:0;
   }
   .date-tab:hover { border-color:var(--accent);color:var(--accent) }
   .date-tab.active { background:var(--accent);color:#fff;border-color:var(--accent) }
   .date-tab.today-tab { border-color:#8b5cf640 }
-  /* 小屏幕压缩 */
-  @media(max-width:480px) {
-    .date-tabs { gap:.3rem }
-    .date-tab { padding:.35rem .5rem;font-size:.75rem;min-width:70px }
-  }
 
   .filter-bar {
     display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;
@@ -527,37 +529,19 @@ function switchToDate(dateStr) {
   }
   currentDate = dateStr;
 
-  // 更新按钮高亮
-  document.querySelectorAll('.date-tab').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.date === dateStr);
-  });
-
-  // 显示 banner
-  const banner = document.getElementById('historyBanner');
-  const label = document.getElementById('historyDateLabel');
-  if (banner) banner.style.display = 'block';
-  if (label) label.textContent = dateStr;
-
   // 更新 URL（不刷新页面）
   const url = new URL(window.location.href);
   url.searchParams.set('date', dateStr);
   history.replaceState(null, '', url);
 
-  // 加载历史数据
-  const grid = document.getElementById('newsGrid');
-  grid.innerHTML = '<div style="text-align:center;padding:3rem;color:#555;">⏳ 加载中...</div>';
-  fetch(`history/${dateStr}.json`)
-    .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
-    .then(data => {
-      const articles = data.articles || data;
-      renderHistoryArticles(articles, dateStr);
-    })
-    .catch(err => {
-      grid.innerHTML = `<div style="text-align:center;padding:3rem;color:#ef4444;">❌ 加载失败：${err.message}</div>`;
-    });
+  // 同步更新 UI（立即生效，用户看到选中状态）
+  updateDateUI(dateStr);
+
+  // 异步加载数据
+  loadHistoryWithFallback(dateStr);
 }
 
-// ── 初始化日期按钮组 ──
+  // ── 初始化日期按钮组 ──
 (async function initDateTabs() {
   const container = document.getElementById('dateTabs');
   if (!container) return;
@@ -596,13 +580,60 @@ function switchToDate(dateStr) {
   const params = new URLSearchParams(window.location.search);
   const urlDate = params.get('date');
   if (urlDate) {
-    // 等待按钮渲染完成后再切换
-    setTimeout(() => switchToDate(urlDate), 50);
+    // 立即同步更新按钮高亮和 banner（不用等 fetch）
+    updateDateUI(urlDate);
+    // 再异步加载数据，优先从 localStorage（手机网络不稳时兜底）
+    loadHistoryWithFallback(urlDate);
   } else {
     // 无 URL 参数时清理掉 ?date=（如果有残留）
     history.replaceState(null, '', window.location.pathname);
   }
 })();
+
+// ── 同步更新日期 UI（立即生效）──
+function updateDateUI(dateStr) {
+  // 更新按钮高亮
+  document.querySelectorAll('.date-tab').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.date === dateStr);
+  });
+  // 显示 banner
+  const banner = document.getElementById('historyBanner');
+  const label = document.getElementById('historyDateLabel');
+  if (banner) banner.style.display = 'block';
+  if (label) label.textContent = dateStr;
+}
+
+// ── 加载历史数据（优先 fetch，失败则读 localStorage）──
+function loadHistoryWithFallback(dateStr) {
+  const grid = document.getElementById('newsGrid');
+  grid.innerHTML = '<div style="text-align:center;padding:3rem;color:#555;">⏳ 加载中...</div>';
+
+  // 先尝试 fetch
+  fetch(`history/${dateStr}.json`)
+    .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+    .then(data => {
+      const articles = data.articles || data;
+      // 同时缓存到 localStorage（供下次手机端离线兜底）
+      localStorage.setItem('ai-daily-articles-' + dateStr, JSON.stringify(articles));
+      renderHistoryArticles(articles, dateStr);
+    })
+    .catch(() => {
+      // fetch 失败，尝试从 localStorage 读取
+      const stored = localStorage.getItem('ai-daily-articles-' + dateStr);
+      if (stored) {
+        try {
+          const articles = JSON.parse(stored);
+          renderHistoryArticles(articles, dateStr);
+          return;
+        } catch(e2) {}
+      }
+      // 都失败了，显示友好错误
+      grid.innerHTML = `<div style="text-align:center;padding:3rem;color:#94a3b8;">
+        ⚠️ 无法加载 ${dateStr} 的日报<br>
+        <small>请检查网络后刷新重试</small>
+      </div>`;
+    });
+}
 </script>
 </body>
 </html>
