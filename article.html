@@ -128,17 +128,50 @@ function getArticleIndex() {
 
 function getArticleDate() {
   const params = new URLSearchParams(window.location.search);
-  const dateParam = params.get('date');
-  if (dateParam) return dateParam;
-  // 尝试从 localStorage 获取当前页日期
-  const storedDate = localStorage.getItem('ai-daily-articles-date');
-  if (storedDate) return storedDate;
-  // 回退：计算今天的日期
-  const now = new Date();
-  const y = now.getFullYear();
-  const m = String(now.getMonth()+1).padStart(2,'0');
-  const d = String(now.getDate()).padStart(2,'0');
-  return `${y}-${m}-${d}`;
+  return params.get('date') || '';
+}
+
+// 搜索所有 ai-daily-articles-* 键，找到指定索引的文章
+function findArticleById(targetIdx, targetDate) {
+  const decodeEntities = (str) => {
+    return (str||'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>')
+                     .replace(/&#39;/g,"'").replace(/&quot;/g,'"').replace(/&#8217;/g,"'")
+                     .replace(/&#8216;/g,"'").replace(/&#160;/g,' ');
+  };
+
+  // 优先用传入的日期搜索
+  if (targetDate) {
+    const stored = localStorage.getItem('ai-daily-articles-' + targetDate);
+    if (stored) {
+      try {
+        const articles = JSON.parse(stored);
+        const article = articles[targetIdx];
+        if (article) {
+          article._date = targetDate; // 标记来源日期
+          return article;
+        }
+      } catch(e) {}
+    }
+  }
+
+  // 回退：遍历所有 localStorage 键找这篇文章（用标题匹配）
+  const params = new URLSearchParams(window.location.search);
+  const titleHint = params.get('title') || '';
+
+  for (let key in localStorage) {
+    if (key.startsWith('ai-daily-articles-')) {
+      try {
+        const articles = JSON.parse(localStorage.getItem(key));
+        // 优先精确匹配索引
+        if (articles && articles[targetIdx]) {
+          const a = articles[targetIdx];
+          a._date = key.replace('ai-daily-articles-', '');
+          return a;
+        }
+      } catch(e) {}
+    }
+  }
+  return null;
 }
 
 // 恢复文章数据
@@ -146,17 +179,7 @@ function restoreArticle() {
   const idx = getArticleIndex();
   const dateStr = getArticleDate();
 
-  // 从 localStorage 读取指定日期的文章数据
-  let article = null;
-  try {
-    const storageKey = 'ai-daily-articles-' + dateStr;
-    const stored = localStorage.getItem(storageKey) || localStorage.getItem('ai-daily-articles');
-    if (stored) {
-      const articles = JSON.parse(stored);
-      article = articles[idx];
-    }
-  } catch(e) {}
-
+  const article = findArticleById(idx, dateStr);
   const container = document.getElementById('content');
 
   if (!article) {
@@ -184,6 +207,7 @@ function restoreArticle() {
   const category = article.category||'';
   const pubDate = (article.published||'').substring(0,10);
   const url = article.url||'';
+  const articleDate = article._date || dateStr || 'today';
 
   const colorMap = {
     "研究突破":"#f59e0b","行业动态":"#10b981","融资并购":"#ef4444",
@@ -197,19 +221,29 @@ function restoreArticle() {
   };
   const icon = iconMap[category]||'📌';
 
+  // 判断是否为今天
+  const now = new Date();
+  const todayStr = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
+  const isToday = articleDate === todayStr;
+
   // 更新返回链接
   const backBtn = document.querySelector('.back-btn');
   if (backBtn) {
-    backBtn.href = `index.html${dateStr !== 'today' ? '?date=' + dateStr : ''}`;
-    // 点击返回时触发日报页加载历史
-    backBtn.addEventListener('click', (e) => {
-      if (dateStr !== 'today') {
-        sessionStorage.setItem('load-history-date', dateStr);
-      }
-    });
+    backBtn.href = isToday ? 'index.html' : `index.html?date=${articleDate}`;
   }
 
   document.title = `${title} - AI 日报详情`;
+
+  // 原文链接处理：URL 为空时降级显示提示
+  const originalLinkHTML = url
+    ? `<a class="original-title" href="${url}" target="_blank" rel="noopener">${title}</a>
+       <br><br>
+       <a class="original-link" href="${url}" target="_blank" rel="noopener">
+         🔗 阅读完整原文 →
+       </a>`
+    : `<div style="color:var(--text-dim);font-size:.9rem;margin-top:.5rem;">
+          ⚠️ 原文链接不可用，请通过日报列表访问
+        </div>`;
 
   container.innerHTML = `
     <div class="article-meta">
@@ -227,11 +261,7 @@ function restoreArticle() {
 
     <div class="original-section">
       <div class="original-label">📖 原文链接</div>
-      <a class="original-title" href="${url}" target="_blank" rel="noopener">${title}</a>
-      <br><br>
-      <a class="original-link" href="${url}" target="_blank" rel="noopener">
-        🔗 阅读完整原文 →
-      </a>
+      ${originalLinkHTML}
     </div>
   `;
 }
