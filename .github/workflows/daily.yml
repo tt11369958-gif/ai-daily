@@ -29,7 +29,7 @@ jobs:
           DEEPSEEK_API_BASE: ${{ secrets.DEEPSEEK_API_BASE }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USER: ${{ secrets.GITHUB_USER }}
+          GITHUB_USER: ${{ secrets.GH_USER }}
           WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
         run: python scripts/run.py
         working-directory: scripts
