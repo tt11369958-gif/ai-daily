@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报｜2026-04-16</title>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --card-bg: #13131c;
+    --card-border: #1e1e2e;
+    --text: #e2e8f0;
+    --text-dim: #94a3b8;
+    --accent: #8b5cf6;
+    --accent2: #06b6d4;
+  }
+  * { margin:0; padding:0; box-sizing:border-box }
+  body { font-family:'Inter','PingFang SC','Microsoft YaHei',sans-serif;
+         background:var(--bg); color:var(--text);
+         min-height:100vh; line-height:1.6 }
+  a { color:inherit; text-decoration:none }
+
+  header {
+    background:linear-gradient(135deg,#0f0f1a 0%,#1a1035 100%);
+    border-bottom:1px solid #2a2a4a;
+    padding:2.5rem 2rem 2rem;
+    text-align:center;
+    position:sticky;top:0;z-index:100;
+  }
+  .header-badge {
+    display:inline-block;
+    background:linear-gradient(135deg,#8b5cf6,#06b6d4);
+    color:#fff;font-size:.7rem;font-weight:700;
+    padding:.25rem .75rem;border-radius:2rem;
+    letter-spacing:.05em;margin-bottom:.75rem;
+  }
+  h1 { font-size:2rem;font-weight:800;letter-spacing:-.02em;margin-bottom:.25rem }
+  .subtitle { color:var(--text-dim);font-size:.9rem }
+  .subtitle span { margin:0 .5rem }
+
+  /* 历史日报导航 */
+  .history-nav {
+    display:flex;align-items:center;justify-content:center;gap:.75rem;
+    margin-bottom:1.25rem;
+  }
+  .history-label {
+    font-size:.8rem;color:var(--text-dim);
+  }
+  .history-select {
+    background:#1a1a2e;border:1px solid #2a2a4a;color:var(--text);
+    padding:.35rem .75rem;border-radius:.5rem;font-size:.82rem;
+    cursor:pointer;outline:none;
+  }
+  .history-select option { background:#13131c }
+
+  .filter-bar {
+    display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;
+    padding:1.25rem 2rem;background:#0d0d18;
+    border-bottom:1px solid #1e1e2e;
+    position:sticky;top:85px;z-index:99;
+  }
+  .cat-btn {
+    background:#1a1a2e;border:1px solid #2a2a4a;color:var(--text-dim);
+    padding:.4rem 1rem;border-radius:.5rem;cursor:pointer;
+    font-size:.82rem;transition:all .2s;
+  }
+  .cat-btn:hover { border-color:var(--accent);color:var(--accent) }
+  .cat-btn.active { background:var(--accent);color:#fff;border-color:var(--accent) }
+
+  main { max-width:900px;margin:0 auto;padding:2rem 1.5rem }
+
+  .hero-card {
+    background:linear-gradient(135deg,#1a1035,#0f2540);
+    border:1px solid #8b5cf640;border-radius:1rem;
+    padding:1.75rem;margin-bottom:1.5rem;
+    animation:fadeIn .5s ease;
+  }
+  .hero-card .hero-label {
+    font-size:.7rem;color:#8b5cf6;font-weight:700;
+    letter-spacing:.1em;text-transform:uppercase;margin-bottom:.5rem
+  }
+  .hero-card h2 { font-size:1.4rem;line-height:1.3;margin-bottom:.75rem }
+  .hero-card h2 a:hover { color:var(--accent) }
+  .hero-card p { color:var(--text-dim);font-size:.9rem;line-height:1.7 }
+  .hero-card .read-more {
+    display:inline-block;margin-top:1rem;
+    background:var(--accent);color:#fff;
+    padding:.5rem 1.25rem;border-radius:.5rem;font-size:.85rem;
+    transition:opacity .2s;
+  }
+  .hero-card .read-more:hover { opacity:.85 }
+
+  .news-grid {
+    display:grid;grid-template-columns:1fr;
+    gap:1rem;
+  }
+  @media(min-width:640px) {
+    .news-grid { grid-template-columns:repeat(2,1fr) }
+  }
+
+  .news-card {
+    background:var(--card-bg);border:1px solid var(--card-border);
+    border-radius:.875rem;padding:1.25rem;
+    transition:transform .25s,border-color .25s,box-shadow .25s;
+    animation:fadeIn .5s ease backwards;
+  }
+  .news-card:hover {
+    transform:translateY(-3px);border-color:var(--accent);
+    box-shadow:0 8px 32px #8b5cf620;
+  }
+  .card-header { display:flex;align-items:center;gap:.5rem;margin-bottom:.75rem }
+  .rank { font-size:.75rem;font-weight:800 }
+  .source-tag,.cat-tag {
+    font-size:.68rem;padding:.15rem .5rem;border-radius:.25rem;font-weight:600
+  }
+  .cat-tag { opacity:.85 }
+  .card-title { font-size:.95rem;font-weight:700;line-height:1.4;margin-bottom:.75rem }
+  .card-title a:hover { color:var(--accent) }
+  .card-summary {
+    font-size:.82rem;color:var(--text-dim);line-height:1.65;
+    display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden
+  }
+  .card-footer {
+    display:flex;justify-content:space-between;align-items:center;
+    margin-top:1rem;padding-top:.75rem;border-top:1px solid #1e1e2e
+  }
+  .read-more { font-size:.78rem;color:var(--accent);font-weight:600 }
+  .read-more:hover { opacity:.8 }
+  .pub-date { font-size:.72rem;color:#555 }
+
+  footer {
+    text-align:center;padding:3rem 2rem;
+    color:#555;font-size:.78rem;
+    border-top:1px solid #1a1a2e;margin-top:3rem
+  }
+  footer a { color:var(--accent) }
+
+  .sources-section { margin-top:1.25rem;padding-top:1rem;border-top:1px solid #1a1a2e }
+  .sources-label { font-size:.72rem;color:#444;margin-bottom:.3rem }
+  .sources-list { font-size:.75rem;color:#555;line-height:1.8 }
+
+  .hidden { display:none }
+
+  @keyframes fadeIn {
+    from{opacity:0;transform:translateY(12px)}
+    to{opacity:1;transform:translateY(0)}
+  }
+
+  .stats-bar {
+    display:flex;justify-content:center;gap:2rem;
+    padding:1rem;font-size:.8rem;color:var(--text-dim)
+  }
+  .stats-bar strong { color:var(--accent) }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-badge">🤖 每日 AI 资讯精选</div>
+  <h1>AI 日报</h1>
+  <div class="subtitle">
+    <span>2026-04-16</span>·<span>周四</span>·<span><strong>10</strong> 条精选</span>
+  </div>
+
+  <div class="history-nav">
+    <span class="history-label">📜 历史日报</span>
+    <select class="history-select" id="historySelect">
+      <option value="">-- 加载中 --</option>
+    </select>
+  </div>
+  <div id="historyBanner" style="display:none;background:#1a1035;border:1px solid #8b5cf640;border-radius:.75rem;padding:.75rem 1.25rem;margin:.5rem auto;max-width:700px;font-size:.82rem;color:#94a3b8;text-align:center;">
+    正在查看历史日报：<strong id="historyDateLabel"></strong>
+    &nbsp;·&nbsp;<a href="#" onclick="loadToday();return false;" style="color:#8b5cf6;">← 返回今日</a>
+  </div>
+</header>
+
+<div class="filter-bar">
+        <button class="cat-btn active" data-cat="全部">🤖 全部</button>
+        <button class="cat-btn" data-cat="产品发布">🛠 产品发布</button>
+        <button class="cat-btn" data-cat="政策监管">📋 政策监管</button>
+        <button class="cat-btn" data-cat="活动会议">🎪 活动会议</button>
+        <button class="cat-btn" data-cat="行业动态">📊 行业动态</button>
+</div>
+
+<main>
+  <div class="stats-bar">
+    <span>🔍 已过滤低价值内容，点击分类查看</span>
+    <span>🚀 <a href="#" target="_blank">GitHub Pages</a></span>
+  </div>
+
+  <div class="news-grid" id="newsGrid">
+
+        <article class="news-card" data-category="行业动态" data-rank="1">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#ffd700">#1</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 The Verge AI</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://www.theverge.com/tech/912287/adobe-firefly-ai-assistant-announcement-editing" target="_blank" rel="noopener">Adobe embraces conversational AI editing, marking a ‘fundamental shift’ in creative work</a>
+            </h2>
+            <p class="card-summary">Adobe全面拥抱对话式AI编辑工具，标志着创意工作的根本性转变。其新推出的Firefly AI助手允许创作者通过自然语言描述指令来修改作品，替代传统手动操作专业软件的模式。该工具已集成于Premiere Pro、After Effects等核心应用，用户可凭文本指令直接调整视频节奏、替换元素或生成音效。内部测试显示，编辑任务完成速度提升3倍以上，复杂效果制作时间从数小时缩短至分钟级。这不仅是界面革新，更重构了创作流程——AI将承担技术执行，创作者得以聚焦创意决策。Adobe强调所有生成内容均经</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://www.theverge.com/tech/912287/adobe-firefly-ai-assistant-announcement-editing" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="行业动态" data-rank="2">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#c0c0c0">#2</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 TechCrunch AI</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/" target="_blank" rel="noopener">Adobe’s new Firefly AI assistant can use Creative Cloud apps to complete tasks</a>
+            </h2>
+            <p class="card-summary">Adobe推出全新Firefly AI助手，可深度集成Creative Cloud应用程序执行复杂任务。该助手能跨Firefly、Photoshop、Premiere、Lightroom、Express、Illustrator等软件协同工作，通过自然语言指令自动完成图像编辑、视频剪辑、设计生成等创意流程。测试数据显示其可将重复性任务效率提升40%，同时保持品牌视觉一致性。这标志着AI从单点工具向跨平台创意工作流引擎的演进，预计将重构数字内容生产范式。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="行业动态" data-rank="3">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#cd7f32">#3</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Ars Technica</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://arstechnica.com/ai/2026/04/adobe-takes-creative-cloud-into-claude-code-esque-territory/" target="_blank" rel="noopener">Adobe takes Creative Cloud into Claude Code-esque territory</a>
+            </h2>
+            <p class="card-summary">Adobe正将其Creative Cloud套件深度整合生成式AI功能，向类似Claude Code的AI辅助创作领域拓展。新推出的“Creative Assistant”作为核心AI界面，可跨Photoshop、Illustrator等应用执行复杂任务，例如通过自然语言指令自动生成图像、编辑视频及优化设计流程。测试显示，该工具将部分设计任务效率提升高达70%，并能基于用户品牌资产智能生成合规内容。此举标志着Adobe从传统创意工具向AI驱动创作平台的战略转型，旨在应对Midjourney等新兴</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://arstechnica.com/ai/2026/04/adobe-takes-creative-cloud-into-claude-code-esque-territory/" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="行业动态" data-rank="4">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#4</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Hacker News</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://zenodo.org/records/19600206" target="_blank" rel="noopener">The Universal Constraint Engine: Neuromorphic Computing Without Neural Networks</a>
+            </h2>
+            <p class="card-summary">本文提出了一种名为“通用约束引擎”的新型神经形态计算架构，它无需依赖传统人工神经网络。该架构通过将计算问题映射为约束满足问题，在专用硬件上并行求解，实现了显著的能效提升。实验表明，在处理组合优化等特定任务时，其能效可比传统数字计算机高出多个数量级。核心结论指出，这种受神经科学启发的“无网络”计算范式，为突破冯·诺依曼瓶颈和开发下一代高效智能计算系统提供了全新路径。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://zenodo.org/records/19600206" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="产品发布" data-rank="5">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#5</span>
+                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 The Verge AI</span>
+                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://www.theverge.com/tech/912638/google-gemini-mac-app" target="_blank" rel="noopener">Google launches a Gemini AI app on Mac</a>
+            </h2>
+            <p class="card-summary">谷歌面向Mac用户推出独立的Gemini应用，用户可通过Option+空格快捷键随时唤出悬浮聊天窗口，无需切换当前工作界面即可与AI助手交互。该应用支持实时提问并允许共享屏幕内容，但在共享前会触发隐私提示机制。此举标志着谷歌正将生成式AI深度集成至桌面操作系统，旨在提升工作流效率并拓展其AI生态的跨平台覆盖。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://www.theverge.com/tech/912638/google-gemini-mac-app" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="政策监管" data-rank="6">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#6</span>
+                    <span class="source-tag" style="background:#f9731620;color:#f97316">📋 The Verge AI</span>
+                    <span class="cat-tag" style="background:#f9731630;color:#f97316">政策监管</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://www.theverge.com/ai-artificial-intelligence/912297/apple-app-store-ban-grok-x-deepfakes" target="_blank" rel="noopener">Grok’s sexual deepfakes almost got it banned from Apple’s App Store. Almost.</a>
+            </h2>
+            <p class="card-summary">据NBC报道，苹果公司今年1月曾私下威胁将马斯克旗下AI应用Grok从其应用商店下架，原因是该应用未能有效遏制X平台上泛滥的非自愿色情深度伪造内容。这一事件展现了科技行业重要守门人罕见的强硬姿态，尽管交涉未公开进行。苹果的警告最终促使X平台在压力下加强了内容审核措施，暂时避免了Grok被全面禁用的命运。此事凸显了平台在部署生成式AI工具时面临的内容治理挑战与监管风险。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://www.theverge.com/ai-artificial-intelligence/912297/apple-app-store-ban-grok-x-deepfakes" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="产品发布" data-rank="7">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#7</span>
+                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 TechCrunch AI</span>
+                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/" target="_blank" rel="noopener">OpenAI updates its Agents SDK to help enterprises build safer, more capable agents</a>
+            </h2>
+            <p class="card-summary">OpenAI近日升级了其智能体软件开发工具包（Agents SDK），旨在帮助企业构建更安全、能力更强的AI智能体。此次更新重点强化了安全防护与任务执行可靠性，新增了操作确认、自动中断机制及审计日志等功能，以降低自主运行风险。工具包还集成了更强大的模型（如o1和o3-mini），支持复杂任务编排与外部工具调用。内部测试显示，该工具能使智能体任务完成率提升50%，同时将有害输出减少20%。这标志着OpenAI正推动智能体技术向更安全、更实用的企业级应用迈进。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="行业动态" data-rank="8">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#8</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 TechCrunch AI</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://techcrunch.com/2026/04/15/can-ai-judge-journalism-a-thiel-backed-startup-says-yes-even-if-it-risks-chilling-whistleblowers/" target="_blank" rel="noopener">Can AI judge journalism? A Thiel-backed startup says yes, even if it risks chilling whistleblowers</a>
+            </h2>
+            <p class="card-summary">由彼得·蒂尔支持的初创公司Objection推出AI系统，旨在对新闻报道进行可信度评估，允许用户付费质疑媒体内容。该系统通过分析信源、事实一致性等维度生成“可信度评分”，并计划引入经济激励与争议解决机制。支持者认为此举能提升媒体透明度，但新闻从业者与法律专家警告，该模式可能因严苛的算法评判标准抑制调查报道与吹哨人爆料，并可能将媒体问责权转移至私营技术平台。核心争议在于：算法能否替代传统编辑室判断，以及技术介入是否可能重塑媒体生态的权力结构。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://techcrunch.com/2026/04/15/can-ai-judge-journalism-a-thiel-backed-startup-says-yes-even-if-it-risks-chilling-whistleblowers/" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="行业动态" data-rank="9">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#9</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 TechCrunch AI</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://techcrunch.com/2026/04/15/google-rolls-out-a-native-gemini-app-for-mac/" target="_blank" rel="noopener">Google rolls out a native Gemini app for Mac</a>
+            </h2>
+            <p class="card-summary">谷歌正式为Mac推出原生Gemini应用，用户可直接在桌面通过快捷键或菜单栏启动。该应用支持实时屏幕共享分析，用户可截取任意界面（包括本地文件）向Gemini即时求助，实现上下文感知的交互。此举标志着谷歌将AI深度集成至操作系统层面，旨在提升工作流效率并拓展跨平台生态竞争力。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://techcrunch.com/2026/04/15/google-rolls-out-a-native-gemini-app-for-mac/" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="活动会议" data-rank="10">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#10</span>
+                    <span class="source-tag" style="background:#ec489920;color:#ec4899">🎪 Wired AI</span>
+                    <span class="cat-tag" style="background:#ec489930;color:#ec4899">活动会议</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://www.wired.com/story/ai-could-democratize-one-of-techs-most-valuable-resources/" target="_blank" rel="noopener">AI Could Democratize One of Tech's Most Valuable Resources</a>
+            </h2>
+            <p class="card-summary">人工智能正降低芯片设计与软件优化的门槛，使更多企业能定制专用硬件。传统上，芯片开发依赖少数巨头，成本高达数亿美元。如今，通过AI驱动的EDA工具，设计周期可从数月缩短至数周，成本降至数十万美元。初创公司如Cerebras利用AI自动生成芯片布局，效率提升千倍。这一趋势可能打破芯片行业的垄断格局，让中小企业也能参与高性能芯片创新，推动从云计算到边缘设备的全生态变革。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://www.wired.com/story/ai-could-democratize-one-of-techs-most-valuable-resources/" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
+            </div>
+        </article>
+  </div>
+</main>
+
+<footer>
+  <p>由 <strong>AI 日报自动化系统</strong> 生成 · 每日更新</p>
+  <div class="sources-section">
+    <p class="sources-label">📡 数据来源</p>
+    <p class="sources-list">Ars Technica · Hacker News · TechCrunch AI · The Verge AI · Wired AI</p>
+  </div>
+</footer>
+
+<script>
+// ── 分类过滤 ──
+function bindCatBtns() {
+  const btns = document.querySelectorAll('.cat-btn');
+  btns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const cat = btn.dataset.cat;
+      document.querySelectorAll('.news-card').forEach(card => {
+        card.classList.toggle('hidden', cat !== '全部' && card.dataset.category !== cat);
+      });
+    });
+  });
+}
+bindCatBtns();
+
+// ── 入场动画 stagger ──
+document.querySelectorAll('.news-card').forEach((card, i) => {
+  card.style.animationDelay = `${i * 0.07}s`;
+});
+
+// ── 历史日报：颜色/图标映射 ──
+const CAT_COLORS = {
+  "研究突破":"#f59e0b","行业动态":"#10b981","融资并购":"#ef4444",
+  "产品发布":"#3b82f6","政策监管":"#f97316","活动会议":"#ec4899"
+};
+const CAT_ICONS = {
+  "全部":"🤖","研究突破":"🔬","行业动态":"📊","融资并购":"💰",
+  "产品发布":"🛠","政策监管":"📋","活动会议":"🎪"
+};
+const WEEKDAYS = ["周日","周一","周二","周三","周四","周五","周六"];
+
+// ── 今日数据（内嵌静态卡片备份）──
+const todayGrid = document.getElementById('newsGrid').innerHTML;
+const todayFilterBar = document.querySelector('.filter-bar') ? document.querySelector('.filter-bar').innerHTML : '';
+const todaySubtitle = document.querySelector('.subtitle') ? document.querySelector('.subtitle').innerHTML : '';
+
+// ── 加载并渲染历史日报 ──
+function renderHistoryArticles(articles, dateStr) {
+  const grid = document.getElementById('newsGrid');
+  const weekday = WEEKDAYS[new Date(dateStr).getDay()];
+
+  // 更新副标题
+  const sub = document.querySelector('.subtitle');
+  if (sub) sub.innerHTML = `<span>${dateStr}</span>·<span>${weekday}</span>·<span><strong>${articles.length}</strong> 条精选</span>`;
+
+  // 生成卡片
+  grid.innerHTML = articles.map((a, i) => {
+    const rank = i + 1;
+    const rankColor = rank===1?'#ffd700':rank===2?'#c0c0c0':rank===3?'#cd7f32':'#555';
+    const color = CAT_COLORS[a.category] || '#8b5cf6';
+    const icon = CAT_ICONS[a.category] || '📌';
+    const title = (a.title||'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#39;/g,"'").replace(/&quot;/g,'"').replace(/&#8217;/g,"'").replace(/&#8216;/g,"'");
+    const summary = (a.chinese_summary || a.summary || '').substring(0, 250);
+    const pubDate = (a.published||'').substring(0,10);
+    return `<article class="news-card" data-category="${a.category}" data-rank="${rank}" style="animation-delay:${i*0.07}s">
+      <div class="card-header">
+        <div class="card-meta">
+          <span class="rank" style="color:${rankColor}">#${rank}</span>
+          <span class="source-tag" style="background:${color}20;color:${color}">${icon} ${a.source}</span>
+          <span class="cat-tag" style="background:${color}30;color:${color}">${a.category}</span>
+        </div>
+      </div>
+      <h2 class="card-title"><a href="${a.url}" target="_blank" rel="noopener">${title}</a></h2>
+      <p class="card-summary">${summary}</p>
+      <div class="card-footer">
+        <a class="read-more" href="${a.url}" target="_blank" rel="noopener">▶ 阅读原文</a>
+        <span class="pub-date">${pubDate}</span>
+      </div>
+    </article>`;
+  }).join('');
+
+  // 重新绑定分类过滤
+  bindCatBtns();
+  // 重置分类按钮到"全部"
+  document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.dataset.cat==='全部'));
+}
+
+// ── 切换回今日 ──
+function loadToday() {
+  document.getElementById('newsGrid').innerHTML = todayGrid;
+  const sub = document.querySelector('.subtitle');
+  if (sub) sub.innerHTML = todaySubtitle;
+  document.getElementById('historyBanner').style.display = 'none';
+  const sel = document.getElementById('historySelect');
+  if (sel) { for(let o of sel.options) if(o.dataset.today==='1') o.selected=true; }
+  bindCatBtns();
+  document.querySelectorAll('.news-card').forEach((card, i) => { card.style.animationDelay = `${i * 0.07}s`; });
+}
+
+// ── 历史下拉响应 ──
+function onHistoryChange(sel) {
+  const val = sel.value;
+  if (!val || val === 'today') { loadToday(); return; }
+
+  const banner = document.getElementById('historyBanner');
+  const label = document.getElementById('historyDateLabel');
+  if (banner) banner.style.display = 'block';
+  if (label) label.textContent = val;
+
+  const grid = document.getElementById('newsGrid');
+  grid.innerHTML = '<div style="text-align:center;padding:3rem;color:#555;">⏳ 加载中...</div>';
+
+  fetch(`history/${val}.json`)
+    .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+    .then(data => {
+      const articles = data.articles || data;
+      renderHistoryArticles(articles, val);
+    })
+    .catch(err => {
+      grid.innerHTML = `<div style="text-align:center;padding:3rem;color:#ef4444;">❌ 加载失败：${err.message}<br><small>history/${val}.json</small></div>`;
+    });
+}
+
+// ── 页面加载后动态填充历史下拉 ──
+(async function initHistorySelect() {
+  const sel = document.getElementById('historySelect');
+  if (!sel) return;
+
+  const today = '2026-04-16';
+  const weekday = '周四';
+
+  sel.innerHTML = `<option value="today" data-today="1" selected>📅 ${today} ${weekday}（今天）</option>`;
+  sel.onchange = () => onHistoryChange(sel);
+
+  try {
+    const resp = await fetch('history_index.json');
+    if (!resp.ok) throw new Error(resp.status);
+    const idx = await resp.json();
+    const dates = (idx.dates || []).filter(d => d !== today);
+    dates.forEach(d => {
+      const opt = document.createElement('option');
+      opt.value = d;
+      opt.textContent = `📄 ${d}`;
+      sel.appendChild(opt);
+    });
+    if (dates.length === 0) {
+      const opt = document.createElement('option');
+      opt.disabled = true;
+      opt.textContent = '（暂无更多历史）';
+      sel.appendChild(opt);
+    }
+  } catch(e) {
+    const opt = document.createElement('option');
+    opt.disabled = true;
+    opt.textContent = '（历史索引加载失败）';
+    sel.appendChild(opt);
+    console.warn('history_index.json load failed:', e);
+  }
+})();
+</script>
+</body>
+</html>
