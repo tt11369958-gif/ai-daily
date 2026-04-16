@@ -104,8 +104,10 @@ def generate_html(articles, config, output_path=None, pages_url="", user="", rep
         # 把完整文章数据传给弹窗（用 data- 属性会截断，用序列化的 JSON）
         article_json = _escape_html(json.dumps(a, ensure_ascii=False))
 
+        # JSON 中的 {key} 会被 .format() 误解析，用双大括号转义
+        article_json_escaped = article_json.replace("{", "{{").replace("}", "}}")
         cards.append(f'''
-        <article class="news-card" data-rank="{rank}" data-json="{article_json}"
+        <article class="news-card" data-rank="{rank}" data-json="{article_json_escaped}"
                  onclick="openDetail(this)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
