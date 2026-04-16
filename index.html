@@ -38,20 +38,33 @@
   .subtitle { color:var(--text-dim);font-size:.9rem }
   .subtitle span { margin:0 .5rem }
 
-  /* 历史日报导航 */
+  /* 历史日报导航 - 移动友好 */
   .history-nav {
     display:flex;align-items:center;justify-content:center;gap:.75rem;
     margin-bottom:1.25rem;
+    flex-wrap:wrap;
   }
   .history-label {
     font-size:.8rem;color:var(--text-dim);
   }
-  .history-select {
-    background:#1a1a2e;border:1px solid #2a2a4a;color:var(--text);
-    padding:.35rem .75rem;border-radius:.5rem;font-size:.82rem;
-    cursor:pointer;outline:none;
+  /* 移动端友好的日期选择按钮组 */
+  .date-tabs {
+    display:flex;gap:.4rem;flex-wrap:wrap;justify-content:center;
   }
-  .history-select option { background:#13131c }
+  .date-tab {
+    background:#1a1a2e;border:1px solid #2a2a4a;color:var(--text-dim);
+    padding:.4rem .75rem;border-radius:.5rem;font-size:.78rem;
+    cursor:pointer;transition:all .2s;white-space:nowrap;
+    min-width:90px;text-align:center;
+  }
+  .date-tab:hover { border-color:var(--accent);color:var(--accent) }
+  .date-tab.active { background:var(--accent);color:#fff;border-color:var(--accent) }
+  .date-tab.today-tab { border-color:#8b5cf640 }
+  /* 小屏幕压缩 */
+  @media(max-width:480px) {
+    .date-tabs { gap:.3rem }
+    .date-tab { padding:.35rem .5rem;font-size:.75rem;min-width:70px }
+  }
 
   .filter-bar {
     display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;
@@ -163,10 +176,10 @@
   </div>
 
   <div class="history-nav">
-    <span class="history-label">📜 历史日报</span>
-    <select class="history-select" id="historySelect">
-      <option value="">-- 加载中 --</option>
-    </select>
+    <span class="history-label">📅</span>
+    <div id="dateTabs" class="date-tabs">
+      <!-- 动态生成 -->
+    </div>
   </div>
   <div id="historyBanner" style="display:none;background:#1a1035;border:1px solid #8b5cf640;border-radius:.75rem;padding:.75rem 1.25rem;margin:.5rem auto;max-width:700px;font-size:.82rem;color:#94a3b8;text-align:center;">
     正在查看历史日报：<strong id="historyDateLabel"></strong>
@@ -504,78 +517,90 @@ function loadToday() {
   document.querySelectorAll('.news-card').forEach((card, i) => { card.style.animationDelay = `${i * 0.07}s`; });
 }
 
-// ── 历史下拉响应 ──
-function onHistoryChange(sel) {
-  const val = sel.value;
-  if (!val || val === 'today') { loadToday(); return; }
+// ── 日期切换逻辑（支持按钮和 URL 参数）──
+let currentDate = null; // null = 今天
 
+function switchToDate(dateStr) {
+  if (!dateStr || dateStr === 'today') {
+    loadToday();
+    return;
+  }
+  currentDate = dateStr;
+
+  // 更新按钮高亮
+  document.querySelectorAll('.date-tab').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.date === dateStr);
+  });
+
+  // 显示 banner
   const banner = document.getElementById('historyBanner');
   const label = document.getElementById('historyDateLabel');
   if (banner) banner.style.display = 'block';
-  if (label) label.textContent = val;
+  if (label) label.textContent = dateStr;
 
+  // 更新 URL（不刷新页面）
+  const url = new URL(window.location.href);
+  url.searchParams.set('date', dateStr);
+  history.replaceState(null, '', url);
+
+  // 加载历史数据
   const grid = document.getElementById('newsGrid');
   grid.innerHTML = '<div style="text-align:center;padding:3rem;color:#555;">⏳ 加载中...</div>';
-
-  fetch(`history/${val}.json`)
+  fetch(`history/${dateStr}.json`)
     .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
     .then(data => {
       const articles = data.articles || data;
-      renderHistoryArticles(articles, val);
+      renderHistoryArticles(articles, dateStr);
     })
     .catch(err => {
-      grid.innerHTML = `<div style="text-align:center;padding:3rem;color:#ef4444;">❌ 加载失败：${err.message}<br><small>history/${val}.json</small></div>`;
+      grid.innerHTML = `<div style="text-align:center;padding:3rem;color:#ef4444;">❌ 加载失败：${err.message}</div>`;
     });
 }
 
-// ── 页面加载后动态填充历史下拉 ──
-(async function initHistorySelect() {
-  const sel = document.getElementById('historySelect');
-  if (!sel) return;
+// ── 初始化日期按钮组 ──
+(async function initDateTabs() {
+  const container = document.getElementById('dateTabs');
+  if (!container) return;
 
   const today = '2026-04-16';
   const weekday = '周四';
 
-  sel.innerHTML = `<option value="today" data-today="1" selected>📅 ${today} ${weekday}（今天）</option>`;
-  sel.onchange = () => onHistoryChange(sel);
+  // 今日按钮（固定）
+  container.innerHTML = `<button class="date-tab today-tab active" data-date="today">今天</button>`;
 
+  // 动态加载历史日期
   try {
     const resp = await fetch('history_index.json');
     if (!resp.ok) throw new Error(resp.status);
     const idx = await resp.json();
     const dates = (idx.dates || []).filter(d => d !== today);
     dates.forEach(d => {
-      const opt = document.createElement('option');
-      opt.value = d;
-      opt.textContent = `📄 ${d}`;
-      sel.appendChild(opt);
+      const btn = document.createElement('button');
+      btn.className = 'date-tab';
+      btn.dataset.date = d;
+      btn.textContent = d.substring(5); // 显示 MM-DD
+      btn.title = d; // 完整日期放 title
+      container.appendChild(btn);
     });
-    if (dates.length === 0) {
-      const opt = document.createElement('option');
-      opt.disabled = true;
-      opt.textContent = '（暂无更多历史）';
-      sel.appendChild(opt);
-    }
   } catch(e) {
-    const opt = document.createElement('option');
-    opt.disabled = true;
-    opt.textContent = '（历史索引加载失败）';
-    sel.appendChild(opt);
     console.warn('history_index.json load failed:', e);
   }
 
-  // ── 检查是否需要自动加载某个历史日期（从详情页返回时）──
-  const autoDate = sessionStorage.getItem('load-history-date');
-  if (autoDate) {
-    sessionStorage.removeItem('load-history-date');
-    // 找到对应 option 并触发加载
-    for (const opt of sel.options) {
-      if (opt.value === autoDate) {
-        opt.selected = true;
-        sel.dispatchEvent(new Event('change'));
-        break;
-      }
-    }
+  // 绑定点击事件
+  container.addEventListener('click', (e) => {
+    const btn = e.target.closest('.date-tab');
+    if (btn) switchToDate(btn.dataset.date);
+  });
+
+  // ── 读取 URL 参数 ?date=xxx（从详情页返回时）──
+  const params = new URLSearchParams(window.location.search);
+  const urlDate = params.get('date');
+  if (urlDate) {
+    // 等待按钮渲染完成后再切换
+    setTimeout(() => switchToDate(urlDate), 50);
+  } else {
+    // 无 URL 参数时清理掉 ?date=（如果有残留）
+    history.replaceState(null, '', window.location.pathname);
   }
 })();
 </script>
