@@ -5,6 +5,7 @@ summarize.py — 用大模型筛选最有价值的文章并生成中文摘要
 import json
 import os
 import re
+import time
 
 def load_config():
     import json
@@ -23,11 +24,14 @@ def _g(cfg, *keys, default=""):
     return cfg if cfg else default
 
 def get_llm_client(config):
-    """构建 OpenAI 兼容的 LLM 客户端（支持嵌套 llm.* 和扁平 openai_* 两种格式）"""
-    api_key = os.environ.get("OPENAI_API_KEY") or \
+    """构建 OpenAI 兼容的 LLM 客户端"""
+    # 优先读 DEEPSEEK_API_KEY → OPENAI_API_KEY → config
+    api_key = os.environ.get("DEEPSEEK_API_KEY") or \
+              os.environ.get("OPENAI_API_KEY") or \
               _g(config, "llm", "api_key", default="") or \
               _g(config, "openai_api_key", default="")
-    api_base = os.environ.get("OPENAI_API_BASE") or \
+    api_base = os.environ.get("DEEPSEEK_API_BASE") or \
+               os.environ.get("OPENAI_API_BASE") or \
                _g(config, "llm", "api_base", default="") or \
                _g(config, "openai_api_base", default="https://api.deepseek.com/v1")
     model = os.environ.get("AI_MODEL") or \
@@ -42,26 +46,33 @@ def get_llm_client(config):
         import requests
         return {"api_key": api_key, "api_base": api_base, "model": model}, "custom"
 
-def call_llm(client, model, messages, max_tokens=3000):
-    """统一调用接口"""
-    try:
-        if isinstance(client, dict):
-            # 手动 HTTP 调用
-            import requests
-            resp = requests.post(
-                f"{client['api_base']}/chat/completions",
-                headers={"Authorization": f"Bearer {client['api_key']}", "Content-Type": "application/json"},
-                json={"model": model, "messages": messages, "max_tokens": max_tokens},
-                timeout=60
-            )
-            resp.raise_for_status()
-            return resp.json()["choices"][0]["message"]["content"]
-        else:
-            response = client.chat.completions.create(model=model, messages=messages, max_tokens=max_tokens)
-            return response.choices[0].message.content
-    except Exception as e:
-        print(f"  ⚠ LLM 调用失败: {e}")
-        return None
+def call_llm(client, model, messages, max_tokens=3000, retries=3, delay=5):
+    """统一调用接口，带重试机制"""
+    for attempt in range(retries):
+        try:
+            if isinstance(client, dict):
+                import requests
+                resp = requests.post(
+                    f"{client['api_base']}/chat/completions",
+                    headers={"Authorization": f"Bearer {client['api_key']}", "Content-Type": "application/json"},
+                    json={"model": model, "messages": messages, "max_tokens": max_tokens},
+                    timeout=60
+                )
+                resp.raise_for_status()
+                return resp.json()["choices"][0]["message"]["content"]
+            else:
+                response = client.chat.completions.create(model=model, messages=messages, max_tokens=max_tokens)
+                return response.choices[0].message.content
+        except Exception as e:
+            err_msg = str(e)
+            if attempt < retries - 1:
+                wait = delay * (2 ** attempt)  # 指数退避
+                print(f"  ⚠ LLM 调用失败 (尝试 {attempt+1}/{retries}): {e}，{wait}秒后重试...")
+                time.sleep(wait)
+            else:
+                print(f"  ⚠ LLM 调用最终失败: {e}")
+                return None
+    return None
 
 def score_and_summarize(articles, config):
     """调用 LLM 对文章评分排序并生成中文摘要"""
@@ -70,7 +81,6 @@ def score_and_summarize(articles, config):
     client, model = get_llm_client(config)
     max_articles = _g(config, "sources", "max_final", default=10)
 
-    # 分批处理（避免 token 溢出）
     batch_size = 15
     scored = []
 
@@ -80,7 +90,6 @@ def score_and_summarize(articles, config):
 
         response = call_llm(client, model, [{"role": "user", "content": prompt}])
         if not response:
-            # fallback：直接取前 max_articles 篇
             scored.extend([(a, 5) for a in batch[:max_articles]])
             continue
 
@@ -88,23 +97,23 @@ def score_and_summarize(articles, config):
         scored.extend(parsed)
         print(f"  ✓ 批次 {i//batch_size + 1} 完成，筛选 {len(parsed)} 篇")
 
-    # 排序取 top N
     scored.sort(key=lambda x: x[1], reverse=True)
     top_articles = [a for a, _ in scored[:max_articles]]
 
-    # 为每篇生成正式摘要
     print(f"\n✍️ 正在生成 {len(top_articles)} 条中文摘要...")
     final = []
     for idx, article in enumerate(top_articles):
         summary = generate_summary(article, client, model, idx + 1, len(top_articles))
         article["chinese_summary"] = summary
         final.append(article)
-        print(f"  ✓ [{idx+1}/{len(top_articles)}] {article['title'][:40]}...")
+        if summary:
+            print(f"  ✓ [{idx+1}/{len(top_articles)}] {article['title'][:40]}...")
+        else:
+            print(f"  ⚠ [{idx+1}/{len(top_articles)}] {article['title'][:40]}... (使用原文摘要)")
 
     return final
 
 def build_scoring_prompt(batch):
-    """构建评分 prompt"""
     articles_text = "\n".join([
         f"[{i+1}] 来源: {a['source']}\n    标题: {a['title']}\n    摘要: {a['summary'][:150]}"
         for i, a in enumerate(batch)
@@ -123,11 +132,9 @@ def build_scoring_prompt(batch):
 请只输出纯 JSON 数组，格式：[{{"index": 1, "score": 9, "reason": "原因"}}, ...]，不要有其他文字。"""
 
 def parse_llm_response(response, batch):
-    """解析 LLM 评分响应"""
     import re, json
     try:
-        # 提取 JSON 部分
-        match = re.search(r'\[[\s\S]*\]', response)
+        match = re.search(r'$$[\s\S]*$$', response)
         if not match:
             return [(a, 5) for a in batch[:5]]
         data = json.loads(match.group())
@@ -137,7 +144,6 @@ def parse_llm_response(response, batch):
         return [(a, 5) for a in batch[:5]]
 
 def generate_summary(article, client, model, idx, total):
-    """为单篇文章生成 100-150 字的中文精华摘要"""
     prompt = f"""请将以下 AI 科技文章翻译并提炼为 100-150 字的中文精华摘要。
 要求：专业、流畅、有信息量，保留核心数据和关键结论。
 
