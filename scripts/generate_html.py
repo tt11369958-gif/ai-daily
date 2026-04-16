@@ -101,13 +101,10 @@ def generate_html(articles, config, output_path=None, pages_url="", user="", rep
         source_name = _escape_html(a.get("source", ""))
         cat_name = _escape_html(a.get("category", ""))
 
-        # 把完整文章数据传给弹窗（用 data- 属性会截断，用序列化的 JSON）
+        # 把完整文章数据传给弹窗（用序列化的 JSON 作为 data 属性）
         article_json = _escape_html(json.dumps(a, ensure_ascii=False))
-
-        # JSON 中的 {key} 会被 .format() 误解析，用双大括号转义
-        article_json_escaped = article_json.replace("{", "{{").replace("}", "}}")
         cards.append(f'''
-        <article class="news-card" data-rank="{rank}" data-json="{article_json_escaped}"
+        <article class="news-card" data-rank="{rank}" data-json="{article_json}"
                  onclick="openDetail(this)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
@@ -126,16 +123,17 @@ def generate_html(articles, config, output_path=None, pages_url="", user="", rep
 
     cards_html = "\n".join(cards)
 
-    html = HTML_TEMPLATE.format(
-        title=config.get("newspaper_title", "AI 日报"),
-        date_str=date_str,
-        weekday=weekday,
-        article_count=len(articles),
-        category_nav=category_nav,
-        cards_html=cards_html,
-        sources_html=sources_html,
-        pages_url=pages_url or "#",
-        history_nav=history_nav,
+    # 用 replace() 代替 .format()，彻底避免 {placeholder} 被二次解析
+    html = (HTML_TEMPLATE
+        .replace("{title}", config.get("newspaper_title", "AI 日报"))
+        .replace("{date_str}", date_str)
+        .replace("{weekday}", weekday)
+        .replace("{article_count}", str(len(articles)))
+        .replace("{category_nav}", category_nav)
+        .replace("{cards_html}", cards_html)
+        .replace("{sources_html}", sources_html)
+        .replace("{pages_url}", pages_url or "#")
+        .replace("{history_nav}", history_nav)
     )
 
     with open(output_path, "w", encoding="utf-8") as f:
@@ -152,7 +150,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title}｜{date_str}</title>
 <style>
-  :root {{
+  :root {
     --bg: #0a0a0f;
     --card-bg: #13131c;
     --card-border: #1e1e2e;
@@ -160,226 +158,226 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     --text-dim: #94a3b8;
     --accent: #8b5cf6;
     --accent2: #06b6d4;
-  }}
-  * {{ margin:0; padding:0; box-sizing:border-box }}
-  body {{ font-family:'Inter','PingFang SC','Microsoft YaHei',sans-serif;
+  }
+  * { margin:0; padding:0; box-sizing:border-box }
+  body { font-family:'Inter','PingFang SC','Microsoft YaHei',sans-serif;
          background:var(--bg); color:var(--text);
-         min-height:100vh; line-height:1.6 }}
-  a {{ color:inherit; text-decoration:none }}
+         min-height:100vh; line-height:1.6 }
+  a { color:inherit; text-decoration:none }
 
-  header {{
+  header {
     background:linear-gradient(135deg,#0f0f1a 0%,#1a1035 100%);
     border-bottom:1px solid #2a2a4a;
     padding:2.5rem 2rem 1.5rem;
     text-align:center;
     position:sticky;top:0;z-index:100;
-  }}
-  .header-badge {{
+  }
+  .header-badge {
     display:inline-block;
     background:linear-gradient(135deg,#8b5cf6,#06b6d4);
     color:#fff;font-size:.7rem;font-weight:700;
     padding:.25rem .75rem;border-radius:2rem;
     letter-spacing:.05em;margin-bottom:.75rem;
-  }}
-  h1 {{ font-size:2rem;font-weight:800;letter-spacing:-.02em;margin-bottom:.25rem }}
-  .subtitle {{ color:var(--text-dim);font-size:.9rem }}
-  .subtitle span {{ margin:0 .5rem }}
+  }
+  h1 { font-size:2rem;font-weight:800;letter-spacing:-.02em;margin-bottom:.25rem }
+  .subtitle { color:var(--text-dim);font-size:.9rem }
+  .subtitle span { margin:0 .5rem }
 
   /* ── 横滑日期选择器 ── */
-  .history-strip-wrap {{
+  .history-strip-wrap {
     overflow-x:auto;white-space:nowrap;
     scrollbar-width:none;-ms-overflow-style:none;
     margin-bottom:.25rem;
-  }}
-  .history-strip-wrap::-webkit-scrollbar {{ display:none }}
-  .history-strip {{
+  }
+  .history-strip-wrap::-webkit-scrollbar { display:none }
+  .history-strip {
     display:inline-flex;gap:.4rem;
     padding:.25rem .5rem;
-  }}
-  .hs-date {{
+  }
+  .hs-date {
     display:inline-flex;flex-direction:column;align-items:center;
     background:#1a1a2e;border:1px solid #2a2a4a;
     border-radius:.6rem;padding:.45rem .75rem;cursor:pointer;
     min-width:3.2rem;transition:all .2s;flex-shrink:0;
-  }}
-  .hs-date:hover {{ border-color:var(--accent);background:#1e1e38 }}
-  .hs-date.active {{ background:var(--accent);border-color:var(--accent) }}
-  .hs-date .hs-day {{ font-size:.65rem;color:var(--text-dim);margin-bottom:.1rem }}
-  .hs-date.active .hs-day {{ color:rgba(255,255,255,.7) }}
-  .hs-date .hs-num {{ font-size:.82rem;font-weight:700 }}
-  .hs-date .hs-tag {{ font-size:.6rem;color:var(--text-dim);margin-top:.1rem }}
-  .hs-date.active .hs-tag {{ color:rgba(255,255,255,.8) }}
+  }
+  .hs-date:hover { border-color:var(--accent);background:#1e1e38 }
+  .hs-date.active { background:var(--accent);border-color:var(--accent) }
+  .hs-date .hs-day { font-size:.65rem;color:var(--text-dim);margin-bottom:.1rem }
+  .hs-date.active .hs-day { color:rgba(255,255,255,.7) }
+  .hs-date .hs-num { font-size:.82rem;font-weight:700 }
+  .hs-date .hs-tag { font-size:.6rem;color:var(--text-dim);margin-top:.1rem }
+  .hs-date.active .hs-tag { color:rgba(255,255,255,.8) }
 
-  .filter-bar {{
+  .filter-bar {
     display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;
     padding:1.25rem 2rem;background:#0d0d18;
     border-bottom:1px solid #1e1e2e;
     position:sticky;top:85px;z-index:99;
-  }}
-  .cat-btn {{
+  }
+  .cat-btn {
     background:#1a1a2e;border:1px solid #2a2a4a;color:var(--text-dim);
     padding:.4rem 1rem;border-radius:.5rem;cursor:pointer;
     font-size:.82rem;transition:all .2s;
-  }}
-  .cat-btn:hover {{ border-color:var(--accent);color:var(--accent) }}
-  .cat-btn.active {{ background:var(--accent);color:#fff;border-color:var(--accent) }}
+  }
+  .cat-btn:hover { border-color:var(--accent);color:var(--accent) }
+  .cat-btn.active { background:var(--accent);color:#fff;border-color:var(--accent) }
 
-  main {{ max-width:900px;margin:0 auto;padding:2rem 1.5rem }}
+  main { max-width:900px;margin:0 auto;padding:2rem 1.5rem }
 
-  .hero-card {{
+  .hero-card {
     background:linear-gradient(135deg,#1a1035,#0f2540);
     border:1px solid #8b5cf640;border-radius:1rem;
     padding:1.75rem;margin-bottom:1.5rem;
     animation:fadeIn .5s ease;cursor:pointer;
-  }}
-  .hero-card:active {{ transform:scale(.99) }}
-  .hero-card .hero-label {{
+  }
+  .hero-card:active { transform:scale(.99) }
+  .hero-card .hero-label {
     font-size:.7rem;color:#8b5cf6;font-weight:700;
     letter-spacing:.1em;text-transform:uppercase;margin-bottom:.5rem
-  }}
-  .hero-card h2 {{ font-size:1.4rem;line-height:1.3;margin-bottom:.75rem }}
-  .hero-card p {{ color:var(--text-dim);font-size:.9rem;line-height:1.7 }}
-  .hero-card .read-more {{
+  }
+  .hero-card h2 { font-size:1.4rem;line-height:1.3;margin-bottom:.75rem }
+  .hero-card p { color:var(--text-dim);font-size:.9rem;line-height:1.7 }
+  .hero-card .read-more {
     display:inline-block;margin-top:1rem;
     background:var(--accent);color:#fff;
     padding:.5rem 1.25rem;border-radius:.5rem;font-size:.85rem;
     transition:opacity .2s;
-  }}
-  .hero-card .read-more:hover {{ opacity:.85 }}
+  }
+  .hero-card .read-more:hover { opacity:.85 }
 
-  .news-grid {{
+  .news-grid {
     display:grid;grid-template-columns:1fr;
     gap:1rem;
-  }}
-  @media(min-width:640px) {{
-    .news-grid {{ grid-template-columns:repeat(2,1fr) }}
-  }}
+  }
+  @media(min-width:640px) {
+    .news-grid { grid-template-columns:repeat(2,1fr) }
+  }
 
-  .news-card {{
+  .news-card {
     background:var(--card-bg);border:1px solid var(--card-border);
     border-radius:.875rem;padding:1.25rem;
     transition:transform .25s,border-color .25s,box-shadow .25s;
     animation:fadeIn .5s ease backwards;
-  }}
-  .news-card:hover {{
+  }
+  .news-card:hover {
     transform:translateY(-3px);border-color:var(--accent);
     box-shadow:0 8px 32px #8b5cf620;
-  }}
-  .card-header {{ display:flex;align-items:center;gap:.5rem;margin-bottom:.75rem }}
-  .rank {{ font-size:.75rem;font-weight:800 }}
-  .source-tag,.cat-tag {{
+  }
+  .card-header { display:flex;align-items:center;gap:.5rem;margin-bottom:.75rem }
+  .rank { font-size:.75rem;font-weight:800 }
+  .source-tag,.cat-tag {
     font-size:.68rem;padding:.15rem .5rem;border-radius:.25rem;font-weight:600
-  }}
-  .cat-tag {{ opacity:.85 }}
-  .card-title {{ font-size:.95rem;font-weight:700;line-height:1.4;margin-bottom:.75rem }}
-  .card-summary {{
+  }
+  .cat-tag { opacity:.85 }
+  .card-title { font-size:.95rem;font-weight:700;line-height:1.4;margin-bottom:.75rem }
+  .card-summary {
     font-size:.82rem;color:var(--text-dim);line-height:1.65;
     display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden
-  }}
-  .card-footer {{
+  }
+  .card-footer {
     display:flex;justify-content:space-between;align-items:center;
     margin-top:1rem;padding-top:.75rem;border-top:1px solid #1e1e2e
-  }}
-  .read-more {{ font-size:.78rem;color:var(--accent);font-weight:600 }}
-  .read-more:hover {{ opacity:.8 }}
-  .pub-date {{ font-size:.72rem;color:#555 }}
+  }
+  .read-more { font-size:.78rem;color:var(--accent);font-weight:600 }
+  .read-more:hover { opacity:.8 }
+  .pub-date { font-size:.72rem;color:#555 }
 
-  footer {{
+  footer {
     text-align:center;padding:3rem 2rem;
     color:#555;font-size:.78rem;
     border-top:1px solid #1a1a2e;margin-top:3rem
-  }}
-  footer a {{ color:var(--accent) }}
+  }
+  footer a { color:var(--accent) }
 
-  .sources-section {{ margin-top:1.25rem;padding-top:1rem;border-top:1px solid #1a1a2e }}
-  .sources-label {{ font-size:.72rem;color:#444;margin-bottom:.3rem }}
-  .sources-list {{ font-size:.75rem;color:#555;line-height:1.8 }}
+  .sources-section { margin-top:1.25rem;padding-top:1rem;border-top:1px solid #1a1a2e }
+  .sources-label { font-size:.72rem;color:#444;margin-bottom:.3rem }
+  .sources-list { font-size:.75rem;color:#555;line-height:1.8 }
 
-  .hidden {{ display:none }}
+  .hidden { display:none }
 
-  @keyframes fadeIn {{
-    from{{opacity:0;transform:translateY(12px)}}
-    to{{opacity:1;transform:translateY(0)}}
-  }}
+  @keyframes fadeIn {
+    from{opacity:0;transform:translateY(12px)}
+    to{opacity:1;transform:translateY(0)}
+  }
 
-  .stats-bar {{
+  .stats-bar {
     display:flex;justify-content:center;gap:2rem;
     padding:1rem;font-size:.8rem;color:var(--text-dim)
-  }}
-  .stats-bar strong {{ color:var(--accent) }}
+  }
+  .stats-bar strong { color:var(--accent) }
 
   /* ── AI 总结详情弹窗 ── */
-  .detail-overlay {{
+  .detail-overlay {
     display:none;position:fixed;inset:0;z-index:1000;
     background:rgba(0,0,0,.7);backdrop-filter:blur(4px);
     align-items:center;justify-content:center;
     padding:1rem;
-  }}
-  .detail-overlay.show {{ display:flex }}
-  .detail-modal {{
+  }
+  .detail-overlay.show { display:flex }
+  .detail-modal {
     background:#13131c;border:1px solid #2a2a4a;
     border-radius:1.25rem;max-width:680px;width:100%;
     max-height:88vh;overflow-y:auto;
     animation:modalIn .3s ease;
-  }}
-  @keyframes modalIn {{
-    from{{opacity:0;transform:scale(.92) translateY(20px)}}
-    to{{opacity:1;transform:scale(1) translateY(0)}}
-  }}
-  .detail-header {{
+  }
+  @keyframes modalIn {
+    from{opacity:0;transform:scale(.92) translateY(20px)}
+    to{opacity:1;transform:scale(1) translateY(0)}
+  }
+  .detail-header {
     padding:1.75rem 1.75rem 1rem;
     border-bottom:1px solid #1e1e2e;
     position:sticky;top:0;background:#13131c;z-index:2;
     border-radius:1.25rem 1.25rem 0 0;
-  }}
-  .detail-rank {{
+  }
+  .detail-rank {
     display:inline-block;font-size:.7rem;font-weight:800;
     background:linear-gradient(135deg,#8b5cf6,#06b6d4);
     color:#fff;padding:.2rem .65rem;border-radius:2rem;
     margin-bottom:.75rem;
-  }}
-  .detail-meta {{
+  }
+  .detail-meta {
     display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.75rem;
-  }}
-  .detail-meta span {{
+  }
+  .detail-meta span {
     font-size:.72rem;padding:.15rem .5rem;border-radius:.25rem;font-weight:600;
-  }}
-  .detail-title {{ font-size:1.2rem;font-weight:800;line-height:1.4;margin-bottom:.25rem }}
-  .detail-source {{ font-size:.75rem;color:#555;margin-bottom:1.25rem }}
-  .detail-body {{
+  }
+  .detail-title { font-size:1.2rem;font-weight:800;line-height:1.4;margin-bottom:.25rem }
+  .detail-source { font-size:.75rem;color:#555;margin-bottom:1.25rem }
+  .detail-body {
     padding:1.25rem 1.75rem 1.75rem;
     border-top:1px solid #1e1e2e;
-  }}
-  .detail-section-label {{
+  }
+  .detail-section-label {
     font-size:.68rem;font-weight:700;color:var(--accent);
     letter-spacing:.08em;text-transform:uppercase;
     margin-bottom:.6rem;margin-top:1.25rem;
-  }}
-  .detail-section-label:first-child {{ margin-top:0 }}
-  .detail-summary {{
+  }
+  .detail-section-label:first-child { margin-top:0 }
+  .detail-summary {
     font-size:.88rem;line-height:1.8;color:var(--text);
     background:#0d0d18;border:1px solid #1e1e2e;
     border-radius:.75rem;padding:1rem 1.25rem;
-  }}
-  .detail-original {{ color:var(--text-dim);font-size:.82rem;line-height:1.7 }}
-  .detail-actions {{
+  }
+  .detail-original { color:var(--text-dim);font-size:.82rem;line-height:1.7 }
+  .detail-actions {
     display:flex;gap:.75rem;padding:1.25rem 1.75rem 1.75rem;
     border-top:1px solid #1e1e2e;position:sticky;bottom:0;
     background:#13131c;border-radius:0 0 1.25rem 1.25rem;
-  }}
-  .btn-original {{
+  }
+  .btn-original {
     flex:1;background:var(--accent);color:#fff;
     text-align:center;padding:.7rem;border-radius:.6rem;
     font-size:.88rem;font-weight:700;cursor:pointer;
     transition:opacity .2s;border:none;
-  }}
-  .btn-original:hover {{ opacity:.85 }}
-  .btn-close {{
+  }
+  .btn-original:hover { opacity:.85 }
+  .btn-close {
     background:#1a1a2e;border:1px solid #2a2a4a;color:var(--text-dim);
     padding:.7rem 1.25rem;border-radius:.6rem;
     font-size:.88rem;cursor:pointer;transition:all .2s;
-  }}
-  .btn-close:hover {{ border-color:var(--accent);color:var(--accent) }}
+  }
+  .btn-close:hover { border-color:var(--accent);color:var(--accent) }
 </style>
 </head>
 <body>
