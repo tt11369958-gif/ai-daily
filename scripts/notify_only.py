@@ -91,11 +91,13 @@ def send_wecom_notification(articles, pages_url="", cover_url=""):
         highlights.append(f"• {t} [{src}]")
     digest = "\n".join(highlights) if highlights else "查看完整日报获取更多资讯"
 
-    # 封面图 URL
+    # 封面图 URL（必须有效，不能为空）
     if not cover_url:
         cover_url = build_cover_url(pages_url)
-    # 如果还是没有封面图，用空字符串
-    card_image = {"url": cover_url, "aspect_ratio": 2} if cover_url else {"url": "", "aspect_ratio": 2}
+    # 如果还是没有封面图，用默认的渐变图片
+    if not cover_url:
+        cover_url = "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop"
+    card_image = {"url": cover_url, "aspect_ratio": 2}
 
     payload = {
         "msgtype": "template_card",
