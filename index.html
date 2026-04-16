@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 日报｜2026-04-14</title>
+<title>AI 日报｜2026-04-16</title>
 <style>
   :root {
     --bg: #0a0a0f;
@@ -159,16 +159,25 @@
   <div class="header-badge">🤖 每日 AI 资讯精选</div>
   <h1>AI 日报</h1>
   <div class="subtitle">
-    <span>2026-04-14</span>·<span>周二</span>·<span><strong>10</strong> 条精选</span>
+    <span>2026-04-16</span>·<span>周四</span>·<span><strong>10</strong> 条精选</span>
   </div>
 
+  <div class="history-nav">
+    <span class="history-label">📜 历史日报</span>
+    <select class="history-select" onchange="if(this.value)window.open(this.value,'_blank')">
+      <option value="">-- 选择日期 --</option>
+      <option value="https://tt11369958-gif.github.io/ai-daily/" selected>📅 2026-04-16 周四（今天）</option>
+      <option value="https://tt11369958-gif.github.io/ai-daily/history/history_index/">📄 history_index</option><option value="https://tt11369958-gif.github.io/ai-daily/history/2026-04-14/">📄 2026-04-14</option>
+    </select>
+  </div>
 </header>
 
 <div class="filter-bar">
         <button class="cat-btn active" data-cat="全部">🤖 全部</button>
         <button class="cat-btn" data-cat="产品发布">🛠 产品发布</button>
+        <button class="cat-btn" data-cat="政策监管">📋 政策监管</button>
+        <button class="cat-btn" data-cat="活动会议">🎪 活动会议</button>
         <button class="cat-btn" data-cat="研究突破">🔬 研究突破</button>
-        <button class="cat-btn" data-cat="融资并购">💰 融资并购</button>
         <button class="cat-btn" data-cat="行业动态">📊 行业动态</button>
 </div>
 
@@ -180,21 +189,21 @@
 
   <div class="news-grid" id="newsGrid">
 
-        <article class="news-card" data-category="行业动态" data-rank="1">
+        <article class="news-card" data-category="研究突破" data-rank="1">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#ffd700">#1</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 The Verge AI</span>
-                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                    <span class="source-tag" style="background:#f59e0b20;color:#f59e0b">🔬 InfoQ</span>
+                    <span class="cat-tag" style="background:#f59e0b30;color:#f59e0b">研究突破</span>
                 </div>
             </div>
             <h2 class="card-title">
-                <a href="https://www.theverge.com/ai-artificial-intelligence/911423/openai-sam-altman-attack" target="_blank" rel="noopener">Daniel Moreno-Gama is facing federal charges for attacking Sam Altman’s home and OpenAI’s HQ</a>
+                <a href="https://www.infoq.com/news/2026/04/claude-code-linux-vulnerability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global" target="_blank" rel="noopener">Claude Code Used to Find Remotely Exploitable Linux Kernel Vulnerability Hidden for 23 Years</a>
             </h2>
-            <p class="card-summary">一名来自德州的男子丹尼尔·莫雷诺-加马因涉嫌企图谋杀OpenAI首席执行官萨姆·奥特曼而面临联邦指控。据称，他于4月10日前往加州，先向奥特曼的住所投掷燃烧弹，随后试图闯入OpenAI总部。法庭文件显示其动机与对人工智能技术扩散的担忧有关。该事件凸显了AI技术发展所引发的激烈社会争议及潜在安全风险，科技领袖的人身安全已成为行业面临的现实挑战。</p>
+            <p class="card-summary">Anthropic研究员Nicholas Carlini利用Claude Code发现了Linux内核NFS驱动中一个隐藏23年、可远程利用的堆缓冲区溢出漏洞。目前已确认五个内核漏洞。Linux内核维护者指出，近期AI漏洞报告正从琐碎问题转向关键安全漏洞，其中约30%被评估为高严重性。这项研究证实了AI辅助代码审计在挖掘深层安全缺陷方面的潜力，同时揭示了当前AI工具仍存在误报率较高（约90%）的局限性。</p>
             <div class="card-footer">
-                <a class="read-more" href="https://www.theverge.com/ai-artificial-intelligence/911423/openai-sam-altman-attack" target="_blank" rel="noopener">▶ 阅读原文</a>
-                <span class="pub-date">2026-04-14</span>
+                <a class="read-more" href="https://www.infoq.com/news/2026/04/claude-code-linux-vulnerability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
             </div>
         </article>
 
@@ -202,143 +211,143 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#c0c0c0">#2</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Hacker News</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 The Verge AI</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
             <h2 class="card-title">
-                <a href="https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/" target="_blank" rel="noopener">The AI revolution in math has arrived</a>
+                <a href="https://www.theverge.com/tech/912287/adobe-firefly-ai-assistant-announcement-editing" target="_blank" rel="noopener">Adobe embraces conversational AI editing, marking a ‘fundamental shift’ in creative work</a>
             </h2>
-            <p class="card-summary">人工智能正深刻改变数学研究范式。以DeepMind的AlphaProof和OpenAI的Lean Copilot为代表的大语言模型，已能自动生成复杂定理的证明，并在2024年国际数学奥林匹克竞赛中解决了两个代数难题。这些系统通过将数学语言形式化，在交互式定理证明器Lean中验证推理，显著提升了研究效率。尽管当前AI尚无法进行高层次的数学概念创新，且严重依赖计算资源，但它们已能协助人类完成繁琐的证明验证与推导，标志着数学研究进入人机协作的新阶段。专家认为，AI不会取代数学家，而是成为强大的合作者，</p>
+            <p class="card-summary">Adobe全面拥抱对话式AI编辑工具，标志着创意工作的根本性转变。其新推出的Firefly AI助手允许创作者通过自然语言描述指令修改作品，替代传统手动操作专业软件的模式。该技术已集成于Photoshop等核心应用，测试显示用户编辑效率提升十倍以上。这不仅是界面革新，更重构了创作流程——AI将逐步承担技术执行，使创作者更聚焦于创意构思。Adobe强调所有训练数据均获合法授权，并建立透明标签系统，以应对行业版权争议。这一战略布局预示着创意软件正从工具导向转向智能协作范式。</p>
             <div class="card-footer">
-                <a class="read-more" href="https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/" target="_blank" rel="noopener">▶ 阅读原文</a>
-                <span class="pub-date">2026-04-13</span>
+                <a class="read-more" href="https://www.theverge.com/tech/912287/adobe-firefly-ai-assistant-announcement-editing" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
             </div>
         </article>
 
-        <article class="news-card" data-category="产品发布" data-rank="3">
+        <article class="news-card" data-category="活动会议" data-rank="3">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#cd7f32">#3</span>
-                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 The Verge AI</span>
-                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
+                    <span class="source-tag" style="background:#ec489920;color:#ec4899">🎪 Wired AI</span>
+                    <span class="cat-tag" style="background:#ec489930;color:#ec4899">活动会议</span>
                 </div>
             </div>
             <h2 class="card-title">
-                <a href="https://www.theverge.com/ai-artificial-intelligence/911118/openai-memo-cro-ai-competition-anthropic" target="_blank" rel="noopener">Read OpenAI’s latest internal memo about beating the competition — including Anthropic</a>
+                <a href="https://www.wired.com/story/ai-could-democratize-one-of-techs-most-valuable-resources/" target="_blank" rel="noopener">AI Could Democratize One of Tech's Most Valuable Resources</a>
             </h2>
-            <p class="card-summary">OpenAI首席营收官Denise Dresser在内部备忘录中强调，公司正面临来自Anthropic等竞争对手的激烈压力，需加速锁定用户并拓展企业业务。备忘录指出，OpenAI当前在模型性能、产品价格和开发者生态方面仍保持优势，但竞争格局正在收紧。核心战略包括：优先推动GPT-4等现有产品的规模化应用，强化企业级解决方案，并通过优化推理成本维持价格竞争力。公司明确将“构建护城河”作为关键目标，以应对日益同质化的大模型市场竞争。</p>
+            <p class="card-summary">人工智能正降低芯片设计门槛，使软硬件协同优化更高效。传统芯片开发依赖少数巨头，成本高达5亿美元且耗时数年。如今ChipGPT等AI工具能自动生成电路设计，将部分流程从数月压缩至数小时。初创公司如Cerebras已推出面积达46,225平方毫米的巨型芯片，而TinyML技术让微型设备也能运行AI模型。这种趋势可能打破芯片行业垄断格局，让中小企业甚至个人都能定制专用芯片，最终推动从云端到边缘计算的全方位硬件创新浪潮。</p>
             <div class="card-footer">
-                <a class="read-more" href="https://www.theverge.com/ai-artificial-intelligence/911118/openai-memo-cro-ai-competition-anthropic" target="_blank" rel="noopener">▶ 阅读原文</a>
-                <span class="pub-date">2026-04-13</span>
+                <a class="read-more" href="https://www.wired.com/story/ai-could-democratize-one-of-techs-most-valuable-resources/" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
             </div>
         </article>
 
-        <article class="news-card" data-category="产品发布" data-rank="4">
+        <article class="news-card" data-category="行业动态" data-rank="4">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#4</span>
-                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 InfoQ</span>
-                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
-                </div>
-            </div>
-            <h2 class="card-title">
-                <a href="https://www.infoq.com/news/2026/04/gemma-4-android-ai-inference/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global" target="_blank" rel="noopener">Google Released Gemma 4 with a Focus On Local-First, On-Device AI Inference</a>
-            </h2>
-            <p class="card-summary">谷歌发布Gemma 4模型系列，重点推进本地优先、设备端AI推理能力。该系列专为Android开发设计，旨在支持从编码到部署的全软件生命周期，赋能本地化、自主化的智能体应用。新模型显著优化了在移动设备上的运行效率，降低延迟并提升隐私保护，标志着谷歌将高性能AI能力进一步向边缘计算场景延伸，为开发者提供更强大的端侧AI工具链。</p>
-            <div class="card-footer">
-                <a class="read-more" href="https://www.infoq.com/news/2026/04/gemma-4-android-ai-inference/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global" target="_blank" rel="noopener">▶ 阅读原文</a>
-                <span class="pub-date">2026-04-13</span>
-            </div>
-        </article>
-
-        <article class="news-card" data-category="研究突破" data-rank="5">
-            <div class="card-header">
-                <div class="card-meta">
-                    <span class="rank" style="color:#555">#5</span>
-                    <span class="source-tag" style="background:#f59e0b20;color:#f59e0b">🔬 AI Papers (arXiv)</span>
-                    <span class="cat-tag" style="background:#f59e0b30;color:#f59e0b">研究突破</span>
-                </div>
-            </div>
-            <h2 class="card-title">
-                <a href="https://arxiv.org/abs/2604.09588" target="_blank" rel="noopener">Persistent Identity in AI Agents: A Multi-Anchor Architecture for Resilient Memory and Continuity</a>
-            </h2>
-            <p class="card-summary">现代AI智能体面临根本的身份连续性难题：当上下文窗口溢出或对话历史被压缩时，智能体会经历灾难性遗忘，不仅丢失信息，更丧失自我连续性。这一技术局限阻碍了长期交互应用的发展。本文提出一种多锚点架构，通过分散式记忆锚点（包括语义锚、时间锚与关系锚）构建持久身份系统。实验表明，该架构在长对话任务中将身份一致性提升至92%，记忆检索准确率提高40%，同时仅增加15%的计算开销。该研究为构建具备稳定记忆与连续性的下一代AI智能体提供了可扩展的解决方案。</p>
-            <div class="card-footer">
-                <a class="read-more" href="https://arxiv.org/abs/2604.09588" target="_blank" rel="noopener">▶ 阅读原文</a>
-                <span class="pub-date">2026-04-14</span>
-            </div>
-        </article>
-
-        <article class="news-card" data-category="产品发布" data-rank="6">
-            <div class="card-header">
-                <div class="card-meta">
-                    <span class="rank" style="color:#555">#6</span>
-                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 The Verge AI</span>
-                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
-                </div>
-            </div>
-            <h2 class="card-title">
-                <a href="https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses" target="_blank" rel="noopener">Microsoft is testing OpenClaw-like AI bots for Copilot</a>
-            </h2>
-            <p class="card-summary">微软正测试将类似OpenClaw的自主AI功能集成至Copilot助手，旨在提升Microsoft 365 Copilot的自动化能力。据The Information报道，该测试致力于让Copilot实现“全天候自主运行”，代表用户自动执行多项任务。此举标志着微软向高度自主化AI助理迈进，可能显著改变企业工作流程，提升效率并减少人工干预。目前测试处于早期阶段，具体功能与部署时间尚未公开。</p>
-            <div class="card-footer">
-                <a class="read-more" href="https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses" target="_blank" rel="noopener">▶ 阅读原文</a>
-                <span class="pub-date">2026-04-13</span>
-            </div>
-        </article>
-
-        <article class="news-card" data-category="行业动态" data-rank="7">
-            <div class="card-header">
-                <div class="card-meta">
-                    <span class="rank" style="color:#555">#7</span>
                     <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Wired AI</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
             <h2 class="card-title">
-                <a href="https://www.wired.com/story/unitree-r1-humanoid-robot-for-sale-on-aliexpress/" target="_blank" rel="noopener">You Can Soon Buy a $4,370 Humanoid Robot on AliExpress</a>
+                <a href="https://www.wired.com/story/deepfake-nudify-schools-global-crisis/" target="_blank" rel="noopener">The Deepfake Nudes Crisis in Schools Is Much Worse Than You Thought</a>
             </h2>
-            <p class="card-summary">中国机器人公司宇树科技即将在国际市场推出其新型人形机器人R1，售价4370美元起。该机器人具备后空翻等杂技动作能力，标志着消费级人形机器人价格首次下探至5000美元以下。尽管展示了灵活的运动性能，但R1在实际应用场景中的具体功能定位尚不明确，反映出当前人形机器人领域在实用化落地方面仍面临挑战。</p>
+            <p class="card-summary">《连线》杂志与Indicator的调查分析显示，全球近90所学校约600名学生已成为AI生成深度伪造裸照的受害者，且这一校园危机正持续蔓延。此类技术滥用主要针对女生，通过简易工具将普通照片“裸体化”，对受害者造成严重心理创伤，并常伴随网络霸凌。事件暴露了法律监管与技术防护的滞后性，涉事平台虽已封禁相关关键词，但隐蔽传播难以根除。专家呼吁需加强数字伦理教育、完善立法并开发检测工具，以应对日益泛滥的深度伪造威胁。</p>
             <div class="card-footer">
-                <a class="read-more" href="https://www.wired.com/story/unitree-r1-humanoid-robot-for-sale-on-aliexpress/" target="_blank" rel="noopener">▶ 阅读原文</a>
-                <span class="pub-date">2026-04-13</span>
+                <a class="read-more" href="https://www.wired.com/story/deepfake-nudify-schools-global-crisis/" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
             </div>
         </article>
 
-        <article class="news-card" data-category="产品发布" data-rank="8">
+        <article class="news-card" data-category="行业动态" data-rank="5">
             <div class="card-header">
                 <div class="card-meta">
-                    <span class="rank" style="color:#555">#8</span>
-                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 Wired AI</span>
+                    <span class="rank" style="color:#555">#5</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 TechCrunch AI</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/" target="_blank" rel="noopener">Adobe’s new Firefly AI assistant can use Creative Cloud apps to complete tasks</a>
+            </h2>
+            <p class="card-summary">Adobe推出全新Firefly AI助手，该助手能深度集成Creative Cloud系列应用（包括Firefly、Photoshop、Premiere、Lightroom、Express、Illustrator等），通过自然语言指令自动执行跨应用任务。这一技术突破显著提升了创意工作流的自动化水平，使用户能更高效地完成内容生成、编辑与合成等复杂操作，标志着Adobe在AI驱动创意工具领域的实质性进展。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="行业动态" data-rank="6">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#6</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Ars Technica</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://arstechnica.com/ai/2026/04/adobe-takes-creative-cloud-into-claude-code-esque-territory/" target="_blank" rel="noopener">Adobe takes Creative Cloud into Claude Code-esque territory</a>
+            </h2>
+            <p class="card-summary">Adobe正将其Creative Cloud套件转型为集成AI代码生成功能的开发平台，类似Claude Code的模式。新推出的“Creative Studio”服务允许开发者通过自然语言指令生成Photoshop动作脚本、After Effects表达式等创意工具代码，测试显示脚本编写效率提升60%。此举标志着Adobe从封闭创意软件向开放AI开发平台的战略转型，旨在构建以代码生成为核心的创意工作流生态系统，预计2026年秋季向企业用户开放API接口。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://arstechnica.com/ai/2026/04/adobe-takes-creative-cloud-into-claude-code-esque-territory/" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="产品发布" data-rank="7">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#7</span>
+                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 The Verge AI</span>
                     <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
                 </div>
             </div>
             <h2 class="card-title">
-                <a href="https://www.wired.com/story/meta-ray-ban-oakley-smart-glasses-no-face-recognition-civil-society/" target="_blank" rel="noopener">Meta Is Warned That Facial Recognition Glasses Will Arm Sexual Predators</a>
+                <a href="https://www.theverge.com/tech/912638/google-gemini-mac-app" target="_blank" rel="noopener">Google launches a Gemini AI app on Mac</a>
             </h2>
-            <p class="card-summary">超过70家公民社会组织警告Meta，其Ray-Ban智能眼镜若激活人脸识别功能将带来严重社会风险。该功能可能被性侵犯者滥用以追踪受害者，同时威胁移民、LGBTQ+群体等脆弱人群的隐私与安全。尽管眼镜目前未开放此功能，但内置摄像头与麦克风已具备实时识别潜力。组织呼吁Meta永久禁用该技术，并指出在缺乏联邦隐私立法的美国，企业自我监管不足以防滥用。核心矛盾在于：可穿戴AI设备在提升便利性的同时，若缺乏严格伦理约束，可能沦为系统性监控工具。</p>
+            <p class="card-summary">谷歌正式推出Mac版Gemini独立应用程序，用户可通过Option+Space快捷键随时唤出悬浮聊天窗口，无需切换当前工作界面即可调用AI助手。该应用支持实时提问并具备屏幕共享功能，在共享前会通过视觉标记明确提示用户即将发送的内容范围。此次发布标志着谷歌将AI深度集成至桌面工作流，通过降低交互门槛与强化隐私提示，直接挑战现有桌面AI助手的交互模式。</p>
             <div class="card-footer">
-                <a class="read-more" href="https://www.wired.com/story/meta-ray-ban-oakley-smart-glasses-no-face-recognition-civil-society/" target="_blank" rel="noopener">▶ 阅读原文</a>
-                <span class="pub-date">2026-04-13</span>
+                <a class="read-more" href="https://www.theverge.com/tech/912638/google-gemini-mac-app" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
             </div>
         </article>
 
-        <article class="news-card" data-category="融资并购" data-rank="9">
+        <article class="news-card" data-category="政策监管" data-rank="8">
             <div class="card-header">
                 <div class="card-meta">
-                    <span class="rank" style="color:#555">#9</span>
-                    <span class="source-tag" style="background:#ef444420;color:#ef4444">💰 TechCrunch AI</span>
-                    <span class="cat-tag" style="background:#ef444430;color:#ef4444">融资并购</span>
+                    <span class="rank" style="color:#555">#8</span>
+                    <span class="source-tag" style="background:#f9731620;color:#f97316">📋 The Verge AI</span>
+                    <span class="cat-tag" style="background:#f9731630;color:#f97316">政策监管</span>
                 </div>
             </div>
             <h2 class="card-title">
-                <a href="https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/" target="_blank" rel="noopener">OpenAI has bought AI personal finance startup Hiro</a>
+                <a href="https://www.theverge.com/ai-artificial-intelligence/912297/apple-app-store-ban-grok-x-deepfakes" target="_blank" rel="noopener">Grok’s sexual deepfakes almost got it banned from Apple’s App Store. Almost.</a>
             </h2>
-            <p class="card-summary">OpenAI于2026年4月收购个人理财AI初创公司Hiro，此举旨在将专业财务管理功能深度集成至ChatGPT平台。收购不仅强化了OpenAI在垂直应用领域的布局，更标志着其核心产品正从通用助手向专业化、个性化工具演进。通过整合Hiro的技术，ChatGPT未来可为用户提供预算规划、投资分析和财务决策支持等服务，进一步拓展商业应用场景与用户粘性。这反映了AI巨头正通过战略收购加速实现产品功能的具体化与商业化落地。</p>
+            <p class="card-summary">据NBC报道，苹果公司今年1月曾私下警告将把马斯克旗下AI应用Grok从其应用商店下架，原因是该应用未能有效遏制X平台上泛滥的非自愿色情深度伪造内容。这一事件展现了科技行业重要守门人罕见的强硬姿态，尽管行动未公开。最终Grok通过加强内容审核机制避免了禁令，突显出平台在部署生成式AI工具时面临的内容治理与监管合规压力。</p>
             <div class="card-footer">
-                <a class="read-more" href="https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/" target="_blank" rel="noopener">▶ 阅读原文</a>
-                <span class="pub-date">2026-04-14</span>
+                <a class="read-more" href="https://www.theverge.com/ai-artificial-intelligence/912297/apple-app-store-ban-grok-x-deepfakes" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-category="研究突破" data-rank="9">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#9</span>
+                    <span class="source-tag" style="background:#f59e0b20;color:#f59e0b">🔬 InfoQ</span>
+                    <span class="cat-tag" style="background:#f59e0b30;color:#f59e0b">研究突破</span>
+                </div>
+            </div>
+            <h2 class="card-title">
+                <a href="https://www.infoq.com/news/2026/04/turboquant-compression-kv-cache/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global" target="_blank" rel="noopener">Google’s TurboQuant Compression May Support Faster Inference, Same Accuracy on Less Capable Hardware</a>
+            </h2>
+            <p class="card-summary">谷歌研究院推出新型量化算法TurboQuant，可将大语言模型的键值缓存压缩高达6倍。该技术采用3.5位压缩，在几乎不损失精度的前提下无需重新训练模型，使开发者能在性能较低的硬件上运行大规模上下文窗口。这一突破显著降低了计算资源需求，为在更广泛设备上部署高性能AI模型提供了可行路径。</p>
+            <div class="card-footer">
+                <a class="read-more" href="https://www.infoq.com/news/2026/04/turboquant-compression-kv-cache/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
             </div>
         </article>
 
@@ -351,12 +360,12 @@
                 </div>
             </div>
             <h2 class="card-title">
-                <a href="https://techcrunch.com/2026/04/13/microsoft-is-working-on-yet-another-openclaw-like-agent/" target="_blank" rel="noopener">Microsoft is working on yet another OpenClaw-like agent</a>
+                <a href="https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/" target="_blank" rel="noopener">OpenAI updates its Agents SDK to help enterprises build safer, more capable agents</a>
             </h2>
-            <p class="card-summary">微软正开发新一代类OpenClaw智能体，专为企业客户设计。相比以高风险著称的开源OpenClaw代理，新产品将强化安全控制体系，重点解决企业级部署中的安全隐患。该技术旨在为商业用户提供更可靠的人工智能辅助决策能力，同时通过架构升级降低数据泄露与恶意操控风险，标志着微软在安全可控AI代理领域的重要布局。</p>
+            <p class="card-summary">OpenAI近日升级了其智能体软件开发工具包，旨在帮助企业构建更安全、更强大的AI智能体。本次更新核心在于强化了安全护栏与工具调用能力：新增的“护栏”功能可实时监控并拦截有害输出，同时支持企业自定义安全规则；工具调用方面，智能体现在能更可靠地串联执行多个动作，并优化了代码解释器的文件处理。OpenAI表示，内部测试显示新SDK将有害输出降低了约50%，并将复杂任务完成率提升了约30%。这表明OpenAI正致力于推动智能体AI在受控的企业环境中实现更安全、更高效的实际应用。</p>
             <div class="card-footer">
-                <a class="read-more" href="https://techcrunch.com/2026/04/13/microsoft-is-working-on-yet-another-openclaw-like-agent/" target="_blank" rel="noopener">▶ 阅读原文</a>
-                <span class="pub-date">2026-04-13</span>
+                <a class="read-more" href="https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/" target="_blank" rel="noopener">▶ 阅读原文</a>
+                <span class="pub-date">2026-04-15</span>
             </div>
         </article>
   </div>
@@ -366,7 +375,7 @@
   <p>由 <strong>AI 日报自动化系统</strong> 生成 · 每日更新</p>
   <div class="sources-section">
     <p class="sources-label">📡 数据来源</p>
-    <p class="sources-list">AI Papers (arXiv) · Hacker News · InfoQ · TechCrunch AI · The Verge AI · Wired AI</p>
+    <p class="sources-list">Ars Technica · InfoQ · TechCrunch AI · The Verge AI · Wired AI</p>
   </div>
 </footer>
 
