@@ -517,8 +517,12 @@ function loadToday() {
   const sub = document.querySelector('.subtitle');
   if (sub) sub.innerHTML = todaySubtitle;
   document.getElementById('historyBanner').style.display = 'none';
-  const sel = document.getElementById('historySelect');
-  if (sel) { for(let o of sel.options) if(o.dataset.today==='1') o.selected=true; }
+
+  // 更新按钮高亮：选中"今天"
+  document.querySelectorAll('.date-tab').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.date === 'today');
+  });
+
   bindCatBtns();
   document.querySelectorAll('.news-card').forEach((card, i) => { card.style.animationDelay = `${i * 0.07}s`; });
 }
