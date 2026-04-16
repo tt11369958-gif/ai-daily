@@ -134,7 +134,7 @@ def build_scoring_prompt(batch):
 def parse_llm_response(response, batch):
     import re, json
     try:
-        match = re.search(r'$$[\s\S]*$$', response)
+        match = re.search(r'\[[\s\S]*\]', response)
         if not match:
             return [(a, 5) for a in batch[:5]]
         data = json.loads(match.group())
