@@ -2,7 +2,8 @@
 run.py — AI 日报 一键运行脚本
 用法: python scripts/run.py
 
-完整流程: 抓取新闻 → LLM 筛选摘要 → 生成 HTML → 发布 GitHub Pages → 推送企业微信
+完整流程: 抓取新闻 → LLM 筛选摘要 → 生成 HTML → 复制数据到 output/
+企业微信推送由 notify_only.py 在 GitHub Pages 部署完成后调用
 """
 
 import os, sys, json, time
@@ -45,13 +46,17 @@ def run():
             break
 
     model  = _g(config, "llm", "model",    default="deepseek-chat")
+    # 优先读 config.json → 其次 DEEPSEEK_API_KEY → 最后 OPENAI_API_KEY
     apikey = _g(config, "llm", "api_key",  default="") or \
+             os.environ.get("DEEPSEEK_API_KEY", "") or \
              os.environ.get("OPENAI_API_KEY", "")
     base   = _g(config, "llm", "api_base", default="") or \
+             os.environ.get("DEEPSEEK_API_BASE", "") or \
              os.environ.get("OPENAI_API_BASE", "")
 
     print(f"\n📁 配置加载: {model}")
     if base: print(f"   API Base: {base}")
+    if apikey: print(f"   API Key: {apikey[:8]}...")
 
     if not apikey:
         log("⚠ 未配置 LLM API Key，请在 config.json 的 llm.api_key 中设置", "⚠")
@@ -62,9 +67,9 @@ def run():
     config["_effective_model"]    = model
 
     # GitHub 配置（历史日报功能需要）
-    github_user  = _g(config, "github", "user",  default="") or os.environ.get("GITHUB_USER", "")
+    github_user  = _g(config, "github", "user",  default="") or os.environ.get("GH_USER", "")
     github_repo  = _g(config, "github", "repo",  default="ai-daily")
-    github_token  = _g(config, "github", "token", default="") or os.environ.get("GITHUB_TOKEN", "")
+    github_token = _g(config, "github", "token", default="") or os.environ.get("GH_TOKEN", "") or os.environ.get("GITHUB_TOKEN", "")
 
     # ── Step 2: 抓取新闻 ────────────────────────────
     log("步骤 1/5：抓取 AI 新闻...")
@@ -100,10 +105,10 @@ def run():
                   user=github_user, repo=github_repo, token=github_token)
     log(f"HTML 生成完成: {html_path}")
 
-    # ── Step 5: 发布 GitHub Pages ────────────────────
+    # ── Step 5: 写入 output/（供 GitHub Pages 部署）─────────
     pages_url = ""
     cover_url = ""
-    log("步骤 4/5：发布 GitHub Pages...")
+    log("步骤 4/5：准备部署文件到 output/...")
     from publish_github import publish
     try:
         result = publish(html_path, articles=summarized)
@@ -114,7 +119,17 @@ def run():
     except Exception as e:
         log(f"GitHub 发布失败（可跳过）: {e}", "⚠")
 
-    # ── Step 6: 企业微信推送 ───────────────────────
+    # 复制文章数据到 output/（供 notify_only.py 使用）
+    output_dir = os.path.join(BASE, "..", "output")
+    os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(os.path.join(output_dir, "assets"), exist_ok=True)
+    with open(os.path.join(output_dir, "summarized_articles.json"), "w", encoding="utf-8") as f:
+        json.dump(summarized, f, ensure_ascii=False, indent=2)
+    with open(os.path.join(output_dir, "pages_url.txt"), "w", encoding="utf-8") as f:
+        f.write(pages_url)
+    log(f"数据文件已写入 output/")
+
+    # ── Step 6: 企业微信推送（本地运行时发送，GitHub Actions 用 notify_only.py）──
     log("步骤 5/5：推送企业微信群...")
     from notify_wecom import send_wecom_notification
     try:
