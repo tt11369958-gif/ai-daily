@@ -48,13 +48,16 @@
     font-size:.8rem;color:var(--text-dim);
   }
   /* 日期选择按钮组 - 横向滚动（移动端友好） */
+  .date-tabs-wrapper {
+    overflow:hidden;
+    width:100%;
+    position:relative;
+  }
   .date-tabs {
     display:flex;gap:.4rem;
     overflow-x:auto;  /* 横向滚动，不换行 */
     -webkit-overflow-scrolling:touch;
     scrollbar-width:none;
-    justify-content:center;
-    max-width:100%;
     padding:.1rem .25rem;
   }
   .date-tabs::-webkit-scrollbar { display:none }
@@ -178,7 +181,7 @@
     <span>2026-04-16</span>·<span>周四</span>·<span><strong>10</strong> 条精选</span>
   </div>
 
-  <div class="history-nav">
+  <div class="date-tabs-wrapper">
     <span class="history-label">📅</span>
     <div id="dateTabs" class="date-tabs">
       <!-- 动态生成 -->
