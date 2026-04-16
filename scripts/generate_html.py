@@ -2,8 +2,8 @@
 generate_html.py — 生成精美的暗色卡片式 HTML 页面（含历史日报功能）
 """
 
-import json, os, re, html as html_mod
-from datetime import datetime
+import json, os, re
+from datetime import datetime, timedelta
 
 CATEGORY_COLORS = {
     "全部": "#8b5cf6",
@@ -25,27 +25,41 @@ CATEGORY_ICONS = {
     "活动会议": "🎪",
 }
 
+
 def _generate_history_nav(user, repo, token):
     """
     生成历史日报导航区域 HTML。
-    下拉选项在浏览器端通过 fetch('history_index.json') 动态加载，
-    选择历史日期后通过 fetch('history/YYYY-MM-DD.json') 动态渲染卡片，
-    完全不依赖服务端目录跳转，避免 404。
+    横向日期选择器 + 嵌入式历史 banner，不依赖下拉框。
     """
     today = datetime.now().strftime("%Y-%m-%d")
     today_weekday = ["周一","周二","周三","周四","周五","周六","周日"][datetime.now().weekday()]
 
     return f'''
-  <div class="history-nav">
-    <span class="history-label">📜 历史日报</span>
-    <select class="history-select" id="historySelect">
-      <option value="">-- 加载中 --</option>
-    </select>
+  <div class="history-strip-wrap">
+    <div class="history-strip" id="historyStrip">
+      <span class="hs-date hs-today active" data-date="{today}" onclick="onDateClick(this)">
+        <span class="hs-day">{today_weekday}</span>
+        <span class="hs-num">{today[5:]}</span>
+        <span class="hs-tag">今天</span>
+      </span>
+    </div>
   </div>
   <div id="historyBanner" style="display:none;background:#1a1035;border:1px solid #8b5cf640;border-radius:.75rem;padding:.75rem 1.25rem;margin:.5rem auto;max-width:700px;font-size:.82rem;color:#94a3b8;text-align:center;">
     正在查看历史日报：<strong id="historyDateLabel"></strong>
     &nbsp;·&nbsp;<a href="#" onclick="loadToday();return false;" style="color:#8b5cf6;">← 返回今日</a>
   </div>'''
+
+
+def _escape_html(text):
+    """简单 HTML 实体转义"""
+    if not text:
+        return ""
+    return (text
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+        .replace("'", "&#39;"))
 
 
 def generate_html(articles, config, output_path=None, pages_url="", user="", repo="", token=""):
@@ -73,31 +87,38 @@ def generate_html(articles, config, output_path=None, pages_url="", user="", rep
     # 历史日报导航
     history_nav = _generate_history_nav(user, repo, token)
 
-    # 卡片
+    # 卡片（点击打开 AI 总结详情弹窗）
     cards = []
     for i, a in enumerate(articles):
         color = CATEGORY_COLORS.get(a["category"], "#8b5cf6")
         icon = CATEGORY_ICONS.get(a["category"], "📌")
         rank = i + 1
         rank_color = "#ffd700" if rank == 1 else ("#c0c0c0" if rank == 2 else ("#cd7f32" if rank == 3 else "#555"))
+        title_text = _escape_html(a.get("title", ""))
+        summary_text = _escape_html(a.get("chinese_summary", a.get("summary", ""))[:300])
+        article_url = _escape_html(a.get("url", "#"))
+        published = _escape_html(a.get("published", "")[:10])
+        source_name = _escape_html(a.get("source", ""))
+        cat_name = _escape_html(a.get("category", ""))
 
-        title_text = html_mod.unescape(a.get("title", ""))
+        # 把完整文章数据传给弹窗（用 data- 属性会截断，用序列化的 JSON）
+        article_json = _escape_html(json.dumps(a, ensure_ascii=False))
+
         cards.append(f'''
-        <article class="news-card" data-category="{a["category"]}" data-rank="{rank}">
+        <article class="news-card" data-rank="{rank}" data-json="{article_json}"
+                 onclick="openDetail(this)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:{rank_color}">#{rank}</span>
-                    <span class="source-tag" style="background:{color}20;color:{color}">{icon} {a["source"]}</span>
-                    <span class="cat-tag" style="background:{color}30;color:{color}">{a["category"]}</span>
+                    <span class="source-tag" style="background:{color}20;color:{color}">{icon} {source_name}</span>
+                    <span class="cat-tag" style="background:{color}30;color:{color}">{cat_name}</span>
                 </div>
             </div>
-            <h2 class="card-title">
-                <a href="{a["url"]}" target="_blank" rel="noopener">{title_text}</a>
-            </h2>
-            <p class="card-summary">{a.get("chinese_summary", a.get("summary",""))[:250]}</p>
+            <h2 class="card-title">{title_text}</h2>
+            <p class="card-summary">{summary_text}</p>
             <div class="card-footer">
-                <a class="read-more" href="{a["url"]}" target="_blank" rel="noopener">▶ 阅读原文</a>
-                <span class="pub-date">{a.get("published", "")[:10]}</span>
+                <span class="read-more">🔬 AI 总结</span>
+                <span class="pub-date">{published}</span>
             </div>
         </article>''')
 
@@ -120,6 +141,7 @@ def generate_html(articles, config, output_path=None, pages_url="", user="", rep
 
     print(f"✅ HTML 已生成: {output_path}")
     return output_path
+
 
 HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="zh-CN">
@@ -146,7 +168,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   header {{
     background:linear-gradient(135deg,#0f0f1a 0%,#1a1035 100%);
     border-bottom:1px solid #2a2a4a;
-    padding:2.5rem 2rem 2rem;
+    padding:2.5rem 2rem 1.5rem;
     text-align:center;
     position:sticky;top:0;z-index:100;
   }}
@@ -161,20 +183,30 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   .subtitle {{ color:var(--text-dim);font-size:.9rem }}
   .subtitle span {{ margin:0 .5rem }}
 
-  /* 历史日报导航 */
-  .history-nav {{
-    display:flex;align-items:center;justify-content:center;gap:.75rem;
-    margin-bottom:1.25rem;
+  /* ── 横滑日期选择器 ── */
+  .history-strip-wrap {{
+    overflow-x:auto;white-space:nowrap;
+    scrollbar-width:none;-ms-overflow-style:none;
+    margin-bottom:.25rem;
   }}
-  .history-label {{
-    font-size:.8rem;color:var(--text-dim);
+  .history-strip-wrap::-webkit-scrollbar {{ display:none }}
+  .history-strip {{
+    display:inline-flex;gap:.4rem;
+    padding:.25rem .5rem;
   }}
-  .history-select {{
-    background:#1a1a2e;border:1px solid #2a2a4a;color:var(--text);
-    padding:.35rem .75rem;border-radius:.5rem;font-size:.82rem;
-    cursor:pointer;outline:none;
+  .hs-date {{
+    display:inline-flex;flex-direction:column;align-items:center;
+    background:#1a1a2e;border:1px solid #2a2a4a;
+    border-radius:.6rem;padding:.45rem .75rem;cursor:pointer;
+    min-width:3.2rem;transition:all .2s;flex-shrink:0;
   }}
-  .history-select option {{ background:#13131c }}
+  .hs-date:hover {{ border-color:var(--accent);background:#1e1e38 }}
+  .hs-date.active {{ background:var(--accent);border-color:var(--accent) }}
+  .hs-date .hs-day {{ font-size:.65rem;color:var(--text-dim);margin-bottom:.1rem }}
+  .hs-date.active .hs-day {{ color:rgba(255,255,255,.7) }}
+  .hs-date .hs-num {{ font-size:.82rem;font-weight:700 }}
+  .hs-date .hs-tag {{ font-size:.6rem;color:var(--text-dim);margin-top:.1rem }}
+  .hs-date.active .hs-tag {{ color:rgba(255,255,255,.8) }}
 
   .filter-bar {{
     display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;
@@ -196,14 +228,14 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     background:linear-gradient(135deg,#1a1035,#0f2540);
     border:1px solid #8b5cf640;border-radius:1rem;
     padding:1.75rem;margin-bottom:1.5rem;
-    animation:fadeIn .5s ease;
+    animation:fadeIn .5s ease;cursor:pointer;
   }}
+  .hero-card:active {{ transform:scale(.99) }}
   .hero-card .hero-label {{
     font-size:.7rem;color:#8b5cf6;font-weight:700;
     letter-spacing:.1em;text-transform:uppercase;margin-bottom:.5rem
   }}
   .hero-card h2 {{ font-size:1.4rem;line-height:1.3;margin-bottom:.75rem }}
-  .hero-card h2 a:hover {{ color:var(--accent) }}
   .hero-card p {{ color:var(--text-dim);font-size:.9rem;line-height:1.7 }}
   .hero-card .read-more {{
     display:inline-block;margin-top:1rem;
@@ -238,7 +270,6 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   }}
   .cat-tag {{ opacity:.85 }}
   .card-title {{ font-size:.95rem;font-weight:700;line-height:1.4;margin-bottom:.75rem }}
-  .card-title a:hover {{ color:var(--accent) }}
   .card-summary {{
     font-size:.82rem;color:var(--text-dim);line-height:1.65;
     display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden
@@ -274,6 +305,79 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     padding:1rem;font-size:.8rem;color:var(--text-dim)
   }}
   .stats-bar strong {{ color:var(--accent) }}
+
+  /* ── AI 总结详情弹窗 ── */
+  .detail-overlay {{
+    display:none;position:fixed;inset:0;z-index:1000;
+    background:rgba(0,0,0,.7);backdrop-filter:blur(4px);
+    align-items:center;justify-content:center;
+    padding:1rem;
+  }}
+  .detail-overlay.show {{ display:flex }}
+  .detail-modal {{
+    background:#13131c;border:1px solid #2a2a4a;
+    border-radius:1.25rem;max-width:680px;width:100%;
+    max-height:88vh;overflow-y:auto;
+    animation:modalIn .3s ease;
+  }}
+  @keyframes modalIn {{
+    from{{opacity:0;transform:scale(.92) translateY(20px)}}
+    to{{opacity:1;transform:scale(1) translateY(0)}}
+  }}
+  .detail-header {{
+    padding:1.75rem 1.75rem 1rem;
+    border-bottom:1px solid #1e1e2e;
+    position:sticky;top:0;background:#13131c;z-index:2;
+    border-radius:1.25rem 1.25rem 0 0;
+  }}
+  .detail-rank {{
+    display:inline-block;font-size:.7rem;font-weight:800;
+    background:linear-gradient(135deg,#8b5cf6,#06b6d4);
+    color:#fff;padding:.2rem .65rem;border-radius:2rem;
+    margin-bottom:.75rem;
+  }}
+  .detail-meta {{
+    display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.75rem;
+  }}
+  .detail-meta span {{
+    font-size:.72rem;padding:.15rem .5rem;border-radius:.25rem;font-weight:600;
+  }}
+  .detail-title {{ font-size:1.2rem;font-weight:800;line-height:1.4;margin-bottom:.25rem }}
+  .detail-source {{ font-size:.75rem;color:#555;margin-bottom:1.25rem }}
+  .detail-body {{
+    padding:1.25rem 1.75rem 1.75rem;
+    border-top:1px solid #1e1e2e;
+  }}
+  .detail-section-label {{
+    font-size:.68rem;font-weight:700;color:var(--accent);
+    letter-spacing:.08em;text-transform:uppercase;
+    margin-bottom:.6rem;margin-top:1.25rem;
+  }}
+  .detail-section-label:first-child {{ margin-top:0 }}
+  .detail-summary {{
+    font-size:.88rem;line-height:1.8;color:var(--text);
+    background:#0d0d18;border:1px solid #1e1e2e;
+    border-radius:.75rem;padding:1rem 1.25rem;
+  }}
+  .detail-original {{ color:var(--text-dim);font-size:.82rem;line-height:1.7 }}
+  .detail-actions {{
+    display:flex;gap:.75rem;padding:1.25rem 1.75rem 1.75rem;
+    border-top:1px solid #1e1e2e;position:sticky;bottom:0;
+    background:#13131c;border-radius:0 0 1.25rem 1.25rem;
+  }}
+  .btn-original {{
+    flex:1;background:var(--accent);color:#fff;
+    text-align:center;padding:.7rem;border-radius:.6rem;
+    font-size:.88rem;font-weight:700;cursor:pointer;
+    transition:opacity .2s;border:none;
+  }}
+  .btn-original:hover {{ opacity:.85 }}
+  .btn-close {{
+    background:#1a1a2e;border:1px solid #2a2a4a;color:var(--text-dim);
+    padding:.7rem 1.25rem;border-radius:.6rem;
+    font-size:.88rem;cursor:pointer;transition:all .2s;
+  }}
+  .btn-close:hover {{ border-color:var(--accent);color:var(--accent) }}
 </style>
 </head>
 <body>
@@ -310,7 +414,85 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   </div>
 </footer>
 
+<!-- ── AI 总结详情弹窗 ── -->
+<div class="detail-overlay" id="detailOverlay" onclick="if(event.target===this)closeDetail()">
+  <div class="detail-modal" id="detailModal">
+    <div class="detail-header">
+      <span class="detail-rank" id="dlRank"></span>
+      <div class="detail-meta" id="dlMeta"></div>
+      <h2 class="detail-title" id="dlTitle"></h2>
+      <p class="detail-source" id="dlSource"></p>
+    </div>
+    <div class="detail-body">
+      <p class="detail-section-label">🤖 AI 中文总结</p>
+      <div class="detail-summary" id="dlSummary"></div>
+      <br>
+      <p class="detail-section-label">📄 原文摘要</p>
+      <div class="detail-original" id="dlOriginal"></div>
+    </div>
+    <div class="detail-actions">
+      <button class="btn-close" onclick="closeDetail()">← 返回列表</button>
+      <a class="btn-original" id="dlBtnOriginal" href="#" target="_blank" rel="noopener">▶ 阅读原文</a>
+    </div>
+  </div>
+</div>
+
 <script>
+// ── 颜色/图标映射（供 JS 使用）──
+const CAT_COLORS = {{
+  "研究突破":"#f59e0b","行业动态":"#10b981","融资并购":"#ef4444",
+  "产品发布":"#3b82f6","政策监管":"#f97316","活动会议":"#ec4899"
+}};
+const CAT_ICONS = {{
+  "研究突破":"🔬","行业动态":"📊","融资并购":"💰",
+  "产品发布":"🛠","政策监管":"📋","活动会议":"🎪"
+}};
+const WEEKDAYS = ["周日","周一","周二","周三","周四","周五","周六"];
+
+// ── AI 总结详情弹窗 ──
+function openDetail(cardEl) {{
+  const raw = cardEl.dataset.json;
+  let a;
+  try {{ a = JSON.parse(raw); }} catch(e) {{ console.error(e); return; }}
+
+  const rank = cardEl.dataset.rank;
+  const color = CAT_COLORS[a.category] || '#8b5cf6';
+  const icon = CAT_ICONS[a.category] || '📌';
+  const weekday = WEEKDAYS[new Date((a.published||'{date_str}').substring(0,10)).getDay()];
+
+  document.getElementById('dlRank').textContent = `#${rank} · ${icon} ${a.category}`;
+  document.getElementById('dlMeta').innerHTML =
+    `<span style="background:${{color}}20;color:${{color}}">${{icon}} ${{a.source}}</span>` +
+    `<span style="background:${{color}}30;color:${{color}}">${{a.category}}</span>` +
+    `<span style="color:#555">${{weekday}} ${{(a.published||'{date_str}').substring(0,10)}}</span>`;
+  document.getElementById('dlTitle').textContent = a.title || '';
+  document.getElementById('dlSource').textContent = `来源：${{a.source || ''}} | ${{a.url || ''}}`;
+  document.getElementById('dlSummary').textContent = a.chinese_summary || a.summary || '（暂无 AI 总结）';
+  document.getElementById('dlOriginal').textContent = (a.summary || '').substring(0, 400);
+  const btn = document.getElementById('dlBtnOriginal');
+  btn.href = a.url || '#';
+  btn.style.display = a.url ? 'block' : 'none';
+
+  document.getElementById('detailOverlay').classList.add('show');
+  document.body.style.overflow = 'hidden';
+}}
+
+function closeDetail() {{
+  document.getElementById('detailOverlay').classList.remove('show');
+  document.body.style.overflow = '';
+}}
+
+// ESC 关闭弹窗
+document.addEventListener('keydown', e => {{ if(e.key==='Escape') closeDetail(); }});
+
+// ── 今日头条点击也打开详情 ──
+document.querySelectorAll('.hero-card').forEach(el => {{
+  el.addEventListener('click', () => {{
+    const first = document.querySelector('.news-card[data-rank="1"]');
+    if (first) openDetail(first);
+  }});
+}});
+
 // ── 分类过滤 ──
 function bindCatBtns() {{
   const btns = document.querySelectorAll('.cat-btn');
@@ -332,32 +514,59 @@ document.querySelectorAll('.news-card').forEach((card, i) => {{
   card.style.animationDelay = `${{i * 0.07}}s`;
 }});
 
-// ── 历史日报：颜色/图标映射 ──
-const CAT_COLORS = {{
-  "研究突破":"#f59e0b","行业动态":"#10b981","融资并购":"#ef4444",
-  "产品发布":"#3b82f6","政策监管":"#f97316","活动会议":"#ec4899"
-}};
-const CAT_ICONS = {{
-  "全部":"🤖","研究突破":"🔬","行业动态":"📊","融资并购":"💰",
-  "产品发布":"🛠","政策监管":"📋","活动会议":"🎪"
-}};
-const WEEKDAYS = ["周日","周一","周二","周三","周四","周五","周六"];
-
 // ── 今日数据（内嵌静态卡片备份）──
 const todayGrid = document.getElementById('newsGrid').innerHTML;
 const todayFilterBar = document.querySelector('.filter-bar') ? document.querySelector('.filter-bar').innerHTML : '';
 const todaySubtitle = document.querySelector('.subtitle') ? document.querySelector('.subtitle').innerHTML : '';
+
+// ── 横滑日期选择：点击日期加载历史 ──
+async function onDateClick(el) {{
+  const date = el.dataset.date;
+  if (!date || el.classList.contains('loading')) return;
+
+  // 已经是今天
+  if (el.classList.contains('active') && !el.classList.contains('loading')) return;
+
+  // 高亮选中
+  document.querySelectorAll('.hs-date').forEach(d => d.classList.remove('active'));
+  el.classList.add('active');
+
+  // 如果是今天
+  if (el.classList.contains('hs-today')) {{
+    loadToday(); return;
+  }}
+
+  el.classList.add('loading');
+
+  const banner = document.getElementById('historyBanner');
+  const label = document.getElementById('historyDateLabel');
+  if (banner) banner.style.display = 'block';
+  if (label) label.textContent = date;
+
+  const grid = document.getElementById('newsGrid');
+  grid.innerHTML = '<div style="text-align:center;padding:3rem;color:#555;">⏳ 加载中...</div>';
+
+  try {{
+    const resp = await fetch(`history/${{date}}.json`);
+    if (!resp.ok) throw new Error(resp.status);
+    const data = await resp.json();
+    const articles = data.articles || data;
+    renderHistoryArticles(articles, date);
+  }} catch(err) {{
+    grid.innerHTML = `<div style="text-align:center;padding:3rem;color:#ef4444;">❌ 加载失败：${{err.message}}<br><small>history/${{date}}.json</small></div>`;
+  }} finally {{
+    el.classList.remove('loading');
+  }}
+}}
 
 // ── 加载并渲染历史日报 ──
 function renderHistoryArticles(articles, dateStr) {{
   const grid = document.getElementById('newsGrid');
   const weekday = WEEKDAYS[new Date(dateStr).getDay()];
 
-  // 更新副标题
   const sub = document.querySelector('.subtitle');
   if (sub) sub.innerHTML = `<span>${{dateStr}}</span>·<span>${{weekday}}</span>·<span><strong>${{articles.length}}</strong> 条精选</span>`;
 
-  // 生成卡片
   grid.innerHTML = articles.map((a, i) => {{
     const rank = i + 1;
     const rankColor = rank===1?'#ffd700':rank===2?'#c0c0c0':rank===3?'#cd7f32':'#555';
@@ -366,7 +575,9 @@ function renderHistoryArticles(articles, dateStr) {{
     const title = (a.title||'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#39;/g,"'").replace(/&quot;/g,'"').replace(/&#8217;/g,"'").replace(/&#8216;/g,"'");
     const summary = (a.chinese_summary || a.summary || '').substring(0, 250);
     const pubDate = (a.published||'').substring(0,10);
-    return `<article class="news-card" data-category="${{a.category}}" data-rank="${{rank}}" style="animation-delay:${{i*0.07}}s">
+    const articleJson = (a.title||'').length ? JSON.stringify(a).replace(/"/g, '&quot;') : '';
+    return `<article class="news-card" data-rank="${{rank}}" data-category="${{a.category}}" data-json="${{articleJson}}"
+      onclick="openDetail(this)" style="animation-delay:${{i*0.07}}s;cursor:pointer">
       <div class="card-header">
         <div class="card-meta">
           <span class="rank" style="color:${{rankColor}}">#${{rank}}</span>
@@ -374,18 +585,16 @@ function renderHistoryArticles(articles, dateStr) {{
           <span class="cat-tag" style="background:${{color}}30;color:${{color}}">${{a.category}}</span>
         </div>
       </div>
-      <h2 class="card-title"><a href="${{a.url}}" target="_blank" rel="noopener">${{title}}</a></h2>
+      <h2 class="card-title">${{title}}</h2>
       <p class="card-summary">${{summary}}</p>
       <div class="card-footer">
-        <a class="read-more" href="${{a.url}}" target="_blank" rel="noopener">▶ 阅读原文</a>
+        <span class="read-more">🔬 AI 总结</span>
         <span class="pub-date">${{pubDate}}</span>
       </div>
     </article>`;
   }}).join('');
 
-  // 重新绑定分类过滤
   bindCatBtns();
-  // 重置分类按钮到"全部"
   document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.dataset.cat==='全部'));
 }}
 
@@ -395,75 +604,47 @@ function loadToday() {{
   const sub = document.querySelector('.subtitle');
   if (sub) sub.innerHTML = todaySubtitle;
   document.getElementById('historyBanner').style.display = 'none';
-  const sel = document.getElementById('historySelect');
-  if (sel) {{ for(let o of sel.options) if(o.dataset.today==='1') o.selected=true; }}
+  document.querySelectorAll('.hs-date').forEach(d => d.classList.remove('active'));
+  const todayEl = document.querySelector('.hs-today');
+  if (todayEl) todayEl.classList.add('active');
   bindCatBtns();
   document.querySelectorAll('.news-card').forEach((card, i) => {{ card.style.animationDelay = `${{i * 0.07}}s`; }});
+  document.getElementById('detailOverlay').classList.remove('show');
 }}
 
-// ── 历史下拉响应 ──
-function onHistoryChange(sel) {{
-  const val = sel.value;
-  if (!val || val === 'today') {{ loadToday(); return; }}
-
-  const banner = document.getElementById('historyBanner');
-  const label = document.getElementById('historyDateLabel');
-  if (banner) banner.style.display = 'block';
-  if (label) label.textContent = val;
-
-  const grid = document.getElementById('newsGrid');
-  grid.innerHTML = '<div style="text-align:center;padding:3rem;color:#555;">⏳ 加载中...</div>';
-
-  fetch(`history/${{val}}.json`)
-    .then(r => {{ if(!r.ok) throw new Error(r.status); return r.json(); }})
-    .then(data => {{
-      const articles = data.articles || data;
-      renderHistoryArticles(articles, val);
-    }})
-    .catch(err => {{
-      grid.innerHTML = `<div style="text-align:center;padding:3rem;color:#ef4444;">❌ 加载失败：${{err.message}}<br><small>history/${{val}}.json</small></div>`;
-    }});
-}}
-
-// ── 页面加载后动态填充历史下拉 ──
-(async function initHistorySelect() {{
-  const sel = document.getElementById('historySelect');
-  if (!sel) return;
+// ── 页面加载后动态填充横滑日期条（最多显示 14 天历史）──
+(async function initHistoryStrip() {{
+  const strip = document.getElementById('historyStrip');
+  if (!strip) return;
 
   const today = '{date_str}';
-  const weekday = '{weekday}';
-
-  sel.innerHTML = `<option value="today" data-today="1" selected>📅 ${{today}} ${{weekday}}（今天）</option>`;
-  sel.onchange = () => onHistoryChange(sel);
 
   try {{
     const resp = await fetch('history_index.json');
     if (!resp.ok) throw new Error(resp.status);
     const idx = await resp.json();
     const dates = (idx.dates || []).filter(d => d !== today);
-    dates.forEach(d => {{
-      const opt = document.createElement('option');
-      opt.value = d;
-      opt.textContent = `📄 ${{d}}`;
-      sel.appendChild(opt);
+
+    // 最多显示最近 14 天的历史按钮
+    dates.slice(0, 14).forEach(d => {{
+      const dt = new Date(d);
+      const wd = WEEKDAYS[dt.getDay()];
+      const short = d.substring(5); // MM-DD
+      const el = document.createElement('span');
+      el.className = 'hs-date';
+      el.dataset.date = d;
+      el.onclick = function() {{ onDateClick(this); }};
+      el.innerHTML = `<span class="hs-day">${{wd}}</span><span class="hs-num">${{short}}</span>`;
+      strip.appendChild(el);
     }});
-    if (dates.length === 0) {{
-      const opt = document.createElement('option');
-      opt.disabled = true;
-      opt.textContent = '（暂无更多历史）';
-      sel.appendChild(opt);
-    }}
   }} catch(e) {{
-    const opt = document.createElement('option');
-    opt.disabled = true;
-    opt.textContent = '（历史索引加载失败）';
-    sel.appendChild(opt);
     console.warn('history_index.json load failed:', e);
   }}
 }})();
 </script>
 </body>
 </html>"""
+
 
 if __name__ == "__main__":
     import os, json as j
