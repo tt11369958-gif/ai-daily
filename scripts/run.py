@@ -129,13 +129,17 @@ def run():
         f.write(pages_url)
     log(f"数据文件已写入 output/")
 
-    # ── Step 6: 企业微信推送（本地运行时发送，GitHub Actions 用 notify_only.py）──
-    log("步骤 5/5：推送企业微信群...")
-    from notify_wecom import send_wecom_notification
-    try:
-        send_wecom_notification(summarized, pages_url=pages_url, cover_url=cover_url)
-    except Exception as e:
-        log(f"企微推送失败: {e}", "⚠")
+    # ── Step 6: 企业微信推送（仅本地运行时，GitHub Actions 用 notify_only.py）──
+    # GitHub Actions 环境下，跳过此步骤（pages_url 还没有，notify_only.py 会在部署后发送）
+    if os.environ.get("CI") or os.environ.get("GITHUB_PAGES_URL"):
+        log("GitHub Actions 环境，跳过本地企微推送")
+    else:
+        log("步骤 5/5：推送企业微信群...")
+        from notify_wecom import send_wecom_notification
+        try:
+            send_wecom_notification(summarized, pages_url=pages_url, cover_url=cover_url)
+        except Exception as e:
+            log(f"企微推送失败: {e}", "⚠")
 
     elapsed = time.time() - start
     print(f"\n{'='*50}")
