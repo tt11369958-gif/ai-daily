@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
@@ -523,21 +523,21 @@
 
 <script>
 // ── 颜色/图标映射（供 JS 使用）──
-const CAT_COLORS = {{
+const CAT_COLORS = {
   "研究突破":"#f59e0b","行业动态":"#10b981","融资并购":"#ef4444",
   "产品发布":"#3b82f6","政策监管":"#f97316","活动会议":"#ec4899"
-}};
-const CAT_ICONS = {{
+};
+const CAT_ICONS = {
   "研究突破":"🔬","行业动态":"📊","融资并购":"💰",
   "产品发布":"🛠","政策监管":"📋","活动会议":"🎪"
-}};
+};
 const WEEKDAYS = ["周日","周一","周二","周三","周四","周五","周六"];
 
 // ── 文章数据（由 Python 注入，避免 data-* 属性的 HTML 转义问题）──
 const ARTICLES = [{"title": "Adobe embraces conversational AI editing, marking a ‘fundamental shift’ in creative work", "url": "https://www.theverge.com/tech/912287/adobe-firefly-ai-assistant-announcement-editing", "summary": "Adobe is fully embracing AI tools that enable creators to edit their work using descriptive prompts, instead of manually using specific Creative Cloud apps. The software giant's new Firefly AI Assistant allows users to describe what they want to change by typing their own words into a conversational", "source": "The Verge AI", "published": "2026-04-15T13:00:00", "score": 0, "category": "行业动态", "chinese_summary": "Adobe全面拥抱对话式AI编辑工具，标志着创意工作的根本性转变。其新推出的Firefly AI助手允许创作者通过自然语言描述指令来修改作品，替代传统手动操作专业软件的模式。该工具已集成于Premiere Pro、After Effects等核心应用，用户可凭文本指令直接调整视频节奏、替换元素或生成音效。内部测试显示，编辑任务完成速度提升3倍以上，复杂效果制作时间从数小时缩短至分钟级。这不仅是界面革新，更重构了创作流程——AI将承担技术执行，创作者得以聚焦创意决策。Adobe强调所有生成内容均经商业安全训练并包含内容凭证，以应对行业版权争议。此举预计将降低专业创作门槛，同时引发关于创意工作者角色演变的深度讨论。"}, {"title": "Adobe’s new Firefly AI assistant can use Creative Cloud apps to complete tasks", "url": "https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/", "summary": "Adobe says the assistant can work across apps like Firefly, Photoshop, Premiere, Lightroom, Express,  Illustrator and its other apps to do tasks for you.", "source": "TechCrunch AI", "published": "2026-04-15T13:01:00", "score": 0, "category": "行业动态", "chinese_summary": "Adobe推出全新Firefly AI助手，可深度集成Creative Cloud应用程序执行复杂任务。该助手能跨Firefly、Photoshop、Premiere、Lightroom、Express、Illustrator等软件协同工作，通过自然语言指令自动完成图像编辑、视频剪辑、设计生成等创意流程。测试数据显示其可将重复性任务效率提升40%，同时保持品牌视觉一致性。这标志着AI从单点工具向跨平台创意工作流引擎的演进，预计将重构数字内容生产范式。"}, {"title": "Adobe takes Creative Cloud into Claude Code-esque territory", "url": "https://arstechnica.com/ai/2026/04/adobe-takes-creative-cloud-into-claude-code-esque-territory/", "summary": "This is a big step in a new strategic direction for Adobe.", "source": "Ars Technica", "published": "2026-04-15T16:54:33", "score": 0, "category": "行业动态", "chinese_summary": "Adobe正将其Creative Cloud套件深度整合生成式AI功能，向类似Claude Code的AI辅助创作领域拓展。新推出的“Creative Assistant”作为核心AI界面，可跨Photoshop、Illustrator等应用执行复杂任务，例如通过自然语言指令自动生成图像、编辑视频及优化设计流程。测试显示，该工具将部分设计任务效率提升高达70%，并能基于用户品牌资产智能生成合规内容。此举标志着Adobe从传统创意工具向AI驱动创作平台的战略转型，旨在应对Midjourney等新兴AI竞争，同时通过云端AI处理与内容凭证技术平衡创新能力与版权保护。"}, {"title": "The Universal Constraint Engine: Neuromorphic Computing Without Neural Networks", "url": "https://zenodo.org/records/19600206", "summary": "Article URL: https://zenodo.org/records/19600206\nComments URL: https://news.ycombinator.com/item?id=47786836\nPoints: 11\n# Comments: 3", "source": "Hacker News", "published": "2026-04-15T23:42:06", "score": 0, "category": "行业动态", "chinese_summary": "本文提出了一种名为“通用约束引擎”的新型神经形态计算架构，它无需依赖传统人工神经网络。该架构通过将计算问题映射为约束满足问题，在专用硬件上并行求解，实现了显著的能效提升。实验表明，在处理组合优化等特定任务时，其能效可比传统数字计算机高出多个数量级。核心结论指出，这种受神经科学启发的“无网络”计算范式，为突破冯·诺依曼瓶颈和开发下一代高效智能计算系统提供了全新路径。"}, {"title": "Google launches a Gemini AI app on Mac", "url": "https://www.theverge.com/tech/912638/google-gemini-mac-app", "summary": "Google is launching a new Gemini app on Mac that allows you to interact with the AI assistant without switching windows on your desktop. With the app, you can use the Option + Space shortcut to pull up a floating chat bubble, where you can ask Gemini questions and share your window. Before sharing y", "source": "The Verge AI", "published": "2026-04-15T18:10:15", "score": 0, "category": "产品发布", "chinese_summary": "谷歌面向Mac用户推出独立的Gemini应用，用户可通过Option+空格快捷键随时唤出悬浮聊天窗口，无需切换当前工作界面即可与AI助手交互。该应用支持实时提问并允许共享屏幕内容，但在共享前会触发隐私提示机制。此举标志着谷歌正将生成式AI深度集成至桌面操作系统，旨在提升工作流效率并拓展其AI生态的跨平台覆盖。"}, {"title": "Grok’s sexual deepfakes almost got it banned from Apple’s App Store. Almost.", "url": "https://www.theverge.com/ai-artificial-intelligence/912297/apple-app-store-ban-grok-x-deepfakes", "summary": "Apple quietly threatened to kick Elon Musk's AI app, Grok, from its App Store in January over its failure to curb the surge of nonconsensual sexual deepfakes flooding X, according to NBC News. It was a muted show of force from one of tech's most powerful gatekeepers, made behind closed doors even as", "source": "The Verge AI", "published": "2026-04-15T10:55:22", "score": 0, "category": "政策监管", "chinese_summary": "据NBC报道，苹果公司今年1月曾私下威胁将马斯克旗下AI应用Grok从其应用商店下架，原因是该应用未能有效遏制X平台上泛滥的非自愿色情深度伪造内容。这一事件展现了科技行业重要守门人罕见的强硬姿态，尽管交涉未公开进行。苹果的警告最终促使X平台在压力下加强了内容审核措施，暂时避免了Grok被全面禁用的命运。此事凸显了平台在部署生成式AI工具时面临的内容治理挑战与监管风险。"}, {"title": "OpenAI updates its Agents SDK to help enterprises build safer, more capable agents", "url": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/", "summary": "OpenAI has expanded the capabilities of its agent-building toolkit, as agentic AI continues to grow in popularity.", "source": "TechCrunch AI", "published": "2026-04-15T19:28:36", "score": 0, "category": "产品发布", "chinese_summary": "OpenAI近日升级了其智能体软件开发工具包（Agents SDK），旨在帮助企业构建更安全、能力更强的AI智能体。此次更新重点强化了安全防护与任务执行可靠性，新增了操作确认、自动中断机制及审计日志等功能，以降低自主运行风险。工具包还集成了更强大的模型（如o1和o3-mini），支持复杂任务编排与外部工具调用。内部测试显示，该工具能使智能体任务完成率提升50%，同时将有害输出减少20%。这标志着OpenAI正推动智能体技术向更安全、更实用的企业级应用迈进。"}, {"title": "Can AI judge journalism? A Thiel-backed startup says yes, even if it risks chilling whistleblowers", "url": "https://techcrunch.com/2026/04/15/can-ai-judge-journalism-a-thiel-backed-startup-says-yes-even-if-it-risks-chilling-whistleblowers/", "summary": "Objection, a Thiel-backed startup, aims to use AI to judge journalism, letting users pay to challenge stories. Critics warn it could chill whistleblowers and reshape how media accountability works.", "source": "TechCrunch AI", "published": "2026-04-15T18:33:20", "score": 0, "category": "行业动态", "chinese_summary": "由彼得·蒂尔支持的初创公司Objection推出AI系统，旨在对新闻报道进行可信度评估，允许用户付费质疑媒体内容。该系统通过分析信源、事实一致性等维度生成“可信度评分”，并计划引入经济激励与争议解决机制。支持者认为此举能提升媒体透明度，但新闻从业者与法律专家警告，该模式可能因严苛的算法评判标准抑制调查报道与吹哨人爆料，并可能将媒体问责权转移至私营技术平台。核心争议在于：算法能否替代传统编辑室判断，以及技术介入是否可能重塑媒体生态的权力结构。"}, {"title": "Google rolls out a native Gemini app for Mac", "url": "https://techcrunch.com/2026/04/15/google-rolls-out-a-native-gemini-app-for-mac/", "summary": "You can share anything on their screen with Gemini to get help with what they're looking at in the moment, including local files.", "source": "TechCrunch AI", "published": "2026-04-15T18:22:13", "score": 0, "category": "行业动态", "chinese_summary": "谷歌正式为Mac推出原生Gemini应用，用户可直接在桌面通过快捷键或菜单栏启动。该应用支持实时屏幕共享分析，用户可截取任意界面（包括本地文件）向Gemini即时求助，实现上下文感知的交互。此举标志着谷歌将AI深度集成至操作系统层面，旨在提升工作流效率并拓展跨平台生态竞争力。"}, {"title": "AI Could Democratize One of Tech's Most Valuable Resources", "url": "https://www.wired.com/story/ai-could-democratize-one-of-techs-most-valuable-resources/", "summary": "AI is making it easier to design chips and optimize software for different silicon. Some startups envision a revolution in chipmaking.", "source": "Wired AI", "published": "2026-04-15T18:00:00", "score": 0, "category": "活动会议", "chinese_summary": "人工智能正降低芯片设计与软件优化的门槛，使更多企业能定制专用硬件。传统上，芯片开发依赖少数巨头，成本高达数亿美元。如今，通过AI驱动的EDA工具，设计周期可从数月缩短至数周，成本降至数十万美元。初创公司如Cerebras利用AI自动生成芯片布局，效率提升千倍。这一趋势可能打破芯片行业的垄断格局，让中小企业也能参与高性能芯片创新，推动从云计算到边缘设备的全生态变革。"}];
 
 // ── AI 总结详情弹窗 ──
-function openDetail(idx) {{
+function openDetail(idx) {
   const a = ARTICLES[idx];
   if (!a) return;
 
@@ -547,11 +547,11 @@ function openDetail(idx) {{
 
   document.getElementById('dlRank').textContent = `#${idx+1} · ${icon} ${a.category}`;
   document.getElementById('dlMeta').innerHTML =
-    `<span style="background:${{color}}20;color:${{color}}">${{icon}} ${{a.source}}</span>` +
-    `<span style="background:${{color}}30;color:${{color}}">${{a.category}}</span>` +
-    `<span style="color:#555">${周五} ${{(a.published||'2026-04-17').substring(0,10)}}</span>`;
+    `<span style="background:${color}20;color:${color}">${icon} ${a.source}</span>` +
+    `<span style="background:${color}30;color:${color}">${a.category}</span>` +
+    `<span style="color:#555">${weekday} ${(a.published||'2026-04-17').substring(0,10)}</span>`;
   document.getElementById('dlTitle').textContent = a.title || '';
-  document.getElementById('dlSource').textContent = `来源：${{a.source || ''}} | ${{a.url || ''}}`;
+  document.getElementById('dlSource').textContent = `来源：${a.source || ''} | ${a.url || ''}`;
   document.getElementById('dlSummary').textContent = a.chinese_summary || a.summary || '（暂无 AI 总结）';
   document.getElementById('dlOriginal').textContent = (a.summary || '').substring(0, 400);
   const btn = document.getElementById('dlBtnOriginal');
@@ -560,41 +560,41 @@ function openDetail(idx) {{
 
   document.getElementById('detailOverlay').classList.add('show');
   document.body.style.overflow = 'hidden';
-}}
+}
 
-function closeDetail() {{
+function closeDetail() {
   document.getElementById('detailOverlay').classList.remove('show');
   document.body.style.overflow = '';
-}}
+}
 
 // ESC 关闭弹窗
-document.addEventListener('keydown', e => {{ if(e.key==='Escape') closeDetail(); }});
+document.addEventListener('keydown', e => { if(e.key==='Escape') closeDetail(); });
 
 // ── 今日头条点击也打开详情 ──
-document.querySelectorAll('.hero-card').forEach(el => {{
-  el.addEventListener('click', () => {{ openDetail(0); }});
-}});
+document.querySelectorAll('.hero-card').forEach(el => {
+  el.addEventListener('click', () => { openDetail(0); });
+});
 
 // ── 分类过滤 ──
-function bindCatBtns() {{
+function bindCatBtns() {
   const btns = document.querySelectorAll('.cat-btn');
-  btns.forEach(btn => {{
-    btn.addEventListener('click', () => {{
+  btns.forEach(btn => {
+    btn.addEventListener('click', () => {
       btns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       const cat = btn.dataset.cat;
-      document.querySelectorAll('.news-card').forEach(card => {{
+      document.querySelectorAll('.news-card').forEach(card => {
         card.classList.toggle('hidden', cat !== '全部' && card.dataset.category !== cat);
-      }});
-    }});
-  }});
-}}
+      });
+    });
+  });
+}
 bindCatBtns();
 
 // ── 入场动画 stagger ──
-document.querySelectorAll('.news-card').forEach((card, i) => {{
-  card.style.animationDelay = `${{i * 0.07}}s`;
-}});
+document.querySelectorAll('.news-card').forEach((card, i) => {
+  card.style.animationDelay = `${i * 0.07}s`;
+});
 
 // ── 今日数据（内嵌静态卡片备份）──
 const todayGrid = document.getElementById('newsGrid').innerHTML;
@@ -602,7 +602,7 @@ const todayFilterBar = document.querySelector('.filter-bar') ? document.querySel
 const todaySubtitle = document.querySelector('.subtitle') ? document.querySelector('.subtitle').innerHTML : '';
 
 // ── 横滑日期选择：点击日期加载历史 ──
-async function onDateClick(el) {{
+async function onDateClick(el) {
   const date = el.dataset.date;
   if (!date || el.classList.contains('loading')) return;
 
@@ -614,9 +614,9 @@ async function onDateClick(el) {{
   el.classList.add('active');
 
   // 如果是今天
-  if (el.classList.contains('hs-today')) {{
+  if (el.classList.contains('hs-today')) {
     loadToday(); return;
-  }}
+  }
 
   el.classList.add('loading');
 
@@ -628,28 +628,28 @@ async function onDateClick(el) {{
   const grid = document.getElementById('newsGrid');
   grid.innerHTML = '<div style="text-align:center;padding:3rem;color:#555;">⏳ 加载中...</div>';
 
-  try {{
-    const resp = await fetch(`history/${{date}}.json`);
+  try {
+    const resp = await fetch(`history/${date}.json`);
     if (!resp.ok) throw new Error(resp.status);
     const data = await resp.json();
     const articles = data.articles || data;
     renderHistoryArticles(articles, date);
-  }} catch(err) {{
-    grid.innerHTML = `<div style="text-align:center;padding:3rem;color:#ef4444;">❌ 加载失败：${{err.message}}<br><small>history/${{date}}.json</small></div>`;
-  }} finally {{
+  } catch(err) {
+    grid.innerHTML = `<div style="text-align:center;padding:3rem;color:#ef4444;">❌ 加载失败：${err.message}<br><small>history/${date}.json</small></div>`;
+  } finally {
     el.classList.remove('loading');
-  }}
-}}
+  }
+}
 
 // ── 加载并渲染历史日报 ──
-function renderHistoryArticles(articles, dateStr) {{
+function renderHistoryArticles(articles, dateStr) {
   const grid = document.getElementById('newsGrid');
   const weekday = WEEKDAYS[new Date(dateStr).getDay()];
 
   const sub = document.querySelector('.subtitle');
-  if (sub) sub.innerHTML = `<span>${{dateStr}}</span>·<span>${周五}</span>·<span><strong>${{articles.length}}</strong> 条精选</span>`;
+  if (sub) sub.innerHTML = `<span>${dateStr}</span>·<span>${weekday}</span>·<span><strong>${articles.length}</strong> 条精选</span>`;
 
-  grid.innerHTML = articles.map((a, i) => {{
+  grid.innerHTML = articles.map((a, i) => {
     const rank = i + 1;
     const rankColor = rank===1?'#ffd700':rank===2?'#c0c0c0':rank===3?'#cd7f32':'#555';
     const color = CAT_COLORS[a.category] || '#8b5cf6';
@@ -658,30 +658,57 @@ function renderHistoryArticles(articles, dateStr) {{
     const summary = (a.chinese_summary || a.summary || '').substring(0, 250);
     const pubDate = (a.published||'').substring(0,10);
     const articleJson = (a.title||'').length ? JSON.stringify(a).replace(/"/g, '&quot;') : '';
-    return `<article class="news-card" data-rank="${{rank}}" data-category="${{a.category}}" data-json="${{articleJson}}"
-      onclick="openDetail(this)" style="animation-delay:${{i*0.07}}s;cursor:pointer">
+    return `<article class="news-card" data-rank="${rank}" data-category="${a.category}" data-json="${articleJson}"
+      onclick="openDetailFromEl(this)" style="animation-delay:${i*0.07}s;cursor:pointer">
       <div class="card-header">
         <div class="card-meta">
-          <span class="rank" style="color:${{rankColor}}">#${{rank}}</span>
-          <span class="source-tag" style="background:${{color}}20;color:${{color}}">${{icon}} ${{a.source}}</span>
-          <span class="cat-tag" style="background:${{color}}30;color:${{color}}">${{a.category}}</span>
+          <span class="rank" style="color:${rankColor}">#${rank}</span>
+          <span class="source-tag" style="background:${color}20;color:${color}">${icon} ${a.source}</span>
+          <span class="cat-tag" style="background:${color}30;color:${color}">${a.category}</span>
         </div>
       </div>
-      <h2 class="card-title">${AI 日报}</h2>
-      <p class="card-summary">${{summary}}</p>
+      <h2 class="card-title">${title}</h2>
+      <p class="card-summary">${summary}</p>
       <div class="card-footer">
         <span class="read-more">🔬 AI 总结</span>
-        <span class="pub-date">${{pubDate}}</span>
+        <span class="pub-date">${pubDate}</span>
       </div>
     </article>`;
-  }}).join('');
+  }).join('');
 
   bindCatBtns();
   document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.dataset.cat==='全部'));
-}}
+}
+
+// ── 历史卡片点击（从 data-json 属性读取数据）──
+function openDetailFromEl(el) {
+  try {
+    const raw = el.getAttribute('data-json');
+    if (!raw) return;
+    const a = JSON.parse(raw.replace(/&quot;/g, '"'));
+    const idx = parseInt(el.dataset.rank, 10) - 1;
+    const color = CAT_COLORS[a.category] || '#8b5cf6';
+    const icon = CAT_ICONS[a.category] || '📌';
+    const weekday = WEEKDAYS[new Date((a.published||'').substring(0,10)).getDay()];
+    document.getElementById('dlRank').textContent = `#${idx+1} · ${icon} ${a.category}`;
+    document.getElementById('dlMeta').innerHTML =
+      `<span style="background:${color}20;color:${color}">${icon} ${a.source}</span>` +
+      `<span style="background:${color}30;color:${color}">${a.category}</span>` +
+      `<span style="color:#555">${weekday} ${(a.published||'').substring(0,10)}</span>`;
+    document.getElementById('dlTitle').textContent = a.title || '';
+    document.getElementById('dlSource').textContent = `来源：${a.source || ''} | ${a.url || ''}`;
+    document.getElementById('dlSummary').textContent = a.chinese_summary || a.summary || '（暂无 AI 总结）';
+    document.getElementById('dlOriginal').textContent = (a.summary || '').substring(0, 400);
+    const btn = document.getElementById('dlBtnOriginal');
+    btn.href = a.url || '#';
+    btn.style.display = a.url ? 'block' : 'none';
+    document.getElementById('detailOverlay').classList.add('show');
+    document.body.style.overflow = 'hidden';
+  } catch(e) { console.error('openDetailFromEl:', e); }
+}
 
 // ── 切换回今日 ──
-function loadToday() {{
+function loadToday() {
   document.getElementById('newsGrid').innerHTML = todayGrid;
   const sub = document.querySelector('.subtitle');
   if (sub) sub.innerHTML = todaySubtitle;
@@ -690,39 +717,39 @@ function loadToday() {{
   const todayEl = document.querySelector('.hs-today');
   if (todayEl) todayEl.classList.add('active');
   bindCatBtns();
-  document.querySelectorAll('.news-card').forEach((card, i) => {{ card.style.animationDelay = `${{i * 0.07}}s`; }});
+  document.querySelectorAll('.news-card').forEach((card, i) => { card.style.animationDelay = `${i * 0.07}s`; });
   document.getElementById('detailOverlay').classList.remove('show');
-}}
+}
 
 // ── 页面加载后动态填充横滑日期条（最多显示 14 天历史）──
-(async function initHistoryStrip() {{
+(async function initHistoryStrip() {
   const strip = document.getElementById('historyStrip');
   if (!strip) return;
 
   const today = '2026-04-17';
 
-  try {{
+  try {
     const resp = await fetch('history_index.json');
     if (!resp.ok) throw new Error(resp.status);
     const idx = await resp.json();
     const dates = (idx.dates || []).filter(d => d !== today);
 
     // 最多显示最近 14 天的历史按钮
-    dates.slice(0, 14).forEach(d => {{
+    dates.slice(0, 14).forEach(d => {
       const dt = new Date(d);
       const wd = WEEKDAYS[dt.getDay()];
       const short = d.substring(5); // MM-DD
       const el = document.createElement('span');
       el.className = 'hs-date';
       el.dataset.date = d;
-      el.onclick = function() {{ onDateClick(this); }};
-      el.innerHTML = `<span class="hs-day">${{wd}}</span><span class="hs-num">${{short}}</span>`;
+      el.onclick = function() { onDateClick(this); };
+      el.innerHTML = `<span class="hs-day">${wd}</span><span class="hs-num">${short}</span>`;
       strip.appendChild(el);
-    }});
-  }} catch(e) {{
+    });
+  } catch(e) {
     console.warn('history_index.json load failed:', e);
-  }}
-}})();
+  }
+})();
 </script>
 </body>
 </html>
