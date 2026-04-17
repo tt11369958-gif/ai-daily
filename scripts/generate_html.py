@@ -319,9 +319,9 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <span>🚀 <a href="{pages_url}" target="_blank">GitHub Pages</a></span>
   </div>
 
-  <div id="historyBanner" style="display:none;background:#1a1035;border:1px solid #8b5cf640;border-radius:.75rem;padding:.75rem 1.25rem;margin-bottom:1rem;font-size:.82rem;color:#94a3b8;text-align:center;">
-    正在查看历史日报：<strong id="historyDateLabel"></strong>
-    &nbsp;·&nbsp;<a href="#" onclick="loadToday();return false;" style="color:#8b5cf6;">← 返回今日</a>
+    <div class="news-grid" id="newsGrid">
+{cards_html}
+  </div></a>
   </div>
 
   <div class="news-grid" id="newsGrid">
@@ -348,6 +348,12 @@ const CAT_ICONS = {
   "产品发布":"🛠","政策监管":"📋","活动会议":"🎪"
 };
 const WEEKDAYS = ["周日","周一","周二","周三","周四","周五","周六"];
+
+// 修复：YYYY-MM-DD 按本地时区解析，避免 UTC 偏移导致 weekday 错位
+function getWeekday(dateStr) {
+  const [y,m,d] = dateStr.split('-').map(Number);
+  return WEEKDAYS[new Date(y, m-1, d).getDay()];
+}
 
 // ── 文章数据（Python 注入）──
 const ARTICLES = {articles_json};
@@ -456,7 +462,7 @@ async function onDateClick(el) {
 // ── 渲染历史文章 ──
 function renderHistoryArticles(articles, dateStr) {
   const grid = document.getElementById('newsGrid');
-  const weekday = WEEKDAYS[new Date(dateStr).getDay()];
+  const weekday = getWeekday(dateStr);
   const sub = document.querySelector('.subtitle');
   if (sub) sub.innerHTML = `<span>${dateStr}</span>·<span>${weekday}</span>·<span><strong>${articles.length}</strong> 条精选</span>`;
 
@@ -499,8 +505,7 @@ function renderHistoryArticles(articles, dateStr) {
     const idx = await resp.json();
     const dates = (idx.dates || []).filter(d => d !== today);
     dates.slice(0, 6).forEach(d => {
-      const dt = new Date(d);
-      const wd = WEEKDAYS[dt.getDay()];
+      const wd = getWeekday(d);
       const short = d.substring(5);
       const el = document.createElement('span');
       el.className = 'hs-date';
