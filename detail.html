@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 日报 · 文章详情</title>
+<title>AI 日报 · 详情</title>
 <style>
   :root {
     --bg: #0a0a0f;
@@ -22,143 +22,131 @@
   }
   a { color:inherit; text-decoration:none }
 
-  /* ── 顶部导航条 ── */
-  .top-bar {
-    background:linear-gradient(135deg,#0f0f1a 0%,#1a1035 100%);
-    border-bottom:1px solid #2a2a4a;
-    padding:.85rem 1.5rem;
-    display:flex;align-items:center;gap:.75rem;
+  /* ── 顶部导航栏 ── */
+  .topbar {
+    background:#0d0d18;
+    border-bottom:1px solid #1e1e2e;
+    padding:.75rem 1.5rem;
+    display:flex;align-items:center;gap:1rem;
     position:sticky;top:0;z-index:100;
   }
   .back-btn {
-    display:inline-flex;align-items:center;gap:.4rem;
-    background:#1a1a2e;border:1px solid #2a2a4a;color:var(--text-dim);
-    padding:.4rem .9rem;border-radius:.5rem;cursor:pointer;
-    font-size:.82rem;transition:all .2s;
+    display:flex;align-items:center;gap:.35rem;
+    background:#1a1a2e;border:1px solid #2a2a4a;
+    color:var(--text-dim);padding:.4rem .9rem;
+    border-radius:.5rem;cursor:pointer;font-size:.85rem;
+    transition:all .2s;
   }
   .back-btn:hover { border-color:var(--accent);color:var(--accent) }
-  .top-bar-title {
-    font-size:.9rem;font-weight:700;
-    background:linear-gradient(90deg,var(--accent),var(--accent2));
-    -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-    background-clip:text;
+  .topbar-title {
+    font-size:.85rem;color:var(--text-dim);
+    flex:1;text-align:center;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
   }
 
   /* ── 主内容区 ── */
-  .detail-page {
-    max-width:720px;margin:0 auto;
-    padding:2rem 1.5rem 4rem;
-  }
-
-  /* ── 文章卡片头部 ── */
-  .detail-card {
-    background:var(--card-bg);border:1px solid var(--card-border);
-    border-radius:1.25rem;overflow:hidden;
+  .detail-wrap {
+    max-width:720px;
+    margin:2rem auto;
+    padding:0 1.5rem 4rem;
     animation:fadeIn .4s ease;
   }
+
   @keyframes fadeIn {
     from{opacity:0;transform:translateY(16px)}
     to{opacity:1;transform:translateY(0)}
   }
 
-  .detail-header {
-    padding:1.75rem 1.75rem 1.25rem;
-    background:linear-gradient(135deg,#0f0f1a 0%,#1a1035 100%);
-    border-bottom:1px solid #1e1e2e;
-  }
-  .detail-rank {
-    display:inline-block;font-size:.7rem;font-weight:800;
+  /* ── rank badge ── */
+  .rank-badge {
+    display:inline-block;
     background:linear-gradient(135deg,#8b5cf6,#06b6d4);
-    color:#fff;padding:.2rem .65rem;border-radius:2rem;
-    margin-bottom:.85rem;letter-spacing:.04em;
+    color:#fff;font-size:.72rem;font-weight:800;
+    padding:.25rem .75rem;border-radius:2rem;
+    letter-spacing:.05em;margin-bottom:1rem;
   }
-  .detail-meta {
-    display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.85rem;
+
+  /* ── meta 标签行 ── */
+  .meta-row {
+    display:flex;flex-wrap:wrap;gap:.4rem;
+    margin-bottom:1.25rem;
   }
-  .detail-meta span {
-    font-size:.72rem;padding:.2rem .55rem;border-radius:.3rem;font-weight:600;
+  .meta-row span {
+    font-size:.72rem;padding:.18rem .55rem;
+    border-radius:.3rem;font-weight:600;
   }
+  .meta-date { color:var(--text-dim) !important; background:none !important; }
+
+  /* ── 标题 ── */
   .detail-title {
-    font-size:1.25rem;font-weight:800;line-height:1.45;
-    margin-bottom:.5rem;color:var(--text);
+    font-size:1.4rem;font-weight:800;
+    line-height:1.4;margin-bottom:.75rem;
   }
   .detail-source {
-    font-size:.75rem;color:#555;
+    font-size:.78rem;color:#555;
+    margin-bottom:2rem;
     word-break:break-all;
   }
-  .detail-source a { color:#444;text-decoration:underline }
-  .detail-source a:hover { color:var(--accent) }
 
-  /* ── 内容区 ── */
-  .detail-body {
-    padding:1.5rem 1.75rem;
-  }
+  /* ── AI 总结区 ── */
   .section-label {
-    font-size:.68rem;font-weight:700;color:var(--accent);
-    letter-spacing:.08em;text-transform:uppercase;
-    margin-bottom:.65rem;margin-top:1.5rem;
     display:flex;align-items:center;gap:.4rem;
+    font-size:.7rem;font-weight:800;color:var(--accent);
+    letter-spacing:.08em;text-transform:uppercase;
+    margin-bottom:.65rem;
   }
-  .section-label:first-child { margin-top:0 }
-  .summary-box {
-    font-size:.9rem;line-height:1.85;color:var(--text);
-    background:#0d0d18;border:1px solid #1e1e2e;
-    border-radius:.75rem;padding:1.1rem 1.25rem;
+  .ai-summary-box {
+    background:#0d0d18;border:1px solid #2a2a4a;
+    border-radius:.875rem;padding:1.25rem 1.5rem;
+    font-size:.92rem;line-height:1.85;color:var(--text);
+    margin-bottom:2rem;
   }
+
+  /* ── 原文摘要 ── */
   .original-box {
-    font-size:.83rem;line-height:1.75;color:var(--text-dim);
-    background:#0d0d18;border:1px solid #1e1e2e;
-    border-radius:.75rem;padding:1rem 1.25rem;
+    background:var(--card-bg);border:1px solid var(--card-border);
+    border-radius:.875rem;padding:1.25rem 1.5rem;
+    font-size:.84rem;line-height:1.75;color:var(--text-dim);
+    margin-bottom:2rem;
   }
 
-  /* ── 底部操作栏 ── */
-  .detail-actions {
-    padding:1.25rem 1.75rem 1.5rem;
-    border-top:1px solid #1e1e2e;
+  /* ── 底部操作按钮 ── */
+  .action-bar {
     display:flex;gap:.75rem;
+    position:sticky;bottom:1.25rem;
   }
-  .btn-primary {
-    flex:1;background:var(--accent);color:#fff;
-    text-align:center;padding:.75rem;border-radius:.6rem;
-    font-size:.88rem;font-weight:700;cursor:pointer;
-    transition:opacity .2s;border:none;display:block;
-  }
-  .btn-primary:hover { opacity:.85 }
-  .btn-secondary {
+  .btn-back {
+    flex:0 0 auto;
     background:#1a1a2e;border:1px solid #2a2a4a;color:var(--text-dim);
-    padding:.75rem 1.25rem;border-radius:.6rem;
-    font-size:.88rem;cursor:pointer;transition:all .2s;
-    white-space:nowrap;
+    padding:.75rem 1.4rem;border-radius:.7rem;
+    font-size:.9rem;cursor:pointer;transition:all .2s;
   }
-  .btn-secondary:hover { border-color:var(--accent);color:var(--accent) }
+  .btn-back:hover { border-color:var(--accent);color:var(--accent) }
+  .btn-read {
+    flex:1;
+    background:var(--accent);color:#fff;
+    text-align:center;padding:.75rem;border-radius:.7rem;
+    font-size:.9rem;font-weight:700;cursor:pointer;
+    transition:opacity .2s;display:block;
+  }
+  .btn-read:hover { opacity:.85 }
 
-  /* ── 错误状态 ── */
-  .error-state {
-    text-align:center;padding:4rem 2rem;
-    color:var(--text-dim);
+  /* ── 加载错误 ── */
+  .error-msg {
+    text-align:center;padding:4rem 2rem;color:#ef4444;font-size:.9rem;
   }
-  .error-state h2 { font-size:1.2rem;margin-bottom:.75rem;color:#ef4444 }
-  .error-state p { font-size:.9rem;margin-bottom:1.5rem }
-  .error-state a {
-    display:inline-block;background:var(--accent);color:#fff;
-    padding:.65rem 1.5rem;border-radius:.6rem;font-size:.88rem;font-weight:700;
-    transition:opacity .2s;
-  }
-  .error-state a:hover { opacity:.85 }
 </style>
 </head>
 <body>
 
-<!-- 顶部导航 -->
-<div class="top-bar">
-  <button class="back-btn" onclick="goBack()">← 返回日报</button>
-  <span class="top-bar-title">🤖 AI 日报详情</span>
+<div class="topbar">
+  <button class="back-btn" onclick="goBack()">← 返回列表</button>
+  <div class="topbar-title" id="topbarTitle">AI 日报</div>
 </div>
 
-<!-- 主内容 -->
-<main class="detail-page" id="detailPage">
-  <!-- JS 动态填充 -->
-</main>
+<div class="detail-wrap" id="detailWrap">
+  <div class="error-msg">⏳ 加载中...</div>
+</div>
 
 <script>
 const CAT_COLORS = {
@@ -172,98 +160,80 @@ const CAT_ICONS = {
 const WEEKDAYS = ["周日","周一","周二","周三","周四","周五","周六"];
 
 function goBack() {
-  if (document.referrer && document.referrer !== window.location.href) {
+  if (history.length > 1) {
     history.back();
   } else {
     window.location.href = 'index.html';
   }
 }
 
-function render(a, idx) {
+function render(a, rank, date) {
   const color = CAT_COLORS[a.category] || '#8b5cf6';
   const icon = CAT_ICONS[a.category] || '📌';
-  const pubDate = (a.published || '').substring(0, 10);
+  const pubDate = date || (a.published || '').substring(0, 10);
   const weekday = pubDate ? WEEKDAYS[new Date(pubDate).getDay()] : '';
-  const rank = idx + 1;
+  const summary = a.chinese_summary || a.summary || '（暂无 AI 总结）';
+  const original = (a.summary || '').substring(0, 500);
+  const title = a.title || '';
 
-  document.title = `AI 日报 · ${a.title || '文章详情'}`;
+  document.getElementById('topbarTitle').textContent = title;
+  document.title = `${title} · AI 日报`;
 
-  const page = document.getElementById('detailPage');
-  page.innerHTML = `
-    <div class="detail-card">
-      <div class="detail-header">
-        <span class="detail-rank">#${rank} · ${icon} ${a.category || '未分类'}</span>
-        <div class="detail-meta">
-          <span style="background:${color}20;color:${color}">${icon} ${a.source || ''}</span>
-          <span style="background:${color}30;color:${color}">${a.category || ''}</span>
-          ${weekday ? `<span style="color:#666">${weekday} ${pubDate}</span>` : ''}
-        </div>
-        <h1 class="detail-title">${escHtml(a.title || '')}</h1>
-        <p class="detail-source">
-          来源：${escHtml(a.source || '')}
-          ${a.url ? ` &nbsp;|&nbsp; <a href="${escHtml(a.url)}" target="_blank" rel="noopener">${escHtml(a.url.length > 60 ? a.url.substring(0,60)+'…' : a.url)}</a>` : ''}
-        </p>
-      </div>
+  document.getElementById('detailWrap').innerHTML = `
+    <span class="rank-badge">#${rank} · ${icon} ${a.category}</span>
+    <div class="meta-row">
+      <span style="background:${color}20;color:${color}">${icon} ${a.source || ''}</span>
+      <span style="background:${color}30;color:${color}">${a.category || ''}</span>
+      <span class="meta-date">${weekday} ${pubDate}</span>
+    </div>
+    <h1 class="detail-title">${title}</h1>
+    <p class="detail-source">来源：${a.source || ''} &nbsp;|&nbsp; ${a.url || ''}</p>
 
-      <div class="detail-body">
-        <p class="section-label">🤖 AI 中文总结</p>
-        <div class="summary-box">${escHtml(a.chinese_summary || a.summary || '（暂无 AI 总结）')}</div>
+    <div class="section-label">🤖 AI 中文总结</div>
+    <div class="ai-summary-box">${summary}</div>
 
-        ${(a.summary && a.summary !== a.chinese_summary) ? `
-        <p class="section-label">📄 原文摘要</p>
-        <div class="original-box">${escHtml(a.summary.substring(0, 600))}${a.summary.length > 600 ? '…' : ''}</div>
-        ` : ''}
-      </div>
+    ${original ? `<div class="section-label">📄 原文摘要</div><div class="original-box">${original}</div>` : ''}
 
-      <div class="detail-actions">
-        <button class="btn-secondary" onclick="goBack()">← 返回列表</button>
-        ${a.url ? `<a class="btn-primary" href="${escHtml(a.url)}" target="_blank" rel="noopener">▶ 阅读原文</a>` : ''}
-      </div>
+    <div class="action-bar">
+      <button class="btn-back" onclick="goBack()">← 返回列表</button>
+      ${a.url ? `<a class="btn-read" href="${a.url}" target="_blank" rel="noopener">▶ 阅读原文</a>` : ''}
     </div>
   `;
 }
 
-function escHtml(s) {
-  return String(s)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
-}
-
-function showError(msg) {
-  document.getElementById('detailPage').innerHTML = `
-    <div class="error-state">
-      <h2>⚠️ 加载失败</h2>
-      <p>${msg}</p>
-      <a href="index.html">← 返回首页</a>
-    </div>
-  `;
-}
-
-// ── 初始化：从 sessionStorage 读取数据 ──
+// ── 读取数据并渲染 ──
 (function init() {
-  const params = new URLSearchParams(window.location.search);
-  const idx = parseInt(params.get('idx') || '0', 10);
+  const params = new URLSearchParams(location.search);
 
-  let articles = null;
+  // 历史单条文章
+  if (params.get('single') === '1') {
+    try {
+      const raw = sessionStorage.getItem('ai_detail_single');
+      if (!raw) throw new Error('no data');
+      const { article, rank, date } = JSON.parse(raw);
+      render(article, rank, date);
+      return;
+    } catch(e) {
+      document.getElementById('detailWrap').innerHTML =
+        '<div class="error-msg">❌ 数据丢失，请返回列表重新点击</div>';
+      return;
+    }
+  }
+
+  // 今日文章，按 idx
+  const idx = parseInt(params.get('idx'), 10);
   try {
     const raw = sessionStorage.getItem('ai_articles');
-    if (raw) articles = JSON.parse(raw);
-  } catch(e) {}
-
-  if (!articles || !articles.length) {
-    showError('未找到文章数据。请从日报列表点击文章进入详情。');
-    return;
+    if (!raw) throw new Error('no data');
+    const articles = JSON.parse(raw);
+    const a = articles[idx];
+    if (!a) throw new Error('invalid idx');
+    const date = sessionStorage.getItem('ai_date') || '';
+    render(a, idx + 1, date);
+  } catch(e) {
+    document.getElementById('detailWrap').innerHTML =
+      '<div class="error-msg">❌ 数据丢失，请返回列表重新点击<br><br><button onclick="goBack()" style="background:#1a1a2e;border:1px solid #2a2a4a;color:#94a3b8;padding:.5rem 1rem;border-radius:.5rem;cursor:pointer">← 返回</button></div>';
   }
-
-  const a = articles[idx];
-  if (!a) {
-    showError(`文章索引 #${idx} 不存在（共 ${articles.length} 篇）。`);
-    return;
-  }
-
-  render(a, idx);
 })();
 </script>
 </body>
