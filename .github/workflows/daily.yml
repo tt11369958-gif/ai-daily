@@ -2,8 +2,8 @@ name: AI Daily Auto Run
 
 on:
   schedule:
-    # 北京时间 08:30 = UTC 00:30
-    - cron: '00 7 * * *'
+    # 北京时间 14:20 = UTC 06:20
+    - cron: '20 6 * * *'
   workflow_dispatch:   # 支持手动触发
 
 permissions:
@@ -41,6 +41,18 @@ jobs:
           GH_USER: ${{ secrets.GH_USER }}
           WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
         run: python scripts/run.py
+
+      - name: Fetch history files from gh-pages
+        run: |
+          git fetch origin gh-pages:gh-pages --depth=1
+          mkdir -p output/history
+          git show gh-pages:history_index.json > output/history_index.json 2>/dev/null || true
+          for f in $(git ls-tree -r --name-only gh-pages history/); do
+            mkdir -p "output/$(dirname $f)"
+            git show "gh-pages:$f" > "output/$f" 2>/dev/null || true
+          done
+          echo "=== output/history ==="
+          ls -la output/history/ 2>/dev/null || echo "no history files yet"
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
