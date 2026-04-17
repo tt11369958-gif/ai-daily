@@ -203,7 +203,6 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     overflow-x:auto;white-space:nowrap;
     scrollbar-width:none;-ms-overflow-style:none;
     margin-bottom:.25rem;
-    touch-action: pan-x;
     -webkit-overflow-scrolling: touch;
     width:100%;
   }
@@ -227,17 +226,9 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   }
   .hs-day { font-size:.65rem;color:var(--text-dim);margin-bottom:.1rem }
   .hs-date.active .hs-day { color:rgba(255,255,255,.8) }
-  .hs-num { font-size:.9rem;font-weight:700 }
-  .hs-date {
-    display:inline-flex;flex-direction:column;align-items:center;
-    background:#1a1a2e;border:1px solid #2a2a4a;
-    border-radius:.6rem;padding:.45rem .75rem;cursor:pointer;
-    min-width:3.2rem;transition:all .2s;flex-shrink:0;
-  }
-  .hs-date:hover { border-color:var(--accent);background:#1e1e38 }
-  .hs-date.active { background:var(--accent);border-color:var(--accent) }
-  .hs-date .hs-day { font-size:.65rem;color:var(--text-dim);margin-bottom:.1rem }
-  .hs-date.active .hs-day { color:rgba(255,255,255,.7) }
+  .hs-num { font-size:.82rem;font-weight:700 }
+  .hs-date .hs-tag { font-size:.6rem;color:var(--text-dim);margin-top:.1rem }
+  .hs-date.active .hs-tag { color:rgba(255,255,255,.7) }
   .hs-date .hs-num { font-size:.82rem;font-weight:700 }
   .hs-date .hs-tag { font-size:.6rem;color:var(--text-dim);margin-top:.1rem }
   .hs-date.active .hs-tag { color:rgba(255,255,255,.8) }
@@ -521,7 +512,7 @@ function renderHistoryArticles(articles, dateStr) {
     }, {passive: true});
     stripWrap.addEventListener('touchmove', function(e) {
       if (Math.abs(e.touches[0].clientX - (this._startX || 0)) > 5) {
-        e.stopPropagation();
+        e.preventDefault();
       }
     }, {passive: false});
   }
