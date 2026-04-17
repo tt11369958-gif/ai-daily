@@ -454,35 +454,50 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
 <script>
 // ── 颜色/图标映射（供 JS 使用）──
-const CAT_COLORS = {{
+const CAT_COLORS = {
   "研究突破":"#f59e0b","行业动态":"#10b981","融资并购":"#ef4444",
   "产品发布":"#3b82f6","政策监管":"#f97316","活动会议":"#ec4899"
-}};
-const CAT_ICONS = {{
+};
+const CAT_ICONS = {
   "研究突破":"🔬","行业动态":"📊","融资并购":"💰",
   "产品发布":"🛠","政策监管":"📋","活动会议":"🎪"
-}};
+};
 const WEEKDAYS = ["周日","周一","周二","周三","周四","周五","周六"];
 
 // ── 文章数据（由 Python 注入，避免 data-* 属性的 HTML 转义问题）──
 const ARTICLES = {articles_json};
 
-// ── AI 总结详情弹窗 ──
-function openDetail(idx) {{
+// ── 今日文章点击（按 idx 索引）──
+function openDetail(idx) {
   const a = ARTICLES[idx];
   if (!a) return;
+  _showDetailModal(a, idx + 1);
+}
 
+// ── 历史文章点击（从 data-json 属性读取）──
+function openDetailFromEl(el) {
+  try {
+    const raw = el.getAttribute('data-json');
+    if (!raw) return;
+    const a = JSON.parse(raw.replace(/&quot;/g, '"'));
+    const rank = parseInt(el.dataset.rank, 10) || 1;
+    _showDetailModal(a, rank);
+  } catch(e) { console.error('openDetailFromEl:', e); }
+}
+
+// ── 公共弹窗渲染 ──
+function _showDetailModal(a, rank) {
   const color = CAT_COLORS[a.category] || '#8b5cf6';
   const icon = CAT_ICONS[a.category] || '📌';
   const weekday = WEEKDAYS[new Date((a.published||'{date_str}').substring(0,10)).getDay()];
 
-  document.getElementById('dlRank').textContent = `#${idx+1} · ${icon} ${a.category}`;
+  document.getElementById('dlRank').textContent = `#${rank} · ${icon} ${a.category}`;
   document.getElementById('dlMeta').innerHTML =
-    `<span style="background:${{color}}20;color:${{color}}">${{icon}} ${{a.source}}</span>` +
-    `<span style="background:${{color}}30;color:${{color}}">${{a.category}}</span>` +
-    `<span style="color:#555">${{weekday}} ${{(a.published||'{date_str}').substring(0,10)}}</span>`;
+    `<span style="background:${color}20;color:${color}">${icon} ${a.source}</span>` +
+    `<span style="background:${color}30;color:${color}">${a.category}</span>` +
+    `<span style="color:#555">${weekday} ${(a.published||'{date_str}').substring(0,10)}</span>`;
   document.getElementById('dlTitle').textContent = a.title || '';
-  document.getElementById('dlSource').textContent = `来源：${{a.source || ''}} | ${{a.url || ''}}`;
+  document.getElementById('dlSource').textContent = `来源：${a.source || ''} | ${a.url || ''}`;
   document.getElementById('dlSummary').textContent = a.chinese_summary || a.summary || '（暂无 AI 总结）';
   document.getElementById('dlOriginal').textContent = (a.summary || '').substring(0, 400);
   const btn = document.getElementById('dlBtnOriginal');
@@ -491,41 +506,41 @@ function openDetail(idx) {{
 
   document.getElementById('detailOverlay').classList.add('show');
   document.body.style.overflow = 'hidden';
-}}
+}
 
-function closeDetail() {{
+function closeDetail() {
   document.getElementById('detailOverlay').classList.remove('show');
   document.body.style.overflow = '';
-}}
+}
 
 // ESC 关闭弹窗
-document.addEventListener('keydown', e => {{ if(e.key==='Escape') closeDetail(); }});
+document.addEventListener('keydown', e => { if(e.key==='Escape') closeDetail(); });
 
 // ── 今日头条点击也打开详情 ──
-document.querySelectorAll('.hero-card').forEach(el => {{
-  el.addEventListener('click', () => {{ openDetail(0); }});
-}});
+document.querySelectorAll('.hero-card').forEach(el => {
+  el.addEventListener('click', () => { openDetail(0); });
+});
 
 // ── 分类过滤 ──
-function bindCatBtns() {{
+function bindCatBtns() {
   const btns = document.querySelectorAll('.cat-btn');
-  btns.forEach(btn => {{
-    btn.addEventListener('click', () => {{
+  btns.forEach(btn => {
+    btn.addEventListener('click', () => {
       btns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       const cat = btn.dataset.cat;
-      document.querySelectorAll('.news-card').forEach(card => {{
+      document.querySelectorAll('.news-card').forEach(card => {
         card.classList.toggle('hidden', cat !== '全部' && card.dataset.category !== cat);
-      }});
-    }});
-  }});
-}}
+      });
+    });
+  });
+}
 bindCatBtns();
 
 // ── 入场动画 stagger ──
-document.querySelectorAll('.news-card').forEach((card, i) => {{
-  card.style.animationDelay = `${{i * 0.07}}s`;
-}});
+document.querySelectorAll('.news-card').forEach((card, i) => {
+  card.style.animationDelay = `${i * 0.07}s`;
+});
 
 // ── 今日数据（内嵌静态卡片备份）──
 const todayGrid = document.getElementById('newsGrid').innerHTML;
@@ -533,7 +548,7 @@ const todayFilterBar = document.querySelector('.filter-bar') ? document.querySel
 const todaySubtitle = document.querySelector('.subtitle') ? document.querySelector('.subtitle').innerHTML : '';
 
 // ── 横滑日期选择：点击日期加载历史 ──
-async function onDateClick(el) {{
+async function onDateClick(el) {
   const date = el.dataset.date;
   if (!date || el.classList.contains('loading')) return;
 
@@ -545,9 +560,9 @@ async function onDateClick(el) {{
   el.classList.add('active');
 
   // 如果是今天
-  if (el.classList.contains('hs-today')) {{
+  if (el.classList.contains('hs-today')) {
     loadToday(); return;
-  }}
+  }
 
   el.classList.add('loading');
 
@@ -559,28 +574,28 @@ async function onDateClick(el) {{
   const grid = document.getElementById('newsGrid');
   grid.innerHTML = '<div style="text-align:center;padding:3rem;color:#555;">⏳ 加载中...</div>';
 
-  try {{
-    const resp = await fetch(`history/${{date}}.json`);
+  try {
+    const resp = await fetch(`history/${date}.json`);
     if (!resp.ok) throw new Error(resp.status);
     const data = await resp.json();
     const articles = data.articles || data;
     renderHistoryArticles(articles, date);
-  }} catch(err) {{
-    grid.innerHTML = `<div style="text-align:center;padding:3rem;color:#ef4444;">❌ 加载失败：${{err.message}}<br><small>history/${{date}}.json</small></div>`;
-  }} finally {{
+  } catch(err) {
+    grid.innerHTML = `<div style="text-align:center;padding:3rem;color:#ef4444;">❌ 加载失败：${err.message}<br><small>history/${date}.json</small></div>`;
+  } finally {
     el.classList.remove('loading');
-  }}
-}}
+  }
+}
 
 // ── 加载并渲染历史日报 ──
-function renderHistoryArticles(articles, dateStr) {{
+function renderHistoryArticles(articles, dateStr) {
   const grid = document.getElementById('newsGrid');
   const weekday = WEEKDAYS[new Date(dateStr).getDay()];
 
   const sub = document.querySelector('.subtitle');
-  if (sub) sub.innerHTML = `<span>${{dateStr}}</span>·<span>${{weekday}}</span>·<span><strong>${{articles.length}}</strong> 条精选</span>`;
+  if (sub) sub.innerHTML = `<span>${dateStr}</span>·<span>${weekday}</span>·<span><strong>${articles.length}</strong> 条精选</span>`;
 
-  grid.innerHTML = articles.map((a, i) => {{
+  grid.innerHTML = articles.map((a, i) => {
     const rank = i + 1;
     const rankColor = rank===1?'#ffd700':rank===2?'#c0c0c0':rank===3?'#cd7f32':'#555';
     const color = CAT_COLORS[a.category] || '#8b5cf6';
@@ -589,30 +604,30 @@ function renderHistoryArticles(articles, dateStr) {{
     const summary = (a.chinese_summary || a.summary || '').substring(0, 250);
     const pubDate = (a.published||'').substring(0,10);
     const articleJson = (a.title||'').length ? JSON.stringify(a).replace(/"/g, '&quot;') : '';
-    return `<article class="news-card" data-rank="${{rank}}" data-category="${{a.category}}" data-json="${{articleJson}}"
-      onclick="openDetail(this)" style="animation-delay:${{i*0.07}}s;cursor:pointer">
+    return `<article class="news-card" data-rank="${rank}" data-category="${a.category}" data-json="${articleJson}"
+      onclick="openDetailFromEl(this)" style="animation-delay:${i*0.07}s;cursor:pointer">
       <div class="card-header">
         <div class="card-meta">
-          <span class="rank" style="color:${{rankColor}}">#${{rank}}</span>
-          <span class="source-tag" style="background:${{color}}20;color:${{color}}">${{icon}} ${{a.source}}</span>
-          <span class="cat-tag" style="background:${{color}}30;color:${{color}}">${{a.category}}</span>
+          <span class="rank" style="color:${rankColor}">#${rank}</span>
+          <span class="source-tag" style="background:${color}20;color:${color}">${icon} ${a.source}</span>
+          <span class="cat-tag" style="background:${color}30;color:${color}">${a.category}</span>
         </div>
       </div>
-      <h2 class="card-title">${{title}}</h2>
-      <p class="card-summary">${{summary}}</p>
+      <h2 class="card-title">${title}</h2>
+      <p class="card-summary">${summary}</p>
       <div class="card-footer">
         <span class="read-more">🔬 AI 总结</span>
-        <span class="pub-date">${{pubDate}}</span>
+        <span class="pub-date">${pubDate}</span>
       </div>
     </article>`;
-  }}).join('');
+  }).join('');
 
   bindCatBtns();
   document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.dataset.cat==='全部'));
-}}
+}
 
 // ── 切换回今日 ──
-function loadToday() {{
+function loadToday() {
   document.getElementById('newsGrid').innerHTML = todayGrid;
   const sub = document.querySelector('.subtitle');
   if (sub) sub.innerHTML = todaySubtitle;
@@ -621,39 +636,39 @@ function loadToday() {{
   const todayEl = document.querySelector('.hs-today');
   if (todayEl) todayEl.classList.add('active');
   bindCatBtns();
-  document.querySelectorAll('.news-card').forEach((card, i) => {{ card.style.animationDelay = `${{i * 0.07}}s`; }});
+  document.querySelectorAll('.news-card').forEach((card, i) => { card.style.animationDelay = `${i * 0.07}s`; });
   document.getElementById('detailOverlay').classList.remove('show');
-}}
+}
 
 // ── 页面加载后动态填充横滑日期条（最多显示 14 天历史）──
-(async function initHistoryStrip() {{
+(async function initHistoryStrip() {
   const strip = document.getElementById('historyStrip');
   if (!strip) return;
 
   const today = '{date_str}';
 
-  try {{
+  try {
     const resp = await fetch('history_index.json');
     if (!resp.ok) throw new Error(resp.status);
     const idx = await resp.json();
     const dates = (idx.dates || []).filter(d => d !== today);
 
     // 最多显示最近 14 天的历史按钮
-    dates.slice(0, 14).forEach(d => {{
+    dates.slice(0, 14).forEach(d => {
       const dt = new Date(d);
       const wd = WEEKDAYS[dt.getDay()];
       const short = d.substring(5); // MM-DD
       const el = document.createElement('span');
       el.className = 'hs-date';
       el.dataset.date = d;
-      el.onclick = function() {{ onDateClick(this); }};
-      el.innerHTML = `<span class="hs-day">${{wd}}</span><span class="hs-num">${{short}}</span>`;
+      el.onclick = function() { onDateClick(this); };
+      el.innerHTML = `<span class="hs-day">${wd}</span><span class="hs-num">${short}</span>`;
       strip.appendChild(el);
-    }});
-  }} catch(e) {{
+    });
+  } catch(e) {
     console.warn('history_index.json load failed:', e);
-  }}
-}})();
+  }
+})();
 </script>
 </body>
 </html>"""
