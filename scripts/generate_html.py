@@ -186,9 +186,6 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     position:sticky;top:0;z-index:100;
     max-width:100%;
     overflow:hidden;
-  } 1.5rem;
-    text-align:center;
-    position:sticky;top:0;z-index:100;
   }
   .header-badge {
     display:inline-block;
@@ -215,7 +212,22 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     display:inline-flex;gap:.4rem;
     padding:.25rem .5rem;
     width:max-content;
+    min-width:100%;
   }
+  .hs-date {
+    display:inline-flex;flex-direction:column;align-items:center;
+    background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);
+    border-radius:.75rem;padding:.4rem .65rem;cursor:pointer;
+    transition:all .2s ease;user-select:none;
+    -webkit-tap-highlight-color:transparent;
+  }
+  .hs-date.active {
+    background:linear-gradient(135deg,#8b5cf6,#06b6d4);border-color:transparent;
+    color:#fff;
+  }
+  .hs-day { font-size:.65rem;color:var(--text-dim);margin-bottom:.1rem }
+  .hs-date.active .hs-day { color:rgba(255,255,255,.8) }
+  .hs-num { font-size:.9rem;font-weight:700 }
   .hs-date {
     display:inline-flex;flex-direction:column;align-items:center;
     background:#1a1a2e;border:1px solid #2a2a4a;
