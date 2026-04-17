@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 · 详情</title>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --card-bg: #13131c;
+    --card-border: #1e1e2e;
+    --text: #e2e8f0;
+    --text-dim: #94a3b8;
+    --accent: #8b5cf6;
+    --accent2: #06b6d4;
+  }
+  * { margin:0; padding:0; box-sizing:border-box }
+  body {
+    font-family:'Inter','PingFang SC','Microsoft YaHei',sans-serif;
+    background:var(--bg); color:var(--text);
+    min-height:100vh; line-height:1.6;
+  }
+  a { color:inherit; text-decoration:none }
+
+  /* ── 顶部导航栏 ── */
+  .topbar {
+    background:#0d0d18;
+    border-bottom:1px solid #1e1e2e;
+    padding:.75rem 1.5rem;
+    display:flex;align-items:center;gap:1rem;
+    position:sticky;top:0;z-index:100;
+  }
+  .back-btn {
+    display:flex;align-items:center;gap:.35rem;
+    background:#1a1a2e;border:1px solid #2a2a4a;
+    color:var(--text-dim);padding:.4rem .9rem;
+    border-radius:.5rem;cursor:pointer;font-size:.85rem;
+    transition:all .2s;
+  }
+  .back-btn:hover { border-color:var(--accent);color:var(--accent) }
+  .topbar-title {
+    font-size:.85rem;color:var(--text-dim);
+    flex:1;text-align:center;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  }
+
+  /* ── 主内容区 ── */
+  .detail-wrap {
+    max-width:720px;
+    margin:2rem auto;
+    padding:0 1.5rem 4rem;
+    animation:fadeIn .4s ease;
+  }
+
+  @keyframes fadeIn {
+    from{opacity:0;transform:translateY(16px)}
+    to{opacity:1;transform:translateY(0)}
+  }
+
+  /* ── rank badge ── */
+  .rank-badge {
+    display:inline-block;
+    background:linear-gradient(135deg,#8b5cf6,#06b6d4);
+    color:#fff;font-size:.72rem;font-weight:800;
+    padding:.25rem .75rem;border-radius:2rem;
+    letter-spacing:.05em;margin-bottom:1rem;
+  }
+
+  /* ── meta 标签行 ── */
+  .meta-row {
+    display:flex;flex-wrap:wrap;gap:.4rem;
+    margin-bottom:1.25rem;
+  }
+  .meta-row span {
+    font-size:.72rem;padding:.18rem .55rem;
+    border-radius:.3rem;font-weight:600;
+  }
+  .meta-date { color:var(--text-dim) !important; background:none !important; }
+
+  /* ── 标题 ── */
+  .detail-title {
+    font-size:1.4rem;font-weight:800;
+    line-height:1.4;margin-bottom:.75rem;
+  }
+  .detail-source {
+    font-size:.78rem;color:#555;
+    margin-bottom:2rem;
+    word-break:break-all;
+  }
+
+  /* ── AI 总结区 ── */
+  .section-label {
+    display:flex;align-items:center;gap:.4rem;
+    font-size:.7rem;font-weight:800;color:var(--accent);
+    letter-spacing:.08em;text-transform:uppercase;
+    margin-bottom:.65rem;
+  }
+  .ai-summary-box {
+    background:#0d0d18;border:1px solid #2a2a4a;
+    border-radius:.875rem;padding:1.25rem 1.5rem;
+    font-size:.92rem;line-height:1.85;color:var(--text);
+    margin-bottom:2rem;
+  }
+
+  /* ── 原文摘要 ── */
+  .original-box {
+    background:var(--card-bg);border:1px solid var(--card-border);
+    border-radius:.875rem;padding:1.25rem 1.5rem;
+    font-size:.84rem;line-height:1.75;color:var(--text-dim);
+    margin-bottom:2rem;
+  }
+
+  /* ── 底部操作按钮 ── */
+  .action-bar {
+    display:flex;gap:.75rem;
+    position:sticky;bottom:1.25rem;
+  }
+  .btn-back {
+    flex:0 0 auto;
+    background:#1a1a2e;border:1px solid #2a2a4a;color:var(--text-dim);
+    padding:.75rem 1.4rem;border-radius:.7rem;
+    font-size:.9rem;cursor:pointer;transition:all .2s;
+  }
+  .btn-back:hover { border-color:var(--accent);color:var(--accent) }
+  .btn-read {
+    flex:1;
+    background:var(--accent);color:#fff;
+    text-align:center;padding:.75rem;border-radius:.7rem;
+    font-size:.9rem;font-weight:700;cursor:pointer;
+    transition:opacity .2s;display:block;
+  }
+  .btn-read:hover { opacity:.85 }
+
+  /* ── 加载错误 ── */
+  .error-msg {
+    text-align:center;padding:4rem 2rem;color:#ef4444;font-size:.9rem;
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <button class="back-btn" onclick="goBack()">← 返回列表</button>
+  <div class="topbar-title" id="topbarTitle">AI 日报</div>
+</div>
+
+<div class="detail-wrap" id="detailWrap">
+  <div class="error-msg">⏳ 加载中...</div>
+</div>
+
+<script>
+const CAT_COLORS = {
+  "研究突破":"#f59e0b","行业动态":"#10b981","融资并购":"#ef4444",
+  "产品发布":"#3b82f6","政策监管":"#f97316","活动会议":"#ec4899"
+};
+const CAT_ICONS = {
+  "研究突破":"🔬","行业动态":"📊","融资并购":"💰",
+  "产品发布":"🛠","政策监管":"📋","活动会议":"🎪"
+};
+const WEEKDAYS = ["周日","周一","周二","周三","周四","周五","周六"];
+
+function goBack() {
+  if (history.length > 1) {
+    history.back();
+  } else {
+    window.location.href = 'index.html';
+  }
+}
+
+function render(a, rank, date) {
+  const color = CAT_COLORS[a.category] || '#8b5cf6';
+  const icon = CAT_ICONS[a.category] || '📌';
+  const pubDate = date || (a.published || '').substring(0, 10);
+  const weekday = pubDate ? WEEKDAYS[new Date(pubDate).getDay()] : '';
+  const summary = a.chinese_summary || a.summary || '（暂无 AI 总结）';
+  const original = (a.summary || '').substring(0, 500);
+  const title = a.title || '';
+
+  document.getElementById('topbarTitle').textContent = title;
+  document.title = `${title} · AI 日报`;
+
+  document.getElementById('detailWrap').innerHTML = `
+    <span class="rank-badge">#${rank} · ${icon} ${a.category}</span>
+    <div class="meta-row">
+      <span style="background:${color}20;color:${color}">${icon} ${a.source || ''}</span>
+      <span style="background:${color}30;color:${color}">${a.category || ''}</span>
+      <span class="meta-date">${weekday} ${pubDate}</span>
+    </div>
+    <h1 class="detail-title">${title}</h1>
+    <p class="detail-source">来源：${a.source || ''} &nbsp;|&nbsp; ${a.url || ''}</p>
+
+    <div class="section-label">🤖 AI 中文总结</div>
+    <div class="ai-summary-box">${summary}</div>
+
+    ${original ? `<div class="section-label">📄 原文摘要</div><div class="original-box">${original}</div>` : ''}
+
+    <div class="action-bar">
+      <button class="btn-back" onclick="goBack()">← 返回列表</button>
+      ${a.url ? `<a class="btn-read" href="${a.url}" target="_blank" rel="noopener">▶ 阅读原文</a>` : ''}
+    </div>
+  `;
+}
+
+// ── 读取数据并渲染 ──
+(function init() {
+  const params = new URLSearchParams(location.search);
+
+  // 历史单条文章
+  if (params.get('single') === '1') {
+    try {
+      const raw = sessionStorage.getItem('ai_detail_single');
+      if (!raw) throw new Error('no data');
+      const { article, rank, date } = JSON.parse(raw);
+      render(article, rank, date);
+      return;
+    } catch(e) {
+      document.getElementById('detailWrap').innerHTML =
+        '<div class="error-msg">❌ 数据丢失，请返回列表重新点击</div>';
+      return;
+    }
+  }
+
+  // 今日文章，按 idx
+  const idx = parseInt(params.get('idx'), 10);
+  try {
+    const raw = sessionStorage.getItem('ai_articles');
+    if (!raw) throw new Error('no data');
+    const articles = JSON.parse(raw);
+    const a = articles[idx];
+    if (!a) throw new Error('invalid idx');
+    const date = sessionStorage.getItem('ai_date') || '';
+    render(a, idx + 1, date);
+  } catch(e) {
+    document.getElementById('detailWrap').innerHTML =
+      '<div class="error-msg">❌ 数据丢失，请返回列表重新点击<br><br><button onclick="goBack()" style="background:#1a1a2e;border:1px solid #2a2a4a;color:#94a3b8;padding:.5rem 1rem;border-radius:.5rem;cursor:pointer">← 返回</button></div>';
+  }
+})();
+</script>
+</body>
+</html>
