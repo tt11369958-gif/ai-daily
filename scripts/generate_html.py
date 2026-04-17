@@ -303,9 +303,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <header>
   <div class="header-badge">🤖 每日 AI 资讯精选</div>
   <h1>{title}</h1>
-  <div class="subtitle">
-    <span>{date_str}</span>·<span>{weekday}</span>·<span><strong>{article_count}</strong> 条精选</span>
-  </div>
+<div class
 {history_nav}
 </header>
 
