@@ -33,7 +33,7 @@ def _generate_history_nav(user, repo, token):
     """
     today = datetime.now()
     days = []
-    for i in range(8):  # 今天 + 过去7天
+    for i in range(7):  # 今天 + 过去6天，共7天
         d = today - timedelta(days=i)
         date_str = d.strftime("%Y-%m-%d")
         weekday_short = ["周一","周二","周三","周四","周五","周六","周日"][d.weekday()]
@@ -114,11 +114,9 @@ def generate_html(articles, config, output_path=None, pages_url="", user="", rep
         source_name = _escape_html(a.get("source", ""))
         cat_name = _escape_html(a.get("category", ""))
 
-        # 把完整文章数据传给弹窗（直接写 JSON，用变量存避免 HTML 转义）
-        article_json = json.dumps(a, ensure_ascii=False)
         cards.append(f'''
-        <article class="news-card" data-rank="{rank}" data-idx="{i}"
-                 onclick="openDetail({i})" style="cursor:pointer">
+        <article class="news-card" data-rank="{rank}" data-idx="{i}" data-category="{cat_name}"
+                 onclick="goDetail({i})" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:{rank_color}">#{rank}</span>
@@ -239,27 +237,6 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
   main { max-width:900px;margin:0 auto;padding:2rem 1.5rem }
 
-  .hero-card {
-    background:linear-gradient(135deg,#1a1035,#0f2540);
-    border:1px solid #8b5cf640;border-radius:1rem;
-    padding:1.75rem;margin-bottom:1.5rem;
-    animation:fadeIn .5s ease;cursor:pointer;
-  }
-  .hero-card:active { transform:scale(.99) }
-  .hero-card .hero-label {
-    font-size:.7rem;color:#8b5cf6;font-weight:700;
-    letter-spacing:.1em;text-transform:uppercase;margin-bottom:.5rem
-  }
-  .hero-card h2 { font-size:1.4rem;line-height:1.3;margin-bottom:.75rem }
-  .hero-card p { color:var(--text-dim);font-size:.9rem;line-height:1.7 }
-  .hero-card .read-more {
-    display:inline-block;margin-top:1rem;
-    background:var(--accent);color:#fff;
-    padding:.5rem 1.25rem;border-radius:.5rem;font-size:.85rem;
-    transition:opacity .2s;
-  }
-  .hero-card .read-more:hover { opacity:.85 }
-
   .news-grid {
     display:grid;grid-template-columns:1fr;
     gap:1rem;
@@ -294,7 +271,6 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     margin-top:1rem;padding-top:.75rem;border-top:1px solid #1e1e2e
   }
   .read-more { font-size:.78rem;color:var(--accent);font-weight:600 }
-  .read-more:hover { opacity:.8 }
   .pub-date { font-size:.72rem;color:#555 }
 
   footer {
@@ -308,7 +284,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   .sources-label { font-size:.72rem;color:#444;margin-bottom:.3rem }
   .sources-list { font-size:.75rem;color:#555;line-height:1.8 }
 
-  .hidden { display:none }
+  .hidden { display:none !important }
 
   @keyframes fadeIn {
     from{opacity:0;transform:translateY(12px)}
@@ -320,79 +296,6 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     padding:1rem;font-size:.8rem;color:var(--text-dim)
   }
   .stats-bar strong { color:var(--accent) }
-
-  /* ── AI 总结详情弹窗 ── */
-  .detail-overlay {
-    display:none;position:fixed;inset:0;z-index:1000;
-    background:rgba(0,0,0,.7);backdrop-filter:blur(4px);
-    align-items:center;justify-content:center;
-    padding:1rem;
-  }
-  .detail-overlay.show { display:flex }
-  .detail-modal {
-    background:#13131c;border:1px solid #2a2a4a;
-    border-radius:1.25rem;max-width:680px;width:100%;
-    max-height:88vh;overflow-y:auto;
-    animation:modalIn .3s ease;
-  }
-  @keyframes modalIn {
-    from{opacity:0;transform:scale(.92) translateY(20px)}
-    to{opacity:1;transform:scale(1) translateY(0)}
-  }
-  .detail-header {
-    padding:1.75rem 1.75rem 1rem;
-    border-bottom:1px solid #1e1e2e;
-    position:sticky;top:0;background:#13131c;z-index:2;
-    border-radius:1.25rem 1.25rem 0 0;
-  }
-  .detail-rank {
-    display:inline-block;font-size:.7rem;font-weight:800;
-    background:linear-gradient(135deg,#8b5cf6,#06b6d4);
-    color:#fff;padding:.2rem .65rem;border-radius:2rem;
-    margin-bottom:.75rem;
-  }
-  .detail-meta {
-    display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.75rem;
-  }
-  .detail-meta span {
-    font-size:.72rem;padding:.15rem .5rem;border-radius:.25rem;font-weight:600;
-  }
-  .detail-title { font-size:1.2rem;font-weight:800;line-height:1.4;margin-bottom:.25rem }
-  .detail-source { font-size:.75rem;color:#555;margin-bottom:1.25rem }
-  .detail-body {
-    padding:1.25rem 1.75rem 1.75rem;
-    border-top:1px solid #1e1e2e;
-  }
-  .detail-section-label {
-    font-size:.68rem;font-weight:700;color:var(--accent);
-    letter-spacing:.08em;text-transform:uppercase;
-    margin-bottom:.6rem;margin-top:1.25rem;
-  }
-  .detail-section-label:first-child { margin-top:0 }
-  .detail-summary {
-    font-size:.88rem;line-height:1.8;color:var(--text);
-    background:#0d0d18;border:1px solid #1e1e2e;
-    border-radius:.75rem;padding:1rem 1.25rem;
-  }
-  .detail-original { color:var(--text-dim);font-size:.82rem;line-height:1.7 }
-  .detail-actions {
-    display:flex;gap:.75rem;padding:1.25rem 1.75rem 1.75rem;
-    border-top:1px solid #1e1e2e;position:sticky;bottom:0;
-    background:#13131c;border-radius:0 0 1.25rem 1.25rem;
-  }
-  .btn-original {
-    flex:1;background:var(--accent);color:#fff;
-    text-align:center;padding:.7rem;border-radius:.6rem;
-    font-size:.88rem;font-weight:700;cursor:pointer;
-    transition:opacity .2s;border:none;
-  }
-  .btn-original:hover { opacity:.85 }
-  .btn-close {
-    background:#1a1a2e;border:1px solid #2a2a4a;color:var(--text-dim);
-    padding:.7rem 1.25rem;border-radius:.6rem;
-    font-size:.88rem;cursor:pointer;transition:all .2s;
-  }
-  .btn-close:hover { border-color:var(--accent);color:var(--accent) }
 </style>
 </head>
 <body>
@@ -416,6 +319,11 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <span>🚀 <a href="{pages_url}" target="_blank">GitHub Pages</a></span>
   </div>
 
+  <div id="historyBanner" style="display:none;background:#1a1035;border:1px solid #8b5cf640;border-radius:.75rem;padding:.75rem 1.25rem;margin-bottom:1rem;font-size:.82rem;color:#94a3b8;text-align:center;">
+    正在查看历史日报：<strong id="historyDateLabel"></strong>
+    &nbsp;·&nbsp;<a href="#" onclick="loadToday();return false;" style="color:#8b5cf6;">← 返回今日</a>
+  </div>
+
   <div class="news-grid" id="newsGrid">
 {cards_html}
   </div>
@@ -429,31 +337,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   </div>
 </footer>
 
-<!-- ── AI 总结详情弹窗 ── -->
-<div class="detail-overlay" id="detailOverlay" onclick="if(event.target===this)closeDetail()">
-  <div class="detail-modal" id="detailModal">
-    <div class="detail-header">
-      <span class="detail-rank" id="dlRank"></span>
-      <div class="detail-meta" id="dlMeta"></div>
-      <h2 class="detail-title" id="dlTitle"></h2>
-      <p class="detail-source" id="dlSource"></p>
-    </div>
-    <div class="detail-body">
-      <p class="detail-section-label">🤖 AI 中文总结</p>
-      <div class="detail-summary" id="dlSummary"></div>
-      <br>
-      <p class="detail-section-label">📄 原文摘要</p>
-      <div class="detail-original" id="dlOriginal"></div>
-    </div>
-    <div class="detail-actions">
-      <button class="btn-close" onclick="closeDetail()">← 返回列表</button>
-      <a class="btn-original" id="dlBtnOriginal" href="#" target="_blank" rel="noopener">▶ 阅读原文</a>
-    </div>
-  </div>
-</div>
-
 <script>
-// ── 颜色/图标映射（供 JS 使用）──
+// ── 颜色/图标映射 ──
 const CAT_COLORS = {
   "研究突破":"#f59e0b","行业动态":"#10b981","融资并购":"#ef4444",
   "产品发布":"#3b82f6","政策监管":"#f97316","活动会议":"#ec4899"
@@ -464,62 +349,29 @@ const CAT_ICONS = {
 };
 const WEEKDAYS = ["周日","周一","周二","周三","周四","周五","周六"];
 
-// ── 文章数据（由 Python 注入，避免 data-* 属性的 HTML 转义问题）──
+// ── 文章数据（Python 注入）──
 const ARTICLES = {articles_json};
 
-// ── 今日文章点击（按 idx 索引）──
-function openDetail(idx) {
-  const a = ARTICLES[idx];
-  if (!a) return;
-  _showDetailModal(a, idx + 1);
+// ── 今日文章点击 → 跳转详情页 ──
+function goDetail(idx) {
+  sessionStorage.setItem('ai_articles', JSON.stringify(ARTICLES));
+  sessionStorage.setItem('ai_date', '{date_str}');
+  window.location.href = `detail.html?idx=${idx}`;
 }
 
-// ── 历史文章点击（从 data-json 属性读取）──
-function openDetailFromEl(el) {
+// ── 历史文章点击 → 跳转详情页 ──
+function goDetailFromEl(el) {
   try {
     const raw = el.getAttribute('data-json');
     if (!raw) return;
     const a = JSON.parse(raw.replace(/&quot;/g, '"'));
     const rank = parseInt(el.dataset.rank, 10) || 1;
-    _showDetailModal(a, rank);
-  } catch(e) { console.error('openDetailFromEl:', e); }
+    const date = el.dataset.date || '{date_str}';
+    // 历史文章存单条
+    sessionStorage.setItem('ai_detail_single', JSON.stringify({article: a, rank, date}));
+    window.location.href = `detail.html?single=1`;
+  } catch(e) { console.error('goDetailFromEl:', e); }
 }
-
-// ── 公共弹窗渲染 ──
-function _showDetailModal(a, rank) {
-  const color = CAT_COLORS[a.category] || '#8b5cf6';
-  const icon = CAT_ICONS[a.category] || '📌';
-  const weekday = WEEKDAYS[new Date((a.published||'{date_str}').substring(0,10)).getDay()];
-
-  document.getElementById('dlRank').textContent = `#${rank} · ${icon} ${a.category}`;
-  document.getElementById('dlMeta').innerHTML =
-    `<span style="background:${color}20;color:${color}">${icon} ${a.source}</span>` +
-    `<span style="background:${color}30;color:${color}">${a.category}</span>` +
-    `<span style="color:#555">${weekday} ${(a.published||'{date_str}').substring(0,10)}</span>`;
-  document.getElementById('dlTitle').textContent = a.title || '';
-  document.getElementById('dlSource').textContent = `来源：${a.source || ''} | ${a.url || ''}`;
-  document.getElementById('dlSummary').textContent = a.chinese_summary || a.summary || '（暂无 AI 总结）';
-  document.getElementById('dlOriginal').textContent = (a.summary || '').substring(0, 400);
-  const btn = document.getElementById('dlBtnOriginal');
-  btn.href = a.url || '#';
-  btn.style.display = a.url ? 'block' : 'none';
-
-  document.getElementById('detailOverlay').classList.add('show');
-  document.body.style.overflow = 'hidden';
-}
-
-function closeDetail() {
-  document.getElementById('detailOverlay').classList.remove('show');
-  document.body.style.overflow = '';
-}
-
-// ESC 关闭弹窗
-document.addEventListener('keydown', e => { if(e.key==='Escape') closeDetail(); });
-
-// ── 今日头条点击也打开详情 ──
-document.querySelectorAll('.hero-card').forEach(el => {
-  el.addEventListener('click', () => { openDetail(0); });
-});
 
 // ── 分类过滤 ──
 function bindCatBtns() {
@@ -529,8 +381,16 @@ function bindCatBtns() {
       btns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       const cat = btn.dataset.cat;
-      document.querySelectorAll('.news-card').forEach(card => {
-        card.classList.toggle('hidden', cat !== '全部' && card.dataset.category !== cat);
+      document.querySelectorAll('#newsGrid .news-card').forEach(card => {
+        if (cat === '全部') {
+          card.classList.remove('hidden');
+        } else {
+          if (card.dataset.category === cat) {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
+        }
       });
     });
   });
@@ -538,34 +398,41 @@ function bindCatBtns() {
 bindCatBtns();
 
 // ── 入场动画 stagger ──
-document.querySelectorAll('.news-card').forEach((card, i) => {
+document.querySelectorAll('#newsGrid .news-card').forEach((card, i) => {
   card.style.animationDelay = `${i * 0.07}s`;
 });
 
-// ── 今日数据（内嵌静态卡片备份）──
+// ── 今日数据备份 ──
 const todayGrid = document.getElementById('newsGrid').innerHTML;
-const todayFilterBar = document.querySelector('.filter-bar') ? document.querySelector('.filter-bar').innerHTML : '';
 const todaySubtitle = document.querySelector('.subtitle') ? document.querySelector('.subtitle').innerHTML : '';
 
-// ── 横滑日期选择：点击日期加载历史 ──
+// ── 切换回今日 ──
+function loadToday() {
+  document.getElementById('newsGrid').innerHTML = todayGrid;
+  const sub = document.querySelector('.subtitle');
+  if (sub) sub.innerHTML = todaySubtitle;
+  document.getElementById('historyBanner').style.display = 'none';
+  document.querySelectorAll('.hs-date').forEach(d => d.classList.remove('active'));
+  const todayEl = document.querySelector('.hs-today');
+  if (todayEl) todayEl.classList.add('active');
+  bindCatBtns();
+  document.querySelectorAll('#newsGrid .news-card').forEach((card, i) => {
+    card.style.animationDelay = `${i * 0.07}s`;
+  });
+}
+
+// ── 横滑日期：点击加载历史 ──
 async function onDateClick(el) {
   const date = el.dataset.date;
   if (!date || el.classList.contains('loading')) return;
+  if (el.classList.contains('active')) return;
 
-  // 已经是今天
-  if (el.classList.contains('active') && !el.classList.contains('loading')) return;
-
-  // 高亮选中
   document.querySelectorAll('.hs-date').forEach(d => d.classList.remove('active'));
   el.classList.add('active');
 
-  // 如果是今天
-  if (el.classList.contains('hs-today')) {
-    loadToday(); return;
-  }
+  if (el.classList.contains('hs-today')) { loadToday(); return; }
 
   el.classList.add('loading');
-
   const banner = document.getElementById('historyBanner');
   const label = document.getElementById('historyDateLabel');
   if (banner) banner.style.display = 'block';
@@ -578,20 +445,18 @@ async function onDateClick(el) {
     const resp = await fetch(`history/${date}.json`);
     if (!resp.ok) throw new Error(resp.status);
     const data = await resp.json();
-    const articles = data.articles || data;
-    renderHistoryArticles(articles, date);
+    renderHistoryArticles(data.articles || data, date);
   } catch(err) {
-    grid.innerHTML = `<div style="text-align:center;padding:3rem;color:#ef4444;">❌ 加载失败：${err.message}<br><small>history/${date}.json</small></div>`;
+    grid.innerHTML = `<div style="text-align:center;padding:3rem;color:#ef4444;">❌ 加载失败：${err.message}</div>`;
   } finally {
     el.classList.remove('loading');
   }
 }
 
-// ── 加载并渲染历史日报 ──
+// ── 渲染历史文章 ──
 function renderHistoryArticles(articles, dateStr) {
   const grid = document.getElementById('newsGrid');
   const weekday = WEEKDAYS[new Date(dateStr).getDay()];
-
   const sub = document.querySelector('.subtitle');
   if (sub) sub.innerHTML = `<span>${dateStr}</span>·<span>${weekday}</span>·<span><strong>${articles.length}</strong> 条精选</span>`;
 
@@ -600,19 +465,17 @@ function renderHistoryArticles(articles, dateStr) {
     const rankColor = rank===1?'#ffd700':rank===2?'#c0c0c0':rank===3?'#cd7f32':'#555';
     const color = CAT_COLORS[a.category] || '#8b5cf6';
     const icon = CAT_ICONS[a.category] || '📌';
-    const title = (a.title||'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#39;/g,"'").replace(/&quot;/g,'"').replace(/&#8217;/g,"'").replace(/&#8216;/g,"'");
+    const title = (a.title||'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#39;/g,"'").replace(/&quot;/g,'"');
     const summary = (a.chinese_summary || a.summary || '').substring(0, 250);
     const pubDate = (a.published||'').substring(0,10);
-    const articleJson = (a.title||'').length ? JSON.stringify(a).replace(/"/g, '&quot;') : '';
-    return `<article class="news-card" data-rank="${rank}" data-category="${a.category}" data-json="${articleJson}"
-      onclick="openDetailFromEl(this)" style="animation-delay:${i*0.07}s;cursor:pointer">
-      <div class="card-header">
-        <div class="card-meta">
-          <span class="rank" style="color:${rankColor}">#${rank}</span>
-          <span class="source-tag" style="background:${color}20;color:${color}">${icon} ${a.source}</span>
-          <span class="cat-tag" style="background:${color}30;color:${color}">${a.category}</span>
-        </div>
-      </div>
+    const safeJson = JSON.stringify(a).replace(/"/g, '&quot;');
+    return `<article class="news-card" data-rank="${rank}" data-category="${a.category}" data-json="${safeJson}" data-date="${dateStr}"
+      onclick="goDetailFromEl(this)" style="animation-delay:${i*0.07}s;cursor:pointer">
+      <div class="card-header"><div class="card-meta">
+        <span class="rank" style="color:${rankColor}">#${rank}</span>
+        <span class="source-tag" style="background:${color}20;color:${color}">${icon} ${a.source}</span>
+        <span class="cat-tag" style="background:${color}30;color:${color}">${a.category}</span>
+      </div></div>
       <h2 class="card-title">${title}</h2>
       <p class="card-summary">${summary}</p>
       <div class="card-footer">
@@ -623,41 +486,22 @@ function renderHistoryArticles(articles, dateStr) {
   }).join('');
 
   bindCatBtns();
-  document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.dataset.cat==='全部'));
 }
 
-// ── 切换回今日 ──
-function loadToday() {
-  document.getElementById('newsGrid').innerHTML = todayGrid;
-  const sub = document.querySelector('.subtitle');
-  if (sub) sub.innerHTML = todaySubtitle;
-  document.getElementById('historyBanner').style.display = 'none';
-  document.querySelectorAll('.hs-date').forEach(d => d.classList.remove('active'));
-  const todayEl = document.querySelector('.hs-today');
-  if (todayEl) todayEl.classList.add('active');
-  bindCatBtns();
-  document.querySelectorAll('.news-card').forEach((card, i) => { card.style.animationDelay = `${i * 0.07}s`; });
-  document.getElementById('detailOverlay').classList.remove('show');
-}
-
-// ── 页面加载后动态填充横滑日期条（最多显示 14 天历史）──
+// ── 初始化：从 history_index.json 补充历史日期（最多 6 个）──
 (async function initHistoryStrip() {
   const strip = document.getElementById('historyStrip');
   if (!strip) return;
-
   const today = '{date_str}';
-
   try {
     const resp = await fetch('history_index.json');
-    if (!resp.ok) throw new Error(resp.status);
+    if (!resp.ok) return;
     const idx = await resp.json();
     const dates = (idx.dates || []).filter(d => d !== today);
-
-    // 最多显示最近 14 天的历史按钮
-    dates.slice(0, 14).forEach(d => {
+    dates.slice(0, 6).forEach(d => {
       const dt = new Date(d);
       const wd = WEEKDAYS[dt.getDay()];
-      const short = d.substring(5); // MM-DD
+      const short = d.substring(5);
       const el = document.createElement('span');
       el.className = 'hs-date';
       el.dataset.date = d;
