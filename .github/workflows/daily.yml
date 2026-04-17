@@ -43,6 +43,15 @@ jobs:
         run: python scripts/run.py
       - name: Copy detail.html
         run: cp detail.html output/detail.html
+      - name: Fetch history files
+        run: |
+          git fetch origin gh-pages:gh-pages
+          mkdir -p output/history
+          git show gh-pages:history_index.json > output/history_index.json 2>/dev/null || true
+          for d in $(git ls-tree --name-only gh-pages history 2>/dev/null | grep -E "^[0-9]"); do
+            mkdir -p "output/history"
+            git show "gh-pages:history/$d.json" > "output/history/$d.json" 2>/dev/null || true
+          done
 
 
       - name: Upload artifact for GitHub Pages
