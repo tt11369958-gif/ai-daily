@@ -201,6 +201,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     overflow-x:auto;white-space:nowrap;
     scrollbar-width:none;-ms-overflow-style:none;
     margin-bottom:.25rem;
+    touch-action: pan-x;
+    -webkit-overflow-scrolling: touch;
   }
   .history-strip-wrap::-webkit-scrollbar { display:none }
   .history-strip {
@@ -315,11 +317,6 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   <div class="stats-bar">
     <span>🔍 已过滤低价值内容，点击分类查看</span>
     <span>🚀 <a href="{pages_url}" target="_blank">GitHub Pages</a></span>
-  </div>
-
-    <div class="news-grid" id="newsGrid">
-{cards_html}
-  </div></a>
   </div>
 
   <div class="news-grid" id="newsGrid">
