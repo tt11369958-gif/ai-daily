@@ -178,10 +178,15 @@ HTML_TEMPLATE = """<!DOCTYPE html>
          min-height:100vh; line-height:1.6 }
   a { color:inherit; text-decoration:none }
 
-  header {
+    header {
     background:linear-gradient(135deg,#0f0f1a 0%,#1a1035 100%);
     border-bottom:1px solid #2a2a4a;
-    padding:2.5rem 2rem 1.5rem;
+    padding:2.5rem 1.5rem 1.5rem;
+    text-align:center;
+    position:sticky;top:0;z-index:100;
+    max-width:100%;
+    overflow:hidden;
+  } 1.5rem;
     text-align:center;
     position:sticky;top:0;z-index:100;
   }
@@ -203,11 +208,13 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     margin-bottom:.25rem;
     touch-action: pan-x;
     -webkit-overflow-scrolling: touch;
+    width:100%;
   }
   .history-strip-wrap::-webkit-scrollbar { display:none }
   .history-strip {
     display:inline-flex;gap:.4rem;
     padding:.25rem .5rem;
+    width:max-content;
   }
   .hs-date {
     display:inline-flex;flex-direction:column;align-items:center;
