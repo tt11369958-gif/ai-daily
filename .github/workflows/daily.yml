@@ -49,14 +49,11 @@ jobs:
           mkdir -p output/history
           git show gh-pages:history_index.json > output/history_index.json 2>/dev/null || true
           for f in $(git ls-tree -r --name-only gh-pages history/ 2>/dev/null); do
-            mkdir -p "output/history"
-            git show "gh-pages:history/$f" > "output/history/$f"
+            mkdir -p "$(dirname output/$f)"
+            git show "gh-pages:$f" > "output/$f"
           done
           echo "=== output/history ==="
           ls -la output/history/
-
-
-
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
