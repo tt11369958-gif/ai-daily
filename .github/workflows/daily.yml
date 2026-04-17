@@ -42,6 +42,9 @@ jobs:
           WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
         run: python scripts/run.py
 
+      - name: Copy detail.html
+        run: cp detail.html output/detail.html
+
       - name: Fetch history files from gh-pages
         run: |
           git fetch origin gh-pages:gh-pages --depth=1
