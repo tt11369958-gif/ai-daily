@@ -76,7 +76,7 @@ def _escape_html(text):
 
 
 def generate_html(articles, config, output_path=None, pages_url="", user="", repo="", token=""):
-    print("🎨 正在生成 HTML 页面...")
+    print("[generate_html] generating...")
 
     if not output_path:
         base = os.path.dirname(os.path.dirname(__file__))
@@ -152,7 +152,7 @@ def generate_html(articles, config, output_path=None, pages_url="", user="", rep
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(html)
 
-    print(f"✅ HTML 已生成: {output_path}")
+    print(f"[generate_html] done: {output_path}")
     return output_path
 
 
@@ -315,7 +315,6 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <header>
   <div class="header-badge">🤖 每日 AI 资讯精选</div>
   <h1>{title}</h1>
-<div class
 {history_nav}
 </header>
 
