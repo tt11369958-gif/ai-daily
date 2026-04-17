@@ -41,6 +41,9 @@ jobs:
           GH_USER: ${{ secrets.GH_USER }}
           WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
         run: python scripts/run.py
+      - name: Copy detail.html
+        run: cp detail.html output/detail.html
+
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
