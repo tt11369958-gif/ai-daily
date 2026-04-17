@@ -45,13 +45,16 @@ jobs:
         run: cp detail.html output/detail.html
       - name: Fetch history files
         run: |
-          git fetch origin gh-pages:gh-pages
+          git fetch origin gh-pages:gh-pages --depth=1
           mkdir -p output/history
           git show gh-pages:history_index.json > output/history_index.json 2>/dev/null || true
-          for d in $(git ls-tree --name-only gh-pages history 2>/dev/null | grep -E "^[0-9]"); do
+          for f in $(git ls-tree -r --name-only gh-pages history/ 2>/dev/null); do
             mkdir -p "output/history"
-            git show "gh-pages:history/$d.json" > "output/history/$d.json" 2>/dev/null || true
+            git show "gh-pages:history/$f" > "output/history/$f"
           done
+          echo "=== output/history ==="
+          ls -la output/history/
+
 
 
       - name: Upload artifact for GitHub Pages
