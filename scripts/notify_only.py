@@ -45,14 +45,16 @@ def build_pages_url():
     return "https://tt11369958-gif.github.io/ai-daily"
 
 def build_cover_url(pages_url):
-    """从 output/assets/ 找到封面图，构建公网 URL"""
+    """从 output/assets/ 找到封面图，构建公网 URL（加时间戳防缓存）"""
     if not pages_url:
         pages_url = build_pages_url()
     covers = glob.glob(os.path.join(BASE_DIR, "output", "assets", "cover-*.png"))
     if covers:
         latest = max(covers, key=os.path.getmtime)
         cover_name = os.path.basename(latest)
-        return f"{pages_url.rstrip('/')}/assets/{cover_name}"
+        import time
+        ts = int(time.time())
+        return f"{pages_url.rstrip('/')}/assets/{cover_name}?t={ts}"
     return ""
 
 def send_wecom_notification(articles, pages_url="", cover_url=""):
