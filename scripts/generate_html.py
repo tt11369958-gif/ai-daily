@@ -205,6 +205,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     margin-bottom:.25rem;
     -webkit-overflow-scrolling: touch;
     width:100%;
+    touch-action: pan-x;
   }
   .history-strip-wrap::-webkit-scrollbar { display:none }
   .history-strip {
