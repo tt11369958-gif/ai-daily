@@ -33,10 +33,20 @@ def _generate_history_nav(user, repo, token):
     """
     today = datetime.now()
     date_str = today.strftime("%Y-%m-%d")
+    weekday_short = ["周一","周二","周三","周四","周五","周六","周日"][today.weekday()]
+    day_num = date_str[5:]  # MM-DD
+    today_html = f'''
+      <span class="hs-date hs-today active" data-date="{date_str}" onclick="onDateClick(this)">
+        <span class="hs-day">{weekday_short}</span>
+        <span class="hs-num">{day_num}</span>
+        <span class="hs-tag">今天</span>
+      </span>'''
 
     return f'''
-  <div class="history-strip-wrap" id="historyStripWrap" style="display:none;">
-    <div class="history-strip" id="historyStrip"></div>
+  <div class="history-strip-wrap">
+    <div class="history-strip" id="historyStrip">
+  {today_html}
+    </div>
   </div>
   <div id="historyBanner" style="display:none;background:#1a1035;border:1px solid #8b5cf640;border-radius:.75rem;padding:.75rem 1.25rem;margin:.5rem auto;max-width:700px;font-size:.82rem;color:#94a3b8;text-align:center;">
     正在查看历史日报：<strong id="historyDateLabel"></strong>
@@ -480,11 +490,11 @@ function renderHistoryArticles(articles, dateStr) {
   bindCatBtns();
 }
 
-// ── 初始化：从 history_index.json 加载历史日期 ──
+// ── 初始化：从 history_index.json 补充历史日期（最多 6 个）──
 (async function initHistoryStrip() {
-  const stripWrap = document.getElementById('historyStripWrap');
+  const stripWrap = document.getElementById('historyStrip') ? document.getElementById('historyStrip').parentElement : null;
   const strip = document.getElementById('historyStrip');
-  if (!strip || !stripWrap) return;
+  if (!strip) return;
 
   const today = '{date_str}';
   try {
@@ -492,35 +502,20 @@ function renderHistoryArticles(articles, dateStr) {
     if (!resp.ok) return;
     const idx = await resp.json();
     const dates = (idx.dates || []).filter(d => d !== today);
-    if (dates.length === 0) return; // 没有历史记录，不显示日期选择器
-
-    // 先添加今天
-    const wd0 = getWeekday(today);
-    const todayEl = document.createElement('span');
-    todayEl.className = 'hs-date hs-today active';
-    todayEl.dataset.date = today;
-    todayEl.onclick = function() {{ onDateClick(this); }};
-    todayEl.innerHTML = `<span class="hs-day">${{wd0}}</span><span class="hs-num">${{today.substring(5)}}</span><span class="hs-tag">今天</span>`;
-    strip.appendChild(todayEl);
-
-    // 再添加历史日期（最多 6 个）
-    dates.slice(0, 6).forEach(d => {{
+    dates.slice(0, 6).forEach(d => {
       const wd = getWeekday(d);
       const short = d.substring(5);
       const el = document.createElement('span');
       el.className = 'hs-date';
       el.dataset.date = d;
-      el.onclick = function() {{ onDateClick(this); }};
-      el.innerHTML = `<span class="hs-day">${{wd}}</span><span class="hs-num">${{short}}</span>`;
+      el.onclick = function() { onDateClick(this); };
+      el.innerHTML = `<span class="hs-day">${wd}</span><span class="hs-num">${short}</span>`;
       strip.appendChild(el);
-    }});
-
-    // 有历史记录才显示选择器
-    stripWrap.style.display = '';
-  }} catch(e) {{
+    });
+  } catch(e) {
     console.warn('history_index.json load failed:', e);
-  }}
-}})();
+  }
+})();
 </script>
 </body>
 </html>"""
