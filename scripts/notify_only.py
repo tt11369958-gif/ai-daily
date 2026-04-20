@@ -44,18 +44,18 @@ def build_pages_url():
         return f"https://{user}.github.io/{repo}"
     return "https://tt11369958-gif.github.io/ai-daily"
 
-def build_cover_url(pages_url):
-    """从 output/assets/ 找到封面图，构建公网 URL（加时间戳防缓存）"""
-    if not pages_url:
-        pages_url = build_pages_url()
-    covers = glob.glob(os.path.join(BASE_DIR, "output", "assets", "cover-*.png"))
-    if covers:
-        latest = max(covers, key=os.path.getmtime)
-        cover_name = os.path.basename(latest)
-        import time
-        ts = int(time.time())
-        return f"{pages_url.rstrip('/')}/assets/{cover_name}?t={ts}"
-    return ""
+def build_cover_url(pages_url=""):
+    """构建封面图 URL：优先用 pollinations AI 每日生成，fallback 用默认图"""
+    from datetime import datetime
+    today = datetime.now().strftime("%Y-%m-%d")
+    # 用 pollinations AI 生成每日不同的封面图
+    prompt = "AI technology news daily briefing, futuristic digital interface, neural network visualization, dark theme, professional"
+    import urllib.parse, time
+    encoded = urllib.parse.quote(prompt)
+    seed = int(today.replace("-", "")) % 10000
+    ts = int(time.time())
+    cover_url = f"https://image.pollinations.ai/prompt/{encoded}?seed={seed}&width=1200&height=600&nologo=true&t={ts}"
+    return cover_url
 
 def send_wecom_notification(articles, pages_url="", cover_url=""):
     """发送模板卡片到企业微信群"""
@@ -93,12 +93,9 @@ def send_wecom_notification(articles, pages_url="", cover_url=""):
         highlights.append(f"• {t} [{src}]")
     digest = "\n".join(highlights) if highlights else "查看完整日报获取更多资讯"
 
-    # 封面图 URL（必须有效，不能为空）
+    # 封面图 URL
     if not cover_url:
         cover_url = build_cover_url(pages_url)
-    # 如果还是没有封面图，用默认的渐变图片
-    if not cover_url:
-        cover_url = "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop"
     card_image = {"url": cover_url, "aspect_ratio": 2}
 
     payload = {
