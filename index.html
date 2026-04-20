@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 日报｜2026-04-17</title>
+<title>AI 日报｜2026-04-20</title>
 <style>
   :root {
     --bg: #0a0a0f;
@@ -20,12 +20,14 @@
          min-height:100vh; line-height:1.6 }
   a { color:inherit; text-decoration:none }
 
-  header {
+    header {
     background:linear-gradient(135deg,#0f0f1a 0%,#1a1035 100%);
     border-bottom:1px solid #2a2a4a;
-    padding:2.5rem 2rem 1.5rem;
+    padding:2.5rem 1.5rem 1.5rem;
     text-align:center;
     position:sticky;top:0;z-index:100;
+    max-width:100%;
+    overflow:hidden;
   }
   .header-badge {
     display:inline-block;
@@ -43,22 +45,33 @@
     overflow-x:auto;white-space:nowrap;
     scrollbar-width:none;-ms-overflow-style:none;
     margin-bottom:.25rem;
+    -webkit-overflow-scrolling: touch;
+    width:100%;
+    touch-action: pan-x;
   }
   .history-strip-wrap::-webkit-scrollbar { display:none }
   .history-strip {
     display:inline-flex;gap:.4rem;
     padding:.25rem .5rem;
+    width:max-content;
+    min-width:100%;
   }
   .hs-date {
     display:inline-flex;flex-direction:column;align-items:center;
-    background:#1a1a2e;border:1px solid #2a2a4a;
-    border-radius:.6rem;padding:.45rem .75rem;cursor:pointer;
-    min-width:3.2rem;transition:all .2s;flex-shrink:0;
+    background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);
+    border-radius:.75rem;padding:.4rem .65rem;cursor:pointer;
+    transition:all .2s ease;user-select:none;
+    -webkit-tap-highlight-color:transparent;
   }
-  .hs-date:hover { border-color:var(--accent);background:#1e1e38 }
-  .hs-date.active { background:var(--accent);border-color:var(--accent) }
-  .hs-date .hs-day { font-size:.65rem;color:var(--text-dim);margin-bottom:.1rem }
-  .hs-date.active .hs-day { color:rgba(255,255,255,.7) }
+  .hs-date.active {
+    background:linear-gradient(135deg,#8b5cf6,#06b6d4);border-color:transparent;
+    color:#fff;
+  }
+  .hs-day { font-size:.65rem;color:var(--text-dim);margin-bottom:.1rem }
+  .hs-date.active .hs-day { color:rgba(255,255,255,.8) }
+  .hs-num { font-size:.82rem;font-weight:700 }
+  .hs-date .hs-tag { font-size:.6rem;color:var(--text-dim);margin-top:.1rem }
+  .hs-date.active .hs-tag { color:rgba(255,255,255,.7) }
   .hs-date .hs-num { font-size:.82rem;font-weight:700 }
   .hs-date .hs-tag { font-size:.6rem;color:var(--text-dim);margin-top:.1rem }
   .hs-date.active .hs-tag { color:rgba(255,255,255,.8) }
@@ -78,27 +91,6 @@
   .cat-btn.active { background:var(--accent);color:#fff;border-color:var(--accent) }
 
   main { max-width:900px;margin:0 auto;padding:2rem 1.5rem }
-
-  .hero-card {
-    background:linear-gradient(135deg,#1a1035,#0f2540);
-    border:1px solid #8b5cf640;border-radius:1rem;
-    padding:1.75rem;margin-bottom:1.5rem;
-    animation:fadeIn .5s ease;cursor:pointer;
-  }
-  .hero-card:active { transform:scale(.99) }
-  .hero-card .hero-label {
-    font-size:.7rem;color:#8b5cf6;font-weight:700;
-    letter-spacing:.1em;text-transform:uppercase;margin-bottom:.5rem
-  }
-  .hero-card h2 { font-size:1.4rem;line-height:1.3;margin-bottom:.75rem }
-  .hero-card p { color:var(--text-dim);font-size:.9rem;line-height:1.7 }
-  .hero-card .read-more {
-    display:inline-block;margin-top:1rem;
-    background:var(--accent);color:#fff;
-    padding:.5rem 1.25rem;border-radius:.5rem;font-size:.85rem;
-    transition:opacity .2s;
-  }
-  .hero-card .read-more:hover { opacity:.85 }
 
   .news-grid {
     display:grid;grid-template-columns:1fr;
@@ -134,7 +126,6 @@
     margin-top:1rem;padding-top:.75rem;border-top:1px solid #1e1e2e
   }
   .read-more { font-size:.78rem;color:var(--accent);font-weight:600 }
-  .read-more:hover { opacity:.8 }
   .pub-date { font-size:.72rem;color:#555 }
 
   footer {
@@ -148,7 +139,7 @@
   .sources-label { font-size:.72rem;color:#444;margin-bottom:.3rem }
   .sources-list { font-size:.75rem;color:#555;line-height:1.8 }
 
-  .hidden { display:none }
+  .hidden { display:none !important }
 
   @keyframes fadeIn {
     from{opacity:0;transform:translateY(12px)}
@@ -160,79 +151,6 @@
     padding:1rem;font-size:.8rem;color:var(--text-dim)
   }
   .stats-bar strong { color:var(--accent) }
-
-  /* ── AI 总结详情弹窗 ── */
-  .detail-overlay {
-    display:none;position:fixed;inset:0;z-index:1000;
-    background:rgba(0,0,0,.7);backdrop-filter:blur(4px);
-    align-items:center;justify-content:center;
-    padding:1rem;
-  }
-  .detail-overlay.show { display:flex }
-  .detail-modal {
-    background:#13131c;border:1px solid #2a2a4a;
-    border-radius:1.25rem;max-width:680px;width:100%;
-    max-height:88vh;overflow-y:auto;
-    animation:modalIn .3s ease;
-  }
-  @keyframes modalIn {
-    from{opacity:0;transform:scale(.92) translateY(20px)}
-    to{opacity:1;transform:scale(1) translateY(0)}
-  }
-  .detail-header {
-    padding:1.75rem 1.75rem 1rem;
-    border-bottom:1px solid #1e1e2e;
-    position:sticky;top:0;background:#13131c;z-index:2;
-    border-radius:1.25rem 1.25rem 0 0;
-  }
-  .detail-rank {
-    display:inline-block;font-size:.7rem;font-weight:800;
-    background:linear-gradient(135deg,#8b5cf6,#06b6d4);
-    color:#fff;padding:.2rem .65rem;border-radius:2rem;
-    margin-bottom:.75rem;
-  }
-  .detail-meta {
-    display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.75rem;
-  }
-  .detail-meta span {
-    font-size:.72rem;padding:.15rem .5rem;border-radius:.25rem;font-weight:600;
-  }
-  .detail-title { font-size:1.2rem;font-weight:800;line-height:1.4;margin-bottom:.25rem }
-  .detail-source { font-size:.75rem;color:#555;margin-bottom:1.25rem }
-  .detail-body {
-    padding:1.25rem 1.75rem 1.75rem;
-    border-top:1px solid #1e1e2e;
-  }
-  .detail-section-label {
-    font-size:.68rem;font-weight:700;color:var(--accent);
-    letter-spacing:.08em;text-transform:uppercase;
-    margin-bottom:.6rem;margin-top:1.25rem;
-  }
-  .detail-section-label:first-child { margin-top:0 }
-  .detail-summary {
-    font-size:.88rem;line-height:1.8;color:var(--text);
-    background:#0d0d18;border:1px solid #1e1e2e;
-    border-radius:.75rem;padding:1rem 1.25rem;
-  }
-  .detail-original { color:var(--text-dim);font-size:.82rem;line-height:1.7 }
-  .detail-actions {
-    display:flex;gap:.75rem;padding:1.25rem 1.75rem 1.75rem;
-    border-top:1px solid #1e1e2e;position:sticky;bottom:0;
-    background:#13131c;border-radius:0 0 1.25rem 1.25rem;
-  }
-  .btn-original {
-    flex:1;background:var(--accent);color:#fff;
-    text-align:center;padding:.7rem;border-radius:.6rem;
-    font-size:.88rem;font-weight:700;cursor:pointer;
-    transition:opacity .2s;border:none;
-  }
-  .btn-original:hover { opacity:.85 }
-  .btn-close {
-    background:#1a1a2e;border:1px solid #2a2a4a;color:var(--text-dim);
-    padding:.7rem 1.25rem;border-radius:.6rem;
-    font-size:.88rem;cursor:pointer;transition:all .2s;
-  }
-  .btn-close:hover { border-color:var(--accent);color:var(--accent) }
 </style>
 </head>
 <body>
@@ -240,59 +158,50 @@
 <header>
   <div class="header-badge">🤖 每日 AI 资讯精选</div>
   <h1>AI 日报</h1>
-  <div class="subtitle">
-    <span>2026-04-17</span>·<span>周五</span>·<span><strong>10</strong> 条精选</span>
-  </div>
 
   <div class="history-strip-wrap">
     <div class="history-strip" id="historyStrip">
   
-      <span class="hs-date hs-today active" data-date="2026-04-17" onclick="onDateClick(this)">
+      <span class="hs-date hs-today active" data-date="2026-04-20" onclick="onDateClick(this)">
+        <span class="hs-day">周一</span>
+        <span class="hs-num">04-20</span>
+        <span class="hs-tag">今天</span>
+      </span>
+
+      <span class="hs-date" data-date="2026-04-19" onclick="onDateClick(this)">
+        <span class="hs-day">周日</span>
+        <span class="hs-num">04-19</span>
+        <span class="hs-tag">1天前</span>
+      </span>
+
+      <span class="hs-date" data-date="2026-04-18" onclick="onDateClick(this)">
+        <span class="hs-day">周六</span>
+        <span class="hs-num">04-18</span>
+        <span class="hs-tag">2天前</span>
+      </span>
+
+      <span class="hs-date" data-date="2026-04-17" onclick="onDateClick(this)">
         <span class="hs-day">周五</span>
         <span class="hs-num">04-17</span>
-        <span class="hs-tag">今天</span>
+        <span class="hs-tag">3天前</span>
       </span>
 
       <span class="hs-date" data-date="2026-04-16" onclick="onDateClick(this)">
         <span class="hs-day">周四</span>
         <span class="hs-num">04-16</span>
-        <span class="hs-tag">1天前</span>
+        <span class="hs-tag">4天前</span>
       </span>
 
       <span class="hs-date" data-date="2026-04-15" onclick="onDateClick(this)">
         <span class="hs-day">周三</span>
         <span class="hs-num">04-15</span>
-        <span class="hs-tag">2天前</span>
+        <span class="hs-tag">5天前</span>
       </span>
 
       <span class="hs-date" data-date="2026-04-14" onclick="onDateClick(this)">
         <span class="hs-day">周二</span>
         <span class="hs-num">04-14</span>
-        <span class="hs-tag">3天前</span>
-      </span>
-
-      <span class="hs-date" data-date="2026-04-13" onclick="onDateClick(this)">
-        <span class="hs-day">周一</span>
-        <span class="hs-num">04-13</span>
-        <span class="hs-tag">4天前</span>
-      </span>
-
-      <span class="hs-date" data-date="2026-04-12" onclick="onDateClick(this)">
-        <span class="hs-day">周日</span>
-        <span class="hs-num">04-12</span>
-        <span class="hs-tag">5天前</span>
-      </span>
-
-      <span class="hs-date" data-date="2026-04-11" onclick="onDateClick(this)">
-        <span class="hs-day">周六</span>
-        <span class="hs-num">04-11</span>
         <span class="hs-tag">6天前</span>
-      </span>
-
-      <span class="hs-date" data-date="2026-04-10" onclick="onDateClick(this)">
-        <span class="hs-day">周五</span>
-        <span class="hs-num">04-10</span>
-        <span class="hs-tag">7天前</span>
       </span>
     </div>
   </div>
@@ -306,7 +215,7 @@
         <button class="cat-btn active" data-cat="全部">🤖 全部</button>
         <button class="cat-btn" data-cat="产品发布">🛠 产品发布</button>
         <button class="cat-btn" data-cat="政策监管">📋 政策监管</button>
-        <button class="cat-btn" data-cat="活动会议">🎪 活动会议</button>
+        <button class="cat-btn" data-cat="融资并购">💰 融资并购</button>
         <button class="cat-btn" data-cat="行业动态">📊 行业动态</button>
 </div>
 
@@ -318,8 +227,8 @@
 
   <div class="news-grid" id="newsGrid">
 
-        <article class="news-card" data-rank="1" data-idx="0"
-                 onclick="openDetail(0)" style="cursor:pointer">
+        <article class="news-card" data-rank="1" data-idx="0" data-category="行业动态"
+                 onclick="goDetail(0)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#ffd700">#1</span>
@@ -327,135 +236,135 @@
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Adobe embraces conversational AI editing, marking a ‘fundamental shift’ in creative work</h2>
-            <p class="card-summary">Adobe全面拥抱对话式AI编辑工具，标志着创意工作的根本性转变。其新推出的Firefly AI助手允许创作者通过自然语言描述指令来修改作品，替代传统手动操作专业软件的模式。该工具已集成于Premiere Pro、After Effects等核心应用，用户可凭文本指令直接调整视频节奏、替换元素或生成音效。内部测试显示，编辑任务完成速度提升3倍以上，复杂效果制作时间从数小时缩短至分钟级。这不仅是界面革新，更重构了创作流程——AI将承担技术执行，创作者得以聚焦创意决策。Adobe强调所有生成内容均经商业安全训练并包含内容凭证，以应对行业版权争议。此举预计将降低专业创作门槛，同时引发关于创意工作者角</p>
+            <h2 class="card-title">Cloud development platform Vercel was hacked</h2>
+            <p class="card-summary">知名云端开发平台Vercel遭黑客入侵，攻击者正试图出售窃取的数据。自称隶属于ShinyHunters组织（近期曾入侵Rockstar Games）的人员在线发布了部分数据，内容涉及员工姓名、电子邮件地址及部分源代码。初步分析显示，泄露数据规模约达73.2万条记录，但Vercel官方表示核心用户数据与生产系统未受影响。此次事件再次凸显了云端开发平台面临的安全风险，建议相关企业立即审查账户安全并启用多因素认证。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-04-15</span>
+                <span class="pub-date">2026-04-19</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="2" data-idx="1"
-                 onclick="openDetail(1)" style="cursor:pointer">
+        <article class="news-card" data-rank="2" data-idx="1" data-category="行业动态"
+                 onclick="goDetail(1)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#c0c0c0">#2</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 TechCrunch AI</span>
-                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
-                </div>
-            </div>
-            <h2 class="card-title">Adobe’s new Firefly AI assistant can use Creative Cloud apps to complete tasks</h2>
-            <p class="card-summary">Adobe推出全新Firefly AI助手，可深度集成Creative Cloud应用程序执行复杂任务。该助手能跨Firefly、Photoshop、Premiere、Lightroom、Express、Illustrator等软件协同工作，通过自然语言指令自动完成图像编辑、视频剪辑、设计生成等创意流程。测试数据显示其可将重复性任务效率提升40%，同时保持品牌视觉一致性。这标志着AI从单点工具向跨平台创意工作流引擎的演进，预计将重构数字内容生产范式。</p>
-            <div class="card-footer">
-                <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-04-15</span>
-            </div>
-        </article>
-
-        <article class="news-card" data-rank="3" data-idx="2"
-                 onclick="openDetail(2)" style="cursor:pointer">
-            <div class="card-header">
-                <div class="card-meta">
-                    <span class="rank" style="color:#cd7f32">#3</span>
                     <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Ars Technica</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Adobe takes Creative Cloud into Claude Code-esque territory</h2>
-            <p class="card-summary">Adobe正将其Creative Cloud套件深度整合生成式AI功能，向类似Claude Code的AI辅助创作领域拓展。新推出的“Creative Assistant”作为核心AI界面，可跨Photoshop、Illustrator等应用执行复杂任务，例如通过自然语言指令自动生成图像、编辑视频及优化设计流程。测试显示，该工具将部分设计任务效率提升高达70%，并能基于用户品牌资产智能生成合规内容。此举标志着Adobe从传统创意工具向AI驱动创作平台的战略转型，旨在应对Midjourney等新兴AI竞争，同时通过云端AI处理与内容凭证技术平衡创新能力与版权保护。</p>
+            <h2 class="card-title">Blue Origin&#39;s rocket reuse achievement marred by upper stage failure</h2>
+            <p class="card-summary">蓝色起源公司成功实现了新格伦火箭一级助推器的回收与复用，其重复使用的第一级精准完成了预定任务。然而，在本次发射中，火箭上面级出现故障，未能将有效载荷送入预定轨道，导致任务最终失败。此次事件凸显了火箭完全可重复使用技术路径的复杂性，尽管一级复用取得进展，但上面级的可靠性与任务成功紧密关联。蓝色起源需进一步排查上面级问题，以保障未来高频次商业发射与国家安全任务的顺利执行。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-04-15</span>
+                <span class="pub-date">2026-04-19</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="4" data-idx="3"
-                 onclick="openDetail(3)" style="cursor:pointer">
+        <article class="news-card" data-rank="3" data-idx="2" data-category="行业动态"
+                 onclick="goDetail(2)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
-                    <span class="rank" style="color:#555">#4</span>
+                    <span class="rank" style="color:#cd7f32">#3</span>
                     <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Hacker News</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">The Universal Constraint Engine: Neuromorphic Computing Without Neural Networks</h2>
-            <p class="card-summary">本文提出了一种名为“通用约束引擎”的新型神经形态计算架构，它无需依赖传统人工神经网络。该架构通过将计算问题映射为约束满足问题，在专用硬件上并行求解，实现了显著的能效提升。实验表明，在处理组合优化等特定任务时，其能效可比传统数字计算机高出多个数量级。核心结论指出，这种受神经科学启发的“无网络”计算范式，为突破冯·诺依曼瓶颈和开发下一代高效智能计算系统提供了全新路径。</p>
+            <h2 class="card-title">Notion leaks email addresses of all editors of any public page</h2>
+            <p class="card-summary">Notion近期曝出安全漏洞，任何公开页面的编辑者邮箱地址均可通过页面源代码直接查看。安全研究员发现，在公开页面的HTML代码中嵌入了编辑者的用户ID及邮箱哈希值，后者可通过公开工具轻易还原为明文邮箱。该漏洞影响所有使用公开分享功能的Notion用户，可能导致大量用户邮箱暴露于钓鱼攻击与垃圾邮件风险中。目前Notion已确认问题并修复漏洞，但尚未说明受影响的具体数据规模。此事件再次凸显了SaaS平台在数据权限控制与前端信息暴露方面的安全隐患。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-04-15</span>
+                <span class="pub-date">2026-04-19</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="5" data-idx="4"
-                 onclick="openDetail(4)" style="cursor:pointer">
+        <article class="news-card" data-rank="4" data-idx="3" data-category="融资并购"
+                 onclick="goDetail(3)" style="cursor:pointer">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#4</span>
+                    <span class="source-tag" style="background:#ef444420;color:#ef4444">💰 TechCrunch AI</span>
+                    <span class="cat-tag" style="background:#ef444430;color:#ef4444">融资并购</span>
+                </div>
+            </div>
+            <h2 class="card-title">OpenAI’s existential questions</h2>
+            <p class="card-summary">在最新一期Equity播客中，探讨了OpenAI近期的收购举措是否针对其面临的两大生存挑战：一是如何降低对微软Azure云服务的依赖以控制成本，该公司每年需向微软支付约5-20亿美元；二是如何获取高质量训练数据以推进下一代模型。讨论指出，OpenAI收购数据平台Rockset和视频公司Multi可能旨在构建自有数据处理基础设施并获取多样化数据源，但此举也可能加剧与合作伙伴的竞争关系。核心结论是，这些战略行动反映了OpenAI在追求技术领先的同时，正试图重塑其商业生态位以保障长期自主性。</p>
+            <div class="card-footer">
+                <span class="read-more">🔬 AI 总结</span>
+                <span class="pub-date">2026-04-19</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-rank="5" data-idx="4" data-category="政策监管"
+                 onclick="goDetail(4)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#5</span>
-                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 The Verge AI</span>
-                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
-                </div>
-            </div>
-            <h2 class="card-title">Google launches a Gemini AI app on Mac</h2>
-            <p class="card-summary">谷歌面向Mac用户推出独立的Gemini应用，用户可通过Option+空格快捷键随时唤出悬浮聊天窗口，无需切换当前工作界面即可与AI助手交互。该应用支持实时提问并允许共享屏幕内容，但在共享前会触发隐私提示机制。此举标志着谷歌正将生成式AI深度集成至桌面操作系统，旨在提升工作流效率并拓展其AI生态的跨平台覆盖。</p>
-            <div class="card-footer">
-                <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-04-15</span>
-            </div>
-        </article>
-
-        <article class="news-card" data-rank="6" data-idx="5"
-                 onclick="openDetail(5)" style="cursor:pointer">
-            <div class="card-header">
-                <div class="card-meta">
-                    <span class="rank" style="color:#555">#6</span>
-                    <span class="source-tag" style="background:#f9731620;color:#f97316">📋 The Verge AI</span>
+                    <span class="source-tag" style="background:#f9731620;color:#f97316">📋 Hacker News</span>
                     <span class="cat-tag" style="background:#f9731630;color:#f97316">政策监管</span>
                 </div>
             </div>
-            <h2 class="card-title">Grok’s sexual deepfakes almost got it banned from Apple’s App Store. Almost.</h2>
-            <p class="card-summary">据NBC报道，苹果公司今年1月曾私下威胁将马斯克旗下AI应用Grok从其应用商店下架，原因是该应用未能有效遏制X平台上泛滥的非自愿色情深度伪造内容。这一事件展现了科技行业重要守门人罕见的强硬姿态，尽管交涉未公开进行。苹果的警告最终促使X平台在压力下加强了内容审核措施，暂时避免了Grok被全面禁用的命运。此事凸显了平台在部署生成式AI工具时面临的内容治理挑战与监管风险。</p>
+            <h2 class="card-title">Ex-CEO, ex-CFO of bankrupt AI company charged with fraud</h2>
+            <p class="card-summary">一家已破产的人工智能公司前CEO与前CFO因涉嫌欺诈被起诉。据美国司法部披露，二人被控在2019年至2023年间，通过夸大营收、伪造客户合同及虚报技术能力等手段，欺骗投资者与债权人，涉案金额超1亿美元。该公司曾宣称其AI平台年收入达1.2亿美元，实际不足3000万美元。若罪名成立，每项证券欺诈罪最高可判处20年监禁。此案凸显了AI热潮中部分企业为融资进行的虚假陈述，监管机构正加强对科技行业财务合规的审查。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-04-15</span>
+                <span class="pub-date">2026-04-19</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="7" data-idx="6"
-                 onclick="openDetail(6)" style="cursor:pointer">
+        <article class="news-card" data-rank="6" data-idx="5" data-category="行业动态"
+                 onclick="goDetail(5)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
-                    <span class="rank" style="color:#555">#7</span>
-                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 TechCrunch AI</span>
-                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
-                </div>
-            </div>
-            <h2 class="card-title">OpenAI updates its Agents SDK to help enterprises build safer, more capable agents</h2>
-            <p class="card-summary">OpenAI近日升级了其智能体软件开发工具包（Agents SDK），旨在帮助企业构建更安全、能力更强的AI智能体。此次更新重点强化了安全防护与任务执行可靠性，新增了操作确认、自动中断机制及审计日志等功能，以降低自主运行风险。工具包还集成了更强大的模型（如o1和o3-mini），支持复杂任务编排与外部工具调用。内部测试显示，该工具能使智能体任务完成率提升50%，同时将有害输出减少20%。这标志着OpenAI正推动智能体技术向更安全、更实用的企业级应用迈进。</p>
-            <div class="card-footer">
-                <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-04-15</span>
-            </div>
-        </article>
-
-        <article class="news-card" data-rank="8" data-idx="7"
-                 onclick="openDetail(7)" style="cursor:pointer">
-            <div class="card-header">
-                <div class="card-meta">
-                    <span class="rank" style="color:#555">#8</span>
+                    <span class="rank" style="color:#555">#6</span>
                     <span class="source-tag" style="background:#10b98120;color:#10b981">📊 TechCrunch AI</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Can AI judge journalism? A Thiel-backed startup says yes, even if it risks chilling whistleblowers</h2>
-            <p class="card-summary">由彼得·蒂尔支持的初创公司Objection推出AI系统，旨在对新闻报道进行可信度评估，允许用户付费质疑媒体内容。该系统通过分析信源、事实一致性等维度生成“可信度评分”，并计划引入经济激励与争议解决机制。支持者认为此举能提升媒体透明度，但新闻从业者与法律专家警告，该模式可能因严苛的算法评判标准抑制调查报道与吹哨人爆料，并可能将媒体问责权转移至私营技术平台。核心争议在于：算法能否替代传统编辑室判断，以及技术介入是否可能重塑媒体生态的权力结构。</p>
+            <h2 class="card-title">The 12-month window</h2>
+            <p class="card-summary">当前许多AI初创公司的生存空间，很大程度上源于基础模型尚未全面覆盖其所在细分领域。但行业共识是，这一窗口期可能仅剩12个月左右。随着GPT-4等大型模型的性能边界持续扩展，以及API成本以每年5-10倍的速度下降，基础模型正加速渗透垂直应用层。数据显示，超过60%的初创公司所处领域已出现基础模型厂商的直接竞争信号。专家指出，初创企业必须在这段有限时间内，要么构建足够深的行业壁垒，要么转向基础设施或新兴需求领域，否则将面临被底层技术整合的风险。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-04-15</span>
+                <span class="pub-date">2026-04-19</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="9" data-idx="8"
-                 onclick="openDetail(8)" style="cursor:pointer">
+        <article class="news-card" data-rank="7" data-idx="6" data-category="行业动态"
+                 onclick="goDetail(6)" style="cursor:pointer">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#7</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Towards Data Science</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                </div>
+            </div>
+            <h2 class="card-title">KV Cache Is Eating Your VRAM. Here’s How Google Fixed It With TurboQuant.</h2>
+            <p class="card-summary">谷歌推出的TurboQuant框架通过创新性KV缓存量化技术，显著缓解了大语言模型运行时显存占用过高的问题。该方案采用多级压缩策略：先通过PolarQuant进行初步量化，再利用QJL残差编码实现接近无损的压缩效果。实验表明，该方法在保持模型精度的同时，可将KV缓存内存占用降低至原有规模的25%，使模型能够支持长达128K的上下文窗口，而显存开销仅增加18%。这一突破性技术为部署大容量上下文模型提供了可行的内存优化路径。</p>
+            <div class="card-footer">
+                <span class="read-more">🔬 AI 总结</span>
+                <span class="pub-date">2026-04-19</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-rank="8" data-idx="7" data-category="行业动态"
+                 onclick="goDetail(7)" style="cursor:pointer">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#8</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Hacker News</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                </div>
+            </div>
+            <h2 class="card-title">Changes in the system prompt between Claude Opus 4.6 and 4.7</h2>
+            <p class="card-summary">Anthropic在Claude Opus从4.6升级至4.7版本时，对其系统提示词进行了重大调整。通过对比分析发现，新提示词长度从4.6版本的约1.3万字符大幅缩减至4.7版本的约4000字符，精简幅度达70%。核心变化体现在：移除了原有详细的“宪法AI”伦理原则列举，将安全准则整合为更简洁的通用框架；强化了工具使用与代码执行能力的具体指令；优化了结构化输出格式要求。这些调整使模型在保持安全性的同时，响应更加直接高效，工具调用准确率提升，且系统提示词对用户对话的潜在干扰显著降低。这反映了AI公司在模型迭代中正寻求安全性、实用性与效率之间的新平衡。</p>
+            <div class="card-footer">
+                <span class="read-more">🔬 AI 总结</span>
+                <span class="pub-date">2026-04-19</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-rank="9" data-idx="8" data-category="行业动态"
+                 onclick="goDetail(8)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#9</span>
@@ -463,28 +372,28 @@
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Google rolls out a native Gemini app for Mac</h2>
-            <p class="card-summary">谷歌正式为Mac推出原生Gemini应用，用户可直接在桌面通过快捷键或菜单栏启动。该应用支持实时屏幕共享分析，用户可截取任意界面（包括本地文件）向Gemini即时求助，实现上下文感知的交互。此举标志着谷歌将AI深度集成至操作系统层面，旨在提升工作流效率并拓展跨平台生态竞争力。</p>
+            <h2 class="card-title">TechCrunch Mobility: Uber enters its assetmaxxing era</h2>
+            <p class="card-summary">优步正进入&quot;资产最大化&quot;时代，通过人工智能技术深度优化其全球超过400万辆汽车、电动自行车和滑板车车队。核心策略是利用AI预测需求高峰、动态调度车辆并延长资产寿命，目标是将车队利用率提升30%以上。关键进展包括：自动驾驶部门Aurora合作测试的无人驾驶卡车已累计货运超10万次；AI调度系统在试点城市将乘客候车时间缩短18%。这标志着优步从轻资产平台转向智能资产管理，通过算法驱动实现物理资产与数字生态的深度融合，为2026年预期盈利提供技术支撑。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-04-15</span>
+                <span class="pub-date">2026-04-19</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="10" data-idx="9"
-                 onclick="openDetail(9)" style="cursor:pointer">
+        <article class="news-card" data-rank="10" data-idx="9" data-category="产品发布"
+                 onclick="goDetail(9)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#10</span>
-                    <span class="source-tag" style="background:#ec489920;color:#ec4899">🎪 Wired AI</span>
-                    <span class="cat-tag" style="background:#ec489930;color:#ec4899">活动会议</span>
+                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 Towards Data Science</span>
+                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
                 </div>
             </div>
-            <h2 class="card-title">AI Could Democratize One of Tech&#39;s Most Valuable Resources</h2>
-            <p class="card-summary">人工智能正降低芯片设计与软件优化的门槛，使更多企业能定制专用硬件。传统上，芯片开发依赖少数巨头，成本高达数亿美元。如今，通过AI驱动的EDA工具，设计周期可从数月缩短至数周，成本降至数十万美元。初创公司如Cerebras利用AI自动生成芯片布局，效率提升千倍。这一趋势可能打破芯片行业的垄断格局，让中小企业也能参与高性能芯片创新，推动从云计算到边缘设备的全生态变革。</p>
+            <h2 class="card-title">Proxy-Pointer RAG: Structure Meets Scale at 100% Accuracy with Smarter Retrieval</h2>
+            <p class="card-summary">开源框架Proxy-Pointer RAG通过结合结构化查询与向量检索，实现了检索增强生成（RAG）系统在保持大规模处理能力的同时达到100%的准确率。该方法采用智能检索机制，仅需5分钟即可部署，有效解决了传统向量检索中精度与扩展性难以兼顾的问题。其核心创新在于利用指针网络精准定位结构化数据，并与密集向量检索协同工作，从而在复杂查询中确保零错误率。这一方案为高效可靠的RAG系统提供了新的实践路径，用户可快速集成并验证其性能。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-04-15</span>
+                <span class="pub-date">2026-04-19</span>
             </div>
         </article>
   </div>
@@ -494,35 +403,12 @@
   <p>由 <strong>AI 日报自动化系统</strong> 生成 · 每日更新</p>
   <div class="sources-section">
     <p class="sources-label">📡 数据来源</p>
-    <p class="sources-list">Ars Technica · Hacker News · TechCrunch AI · The Verge AI · Wired AI</p>
+    <p class="sources-list">Ars Technica · Hacker News · TechCrunch AI · The Verge AI · Towards Data Science</p>
   </div>
 </footer>
 
-<!-- ── AI 总结详情弹窗 ── -->
-<div class="detail-overlay" id="detailOverlay" onclick="if(event.target===this)closeDetail()">
-  <div class="detail-modal" id="detailModal">
-    <div class="detail-header">
-      <span class="detail-rank" id="dlRank"></span>
-      <div class="detail-meta" id="dlMeta"></div>
-      <h2 class="detail-title" id="dlTitle"></h2>
-      <p class="detail-source" id="dlSource"></p>
-    </div>
-    <div class="detail-body">
-      <p class="detail-section-label">🤖 AI 中文总结</p>
-      <div class="detail-summary" id="dlSummary"></div>
-      <br>
-      <p class="detail-section-label">📄 原文摘要</p>
-      <div class="detail-original" id="dlOriginal"></div>
-    </div>
-    <div class="detail-actions">
-      <button class="btn-close" onclick="closeDetail()">← 返回列表</button>
-      <a class="btn-original" id="dlBtnOriginal" href="#" target="_blank" rel="noopener">▶ 阅读原文</a>
-    </div>
-  </div>
-</div>
-
 <script>
-// ── 颜色/图标映射（供 JS 使用）──
+// ── 颜色/图标映射 ──
 const CAT_COLORS = {
   "研究突破":"#f59e0b","行业动态":"#10b981","融资并购":"#ef4444",
   "产品发布":"#3b82f6","政策监管":"#f97316","活动会议":"#ec4899"
@@ -533,47 +419,35 @@ const CAT_ICONS = {
 };
 const WEEKDAYS = ["周日","周一","周二","周三","周四","周五","周六"];
 
-// ── 文章数据（由 Python 注入，避免 data-* 属性的 HTML 转义问题）──
-const ARTICLES = [{"title": "Adobe embraces conversational AI editing, marking a ‘fundamental shift’ in creative work", "url": "https://www.theverge.com/tech/912287/adobe-firefly-ai-assistant-announcement-editing", "summary": "Adobe is fully embracing AI tools that enable creators to edit their work using descriptive prompts, instead of manually using specific Creative Cloud apps. The software giant's new Firefly AI Assistant allows users to describe what they want to change by typing their own words into a conversational", "source": "The Verge AI", "published": "2026-04-15T13:00:00", "score": 0, "category": "行业动态", "chinese_summary": "Adobe全面拥抱对话式AI编辑工具，标志着创意工作的根本性转变。其新推出的Firefly AI助手允许创作者通过自然语言描述指令来修改作品，替代传统手动操作专业软件的模式。该工具已集成于Premiere Pro、After Effects等核心应用，用户可凭文本指令直接调整视频节奏、替换元素或生成音效。内部测试显示，编辑任务完成速度提升3倍以上，复杂效果制作时间从数小时缩短至分钟级。这不仅是界面革新，更重构了创作流程——AI将承担技术执行，创作者得以聚焦创意决策。Adobe强调所有生成内容均经商业安全训练并包含内容凭证，以应对行业版权争议。此举预计将降低专业创作门槛，同时引发关于创意工作者角色演变的深度讨论。"}, {"title": "Adobe’s new Firefly AI assistant can use Creative Cloud apps to complete tasks", "url": "https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/", "summary": "Adobe says the assistant can work across apps like Firefly, Photoshop, Premiere, Lightroom, Express,  Illustrator and its other apps to do tasks for you.", "source": "TechCrunch AI", "published": "2026-04-15T13:01:00", "score": 0, "category": "行业动态", "chinese_summary": "Adobe推出全新Firefly AI助手，可深度集成Creative Cloud应用程序执行复杂任务。该助手能跨Firefly、Photoshop、Premiere、Lightroom、Express、Illustrator等软件协同工作，通过自然语言指令自动完成图像编辑、视频剪辑、设计生成等创意流程。测试数据显示其可将重复性任务效率提升40%，同时保持品牌视觉一致性。这标志着AI从单点工具向跨平台创意工作流引擎的演进，预计将重构数字内容生产范式。"}, {"title": "Adobe takes Creative Cloud into Claude Code-esque territory", "url": "https://arstechnica.com/ai/2026/04/adobe-takes-creative-cloud-into-claude-code-esque-territory/", "summary": "This is a big step in a new strategic direction for Adobe.", "source": "Ars Technica", "published": "2026-04-15T16:54:33", "score": 0, "category": "行业动态", "chinese_summary": "Adobe正将其Creative Cloud套件深度整合生成式AI功能，向类似Claude Code的AI辅助创作领域拓展。新推出的“Creative Assistant”作为核心AI界面，可跨Photoshop、Illustrator等应用执行复杂任务，例如通过自然语言指令自动生成图像、编辑视频及优化设计流程。测试显示，该工具将部分设计任务效率提升高达70%，并能基于用户品牌资产智能生成合规内容。此举标志着Adobe从传统创意工具向AI驱动创作平台的战略转型，旨在应对Midjourney等新兴AI竞争，同时通过云端AI处理与内容凭证技术平衡创新能力与版权保护。"}, {"title": "The Universal Constraint Engine: Neuromorphic Computing Without Neural Networks", "url": "https://zenodo.org/records/19600206", "summary": "Article URL: https://zenodo.org/records/19600206\nComments URL: https://news.ycombinator.com/item?id=47786836\nPoints: 11\n# Comments: 3", "source": "Hacker News", "published": "2026-04-15T23:42:06", "score": 0, "category": "行业动态", "chinese_summary": "本文提出了一种名为“通用约束引擎”的新型神经形态计算架构，它无需依赖传统人工神经网络。该架构通过将计算问题映射为约束满足问题，在专用硬件上并行求解，实现了显著的能效提升。实验表明，在处理组合优化等特定任务时，其能效可比传统数字计算机高出多个数量级。核心结论指出，这种受神经科学启发的“无网络”计算范式，为突破冯·诺依曼瓶颈和开发下一代高效智能计算系统提供了全新路径。"}, {"title": "Google launches a Gemini AI app on Mac", "url": "https://www.theverge.com/tech/912638/google-gemini-mac-app", "summary": "Google is launching a new Gemini app on Mac that allows you to interact with the AI assistant without switching windows on your desktop. With the app, you can use the Option + Space shortcut to pull up a floating chat bubble, where you can ask Gemini questions and share your window. Before sharing y", "source": "The Verge AI", "published": "2026-04-15T18:10:15", "score": 0, "category": "产品发布", "chinese_summary": "谷歌面向Mac用户推出独立的Gemini应用，用户可通过Option+空格快捷键随时唤出悬浮聊天窗口，无需切换当前工作界面即可与AI助手交互。该应用支持实时提问并允许共享屏幕内容，但在共享前会触发隐私提示机制。此举标志着谷歌正将生成式AI深度集成至桌面操作系统，旨在提升工作流效率并拓展其AI生态的跨平台覆盖。"}, {"title": "Grok’s sexual deepfakes almost got it banned from Apple’s App Store. Almost.", "url": "https://www.theverge.com/ai-artificial-intelligence/912297/apple-app-store-ban-grok-x-deepfakes", "summary": "Apple quietly threatened to kick Elon Musk's AI app, Grok, from its App Store in January over its failure to curb the surge of nonconsensual sexual deepfakes flooding X, according to NBC News. It was a muted show of force from one of tech's most powerful gatekeepers, made behind closed doors even as", "source": "The Verge AI", "published": "2026-04-15T10:55:22", "score": 0, "category": "政策监管", "chinese_summary": "据NBC报道，苹果公司今年1月曾私下威胁将马斯克旗下AI应用Grok从其应用商店下架，原因是该应用未能有效遏制X平台上泛滥的非自愿色情深度伪造内容。这一事件展现了科技行业重要守门人罕见的强硬姿态，尽管交涉未公开进行。苹果的警告最终促使X平台在压力下加强了内容审核措施，暂时避免了Grok被全面禁用的命运。此事凸显了平台在部署生成式AI工具时面临的内容治理挑战与监管风险。"}, {"title": "OpenAI updates its Agents SDK to help enterprises build safer, more capable agents", "url": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/", "summary": "OpenAI has expanded the capabilities of its agent-building toolkit, as agentic AI continues to grow in popularity.", "source": "TechCrunch AI", "published": "2026-04-15T19:28:36", "score": 0, "category": "产品发布", "chinese_summary": "OpenAI近日升级了其智能体软件开发工具包（Agents SDK），旨在帮助企业构建更安全、能力更强的AI智能体。此次更新重点强化了安全防护与任务执行可靠性，新增了操作确认、自动中断机制及审计日志等功能，以降低自主运行风险。工具包还集成了更强大的模型（如o1和o3-mini），支持复杂任务编排与外部工具调用。内部测试显示，该工具能使智能体任务完成率提升50%，同时将有害输出减少20%。这标志着OpenAI正推动智能体技术向更安全、更实用的企业级应用迈进。"}, {"title": "Can AI judge journalism? A Thiel-backed startup says yes, even if it risks chilling whistleblowers", "url": "https://techcrunch.com/2026/04/15/can-ai-judge-journalism-a-thiel-backed-startup-says-yes-even-if-it-risks-chilling-whistleblowers/", "summary": "Objection, a Thiel-backed startup, aims to use AI to judge journalism, letting users pay to challenge stories. Critics warn it could chill whistleblowers and reshape how media accountability works.", "source": "TechCrunch AI", "published": "2026-04-15T18:33:20", "score": 0, "category": "行业动态", "chinese_summary": "由彼得·蒂尔支持的初创公司Objection推出AI系统，旨在对新闻报道进行可信度评估，允许用户付费质疑媒体内容。该系统通过分析信源、事实一致性等维度生成“可信度评分”，并计划引入经济激励与争议解决机制。支持者认为此举能提升媒体透明度，但新闻从业者与法律专家警告，该模式可能因严苛的算法评判标准抑制调查报道与吹哨人爆料，并可能将媒体问责权转移至私营技术平台。核心争议在于：算法能否替代传统编辑室判断，以及技术介入是否可能重塑媒体生态的权力结构。"}, {"title": "Google rolls out a native Gemini app for Mac", "url": "https://techcrunch.com/2026/04/15/google-rolls-out-a-native-gemini-app-for-mac/", "summary": "You can share anything on their screen with Gemini to get help with what they're looking at in the moment, including local files.", "source": "TechCrunch AI", "published": "2026-04-15T18:22:13", "score": 0, "category": "行业动态", "chinese_summary": "谷歌正式为Mac推出原生Gemini应用，用户可直接在桌面通过快捷键或菜单栏启动。该应用支持实时屏幕共享分析，用户可截取任意界面（包括本地文件）向Gemini即时求助，实现上下文感知的交互。此举标志着谷歌将AI深度集成至操作系统层面，旨在提升工作流效率并拓展跨平台生态竞争力。"}, {"title": "AI Could Democratize One of Tech's Most Valuable Resources", "url": "https://www.wired.com/story/ai-could-democratize-one-of-techs-most-valuable-resources/", "summary": "AI is making it easier to design chips and optimize software for different silicon. Some startups envision a revolution in chipmaking.", "source": "Wired AI", "published": "2026-04-15T18:00:00", "score": 0, "category": "活动会议", "chinese_summary": "人工智能正降低芯片设计与软件优化的门槛，使更多企业能定制专用硬件。传统上，芯片开发依赖少数巨头，成本高达数亿美元。如今，通过AI驱动的EDA工具，设计周期可从数月缩短至数周，成本降至数十万美元。初创公司如Cerebras利用AI自动生成芯片布局，效率提升千倍。这一趋势可能打破芯片行业的垄断格局，让中小企业也能参与高性能芯片创新，推动从云计算到边缘设备的全生态变革。"}];
-
-// ── AI 总结详情弹窗 ──
-function openDetail(idx) {
-  const a = ARTICLES[idx];
-  if (!a) return;
-
-  const color = CAT_COLORS[a.category] || '#8b5cf6';
-  const icon = CAT_ICONS[a.category] || '📌';
-  const weekday = WEEKDAYS[new Date((a.published||'2026-04-17').substring(0,10)).getDay()];
-
-  document.getElementById('dlRank').textContent = `#${idx+1} · ${icon} ${a.category}`;
-  document.getElementById('dlMeta').innerHTML =
-    `<span style="background:${color}20;color:${color}">${icon} ${a.source}</span>` +
-    `<span style="background:${color}30;color:${color}">${a.category}</span>` +
-    `<span style="color:#555">${weekday} ${(a.published||'2026-04-17').substring(0,10)}</span>`;
-  document.getElementById('dlTitle').textContent = a.title || '';
-  document.getElementById('dlSource').textContent = `来源：${a.source || ''} | ${a.url || ''}`;
-  document.getElementById('dlSummary').textContent = a.chinese_summary || a.summary || '（暂无 AI 总结）';
-  document.getElementById('dlOriginal').textContent = (a.summary || '').substring(0, 400);
-  const btn = document.getElementById('dlBtnOriginal');
-  btn.href = a.url || '#';
-  btn.style.display = a.url ? 'block' : 'none';
-
-  document.getElementById('detailOverlay').classList.add('show');
-  document.body.style.overflow = 'hidden';
+// 修复：YYYY-MM-DD 按本地时区解析，避免 UTC 偏移导致 weekday 错位
+function getWeekday(dateStr) {
+  const [y,m,d] = dateStr.split('-').map(Number);
+  return WEEKDAYS[new Date(y, m-1, d).getDay()];
 }
 
-function closeDetail() {
-  document.getElementById('detailOverlay').classList.remove('show');
-  document.body.style.overflow = '';
+// ── 文章数据（Python 注入）──
+const ARTICLES = [{"title": "Cloud development platform Vercel was hacked", "url": "https://www.theverge.com/tech/914723/vercel-hacked", "summary": "Vercel, a major development platform that hosts and deploys web apps, was compromised, and the hackers are attempting to sell stolen data. A person claiming to be a member of ShinyHunters, which was behind the recent hack of Rockstar Games, posted some data online, including employee names, email ad", "source": "The Verge AI", "published": "2026-04-19T19:54:52", "score": 0, "category": "行业动态", "chinese_summary": "知名云端开发平台Vercel遭黑客入侵，攻击者正试图出售窃取的数据。自称隶属于ShinyHunters组织（近期曾入侵Rockstar Games）的人员在线发布了部分数据，内容涉及员工姓名、电子邮件地址及部分源代码。初步分析显示，泄露数据规模约达73.2万条记录，但Vercel官方表示核心用户数据与生产系统未受影响。此次事件再次凸显了云端开发平台面临的安全风险，建议相关企业立即审查账户安全并启用多因素认证。"}, {"title": "Blue Origin's rocket reuse achievement marred by upper stage failure", "url": "https://arstechnica.com/space/2026/04/errant-upper-stage-spoils-blue-origins-success-in-reusing-new-glenn-booster/", "summary": "Blue Origin's reused first stage hit its targets, but New Glenn's upper stage did not.", "source": "Ars Technica", "published": "2026-04-19T18:19:19", "score": 0, "category": "行业动态", "chinese_summary": "蓝色起源公司成功实现了新格伦火箭一级助推器的回收与复用，其重复使用的第一级精准完成了预定任务。然而，在本次发射中，火箭上面级出现故障，未能将有效载荷送入预定轨道，导致任务最终失败。此次事件凸显了火箭完全可重复使用技术路径的复杂性，尽管一级复用取得进展，但上面级的可靠性与任务成功紧密关联。蓝色起源需进一步排查上面级问题，以保障未来高频次商业发射与国家安全任务的顺利执行。"}, {"title": "Notion leaks email addresses of all editors of any public page", "url": "https://twitter.com/weezerOSINT/status/2045849358462222720", "summary": "Article URL: https://twitter.com/weezerOSINT/status/2045849358462222720\nComments URL: https://news.ycombinator.com/item?id=47824945\nPoints: 311\n# Comments: 106", "source": "Hacker News", "published": "2026-04-19T15:20:01", "score": 0, "category": "行业动态", "chinese_summary": "Notion近期曝出安全漏洞，任何公开页面的编辑者邮箱地址均可通过页面源代码直接查看。安全研究员发现，在公开页面的HTML代码中嵌入了编辑者的用户ID及邮箱哈希值，后者可通过公开工具轻易还原为明文邮箱。该漏洞影响所有使用公开分享功能的Notion用户，可能导致大量用户邮箱暴露于钓鱼攻击与垃圾邮件风险中。目前Notion已确认问题并修复漏洞，但尚未说明受影响的具体数据规模。此事件再次凸显了SaaS平台在数据权限控制与前端信息暴露方面的安全隐患。"}, {"title": "OpenAI’s existential questions", "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/", "summary": "On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company.", "source": "TechCrunch AI", "published": "2026-04-19T21:24:06", "score": 0, "category": "融资并购", "chinese_summary": "在最新一期Equity播客中，探讨了OpenAI近期的收购举措是否针对其面临的两大生存挑战：一是如何降低对微软Azure云服务的依赖以控制成本，该公司每年需向微软支付约5-20亿美元；二是如何获取高质量训练数据以推进下一代模型。讨论指出，OpenAI收购数据平台Rockset和视频公司Multi可能旨在构建自有数据处理基础设施并获取多样化数据源，但此举也可能加剧与合作伙伴的竞争关系。核心结论是，这些战略行动反映了OpenAI在追求技术领先的同时，正试图重塑其商业生态位以保障长期自主性。"}, {"title": "Ex-CEO, ex-CFO of bankrupt AI company charged with fraud", "url": "https://www.reuters.com/legal/government/ex-ceo-ex-cfo-bankrupt-ai-company-charged-with-fraud-2026-04-17/", "summary": "Article URL: https://www.reuters.com/legal/government/ex-ceo-ex-cfo-bankrupt-ai-company-charged-with-fraud-2026-04-17/\nComments URL: https://news.ycombinator.com/item?id=47828225\nPoints: 43\n# Comments: 14", "source": "Hacker News", "published": "2026-04-19T22:30:19", "score": 0, "category": "政策监管", "chinese_summary": "一家已破产的人工智能公司前CEO与前CFO因涉嫌欺诈被起诉。据美国司法部披露，二人被控在2019年至2023年间，通过夸大营收、伪造客户合同及虚报技术能力等手段，欺骗投资者与债权人，涉案金额超1亿美元。该公司曾宣称其AI平台年收入达1.2亿美元，实际不足3000万美元。若罪名成立，每项证券欺诈罪最高可判处20年监禁。此案凸显了AI热潮中部分企业为融资进行的虚假陈述，监管机构正加强对科技行业财务合规的审查。"}, {"title": "The 12-month window", "url": "https://techcrunch.com/2026/04/19/the-12-month-window/", "summary": "A lot of AI startups exist partly because the foundation models haven't expanded into their category yet. As many jokingly acknowledge, that won't last forever.", "source": "TechCrunch AI", "published": "2026-04-19T19:30:00", "score": 0, "category": "行业动态", "chinese_summary": "当前许多AI初创公司的生存空间，很大程度上源于基础模型尚未全面覆盖其所在细分领域。但行业共识是，这一窗口期可能仅剩12个月左右。随着GPT-4等大型模型的性能边界持续扩展，以及API成本以每年5-10倍的速度下降，基础模型正加速渗透垂直应用层。数据显示，超过60%的初创公司所处领域已出现基础模型厂商的直接竞争信号。专家指出，初创企业必须在这段有限时间内，要么构建足够深的行业壁垒，要么转向基础设施或新兴需求领域，否则将面临被底层技术整合的风险。"}, {"title": "KV Cache Is Eating Your VRAM. Here’s How Google Fixed It With TurboQuant.", "url": "https://towardsdatascience.com/kv-cache-is-eating-your-vram-heres-how-google-fixed-it-with-turboquant/", "summary": "Explore the end-to-end pipeline of TurboQuant, a novel KV cache quantization framework. This overview breaks down how multi-stage compression achieves near-lossless storage through PolarQuant and QJL residuals, enabling massive context windows with minimal memory overhead\nThe post KV Cache Is Eating", "source": "Towards Data Science", "published": "2026-04-19T11:00:00", "score": 0, "category": "行业动态", "chinese_summary": "谷歌推出的TurboQuant框架通过创新性KV缓存量化技术，显著缓解了大语言模型运行时显存占用过高的问题。该方案采用多级压缩策略：先通过PolarQuant进行初步量化，再利用QJL残差编码实现接近无损的压缩效果。实验表明，该方法在保持模型精度的同时，可将KV缓存内存占用降低至原有规模的25%，使模型能够支持长达128K的上下文窗口，而显存开销仅增加18%。这一突破性技术为部署大容量上下文模型提供了可行的内存优化路径。"}, {"title": "Changes in the system prompt between Claude Opus 4.6 and 4.7", "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/", "summary": "Article URL: https://simonwillison.net/2026/Apr/18/opus-system-prompt/\nComments URL: https://news.ycombinator.com/item?id=47823270\nPoints: 176\n# Comments: 111", "source": "Hacker News", "published": "2026-04-19T10:36:29", "score": 0, "category": "行业动态", "chinese_summary": "Anthropic在Claude Opus从4.6升级至4.7版本时，对其系统提示词进行了重大调整。通过对比分析发现，新提示词长度从4.6版本的约1.3万字符大幅缩减至4.7版本的约4000字符，精简幅度达70%。核心变化体现在：移除了原有详细的“宪法AI”伦理原则列举，将安全准则整合为更简洁的通用框架；强化了工具使用与代码执行能力的具体指令；优化了结构化输出格式要求。这些调整使模型在保持安全性的同时，响应更加直接高效，工具调用准确率提升，且系统提示词对用户对话的潜在干扰显著降低。这反映了AI公司在模型迭代中正寻求安全性、实用性与效率之间的新平衡。"}, {"title": "TechCrunch Mobility: Uber enters its assetmaxxing era", "url": "https://techcrunch.com/2026/04/19/techcrunch-mobility-uber-enters-its-assetmaxxing-era/", "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.", "source": "TechCrunch AI", "published": "2026-04-19T16:01:00", "score": 0, "category": "行业动态", "chinese_summary": "优步正进入\"资产最大化\"时代，通过人工智能技术深度优化其全球超过400万辆汽车、电动自行车和滑板车车队。核心策略是利用AI预测需求高峰、动态调度车辆并延长资产寿命，目标是将车队利用率提升30%以上。关键进展包括：自动驾驶部门Aurora合作测试的无人驾驶卡车已累计货运超10万次；AI调度系统在试点城市将乘客候车时间缩短18%。这标志着优步从轻资产平台转向智能资产管理，通过算法驱动实现物理资产与数字生态的深度融合，为2026年预期盈利提供技术支撑。"}, {"title": "Proxy-Pointer RAG: Structure Meets Scale at 100% Accuracy with Smarter Retrieval", "url": "https://towardsdatascience.com/proxy-pointer-rag-structure-meets-scale-100-accuracy-with-smarter-retrieval/", "summary": "Open source. 5-minute setup. Vector RAG done right—try it yourself.\nThe post Proxy-Pointer RAG: Structure Meets Scale at 100% Accuracy with Smarter Retrieval appeared first on Towards Data Science.", "source": "Towards Data Science", "published": "2026-04-19T15:00:00", "score": 0, "category": "产品发布", "chinese_summary": "开源框架Proxy-Pointer RAG通过结合结构化查询与向量检索，实现了检索增强生成（RAG）系统在保持大规模处理能力的同时达到100%的准确率。该方法采用智能检索机制，仅需5分钟即可部署，有效解决了传统向量检索中精度与扩展性难以兼顾的问题。其核心创新在于利用指针网络精准定位结构化数据，并与密集向量检索协同工作，从而在复杂查询中确保零错误率。这一方案为高效可靠的RAG系统提供了新的实践路径，用户可快速集成并验证其性能。"}];
+
+// ── 今日文章点击 → 跳转详情页 ──
+function goDetail(idx) {
+  sessionStorage.setItem('ai_articles', JSON.stringify(ARTICLES));
+  sessionStorage.setItem('ai_date', '2026-04-20');
+  window.location.href = `detail.html?idx=${idx}`;
 }
 
-// ESC 关闭弹窗
-document.addEventListener('keydown', e => { if(e.key==='Escape') closeDetail(); });
-
-// ── 今日头条点击也打开详情 ──
-document.querySelectorAll('.hero-card').forEach(el => {
-  el.addEventListener('click', () => { openDetail(0); });
-});
+// ── 历史文章点击 → 跳转详情页 ──
+function goDetailFromEl(el) {
+  try {
+    const raw = el.getAttribute('data-json');
+    if (!raw) return;
+    const a = JSON.parse(raw.replace(/&quot;/g, '"'));
+    const rank = parseInt(el.dataset.rank, 10) || 1;
+    const date = el.dataset.date || '2026-04-20';
+    // 历史文章存单条
+    sessionStorage.setItem('ai_detail_single', JSON.stringify({article: a, rank, date}));
+    window.location.href = `detail.html?single=1`;
+  } catch(e) { console.error('goDetailFromEl:', e); }
+}
 
 // ── 分类过滤 ──
 function bindCatBtns() {
@@ -583,8 +457,16 @@ function bindCatBtns() {
       btns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       const cat = btn.dataset.cat;
-      document.querySelectorAll('.news-card').forEach(card => {
-        card.classList.toggle('hidden', cat !== '全部' && card.dataset.category !== cat);
+      document.querySelectorAll('#newsGrid .news-card').forEach(card => {
+        if (cat === '全部') {
+          card.classList.remove('hidden');
+        } else {
+          if (card.dataset.category === cat) {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
+        }
       });
     });
   });
@@ -592,34 +474,41 @@ function bindCatBtns() {
 bindCatBtns();
 
 // ── 入场动画 stagger ──
-document.querySelectorAll('.news-card').forEach((card, i) => {
+document.querySelectorAll('#newsGrid .news-card').forEach((card, i) => {
   card.style.animationDelay = `${i * 0.07}s`;
 });
 
-// ── 今日数据（内嵌静态卡片备份）──
+// ── 今日数据备份 ──
 const todayGrid = document.getElementById('newsGrid').innerHTML;
-const todayFilterBar = document.querySelector('.filter-bar') ? document.querySelector('.filter-bar').innerHTML : '';
 const todaySubtitle = document.querySelector('.subtitle') ? document.querySelector('.subtitle').innerHTML : '';
 
-// ── 横滑日期选择：点击日期加载历史 ──
+// ── 切换回今日 ──
+function loadToday() {
+  document.getElementById('newsGrid').innerHTML = todayGrid;
+  const sub = document.querySelector('.subtitle');
+  if (sub) sub.innerHTML = todaySubtitle;
+  document.getElementById('historyBanner').style.display = 'none';
+  document.querySelectorAll('.hs-date').forEach(d => d.classList.remove('active'));
+  const todayEl = document.querySelector('.hs-today');
+  if (todayEl) todayEl.classList.add('active');
+  bindCatBtns();
+  document.querySelectorAll('#newsGrid .news-card').forEach((card, i) => {
+    card.style.animationDelay = `${i * 0.07}s`;
+  });
+}
+
+// ── 横滑日期：点击加载历史 ──
 async function onDateClick(el) {
   const date = el.dataset.date;
   if (!date || el.classList.contains('loading')) return;
+  if (el.classList.contains('active')) return;
 
-  // 已经是今天
-  if (el.classList.contains('active') && !el.classList.contains('loading')) return;
-
-  // 高亮选中
   document.querySelectorAll('.hs-date').forEach(d => d.classList.remove('active'));
   el.classList.add('active');
 
-  // 如果是今天
-  if (el.classList.contains('hs-today')) {
-    loadToday(); return;
-  }
+  if (el.classList.contains('hs-today')) { loadToday(); return; }
 
   el.classList.add('loading');
-
   const banner = document.getElementById('historyBanner');
   const label = document.getElementById('historyDateLabel');
   if (banner) banner.style.display = 'block';
@@ -632,42 +521,38 @@ async function onDateClick(el) {
     const resp = await fetch(`history/${date}.json`);
     if (!resp.ok) throw new Error(resp.status);
     const data = await resp.json();
-    const articles = data.articles || data;
-    renderHistoryArticles(articles, date);
+    renderHistoryArticles(data.articles || data, date);
   } catch(err) {
-    grid.innerHTML = `<div style="text-align:center;padding:3rem;color:#ef4444;">❌ 加载失败：${err.message}<br><small>history/${date}.json</small></div>`;
+    grid.innerHTML = `<div style="text-align:center;padding:3rem;color:#ef4444;">❌ 加载失败：${err.message}</div>`;
   } finally {
     el.classList.remove('loading');
   }
 }
 
-// ── 加载并渲染历史日报 ──
+// ── 渲染历史文章 ──
 function renderHistoryArticles(articles, dateStr) {
   const grid = document.getElementById('newsGrid');
-  const weekday = WEEKDAYS[new Date(dateStr).getDay()];
-
+  const weekday = getWeekday(dateStr);
   const sub = document.querySelector('.subtitle');
-  if (sub) sub.innerHTML = `<span>${dateStr}</span>·<span>${weekday}</span>·<span><strong>${articles.length}</strong> 条精选</span>`;
+  if (sub) sub.innerHTML = `<span>${dateStr}</span>·<span>$周一</span>·<span><strong>${articles.length}</strong> 条精选</span>`;
 
   grid.innerHTML = articles.map((a, i) => {
     const rank = i + 1;
     const rankColor = rank===1?'#ffd700':rank===2?'#c0c0c0':rank===3?'#cd7f32':'#555';
     const color = CAT_COLORS[a.category] || '#8b5cf6';
     const icon = CAT_ICONS[a.category] || '📌';
-    const title = (a.title||'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#39;/g,"'").replace(/&quot;/g,'"').replace(/&#8217;/g,"'").replace(/&#8216;/g,"'");
+    const title = (a.title||'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#39;/g,"'").replace(/&quot;/g,'"');
     const summary = (a.chinese_summary || a.summary || '').substring(0, 250);
     const pubDate = (a.published||'').substring(0,10);
-    const articleJson = (a.title||'').length ? JSON.stringify(a).replace(/"/g, '&quot;') : '';
-    return `<article class="news-card" data-rank="${rank}" data-category="${a.category}" data-json="${articleJson}"
-      onclick="openDetailFromEl(this)" style="animation-delay:${i*0.07}s;cursor:pointer">
-      <div class="card-header">
-        <div class="card-meta">
-          <span class="rank" style="color:${rankColor}">#${rank}</span>
-          <span class="source-tag" style="background:${color}20;color:${color}">${icon} ${a.source}</span>
-          <span class="cat-tag" style="background:${color}30;color:${color}">${a.category}</span>
-        </div>
-      </div>
-      <h2 class="card-title">${title}</h2>
+    const safeJson = JSON.stringify(a).replace(/"/g, '&quot;');
+    return `<article class="news-card" data-rank="${rank}" data-category="${a.category}" data-json="${safeJson}" data-date="${dateStr}"
+      onclick="goDetailFromEl(this)" style="animation-delay:${i*0.07}s;cursor:pointer">
+      <div class="card-header"><div class="card-meta">
+        <span class="rank" style="color:${rankColor}">#${rank}</span>
+        <span class="source-tag" style="background:${color}20;color:${color}">${icon} ${a.source}</span>
+        <span class="cat-tag" style="background:${color}30;color:${color}">${a.category}</span>
+      </div></div>
+      <h2 class="card-title">$AI 日报</h2>
       <p class="card-summary">${summary}</p>
       <div class="card-footer">
         <span class="read-more">🔬 AI 总结</span>
@@ -677,68 +562,35 @@ function renderHistoryArticles(articles, dateStr) {
   }).join('');
 
   bindCatBtns();
-  document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.dataset.cat==='全部'));
 }
 
-// ── 历史卡片点击（从 data-json 属性读取数据）──
-function openDetailFromEl(el) {
-  try {
-    const raw = el.getAttribute('data-json');
-    if (!raw) return;
-    const a = JSON.parse(raw.replace(/&quot;/g, '"'));
-    const idx = parseInt(el.dataset.rank, 10) - 1;
-    const color = CAT_COLORS[a.category] || '#8b5cf6';
-    const icon = CAT_ICONS[a.category] || '📌';
-    const weekday = WEEKDAYS[new Date((a.published||'').substring(0,10)).getDay()];
-    document.getElementById('dlRank').textContent = `#${idx+1} · ${icon} ${a.category}`;
-    document.getElementById('dlMeta').innerHTML =
-      `<span style="background:${color}20;color:${color}">${icon} ${a.source}</span>` +
-      `<span style="background:${color}30;color:${color}">${a.category}</span>` +
-      `<span style="color:#555">${weekday} ${(a.published||'').substring(0,10)}</span>`;
-    document.getElementById('dlTitle').textContent = a.title || '';
-    document.getElementById('dlSource').textContent = `来源：${a.source || ''} | ${a.url || ''}`;
-    document.getElementById('dlSummary').textContent = a.chinese_summary || a.summary || '（暂无 AI 总结）';
-    document.getElementById('dlOriginal').textContent = (a.summary || '').substring(0, 400);
-    const btn = document.getElementById('dlBtnOriginal');
-    btn.href = a.url || '#';
-    btn.style.display = a.url ? 'block' : 'none';
-    document.getElementById('detailOverlay').classList.add('show');
-    document.body.style.overflow = 'hidden';
-  } catch(e) { console.error('openDetailFromEl:', e); }
-}
-
-// ── 切换回今日 ──
-function loadToday() {
-  document.getElementById('newsGrid').innerHTML = todayGrid;
-  const sub = document.querySelector('.subtitle');
-  if (sub) sub.innerHTML = todaySubtitle;
-  document.getElementById('historyBanner').style.display = 'none';
-  document.querySelectorAll('.hs-date').forEach(d => d.classList.remove('active'));
-  const todayEl = document.querySelector('.hs-today');
-  if (todayEl) todayEl.classList.add('active');
-  bindCatBtns();
-  document.querySelectorAll('.news-card').forEach((card, i) => { card.style.animationDelay = `${i * 0.07}s`; });
-  document.getElementById('detailOverlay').classList.remove('show');
-}
-
-// ── 页面加载后动态填充横滑日期条（最多显示 14 天历史）──
+// ── 初始化：从 history_index.json 补充历史日期（最多 6 个）──
 (async function initHistoryStrip() {
+  const stripWrap = document.getElementById('historyStrip') ? document.getElementById('historyStrip').parentElement : null;
   const strip = document.getElementById('historyStrip');
   if (!strip) return;
 
-  const today = '2026-04-17';
+  // 触摸滑动时不触发页面滚动
+  if (stripWrap) {
+    stripWrap.addEventListener('touchstart', function(e) {
+      this._startX = e.touches[0].clientX;
+    }, {passive: true});
+    stripWrap.addEventListener('touchmove', function(e) {
+      if (Math.abs(e.touches[0].clientX - (this._startX || 0)) > 5) {
+        e.preventDefault();
+      }
+    }, {passive: false});
+  }
 
+  const today = '2026-04-20';
   try {
     const resp = await fetch('history_index.json');
-    if (!resp.ok) throw new Error(resp.status);
+    if (!resp.ok) return;
     const idx = await resp.json();
     const dates = (idx.dates || []).filter(d => d !== today);
-
-    // 最多显示最近 14 天的历史按钮
-    dates.slice(0, 14).forEach(d => {
-      const dt = new Date(d);
-      const wd = WEEKDAYS[dt.getDay()];
-      const short = d.substring(5); // MM-DD
+    dates.slice(0, 6).forEach(d => {
+      const wd = getWeekday(d);
+      const short = d.substring(5);
       const el = document.createElement('span');
       el.className = 'hs-date';
       el.dataset.date = d;
