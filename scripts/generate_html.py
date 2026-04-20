@@ -32,29 +32,20 @@ def _generate_history_nav(user, repo, token):
     横向日期选择器 + 嵌入式历史 banner，不依赖下拉框。
     """
     today = datetime.now()
-    days = []
-    for i in range(7):  # 今天 + 过去6天，共7天
-        d = today - timedelta(days=i)
-        date_str = d.strftime("%Y-%m-%d")
-        weekday_short = ["周一","周二","周三","周四","周五","周六","周日"][d.weekday()]
-        day_num = date_str[5:]  # MM-DD
-        if i == 0:
-            tag = "今天"
-            cls = "hs-date hs-today active"
-        else:
-            tag = f"{i}天前" if i <= 7 else ""
-            cls = "hs-date"
-        days.append(f'''
-      <span class="{cls}" data-date="{date_str}" onclick="onDateClick(this)">
+    date_str = today.strftime("%Y-%m-%d")
+    weekday_short = ["周一","周二","周三","周四","周五","周六","周日"][today.weekday()]
+    day_num = date_str[5:]  # MM-DD
+    today_html = f'''
+      <span class="hs-date hs-today active" data-date="{date_str}" onclick="onDateClick(this)">
         <span class="hs-day">{weekday_short}</span>
         <span class="hs-num">{day_num}</span>
-        <span class="hs-tag">{tag}</span>
-      </span>''')
+        <span class="hs-tag">今天</span>
+      </span>'''
 
     return f'''
   <div class="history-strip-wrap">
     <div class="history-strip" id="historyStrip">
-  {chr(10).join(days)}
+  {today_html}
     </div>
   </div>
   <div id="historyBanner" style="display:none;background:#1a1035;border:1px solid #8b5cf640;border-radius:.75rem;padding:.75rem 1.25rem;margin:.5rem auto;max-width:700px;font-size:.82rem;color:#94a3b8;text-align:center;">
