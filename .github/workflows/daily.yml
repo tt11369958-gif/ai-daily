@@ -74,3 +74,4 @@ jobs:
           GH_REPO: ai-daily
           GITHUB_PAGES_URL: ${{ steps.deployment.outputs.page_url }}
         run: python scripts/notify_only.py
+
