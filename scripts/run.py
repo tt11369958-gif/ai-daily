@@ -133,23 +133,23 @@ def run():
         json.dump({"date": today_str, "articles": summarized}, f, ensure_ascii=False, indent=2)
     log(f"history/{today_str}.json 已保存")
 
-    # ── 更新 history_index.json（合并已有日期）──
+    # ── 更新 history_index.json（只保留实际存在 JSON 文件的日期）──
+    import glob
+    history_dir = os.path.join(output_dir, "history")
+    # 扫描 history/ 目录下所有实际存在的 .json 文件
+    real_dates = set()
+    for fp in glob.glob(os.path.join(history_dir, "*.json")):
+        fname = os.path.basename(fp)
+        if fname.endswith(".json"):
+            real_dates.add(fname[:-5])  # 去掉 .json 后缀得到日期
+    # 确保今天也在里面
+    real_dates.add(today_str)
+    # 按日期降序排列，保留最近 30 天
+    all_dates = sorted(real_dates, reverse=True)[:30]
     history_index_path = os.path.join(output_dir, "history_index.json")
-    existing_dates = []
-    if os.path.exists(history_index_path):
-        try:
-            with open(history_index_path, "r", encoding="utf-8") as f:
-                existing_index = json.load(f)
-                existing_dates = existing_index.get("dates", [])
-        except Exception:
-            pass
-    # 去重并按日期降序排列，保留最近 30 天
-    if today_str not in existing_dates:
-        existing_dates.insert(0, today_str)
-    existing_dates = sorted(set(existing_dates), reverse=True)[:30]
     with open(history_index_path, "w", encoding="utf-8") as f:
-        json.dump({"dates": existing_dates}, f, ensure_ascii=False, indent=2)
-    log(f"history_index.json 已更新（{len(existing_dates)} 天）")
+        json.dump({"dates": all_dates}, f, ensure_ascii=False, indent=2)
+    log(f"history_index.json 已更新（{len(all_dates)} 天，实际文件: {len(real_dates)} 个）")
 
     with open(os.path.join(output_dir, "summarized_articles.json"), "w", encoding="utf-8") as f:
         json.dump(summarized, f, ensure_ascii=False, indent=2)
