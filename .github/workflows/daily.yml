@@ -33,18 +33,6 @@ jobs:
       - name: Install dependencies
         run: pip install requests feedparser openai Pillow
 
-      - name: Run AI Daily (generate output)
-        env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          DEEPSEEK_API_BASE: ${{ secrets.DEEPSEEK_API_BASE }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GH_USER: ${{ secrets.GH_USER }}
-          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
-        run: python scripts/run.py
-
-      - name: Copy detail.html
-        run: cp detail.html output/detail.html
-
       - name: Fetch history files from gh-pages
         run: |
           git fetch origin gh-pages:gh-pages --depth=1
@@ -56,6 +44,18 @@ jobs:
           done
           echo "=== output/history ==="
           ls -la output/history/ 2>/dev/null || echo "no history files yet"
+
+      - name: Run AI Daily (generate output)
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_API_BASE: ${{ secrets.DEEPSEEK_API_BASE }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_USER: ${{ secrets.GH_USER }}
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+        run: python scripts/run.py
+
+      - name: Copy detail.html
+        run: cp detail.html output/detail.html
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
