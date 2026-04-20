@@ -123,6 +123,34 @@ def run():
     output_dir = os.path.join(BASE, "..", "output")
     os.makedirs(output_dir, exist_ok=True)
     os.makedirs(os.path.join(output_dir, "assets"), exist_ok=True)
+    os.makedirs(os.path.join(output_dir, "history"), exist_ok=True)
+
+    # ── 保存当天历史文件 history/{date}.json ──
+    from datetime import datetime
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    history_json_path = os.path.join(output_dir, "history", f"{today_str}.json")
+    with open(history_json_path, "w", encoding="utf-8") as f:
+        json.dump({"date": today_str, "articles": summarized}, f, ensure_ascii=False, indent=2)
+    log(f"history/{today_str}.json 已保存")
+
+    # ── 更新 history_index.json（合并已有日期）──
+    history_index_path = os.path.join(output_dir, "history_index.json")
+    existing_dates = []
+    if os.path.exists(history_index_path):
+        try:
+            with open(history_index_path, "r", encoding="utf-8") as f:
+                existing_index = json.load(f)
+                existing_dates = existing_index.get("dates", [])
+        except Exception:
+            pass
+    # 去重并按日期降序排列，保留最近 30 天
+    if today_str not in existing_dates:
+        existing_dates.insert(0, today_str)
+    existing_dates = sorted(set(existing_dates), reverse=True)[:30]
+    with open(history_index_path, "w", encoding="utf-8") as f:
+        json.dump({"dates": existing_dates}, f, ensure_ascii=False, indent=2)
+    log(f"history_index.json 已更新（{len(existing_dates)} 天）")
+
     with open(os.path.join(output_dir, "summarized_articles.json"), "w", encoding="utf-8") as f:
         json.dump(summarized, f, ensure_ascii=False, indent=2)
     with open(os.path.join(output_dir, "pages_url.txt"), "w", encoding="utf-8") as f:
