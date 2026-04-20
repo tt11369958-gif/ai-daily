@@ -492,7 +492,6 @@ function renderHistoryArticles(articles, dateStr) {
 
 // ── 初始化：从 history_index.json 补充历史日期（最多 6 个）──
 (async function initHistoryStrip() {
-  const stripWrap = document.getElementById('historyStrip') ? document.getElementById('historyStrip').parentElement : null;
   const strip = document.getElementById('historyStrip');
   if (!strip) return;
 
@@ -500,8 +499,11 @@ function renderHistoryArticles(articles, dateStr) {
   try {
     const resp = await fetch('history_index.json');
     if (!resp.ok) return;
+    const contentType = resp.headers.get('content-type') || '';
+    if (!contentType.includes('application/json')) return;
     const idx = await resp.json();
     const dates = (idx.dates || []).filter(d => d !== today);
+    if (dates.length === 0) return;
     dates.slice(0, 6).forEach(d => {
       const wd = getWeekday(d);
       const short = d.substring(5);
@@ -509,11 +511,11 @@ function renderHistoryArticles(articles, dateStr) {
       el.className = 'hs-date';
       el.dataset.date = d;
       el.onclick = function() { onDateClick(this); };
-      el.innerHTML = `<span class="hs-day">${wd}</span><span class="hs-num">${short}</span>`;
+      el.innerHTML = '<span class="hs-day">' + wd + '</span><span class="hs-num">' + short + '</span>';
       strip.appendChild(el);
     });
   } catch(e) {
-    console.warn('history_index.json load failed:', e);
+    console.warn('history load skipped');
   }
 })();
 </script>
