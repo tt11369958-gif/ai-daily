@@ -505,18 +505,6 @@ function renderHistoryArticles(articles, dateStr) {
   const strip = document.getElementById('historyStrip');
   if (!strip) return;
 
-  // 触摸滑动时不触发页面滚动
-  if (stripWrap) {
-    stripWrap.addEventListener('touchstart', function(e) {
-      this._startX = e.touches[0].clientX;
-    }, {passive: true});
-    stripWrap.addEventListener('touchmove', function(e) {
-      if (Math.abs(e.touches[0].clientX - (this._startX || 0)) > 5) {
-        e.preventDefault();
-      }
-    }, {passive: false});
-  }
-
   const today = '{date_str}';
   try {
     const resp = await fetch('history_index.json');
