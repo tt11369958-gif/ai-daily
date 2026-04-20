@@ -491,32 +491,28 @@ function renderHistoryArticles(articles, dateStr) {
 }
 
 // ── 初始化：从 history_index.json 补充历史日期（最多 6 个）──
-(async function initHistoryStrip() {
-  const strip = document.getElementById('historyStrip');
+(function initHistoryStrip() {
+  var strip = document.getElementById('historyStrip');
   if (!strip) return;
-
-  const today = '{date_str}';
-  try {
-    const resp = await fetch('history_index.json');
-    if (!resp.ok) return;
-    const contentType = resp.headers.get('content-type') || '';
-    if (!contentType.includes('application/json')) return;
-    const idx = await resp.json();
-    const dates = (idx.dates || []).filter(d => d !== today);
-    if (dates.length === 0) return;
-    dates.slice(0, 6).forEach(d => {
-      const wd = getWeekday(d);
-      const short = d.substring(5);
-      const el = document.createElement('span');
-      el.className = 'hs-date';
-      el.dataset.date = d;
-      el.onclick = function() { onDateClick(this); };
-      el.innerHTML = '<span class="hs-day">' + wd + '</span><span class="hs-num">' + short + '</span>';
-      strip.appendChild(el);
-    });
-  } catch(e) {
-    console.warn('history load skipped');
-  }
+  var today = '{date_str}';
+  fetch('history_index.json')
+    .then(function(r) { if (!r.ok) return null; var ct = r.headers.get('content-type') || ''; if (ct.indexOf('application/json') < 0) return null; return r.json(); })
+    .then(function(idx) {
+      if (!idx || !Array.isArray(idx.dates) || idx.dates.length === 0) return;
+      idx.dates.filter(function(d) { return d !== today && typeof d === 'string' && d.match(/^\d{4}-\d{2}-\d{2}$/); })
+        .slice(0, 6)
+        .forEach(function(d) {
+          var el = document.createElement('span');
+          el.className = 'hs-date';
+          el.dataset.date = d;
+          el.onclick = function() { onDateClick(el); };
+          var wd = getWeekday(d);
+          var short = d.substring(5);
+          el.innerHTML = '<span class="hs-day">' + wd + '</span><span class="hs-num">' + short + '</span>';
+          strip.appendChild(el);
+        });
+    })
+    .catch(function() {});
 })();
 </script>
 </body>
