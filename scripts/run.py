@@ -140,7 +140,7 @@ def run():
     real_dates = set()
     for fp in glob.glob(os.path.join(history_dir, "*.json")):
         fname = os.path.basename(fp)
-        if fname.endswith(".json"):
+        if fname.endswith(".json") and fname != "history_index.json":
             real_dates.add(fname[:-5])  # 去掉 .json 后缀得到日期
     # 确保今天也在里面
     real_dates.add(today_str)
