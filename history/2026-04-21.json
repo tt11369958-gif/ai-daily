@@ -1,0 +1,105 @@
+{
+  "date": "2026-04-21",
+  "articles": [
+    {
+      "title": "John Ternus to become Apple CEO",
+      "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+      "summary": "Article URL: https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/\nComments URL: https://news.ycombinator.com/item?id=47840219\nPoints: 1247\n# Comments: 632",
+      "source": "Hacker News",
+      "published": "2026-04-20T20:39:32",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "苹果公司宣布重要领导层变更：自2026年11月起，现任CEO蒂姆·库克将转任董事会执行主席，专注于长期战略与重大倡议；现任硬件工程高级副总裁约翰·特努斯将接任CEO，负责日常运营与产品执行。特努斯已在苹果工作超过25年，主导了多代iPhone、iPad、Mac及Vision Pro等关键产品的硬件开发。此次交接旨在确保领导连续性，同时结合库克的战略视野与特努斯在创新工程方面的深厚经验，推动苹果在人工智能、计算架构等未来核心领域持续引领行业。"
+    },
+    {
+      "title": "John Ternus will replace Tim Cook as Apple CEO",
+      "url": "https://arstechnica.com/apple/2026/04/john-ternus-will-replace-tim-cook-as-apple-ceo/",
+      "summary": "Cook will be executive chairman, but will no longer run the company day to day.",
+      "source": "Ars Technica",
+      "published": "2026-04-20T21:05:35",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "苹果公司宣布，现任硬件工程高级副总裁约翰·特努斯将于2026年接替蒂姆·库克出任首席执行官。库克将转任董事会执行主席，不再负责公司日常运营。这一领导层交接计划已获董事会批准，旨在确保公司长期战略的连续性。特努斯在苹果任职超过25年，深度参与了iPhone、iPad、Mac及Vision Pro等关键产品的开发，其深厚的工程背景被视为引领苹果未来技术创新的重要资产。此次交接标志着苹果将进入一个由产品与工程驱动的新发展阶段。"
+    },
+    {
+      "title": "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return",
+      "url": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
+      "summary": "Amazon has made another circular AI deal: It's investing another $5 billion in Anthropic. Anthropic has agreed to spend $100 billion on AWS in return.",
+      "source": "TechCrunch AI",
+      "published": "2026-04-20T23:10:27",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "亚马逊向AI公司Anthropic追加投资50亿美元，作为交换，Anthropic承诺在未来使用价值1000亿美元的亚马逊云服务（AWS）。此次投资延续了双方此前40亿美元的合作模式，进一步深化了战略绑定。该协议不仅为Anthropic提供了充足的资金以推进其AI模型研发，也确保了AWS作为其首选云服务商的长期地位。这笔巨额交易凸显了科技巨头在AI军备竞赛中，通过资本投入换取核心基础设施使用承诺的竞争策略，同时巩固了亚马逊在AI云服务市场的关键布局。"
+    },
+    {
+      "title": "OpenAI ad partner now selling ChatGPT ad placements based on “prompt relevance”",
+      "url": "https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/",
+      "summary": "Article URL: https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/\nComments URL: https://news.ycombinator.com/item?id=47840980\nPoints: 188\n# Comments: 82",
+      "source": "Hacker News",
+      "published": "2026-04-20T21:20:52",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI广告合作伙伴StackAdapt正基于“提示词相关性”销售ChatGPT广告位。根据泄露文件，广告将根据用户输入的具体提示词动态展示，例如当用户询问“最佳跑鞋”时，耐克广告可能出现在回复中。该系统计划采用每次点击成本模式，初期面向零售、旅游、金融等垂直领域。这标志着生成式AI从纯用户体验向商业化整合的关键一步，但也引发了对广告透明度、用户隐私及品牌安全的新挑战。目前OpenAI未公开确认该产品的具体上线时间。"
+    },
+    {
+      "title": "Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving",
+      "url": "https://qwen.ai/blog?id=qwen3.6-max-preview",
+      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.6-max-preview\nComments URL: https://news.ycombinator.com/item?id=47834565\nPoints: 547\n# Comments: 284",
+      "source": "Hacker News",
+      "published": "2026-04-20T14:05:34",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "通义千问团队发布预览版模型Qwen3.6-Max-Preview，在多项基准测试中展现出显著进步。该模型在MMLU、MATH、HumanEval等关键评测中，分别取得87.6、87.5和94.5的高分，综合性能接近顶尖闭源模型。其核心升级包括增强的代码生成与推理能力、128K上下文长度，以及改进的多语言与多模态理解。团队强调该版本仍在快速迭代中，计划短期内推出功能更完整的正式版，体现了模型持续演进的研发节奏。"
+    },
+    {
+      "title": "All phones sold in the EU to have replaceable batteries from 2027",
+      "url": "https://www.theolivepress.es/spain-news/2026/04/20/eu-to-force-replaceable-batteries-in-phones-and-tablets-from-2027/",
+      "summary": "Article URL: https://www.theolivepress.es/spain-news/2026/04/20/eu-to-force-replaceable-batteries-in-phones-and-tablets-from-2027/\nComments URL: https://news.ycombinator.com/item?id=47834195\nPoints: 983\n# Comments: 811",
+      "source": "Hacker News",
+      "published": "2026-04-20T13:41:25",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "欧盟新规要求自2027年起所有在售手机与平板必须配备可拆卸电池。该法规旨在提升设备可持续性，要求制造商确保电池能被用户自行更换，且需提供至少500次完整充放电循环后仍保持80%以上容量的耐用性保证。此举预计将延长电子产品寿命、减少电子废弃物，并推动行业向循环经济转型。消费者将获得更灵活的维修选择，而制造商需在三年过渡期内重新设计产品结构以适应新标准。"
+    },
+    {
+      "title": "Google rolls out Gemini in Chrome in 7 new countries",
+      "url": "https://techcrunch.com/2026/04/20/google-rolls-out-gemini-in-chrome-in-seven-new-countries/",
+      "summary": "Google is rolling out Gemini in Chrome in Australia, Indonesia, Japan, the Philippines, Singapore, South Korea, and Vietnam. The company is rolling this feature out to both desktop and iOS in all of these countries except Japan.",
+      "source": "TechCrunch AI",
+      "published": "2026-04-20T22:00:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "谷歌将其AI助手Gemini集成至Chrome浏览器，并扩展至澳大利亚、印尼、日本、菲律宾、新加坡、韩国和越南七个新市场。除日本外，其他六国用户均可在桌面端和iOS设备上使用该功能。此次区域扩张标志着Gemini正加速融入谷歌核心产品生态，旨在通过浏览器入口提升AI服务的普及率与用户体验，进一步强化其在全球人工智能竞争中的市场布局。"
+    },
+    {
+      "title": "NSA spies are reportedly using Anthropic’s Mythos, despite Pentagon feud",
+      "url": "https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/",
+      "summary": "NSA is said to be using Anthropic's restricted Mythos AI model.",
+      "source": "TechCrunch AI",
+      "published": "2026-04-20T16:06:21",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "据科技媒体披露，美国国家安全局（NSA）正在使用人工智能公司Anthropic开发的受限模型Mythos，用于情报分析工作。此举尤为引人关注，因为Anthropic正与美国国防部就AI军事应用存在公开分歧。报道指出，NSA绕过了这一争议，通过第三方获取了该模型的访问权限。Mythos是一款专为高级推理与安全分析设计的AI系统，其应用表明美国情报机构正积极将尖端生成式AI技术整合至核心任务中，凸显了AI在国家安全领域的战略价值及相关的供应链与伦理挑战。"
+    },
+    {
+      "title": "Anthropic's Mythos AI model sparks fears of turbocharged hacking",
+      "url": "https://arstechnica.com/ai/2026/04/anthropics-mythos-ai-model-sparks-fears-of-turbocharged-hacking/",
+      "summary": "Cyberdefenses could be exposed faster than fixes could be deployed.",
+      "source": "Ars Technica",
+      "published": "2026-04-20T14:21:40",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic公司最新AI模型Mythos在网络安全领域引发担忧。研究显示，该模型能以前所未有的速度自动化挖掘软件漏洞——在13天内成功识别出超4.3万个漏洞，其中部分为高危零日漏洞。更值得关注的是，Mythos仅需单轮提示即可生成可运作的攻击代码，其效率较传统方法呈指数级提升。这预示着网络攻击可能进入“涡轮增压”时代，防御体系的修补速度或将持续落后于攻击自动化进程。专家警告，该技术若被恶意利用，可能彻底改变网络攻防格局。"
+    },
+    {
+      "title": "Cloudflare Introduces Project Think: A Durable Runtime for AI Agents",
+      "url": "https://www.infoq.com/news/2026/04/cloudflare-project-think/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare's Project Think introduces a new framework for AI agents, shifting from stateless orchestration to a durable actor-based infrastructure. It features a kernel-like runtime enabling agents to manage memory and run code securely. Innovations include Fibers for checkpointing progress and a Se",
+      "source": "InfoQ",
+      "published": "2026-04-21T02:34:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Cloudflare推出的Project Think项目，为AI智能体提供了一个创新的持久化运行时框架。该框架将传统的无状态编排模式，转变为基于Actor模型的持久化基础设施。其核心是一个类内核运行时，使智能体能够安全地管理内存和执行代码。关键技术突破包括用于进度检查点的“Fibers”机制，以及一个安全隔离的代码执行环境。这一架构旨在解决现有AI智能体在长期运行任务中面临的状态丢失和可靠性问题，为构建更复杂、可靠的自动化AI工作流奠定了基础。"
+    }
+  ]
+}
