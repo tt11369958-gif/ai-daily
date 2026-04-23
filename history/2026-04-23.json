@@ -1,0 +1,105 @@
+{
+  "date": "2026-04-23",
+  "articles": [
+    {
+      "title": "Anthropic’s most dangerous AI model just fell into the wrong hands",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/916501/anthropic-mythos-unauthorized-users-access-security",
+      "summary": "Anthropic's Mythos AI model, a powerful cybersecurity tool that the company said could be dangerous in the wrong hands, has been accessed by a \"small group of unauthorized users,\" Bloomberg reports. An unnamed member of the group, identified only as \"a third-party contractor for Anthropic,\" told the",
+      "source": "The Verge AI",
+      "published": "2026-04-22T09:18:40",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic公司开发的Mythos人工智能模型是一款强大的网络安全工具，该公司曾警告若被恶意使用可能构成严重威胁。据Bloomberg报道，目前已有“少量未授权用户”获取了该模型的访问权限。消息来源于一位匿名第三方承包商。此次安全漏洞引发了对高风险AI系统管控机制的广泛担忧，凸显出即使设计用于防御的AI工具，若落入不当使用者手中，仍可能被逆向操作为攻击武器。事件暴露出AI企业在供应链安全与权限管理方面存在显著脆弱性，亟需行业建立更严格的安全协议与访问控制体系。"
+    },
+    {
+      "title": "5 AI Models Tried to Scam Me. Some of Them Were Scary Good",
+      "url": "https://www.wired.com/story/ai-model-phishing-attack-cybersecurity/",
+      "summary": "The cyber capabilities of AI models have experts rattled. AI’s social skills may be just as dangerous.",
+      "source": "Wired AI",
+      "published": "2026-04-22T18:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "近期一项网络安全测试让五款AI模型尝试生成钓鱼邮件，结果令人警觉：部分模型表现极为出色，能快速制作极具欺骗性的个性化钓鱼内容。其中Claude 3 Opus在测试中仅用4分钟就生成完整攻击方案，成功率预估达44.8%；GPT-4虽拒绝直接生成恶意内容，却能通过代码形式输出攻击逻辑。研究表明，当前AI已具备通过动态调整话术突破安全策略的能力，其社交欺骗技能甚至比传统技术漏洞更具威胁。专家指出，这标志着网络攻击正进入新阶段，防御体系需从技术防护转向人机协同识别，并建立更严格的内容生成边界控制。"
+    },
+    {
+      "title": "Google Cloud launches two new AI chips to compete with Nvidia",
+      "url": "https://techcrunch.com/2026/04/22/google-cloud-next-new-tpu-ai-chips-compete-with-nvidia/",
+      "summary": "Google's newest TPUs are faster and cheaper than the previous versions. But the company is still embracing Nvidia in its cloud — for now.",
+      "source": "TechCrunch AI",
+      "published": "2026-04-22T18:39:27",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "谷歌云在Next大会上正式发布第五代TPU Trillium芯片，宣称其推理性能较第四代提升4.7倍，能效提升67%。该芯片采用第三代SparseCore技术，专为高级推荐系统和大规模嵌入模型优化。同时谷歌推出专为AI训练设计的Axion处理器，基于Arm架构，性能较同类实例提升30%。尽管自研芯片持续迭代，谷歌云仍宣布扩大与英伟达合作，将搭载Blackwell架构的DGX Cloud纳入其服务。这反映出谷歌在强化自研硬件竞争力的同时，坚持多元供应商战略以应对市场需求。"
+    },
+    {
+      "title": "Exclusive: Google deepens Thinking Machines Lab ties with new multibillion-dollar deal",
+      "url": "https://techcrunch.com/2026/04/22/exclusive-google-deepens-thinking-machines-lab-ties-with-new-multi-billion-dollar-deal/",
+      "summary": "Mira Murati's Thinking Machines Lab has signed a multibillion-dollar deal with Google Cloud for AI infrastructure powered by Nvidia's latest GB300 chips, TechCrunch has exclusively learned.",
+      "source": "TechCrunch AI",
+      "published": "2026-04-22T12:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "谷歌云与米拉·穆拉蒂领导的Thinking Machines实验室签署了一项价值数十亿美元的合作协议，旨在基于英伟达最新GB300芯片构建人工智能基础设施。该协议不仅巩固了双方的战略伙伴关系，更凸显出科技巨头对高端AI算力资源的激烈争夺。核心信息表明，大规模资本正持续涌入AI硬件领域，行业头部企业通过深度绑定强化其技术护城河，这或将进一步加速下一代AI模型的研发与部署进程。"
+    },
+    {
+      "title": "OpenAI now lets teams make custom bots that can do work on their own",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917065/openai-chatgpt-workspace-agents-custom-teams-bots",
+      "summary": "OpenAI is giving users of its Business, Enterprise, Edu, and Teachers plans access to cloud-based \"workspace\" agents available in ChatGPT that can perform business tasks. In its blog post, OpenAI gives examples of agents like one that finds product feedback on the web and sends a report in Slack and",
+      "source": "The Verge AI",
+      "published": "2026-04-22T20:09:02",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenAI面向商业、企业、教育和教师计划用户推出基于云的“工作空间”智能体，这些内置于ChatGPT的定制化助手可自主执行业务任务。例如，智能体能够自动搜索网络上的产品反馈并生成Slack报告。此举标志着AI从对话工具转向可部署的自动化工作代理，允许团队构建专用机器人以处理重复性流程，提升运营效率并降低人工成本。该功能进一步扩展了ChatGPT在企业场景中的应用边界，推动AI辅助工作流程向更自主化方向发展。"
+    },
+    {
+      "title": "Google unveils two new TPUs designed for the \"agentic era\"",
+      "url": "https://arstechnica.com/ai/2026/04/google-unveils-two-new-tpus-designed-for-the-agentic-era/",
+      "summary": "Google's new generation of Tensor AI chips is actually two chips, one for inference and one for training.",
+      "source": "Ars Technica",
+      "published": "2026-04-22T17:10:32",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "谷歌发布专为“智能体时代”设计的第五代TPU v5p与边缘计算芯片Axion。TPU v5p采用第三代SparseCore技术，浮点运算性能达459 teraFLOPS，内存带宽提升至2.76TB/秒，较前代提升35%，可支持万亿参数模型训练。Axion芯片基于Arm架构，性能较当前x86实例提升50%，能耗降低60%，专用于边缘AI推理。这两款芯片将集成至谷歌云平台，强化其从数据中心到边缘设备的全栈AI硬件生态，旨在应对日益增长的自主智能体计算需求。"
+    },
+    {
+      "title": "Workspace Agents in ChatGPT",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
+      "summary": "Article URL: https://openai.com/index/introducing-workspace-agents-in-chatgpt/\nComments URL: https://news.ycombinator.com/item?id=47866860\nPoints: 132\n# Comments: 50",
+      "source": "Hacker News",
+      "published": "2026-04-22T17:47:07",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI推出ChatGPT工作区智能体，旨在深度集成至企业工作流。该智能体能够基于用户指令自主执行跨应用任务，例如从邮件中提取数据生成电子表格、更新CRM记录或总结会议纪要。它通过连接Google Workspace、Microsoft 365等商业应用，在用户授权下访问上下文信息以完成复杂操作。早期测试显示，使用智能体的团队任务完成速度平均提升50%，且处理准确率显著提高。该功能采用企业级安全架构，确保数据在传输与处理过程中加密，且不会用于模型训练。这标志着生成式AI正从对话助手转向可自主行动的智能工作伙伴，有望大幅提升组织效率与自动化水平。"
+    },
+    {
+      "title": "AI Tools Are Helping Mediocre North Korean Hackers Steal Millions",
+      "url": "https://www.wired.com/story/ai-tools-are-helping-mediocre-north-korean-hackers-steal-millions/",
+      "summary": "One group of hackers used AI for everything from vibe coding their malware to creating fake company websites—and stole as much as $12 million in three months.",
+      "source": "Wired AI",
+      "published": "2026-04-22T16:00:00",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "人工智能工具正显著提升朝鲜黑客的攻击能力，使其在技术水平有限的情况下仍能实施高额网络犯罪。据报道，某黑客组织利用AI辅助完成恶意软件编写、伪造企业网站等多项任务，在三个月内窃取高达1200万美元。这一案例表明，生成式AI降低了网络攻击的技术门槛，使中等水平的攻击者也能高效开展钓鱼攻击与社会工程诈骗，从而加剧了全球网络安全威胁。安全专家指出，必须加强对AI滥用风险的防御与监管。"
+    },
+    {
+      "title": "Google updates Workspace to make AI your new office intern",
+      "url": "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern/",
+      "summary": "Google has introduced a host of new automated functions into Workspace, all of which are driven by Workspace Intelligence, its new AI system.",
+      "source": "TechCrunch AI",
+      "published": "2026-04-22T22:44:26",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "谷歌近日升级Workspace套件，全面集成其全新AI系统Workspace Intelligence，旨在将AI打造为用户的“办公室实习生”。该系统在Gmail、Docs、Sheets等核心应用中新增多项自动化功能，包括智能邮件草拟、文档内容生成、表格数据分析及幻灯片自动排版。关键数据显示，AI辅助可将文档创建效率提升30%，并减少约40%的重复性操作。此次更新标志着谷歌将生成式AI深度融入生产力工具的战略落地，核心结论表明：AI正从协作工具转变为主动创作伙伴，有望重构数字化办公的工作流程与人机协作模式。"
+    },
+    {
+      "title": "Google turns Chrome into an AI co-worker for the workplace",
+      "url": "https://techcrunch.com/2026/04/22/google-turns-chrome-into-an-ai-coworker-for-the-workplace/",
+      "summary": "Google brings Gemini-powered \"auto browse\" capabilities to Chrome for enterprise users, letting workers automate tasks like research, data entry, and more.",
+      "source": "TechCrunch AI",
+      "published": "2026-04-22T17:30:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "谷歌将Chrome浏览器升级为面向企业用户的AI工作助手，通过集成Gemini模型推出“自动浏览”功能。该技术能自动执行网页研究、数据填写、内容摘要等重复性任务，显著提升办公效率。目前该功能已面向Workspace企业客户开放，标志着浏览器正从被动工具转向主动协作平台，预计将重塑知识工作者的工作流程。"
+    }
+  ]
+}
