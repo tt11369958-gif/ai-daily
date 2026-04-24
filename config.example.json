@@ -11,7 +11,7 @@
   "wecom_mention": [],
   "sources": {
     "max_articles": 80,
-    "max_final": 20,
+    "max_final": 50,
     "min_importance": 5
   },
   "_notes": {
