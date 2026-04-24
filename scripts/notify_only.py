@@ -45,16 +45,13 @@ def build_pages_url():
     return "https://tt11369958-gif.github.io/ai-daily"
 
 def build_cover_url(pages_url=""):
-    """构建封面图 URL：优先用 pollinations AI 每日生成，fallback 用默认图"""
+    """构建封面图 URL：使用 GitHub Pages 托管的当日封面图（由 publish_github.py 生成）"""
     from datetime import datetime
     today = datetime.now().strftime("%Y-%m-%d")
-    # 用 pollinations AI 生成每日不同的封面图
-    prompt = "AI technology news daily briefing, futuristic digital interface, neural network visualization, dark theme, professional"
-    import urllib.parse, time
-    encoded = urllib.parse.quote(prompt)
-    seed = int(today.replace("-", "")) % 10000
-    ts = int(time.time())
-    cover_url = f"https://image.pollinations.ai/prompt/{encoded}?seed={seed}&width=1200&height=600&nologo=true&t={ts}"
+    user = os.environ.get("GH_USER", "") or get(load_config(), "github", "user", default="tt11369958-gif")
+    repo = os.environ.get("GH_REPO", "") or get(load_config(), "github", "repo", default="ai-daily")
+    # 与 publish_github.py 保持一致：assets/cover-{date}.png
+    cover_url = f"https://{user}.github.io/{repo}/assets/cover-{today}.png"
     return cover_url
 
 def send_wecom_notification(articles, pages_url="", cover_url=""):
