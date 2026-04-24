@@ -478,7 +478,7 @@ function renderHistoryArticles(articles, dateStr) {
         <span class="source-tag" style="background:${color}20;color:${color}">${icon} ${a.source}</span>
         <span class="cat-tag" style="background:${color}30;color:${color}">${a.category}</span>
       </div></div>
-      <h2 class="card-title">${title}</h2>
+      <h2 class="card-title">${a.title || ''}</h2>
       <p class="card-summary">${summary}</p>
       <div class="card-footer">
         <span class="read-more">🔬 AI 总结</span>
