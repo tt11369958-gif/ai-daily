@@ -38,6 +38,8 @@ def _truncate(text, length):
         return text
     return text[:length] + "..."
 
+DEFAULT_PAGES_URL = "https://tt11369958-gif.github.io/ai-daily/"
+
 def send_wecom_notification(articles, pages_url="", title="AI 日报", cover_url=""):
     """发送模板卡片：来源角标 + 主标题 + 封面大图 + 跳转"""
     config = load_config()
@@ -69,9 +71,16 @@ def send_wecom_notification(articles, pages_url="", title="AI 日报", cover_url
     cat_emoji = emoji_map.get(headline.get("category", ""), "📌")
     headline_source = _clean(headline.get("source", ""))
 
-    # 封面图：优先使用传入的 URL，否则用默认
+    # 兜底 URL（企微卡片 url 不能为空，42028）
+    if not pages_url:
+        pages_url = DEFAULT_PAGES_URL
+
+    # 封面图：优先使用传入的 URL（由 publish_github.py 生成的当日封面），否则 fallback 到当日 URL
     if not cover_url:
-        cover_url = "https://tt11369958-gif.github.io/ai-daily/assets/cover.png"
+        today_str = datetime.now().strftime("%Y-%m-%d")
+        user = os.environ.get("GITHUB_USER", "") or "tt11369958-gif"
+        repo = "ai-daily"
+        cover_url = f"https://{user}.github.io/{repo}/assets/cover-{today_str}.png"
 
     # ── 模板卡片 payload（企业微信官方格式，已验证可用） ──
     payload = {
