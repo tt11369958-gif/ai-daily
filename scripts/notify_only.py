@@ -55,13 +55,36 @@ def build_cover_url(pages_url=""):
     return cover_url
 
 def send_wecom_notification(articles, pages_url="", cover_url=""):
-    """发送模板卡片到企业微信群"""
-    webhook = os.environ.get("WECOM_WEBHOOK", "")
-    if not webhook:
-        config = load_config()
-        webhook = get(config, "wecom", "webhook", default="")
+    """发送模板卡片到企业微信群（支持多群）"""
+    config = load_config()
+    webhooks = []
 
-    if not webhook:
+    # 1. 环境变量（逗号分隔）
+    env_val = os.environ.get("WECOM_WEBHOOK", "")
+    if env_val:
+        webhooks.extend([h.strip() for h in env_val.split(",") if h.strip()])
+
+    # 2. config 里的 webhooks 列表
+    cfg_list = get(config, "wecom", "webhooks", default=None)
+    if cfg_list and isinstance(cfg_list, list):
+        webhooks.extend([h for h in cfg_list if h])
+
+    # 3. 单个 webhook 字段（兼容旧配置）
+    if not webhooks:
+        single = get(config, "wecom", "webhook", default="")
+        if single:
+            webhooks.append(single)
+
+    # 去重
+    seen, webhooks = set(), []
+    if webhooks:
+        seen = set(); unique = []
+        for h in webhooks:
+            if h not in seen:
+                seen.add(h); unique.append(h)
+        webhooks = unique
+
+    if not webhooks:
         print("⚠ 未配置 WECOM_WEBHOOK，跳过企微推送")
         return
 
@@ -116,19 +139,21 @@ def send_wecom_notification(articles, pages_url="", cover_url=""):
     }
 
     import requests
-    print(f"发送企微卡片...")
+    print(f"发送企微卡片到 {len(webhooks)} 个群...")
     print(f"  URL: {pages_url}")
     print(f"  封面: {cover_url}")
 
-    r = requests.post(webhook, json=payload, timeout=15)
-    if r.status_code == 200:
-        result = r.json()
-        if result.get("errcode") == 0:
-            print(f"✅ 企微推送成功！")
+    for i, wh in enumerate(webhooks):
+        print(f"  推送群 {i+1}/{len(webhooks)}...")
+        r = requests.post(wh, json=payload, timeout=15)
+        if r.status_code == 200:
+            result = r.json()
+            if result.get("errcode") == 0:
+                print(f"  ✅ 群 {i+1} 推送成功！")
+            else:
+                print(f"  ❌ 群 {i+1} 推送失败: {result}")
         else:
-            print(f"❌ 企微推送失败: {result}")
-    else:
-        print(f"❌ 企微推送请求失败: {r.status_code} - {r.text}")
+            print(f"  ❌ 群 {i+1} 请求失败: {r.status_code} - {r.text}")
 
 def run():
     print("=" * 50)
