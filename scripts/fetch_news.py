@@ -83,6 +83,36 @@ RSS_FEEDS = {
 
 MAX_AGE_DAYS = 1  # 只保留最近 1 天内的文章
 
+# ── 标题相似度去重 ──────────────────────────────────────
+import re, urllib.parse
+
+def _normalize(text):
+    """标题标准化：去除标点、数字、英文、语气词，返回字符集合"""
+    # 去除英文/数字/标点，保留中文
+    text = re.sub(r'[a-zA-Z0-9]', '', text)
+    text = re.sub(r'[\s\.,，。、！？!?\:\：\-\_\—\/\[\]【】]', '', text)
+    # 去除常见噪音词
+    noise = ['突发', '刚刚', '重磅', '刚刚', '快讯', '最新', '今日', '昨夜', '刚刚', '刚刚']
+    for w in noise:
+        text = text.replace(w, '')
+    return set(text)
+
+def _jaccard(s1, s2):
+    """两个字符集合的 Jaccard 相似度 [0~1]"""
+    if not s1 or not s2:
+        return 0.0
+    inter = len(s1 & s2)
+    union = len(s1 | s2)
+    return inter / union if union else 0.0
+
+def _title_similar(t1, t2, threshold=0.65):
+    """判断两个标题是否相似（超过 threshold 返回 True）"""
+    s1, s2 = _normalize(t1), _normalize(t2)
+    # 标题极短时，提高阈值避免误判
+    if len(s1) < 5 or len(s2) < 5:
+        return _jaccard(s1, s2) > 0.85
+    return _jaccard(s1, s2) > threshold
+
 def fetch_feed(name, url):
     """抓取单个 RSS 源，返回文章列表"""
     articles = []
@@ -162,16 +192,38 @@ def fetch_all():
             all_articles.extend(articles)
             print(f"  ✓ {name}: {len(articles)} 篇")
 
-    # 去重（按标题相似度）
-    seen = set()
-    unique = []
+    # ── 两层去重 ──────────────────────────────────────────
+    # 第一层：URL 精确去重
+    url_seen = set()
+    by_url = []
     for a in all_articles:
-        key = a["title"][:80].lower()
-        if key not in seen:
-            seen.add(key)
+        if a["url"] and a["url"] not in url_seen:
+            url_seen.add(a["url"])
+            by_url.append(a)
+
+    # 第二层：标题相似度去重（中文优化）
+    unique = []
+    dup_count = 0
+    for a in by_url:
+        is_dup = False
+        for u in unique:
+            # URL 相同直接跳过（已在第一层防护）
+            if u["url"] == a["url"]:
+                is_dup = True
+                break
+            # 标题相似度 > 0.65 视为重复
+            if _title_similar(u["title"], a["title"], threshold=0.65):
+                is_dup = True
+                # 保留评分更高的
+                if (a.get("score") or 0) > (u.get("score") or 0):
+                    unique.remove(u)
+                    unique.append(a)
+                dup_count += 1
+                break
+        if not is_dup:
             unique.append(a)
 
-    print(f"\n✅ 共抓取 {len(unique)} 篇去重文章")
+    print(f"\n✅ 共抓取 {len(unique)} 篇去重文章（过滤 {len(all_articles) - len(unique)} 篇重复，含 URL 去重 {len(all_articles) - len(by_url)} 篇 + 标题相似去重 {dup_count} 篇）")
     return unique
 
 if __name__ == "__main__":
