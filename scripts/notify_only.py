@@ -1,4 +1,4 @@
-"""
+﻿"""
 notify_only.py — 仅发送企业微信通知（GitHub Actions 部署后调用）
 用法: python scripts/notify_only.py
 从 output/ 目录读取 summarized_articles.json
