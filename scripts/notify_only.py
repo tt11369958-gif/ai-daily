@@ -76,9 +76,8 @@ def send_wecom_notification(articles, pages_url="", cover_url=""):
             webhooks.append(single)
 
     # 去重
-    seen, webhooks = set(), []
     if webhooks:
-        seen = set(); unique = []
+        seen, unique = set(), []
         for h in webhooks:
             if h not in seen:
                 seen.add(h); unique.append(h)
