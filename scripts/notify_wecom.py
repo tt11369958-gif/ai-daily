@@ -40,14 +40,36 @@ def _truncate(text, length):
 
 DEFAULT_PAGES_URL = "https://tt11369958-gif.github.io/ai-daily/"
 
+def _get_webhooks(config):
+    """获取所有企微 webhook URL 列表，支持多群推送"""
+    hooks = []
+    # 1. 环境变量（逗号分隔多个）
+    env_val = os.environ.get("WECOM_WEBHOOK", "")
+    if env_val:
+        hooks.extend([h.strip() for h in env_val.split(",") if h.strip()])
+    # 2. config.json 里的 wecom.webhooks 列表
+    cfg_list = _g(config, "wecom", "webhooks", default=None)
+    if cfg_list and isinstance(cfg_list, list):
+        hooks.extend([h for h in cfg_list if h and "key=" in h])
+    # 3. 单个 webhook 字段（兼容旧配置）
+    single = _g(config, "wecom", "webhook", default="") or \
+             _g(config, "wecom_webhook", default="")
+    if single and "key=" in single:
+        hooks.append(single)
+    # 去重
+    seen, unique = set(), []
+    for h in hooks:
+        if h not in seen:
+            seen.add(h)
+            unique.append(h)
+    return unique
+
 def send_wecom_notification(articles, pages_url="", title="AI 日报", cover_url=""):
     """发送模板卡片：来源角标 + 主标题 + 封面大图 + 跳转"""
     config = load_config()
-    webhook = os.environ.get("WECOM_WEBHOOK") or \
-              _g(config, "wecom", "webhook", default="") or \
-              _g(config, "wecom_webhook", default="")
+    webhooks = _get_webhooks(config)
 
-    if not webhook or "key=" not in webhook:
+    if not webhooks:
         print("⚠️  未配置企业微信 Webhook，跳过推送")
         return
 
@@ -107,12 +129,13 @@ def send_wecom_notification(articles, pages_url="", title="AI 日报", cover_url
     }
 
     try:
-        resp = requests.post(webhook, json=payload, timeout=15)
-        result = resp.json()
-        if result.get("errcode") == 0:
-            print("✅ 企业微信推送成功！")
-        else:
-            print(f"❌ 推送失败：{result}")
+        for i, wh in enumerate(webhooks):
+            resp = requests.post(wh, json=payload, timeout=15)
+            result = resp.json()
+            if result.get("errcode") == 0:
+                print(f"✅ 企业微信推送成功！（群 {i+1}/{len(webhooks)}）")
+            else:
+                print(f"❌ 群 {i+1} 推送失败：{result}")
     except Exception as e:
         print(f"❌ 推送异常：{e}")
 
