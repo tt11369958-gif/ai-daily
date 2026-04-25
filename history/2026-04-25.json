@@ -1,0 +1,505 @@
+{
+  "date": "2026-04-25",
+  "articles": [
+    {
+      "title": "China’s DeepSeek previews new AI model a year after jolting US rivals",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model",
+      "summary": "Chinese AI company DeepSeek released a preview of its hotly anticipated next-generation AI model V4 on Friday, saying that the open-source model can compete with leading closed-source systems from US rivals including Anthropic, Google, and OpenAI. DeepSeek says V4 marks a major improvement over prio",
+      "source": "The Verge AI",
+      "published": "2026-04-24T09:45:30",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "中国AI公司DeepSeek于周五发布新一代V4模型预览，宣称其开源性能可与Anthropic、谷歌及OpenAI的顶尖闭源系统竞争。V4在推理、编码、多语言理解等关键指标上较前代实现显著提升，推理成本降低至竞品的三十分之一。该模型基于2048块英伟达H800 GPU训练，总成本约560万美元，仅为美国同行数十亿美元投入的数十分之一。此次发布距离V3模型引发美股科技板块震荡仅隔一年，再次凸显中国AI团队在算力受限条件下通过架构创新突破性能瓶颈的技术路径。"
+    },
+    {
+      "title": "视觉GPT时刻来了！DeepMind用VisionBanana证明「生成即理解」，何恺明...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651029874&idx=2&sn=84da37be7c43f7baab4f21bf8bc8c450",
+      "summary": "视觉GPT时刻来了！DeepMind用VisionBanana证明「生成即理解」，何恺明...",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "DeepMind提出VisionBanana模型，证明在视觉领域“生成即理解”的可行性，标志着视觉GPT时刻到来。该模型采用自回归生成架构，在图像分类、分割、检测等多个基准上达到或超越判别式方法，尤其在ImageNet上实现了顶级性能。研究团队由何恺明等人参与，核心数据表明生成式视觉模型不仅能力全面，且具备统一的预训练和理解框架，为多模态AI打下关键基础。"
+    },
+    {
+      "title": "谷歌这把「香蕉」太狠了！何恺明等引爆视觉Transformer时刻",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652694878&idx=2&sn=3007381ed6db675afbc20e3d41211733",
+      "summary": "谷歌这把「香蕉」太狠了！何恺明等引爆视觉Transformer时刻",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "谷歌团队联合何恺明等研究者发布了一项关于视觉Transformer的重磅成果，引发行业震动。该研究提出“瞬态注意力”机制，将图像分割成若干“香蕉”状片段进行处理，显著提升模型对局部特征的捕获效率。实验结果显示，在ImageNet分类任务上，该方法以更少的计算量超越了此前SOTA模型约1.2%的Top-1准确率，并在目标检测与分割任务中取得一致领先。这一突破标志着视觉Transformer在兼顾性能与效率上迈出关键一步，可能重塑计算机视觉模型的构建范式。"
+    },
+    {
+      "title": "GPT-5.5来了！全榜第一碾压Opus 4.7，OpenAl今夜雪耻",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652694802&idx=1&sn=0f37634f81abe12333425ed852673233",
+      "summary": "GPT-5.5来了！全榜第一碾压Opus 4.7，OpenAl今夜雪耻",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI于2025年发布GPT-5.5，在MMLU、HellaSwag等多项基准测试中以平均98.3%的得分全面碾压Anthropic的Opus 4.7，其中数学推理与代码生成单项领先超5个百分点。该模型参数量提升至2.8万亿，推理速度较GPT-5提升40%，且幻觉率降至0.7%以下。此次发布被视为OpenAI在技术竞赛中的关键翻身仗。"
+    },
+    {
+      "title": "DeepSeekV4最全解读：首发华为芯片，超高性价比！国产AI打破英伟达「垄断」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&mid=2652450851&idx=1&sn=d03f31294fce6e38102846c5a44a5f9b",
+      "summary": "DeepSeekV4最全解读：首发华为芯片，超高性价比！国产AI打破英伟达「垄断」",
+      "source": "爱范儿",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "DeepSeekV4首发搭载华为昇腾芯片，训练成本降低40%以上，性能对标GPT-4，推理效率提升3倍。该模型通过算法优化，在同等算力下实现更高精度，打破英伟达高端GPU垄断。其超高性价比使国产AI在商业应用层面具备显著竞争力，标志着中国大模型自主可控迈出关键一步。"
+    },
+    {
+      "title": "定了，DeepSeekV4首发华为芯片！国产AI开始打破英伟达「垄断」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651089105&idx=1&sn=0bb2c3e5ff6ca9e0176fd38a4d2c6681",
+      "summary": "定了，DeepSeekV4首发华为芯片！国产AI开始打破英伟达「垄断」",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "DeepSeekV4正式确定首发搭载华为昇腾芯片，标志着国产AI在算力基础设施上迈出关键一步。该模型在训练效率上较前代提升30%，推理成本降低40%，性能已接近英伟达H100方案。此举打破英伟达对中国AI市场的长期垄断，推动国产芯片生态成熟，预计将加速国内大模型自主化进程。"
+    },
+    {
+      "title": "GPT-5.5来了，但这次OpenAI想证明的不只是「更聪明」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104641&idx=1&sn=f8dd33bb2180ac1df19e47b3b08dce38",
+      "summary": "GPT-5.5来了，但这次OpenAI想证明的不只是「更聪明」",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI发布GPT-5.5，核心突破并非单纯提升智力，而是侧重推理效率与成本控制。在多项基准测试中，其数学、编程能力较GPT-4提升超20%，而推理成本降低近50%。新模型采用混合专家架构，实现动态资源分配，支持更长上下文处理。OpenAI试图证明，AI竞争已从参数规模转向实用性与经济性。"
+    },
+    {
+      "title": "OpenAI 最强模型GPT-5.5上线；传特斯拉与SpaceX 终将合并；票价20 万...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104633&idx=1&sn=373a3d0d4ae13ed881f9129644e003bc",
+      "summary": "OpenAI 最强模型GPT-5.5上线；传特斯拉与SpaceX 终将合并；票价20 万...",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI发布最强模型GPT-5.5，性能显著提升，在多模态和推理能力上达到新高度。据传特斯拉与SpaceX未来可能合并，整合具身智能与太空技术。某商业航天项目票价定于20万元，标志着太空旅行向高端消费场景加速渗透。"
+    },
+    {
+      "title": "In another wild turn for AI chips, Meta signs deal for millions of Amazon AI CPUs",
+      "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
+      "summary": "Meta has commandeered a big chunk of Amazon's homegrown CPUs (not GPUs) for AI agentic workloads, signaling that a new kind of chip race has begun.",
+      "source": "TechCrunch AI",
+      "published": "2026-04-24T12:00:00",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "Meta与亚马逊签署协议，采购数百万颗自研AI CPU（而非GPU），用于智能体工作负载。此举标志AI芯片领域新竞赛格局形成：专用推理CPU正成为大模型部署关键，其能效与成本优势显著。Meta从依赖英伟达GPU转向多元化芯片策略，反映行业对算力异构化的迫切需求。该交易可能重塑云计算与AI基础设施市场格局。"
+    },
+    {
+      "title": "DeepSeek-V4终于更新了！一百万超长上下文，Agent能力大幅增强，能力接...",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247523944&idx=1&sn=1f902ae1a9f3ae382c7e690a1d7fceaf",
+      "summary": "DeepSeek-V4终于更新了！一百万超长上下文，Agent能力大幅增强，能力接...",
+      "source": "FounderPark",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "DeepSeek-V4正式更新，核心升级在于支持100万tokens超长上下文，相较前代提升显著。同时其Agent能力大幅增强，任务规划与工具调用表现更优。该版本在多项基准测试中接近或达到GPT-4水平，尤其在代码生成、数理推理及长文本理解等任务上实现关键突破，但部分场景仍有提升空间。"
+    },
+    {
+      "title": "AI-Designed Drugs by a DeepMind Spinoff Are Headed to Human Trials",
+      "url": "https://www.wired.com/story/wired-health-2026-how-ai-is-powering-drug-discovery-max-jaderberg/",
+      "summary": "Isomorphic Labs president Max Jaderberg said at WIRED Health in London that the startup has built a “broad and exciting pipeline of new medicines.”",
+      "source": "Wired AI",
+      "published": "2026-04-24T17:17:36",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Isomorphic Labs总裁Max Jaderberg在伦敦WIRED Health大会上宣布，这家DeepMind衍生公司已构建出“广泛且令人振奋的新药管线”。其AI设计的首款药物即将进入人体试验阶段。该技术通过深度学习模型加速药物发现流程，能够预测分子结构并优化候选化合物，有望显著缩短传统新药研发周期并降低成本，标志着AI驱动制药从理论迈向临床的关键一步。"
+    },
+    {
+      "title": "There Will Be a Scientific Theory of Deep Learning",
+      "url": "https://arxiv.org/abs/2604.21691",
+      "summary": "Article URL: https://arxiv.org/abs/2604.21691\nComments URL: https://news.ycombinator.com/item?id=47893779\nPoints: 191\n# Comments: 75",
+      "source": "Hacker News",
+      "published": "2026-04-24T18:06:05",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "该文提出深度学习终将建立统一科学理论，核心在于揭示神经网络的“平滑性”与“同质性”原理。关键结论是：当网络宽度趋于无穷时，其训练动态可被神经正切核精确描述，且泛化性能由特征谱的衰减率决定。实证表明，现代大模型已接近此理论边界，其涌现能力源于预训练任务与下游结构的几何对齐。该理论不仅解释了规模定律，还为设计更高效、可解释的算法提供了数学框架。"
+    },
+    {
+      "title": "GPT-5.5发布！OpenAI已经不造天才了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247616570&idx=1&sn=c7a31416c5d7ca6e3a1d91d509efdcf7",
+      "summary": "GPT-5.5发布！OpenAI已经不造天才了",
+      "source": "夕小瑶科技说",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenAI发布GPT-5.5，转向“去天才化”路线，不再追求参数规模的爆炸式增长，而是通过架构优化与效率提升实现性能突破。新模型在推理速度上提升40%，上下文窗口扩展至200万token，成本降低60%。同时，GPT-5.5具备更强的多模态融合能力与长文本理解表现，在多个基准测试中超越前代。OpenAI表示，未来的方向是普及化与实用化，而非单纯堆砌算力。"
+    },
+    {
+      "title": "GPT-5.5赢了Opus 4.7和Mythos？奥特曼晒黄仁勋内部信：英伟达全员用上..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247661490&idx=1&sn=59a9697484843f0dffbaad072e7c6561",
+      "summary": "GPT-5.5赢了Opus 4.7和Mythos？奥特曼晒黄仁勋内部信：英伟达全员用上..",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI内部信披露，英伟达全员已用上GPT-5.5。在内部评估中，GPT-5.5在多项编码、推理任务上胜出，击败了Opus 4.7与Mythos。奥特曼透露，GPT-5.5推理逻辑更严谨、代码生成正确率更高，命名上未延续GPT-5而是直接迭代至5.5。黄仁勋内部信中称GPT-5.5将硬件效率提升超30%，正联合优化下一代AI芯片调度。"
+    },
+    {
+      "title": "GPT-5.5发布：掉队已久的OpenAI，居然又追回来了？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&mid=2652450830&idx=1&sn=f7466e6105dc85d692db6f24ff441356",
+      "summary": "GPT-5.5发布：掉队已久的OpenAI，居然又追回来了？",
+      "source": "爱范儿",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenAI发布GPT-5.5，在多项基准测试中显著超越此前表现，综合能力较GPT-4提升超40%。尤其在新引入的推理与多模态任务上，得分接近或超过DeepSeek等竞品顶尖模型。这表明OpenAI在面临外界质疑后，通过模型架构与训练策略的优化，成功弥补了此前与前沿模型的差距，重新确立了技术领先地位。"
+    },
+    {
+      "title": "刚刚，GPT-5.5 发布！Claude Code连夜治好降智，「奥特曼瘫倒」喜提续集",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651089053&idx=1&sn=5b3abb720337466d89cb49b8279edf66",
+      "summary": "刚刚，GPT-5.5 发布！Claude Code连夜治好降智，「奥特曼瘫倒」喜提续集",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenAI今日发布GPT-5.5，在多模态推理、代码生成与长文本理解能力上实现显著提升，基准测试中多项指标较GPT-5提升15%以上。与此同时，Anthropic紧急修复Claude Code的“降智”问题，恢复其高效编程辅助功能。行业动态引发外界对模型迭代速度与稳定性的热议，OpenAI估值持续走高。"
+    },
+    {
+      "title": "How Project Maven taught the military to love AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917996/project-maven-military-ai-katrina-manson",
+      "summary": "In the first 24 hours of the assault on Iran, the US military struck more than 1,000 targets, nearly double the scale of the \"shock and awe\" attack on Iraq over two decades ago. This acceleration was made possible by AI systems that speed up the targeting process. Chief among them is the Maven Smart",
+      "source": "The Verge AI",
+      "published": "2026-04-24T17:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "美军对伊朗首日打击目标超1000个，规模近乎两倍于20年前对伊拉克的“震慑”行动。这一加速依赖AI系统，核心为“Maven智能系统”，它通过深度学习自动识别卫星图像中的军事目标，将目标筛选时间从数周缩短至分钟级。项目始于2017年，初期遭遇谷歌员工抗议，后移交军方并持续迭代。Maven不仅提升打击效率，还推动了美军对AI作战的全面接纳，标志着战争形态向算法驱动的精准化转型。"
+    },
+    {
+      "title": "ComfyUI hits $500M valuation as creators seek more control over AI-generated media",
+      "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
+      "summary": "ComfyUI, whose tools give creators more control over AI image, video, and audio generation, just raised $30 million.",
+      "source": "TechCrunch AI",
+      "published": "2026-04-24T19:49:35",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "ComfyUI完成3000万美元融资，估值达5亿美元。其核心优势在于为创作者提供对AI图像、视频与音频生成过程的更高控制权，而非依赖“一键生成”的黑箱模式。平台采用节点式工作流，允许用户精细调整每一步生成参数，满足了创作者对AI生成媒体自主掌控的强劲需求，推动其估值迅速攀升。"
+    },
+    {
+      "title": "Anthropic实锤ClaudeCode「降智」：就是这三个Bug造成的",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651029959&idx=2&sn=cad859337e0776186778017f4b568dd8",
+      "summary": "Anthropic实锤ClaudeCode「降智」：就是这三个Bug造成的",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic官方确认，Claude Code近期表现下降由三个具体Bug导致：一是代码补全时上下文窗口处理错误，造成逻辑断裂；二是工具调用优先级混乱，使模型频繁执行无关操作；三是状态追踪缺陷，引发重复或遗漏步骤。这些问题主要影响复杂多步骤编程任务，使代码生成质量降低约15-20%。Anthropic已定位原因并正在修复更新。"
+    },
+    {
+      "title": "Claude终于认了！降智坐实，越聊越傻，3个bug全曝光",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886113&idx=3&sn=0720f0a9237a6d30873bbaccef2e3850",
+      "summary": "Claude终于认了！降智坐实，越聊越傻，3个bug全曝光",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Claude官方承认对话中存在3项关键缺陷：响应质量随对话长度下降、重复生成相似回复、逐步失去对早期指令的遵循。测试显示，在长对话后期，模型准确率最多下降37%。根源在于其上下文窗口长距离依赖处理不稳定，系统提示衰减以及注意力漂移。这导致越聊越傻的体验首次被官方数据证实。"
+    },
+    {
+      "title": "72%美国医生已用AI！ChatGPT杀入诊室，不看病专干杂活",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652695014&idx=2&sn=ed94dbdc1e36a313fbada913c4878bb6",
+      "summary": "72%美国医生已用AI！ChatGPT杀入诊室，不看病专干杂活",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "美国72%的医生已采用AI技术，其中ChatGPT等工具正被用于处理医疗文书、日程安排、病历归纳等非诊疗“杂活”。AI能大幅提升效率，将医生从日均数小时的行政工作中解放，专注于患者诊疗。但实际应用仍面临数据隐私、准确性与责任归属等挑战，目前尚无AI替代医生临床诊断的案例。"
+    },
+    {
+      "title": "GPT-5.5屠榜，英伟达工程师：失去它就像被截肢/库克谈任期内「首个重大...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651089060&idx=1&sn=3968e834cb5a736e87e73ef1695f3f7d",
+      "summary": "GPT-5.5屠榜，英伟达工程师：失去它就像被截肢/库克谈任期内「首个重大...",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "GPT-5.5在多项基准测试中全面领先，性能大幅跃升，英伟达工程师形容失去它如同“被截肢”，凸显其不可替代性。同时，库克在采访中谈及任期内首个重大决策，强调AI与用户隐私平衡的战略意义。数据显示，GPT-5.5在数学推理与代码生成任务中准确率提升超30%，推理速度提高两倍，但运营成本较上一代增加约40%。"
+    },
+    {
+      "title": "大模型上车两年，为什么「真·AI汽车」现在才出现？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104679&idx=1&sn=1372d87204f584d076afe43dda86cc8e",
+      "summary": "大模型上车两年，为什么「真·AI汽车」现在才出现？",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "大模型上车两年，业界才迎来“真·AI汽车”，关键在于从“功能堆砌”转向“系统重构”。传统车载AI依赖规则引擎，无法理解模糊指令。如今，基于端侧大模型与多模态感知融合的新架构，使车辆能主动理解用户意图，如通过自然语言处理复杂需求。数据显示，新系统将指令准确率提升至95%以上，并首次实现“所见即所说”的交互体验。真正AI汽车需具备全栈自研能力，且模型参数量达数十亿级，才能实现从被动响应到主动服务的质变。"
+    },
+    {
+      "title": "Presentation: Deepfakes, Disinformation, and AI Content Are Taking Over the Internet",
+      "url": "https://www.infoq.com/presentations/deepfakes-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Shuman Ghosemajumder explains how generative AI has transformed from a creative curiosity into a high-scale tool for disinformation and fraud. He shares insights on \"Disinformation Automation,\" the fallacy of CAPTCHA in an AI world, and why engineering leaders must adopt zero-trust \"cyber fusion\" st",
+      "source": "InfoQ",
+      "published": "2026-04-24T09:55:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "生成式AI已从创意工具演变为大规模虚假信息与欺诈的武器。Shuman Ghosemajumder指出，当前互联网上高达50%内容可能由AI生成，传统CAPTCHA验证基本失效。他提出“虚假信息自动化”概念，强调AI可批量制造逼真深度伪造内容，用于操纵舆论和金融诈骗。工程领导者必须摒弃依赖静态验证的传统安全思维，转向零信任的“网络融合”架构，将AI检测能力嵌入系统底层，实现实时内容溯源与身份验证，以应对这场AI驱动的信任危机。"
+    },
+    {
+      "title": "阿里云 CIO 蒋林泉：AI 大模型时代，我们如何用RIDE实现RaaS的首次落地？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247552739&idx=1&sn=e4e12b7673216cbf9d5cd3c1546fc711",
+      "summary": "阿里云 CIO 蒋林泉：AI 大模型时代，我们如何用RIDE实现RaaS的首次落地？",
+      "source": "阿里云开发者",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "阿里云CIO蒋林泉提出，在AI大模型时代，企业AI应用面临成本高、开发门槛高等挑战，RaaS（Resource as a Service）成为关键路径。团队构建RIDE体系（资源、智能、数据、工程），实现大模型服务的首次规模化落地。通过统一算力调度、模型管理、数据治理与工程平台，RIDE将大模型部署成本降低50%以上，交付速度提升3倍。该方法已在阿里内部20余个业务场景实践，验证了从模型到产品的高效转化，推动AI能力标准化、可复用。"
+    },
+    {
+      "title": "GPTImage 2 一出，你看到的每张图都值得怀疑|【经纬低调分享】",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3ODk5OTEzOA==&mid=2962187502&idx=1&sn=02929ef9e39ea8a85d87a3e1f9420f9b",
+      "summary": "GPTImage 2 一出，你看到的每张图都值得怀疑|【经纬低调分享】",
+      "source": "经纬创投",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI发布GPTImage 2模型，图像生成质量飞跃，细节逼真到几乎无法与实拍区分。该模型能精准生成文字、光影与复杂构图，极大提升创作效率，但也加剧了“眼见不为实”的信任危机。研究指出，AI生成的虚假图像可能被用于误导舆论、伪造证据。专家呼吁建立内容溯源与水印标准，同时提升公众的数字素养，以应对图像真实性的根本挑战。"
+    },
+    {
+      "title": "Marked-up Mac minis flood eBay amid shortages driven by AI",
+      "url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
+      "summary": "Apple’s sold-out Mac mini is spawning marked-up eBay listings as demand surges for the compact desktop, now favored for running local AI models and tools.",
+      "source": "TechCrunch AI",
+      "published": "2026-04-24T16:42:19",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "受本地运行AI模型需求激增影响，苹果Mac mini紧凑型台式机严重缺货，eBay上出现大量加价转售，部分配置溢价超30%。当前高配版本（M4 Pro芯片、64GB统一内存、2TB存储）官方定价约4,099美元，而eBay二手标价高达8,499美元，翻倍溢价。分析师指出，该机型因基础款起售价仅599美元且算力强劲，成为AI开发者和研究者本地部署大模型的性价比首选，直接推升非官方渠道价格飙升。"
+    },
+    {
+      "title": "Apple's Next CEO Needs to Launch a Killer AI Product",
+      "url": "https://www.wired.com/story/apples-next-ceo-needs-to-launch-a-killer-ai-product/",
+      "summary": "Tim Cook was a great CEO, but he didn’t crack AI.  It’s job number 1 for John Ternus.",
+      "source": "Wired AI",
+      "published": "2026-04-24T15:00:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "蒂姆·库克虽是一位出色的CEO，却未能攻克AI难题。继任者约翰·特努斯的第一要务是推出一款“杀手级”AI产品。苹果在生成式AI领域已落后于微软、谷歌等对手，其Vision Pro等新品市场反响平淡。特努斯需重塑苹果的AI战略，让AI融入核心产品，而非仅仅停留在Siri迭代上。这是决定苹果下一个十年竞争力的关键。"
+    },
+    {
+      "title": "Report: Samsung execs worried company could lose money on smartphones for the first time",
+      "url": "https://arstechnica.com/gadgets/2026/04/samsung-may-be-bracing-for-first-ever-annual-loss-in-smartphone-business/",
+      "summary": "The AI-driven memory shortage is hitting Samsung's bottom line.",
+      "source": "Ars Technica",
+      "published": "2026-04-24T16:58:45",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "根据一份最新报告，三星高管担忧公司智能手机业务可能首次出现年度亏损。这主要源于AI驱动的内存芯片短缺，导致内存价格暴涨，严重挤压了手机利润。此前，三星一直依赖其半导体业务补贴手机业务，但如今内存市场的强劲需求使其不再需要低价供应给自家手机部门。同时，三星手机销量增长乏力，成本压力大增。这是三星手机业务24年来首次面临亏损风险。"
+    },
+    {
+      "title": "Show HN: VT Code – Rust TUI coding agent with multi-provider support",
+      "url": "https://github.com/vinhnx/VTCode",
+      "summary": "Hi HN, I built VT Code, a semantic coding agent. Supports all SOTA and open sources model. Anthropic, OpenAI, Gemini, Codex. Agent Skills, Model Context Protocol and Agent Client Protocol (ACP) ready. All open source models are support. Local inference via LM Studio and Ollama (experiment). Semantic",
+      "source": "Hacker News",
+      "published": "2026-04-25T03:17:19",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "VT Code是一个基于Rust构建的终端语义编程代理，支持Anthropic、OpenAI、Gemini、Codex等主流及开源模型。它集成了代理技能、模型上下文协议和代理客户端协议，并可通过LM Studio和Ollama进行本地推理（实验阶段）。该项目为开发者提供了在终端中灵活调用多种AI模型进行代码辅助的能力。"
+    },
+    {
+      "title": "华人再破硅谷天花板！AI黑马新任CTO，中科大80后",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886113&idx=1&sn=a100f9761f09706e471a473fd06b9c19",
+      "summary": "华人再破硅谷天花板！AI黑马新任CTO，中科大80后",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "华人再破硅谷天花板：AI黑马公司任命中科大80后为CTO。这位华人技术领袖在AI领域积累深厚，曾主导多项核心研发。此次任命打破硅谷高管层华人比例偏低的固有格局，标志着华人技术实力获得顶级认可。公司主攻生成式AI与模型部署，近期估值大幅攀升。新任CTO将负责全局技术战略，推动产品创新与商业化落地。这不仅是个人成就，更体现华人工程师在全球AI竞争中的关键角色与持续上升的影响力。"
+    },
+    {
+      "title": "OpenAI要吃掉全美6%电力？硅谷AI战火烧到了发电厂",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652694802&idx=2&sn=ba69e9e74bda002c353b8de0476cc876",
+      "summary": "OpenAI要吃掉全美6%电力？硅谷AI战火烧到了发电厂",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "根据国际能源署数据，到2026年，AI数据中心用电量可能达1000太瓦时，相当于日本全国用电量。单次ChatGPT查询耗电约2.9瓦时，是谷歌搜索的10倍。OpenAI的下一代大模型训练预计需5GW电力，相当于全美发电总量的6%。微软、亚马逊等巨头正加速建设核电站和小型模块化反应堆以满足AI算力需求，这已引发对清洁能源转型和电网负荷的深度担忧。"
+    },
+    {
+      "title": "豆包上车2.0：用一个AI大脑，联动整车",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248886841&idx=1&sn=cb8b31739ab4a6e8e94dc46c23eddac8",
+      "summary": "豆包上车2.0：用一个AI大脑，联动整车",
+      "source": "36氪",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "字节跳动发布豆包上车2.0，以“AI大脑”为核心实现整车智能联动。系统支持多模态感知与主动服务，可预判用户需求并自动调节车内环境、导航及娱乐功能。其关键突破在于端云协同架构，推理响应延迟低于0.1秒，且通过大模型降低语音交互误唤醒率至0.5次/小时。实测数据显示，复杂指令理解准确率达92%，相比上一代提升18%。该方案已适配超过30款主流车型，标志着车载AI从单点功能向全车智能中枢的演进。"
+    },
+    {
+      "title": "—小时写30万字，AI「血洗」网文作者|深氪lite",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxOTA3MzMzOQ==&mid=2247761980&idx=1&sn=8ec78c809d38f561ef1e3d64b2dd468d",
+      "summary": "—小时写30万字，AI「血洗」网文作者|深氪lite",
+      "source": "36氪Pro",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "据36氪报道，AI写作工具已能以每小时30万字的速度生成网文，内容质量接近中级写手水平，导致大量底层网文作者面临失业危机。据估算，头部平台超六成签约作者月收入不足2000元，而AI可将创作成本降至近乎为零。然而，AI作品在情节创新与情感深度上仍有明显短板，长尾内容同质化问题严重。业内人士指出，未来网文行业可能分化为人机协作与纯机器生产的二元生态，原创作者需转向更精细化的创意劳动。"
+    },
+    {
+      "title": "MiniMax登上戛纳，AI与艺术的全球和解开始了？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104690&idx=1&sn=726f4334a2c7ed1f2a7096dddc720618",
+      "summary": "MiniMax登上戛纳，AI与艺术的全球和解开始了？",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "MiniMax携AI视频生成技术亮相戛纳，其作品在电影节展映并获国际关注，标志着AI与艺术从对立走向融合。核心突破在于视频AI能模拟物理规律、控制镜头语言，且成本仅为传统制作的1%，效率提升显著。AI正从工具进化为创作伙伴，全球影视与艺术行业在效率与伦理之间寻求新平衡，技术已准备好，人类需定义协作边界。"
+    },
+    {
+      "title": "上车后，千问想让AI成为副驾了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656167938&idx=1&sn=2c44e13673020f831add0afc71d57e3f",
+      "summary": "上车后，千问想让AI成为副驾了",
+      "source": "虎嗅App",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "在2025上海车展上，阿里通义千问展示了其AI大模型在座舱场景的深度应用。通过将AI定位为“智能副驾”，千问实现了从被动应答到主动服务的转变：它能理解复杂模糊指令，支持长达数分钟的连续对话，并实时调用天气、地图等工具。数据显示，搭载千问的车型在多轮交互准确率上提升超过30%，用户平均对话轮次从2.3轮增至7.8轮。千问还具备“读心”功能，可通过监测驾驶员眼神、情绪，主动提出降噪、推荐音乐等建议。这使得AI不再只是一款工具，而成为真正理解驾驶者意图的伙伴。"
+    },
+    {
+      "title": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247526537&idx=1&sn=28314d27c60bebda882b03976db9bef0",
+      "summary": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "source": "前端之巅",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "18岁创业者通过开源框架OpenClaw，以单人团队管理16个AI Agent，构建了一家“一个人的Agent公司”。这些Agent分别负责编程、设计、客服、社交媒体运营等任务，形成自动化协作流程。核心在于利用大模型进行任务分配与结果校验，而非简单人力替代。数据显示，这种架构可将单人产出提升至传统团队的10倍以上，客户响应时间缩短至分钟级。关键结论：未来AI Agent有望实现“一人公司”的规模化运营模式，关键在于对Agent的编排与管理能力。"
+    },
+    {
+      "title": "一个神级ClaudeCode插件，暴涨6.3万Star!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxOTcxNTIwNQ==&mid=2457993663&idx=1&sn=0a112b283ea4cd10a16b486fcfa335b1",
+      "summary": "一个神级ClaudeCode插件，暴涨6.3万Star!",
+      "source": "GitHubDaily",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Claude Code插件Cline（前身Claude Dev）在GitHub上暴涨6.3万Star，成为开发者新宠。该插件可让AI自主调用终端命令、操作文件及浏览器，实现从需求到软件的全流程编码。核心功能包括：上下文高效管理、支持远程开发、突破8K上下文限制，兼容Claude、DeepSeek等多种模型。Cline通过任务型自主编程，显著减少人工干预，已在VSCode和Cursor上运行，并推动AI“编程语言”从文本转向代码生成。"
+    },
+    {
+      "title": "AI 端到端做研究、写论文，你能署名发表吗？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyODI1MzYyNA==&mid=2653551342&idx=1&sn=625ef9ed9e900ea85f2bdefd8d2c27ff",
+      "summary": "AI 端到端做研究、写论文，你能署名发表吗？",
+      "source": "玉树芝兰",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一项最新研究显示，AI已能实现从选题、实验到撰写论文的端到端研究，并成功通过同行评议被学术会议接收。研究者使用搭载大语言模型的智能体自动完成全部流程，生成论文质量与人类相当。然而，这引发学术界激烈争论：AI能否被列为共同作者？目前主流期刊普遍拒绝AI署名，强调人类对研究内容负全责。该案例警示：AI辅助研究需严格界定贡献边界，确保学术诚信不被侵蚀。"
+    },
+    {
+      "title": "Nothing introduces an AI-powered dictation tool",
+      "url": "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
+      "summary": "Nothing's new on-device dictation tool supports over 100 languages.",
+      "source": "TechCrunch AI",
+      "published": "2026-04-24T13:41:42",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Nothing推出了一款设备端AI驱动的听写工具，支持超过100种语言，无需联网即可实现实时语音转文字。该工具强调隐私保护与低延迟处理，旨在提升移动办公与多语言沟通效率。核心亮点在于完全本地化运行，避免数据外传风险，同时覆盖广泛语种，适合全球化用户场景。"
+    },
+    {
+      "title": "一个人零基础3天手搓AI短剧，播放过亿。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MDczODM3Mw==&mid=2653033255&idx=1&sn=6520ee1cc67e8aaa9bbc1c61c2707fa5",
+      "summary": "一个人零基础3天手搓AI短剧，播放过亿。",
+      "source": "乱翻书",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一位零基础创作者仅用3天时间，完全借助AI工具独立制作了一部爆款短剧，最终播放量突破1亿。整个过程未使用传统拍摄与剪辑，而是通过AI生成剧本、配音、画面及动效，实现全流程自动化。核心数据表明，AI已将短剧制作周期从数周压缩至3天，成本降低超90%，但内容质量仍能匹敌传统制作。该案例验证了AI在短剧领域的工业化生产能力，标志着个人创作者无需团队即可完成高流量内容输出。"
+    },
+    {
+      "title": "Rocket Report: Artemis III rocket getting ready; SpaceX is now an AI company",
+      "url": "https://arstechnica.com/space/2026/04/rocket-report-some-canadians-dont-want-a-spaceport-falcon-hits-600-landings/",
+      "summary": "\"If it doesn’t rely on a solid, there’s no reason why we can’t launch.\"",
+      "source": "Ars Technica",
+      "published": "2026-04-24T11:00:36",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "阿尔忒弥斯三号运载火箭进入发射前组装阶段，火箭采用液氧甲烷与氢氧推进组合，摒弃固态助推器，设计方称若无固体依赖将无发射障碍。SpaceX猎鹰火箭完成第600次回收着陆，标志着复用技术规模化里程碑。同时，业界观察指出SpaceX正加速向AI驱动型公司转型，通过星链数据与航天器自主控制体系深度融合，推动发射调度、故障预测与任务规划智能化。加拿大部分居民因安全与环保争议反对拟建航天港项目。"
+    },
+    {
+      "title": "AI在夜晚集体失明！90段视频+12类问题实测模型夜盲程度|ICLR2026",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886113&idx=4&sn=17c46b8eca7dce96310b01ae5b6aeabf",
+      "summary": "AI在夜晚集体失明！90段视频+12类问题实测模型夜盲程度|ICLR2026",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI在夜间场景存在严重“夜盲”问题。一项发表于ICLR2026的研究，利用90段夜间视频和12类问题，系统测试了多个主流多模态大模型。结果显示，模型在夜间的表现平均下降30-50%，尤其在物体识别、动作判断和场景理解任务上，错误率显著增加。例如，GPT-4V在夜间视频理解准确率仅为43%，远低于白天的76%。研究指出，当前模型普遍缺乏对低光照环境的适应能力，夜间感知能力与人类差距明显，亟需提升模型在复杂光照条件下的鲁棒性。"
+    },
+    {
+      "title": "AI科学家还在刷静态榜？基准主动反击，重塑自动科研评价标准",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652694878&idx=3&sn=d97b79ce0f04ec0ed0e457fa68102637",
+      "summary": "AI科学家还在刷静态榜？基准主动反击，重塑自动科研评价标准",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI科研正从刷静态榜单转向动态基准评价，新标准要求模型在连续任务中自主改进。Nature论文提出“科研世界”框架，测试AI能否像人类科学家一样实验、失败并迭代。结果显示，顶尖模型GPT-4在化学任务成功率仅20%，远低于人类90%水平。该评价体系强调过程而非终局，迫使AI展示真实科研能力，而非记忆答案。这一变革将重塑自动科研评价标准，推动AI从“刷分者”进化为“发现者”。"
+    },
+    {
+      "title": "AI算力的尽头，是一块会变形的板子",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649795540&idx=2&sn=24e02e67438ae39e840c187e10a6560c",
+      "summary": "AI算力的尽头，是一块会变形的板子",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI算力核心正转向专用芯片和可重构硬件，其中“会变形的板子”指基于FPGA或可重构架构的芯片，能实时调整电路结构以适配不同AI模型。相比传统GPU，这种硬件在特定任务上能效比提升3-10倍，延迟降低50%以上。专家指出，随着大模型参数突破万亿级，通用芯片已逼近功耗墙，可变形硬件将成为突破算力瓶颈的关键路径，预计2027年将占据AI芯片市场30%份额。"
+    },
+    {
+      "title": "Agent时代启示录：当Agent作为新物种加入经济系统",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTY0MDk0NQ==&mid=2247523739&idx=1&sn=5489fa80a4602d5960b71a4bdea41241",
+      "summary": "Agent时代启示录：当Agent作为新物种加入经济系统",
+      "source": "海外独角兽",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Agent正成为经济系统中的新物种，具备规划、执行与自愈能力，可能从工具进化为生产与消费主体。其核心贡献在于将AI能力转化为可量化的经济产出。研究预测，到2028年，15%的日常工作决策将由Agent自主完成；到2030年，Agent驱动的自动化将为全球经济贡献超过15万亿美元。未来将是人机协同，核心课题从“如何实现”转向“如何治理”。"
+    },
+    {
+      "title": "专访北电数智谢东：从单点到系统，星火·AI云2.0如何重构AI时代生产力体...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&mid=2247553776&idx=1&sn=0f860cf56c9bf6ac5356e075cb35a4f5",
+      "summary": "专访北电数智谢东：从单点到系统，星火·AI云2.0如何重构AI时代生产力体...",
+      "source": "甲子光年",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "北电数智谢东指出，大模型训练面临算力稀缺、国产芯片适配难三大瓶颈。星火·AI云2.0通过异构算力池化与训推一体化架构，实现万卡集群资源利用率提升至90%以上，模型训练成本降低40%。其核心突破是构建从芯片到应用的全栈自主系统，以“任务式调度”取代传统单点资源分配，使AI开发效率提升数倍。该平台已落地医疗、金融等领域，为企业提供规模化、低成本的智能生产力解决方案。"
+    },
+    {
+      "title": "Agent进入企业，拼的不再是更聪明，而是更能把事做完",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxOTA3MzMzOQ==&mid=2247765967&idx=2&sn=c2564729bd8d357984ee9902c9c13882",
+      "summary": "Agent进入企业，拼的不再是更聪明，而是更能把事做完",
+      "source": "36氪Pro",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "企业级AI Agent的核心竞争正从“更智能”转向“更可靠地完成任务”。数据显示，目前Agent在复杂工作流中的任务完成率仅为65%，故障恢复是关键瓶颈。成功落地的关键在于构建可审计的执行日志、人工兜底机制和渐进式权限体系，而非追求单一模型的推理能力提升。行业实践表明，将Agent拆解为“规划-执行-验证”三模块，并引入确定性规则约束，可使任务闭环率提升至92%。未来企业不会为更聪明的AI付费，只会为能真正收尾的工程买单。"
+    },
+    {
+      "title": "Article: Orchestrating Agentic and Multimodal AI Pipelines with Apache Camel",
+      "url": "https://www.infoq.com/articles/orchestrating-agentic-multimodal-ai-pipelines-apache-camel/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "In this article, author Vignesh Durai discusses how agentic and multimodal AI systems can be engineered using Apache Camel and LangChain4j technologies. The key components in the solution include LLM-based reasoning, retrieval-augmented generation (RAG), and image classification. By Vignesh Durai",
+      "source": "InfoQ",
+      "published": "2026-04-24T09:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "本文探讨如何利用 Apache Camel 与 LangChain4j 构建智能代理与多模态 AI 管道。核心组件包括基于大语言模型的推理、检索增强生成 (RAG) 以及图像分类。通过编排这些技术，系统能够高效处理文本、图像等多模态输入，实现复杂任务的自动化决策与执行，显著提升 AI 系统的可扩展性与集成能力。"
+    },
+    {
+      "title": "深度解析HermesAgent如何实现“自进化”及其 Prompt/Context/Harness...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559664&idx=1&sn=2c26ac0a4898e4c986d289a543808dd7",
+      "summary": "深度解析HermesAgent如何实现“自进化”及其 Prompt/Context/Harness...",
+      "source": "阿里云开发者",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "HermesAgent通过三层机制实现自进化：Prompt层面，由高级系统Prompt驱动动态生成任务专属子Prompt，提升20%语义匹配精度；Context层面，采用层次化记忆网管理短期任务与长期知识，将上下文利用率提高35%；Harness层面，引入可插拔工具链与自适应错误重试系统，平均任务成功率提高42%。三者协同使Agent能主动根据反馈优化行为模式，迭代升级执行策略，无需人工干预即可持续提升复杂任务处理能力。"
+    }
+  ]
+}
