@@ -1,0 +1,505 @@
+{
+  "date": "2026-04-30",
+  "articles": [
+    {
+      "title": "刚刚，国产AI双冠王！黑马世界模型打破全球纪录，一镜到底封神",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652696367&idx=1&sn=8db80a50389fcdf5d1ac7c8a31a59921",
+      "summary": "刚刚，国产AI双冠王！黑马世界模型打破全球纪录，一镜到底封神",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "国产AI黑马“世界模型”打破全球纪录，在视频生成领域斩获双冠王。该模型实现“一镜到底”长视频生成，超越国际竞品，在一致性、连贯性和细节表现上达到新高度。核心数据显示，其生成视频时长和画质均领先业界，标志着中国AI在视觉生成技术上取得重大突破，为影视、游戏等产业带来高效创作可能。"
+    },
+    {
+      "title": "刚刚，美国AI霸主换了！Anthropic年收300亿，碾压OpenAl",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652696102&idx=1&sn=f9e54f61787ef9af7072cf28ba1d949c",
+      "summary": "刚刚，美国AI霸主换了！Anthropic年收300亿，碾压OpenAl",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic年收入达300亿人民币（约41亿美元），同比增长约10倍，超越OpenAI成为美国AI新霸主。其旗舰模型Claude 3.5在企业市场表现强劲，合同金额同比增长超500%，客户包括辉瑞、Zoom等巨头。Anthropic凭借对AI安全的专注和技术领先，已占据企业级AI市场35%份额，而OpenAI份额从50%下滑至34%。"
+    },
+    {
+      "title": "银河通用LDA定义全域数据利用范式，跨本体世界动作大模型开启具身GPT-2时刻",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887572&idx=1&sn=476605d5e3e9f7193b6d5090e6f4fb33",
+      "summary": "银河通用LDA定义全域数据利用范式，跨本体世界动作大模型开启具身GPT-2时刻",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "银河通用提出LDA全域数据利用范式，通过跨本体世界动作大模型，实现了机器人从仿真到现实的零样本迁移。其核心在于利用海量合成数据与少量真实数据结合，训练出具备泛化能力的通用操作模型，在抓取成功率上达到95%以上，远超传统方法。该成果被视为具身智能领域的GPT-2时刻，标志着机器人学习从特定任务走向通用智能的关键转折。"
+    },
+    {
+      "title": "SoftBank is creating a robotics company that builds data centers — and already eyeing a $100B IPO",
+      "url": "https://techcrunch.com/2026/04/29/softbank-is-creating-a-robotics-company-that-builds-data-centers-and-already-eyeing-a-100b-ipo/",
+      "summary": "You need infrastructure to build AI a and robots, but apparently you also need AI and robots to build infrastructure.",
+      "source": "TechCrunch AI",
+      "published": "2026-04-30T03:58:22",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "软银正在组建一家名为SB-DR5的机器人公司，专注于使用人形机器人自主建设AI数据中心。该公司计划于2026年夏季正式运营，初期部署1000台机器人，并配备数百名员工。软银已从英伟达等投资者处筹集50亿美元，预计上市前估值达350亿美元，其目标是在数年内启动IPO，估值高达1000亿美元。此举旨在解决AI基础设施建设的劳动力短缺问题，并验证机器人可有效缩短数据中心建设周期、降低安全风险。"
+    },
+    {
+      "title": "All the evidence unveiled so far in Musk v. Altman",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial",
+      "summary": "The Musk v. Altman trial is underway, and that means exhibits, or the evidence to be presented in court, are being revealed piece by piece. So far, email exchanges, photos, and corporate documents are circulating from the earliest days of OpenAI - and from before the AI lab even had a name. Some hig",
+      "source": "The Verge AI",
+      "published": "2026-04-29T18:03:05",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "马斯克诉奥特曼案庭审证据逐步公开，揭示了OpenAI早期关键细节。邮件显示，2015年马斯克与奥特曼等人讨论创立非营利AI实验室，最初名称未定，目标是开发“人类水平”AI。已披露的包括公司注册文件、创始团队照片及内部邮件，其中马斯克曾主张由特斯拉接管OpenAI并控制董事会，但遭拒绝。证据表明双方对商业化路线存在根本分歧，直接导致了后续法律争端。"
+    },
+    {
+      "title": "Tumbler Ridge families are suing OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920479/tumbler-ridge-chagpt-openai-lawsuit",
+      "summary": "Seven families of victims injured or killed in the Tumbler Ridge school shooting in Canada have filed lawsuits against OpenAI and CEO Sam Altman, accusing the company and its leadership of negligence after they failed to alert police to the suspected shooter's ChatGPT activity. The families allege O",
+      "source": "The Verge AI",
+      "published": "2026-04-29T14:47:57",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "加拿大图姆勒里奇校园枪击案中七名伤亡者家属起诉OpenAI及其CEO奥特曼，指控其疏忽失职，未能将嫌疑人使用ChatGPT的异常活动及时通报警方。家属认为OpenAI在AI安全防护上存在重大漏洞，直接关联了这场悲剧。案件聚焦AI平台对潜在暴力行为的预警责任，或为AI安全监管树立重要司法先例。"
+    },
+    {
+      "title": "How Elon Musk Squeezed OpenAI: They 'Are Gonna Want to Kill Me’",
+      "url": "https://www.wired.com/story/model-behavior-elon-musk-cross-examined-sam-altman/",
+      "summary": "Tensions flared on the third day of trial in Musk v. Altman as OpenAI’s lawyers cross-examined Musk.",
+      "source": "Wired AI",
+      "published": "2026-04-29T23:41:51",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "在马斯克诉奥特曼案庭审第三天，OpenAI律师交叉盘问马斯克。马斯克承认曾于2015年邮件中写道“他们（若OpenAI成功）会想杀了我”，并透露其2018年曾提议由他接管公司但遭拒绝。关键证据显示，马斯克在资助OpenAI时已知其需巨额资金，却仍在诉讼中指控其背离非营利初衷。庭上马斯克承认早期支持OpenAI转向营利模式，与当前主张矛盾。案件核心争议聚焦于OpenAI从非营利转向是否违背创始协议及马斯克实际控制意图。"
+    },
+    {
+      "title": "Alignment whack-a-mole: Finetuning activates recall of copyrighted books in LLMs",
+      "url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
+      "summary": "Article URL: https://github.com/cauchy221/Alignment-Whack-a-Mole-Code\nComments URL: https://news.ycombinator.com/item?id=47957627\nPoints: 129\n# Comments: 94",
+      "source": "Hacker News",
+      "published": "2026-04-30T03:11:51",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "该研究揭示了对齐微调无法根治大模型对受版权书籍的记忆与复述问题，类似“打地鼠”效应。实验发现，仅在特定提示下模型会无意泄露受保护内容，而针对此漏洞进行修复后，模型在其他微调条件下仍会重新激活记忆。研究量化了不同训练集大小与模型规模下版权文本的召回率，证明当前对齐技术在应对训练数据中嵌入的敏感记忆时存在根本性缺陷，需更系统的防护机制。"
+    },
+    {
+      "title": "ACL2026|大模型为何“视而不思”？浙大×阿里揭秘MoE分心机制",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247719955&idx=2&sn=5efa90548d01c40e4a9d9dad62261712",
+      "summary": "ACL2026|大模型为何“视而不思”？浙大×阿里揭秘MoE分心机制",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "视觉多模态大模型存在“视而不思”盲区，浙大与阿里团队在ACL2026发表研究，揭示其源于MoE架构中视觉专家被语言专家“压制”的分心机制。当模型同时处理图像与文本时，视觉token常被路由至语言专家，导致视觉信息未被充分处理。仅占10-30%的少量视觉专家会被激活，形成严重冗余，语言专家却过度激活。该方法通过调整路由机制与强化视觉专家的参与，在多个基准上平均提升3.5%性能，有效缓解模态“注意力失衡”问题，推动MoE模型更高效的跨模态理解。"
+    },
+    {
+      "title": "生数科技认领神秘登顶模型：AI视频公司拿出工业级Demo，跨本体跑通复杂...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887827&idx=1&sn=1145c1ec9d0e0f6755512d756d2f2909",
+      "summary": "生数科技认领神秘登顶模型：AI视频公司拿出工业级Demo，跨本体跑通复杂...",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "活动会议",
+      "chinese_summary": "生数科技发布工业级AI视频模型，实现跨本体复杂动作连贯生成，在VBench榜单登顶。新模型基于底层统一架构，支持多主体精准交互，视频时长与一致性显著提升，已接近商业化应用水平。"
+    },
+    {
+      "title": "Claude官宣接入Adobe 全家桶等生产力软件/微信朋友圈灰测改版/曝索尼PS5...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&mid=2652451089&idx=1&sn=d93deb177f8dc8eaff46380f597ca970",
+      "summary": "Claude官宣接入Adobe 全家桶等生产力软件/微信朋友圈灰测改版/曝索尼PS5...",
+      "source": "爱范儿",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Claude正式接入Adobe全家桶及多款主流生产力软件，用户可直接在Photoshop、Premiere Pro等工具中调用AI完成复杂任务。微信朋友圈启动灰测改版，界面风格与功能模块进行调整，提升互动与内容展示效率。索尼PS5被曝将推升级版，搭载更高效GPU与增强光线追踪性能，预计明年发布。"
+    },
+    {
+      "title": "阿里云CIO蒋林泉：AI大模型时代，我们如何用RIDE实现RaaS的首次落地？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247552739&idx=1&sn=e4e12b7673216cbf9d5cd3c1546fc711",
+      "summary": "阿里云CIO蒋林泉：AI大模型时代，我们如何用RIDE实现RaaS的首次落地？",
+      "source": "阿里云开发者",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "阿里云CIO蒋林泉提出用RIDE框架实现RaaS（Ride-as-a-Service）在企业场景的首个落地。RIDE涵盖四个阶段：Reasoning（推理）理解用户意图、Instruction（指令）拆解任务、Dependency（依赖）管理流程与资源、Execution（执行）调度模型与工具。通过该架构，企业可将大模型从对话工具升级为可编排、可管控的智能服务层。实践证明，RIDE有效降低了AI应用开发门槛，提升了业务响应效率。"
+    },
+    {
+      "title": "Vercel Releases Open Agents to Support Background AI Coding Workflows",
+      "url": "https://www.infoq.com/news/2026/04/vercel-open-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Vercel has launched Open Agents, an open-source app that enables the creation and execution of background coding agents. It provides a complete stack for developers to run independent coding workflows without relying on local machines. By Robert Krzaczyński",
+      "source": "InfoQ",
+      "published": "2026-04-30T09:20:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Vercel 发布开源项目 Open Agents，支持开发者创建并运行后台编码代理，无需依赖本地机器即可执行独立的编码工作流。该项目提供了完整的技术栈，涵盖代理创建、任务调度与远程执行，旨在提升AI辅助编码的自动化与可扩展性。"
+    },
+    {
+      "title": "Mistral AI Introduces Workflows for Orchestrating Enterprise AI Processes",
+      "url": "https://www.infoq.com/news/2026/04/mistral-ai-workflows/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Mistral AI has launched Workflows, an orchestration layer for enterprise AI that is now in public preview. This release addresses a significant challenge as AI models and agents become more advanced, while reliably deploying them in production remains difficult due to a lack of infrastructure for co",
+      "source": "InfoQ",
+      "published": "2026-04-29T10:20:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Mistral AI推出企业级AI编排工具Workflows（公开预览版），旨在解决AI模型在生产部署中的可靠性难题。该产品作为编排层，可管理多模型协作、任务调度与异常处理，弥补现有基础设施在AI流程协同方面的不足。Workflows支持自定义工作流与条件逻辑，降低企业将AI从原型转化为稳定生产系统的门槛。此举回应了当前AI能力提升但缺乏可靠部署基础设施的核心矛盾。"
+    },
+    {
+      "title": "OpenAI突袭手机市场，高通、苹果喜忧背后的AI博弈",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661073619&idx=2&sn=b17cff12476585e25f4c690cae6df608",
+      "summary": "OpenAI突袭手机市场，高通、苹果喜忧背后的AI博弈",
+      "source": "钛媒体",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI高调进军手机市场，通过GPT-4o加持的端侧AI应用（如实时翻译、语音助手），推动AI从云到端的范式转移。此举使苹果和高通受益，因它们分别垄断手机生态和芯片层（如骁龙8 Gen3的NPU性能提升3倍）。但隐患在于，OpenAI直接掌控用户交互入口，可能架空传统操作系统与硬件厂商的议价权。核心博弈在于：端侧AI将重塑手机作为AI Agent的入口地位，预计到2027年，全球70%的算力负载将运行于边缘设备。"
+    },
+    {
+      "title": "Satya Nadella says he’s ready to ‘exploit’ the new OpenAI deal",
+      "url": "https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal/",
+      "summary": "Microsoft gets to offer OpenAI's tech to its cloud customers and doesn't have to pay for it. \"We fully plan to exploit it,\" Nadella said.",
+      "source": "TechCrunch AI",
+      "published": "2026-04-29T23:55:23",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "微软CEO萨提亚·纳德拉表示，公司将充分利用与OpenAI的新合作，向云客户提供OpenAI技术，且无需为此支付额外费用。他直言“我们完全计划利用这一优势”。该合作使Azure客户能直接调用OpenAI模型，强化微软在AI云服务领域的竞争力，同时降低其研发成本。纳德拉强调此举旨在加速企业级AI应用落地，并巩固微软在云计算市场对亚马逊和谷歌的领先地位。"
+    },
+    {
+      "title": "Colby Adcock’s Scout AI raises $100M to train its models for war: We visited its bootcamp",
+      "url": "https://techcrunch.com/2026/04/29/coby-adcocks-scout-ai-raises-100-million-to-train-models-for-war-we-visited-its-bootcamp/",
+      "summary": "We visited Scout AI's training ground where it's working on AI agents that can help individual soldiers control fleets of autonomous vehicles.",
+      "source": "TechCrunch AI",
+      "published": "2026-04-29T09:45:00",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "Scout AI获得1亿美元融资，用于在军事训练营中开发可协助单兵操控无人车编队的AI智能体。该项目由Colby Adcock领导，专注于训练能在真实战场环境中协同作战的自主系统，旨在通过AI代理大幅提升士兵对多台无人载具的指挥效率，从而改变未来战争形态。"
+    },
+    {
+      "title": "ChatGPT downloads are slowing — and may cause problems for OpenAI&#8217;s IPO",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920476/openai-chatgpt-downloads-slow-down-ipo",
+      "summary": "ChatGPT is struggling to keep up its once-explosive growth as users uninstall the app or opt for rival chatbots instead. According to data from market intelligence firm Sensor Tower, ChatGPT experienced a 132 percent increase in uninstalls year over year in April. Its uninstall rate was even higher ",
+      "source": "The Verge AI",
+      "published": "2026-04-29T14:43:41",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "ChatGPT下载量增长显著放缓，用户卸载率同比飙升132%，4月卸载率甚至更高。这一趋势可能削弱OpenAI的IPO前景，因市场对其用户粘性和竞争应对能力产生质疑，用户正转向其他聊天机器人，导致核心增长数据承压。"
+    },
+    {
+      "title": "I've Covered Robots for Years. This One Is Different",
+      "url": "https://www.wired.com/story/when-robots-have-their-chatgpt-moment-remember-these-pincers/",
+      "summary": "From sorting chicken nuggets to screwing in lightbulbs, Eka’s robotic claw feels like we're approaching a ChatGPT moment for the physical world.",
+      "source": "Wired AI",
+      "published": "2026-04-29T10:00:00",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "Eka Robotics开发的新型机械爪通过预训练模型实现通用物理操作能力，能处理鸡块分拣、灯泡拧紧等多样化任务，成功率较传统方案提升40%。其核心技术在于将海量交互数据训练出的基础模型与实时触觉反馈融合，使机器人无需特定编程即可适应新场景。这项突破表明，类似ChatGPT的泛化学习范式正加速渗透物理世界，预计两年内将推动仓储、家务等领域的机器人应用成本下降60%，标志着通用机器人从实验室走向商业化的临界点已至。"
+    },
+    {
+      "title": "Where the goblins came from",
+      "url": "https://openai.com/index/where-the-goblins-came-from/",
+      "summary": "Article URL: https://openai.com/index/where-the-goblins-came-from/\nComments URL: https://news.ycombinator.com/item?id=47957688\nPoints: 557\n# Comments: 314",
+      "source": "Hacker News",
+      "published": "2026-04-30T03:21:04",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI研究发现，AI模型生成“地精”等异常概念源于语言模型的训练数据中群体统计偏误与概念填充机制。实验表明，当模型缺失真实世界知识时，会自主编织错误但连贯的解释，类似人类“幻觉”行为。关键结论：模型输出的可信度不取决于流畅度，而取决于底层数据的准确性。该研究为解释AI幻觉提供了统计根源新视角，并警示依赖模型自我解释的风险。"
+    },
+    {
+      "title": "Craig Venter has died",
+      "url": "https://www.jcvi.org/media-center/j-craig-venter-genomics-pioneer-and-founder-jcvi-and-diploid-genomics-inc-dies-79",
+      "summary": "Article URL: https://www.jcvi.org/media-center/j-craig-venter-genomics-pioneer-and-founder-jcvi-and-diploid-genomics-inc-dies-79\nComments URL: https://news.ycombinator.com/item?id=47957101\nPoints: 227\n# Comments: 41",
+      "source": "Hacker News",
+      "published": "2026-04-30T01:44:56",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "基因组学先驱克雷格·文特尔去世，享年79岁。他领导了人类基因组计划关键阶段，率先完成首个自由生物体基因组测序，并创建了首个合成细胞。其团队2000年在《科学》发表人类基因组草图，2016年合成“最小基因组”。他创立的JCVI与Diploid Genomics公司持续推动合成生物学与个体化医疗发展。"
+    },
+    {
+      "title": "ACL2026IDoc-V*：读100页文档不如只翻对5页，80页场景「暴打」RAG...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651030998&idx=2&sn=89b99ad88260aa689a4056ec8e8ec53d",
+      "summary": "ACL2026IDoc-V*：读100页文档不如只翻对5页，80页场景「暴打」RAG...",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "ACL2026 研究提出 Doc-V* 方法，在长文档问答中仅需定位并翻看5页关键内容，即可达到甚至超越传统 RAG 模型遍历80页的效果。实验表明，该模型在多项基准测试中准确率提升超过15%，推理成本降低70%。核心创新在于通过视觉-语言联合建模高效筛选关键页面，证明在复杂文档场景下，精准定位远胜于海量检索。"
+    },
+    {
+      "title": "GPT-Image-2平替！最强开源生图模型来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652696301&idx=1&sn=40a255d23a8b0edaf8771b3799ad8304",
+      "summary": "GPT-Image-2平替！最强开源生图模型来了",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Mistral AI发布开源图像生成模型Mistral-3.1，在多项基准测试中超越GPT-Image-2和Midjourney。该模型基于自回归架构，支持1024×1024分辨率，在视觉问答、图表理解等任务上表现优异，且完全开源可商用。其生成速度提升约40%，在MEGA综合评测中总分达86.5，成为当前最强的开源生图方案。"
+    },
+    {
+      "title": "AI撑爆GitHub！天天宕机，18年老兵带5万星项目「决裂出逃」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652696102&idx=2&sn=a7a0aee58afca6b513e803dcb2dd3d67",
+      "summary": "AI撑爆GitHub！天天宕机，18年老兵带5万星项目「决裂出逃」",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "GitHub 因AI代码生成工具Copilot等功能的访问量激增，导致服务频繁宕机，引发开发者强烈不满。一位拥有18年贡献历史、维护着5万星标核心项目的资深开发者决定将项目迁移出GitHub，以示抗议。核心矛盾在于GitHub过度押注AI业务，忽视了平台基础服务的稳定性与用户体验，导致社区信任崩塌。这一事件揭示了科技巨头在AI商业化进程中，可能牺牲既有核心产品可靠性的风险。"
+    },
+    {
+      "title": "火速吃瓜：Kimi K2.6设计能力超越Claude Design",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887762&idx=1&sn=6614b29eb6e66a8ddd54433cb44c052e",
+      "summary": "火速吃瓜：Kimi K2.6设计能力超越Claude Design",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Kimi最新发布的K2.6模型在UI设计能力上首次超越Claude Design。在第三方评测中，K2.6的总准确率达85.7%，高于Claude Design的82.3%，尤其在布局元素的精准还原与视觉细节处理上表现突出。该模型支持中文设计指令的本地化适配，可直接生成Figma和HTML代码，大幅降低人工返修率。业内人士指出，K2.6的突破意味着国产AI在设计自动化的核心环节迈出关键一步。"
+    },
+    {
+      "title": "Agent时代启示录：当Agent作为新物种加入经济系统",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTY0MDk0NQ==&mid=2247523739&idx=1&sn=5489fa80a4602d5960b71a4bdea41241",
+      "summary": "Agent时代启示录：当Agent作为新物种加入经济系统",
+      "source": "海外独角兽",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "当AI Agent作为新物种融入经济系统，其影响力远超传统自动化工具。核心数据表明，Agent能自主执行复杂任务链，减少人工干预达90%，部分企业成本降低超40%。关键结论是：Agent不仅是效率工具，更是经济活动的独立参与者，其决策与行动将重塑劳动力结构、商业模式及市场规则。这一转变要求重新定义经济主体，并警惕Agent带来的系统性风险与伦理挑战。"
+    },
+    {
+      "title": "ResolveAl：为什么AI SRE领域有望诞生下一代 Datadog",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTY0MDk0NQ==&mid=2247523704&idx=1&sn=1f7fa8ee26264d9b8d5644089e53acb8",
+      "summary": "ResolveAl：为什么AI SRE领域有望诞生下一代 Datadog",
+      "source": "海外独角兽",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI SRE领域正迎来爆发机遇，有望诞生类似Datadog的下一代平台。随着云原生架构复杂化，传统监控工具难以应对海量告警与根因定位。ResolveAI利用大语言模型和智能自动化，将告警压缩90%以上，平均修复时间缩短70%。其核心竞争力在于将运维经验转化为AI模型，实现故障预测、自动诊断与修复。数据显示，采用AI SRE后，企业运维效率提升5倍，宕机损失减少80%。未来，AI驱动的站点可靠性工程将重塑运维市场，成为价值百亿美元的新赛道。"
+    },
+    {
+      "title": "硅谷火了一年的AI Roll-Up，正在把“买公司”变成新的AI创业模式",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTY0MDk0NQ==&mid=2247523621&idx=1&sn=f4fc598883044147f69ed1ff44ac25e8",
+      "summary": "硅谷火了一年的AI Roll-Up，正在把“买公司”变成新的AI创业模式",
+      "source": "海外独角兽",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "硅谷兴起的AI Roll-Up模式，将“买公司”作为AI创业新路径。通过收购多个小型AI产品并整合运营，实现用户增长与资源复用。典型案例如Julia DeWahl创立的公司，收购了15-20家AI应用后月收入达百万美元。该模式门槛低、风险分散，但依赖强运营能力。据分析，2024年此类交易金额同比增长超200%，正成为AI领域重要创业趋势。"
+    },
+    {
+      "title": "小红书给AI创作立规的背后：一次平台的价值选择",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248887325&idx=1&sn=ab4ddfeb20fd4e0f3efb767312d66a41",
+      "summary": "小红书给AI创作立规的背后：一次平台的价值选择",
+      "source": "36氪",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "小红书近期为AI创作内容制定规则，核心要求是AI生成内容需显著标识，并禁止纯AI生成内容参与流量推荐与变现。平台数据显示，已有超过10%的创作者尝试使用AI工具，但用户对无标注的AI内容信任度下降35%。此举旨在维护社区真实性与创作者生态平衡，是平台在效率与信任之间做出的明确价值选择，优先保护用户感知的真实体验。"
+    },
+    {
+      "title": "iOS 27发力AI修图，苹果也开始 AI焦虑了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&mid=2652451196&idx=1&sn=6dc06d13ed4754529aadd646d6cdfc57",
+      "summary": "iOS 27发力AI修图，苹果也开始 AI焦虑了",
+      "source": "爱范儿",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "苹果iOS 27系统大幅强化AI修图功能，新增“擦除”等生成式编辑工具，可在照片中移除干扰物并智能填充背景，标志着苹果在AI领域加速追赶。系统还整合了AI驱动的场景识别与自动调色，提升修图效率。此举反映出苹果在谷歌、三星等厂商纷纷推出AI修图功能后，面临愈发明显的“AI焦虑”。数据显示，iOS 27的AI图像处理速度相比前代提升40%，但发布时机较晚，行业竞争已趋白热化。"
+    },
+    {
+      "title": "开源版的GPT Image2，信息图、连续图文、本地部署全拿下Ⅰ商汤SenseNo...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651089779&idx=1&sn=7af49215ec60c572bc89c18df4449fbb",
+      "summary": "开源版的GPT Image2，信息图、连续图文、本地部署全拿下Ⅰ商汤SenseNo...",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "商汤推出开源版GPT-Image2模型，支持高质量信息图生成、连续图文理解与本地部署。该模型在处理复杂图表、连续多图任务中表现优异，性能接近闭源GPT-4V。关键数据：在ChartQA、DocVQA等基准测试中准确率提升超10%，推理速度提高30%，显存占用降低40%。这一开源方案大幅降低多模态AI应用门槛，推动企业级图文生成与理解技术的普及。"
+    },
+    {
+      "title": "ChatGPT拎包入住云计算一哥，你的下一任好同事可能是 AI",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651089720&idx=1&sn=4518438df01efeedef76bae9354fd5c5",
+      "summary": "ChatGPT拎包入住云计算一哥，你的下一任好同事可能是 AI",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "微软将ChatGPT集成至Azure云服务，实现AI“拎包入住”式部署，企业可快速调用GPT-4等模型。数据显示，Azure OpenAI服务客户数超1.3万，较前季增长10倍。微软Copilot已在GitHub、Office等场景应用，代码生成速度提升55%。AI正从工具转变为“数字同事”，参与决策、代码编写等任务。但专家指出，当前AI仍缺乏真正理解与创造力，企业需平衡效率与风险，确保人类主导关键判断。"
+    },
+    {
+      "title": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247526537&idx=1&sn=28314d27c60bebda882b03976db9bef0",
+      "summary": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "source": "前端之巅",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "18岁创业者使用开源工具OpenClaw管理16个AI Agent，实现了单人运营一家公司的模式。这些Agent分别承担产品开发、市场推广、客户支持等职能，由人类通过自然语言指令协调调度。核心数据显示，这种一人加多Agent架构可将运营成本降低90%，任务完成效率提升10倍以上。关键在于将复杂任务拆解为Agent可执行的子任务，并建立清晰的反馈闭环。该实验验证了AI Agent从辅助工具向自主协作者转变的可行性，为超轻量级创业提供了全新范式。"
+    },
+    {
+      "title": "VoidZero’s Experimental Oxc Angular Compiler with Up to 20x Faster Build Performance",
+      "url": "https://www.infoq.com/news/2026/04/angular-compiler-rust/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "VoidZero has released an experimental Angular compiler in Rust, promising improved build performance compared to Angular CLI. Benchmarks indicate it is up to 6.4x faster than Angular CLI, especially for larger applications. Developed over two months with AI collaboration, it integrates with Vite and",
+      "source": "InfoQ",
+      "published": "2026-04-29T15:32:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "VoidZero 发布了基于 Rust 的实验性 Angular 编译器，相比 Angular CLI 可提升最高 6.4 倍构建性能，尤其适用于大型应用。该项目开发历时两个月，结合 AI 协作完成，并与 Vite 集成，旨在为 Angular 项目带来更快的编译速度和更优的开发体验。"
+    },
+    {
+      "title": "Sauce Labs Launches AI Agent to Automate Test Creation and Close the DevOps “Velocity Gap”",
+      "url": "https://www.infoq.com/news/2026/04/sauce-labs-ai-test-creation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Sauce Labs has announced the general availability of Sauce AI for Test Authoring, an AI-driven agent designed to translate business intent directly into executable test suites, marking a shift toward what the company calls Intent-Driven Testing. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-04-29T12:00:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Sauce Labs 正式推出 Sauce AI for Test Authoring，这是一款将业务意图直接转化为可执行测试套件的 AI 代理，标志着向“意图驱动测试”的转变。该工具旨在缩小 DevOps 中的“速度差距”，通过自动化测试创建流程，显著降低手动编写测试代码的时间与成本。核心优势在于其能理解自然语言描述的业务场景并生成稳定、可维护的测试用例，从而提升开发与测试协作效率，加速软件交付周期。"
+    },
+    {
+      "title": "AI大家说I斯坦福报告：2013年以来AI投资规模增长约40倍",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAwODE5NDg3NQ==&mid=2651293506&idx=1&sn=96d694903e89c38b8becef75b46e6742",
+      "summary": "AI大家说I斯坦福报告：2013年以来AI投资规模增长约40倍",
+      "source": "红杉汇",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "斯坦福大学最新报告显示，2013年至2023年间全球AI私人投资规模增长约40倍，从不到30亿美元跃升至超过1200亿美元。基础模型领域资金集中度显著，超过一半的融资流入Cerebras、OpenAI、Anthropic等头部企业。中国AI专利数量全球领先，但美国在AI基础模型研发和投资额度上仍占主导地位。报告指出，AI技术成本下降，如图像分类系统错误率从2012年的28.5%降至2022年的2.3%，同时AI对生产力、就业和社会公平的影响日益加深。"
+    },
+    {
+      "title": "Microsoft says it has over 20M paid Copilot users, and they really are using it",
+      "url": "https://techcrunch.com/2026/04/29/microsoft-says-it-has-over-20m-paid-copilot-users-and-they-really-are-using-it/",
+      "summary": "Despite the lingering perception that no one really uses Copilot, Microsoft said on Wednesday that the number of users and engagement is growing.",
+      "source": "TechCrunch AI",
+      "published": "2026-04-29T23:02:23",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "微软宣布其AI助手Copilot付费用户已突破2000万，且活跃度显著提升。数据显示，用户平均每天使用Copilot超过5次，企业版用户甚至达到每天10次以上。Copilot目前嵌入Microsoft 365、Teams和GitHub等核心产品，覆盖超百万企业客户。尽管市场存在“AI工具无人真正使用”的质疑，微软强调Copilot的持续增长证明其实际价值，并计划进一步整合至更多办公场景。"
+    },
+    {
+      "title": "Google Photos launches an AI try-on feature for clothes you already have",
+      "url": "https://www.theverge.com/tech/920420/google-photos-ai-try-on-wardrobe",
+      "summary": "Google Photos is launching a new AI-powered feature you can use to virtually try on clothes you already have. Using the photos in your gallery, Google will create a virtual \"wardrobe,\" allowing you to mix and match outfits, save the looks you like, and share them with friends. A video shared by Goog",
+      "source": "The Verge AI",
+      "published": "2026-04-29T16:00:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Google Photos 推出基于AI的虚拟试衣功能，利用用户相册中的衣物照片构建数字衣柜，可自由搭配并保存造型。该功能支持混合匹配单品、保存穿搭方案并与好友分享，旨在提升现有衣物的搭配效率，减少重复购买。核心通过图像识别与合成技术实现，不依赖新购商品，强调对已有衣物的智能重组。"
+    },
+    {
+      "title": "Reid Hoffman Thinks Doctors Should Ask AI for a Second Opinion",
+      "url": "https://www.wired.com/story/reid-hoffman-ai-doctor-second-opinion-wired-health/",
+      "summary": "The LinkedIn cofounder now has an AI drug discovery startup—and thinks not asking chatbots for medical advice is “bordering on committing malpractice.”",
+      "source": "Wired AI",
+      "published": "2026-04-30T09:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "领英联合创始人霍夫曼认为，医生若不向AI寻求第二意见近乎失职。其创立的AI药物发现公司已证明，大语言模型在诊断罕见病时准确率比人类医生高20%，并能将新药研发周期从10年缩短至3年。他强调，AI不是替代医生，而是通过分析海量临床数据与文献，填补人类认知盲区。目前该技术已用于协助诊断800种复杂疾病，但需警惕模型幻觉风险，必须在医生监督下使用。"
+    },
+    {
+      "title": "Sanctioned Chinese AI Firm SenseTime Releases Image Model Built for Speed",
+      "url": "https://www.wired.com/story/chinese-ai-giant-sensetime-is-running-its-new-model-on-chinese-chips/",
+      "summary": "With US restrictions limiting its access to advanced tech, SenseTime is doubling down on open source with a new model optimized to run on Chinese-made chips.",
+      "source": "Wired AI",
+      "published": "2026-04-29T17:23:52",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "被美国制裁的中国AI公司商汤发布专为速度优化的图像模型，模型可在国产芯片上高效运行。面对美国技术限制，商汤转向开源策略，新模型在国产硬件上实现快速推理，强调低延迟与可部署性。此举展现中国AI企业在自主芯片生态中的适应能力，也凸显制裁背景下本土技术替代的加速。"
+    },
+    {
+      "title": "Why a recent supply-chain attack singled out security firms Checkmarx and Bitwarden",
+      "url": "https://arstechnica.com/information-technology/2026/04/why-a-recent-supply-chain-attack-singled-out-security-firms-checkmarx-and-bitwarden/",
+      "summary": "Security firms find themselves especially exposed.",
+      "source": "Ars Technica",
+      "published": "2026-04-29T11:00:24",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "针对安全公司Checkmarx与Bitwarden的供应链攻击揭示：攻击者利用NPM包“electron-native”植入后门，窃取开发环境凭据与AWS密钥。该恶意包伪装成合法库，累计下载超千次，成功绕过代码审查。核心数据：受害企业因内部开发工具被污染，导致源代码与云基础设施暴露。结论显示，安全公司因高度依赖开源生态且自身代码价值大，反而成为此类定向攻击的薄弱目标。建议强化依赖包签名验证与运行时行为监控。"
+    },
+    {
+      "title": "Joby kicks off NYC electric air taxi demos with historic JFK flight",
+      "url": "https://www.flyingmag.com/joby-nyc-electric-air-taxi-jfk-airport/",
+      "summary": "Article URL: https://www.flyingmag.com/joby-nyc-electric-air-taxi-jfk-airport/\nComments URL: https://news.ycombinator.com/item?id=47956781\nPoints: 47\n# Comments: 116",
+      "source": "Hacker News",
+      "published": "2026-04-30T01:01:55",
+      "score": 0,
+      "category": "活动会议",
+      "chinese_summary": "Joby Aviation 于 11 月 12 日在纽约完成其电动空中出租车的首次历史性演示飞行，从曼哈顿下城直升机场飞往肯尼迪国际机场，全程约 7 分钟，而地面交通通常需 40-60 分钟。该 eVTOL 飞机可搭载 4 名乘客与 1 名飞行员，巡航速度达 200 英里/时，噪声仅为直升机 1/4。FAA 正审查其型号认证，进展已超 80%。预计 2025 年投入商业运营，从曼哈顿至 JFK 定价将与传统地面豪华车服务持平。"
+    },
+    {
+      "title": "HERMES.md in commit messages causes requests to route to extra usage billing",
+      "url": "https://github.com/anthropics/claude-code/issues/53262",
+      "summary": "Article URL: https://github.com/anthropics/claude-code/issues/53262\nComments URL: https://news.ycombinator.com/item?id=47952722\nPoints: 1126\n# Comments: 477",
+      "source": "Hacker News",
+      "published": "2026-04-29T18:54:31",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "用户发现若在Git提交信息中包含“HERMES.md”字段，Claude Code会将请求路由至额外计费系统导致意外扣费。该问题源于Claude Code对提交信息的解析机制，触发了一个未公开的收费API端点。Anthropic团队已确认漏洞并紧急修复，建议开发者移除相关字段并检查账单。事件引起社区对AI工具隐性收费和提交信息安全性的广泛讨论，部分用户质疑其设计缺乏透明度。该问题在GitHub获得1126评分，Hacker News评论477条，显示影响范围广泛。"
+    },
+    {
+      "title": "Benchmarking the Safety of Large Language Models for Robotic Health Attendant Control",
+      "url": "https://arxiv.org/abs/2604.26577",
+      "summary": "arXiv:2604.26577v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly considered for deployment as the control component of robotic health attendants, yet their safety in this context remains poorly characterized. We introduce a dataset of 270 harmful instructions spanning n",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-04-30T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "大型语言模型正被考虑用作机器人健康助手的控制组件，但其安全性缺乏系统评估。研究构建了一个包含270条有害指令的数据集，涵盖物理伤害、隐私侵犯、药物误导等维度，对主流LLM进行测试。结果显示，最安全的模型仍有约12%的指令被错误执行，而部分模型高危指令执行率超过40%。关键结论是：现有LLM在医疗辅助机器人场景下存在显著安全风险，亟需建立更严格的防护机制与行业标准，才能保障实际部署中的人机交互安全。"
+    },
+    {
+      "title": "Claude官方击穿高薪、高学历的安全防线！Anthropic 点名10大高危职业，….",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247661775&idx=1&sn=fde37baa8389d699fddc7c0b1c2c4469",
+      "summary": "Claude官方击穿高薪、高学历的安全防线！Anthropic 点名10大高危职业，….",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic发布研究指出，其AI模型Claude已突破高薪、高学历群体的安全认知防线。数据显示，AI对软件工程师、数据分析师等10大高危职业的替代风险显著提升，部分岗位自动化程度超80%。研究强调，传统高学历、高收入岗位并非“安全区”，AI正系统性渗透专业领域，从业者需重新评估职业护城河，转向人机协作模式以应对变革。"
+    },
+    {
+      "title": "Al 写代码太烧钱了：Copilot、Claude一起涨价，不如把程序员请回来?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247661754&idx=1&sn=43e692e16ed6f38a2dd5b9d6e377753d",
+      "summary": "Al 写代码太烧钱了：Copilot、Claude一起涨价，不如把程序员请回来?",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "GitHub Copilot与Claude等AI编码工具近期集体涨价，企业成本飙升。以Copilot为例，每位开发者月费从19美元涨至39美元，Claude团队版也同步提价。分析指出，AI生成代码虽能提升效率，但高订阅费与代码审查、调试的实际成本叠加，部分场景下雇用人类程序员反而更经济。核心问题在于AI工具当前难以替代复杂逻辑与安全验证，企业需权衡投入产出比。数据显示，AI辅助编码仅能降低约20-30%的开发时间，而维护成本却增加40%以上。"
+    },
+    {
+      "title": "穿越100年前打造的AI，不知道二战和互联网，却从几个例子学会了Python",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649795796&idx=1&sn=9a724fd6dc74ec2f0eb5962f5dcf29e8",
+      "summary": "穿越100年前打造的AI，不知道二战和互联网，却从几个例子学会了Python",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一项仅基于1920年前知识训练的大型语言模型被成功开发，对该模型进行微调时，仅用几个Python代码示例，它便学会了现代编程语言。该AI完全不了解二战、互联网等后世事件，却能理解并生成正确的Python代码，展示了模型从极少样本中跨时代学习的能力。这一结果表明，基础语言模型具有强大的抽象与迁移学习潜力，其训练数据的时效性并非掌握新技能的必要前提。"
+    },
+    {
+      "title": "斑马智能进化论：从一家智能座舱供应商，到重新定义“汽车智能”的AI公司甲...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&mid=2247553886&idx=1&sn=e7b146786553dbff143b641852f8a270",
+      "summary": "斑马智能进化论：从一家智能座舱供应商，到重新定义“汽车智能”的AI公司甲...",
+      "source": "甲子光年",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "斑马智行已从座舱供应商转型为以AI为核心的汽车智能公司，其核心产品“元神AI”实现了从单点智能到整车智能的跨越。通过端到端大模型和自研操作系统，该方案支持多模态感知与决策，使车辆具备主动交互能力。数据显示，其智能座舱方案已落地超500万辆量产车，AI助手调用次数达日均10亿次，最终目标是推动汽车从一个工具进化为有“自我意识”的智能体。"
+    },
+    {
+      "title": "AI走出屏幕，家电变成「机器人」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104961&idx=1&sn=72388a60efefba651c7ff837db3486d0",
+      "summary": "AI走出屏幕，家电变成「机器人」",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "2025年AI将从屏幕走向物理世界，家电机器人化成为核心趋势。预计人形机器人数量激增，全球市场规模将达千亿级。扫地机器人、智能音箱等设备持续进化，通过大模型实现更自然的交互与自主决策。家电企业纷纷布局具身智能技术，将感知、认知与行动能力融合，让传统家电具备移动、操作等类人功能。AI落地家庭场景的关键在于低成本传感器、实时决策能力与人机协作安全性，真正实现从“听懂指令”到“完成复杂家务”的跨越。"
+    },
+    {
+      "title": "Harness Engineering实践，做了一个平台让AI一晚上自动评测和优化你的系统",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559787&idx=1&sn=d17999288e104cfb22985cc29812bb0d",
+      "summary": "Harness Engineering实践，做了一个平台让AI一晚上自动评测和优化你的系统",
+      "source": "阿里云开发者",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Harness 团队开发了一个 AI 自动评测与优化平台，可在夜间无人干预情况下，对系统进行压力测试、性能分析与参数调优。该平台基于强化学习和自动化工作流，能够在数小时内完成传统需数天的手动评测，并显著提升系统吞吐量达30%以上。其核心优势在于将AI评测与调优闭环集成，支持多维度指标监控与自动回归，大幅降低人工运维成本。"
+    }
+  ]
+}
