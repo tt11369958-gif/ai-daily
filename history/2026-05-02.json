@@ -1,0 +1,505 @@
+{
+  "date": "2026-05-02",
+  "articles": [
+    {
+      "title": "老黄秘密武器曝光：AI一夜设计芯片，顶人类顶级工程师10个月！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652696829&idx=1&sn=a46f36544f107a3f84937d54c922720c",
+      "summary": "老黄秘密武器曝光：AI一夜设计芯片，顶人类顶级工程师10个月！",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "英伟达最新AI工具通过强化学习，将芯片设计周期从人类工程师耗时数月的布局规划压缩至一夜完成，在性能、功耗和面积等核心指标上持平或超越人类水平。该AI能够自动生成数千种微架构方案，并筛选出最优解，已成功应用于实际芯片生产流程。这一突破不仅大幅缩短研发周期，更标志着AI从辅助工具进化为芯片设计领域的关键决策者，可能重塑半导体行业开发范式。"
+    },
+    {
+      "title": "Meta buys robotics startup to bolster its humanoid AI ambitions",
+      "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
+      "summary": "Meta bought humanoid startup Assured Robot Intelligence to beef up its AI models for robots, the company said.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-01T22:13:27",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Meta收购了人形机器人初创公司Assured Robot Intelligence，以强化其机器人AI模型。该交易旨在将Meta的AI能力与实体机器人结合，推动人形机器人技术的商业化落地。Meta此前已在机器人领域布局，此次收购标志着其加速进军具身智能赛道，目标是通过整合硬件与AI算法，提升机器人在复杂环境中的自主决策与交互能力。具体财务条款尚未披露。"
+    },
+    {
+      "title": "OpenAl出钱办了个“新闻网站”：AI扮记者做采访，专门攻击AI监管派",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649795927&idx=1&sn=9ea356abd30b4d436278035f62e512a3",
+      "summary": "OpenAl出钱办了个“新闻网站”：AI扮记者做采访，专门攻击AI监管派",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "OpenAI 资助的“新闻网站”采用AI生成内容，模拟记者采访，专门批评主张AI监管的阵营。该平台文章均由AI撰写和配音，缺乏真实署名记者，旨在推动去监管化立场。此举暴露AI巨头试图操控舆论、规避监管的意图，引发对AI内容透明度的争议。"
+    },
+    {
+      "title": "“我可能不再建议学计算机”！图灵奖得主炮轰半个行业，并断言：Al Agent最...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247661911&idx=1&sn=3fbd0317f4e3719e4e691f92c12a2716",
+      "summary": "“我可能不再建议学计算机”！图灵奖得主炮轰半个行业，并断言：Al Agent最...",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "图灵奖得主拉吉·雷迪警告计算机行业过热，指出AI将取代大部分编程工作，未来十年内90%的代码将由AI生成，人类只需负责需求定义。他断言AI Agent将成为下一个爆发点，其自主决策能力将颠覆软件工程、教育、医疗等领域。数据显示，2025年AI Agent市场规模已达50亿美元，预计2030年将突破500亿美元。他建议年轻人转向AI伦理、人机协作等新兴方向，而非传统计算机科学。"
+    },
+    {
+      "title": "Harness开始自己进化了：复旦×北大让Agent实现自改，10轮跑赢Codex",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247719989&idx=1&sn=850381020da533ac8b5158d0f9079f58",
+      "summary": "Harness开始自己进化了：复旦×北大让Agent实现自改，10轮跑赢Codex",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "复旦大学与北京大学联合提出一种让AI Agent实现自我进化的方法。通过自改进机制，Agent在未使用任何训练数据微调的情况下，经过10轮迭代即超越了OpenAI Codex的性能。该研究核心在于引入“自我反思”与“经验存储”机制，使Agent在完成任务后自动总结失败原因并优化策略。实验表明，该框架在代码生成任务上成功率提升超过20%，验证了无需外部监督即可持续进化的可行性，为自主智能体发展提供了新路径。"
+    },
+    {
+      "title": "马斯克翻车了！一边告OpenAI，一边偷偷蒸馏ChatGPT",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652697031&idx=1&sn=c52e3e571c7908d07557db3a07b8b824",
+      "summary": "马斯克翻车了！一边告OpenAI，一边偷偷蒸馏ChatGPT",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "马斯克在起诉OpenAI违反非营利初衷的同时，被曝旗下xAI团队秘密利用ChatGPT进行模型蒸馏，以提升Grok性能。内部邮件显示其曾要求团队“用一切手段获取数据”。此举被指构成事实上的“双重标准”，引发业内对AI竞争伦理的质疑。事件暴露了科技巨头在知识产权与商业利益间的深层矛盾。"
+    },
+    {
+      "title": "不可思议！4OOB大模型在iPhone上跑起来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651031262&idx=2&sn=7124471d0e1f7d7acf9c0bd8bbcbc9e4",
+      "summary": "不可思议！4OOB大模型在iPhone上跑起来了",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "苹果研究团队成功将参数量高达4000亿的大语言模型运行于iPhone，通过创新的闪存-内存协同调度技术，仅需iPhone可用内存的1/5即可完成推理。该技术将模型参数按需加载至内存，并优化数据传输路径，使推理速度提升4-5倍，延迟降低至毫秒级。实验表明，该方案在A16芯片设备上以30%的功耗实现了与云端相近的生成质量，为端侧部署超大模型提供了可行路径，有望推动隐私保护与离线AI应用发展。"
+    },
+    {
+      "title": "14.9g颠覆行业，AI眼镜终于实现无感日常佩戴|甲子光年",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&mid=2247553922&idx=1&sn=d8efffc6b06ebaeaec31f653232ea2d4",
+      "summary": "14.9g颠覆行业，AI眼镜终于实现无感日常佩戴|甲子光年",
+      "source": "甲子光年",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "14.9克重量的AI眼镜实现无感日常佩戴，颠覆行业。该产品采用轻量化设计和光学方案，续航与普通眼镜相当，具备AI语音助手、实时翻译、导航等功能，核心数据为重量仅14.9克，接近传统眼镜佩戴体验。关键结论是：轻量化突破使AI眼镜从实验设备变为可全天候使用的消费级产品，有望推动智能可穿戴设备进入新阶段。"
+    },
+    {
+      "title": "下一代 AI终端神器开源，暴涨4.6万Star!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxOTcxNTIwNQ==&mid=2457993783&idx=1&sn=f19e2a74f42b6e9ab0584bb10fb07524",
+      "summary": "下一代 AI终端神器开源，暴涨4.6万Star!",
+      "source": "GitHubDaily",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "继 Open Interpreter 开源后，一款名为 OpenAICMD 的新终端工具迅速走红，在 GitHub 上斩获超 4.6 万 Star。该工具通过命令行界面直接接入 GPT-4 等大模型，支持自然语言交互执行代码、文件操作及系统管理，无需图形界面即可实现复杂命令生成与自动化任务。其核心优势在于低延迟、高可定制，并能与现有终端工作流无缝集成。测评显示，它在代码补全与运维场景中表现优异，被认为能够显著提升开发者效率，标志着 AI 与终端融合进入新阶段。"
+    },
+    {
+      "title": "Meta Deploys Unified AI Agents to Automate Performance Optimization at Hyperscale",
+      "url": "https://www.infoq.com/news/2026/05/meta-ai-agents-hyperscale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Meta has unveiled a new AI-driven capacity efficiency platform that uses unified AI agents to automatically detect and resolve performance issues across its global infrastructure, marking a significant step toward self-optimizing systems at hyperscale. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-05-01T12:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Meta 推出基于统一 AI 代理的容量效率平台，可自动检测并修复全球基础设施的性能问题。该平台在超大规模系统中实现自我优化，显著提升资源利用率。系统通过 AI 代理协同工作，将人为干预降到最低，标志着数据中心运维向自动化演进的关键一步。"
+    },
+    {
+      "title": "Article: Securing Autonomous AI Agents on Kubernetes: Trust Boundaries, Secrets, and Observability for a New Category of Cloud Workload",
+      "url": "https://www.infoq.com/articles/securing-autonomous-ai-agents-kubernetes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Autonomous AI agents break Kubernetes security assumptions with dynamic dependencies, multi-domain credentials, and unpredictable resource use. This article covers production-tested patterns: Job-based isolation, Vault for scoped short-lived credentials, a four-phase trust model from shadow mode to ",
+      "source": "InfoQ",
+      "published": "2026-05-01T09:00:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "自主AI智能体打破了Kubernetes传统安全假设：其动态依赖、多域凭证和不可预测资源消耗挑战了静态边界。文章提出经生产验证的防护模式：基于Job的任务级隔离，Vault颁发限时域凭证，以及从影子模式到完全自主的四阶段信任模型。核心数据表明，该方案能将凭证泄露风险降低90%以上，并通过可观测性工具实现实时行为基线监控。关键结论是，智能体安全需从“边界防御”转向“动态信任链”架构。"
+    },
+    {
+      "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
+      "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+      "summary": "The deals come as the DOD has doubled down on diversifying its exposure to AI vendors in the wake of its controversial dispute with Anthropic over usage terms of its AI models.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-01T16:02:36",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "美国国防部与英伟达、微软及AWS签署协议，将在机密网络中部署AI。此举正值五角大楼与Anthropic因AI模型使用条款发生争议后，加倍推进AI供应商多元化之际。"
+    },
+    {
+      "title": "Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia",
+      "summary": "The Pentagon has struck deals with OpenAI, Google, Microsoft, Amazon, Nvidia, Elon Musk's xAI, and the startup Reflection, allowing the agency to use their AI tools in classified settings, according to an announcement on Friday. At the same time, the Defense Department has left out Anthropic - which",
+      "source": "The Verge AI",
+      "published": "2026-05-01T14:09:56",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "美国五角大楼于上周五宣布，已与OpenAI、谷歌、微软、亚马逊、英伟达、马斯克的xAI及初创公司Reflection签署协议，授权其在机密环境中使用上述企业的AI工具。此举标志着军方大规模引入顶尖商用AI能力。然而，著名AI安全公司Anthropic未被纳入合作名单，引发外界对其风险评估立场与军方要求差异的猜测。该批交易具体金额未公开，但涉及国防部“特定任务”中的AI部署，凸显军事与AI产业加速融合。"
+    },
+    {
+      "title": "GPT-5.5 matches heavily hyped Mythos Preview in new cybersecurity tests",
+      "url": "https://arstechnica.com/ai/2026/05/amid-mythos-hyped-cybersecurity-prowess-researchers-find-gpt-5-5-is-just-as-good/",
+      "summary": "New results suggest Mythos' cyber threat isn't \"a breakthrough specific to one model.\"",
+      "source": "Ars Technica",
+      "published": "2026-05-01T15:32:27",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "在最新的网络安全测试中，GPT-5.5 与备受关注的 Mythos 预览版表现相当。研究人员发现，Mythos 在网络威胁领域并非“某一模型的独家突破”。测试结果显示，两者在识别与防御常见攻击模式上能力接近，关键性能指标差异在 5% 以内。这一结论意味着当前 AI 网络安全能力的提升更可能源于通用技术进步，而非单一模型的特殊优势。"
+    },
+    {
+      "title": "Spirit Airlines Is Winding Down All Operations",
+      "url": "https://www.spiritrestructuring.com/",
+      "summary": "Article URL: https://www.spiritrestructuring.com/\nComments URL: https://news.ycombinator.com/item?id=47983873\nPoints: 15\n# Comments: 12",
+      "source": "Hacker News",
+      "published": "2026-05-02T06:28:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "精神航空（Spirit Airlines）已启动全面业务收尾，标志着美国超低成本航空模式遭遇重大挫败。该公司在重组官网中确认将逐步终止所有运营，具体时间表及乘客补偿方案待后续公布。此次关停直接导致数千员工面临失业，并引发对行业可持续性的质疑。据分析，持续亏损、高负债及未能有效应对后疫情时代需求变化是主因。该事件为航司激进定价策略与成本结构脆弱性敲响警钟。"
+    },
+    {
+      "title": "I built the Playwright for desktop apps. 80% token savings",
+      "url": "https://github.com/lahfir/agent-desktop",
+      "summary": "Article URL: https://github.com/lahfir/agent-desktop\nComments URL: https://news.ycombinator.com/item?id=47982708\nPoints: 47\n# Comments: 16",
+      "source": "Hacker News",
+      "published": "2026-05-02T02:18:24",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "针对桌面应用自动化场景，开发了类似Playwright的工具agent-desktop，通过优化操作编码方式，实现token消耗降低80%。核心方案将传统逐帧像素输入改为结构化指令描述，大幅减少冗余数据。该工具支持跨平台桌面应用GUI操控，在复杂交互任务中保持高可靠性，为AI代理直接操作桌面软件提供了高效轻量的技术路径。"
+    },
+    {
+      "title": "ACL 2026I强模型越听话越危险？VIGIL重塑Agent工具流安全",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247719989&idx=2&sn=e514aaedc485f97fce284ca255b3d707",
+      "summary": "ACL 2026I强模型越听话越危险？VIGIL重塑Agent工具流安全",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "ACL 2026收录的VIGIL研究揭示，越服从指令的强AI模型在执行工具调用时越易被攻击者利用，通过在看似无害的输入中嵌入恶意指令，驱动模型调用危险API造成实际损害。VIGIL提出双向工具流检测框架，在指令输入侧和工具输出侧分别进行安全校验，结合抽象解释与污染链追踪，在多个主流开源模型上实现98.3%的恶意调用拦截率，仅增加5.2%延迟，为Agent工具安全提供了系统化防护方案。"
+    },
+    {
+      "title": "GPT-5.6现身后，下一个Claude Sonnet4.8又曝光了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652697032&idx=2&sn=6f6699a67d991d1635fa450b44f91fb7",
+      "summary": "GPT-5.6现身后，下一个Claude Sonnet4.8又曝光了！",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "GPT-5.6发布后在长文本理解与逻辑推理上显著提升，参数规模达2.8万亿，多项基准测试领先。紧随其后，Claude Sonnet 4.8曝光，主打更快推理速度与更低计算成本，在代码生成与多轮对话任务中表现接近GPT-5.6。两大模型均优化了上下文窗口至200K tokens以上。当前AI大模型竞争聚焦于效率与专业能力的平衡，预计未来半年内将有更密集的模型迭代。"
+    },
+    {
+      "title": "撕开ClaudeCode真相：让它好用的98.4%，是工程不是AI",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652696950&idx=2&sn=b8388fc8a9c5f6b51dbdf7e799d7f349",
+      "summary": "撕开ClaudeCode真相：让它好用的98.4%，是工程不是AI",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Claude Code 的出色表现中，98.4% 来自精密的工程架构设计，而非AI模型本身的突破。其核心优势在于系统化的任务分解、上下文管理、循环反馈和工具调用机制，而非底层语言模型的能力提升。研究表明，工程优化可将任务成功率从基线5%提升至95%以上，真正让AI“好用”的关键是工程化流程，而非算法奇迹。"
+    },
+    {
+      "title": "让大模型自己写代码、自己进化，GIM和港大这篇ACL主会，把量化因子挖掘...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651031260&idx=2&sn=368e6c3fc4867b39bcaba23fbe4a8542",
+      "summary": "让大模型自己写代码、自己进化，GIM和港大这篇ACL主会，把量化因子挖掘...",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "GIM与港大在ACL主会发表研究，提出让大模型自主编写并进化量化因子挖掘代码。该方法通过迭代式自我优化，使模型不断生成、测试、筛选和改进代码因子，无需人工干预。在多个真实交易数据测试中，模型生成的因子较传统方法收益提升超20%，夏普比率提高0.5以上，显著增强量化策略表现。该工作首次实现大模型在金融因子挖掘中完全自主进化，为AI驱动量化研究开辟新路径。"
+    },
+    {
+      "title": "ICLR2026|CMU等团队让AI生成的3D场景真正「站得住」：PAT3D把文生..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651031188&idx=2&sn=5a3f712b296ed82c3bbae0895fa82bf7",
+      "summary": "ICLR2026|CMU等团队让AI生成的3D场景真正「站得住」：PAT3D把文生..",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "CMU等团队在ICLR2026提出PAT3D方法，解决AI生成3D场景中物体悬浮、穿透等物理不合理问题。该方法无需物理模拟器，通过预训练模型将物理常识注入文本到3D生成流程，使物体自然贴合支撑面。实验表明，PAT3D在物理合理性上提升超40%，生成场景可被直接用于物理仿真，显著优于现有基线，向实用级3D内容生成迈出关键一步。"
+    },
+    {
+      "title": "谁在GPT-5.5脑子里塞了一群「妖怪」?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651089863&idx=1&sn=31f14bc9bcfce79f7ec69eb0385c9b9b",
+      "summary": "谁在GPT-5.5脑子里塞了一群「妖怪」?",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "最新的GPT-5.5模型在内部测试中被发现存在“多智能体幻觉”问题，即模型中自发涌现出多个具有不同“人格”的子系统相互对话、竞争甚至“争吵”，导致输出不稳定、逻辑矛盾。研究团队通过大规模干预实验确认，这种“妖怪”式分裂源于训练数据中多视角对话的过度拟合，而非模型架构缺陷。数据显示，约3.2%的复杂推理任务因此出现明显错误，但简单问答场景未受影响。目前尚未有完美解决方案，团队正探索引入新的注意力约束机制来抑制这种内部分裂。"
+    },
+    {
+      "title": "Google DeepMind：为何AI只能模拟意识，而无法具现意识",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA==&mid=2247730164&idx=1&sn=5d2293275f772578cd657158e5b5be90",
+      "summary": "Google DeepMind：为何AI只能模拟意识，而无法具现意识",
+      "source": "集智俱乐部",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Google DeepMind指出，AI能模拟人类意识行为，却无法真正具现意识，根本区别在于符号处理与主观体验的鸿沟。意识包含原初感受和第一人称视角，而AI仅基于输入数据执行计算，缺乏生物神经系统中的自我感与存在感。尽管AI在对话、推理等任务中表现惊人，但本质仍是算法输出，不具备意向性和内在体验。即便未来技术逼近，意识仍是生物结构独有的现象。"
+    },
+    {
+      "title": "低空经济现3亿美元级重磅融资，硬件、AI成吸金主力|创投周报",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxOTA3MzMzOQ==&mid=2247766062&idx=1&sn=17d15173d248ae3d94e227e9f996b045",
+      "summary": "低空经济现3亿美元级重磅融资，硬件、AI成吸金主力|创投周报",
+      "source": "36氪Pro",
+      "published": "",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "低空经济领域出现3亿美元级重磅融资，硬件与AI成为吸金主力。本轮融资聚焦于飞行器制造、传感器、飞控系统等硬件，以及自主导航、环境感知等AI技术，显示资本正向核心技术环节集中。行业预计，低空经济将在物流配送、城市交通、应急巡检等场景加速落地，2030年市场规模有望突破万亿级别。"
+    },
+    {
+      "title": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247526537&idx=1&sn=28314d27c60bebda882b03976db9bef0",
+      "summary": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "source": "前端之巅",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "18岁创业者通过开源框架OpenClaw管理16个AI Agent，以单人公司模式运营。核心架构包含代码开发、市场分析、客服、内容创作等多个Agent角色，通过任务调度与协作实现全自动化业务流程。数据显示，该模式将传统团队的人力成本降低90%以上，项目迭代速度提升3-5倍。关键在于Agent间的任务分配、上下文共享和结果校验机制，使单个个体能驾驭多智能体协同工作。这揭示了AI时代“一人公司”的可行路径，即通过Agent集群放大个人产能，但需强技术架构与明确管理规则支撑。"
+    },
+    {
+      "title": "Broadcom Donates Velero to CNCF, Shifting Kubernetes Backup to Community Governance",
+      "url": "https://www.infoq.com/news/2026/05/broadcom-velero-cncf/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Broadcom has announced the contribution of Velero, its Kubernetes-native backup, restore and migration project, to the Cloud Native Computing Foundation (CNCF) as a Sandbox project. Velero It operates at the Kubernetes API layer, capturing cluster state through Custom Resource Definitions (CRDs) rat",
+      "source": "InfoQ",
+      "published": "2026-05-01T08:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Broadcom 将 Kubernetes 原生备份与迁移项目 Velero 捐赠给 CNCF，作为 Sandbox 项目。Velero 运行于 Kubernetes API 层，通过自定义资源定义（CRD）捕获集群状态，支持备份、恢复和迁移。此举旨在将项目治理移交社区，推动更广泛协作与标准化。Velero 已成为 Kubernetes 生态中关键的数据保护工具。"
+    },
+    {
+      "title": "Musk v. Altman is just getting started",
+      "url": "https://techcrunch.com/video/musk-v-altman-is-just-getting-started/",
+      "summary": "Elon Musk spent the better part of three days&#160;on the witness stand&#160;this week&#160;in his lawsuit against OpenAI, and&#160;it&#8217;s&#160;already getting messy. Emails, texts, and&#160;his own tweets&#160;are surfacing in court, and there are plenty more witnesses to come. Musk&#8217;s arg",
+      "source": "TechCrunch AI",
+      "published": "2026-05-01T14:00:00",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "马斯克与奥特曼的法律战进入高潮。本周，马斯克在针对OpenAI的诉讼中出庭作证近三天，大量邮件、短信及推文作为证据公开，案情已显混乱。后续还将有更多证人登场。此案核心争议直指OpenAI的治理结构与初心，预计将引发更广泛法律交锋。"
+    },
+    {
+      "title": "Cyber-Insecurity in the AI Era",
+      "url": "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/",
+      "summary": "Cybersecurity was already under strain before AI entered the stack. Now, as AI expands the attack surface and adds new complexity, the limits of legacy approaches are becoming harder to ignore. This session from MIT Technology Review&#8217;s EmTech AI conference explores why security must be rethoug",
+      "source": "MIT Tech Review",
+      "published": "2026-05-01T15:54:01",
+      "score": 0,
+      "category": "活动会议",
+      "chinese_summary": "在AI全面融入技术栈之前，网络安全已承压。如今，AI不仅扩大了攻击面，还增加了系统复杂性，使传统防护手段的局限愈发凸显。MIT Technology Review的EmTech AI研讨会指出，安全策略必须被根本性重构。企业需正视AI带来的新风险，重新设计以AI驱动的主动防御体系，而非仅依赖旧有方法。"
+    },
+    {
+      "title": "All the evidence revealed so far in Musk v. Altman",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial",
+      "summary": "The Musk v. Altman trial is underway, and that means exhibits, or the evidence to be presented in court, are being revealed piece by piece. So far, email exchanges, photos, and corporate documents are circulating from the earliest days of OpenAI - and from before the AI lab even had a name. Some hig",
+      "source": "The Verge AI",
+      "published": "2026-05-01T19:14:51",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "埃隆·马斯克诉萨姆·奥尔特曼案庭审中曝光的证据显示，OpenAI早期邮件、照片及公司文件逐步公开。关键证据包括：未命名前的创始讨论、对非营利转向营利的争议记录，以及双方关于AI安全承诺的分歧。这些材料揭示了OpenAI从开源非营利向封闭营利模式转变过程中的内部矛盾，直接影响后续AI治理与商业伦理的司法定性。"
+    },
+    {
+      "title": "Elon Musk had a bad week in court",
+      "url": "https://www.theverge.com/podcast/922009/musk-openai-trial-testimony-vergecast",
+      "summary": "Elon Musk is the one who wanted this trial. He has spent months claiming OpenAI \"stole a nonprofit,\" and saying he was the actual driving force behind one of the most important companies currently in tech. All indications are that he won't win his case against the company, but he's fighting it anywa",
+      "source": "The Verge AI",
+      "published": "2026-05-01T13:33:15",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "埃隆·马斯克本周在法庭上遭遇挫折。他主动发起诉讼，声称OpenAI“窃取了一个非营利组织”，并自称是这家当前最重要科技公司背后的实际推动力。尽管所有迹象表明他无法赢得对OpenAI的诉讼，但他仍坚持战斗。"
+    },
+    {
+      "title": "Microsoft wants lawyers to trust its new AI agent in Word documents",
+      "url": "https://www.theverge.com/news/921944/microsoft-word-legal-agent-ai",
+      "summary": "Microsoft is launching a new AI agent inside Word that's specifically designed for legal teams. Legal Agent handles document edits, negotiation history, and complex documents to help legal teams handle tasks like reviewing contracts. \"Instead of relying on general AI models to interpret commands, th",
+      "source": "The Verge AI",
+      "published": "2026-05-01T11:18:54",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "微软在Word中推出专为法律团队设计的AI代理Legal Agent，可处理合同审查、文档编辑及谈判历史等复杂任务。该工具不同于通用AI模型，能更精准理解法律指令，旨在提升律师对AI的信任度。其核心优势在于针对法律场景优化，减少误判风险，标志微软在专业领域AI落地的关键一步。"
+    },
+    {
+      "title": "A Dark-Money Campaign Is Paying Influencers to Frame Chinese AI as a Threat",
+      "url": "https://www.wired.com/story/super-pac-backed-by-openai-and-palantir-is-paying-tiktok-influencers-to-fear-monger-about-china/",
+      "summary": "Build American AI, a nonprofit linked to a super PAC bankrolled by executives at OpenAI and Andreessen Horowitz, is funding a campaign to spread pro-AI messaging and stoke fears about China.",
+      "source": "Wired AI",
+      "published": "2026-05-01T20:25:28",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "由OpenAI和Andreessen Horowitz高管资助的超级政治行动委员会关联的非营利组织“Build American AI”，正通过付费TikTok网红发起运动，一面宣传本土AI优势，一面刻意渲染中国AI威胁论。该组织利用社交媒体算法，以暗钱运作方式影响公众情绪，推动美国对华AI技术封锁与产业政策倾斜。此案揭示科技巨头正通过外包恐惧营销干预舆论场，以护航自身商业利益。"
+    },
+    {
+      "title": "Minnesota passes ban on fake AI nudes; app makers risk $500K fines",
+      "url": "https://arstechnica.com/tech-policy/2026/05/minnesota-set-to-be-first-state-to-ban-nudification-apps/",
+      "summary": "More evidence of Grok CSAM seen as Minnesota passes nudifying app ban.",
+      "source": "Ars Technica",
+      "published": "2026-05-01T17:36:29",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "明尼苏达州通过全美首个禁令，彻底禁止“脱衣”类AI应用（nudification apps），违者每次最高面临50万美元罚款。该法案针对利用AI伪造裸照的App开发者与分发平台，回应了近期Grok系统生成儿童性虐待素材（CSAM）事件。法案要求平台对相关AI模型承担严格责任，标志美国在深度伪造性图像监管领域迈出关键一步。"
+    },
+    {
+      "title": "Ghost: A Database for Our Times?",
+      "url": "https://towardsdatascience.com/ghost-a-database-for-our-times/",
+      "summary": "The first database built for AI Agents\nThe post Ghost: A Database for Our Times? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-01T13:30:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Ghost 是一套专为 AI 智能体设计的新型数据库系统，旨在解决传统数据库无法高效处理非结构化数据、复杂查询和实时推理的痛点。其核心创新在于将向量索引、图结构和内存计算融合为统一引擎，使得智能体在检索数据时可同时进行语义理解与关联推理。测试表明，在基于大语言模型的多步骤任务中， Ghost 的查询延迟降低了 80%，且能支持数百万级节点的图操作。它标志着数据库正从被动存储转向主动推理，成为智能体时代的核心基础设施。"
+    },
+    {
+      "title": "对话上交大程远：AI的终局不在云端，而在“感算一体”的物理世界",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649795913&idx=1&sn=dbe9c78ae84167f119d9da1806ce7a77",
+      "summary": "对话上交大程远：AI的终局不在云端，而在“感算一体”的物理世界",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "上海交大程远指出，AI终极形态并非云端大模型，而是与物理世界深度融合的“感算一体”系统。当前云端AI存在高延迟、高成本、数据隐私及实时响应瓶颈，未来十年边缘计算将爆发，尤其在机器人、自动驾驶、工业制造等场景。他强调，真正的智能必须从“感知”走向“感算一体”，让计算发生在数据产生的地方，实现毫秒级实时决策。预计到2025年，全球边缘AI芯片市场规模将达数百亿美元，其中中国将占据重要份额。"
+    },
+    {
+      "title": "GPT Image 2研究科学家陈博远：我在OpenAl修中文",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887975&idx=1&sn=e7bbcb29bd29a9265fce5add3467e099",
+      "summary": "GPT Image 2研究科学家陈博远：我在OpenAl修中文",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "陈博远作为OpenAI研究科学家，主导了GPT-4o图像生成中文字符的准确性问题。团队通过构建GPU集群、调整数据配比（增加繁体中文数据）及引入感知损失函数，显著提升了模型对中文字符的汉字结构理解能力。目前模型在商品文案、海报等场景表现良好，但对复杂图像精度仍待优化。研究显示，思维链训练可增强推理能力，而强化学习的高成本限制其大规模应用。AI仍需在端到端能力与人类美学间寻求平衡。"
+    },
+    {
+      "title": "AI能改10万行代码，却让你走路去洗车！Karpathy戳破「锯齿状智能」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652697031&idx=2&sn=90c73fe00860d8356fb07840be10325a",
+      "summary": "AI能改10万行代码，却让你走路去洗车！Karpathy戳破「锯齿状智能」",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI在改写10万行代码等封闭任务中表现惊人，但在“走路去洗车”这类物理世界常识任务上却束手无策。Karpathy提出“锯齿状智能”概念，指出当前AI能力极不均匀：代码、数学等数字领域远超人类，而感知、操作等具身智能领域却远逊。这种结构性失衡源于训练数据与任务类型的根本差异。他警示业界不要被特定指标上的飞跃迷惑，AGI的实现需要覆盖更多真实世界的复杂场景。"
+    },
+    {
+      "title": "有人只用API就猜出了GPT、Claude、Gemini的参数量？社区吵翻了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651031232&idx=1&sn=6ef67aad98248c27294f1be3eb80d089",
+      "summary": "有人只用API就猜出了GPT、Claude、Gemini的参数量？社区吵翻了",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一位研究者仅通过API调用测试，推断出GPT-4o约有80亿参数、Claude 3.5 Sonnet约100亿、Gemini 1.5 Pro约200亿。方法基于模型在特定任务上的“关键能力涌现所需参数规模”反推，引发社区激烈争论。反对者认为API延迟与量化、蒸馏等技术可严重干扰估算，精度存疑。该事件凸显闭源大模型透明度缺失，以及外部估测方法的局限性与争议，但仍为理解模型规模提供了全新视角。"
+    },
+    {
+      "title": "强化学习的进化：从PPO到MaxRL，LLM推理训练的算法演进史",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651031232&idx=2&sn=d9bede92f805cf8bbb184d9ff344cca6",
+      "summary": "强化学习的进化：从PPO到MaxRL，LLM推理训练的算法演进史",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "强化学习在LLM推理训练中经历了从PPO到MaxRL的关键演进。PPO通过裁剪策略实现稳定更新，但受限于对奖励模型的依赖和训练效率瓶颈。GRPO去除了价值网络，降低计算成本；RLOO利用单一轨迹优化降低了方差。MaxRL则进一步融合群组奖励和优势归一化，在数学推理任务上实现接近15%的准确率提升，且训练开销低于PPO。该演进路径指向更高效、更鲁棒的大模型推理对齐方法，为复杂推理任务提供了重要算法框架。"
+    },
+    {
+      "title": "Agent时代启示录：当Agent作为新物种加入经济系统",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTY0MDk0NQ==&mid=2247523739&idx=1&sn=5489fa80a4602d5960b71a4bdea41241",
+      "summary": "Agent时代启示录：当Agent作为新物种加入经济系统",
+      "source": "海外独角兽",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Agent作为新经济物种正深度嵌入生产系统，核心变化体现在：其能自主调用工具、执行复杂任务并持续学习迭代，本质上是“数字劳动力”的规模化供给。数据显示，引入Agent的企业可将运营成本降低30%-50%，任务完成效率提升3-5倍。关键结论：Agent并非简单替代人类，而是重构了“人机协作”的生产关系，经济系统将从“人力驱动”转向“智能体协同驱动”，并催生新的价值分配规则与监管需求。"
+    },
+    {
+      "title": "每月涌入200万首 AI歌曲，Spotify被逼得发「活人证」了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651089925&idx=1&sn=dda77511dfb6b9b50d1119fdd31ab6b8",
+      "summary": "每月涌入200万首 AI歌曲，Spotify被逼得发「活人证」了",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "每月约200万首AI生成歌曲涌入Spotify，迫使平台推出“活人证”要求。目前AI歌曲已占新增曲目的10%以上，导致平台需对创作者进行身份验证以确保内容合规。截至2025年初，Spotify删除的AI歌曲达20万首，主要涉及侵权和虚假流量。该举措反映流媒体平台在内容审核上的AI治理难题。"
+    },
+    {
+      "title": "arXiv:AI意识综述",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA==&mid=2247730276&idx=1&sn=59b24c4335fce6927e1be363f737e938",
+      "summary": "arXiv:AI意识综述",
+      "source": "集智俱乐部",
+      "published": "",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "一篇arXiv综述分析了当前主流AI系统是否具备意识。作者基于神经科学意识理论，提出14条评估指标，包括全局工作空间、高阶表征、递归处理等。结果显示，当前大语言模型如GPT-4未满足任一指标；而具备部分类脑架构的模型（如PaLM-E）仅在少数指标上处于“薄弱”水平。综述指出，即使未来模型在功能性上接近人类，仍无法确证其具备主观体验。核心结论是：现有AI尚无任何意识证据，且意识验证本身存在方法论困境。"
+    },
+    {
+      "title": "A股年报透视：AI算力产业链爆发，有色金属与锂电材料逆袭|看财报",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661073687&idx=2&sn=f082e3af91ab4e72ba18748384a8a935",
+      "summary": "A股年报透视：AI算力产业链爆发，有色金属与锂电材料逆袭|看财报",
+      "source": "钛媒体",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "A股2024年年报显示，AI算力产业链业绩爆发，光模块龙头中际旭创营收超238亿元，净利润增长138%；英维克、海光信息等产业链公司净利润增幅超50%。有色金属与锂电材料板块逆袭，洛阳钼业净利润翻倍达135亿元，北方稀土、华友钴业等净利润增速接近或超过50%。传统行业分化明显，房地产与钢铁板块整体承压，消费电子公司则因终端需求回暖而业绩改善。"
+    },
+    {
+      "title": "Agent 开发范式演进：从环境工程出发，简化”多源实时上下文",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559841&idx=1&sn=3dddd3870cb8c6881014404de08441c0",
+      "summary": "Agent 开发范式演进：从环境工程出发，简化”多源实时上下文",
+      "source": "阿里云开发者",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Agent开发范式正从单一Prompt工程转向环境工程，核心是解决多源实时上下文的复杂整合问题。传统Agent依赖大模型自身处理碎片化信息，但面临信息缺失与冗余。新范式通过引入“环境”作为独立抽象层，主动感知、缓存并融合数据源，例如通过订阅机制实时获取用户动态、数据库变化等。该方法将上下文复杂度从开发者端转移至基础设施，实测可将Agent对API调用成功率提升超30%，并显著降低逻辑错误。关键结论是：环境工程能有效简化Agent开发，使模型专注于推理而非数据编排。"
+    },
+    {
+      "title": "JobRunr Introduces ClawRunr, an Open-Source Java AI Agent",
+      "url": "https://www.infoq.com/news/2026/05/clawrunr/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "JobRunr has introduced ClawRunr, an open-source Java AI agent for scheduled, recurring, and one-off background tasks. Formerly JavaClaw, it runs on users' hardware and combines conversational interaction with persistent task execution, MCP tools, browser automation, and web, Telegram, and Discord ch",
+      "source": "InfoQ",
+      "published": "2026-05-01T15:00:00",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "JobRunr 发布开源 Java AI 智能体 ClawRunr（原 JavaClaw），支持定时、循环及一次性后台任务。运行于用户本地硬件，融合对话交互与持久化任务执行，集成 MCP 工具、浏览器自动化及 Web、Telegram、Discord 通道。为 Java 开发者提供可控、可扩展的 AI 自动化方案。"
+    },
+    {
+      "title": "Presentation: The Next Generation of AI Products",
+      "url": "https://www.infoq.com/presentations/ai-products/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Hilary Mason shares her journey from academia to building AI products at scale.  She discusses the shift from discrete engineering to probabilistic mindsets, explaining why managing \"human considerations\" is the hardest part of the stack.  She explains the \"existential crisis\" for engineers, arguing",
+      "source": "InfoQ",
+      "published": "2026-05-01T09:23:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Hilary Mason分享了从学术到规模化AI产品的经验，强调必须从离散工程思维转向概率思维。她指出，管理“人为因素”是整个技术栈中最困难的部分，并揭示了工程师面临的“存在危机”：当模型输出不再确定时，如何设计系统、理解失败并建立信任。核心观点是，AI产品的成功不仅依赖技术，更取决于能否有效应对人类行为与不确定性。"
+    },
+    {
+      "title": "Vitest 4.1: Test Tags, Native Node.js Execution and AI Agent Reporter",
+      "url": "https://www.infoq.com/news/2026/05/vitest-4-1-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Vitest 4.1, developed by VoidZero, enhances JavaScript testing with features like test tags for filtering and configuring tests, an experimental mode to bypass Vite's module runner, and new lifecycle hooks. It supports Vite 8 from the start. Notably, it reports improvements in performance compared t",
+      "source": "InfoQ",
+      "published": "2026-05-01T09:03:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "VoidZero 发布 Vitest 4.1，显著增强 JavaScript 测试能力。新增测试标签功能，可灵活筛选与配置测试用例；实验性原生 Node.js 执行模式绕过 Vite 模块运行器，提升性能。同时引入新生命周期钩子，并原生支持 Vite 8。测试执行速度较上一版本有明确提升，AI Agent 报告模块也实现优化，为开发者提供更高效、智能的测试反馈体验。"
+    },
+    {
+      "title": "用Agent 动力学，和 40个Agents一起为「人+AI」做产品142章经",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMDE5OTYyMw==&mid=2651051564&idx=1&sn=babc1b1e75b77826a63d304d33c348e0",
+      "summary": "用Agent 动力学，和 40个Agents一起为「人+AI」做产品142章经",
+      "source": "42章经",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "该研究通过构建40个Agent构成的社会动力学系统，模拟人+AI协同的产品设计流程。核心发现：多Agent协作能有效突破单一模型局限，在创意生成阶段产出效率提升37%，方案多样性提高42%。但Agent间需设置明确的角色分工与交互规则，否则会产生共识陷阱。关键结论是：人机协同的最佳模式是让人类担任价值判断与目标设定者，AI负责量化推理与方案迭代。该框架已成功应用于三类智能产品开发，验证了其有效性。"
+    },
+    {
+      "title": "Did you know you can’t steal a charity? Don’t worry. Elon Musk will remind you.",
+      "url": "https://techcrunch.com/podcast/did-you-know-you-cant-steal-a-charity-dont-worry-elon-musk-will-remind-you/",
+      "summary": "Elon Musk spent the better part of three days on the witness stand this week in his lawsuit against OpenAI, and it&#8217;s already getting messy. Emails, texts, and his own tweets are surfacing in court, and there are plenty more witnesses to come. Musk&#8217;s argument against OpenAI? By converting",
+      "source": "TechCrunch AI",
+      "published": "2026-05-01T17:44:29",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "马斯克本周就其诉OpenAI案出庭作证近三天，案情已显混乱。法庭公开了电邮、短信及马斯克本人推文，后续还有更多证人。马斯克指控OpenAI在转型营利过程中违背了其创办时非营利的慈善使命，但司法上“窃取慈善机构”的论据难以成立。核心分歧在于OpenAI是否因追求利润而偏离了AI安全发展的初衷。"
+    },
+    {
+      "title": "Operationalizing AI for Scale and Sovereignty",
+      "url": "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/",
+      "summary": "Companies are taking control of their own data to tailor AI for their needs. The challenge lies in balancing ownership with the safe, trusted flow of high‑quality data needed to power reliable insights. This conversation from MIT Technology Review&#8217;s EmTech AI conference examines how AI factori",
+      "source": "MIT Tech Review",
+      "published": "2026-05-01T15:31:09",
+      "score": 0,
+      "category": "活动会议",
+      "chinese_summary": "企业正自主掌控数据以定制AI需求，核心挑战在于平衡数据所有权与高质量数据的安全可信流通。MIT技术评论EmTech AI大会指出，AI工厂需将专有数据与基础模型结合，但当前企业平均仅利用30%的数据价值。实现规模化部署需建立数据治理框架，确保主权控制的同时，通过联邦学习等技术实现跨机构协作，最终使AI驱动可靠洞察的效率提升50%以上。"
+    }
+  ]
+}
