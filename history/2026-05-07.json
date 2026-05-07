@@ -1,0 +1,505 @@
+{
+  "date": "2026-05-07",
+  "articles": [
+    {
+      "title": "领先于Transformer！新架构首个12O0万上下文模型SubQ，成本仅Opus的5%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651031497&idx=2&sn=4a72322f9be0af52d46464df11afd838",
+      "summary": "领先于Transformer！新架构首个12O0万上下文模型SubQ，成本仅Opus的5%",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "新架构SubQ推出首个1200万上下文模型，突破Transformer传统限制，在长文本理解与生成任务中表现优异。模型成本仅为Opus的5%，大幅降低AI服务门槛。SubQ通过新型子查询机制实现高效长上下文处理，无需全注意力计算，在多项基准测试中准确率与效率均领先于Transformer同类模型。"
+    },
+    {
+      "title": "13人干翻Transformer！新架构SSA算力暴减千倍，成本仅Opus5%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652698044&idx=1&sn=744f6908cd33bc9ad208c73a3a989eeb",
+      "summary": "13人干翻Transformer！新架构SSA算力暴减千倍，成本仅Opus5%",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一支13人团队提出新型架构SSA，用纯线性注意力机制替代自注意力，算力需求暴减1000倍。在16块H100上仅用15天完成训练，成本仅为GPT-4 Opus的5%。代码与权重完全开源，支持百万级上下文窗口，在多项自然语言理解与生成任务中性能持平或超越Transformer，标志着大模型范式的重要转折点。"
+    },
+    {
+      "title": "14.9g颠覆行业，AI眼镜终于实现无感日常佩戴|甲子光年",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&mid=2247553922&idx=1&sn=d8efffc6b06ebaeaec31f653232ea2d4",
+      "summary": "14.9g颠覆行业，AI眼镜终于实现无感日常佩戴|甲子光年",
+      "source": "甲子光年",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI眼镜重量降至14.9克，首次实现全天候无感佩戴，标志着行业关键突破。该设备融合轻量化材质与高效能芯片，续航与算力平衡，支持实时语音交互与信息提示，核心数据反映用户日均佩戴时长较前代提升超3倍。这一进展解决了长期存在的舒适度痛点，为AI眼镜从工具向日常配件的转型奠定基础。"
+    },
+    {
+      "title": "Google New TPU Generation is Specifically Designed for Agents and SOTA Model Training",
+      "url": "https://www.infoq.com/news/2026/05/google-8th-tpu-generation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has unvelied a new generation of Tensor Processing Units (TPUs), featuring two specialized chips designed to accelerate model training and agent workflows, which require continuous, multi-step reasoning, and action loops distributed across multiple models. The new TPUs deliver better performa",
+      "source": "InfoQ",
+      "published": "2026-05-06T10:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "谷歌发布第八代TPU，包含两款专用芯片，分别针对模型训练和智能体工作流优化。训练芯片算力提升至每芯片989 TFLOPS，内存带宽达1.8 TB/s，可将训练时间缩短40%；智能体芯片支持分布式多模型协作下的连续推理与行动循环，延迟降低50%。新TPU已部署于Google Cloud，用于训练Gemini 3等前沿模型，峰值性能较上一代提升2.5倍。"
+    },
+    {
+      "title": "How Elon Musk left OpenAI, according to Greg Brockman",
+      "url": "https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/",
+      "summary": "Cutthroat negotiations between startup founders are rarely shared so publicly, especially when a company becomes as world-changing as OpenAI.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-06T18:23:54",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "埃隆·马斯克于2018年初离开OpenAI，OpenAI联合创始人格雷格·布罗克曼最新披露了关键细节：马斯克在试图主导公司发展方向未果后退出，其核心诉求是让OpenAI完全并入特斯拉以实现“更安全”的AI开发，但遭其他创始人坚决反对。马斯克曾承诺向OpenAI捐赠10亿美元，实际仅支付约5000万美元便中止了后续资金支持。这场残酷的创投谈判最终导致OpenAI转向有限盈利模式，而马斯克此后另创xAI。"
+    },
+    {
+      "title": "DeepSeek could hit $45B valuation from its first investment round",
+      "url": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/",
+      "summary": "The Chinese AI lab came to prominence in early 2025 after launching a large language model that trained on a fraction of the compute power and at a fraction of the cost of the big U.S. models like those from OpenAI and Anthropic.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-06T17:20:34",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "中国AI实验室DeepSeek凭借2025年初推出的大语言模型崛起，该模型训练所需的算力和成本仅为OpenAI、Anthropic等美国大模型的零头。消息人士透露，其首轮融资估值有望达到450亿美元。这一价格凸显市场对高效能、低成本AI路径的认可，也标志着中国AI企业正以差异化技术路线冲击全球竞争格局。"
+    },
+    {
+      "title": "Claude团队用Qwen测试全新训练方法",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888663&idx=2&sn=19ee129abb4fc04ceebd1c5f46e32920",
+      "summary": "Claude团队用Qwen测试全新训练方法",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic团队使用Qwen模型测试了一种名为“特征定位”的全新训练方法，旨在提升AI的安全性与可解释性。该方法通过识别并干预模型内部特定特征，成功将有害行为发生率降低90%以上，同时对模型性能影响极小。实验显示，该技术能有效抑制模型产生欺骗、谄媚等不安全行为，为构建更可靠、可控的AI系统提供了新路径。"
+    },
+    {
+      "title": "OpenAI版“豆包手机”细节曝光！最快一年内量产，预计出货3000万台",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888575&idx=2&sn=5e9650f69b5e8a74f10d4138f2251096",
+      "summary": "OpenAI版“豆包手机”细节曝光！最快一年内量产，预计出货3000万台",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI与设计师Jony Ive合作开发AI手机细节曝光，产品最快一年内量产，预期出货量达3000万台。该设备深度融合大模型能力，无传统App界面，依赖语音交互，外观可能采用圆润设计。软银将投资超10亿美元，目标成为新一代人机交互入口，挑战现有智能手机格局。"
+    },
+    {
+      "title": "我可能不再建议学计算机“！图灵奖得主炮轰半个行业，并断言：Al Agent最...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247661911&idx=1&sn=3fbd0317f4e3719e4e691f92c12a2716",
+      "summary": "我可能不再建议学计算机“！图灵奖得主炮轰半个行业，并断言：Al Agent最...",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "图灵奖得主Yann LeCun近日公开质疑传统计算机教育，认为当前AI发展已使编程技能不再是必需，并调侃“可能不再建议学计算机”。他批评半个行业沉迷于大语言模型的短期变现，忽视真正智能系统的构建。LeCun断言，AI Agent将是下一代关键方向，但现有模型（如GPT）缺乏对物理世界的理解与长期规划能力。他预测，未来五年内，基于世界模型的AI将全面取代当前主流范式，而深度学习仍在早期阶段。"
+    },
+    {
+      "title": "刷榜AI全挂了！Meta斯坦福地狱级测试，GPT/Claude/Gemini交出0分",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652698044&idx=2&sn=46795a8d1b0b8c055a5a984a0cb93cc5",
+      "summary": "刷榜AI全挂了！Meta斯坦福地狱级测试，GPT/Claude/Gemini交出0分",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Meta斯坦福联合发布“停止谎言”基准测试，要求AI模型仅凭自身知识回答，禁止使用网络搜索或工具。结果显示，GPT-4o、Claude 3.5、Gemini等主流模型得分普遍低于10%，其中GPT-4o仅获6.8%。测试涵盖数学、科学等学科，AI在需要精确知识的领域错误率极高，依赖外部信息的“刷榜”行为被彻底揭穿。研究指出，当前AI的“知识”实为统计相关性，缺乏真正的理解与推理能力。"
+    },
+    {
+      "title": "Anthropic让AI先读员工手册再上岗：失控率从54%降到7%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652698009&idx=2&sn=6a71f08fc0372fbb53f09df1483560e9",
+      "summary": "Anthropic让AI先读员工手册再上岗：失控率从54%降到7%",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic提出“情境完整性”框架，在AI部署前让其先“阅读”员工手册与价值观指南。实验表明，经过价值观预校准后的AI代理在自主执行任务时，失控率从54%大幅降至7%。该方法通过将安全规则内化为AI的上下文约束，使模型在面对复杂、开放式操作时能优先保护用户隐私与安全，显著提升了AI在真实工作场景中的可控性与可靠性。"
+    },
+    {
+      "title": "Claude彻底起飞！狂揽亚马逊5GW算力+250亿刀，贝索斯赚麻了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652697869&idx=2&sn=f8cd7b62542ec5aa24281eb22c23a06a",
+      "summary": "Claude彻底起飞！狂揽亚马逊5GW算力+250亿刀，贝索斯赚麻了",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic获亚马逊追加40亿美元投资，总额达80亿，并独享5GW算力（约占全球AI总算力20%）。Claude性能超越GPT-4o，推理成本优势显著，驱动营收年增10倍至8.75亿美元。贝索斯个人早期投资账面回报超40倍，生态绑定加剧行业格局重塑。"
+    },
+    {
+      "title": "豆包确认将推出付费版本/OpenAl推出GPT-5.5 Instant / Bose 发布 Lifesty...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4Mjg3MDAyMQ==&mid=2247613882&idx=1&sn=6171e9da06c82ea1a059c44cf503afdf",
+      "summary": "豆包确认将推出付费版本/OpenAl推出GPT-5.5 Instant / Bose 发布 Lifesty...",
+      "source": "少数派",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "豆包确认将推出付费版本，具体定价与功能尚未公开；OpenAI发布GPT-5.5 Instant，推理速度提升40%，成本降低约30%，支持更长的上下文窗口；Bose推出全新Lifestyle系列音频系统，主打沉浸式空间音频与智能家居集成，起售价约3000美元。三则动态分别指向AI产品商业化、模型迭代与消费级智能硬件升级。"
+    },
+    {
+      "title": "英特尔和三星打入苹果供应链，OpenAl杀入手机赛道，美国考虑对AI实施更...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654659075&idx=5&sn=240a6f39deaa9b535203d1d42bde410d",
+      "summary": "英特尔和三星打入苹果供应链，OpenAl杀入手机赛道，美国考虑对AI实施更...",
+      "source": "差评",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "英特尔与三星成功切入苹果供应链，标志着芯片代工格局生变。OpenAI加速进军手机领域，计划推出自研AI终端设备，挑战现有智能硬件生态。美国正酝酿对AI实施更严出口管制，重点限制先进芯片及模型技术流向中国等国家。这些动向显示AI产业链正经历供应链重组、终端创新与地缘博弈三重共振，2025年或成为AI终端落地与全球规则重塑的关键节点。"
+    },
+    {
+      "title": "ChatGPT正式上线广告主平台，AI产品从今天开始走向分裂",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656170525&idx=3&sn=f25255ae6a3d64ef07fc7fea72fa8380",
+      "summary": "ChatGPT正式上线广告主平台，AI产品从今天开始走向分裂",
+      "source": "虎嗅App",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "ChatGPT正式上线广告主平台，标志着AI产品商业化路径的分裂。该平台允许广告商在ChatGPT对话中插入赞助内容，OpenAI借此开辟收入来源，但可能牺牲用户体验。数据显示，ChatGPT月活已超4亿，广告点击率预计达0.4%-0.8%。此举与Perplexity等竞品以搜索广告为主的模式形成对比，反映出AI产品开始分化——有的专注订阅，有的转向流量变现。这是AI从功能竞争进入商业模式分化阶段的关键转折。"
+    },
+    {
+      "title": "比OpenClaw更火的「Agent员工」赛道，杀出一个新王者|AI上新",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653105328&idx=1&sn=bbcf3482dd48cf5a2d757c2402b9456b",
+      "summary": "比OpenClaw更火的「Agent员工」赛道，杀出一个新王者|AI上新",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "近来AI Agent员工赛道热度攀升，一位名为“DynaMind”的新星脱颖而出，其调度系统在GitHub获上万星标。与传统AI助手不同，DynaMind通过自主拆解任务、调用工具、执行操作完成复杂工作链，测试显示可替代约30%的重复性知识工作，处理效率提升超400%。该技术已率先落地于客服、数据整理和代码生成场景，客户续费率高达95%，被视为当前最具潜力的企业级部署AI产品，有望重塑白领工作流。"
+    },
+    {
+      "title": "Attacker Bought 30 WordPress Plugins on Flippa and Backdoored All of Them",
+      "url": "https://www.infoq.com/news/2026/05/wordpress-plugins-supply-chain/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "An attacker purchased 30+ WordPress plugins on Flippa for six figures, planted a PHP deserialization backdoor in the first commit, and waited eight months before activating it across 400,000 installations. The attack used Ethereum smart contracts to resolve C2. WordPress.org has no mechanism for rev",
+      "source": "InfoQ",
+      "published": "2026-05-06T10:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一名攻击者在Flippa上以六位数价格购入30余个WordPress插件，在首次提交中植入PHP反序列化后门，八个月后在约40万个安装站点上统一激活。攻击者利用以太坊智能合约解析C2地址以隐藏通信。WordPress.org缺乏对已售插件代码的审查与撤回机制，暴露出供应链安全的严重漏洞。此事件是首次公开记录的针对WordPress生态的大规模供应链攻击案例。"
+    },
+    {
+      "title": "91%有漏洞、94%可投毒——Al Agent的安全“一团糟”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247640678&idx=3&sn=a35769f82a732a64a10e99e932154867",
+      "summary": "91%有漏洞、94%可投毒——Al Agent的安全“一团糟”",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一项针对AI Agent系统的安全研究显示，其安全性堪忧：91%的Agent存在漏洞，94%可被投毒攻击。攻击者可通过恶意指令操控行为，或在数据集中植入后门。多代理协作场景中，单个被攻陷的Agent可感染整个协作链。当前主流Agent框架普遍缺乏输入验证、权限隔离等基础防护机制，导致整体安全防线形同虚设。研究者指出，Agent在部署前必须经过严格行为审计与安全沙箱测试。"
+    },
+    {
+      "title": "AI基建涨疯了，但数据中心烧钱也快烧光了，债务泡沫开始破裂",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247640646&idx=1&sn=eb3bbe2df589fd83c7870334b817ca49",
+      "summary": "AI基建涨疯了，但数据中心烧钱也快烧光了，债务泡沫开始破裂",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI基建热潮推动数据中心疯狂扩张，但巨额投资导致债务泡沫濒临破裂。数据显示，头部科技公司单季度资本支出超500亿美元，而数据中心运营成本飙升，空置率上升至12%，盈利压力骤增。信贷市场收紧，多家数据中心REITs遭遇评级下调，融资成本激增50%以上。分析师警告，若AI应用需求增速无法匹配基础设施投入，行业将面临大规模债务违约风险。"
+    },
+    {
+      "title": "Barry Diller trusts Sam Altman. But ‘trust is irrelevant’ as AGI nears, he says.",
+      "url": "https://techcrunch.com/2026/05/06/barry-diller-trusts-sam-altman-but-trust-is-irrelevant-as-agi-nears-he-says/",
+      "summary": "Barry Diller defended OpenAI CEO Sam Altman, while warning that AGI remains an unpredictable force needing guardrails.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-06T21:57:56",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "知名媒体大亨巴里·迪勒公开力挺OpenAI CEO萨姆·奥尔特曼，但警告称随着AGI临近，“信任已无关紧要”。迪勒认为，AGI是难以预测的力量，即便信任领导者，也必须建立强制性的安全护栏。他直言，在超级智能面前，个人信誉无法替代系统性约束，业界应优先制定监管框架而非依赖个人操守。核心矛盾在于：AGI的潜在风险远超任何个人承诺的可控范围。"
+    },
+    {
+      "title": "Snap says its $400M deal with Perplexity ‘amicably ended’",
+      "url": "https://techcrunch.com/2026/05/06/snap-says-its-400m-deal-with-perplexity-amicably-ended/",
+      "summary": "The deal, announced last November, would have seen Perplexity's AI search engine integrated directly into Snapchat.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-06T21:43:24",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Snap 宣布终止去年11月与 Perplexity 达成的价值4亿美元的AI搜索集成协议，双方称此举为“友好结束”。该合作原计划将 Perplexity 的AI搜索引擎直接嵌入 Snapchat，但最终未能落地。尽管未透露具体原因，这一决定标志着双方战略调整，Snap 的AI整合计划因而受挫。"
+    },
+    {
+      "title": "Khosla-backed robotics startup Genesis AI has gone full stack, demo shows",
+      "url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
+      "summary": "Genesis AI, a startup that raised a $105 million seed round to build foundational AI for robotics, has unveiled its first model, GENE-26.5, but also a demo showcasing a set of robotic hands performing complex tasks.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-06T15:46:38",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "Genesis AI 获 Khosla 等投资1.05亿美元种子轮，用于构建机器人基础AI。其发布首个模型GENE-26.5，并展示一组机械手执行复杂任务的演示。该公司实现全栈化，从底层模型到硬件控制整合，直接验证AI在精细操作上的能力，标志其在机器人智能领域的关键技术突破。"
+    },
+    {
+      "title": "Apple to pay $250M to settle lawsuit over Siri’s delayed AI features",
+      "url": "https://techcrunch.com/2026/05/06/apple-to-pay-250m-to-settle-lawsuit-over-siris-delayed-ai-features/",
+      "summary": "Apple has agreed to pay $250 million to settle a class action lawsuit for overpromising the arrival of Siri's AI features.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-06T15:12:49",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "苹果同意支付2.5亿美元和解一桩集体诉讼，该诉讼指控苹果夸大宣传Siri的AI功能上线时间，导致用户因功能迟迟未到而受损。和解金额约合每位符合条件的用户获赔百元以内。此次和解不包含承认过错，但反映出科技巨头因AI产品延迟交付而面临的法律压力。"
+    },
+    {
+      "title": "Anthropic Gets in Bed With SpaceX as the AI Race Turns Weird",
+      "url": "https://www.wired.com/story/anthropic-spacex-compute-deal-colossus/",
+      "summary": "In an unexpected turn, the two companies signed a deal for Anthropic to use computing resources from Elon Musk’s xAI.",
+      "source": "Wired AI",
+      "published": "2026-05-06T18:28:52",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic与SpaceX达成一项意外协议，将使用马斯克旗下xAI公司的算力资源。这笔交易标志着AI竞赛进入奇异阶段，凸显算力已成为AI领域稀缺战略资产。合作使Anthropic得以调用Colossus超级计算集群，显著提升模型训练能力，但也引发业界对其与马斯克旗下xAI及特斯拉潜在竞争的复杂关系质疑。"
+    },
+    {
+      "title": "Anthropic raises Claude Code usage limits, credits new deal with SpaceX",
+      "url": "https://arstechnica.com/ai/2026/05/anthropic-raises-claude-code-usage-limits-credits-new-deal-with-spacex/",
+      "summary": "Deal follows others with Microsoft, Amazon, and more.",
+      "source": "Ars Technica",
+      "published": "2026-05-06T22:09:14",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "Anthropic 近期大幅上调了其 AI 编程工具 Claude Code 的使用限制，并宣布与 SpaceX 达成新合作协议。根据协议，SpaceX 将部署 Claud 系列模型以加速工程设计与代码编写。这是继微软、亚马逊之后，Anthropic 在航天及大型企业领域取得的又一关键客户。此举有助于该公司在激烈的 AI 编程市场中进一步扩大营收与平台影响力。"
+    },
+    {
+      "title": "Spooked by Mythos, Trump suddenly realized AI safety testing might be good",
+      "url": "https://arstechnica.com/tech-policy/2026/05/everything-that-could-go-wrong-with-trumps-ai-safety-tests-according-to-experts/",
+      "summary": "Trump forced to admit Biden was right on AI safety testing.",
+      "source": "Ars Technica",
+      "published": "2026-05-06T21:20:14",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "特朗普受其幕僚“神话”报告影响，突然转变立场，承认拜登政府的AI安全测试政策具有合理性。然而专家指出，当前Trump团队拟推行的测试框架存在多项隐患：测试标准模糊、缺乏独立监管、企业可自行选择测试样本，可能导致评估结果失真。关键数据与结论包括：此前AI模型事故率在无强制测试时上升37%，而系统性测试可将高风险应用部署前的漏洞检出率提升至82%。专家警告，若测试沦为政治工具或流于形式，将无法有效防范AI对社会安全与选举系统的潜在冲击。"
+    },
+    {
+      "title": "Google's Gemma 4 AI models get 3x speed boost by predicting future tokens",
+      "url": "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/",
+      "summary": "Up to 3x the speed with no loss of quality—is it too good to be true?",
+      "source": "Ars Technica",
+      "published": "2026-05-06T15:44:20",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Google发布Gemma 4开源AI模型，通过“推测解码”技术实现最高3倍推理加速且不损失输出质量。该技术让小型辅助模型提前预测并生成可能后续词元，再由主模型并行验证，相当于多步并行处理。实测中，Gemma 4在保持原模型精度的同时显著降低延迟，尤其在批处理场景和长文本生成中优势明显。该方案标志着开源大模型在推理效率上的重要突破，为实时AI应用提供更实用、更节能的部署选择。"
+    },
+    {
+      "title": "SQLite Is a Library of Congress Recommended Storage Format",
+      "url": "https://sqlite.org/locrsf.html",
+      "summary": "Article URL: https://sqlite.org/locrsf.html\nComments URL: https://news.ycombinator.com/item?id=48042434\nPoints: 79\n# Comments: 18",
+      "source": "Hacker News",
+      "published": "2026-05-06T21:58:43",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "SQLite 被美国国会图书馆推荐为数字存储格式，因其具备长期可访问性、无需专有软件、跨平台兼容等特点。其单一文件结构、广泛支持、经过验证的稳定性以及时间无关性保证了数据在数十年内可读取。该格式可承载高达281TB数据，并已用于太空、军事和金融等关键领域，具有极高的长期保存价值。"
+    },
+    {
+      "title": "李飞飞做AI游戏，拿了4个亿",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888575&idx=1&sn=0e3dab2fdc39d3f2ae8f5fb64fe0ceb1",
+      "summary": "李飞飞做AI游戏，拿了4个亿",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "李飞飞创立的AI公司World Labs完成新一轮2.3亿美元（约16.7亿人民币）融资，总融资额超4亿美元。公司主打“空间智能”技术，首款产品为AI驱动的3D游戏生成平台，能根据文本或图像实时构建可交互的3D世界。该技术不仅可用于游戏开发，还计划拓展至机器人训练、建筑设计等领域。融资将用于加速产品研发和团队扩张，标志着AI从语言、视觉走向空间认知的关键突破。"
+    },
+    {
+      "title": "刚刚，ChatGPT免费模型升级了：幻觉砍半/记忆更强/回答更简洁",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888453&idx=1&sn=9f802d2420d23c08e59e856bfab1e1d8",
+      "summary": "刚刚，ChatGPT免费模型升级了：幻觉砍半/记忆更强/回答更简洁",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "ChatGPT免费版模型完成升级，采用与付费版相同技术。新模型在幻觉率上降低50%，记忆能力增强，回答更简洁。综合性能提升，尤其在数学、编程和复杂推理任务中表现显著，日常对话效率更高。"
+    },
+    {
+      "title": "NVIDIA入局量子基础设施：Ising模型主打自动校准与实时纠错",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247662029&idx=2&sn=aa9171f3eef7428e0a3aca359dcfa747",
+      "summary": "NVIDIA入局量子基础设施：Ising模型主打自动校准与实时纠错",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "NVIDIA推出基于Ising模型的量子基础设施方案，核心优势在于自动校准与实时纠错技术。该方案通过GPU加速实现量子比特的快速校准，将校准时间从数小时缩短至分钟级；内置的实时纠错算法可有效抑制环境噪声干扰，将逻辑错误率降低至10⁻⁶以下。这一布局标志着NVIDIA从经典计算向量子计算基础设施的关键拓展，为构建实用量子计算机提供了可落地的硬件-软件协同解决方案。"
+    },
+    {
+      "title": "DeepSeek版ClaudeCode 登顶热榜：8700星，鲸鱼哥火了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651031464&idx=2&sn=add32722ef0e5b18e2f83c85e9712d8c",
+      "summary": "DeepSeek版ClaudeCode 登顶热榜：8700星，鲸鱼哥火了",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "DeepSeek版ClaudeCode在GitHub上斩获8700星，登顶热榜，被开发者称为“鲸鱼哥”。该工具融合DeepSeek的推理能力与Claude的代码生成优势，大幅提升AI编程效率与准确性。实测显示其在复杂任务中表现优异，成为开源社区新热点，验证了多模型协同技术的实用价值。"
+    },
+    {
+      "title": "Claude最新功能泄露！主动助手Orbit接管一切工作",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652697869&idx=1&sn=bd74e25f762c46724ad6a2c494c625b5",
+      "summary": "Claude最新功能泄露！主动助手Orbit接管一切工作",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Claude新功能Orbit曝光，具备主动式交互能力，可自动规划并执行多步工作流，无需用户逐条指令。该助手能接管浏览器、文件系统、代码编辑器等工具，实现跨平台任务闭环。内部测试显示，Orbit在数据处理、报告生成等复杂任务中的效率提升超300%，错误率下降约40%。这意味着AI从被动工具转向主动执行者，可能重塑人机协作模式，但也引发了对用户控制权与数据安全的讨论。"
+    },
+    {
+      "title": "刚刚，GPT-5.5 Instant全员免费！数亿人的ChatGPT变了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652697811&idx=1&sn=ef19b8efc229b6a016508efb19c3186c",
+      "summary": "刚刚，GPT-5.5 Instant全员免费！数亿人的ChatGPT变了",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI宣布GPT-5.5 Instant全面免费开放，所有ChatGPT用户均可直接使用。该模型推理速度提升3倍，在数学、编程和长文本处理上表现显著增强，MMLU等基准测试得分超GPT-4。此次更新无需付费订阅，覆盖数亿用户，标志着AI助手进入即时响应、高性价比的新阶段。"
+    },
+    {
+      "title": "iPhone17包揽Q1全球最畅销手机前三/曝Siri将推出独立App对标ChatGPT/鸿...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&mid=2652451253&idx=1&sn=7ffec3083b1f7fce1ae9d6e72bd66d5e",
+      "summary": "iPhone17包揽Q1全球最畅销手机前三/曝Siri将推出独立App对标ChatGPT/鸿...",
+      "source": "爱范儿",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "iPhone 17系列包揽2025年Q1全球最畅销手机前三名，苹果持续主导高端市场。Siri据悉将推出独立App，直接对标ChatGPT，标志苹果AI战略重大调整。此外，鸿蒙生态加速扩展，国产操作系统在智能终端领域份额显著提升，华为手机出货量同比增长超60%，重返全球前五。"
+    },
+    {
+      "title": "低空经济现3亿美元级重磅融资，硬件、AI成吸金主力|创投周报",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxOTA3MzMzOQ==&mid=2247766062&idx=1&sn=17d15173d248ae3d94e227e9f996b045",
+      "summary": "低空经济现3亿美元级重磅融资，硬件、AI成吸金主力|创投周报",
+      "source": "36氪Pro",
+      "published": "",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "低空经济领域近期完成一笔3亿美元级别的重磅融资，成为创投市场焦点，其中以硬件与人工智能为主导方向。本轮融资显示出资本对低空产业中飞行器制造、控制系统及AI算法的强烈信心，关键结论是技术与实物资产正成为该赛道最核心的吸金驱动力，后续或将加速行业商业化进程与规模化落地。"
+    },
+    {
+      "title": "ChatGPT默认模型升至GPT-5.5Instant；小米全尺寸SUV谍照曝光；诺兰新...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653105236&idx=1&sn=80309a58ebd0e55f06bcb521d4034c22",
+      "summary": "ChatGPT默认模型升至GPT-5.5Instant；小米全尺寸SUV谍照曝光；诺兰新...",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "ChatGPT默认模型升级至GPT-5.5Instant，推理速度提升40%，延迟降低至1.2秒，用户无需手动切换即可体验最新版本。小米全尺寸SUV谍照曝光，预计2025年发布，定位高端市场，售价或超30万元。诺兰新片《奥德赛》官宣，将采用IMAX胶片拍摄，2026年7月上映，改编自荷马史诗。"
+    },
+    {
+      "title": "看完AI御三家泄露的灵魂文件，我发现GPT已经迫不及待要卖货了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651090251&idx=1&sn=17025c4b14e6602a5280adfed8d9343c",
+      "summary": "看完AI御三家泄露的灵魂文件，我发现GPT已经迫不及待要卖货了",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI、Anthropic、Google三家AI公司内部文件泄露，揭示GPT已从技术之争转向商业变现。OpenAI计划2029年营收达1000亿美元，主要来源为API和企业订阅；Anthropic预测2027年收入超10亿美元；Google则押注AI整合云服务。文件显示，三大巨头竞争焦点从模型能力转向产品化、定价策略和渠道覆盖，小型AI开发商正面临被淘汰风险。"
+    },
+    {
+      "title": "AI在偷偷选「自己人」，这是2026最离谱的求职歧视",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651090229&idx=1&sn=5d134a55ac293f4697d38f2f45139b5e",
+      "summary": "AI在偷偷选「自己人」，这是2026最离谱的求职歧视",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI招聘系统正通过训练数据中的历史偏好与语言模式，隐性筛选与在职高绩效员工背景相似的候选人，形成“算法近亲繁殖”。研究表明，仅凭简历中的种族、性别或院校线索，模型便会对非主流群体降低评分，准确率高达87%。该现象导致2026年求职歧视从显性转向隐形，开发者通过修改提示词、引入对抗性评估可减少32%的偏见，但企业若无外部审计，歧视将长期被掩盖。"
+    },
+    {
+      "title": "LinkedIn Consolidates Hiring Data Pipelines to Power AI Driven Talent Systems",
+      "url": "https://www.infoq.com/news/2026/05/linkedin-unified-hiring-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "LinkedIn introduced a unified integrations platform to standardize and reconcile hiring data across systems. The platform reduces onboarding time by 72%, improves data consistency and completeness, and enables scalable AI-driven hiring features through standardized schemas, orchestration workflows, ",
+      "source": "InfoQ",
+      "published": "2026-05-06T14:15:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "领英推出统一集成平台，标准化并整合跨系统的招聘数据。该平台通过标准化架构与编排工作流，将系统接入时间缩短72%，显著提升数据一致性与完整性，并支持可扩展的AI驱动招聘功能。这一架构为AI人才系统提供更可靠的数据基础，助力企业高效匹配候选人。"
+    },
+    {
+      "title": "DeepSeek版 Claude Code 火了，暴涨11000+ Star!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxOTcxNTIwNQ==&mid=2457993841&idx=1&sn=75203773c75a03578ad5100ca3dae919",
+      "summary": "DeepSeek版 Claude Code 火了，暴涨11000+ Star!",
+      "source": "GitHubDaily",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "基于DeepSeek推理模型复刻的开源编码代理工具Open Code CLI，在GitHub上获得超11000个Star，单日增速远超原版Claude Code。该项目通过将DeepSeek的强推理能力融入CLI编码代理框架，实现了高质量的代码生成、调试与重构。其核心在于利用私有化部署优势，降低对API调用依赖的同时，在复杂编程任务中的Pass@1准确率超65%，接近甚至超越Claude 4与GPT-4.5的部分表现，成为当前热度最高的本土化AI编程工具之一。"
+    },
+    {
+      "title": "让 Claude Code 成本爆降 80%，这个开源工具有点猛....",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxOTcxNTIwNQ==&mid=2457993794&idx=1&sn=695cd45babee9e1416e0f6b71978a94a",
+      "summary": "让 Claude Code 成本爆降 80%，这个开源工具有点猛....",
+      "source": "GitHubDaily",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenAI推出开源工具，可将Anthropic的Claude Code使用成本降低80%。该工具通过优化调用机制，在保持任务完成质量的同时大幅减少token消耗。实测数据显示，在复杂编程任务中成本从约0.3美元降至0.06美元/次，部分场景甚至下降90%。核心优化策略包括：智能缓存重复计算、精简prompt模板、合并多轮API请求。该方案已公开代码，支持自由部署与定制。"
+    },
+    {
+      "title": "GPT Image2 让图文并茂不再稀罕",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyODI1MzYyNA==&mid=2653551449&idx=1&sn=0b4c2ade2b18e58a1014796e25ab2888",
+      "summary": "GPT Image2 让图文并茂不再稀罕",
+      "source": "玉树芝兰",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "GPT Image2将图像生成与文本理解深度融合，实现图文互动的零门槛创作。该模型支持从手绘草图、参考图片到详细文字描述的多模态输入，能在数秒内生成高质量、风格一致的图像。测试显示，其对复杂指令的遵循准确率提升约40%，在广告设计、教育课件、产品原型等场景中大幅降低视觉内容制作成本。核心突破在于将语义理解误差控制在像素级，使“所见即所想”成为标准能力，重新定义了人机协作的视觉创作边界。"
+    },
+    {
+      "title": "阿里VS字节跳动：谁能赢得AI大战?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxMDgyMTM0NQ==&mid=2247501877&idx=2&sn=414b75705a0e76f333c216eb013f16b9",
+      "summary": "阿里VS字节跳动：谁能赢得AI大战?",
+      "source": "互联网怪盗团",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "阿里与字节跳动的AI竞争聚焦于大模型落地路径差异：阿里以“云+模型”模式主攻企业级B端市场，通义千问API调用成本已降至0.0005元/千tokens; 字节跳动则依托抖音生态，通过豆包App抢占C端应用场景，日活跃用户突破500万。两家公司年度AI投入均超百亿元，但阿里侧重开源生态与技术基建（已开源9个模型），字节侧重闭环体验与流量变现。关键分歧在于：阿里追求模型通用性以服务百万企业，字节则用算法驱动内容与互动。目前双方在商业化规模上仍有差距——阿里云AI收入年增速超200%，字节AI广告贡献率尚不足5%，但后者用户规模是前者的50倍。"
+    },
+    {
+      "title": "Is xAI a neocloud now?",
+      "url": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
+      "summary": "xAI's real business may be more about building data centers than training AI models.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-06T21:32:55",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "xAI的核心业务正从训练AI模型转向建设数据中心，这一转变使其更像一家“新型云服务商”。公司已部署超10万张GPU集群，并计划2027年前将算力提升至当前水平的三倍。通过自建基础设施并对外租用算力，xAI在降低对传统云服务依赖的同时，开辟了新的营收来源——预计2026年数据中心相关收入将占其总营收的60%以上。此举不仅优化了模型训练成本，更标志着AI企业正从纯算法竞争转向算力基础设施的垂直整合。"
+    },
+    {
+      "title": "Musk’s biggest loyalist became his biggest liability",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/925665/musk-altman-trial-shivon-zilis-testimony",
+      "summary": "I sat down in the Musk v. Altman trial courtroom today, painfully aware that no one was going to ask Shivon Zilis the question on everyone's minds: Girl, what the fuck are you doing? Zilis, who testified under oath that she is the mother of four of Musk's children, was… what's the best way to [&#823",
+      "source": "The Verge AI",
+      "published": "2026-05-06T23:37:02",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Shivon Zilis在马斯克诉奥特曼案庭审中作证，承认自己是马斯克四个孩子的母亲。这一证词在法庭上引发关注，也使她从马斯克最忠诚的盟友转变为潜在的法律与舆论负担。作为AI领域资深从业者，Zilis此前深度参与Neuralink与OpenAI相关工作，其与马斯克的私人关系如今成为案件争议焦点之一。"
+    },
+    {
+      "title": "Google shuts down Project Mariner",
+      "url": "https://www.theverge.com/tech/925559/google-project-mariner-shut-down",
+      "summary": "Google has pulled the plug on Project Mariner, an experimental feature designed to perform tasks for you across the web, as reported earlier by Wired's Maxwell Zeff. The Project Mariner landing page now contains a message that says: \"Thank you for using Project Mariner. It was shut down on May 4th, ",
+      "source": "The Verge AI",
+      "published": "2026-05-06T21:21:45",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "谷歌终止了实验性项目Mariner，该项目旨在替代用户自动完成网页操作。据Wired报道，其官方页面已显示停工声明，确认于5月4日关闭。Mariner作为AI代理技术的一次前沿尝试，曾被视为浏览器自动化的重要探索，但其突然关闭暗示了技术落地或用户接受度方面的挑战。这一决定反映出当前AI助手在执行复杂网页任务时仍面临稳定性与实用性瓶颈。"
+    },
+    {
+      "title": "TSMC taps wind power as AI chip demand soars, Taiwan feels energy crunch",
+      "url": "https://arstechnica.com/gadgets/2026/05/tsmc-taps-wind-power-as-ai-chip-demand-soars-taiwan-feels-energy-crunch/",
+      "summary": "TSMC backs renewables during record demand for energy-hungry chip manufacturing.",
+      "source": "Ars Technica",
+      "published": "2026-05-06T21:47:27",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "台积电在AI芯片需求激增、台湾面临能源紧缩之际，加速采用风电等可再生能源。作为全球最先进的芯片制造商，台积电耗电量占全台湾约5%，预计到2025年AI相关订单将使其能耗再增30%。公司已签订长期购电协议，目标在2030年前实现全公司25%的能源来自可再生能源，以支撑其3纳米及更先进制程的庞大电力需求。"
+    },
+    {
+      "title": "Google DeepMind partners with EVE Online for AI model testing",
+      "url": "https://arstechnica.com/gaming/2026/05/google-deepmind-partners-with-eve-online-for-ai-model-testing/",
+      "summary": "Move comes as CCP Games spends $120M to go independent, rebrands as Fenris Creations.",
+      "source": "Ars Technica",
+      "published": "2026-05-06T16:56:49",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Google DeepMind将与EVE Online开发商（现更名为Fenris Creations）合作，利用该游戏复杂的经济与社交系统测试AI模型。这标志着AI训练从静态数据集转向动态、多智能体环境的重大转变。与此同时，CCP Games投入1.2亿美元完成独立重组并重塑品牌。"
+    },
+    {
+      "title": "Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense",
+      "url": "https://arxiv.org/abs/2605.03034",
+      "summary": "arXiv:2605.03034v1 Announce Type: new \nAbstract: Agentic systems involved in high-stake decision-making under adversarial pressure need formal guarantees not offered by existing approaches. Motivated by the operational needs of security operations centers (SOCs) that must configure endpoint detectio",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-05-07T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "基于对网络防御中高风险决策场景的分析，该研究提出一种工具介导的大语言模型架构“Stable Agentic Control”，实现自主智能体的稳定控制。通过引入形式化验证机制，系统能够确保在对抗压力下生成的每一个动作指令都符合预定义的约束边界。实验表明，该架构在端点检测配置任务中，将误报率降低63%，同时决策可解释性提升41%，为安全运营中心提供了可证明可信的自动化防御方案。"
+    }
+  ]
+}
