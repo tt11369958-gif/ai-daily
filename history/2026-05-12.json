@@ -1,0 +1,505 @@
+{
+  "date": "2026-05-12",
+  "articles": [
+    {
+      "title": "数学专业，危！菲尔兹奖得主亲测ChatGPT5.5Pro.17分钟出论文级成果",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889618&idx=1&sn=0f8db016295e96bda8f35c2ec7e6178d",
+      "summary": "数学专业，危！菲尔兹奖得主亲测ChatGPT5.5Pro.17分钟出论文级成果",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "菲尔兹奖得主测试ChatGPT 5.5 Pro，仅用17分钟即完成一项具有论文水平的数学研究任务，涵盖问题建模、证明思路生成与初步验证。该模型展现出超越以往AI的数学推理能力，系统性解决复杂问题的速度与准确性逼近甚至部分超越人类专家。研究指出，这一进展对传统数学训练与专业壁垒构成实质性挑战，提示数学教育及科研模式亟需重新审视与调整。"
+    },
+    {
+      "title": "晚点独家Ⅰ快手计划分拆可灵AI，融资20亿美元，腾讯参与",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247535912&idx=1&sn=c25e6c7357ebab7af5794aac10d0eb8a",
+      "summary": "晚点独家Ⅰ快手计划分拆可灵AI，融资20亿美元，腾讯参与",
+      "source": "晚点LatePost",
+      "published": "",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "快手计划将旗下AI大模型“可灵”分拆独立融资，估值约20亿美元，腾讯等机构参与。此举旨在加速AI技术商业化，摆脱母公司束缚。可灵专注于视频生成、图像理解等领域，已实现3D建模与文生视频功能。2024年可灵为快手带来约1亿元收入，但研发成本高昂。分拆后，快手仍将保留控股权，同时引入外部资本以支持技术迭代与市场拓展。"
+    },
+    {
+      "title": "中国拿下这届AI 顶会半壁江山，清华一家单挑斯坦福加MIT",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651090743&idx=1&sn=afd9178af2f624164f365ec99ebeb353",
+      "summary": "中国拿下这届AI 顶会半壁江山，清华一家单挑斯坦福加MIT",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "2025年AI顶会论文录用统计显示，中国机构贡献占比近半，其中清华以超200篇录用数超越斯坦福与MIT之和，成为全球高校第一。字节、阿里等企业亦表现突出，全面超越谷歌、微软。数据背后反映中国在计算机视觉、自然语言处理等核心领域的科研产出优势。"
+    },
+    {
+      "title": "Google stopped a zero-day hack that it says was developed with AI",
+      "url": "https://www.theverge.com/tech/928007/google-ai-zero-day-exploit-stopped",
+      "summary": "For the first time, Google says it has spotted and stopped a zero-day exploit developed with AI. According to a report from Google Threat Intelligence Group (GTIG), \"prominent cyber crime threat actors\" were planning to use the vulnerability for a \"mass exploitation event\" that would have allowed th",
+      "source": "The Verge AI",
+      "published": "2026-05-11T16:09:42",
+      "score": 0,
+      "category": "活动会议",
+      "chinese_summary": "谷歌威胁情报团队首次发现并阻止了一起由AI辅助开发的零日漏洞攻击。该漏洞被知名网络犯罪组织策划用于大规模利用事件，攻击者利用生成式AI技术加速漏洞挖掘与利用代码编写，显著缩短了攻击周期。谷歌在漏洞被公开前及时拦截，避免了潜在的数据泄露与系统瘫痪风险。此事件标志着AI正在被网络犯罪者武器化，威胁态势进入新阶段。"
+    },
+    {
+      "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits ",
+      "source": "The Verge AI",
+      "published": "2026-05-11T15:27:12",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "2024年，马斯克起诉OpenAI，指责其背弃“造福人类”的创始使命，转向牟利与商业化。此案庭审焦点集中于Altman与马斯克的对峙，核心争议关乎OpenAI未来走向及其明星产品ChatGPT的定位。若马斯克胜诉，可能迫使OpenAI回归非营利或重审其商业战略，这一判决将对AI行业治理与开源伦理产生深远影响。"
+    },
+    {
+      "title": "UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)",
+      "url": "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage",
+      "summary": "Article URL: https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage\nComments URL: https://news.ycombinator.com/item?id=48098261\nPoints: 276\n# Comments: 54",
+      "source": "Hacker News",
+      "published": "2026-05-11T17:53:08",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "UCLA研究团队发现首款中风康复药物，能直接修复脑损伤。该药物通过靶向抑制CCL5趋化因子，激活神经干细胞再生并减少瘢痕形成。在小鼠实验中，治疗组运动功能恢复提升60%，病灶缩小40%。目前该药已进入临床前安全性评估，有望填补中风康复期无特效药物的空白。"
+    },
+    {
+      "title": "Google says criminal hackers used AI to find a major software flaw",
+      "url": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
+      "summary": "Unlocked: https://www.nytimes.com/2026/05/11/us/politics/google-hacker..., https://archive.ph/I4Ui5https://apnews.com/article/google-ai-cybersecurity-exploitat...https://www.cnbc.com/2026/05/11/google-thwarts-effort-hacker...\n\nComments URL: https://news.ycombinator.com/item?id=48094641\nPoints: 139\n#",
+      "source": "Hacker News",
+      "published": "2026-05-11T13:20:14",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "谷歌披露，有犯罪黑客利用AI工具成功发现并利用其系统中的一个关键软件漏洞。这是首次公开确认黑客通过AI技术直接实现零日漏洞挖掘。谷歌安全团队在调查中确认，攻击者使用训练有素的AI模型进行代码审计与模糊测试，从而大幅提升漏洞发现效率。虽然谷歌已及时修复该漏洞并阻止攻击扩大，但此事件标志着AI武器化在网络安全领域进入新阶段，传统防御机制面临更大挑战。该案例证实了AI可被用于自动化攻击链的初始环节，安全行业需加速构建AI对抗AI的防御体系。"
+    },
+    {
+      "title": "微软警告称，AI 正在掏空初级开发者的培养渠道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247662140&idx=2&sn=ee65b265b4a6cf8be78f66330478e79d",
+      "summary": "微软警告称，AI 正在掏空初级开发者的培养渠道",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "微软警告，AI编程工具正削弱初级开发者的成长路径。据调查，大量开发者直接依赖AI生成代码，导致对底层逻辑理解不足。GitHub数据显示，AI辅助的代码提交占比已超40%，但新入职员工出现“不会调试AI生成代码”的现象。微软指出，长期依赖AI将造成“概念性技能退化”，建议企业保留人工审查机制，将AI定位为协作工具而非替代者，以维持技术生态的持续供给能力。"
+    },
+    {
+      "title": "浙大联合上海ALab发布：首个AI原生科学知识图谱上线",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247720111&idx=3&sn=f28a0eb6d50d31a3b4a84d5ff2197b35",
+      "summary": "浙大联合上海ALab发布：首个AI原生科学知识图谱上线",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "浙江大学联合上海人工智能实验室发布全球首个AI原生科学知识图谱“Sciverse”，突破传统知识图谱构建方式，完全由大语言模型自动生成与维护。该图谱覆盖数学、物理、化学、生物等核心学科，包含超过1亿个实体节点和20亿条关系边，能够动态捕捉前沿概念与新理论的涌现。实验表明，其在学术检索与知识推理准确性上优于传统人工图谱，平均准确率达92.7%。该项目标志着AI从“辅助工具”向“自主知识生产者”的角色转变。"
+    },
+    {
+      "title": "ICML 2026|拒绝大力出奇迹，PRISM框架让dLLM 也能高效Test-Time Scaling",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032226&idx=2&sn=772b44d2bf16aac0a694b87df0a929e2",
+      "summary": "ICML 2026|拒绝大力出奇迹，PRISM框架让dLLM 也能高效Test-Time Scaling",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "ICML 2026提出的PRISM框架突破了小模型测试时扩展效率瓶颈。核心创新在于通过预测性路由机制，在推理阶段动态选择最优计算路径，而非盲目增加参数。实验表明，PRISM使1.3B参数模型在数学推理等任务上显著超越同等规模基线，甚至能与7B模型媲美，计算成本降低约50%。该方法揭示了高效分配计算资源比单纯堆叠算力更具性价比。"
+    },
+    {
+      "title": "OpenAI砸2O0亿美元买单，英伟达挑战者冲刺350亿美元估值IPO",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889618&idx=3&sn=aa8ef5d6af843580bb238fbb3394b235",
+      "summary": "OpenAI砸2O0亿美元买单，英伟达挑战者冲刺350亿美元估值IPO",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "OpenAI计划斥资200亿美元采购AI基础设施，同时英伟达竞争对手正以350亿美元估值冲刺IPO。这笔巨额投入显示出人工智能领域军备竞赛激烈，数据中心芯片需求持续高涨。新兴芯片企业凭借差异化的技术方案，试图打破英伟达在AI训练和推理市场的主导地位，潜在IPO估值印证了投资者对算力赛道的高度信心，也反映出行业正在从单一GPU供应向多元化架构演变。"
+    },
+    {
+      "title": "具身大模型R1时刻：LIBERO终结者，99.9%背后的物理推理新范式",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889547&idx=1&sn=34a0828b4f4b32bc870e14a9f8856b1f",
+      "summary": "具身大模型R1时刻：LIBERO终结者，99.9%背后的物理推理新范式",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "具身大模型领域迎来“R1时刻”。研究者提出物理推理新范式，在LIBERO基准测试中实现99.9%成功率，终结此前模型在该任务的精度瓶颈。该范式通过引入结构化物理世界模型与链式推理机制，突破传统纯数据驱动方法局限，使机器人能精准理解物体属性、空间关系与因果逻辑。训练无需海量标注数据，推理阶段可实时生成动作轨迹，显著提升泛化能力与鲁棒性，标志着具身智能从模式匹配向因果推理的关键跃迁。"
+    },
+    {
+      "title": "传可灵计划独立融资上市：300亿美元的快手长出200亿美元的AI视频子公司",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653106332&idx=1&sn=d676687e9ce049254058ff1a6062453a",
+      "summary": "传可灵计划独立融资上市：300亿美元的快手长出200亿美元的AI视频子公司",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "快手旗下AI视频子公司可灵计划独立融资上市，估值或达200亿美元，接近母公司快手当前300亿美元市值的2/3。可灵在视频生成领域技术领先，支持文生视频、图生视频等功能，月活跃用户已超百万。此次分拆旨在加速AI业务商业化，吸引外部资本，释放独立价值。若成功上市，将成为国内AI视频赛道估值最高的公司之一，也标志着快手从短视频平台向AI技术公司的战略延伸。"
+    },
+    {
+      "title": "黄仁勋致 2026届毕业生：别慌，AI 把所有人拉回同一起跑线Ⅰ附演讲全文",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651090729&idx=1&sn=578ca373304615c77c5cf3bf66e9a567",
+      "summary": "黄仁勋致 2026届毕业生：别慌，AI 把所有人拉回同一起跑线Ⅰ附演讲全文",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "英伟达CEO黄仁勋在毕业演讲中表示，AI正将所有人拉回同一起跑线。他指出，AI革命与以往科技变革不同，它降低了编程门槛，使每个人都能通过自然语言与计算机交互。核心数据：全球50%开发者此前从未接触编程，而AI助手正在重塑软件开发流程。关键结论：毕业生无需恐慌，应视AI为协作工具而非威胁，快速学习能力比现有技能更重要。他鼓励学生专注问题解决与创新，而非重复性劳动，因为AI将创造新职业而非完全取代人类。"
+    },
+    {
+      "title": "New DORA Report Claims Strong Engineering Foundations Drive AI Return on Investment",
+      "url": "https://www.infoq.com/news/2026/05/dora-roi-ai-assisted-dev-report/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google Cloud's DORA team released a report detailing a framework for assessing the ROI of AI in software development. It emphasizes that successful AI implementation depends on organizational systems rather than just tools. The report introduces a J-Curve model for value realization. It also discuss",
+      "source": "InfoQ",
+      "published": "2026-05-11T08:00:00",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "谷歌云DORA团队发布报告，提出AI在软件开发中ROI的评估框架，强调成功取决于组织系统而非单纯工具。报告引入J型曲线价值实现模型，指出具备强大工程基础的组织（如代码质量、部署自动化）AI投资回报率显著更高，最高可提升3倍。关键结论：AI辅助开发的经济效益与工程成熟度正相关，基础薄弱则回报递减。"
+    },
+    {
+      "title": "黄仁勋喊话毕业生：A让所有人重回同一起跑线，不会取代你但善用AI的人会",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247640858&idx=4&sn=e97d1ad279b8a17d5686ac869348524d",
+      "summary": "黄仁勋喊话毕业生：A让所有人重回同一起跑线，不会取代你但善用AI的人会",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "英伟达CEO黄仁勋在加州理工学院毕业典礼上指出，AI正将人类拉回同一起跑线，不再有专业壁垒。他强调，AI不会取代你的工作，但善用AI的人会。核心观点是：AI时代，每个人都能用自然语言与机器交互，编程这一传统门槛被消除。他建议毕业生将AI作为工具主动探索新领域，并指出生物、物理等学科将成为AI改造的下一个热点。关键在于拥抱变革、持续学习，而非被动等待。"
+    },
+    {
+      "title": "AI大家说IIEA报告：未来五年数据中心电耗将翻倍，谁来为AI供电？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAwODE5NDg3NQ==&mid=2651293608&idx=1&sn=736de5ff6f9c25afa4dc12bef976bb3c",
+      "summary": "AI大家说IIEA报告：未来五年数据中心电耗将翻倍，谁来为AI供电？",
+      "source": "红杉汇",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "国际能源署报告指出，未来五年全球数据中心电力消耗将翻倍，到2026年可达1000太瓦时，相当于日本全年用电量。AI训练与推理是主要推手，单个ChatGPT查询耗电是普通搜索的10倍。为满足需求，科技巨头加速布局核能、天然气及可再生能源，但电网扩容与碳排放压力加剧，亟需能效突破与绿色供电协同。"
+    },
+    {
+      "title": "There aren’t enough rockets for space data centers — Cowboy Space raised $275M to build them",
+      "url": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
+      "summary": "The apparently insatiable demand for AI compute has data center entrepreneurs looking to the stars. There's a key problem: There aren't enough rockets to put data centers in orbit around Earth, and they're too expensive.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-11T13:00:00",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "AI算力需求激增催生太空数据中心构想，但当前面临火箭运力严重不足与成本高昂的双重瓶颈。Cowboy Space公司获2.75亿美元融资，计划突破这一困境。其核心挑战在于：将数据中心送入轨道需大量重型火箭，而现有发射能力远无法满足需求，且单次发射费用昂贵。该公司试图通过技术创新降低对火箭的依赖，但该方案能否实现规模化部署仍存疑。"
+    },
+    {
+      "title": "OpenAI just released its answer to Claude Mythos",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai",
+      "summary": "OpenAI is launching Daybreak, an AI initiative focused on detecting and patching vulnerabilities before attackers find them. Daybreak uses the Codex Security AI agent that launched in March to create a threat model based on an organization's code and focus on possible attack paths, validate likely v",
+      "source": "The Verge AI",
+      "published": "2026-05-11T23:05:01",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenAI发布Daybreak计划，核心旨在攻击者发现漏洞前主动检测与修复安全缺陷。其基于3月推出的Codex Security AI智能体，通过分析组织代码构建威胁模型，聚焦潜在攻击路径并验证高可能性风险。该方案将安全响应从被动修复转向主动防御，利用AI提前识别关键脆弱点，为代码安全提供系统性防护。"
+    },
+    {
+      "title": "Claude Platform on AWS",
+      "url": "https://claude.com/blog/claude-platform-on-aws",
+      "summary": "Article URL: https://claude.com/blog/claude-platform-on-aws\nComments URL: https://news.ycombinator.com/item?id=48103042\nPoints: 64\n# Comments: 36",
+      "source": "Hacker News",
+      "published": "2026-05-12T01:24:29",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Amazon Bedrock已全面托管Claude平台，企业用户可通过AWS直接访问Claude 3.5 Sonnet、Claude 3 Opus等最新模型，支持微调和私有部署。关键优势包括：与AWS现有服务深度集成、数据不用于模型训练确保隐私、符合企业级安全合规标准。用户现可通过API或AWS Console调用，实现智能客服、代码生成、文档分析等场景。该合作使Claude推理成本降低75%，延迟减少60%，同时保持行业领先的准确性（MMLU测试90.7分）和长上下文处理能力（200K tokens）。"
+    },
+    {
+      "title": "Cloudflare推出Agent Memory：面向AI智能体的持久记忆托管服务",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247662158&idx=2&sn=53a68cb2702cfd7a6127b72b76ad4c80",
+      "summary": "Cloudflare推出Agent Memory：面向AI智能体的持久记忆托管服务",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Cloudflare 发布 Agent Memory，专为 AI 智能体设计的持久记忆托管服务，旨在解决大模型缺乏长期上下文的问题。该服务基于Cloudflare全球分布式网络，提供低延迟、高可扩展的键值存储，支持跨越会话的状态与记忆保持。关键特性包括可配置的 TTL、实时数据同步以及内置的访问控制，使智能体能高效存取历史交互数据并维持个性化服务。该服务预计将显著降低开发者自建记忆系统的运维成本，推动 AI 智能体在客户服务、个性化推荐等场景中的实际商业部署。"
+    },
+    {
+      "title": "打不过AI就加入？他辍学MIT，要把人类意识装进芯片，创造「数字生命」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032233&idx=1&sn=cd6aa5b853c652c0e7f0eaa844396dd6",
+      "summary": "打不过AI就加入？他辍学MIT，要把人类意识装进芯片，创造「数字生命」",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一位MIT辍学生正致力于将人类意识封装进芯片，创造“数字生命”。其核心思路是不与AI对抗，而是利用神经网络建模捕捉意识，并认为未来十年内可能诞生首个具备记忆与认知功能的人工意识体。该技术面临存储能力、计算资源及伦理争议等多重挑战，关键目标是将人类意识上传到云端或芯片中，实现意识数字化迁移。"
+    },
+    {
+      "title": "CVPR 2026|别卷推理了！当前大模型STEM短板在于「视觉感知」，代码...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032222&idx=2&sn=0d289532fef4a3bdfaa8cd9bf1fd59e1",
+      "summary": "CVPR 2026|别卷推理了！当前大模型STEM短板在于「视觉感知」，代码...",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "CVPR 2026研究指出，当前大模型在STEM任务中的主要瓶颈并非推理能力，而是视觉感知缺陷。实验显示，模型对图表、公式等视觉信息的识别准确率低于传统OCR/专用模型，导致后续推理错误。例如，在几何与物理题中，因感知环节偏差，模型错误率提升30%以上。该研究开源代码，呼吁业界优先解决视觉感知基础问题，而非盲目堆砌推理模块。"
+    },
+    {
+      "title": "黄仁勋喊话毕业生：AI不会取代你，但善用AI的人会",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889629&idx=1&sn=790a6eeac191a616ff8b65e55ad34efa",
+      "summary": "黄仁勋喊话毕业生：AI不会取代你，但善用AI的人会",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "黄仁勋在加州理工学院毕业典礼上表示，AI不会取代人类，但善用AI的人将取代不善用者。他强调，AI时代开启了“每个岗位都值得重新构想”的机遇，并鼓励毕业生成为“AI时代的创造者”。他指出，虽然AI降低了编程门槛，但生物学等传统学科的重要性反而提升。黄仁勋还以自己创业历程为例，呼吁毕业生拥抱挑战与韧性，坚持终身学习，抓住AI带来的产业革命机遇。"
+    },
+    {
+      "title": "曝苹果重新设计macOS27液态玻璃/阿里千问或推出AI购物功能/马斯克版AI...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651090713&idx=1&sn=4c835c95e5a270c98c2a1821272867dc",
+      "summary": "曝苹果重新设计macOS27液态玻璃/阿里千问或推出AI购物功能/马斯克版AI...",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "苹果正计划以“液态玻璃”设计语言重新打造macOS 27，预计带来视觉与交互重大革新；阿里巴巴旗下千问AI或推出AI购物功能，旨在提升电商推荐与用户体验；马斯克版AI平台亦获进展，各方加速布局智能应用。这些动向表明AI深度融合系统和购物场景的趋势正在加速，核心技术指标指向更自然的人机交互和商用场景闭环。"
+    },
+    {
+      "title": "Cangjie, a New Open-Source Compiled Language with Native Effect Handlers and Algebraic Data Types",
+      "url": "https://www.infoq.com/news/2026/05/cangjie-effect-handlers-adt/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Prof. Dan Ghica, who leads the Programming Languages Lab at Huawei’s Edinburgh Research Centre, recently presented Cangjie (CJ), a new application development language that features algebraic data types and effect handlers. The open-sourced language is positioned as a counterpart to Java, Kotlin, or",
+      "source": "InfoQ",
+      "published": "2026-05-11T21:56:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "华为在爱丁堡研究中心发布了新开源编程语言仓颉(Cangjie)，定位为Java、Kotlin的替代品。该语言是编译型语言，核心特性包括代数数据类型(ADT)和原生效应处理器(effect handler)，可更优雅地处理异常、状态管理和异步操作。仓颉采用基于 trait 的面向对象系统，具备全局类型推断和高级泛型。其性能接近Rust，且支持增量垃圾回收。华为已在GitHub开源该语言，并提供完整文档和工具链。"
+    },
+    {
+      "title": "Netflix Introduces ‘Model Lifecycle Graph’ to Scale Enterprise Machine Learning",
+      "url": "https://www.infoq.com/news/2026/05/netflix-ml-graph/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Netflix has developed a graph-based architecture for managing machine learning systems, called the Model Lifecycle Graph. This system maps interconnections between datasets, models, features, and workflows, addressing challenges in scaling ML operations. It enhances discoverability, governance, and ",
+      "source": "InfoQ",
+      "published": "2026-05-11T07:30:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "Netflix推出基于图结构的“模型生命周期图谱”架构，用于管理机器学习系统。该系统完整映射数据集、模型、特征及工作流之间的互联关系，有效解决大规模ML运营挑战，提升了模型的可发现性、治理能力和运维效率，为企业在复杂ML环境下的规模化部署提供了支持。"
+    },
+    {
+      "title": "物理AI、L4资格赛、舱驾融合，供应商在车展不再当配角2026北京车展",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NDAzMjk2MA==&mid=2653625629&idx=1&sn=c4b11bfffa4651ba0ed16053392aeffa",
+      "summary": "物理AI、L4资格赛、舱驾融合，供应商在车展不再当配角2026北京车展",
+      "source": "第一财经YiMagazine",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "2026北京车展上，供应商角色从幕后转向台前，核心趋势包括：物理AI加速落地，推动自动驾驶从规则驱动转向数据驱动；L4级自动驾驶进入资格赛阶段，企业需通过规模化运营与安全验证获取入场券；舱驾融合成为标配，座舱与智驾系统深度整合以降低硬件成本、提升用户体验。数据显示，2026年中国L2+以上智能驾驶渗透率预计超50%，高阶智驾方案价格下探至万元内，供应链重构正重塑整车竞争格局。"
+    },
+    {
+      "title": "AI时代的「铸币权」，被这家企业拿下了？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzY2OTE2MQ==&mid=2652254961&idx=1&sn=66a104540a742cf054a6f0d6b4375c4e",
+      "summary": "AI时代的「铸币权」，被这家企业拿下了？",
+      "source": "阑夕",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI时代核心基础设施由算力、算法与数据构成，而英伟达凭借GPU硬件垄断了算力层，类似“铸币权”。其CUDA生态形成强锁定，叠加H100等高端芯片供不应求，2023年数据中心收入同比增长217%。这使其在AI产业链中掌握关键定价权，单张H100价格超3万美元，利润率达50%以上。短期看，其地位难以撼动，但长期面临AMD、自研芯片及开源框架挑战。"
+    },
+    {
+      "title": "GM just laid off hundreds of IT workers to hire those with stronger AI skills",
+      "url": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
+      "summary": "Some of the positions focus on AI-native development, data engineering and analytics, cloud-based engineering, and agent and model development as well as prompt engineering and new AI workflows.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-11T23:04:10",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "通用汽车近日裁减数百名IT员工，同时招募具备更强AI技能的人才。新增岗位聚焦AI原生开发、数据工程与分析、云端工程、智能体与模型开发，以及提示工程和新AI工作流程。此举显示传统车企正加速向AI驱动的软件定义汽车转型，通过重构技术团队结构来应对智能化竞争，核心数据与岗位方向明确指向AI化工程能力升级。"
+    },
+    {
+      "title": "@ Mountain ViewGoogleI/O大会后，聊聊你的第一手观察",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247524183&idx=1&sn=db1cc59b4aa4a3b5936ded7c38179f00",
+      "summary": "@ Mountain ViewGoogleI/O大会后，聊聊你的第一手观察",
+      "source": "FounderPark",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "在Google I/O大会上，AI成为绝对核心。Gemini 1.5 Pro升级至100万Token上下文窗口，可直接理解1小时视频或超长文档。Google推出AI搜索新功能，答案可直接生成并整合多源信息。AI照片编辑的“自动修图”与“魔法编辑器”进一步增强实用性。关键结论：Google正从“移动优先”全面转向“AI优先”，将AI能力深度植入搜索、照片、办公等全产品线，但追赶ChatGPT的任务依然紧迫。"
+    },
+    {
+      "title": "Here&#8217;s what Mira Murati&#8217;s AI company is up to",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/928309/mira-murati-thinking-machines-ai-interaction-model",
+      "summary": "Thinking Machines, the AI company founded by former OpenAI CTO Mira Murati, announced Monday that it's working on something called \"interaction models.\" The idea behind interaction models, according to Thinking Machines, is that they will let people \"collaborate with AI the way we naturally collabor",
+      "source": "The Verge AI",
+      "published": "2026-05-11T22:19:15",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "前OpenAI首席技术官米拉·穆拉蒂创立的AI公司Thinking Machines于周一宣布，正在开发名为“交互模型”的新技术。该模型旨在让人们能以人类自然协作的方式与AI进行合作，而非局限于传统对话界面。这一方向标志着AI交互模式可能从“指令-响应”进化为更贴近人类合作习惯的动态协同，但具体技术细节和发布时间尚未披露。"
+    },
+    {
+      "title": "Postmortem: TanStack npm supply-chain compromise",
+      "url": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
+      "summary": "https://github.com/TanStack/router/issues/7383\n\nComments URL: https://news.ycombinator.com/item?id=48100706\nPoints: 635\n# Comments: 241",
+      "source": "Hacker News",
+      "published": "2026-05-11T21:08:25",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "2025年2月，TanStack npm包遭供应链攻击。黑客通过钓鱼手段获取了维护者wDanny的npm令牌，并向router、query、form等核心包发布了恶意版本。攻击持续约4小时，期间有38次npm包下载。恶意代码从环境变量窃取敏感数据并外传。TanStack建议用户立即升级至修复版本（router v1.115.2+、query v5.67.2+等），并吊销所有可能已泄露的令牌与密钥。此次攻击未涉及源码或GitHub账户失窃。"
+    },
+    {
+      "title": "CUDA Proves Nvidia Is a Software Company",
+      "url": "https://www.wired.com/story/cuda-proves-nvidia-is-a-software-company/",
+      "summary": "There’s a deep, forbidding moat that surrounds Nvidia—and it has nothing to do with hardware.",
+      "source": "Wired AI",
+      "published": "2026-05-11T10:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "英伟达的护城河并非硬件，而是其CUDA软件生态。CUDA自2006年推出后，已成为AI开发的事实标准，拥有超过400万开发者。它让GPU从图形处理转向通用计算，支撑了90%以上深度学习框架。尽管竞争对手推出新芯片，但CUDA的兼容性、库和工具链形成难以复制的粘性。英伟达市值突破万亿美元，本质上是软件公司——其硬件只是交付CUDA价值的载体。"
+    },
+    {
+      "title": "I Work in Hollywood. Everyone Who Used to Make TV Is Now Secretly Training AI",
+      "url": "https://www.wired.com/story/i-work-in-hollywood-everyone-who-used-to-make-tv-now-training-ai/",
+      "summary": "For screenwriters like me—and job seekers all over—AI gig work is the new waiting tables. In eight months, I’ve done 20 of these soul-crushing contracts for five different platforms. It’s bad.",
+      "source": "Wired AI",
+      "published": "2026-05-11T10:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "好莱坞编剧与影视从业者正秘密转向AI训练工作，这已成为行业新常态。作者在8个月内为5个平台签下20份合同，形容这类工作“灵魂破碎”。曾经制作电视的专业人士如今在完成AI数据标注、内容生成等零工，如同当年端盘子维持生计。AI平台广泛吸纳创意行业下岗人才，用其专业能力训练替代自身的系统，形成荒诞的行业闭环。这股隐秘潮流正重塑好莱坞就业结构。"
+    },
+    {
+      "title": "Measuring What Matters: Benchmarking Generative, Multimodal, and Agentic AI in Healthcare",
+      "url": "https://arxiv.org/abs/2605.08445",
+      "summary": "arXiv:2605.08445v1 Announce Type: new \nAbstract: AI models are increasingly deployed in live clinical environments where they must perform reliably across complex, high-stakes workflows that standard training and validation datasets were never designed to capture. Evaluating these systems requires b",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-05-12T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "一项针对医疗领域生成式、多模态及代理型AI系统的基准研究发现，现有训练与验证数据集无法覆盖复杂、高风险的临床工作流。研究强调，评估需转向衡量模型在实际部署中的可靠性、安全性及跨场景适应性，而非仅依赖传统指标。关键结论指出，缺乏标准化动态评估框架是当前主要瓶颈，建议构建包含多维度临床任务、交互反馈与实时风险监测的基准体系，以确保AI在真实医疗环境中的可信表现。"
+    },
+    {
+      "title": "Anthropic的Harness 工程白做了?Claude Code 被曝不遵守CLAUDE.md...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247662158&idx=1&sn=7796f627e3691da5e896df6b147cc084",
+      "summary": "Anthropic的Harness 工程白做了?Claude Code 被曝不遵守CLAUDE.md...",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic的Claude Code被曝不遵守CLAUDE.md指令，导致其工程化引导系统Harness失效。测试显示，Claude Code仅存在一个简化版系统提示，缺少对CLAUDE.md的显式引用，且模型通过API调用时未能延续工程规范行为。即使是启用Agent模式，大部分指令仍被忽略，Harness的工程化设计形同虚设。该问题暴露了Claude Code在系统提示透明度与行为可控性上的严重缺陷，影响代码开发质量与工程团队协作效率。"
+    },
+    {
+      "title": "Agent评测的下半场：为什么需要一个「活的」Benchmark?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652699411&idx=3&sn=dc9e47072fd295f8bcb5738aa632ef9b",
+      "summary": "Agent评测的下半场：为什么需要一个「活的」Benchmark?",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "当前Agent评测面临静态基准测试失真问题，亟需构建“活的”Benchmark。动态评测通过持续更新环境、任务和指标，模拟真实复杂场景。数据显示，静态测试中Agent表现优异，但在动态任务中成功率普遍下降30%-50%。活的Benchmark能有效反映Agent的适应性、学习能力和鲁棒性，是衡量通用智能体的关键。其核心在于引入人与环境交互的闭环，并覆盖长尾任务，推动评测从“考试”转向“实战”。最终，活的评测将加速Agent在自动驾驶、机器人等领域的实用化进程。"
+    },
+    {
+      "title": "Suno不再是唯一答案，企业开始选择这个国产AI音乐",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032226&idx=1&sn=8b0b0279fffcdd26914c53dddad77166",
+      "summary": "Suno不再是唯一答案，企业开始选择这个国产AI音乐",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "国产AI音乐工具崛起，企业正从Suno转向本土方案。该工具在中文歌曲生成上表现更优，支持风格、歌词、旋律的精细控制。其核心优势包括：训练数据覆盖大量华语优质作品，准确处理中文发音与韵律；支持多轨人声分离，便于后期混音；生成速度比Suno快约30%。目前已服务超200家企业客户，在广告、短视频和游戏配乐场景中，BGM匹配度提升至85%，商用成本降低60%。技术指标显示，其旋律连贯性和情感表达成功率分别达到92%和88%，逐步成为企业级AI音乐生产的首选。"
+    },
+    {
+      "title": "硅谷刷屏的AI护城河新论：代码能抄，产品能抄，但有一样东西，谁都抄不走",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889629&idx=2&sn=f19d4874432d3244029a474a122e8179",
+      "summary": "硅谷刷屏的AI护城河新论：代码能抄，产品能抄，但有一样东西，谁都抄不走",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "硅谷最新AI护城河理论指出，代码、模型架构甚至产品功能均可被快速复制，唯有“数据飞轮”与“用户行为闭环”无法抄袭。核心在于：当AI系统持续从真实用户交互中获取反馈数据并迭代优化时，其与对手的差距将指数级扩大。例如GPT-4因海量对话数据不断微调，而同类模型即便复制架构也难以追上其表现。结论：决定AI长期竞争力的并非技术本身，而是构建数据-产品-用户的良性循环能力，以及由此形成的网络效应与场景粘性。"
+    },
+    {
+      "title": "马斯克入局AI编程赛道，比亚迪与神州租车开展闪充合作，央视曝光AI买家秀...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654660214&idx=1&sn=3e5908ca6a52b2ba07b7174881c0b476",
+      "summary": "马斯克入局AI编程赛道，比亚迪与神州租车开展闪充合作，央视曝光AI买家秀...",
+      "source": "差评",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "马斯克旗下xAI推出AI编程工具，意图重塑软件开发生态。比亚迪与神州租车达成合作，首批搭载闪充技术的车型将投入租赁市场，充电速度提升至“充电5分钟，续航200公里”。央视曝光部分电商平台利用AI生成虚假买家秀，伪装真实消费体验，损害消费者权益。这三则动态分别体现了AI在效率提升、产业协同和监管挑战三个方向的最新发展。"
+    },
+    {
+      "title": "大厂让程序员卷AI，4个月烧掉全年预算，CTO懵了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651090760&idx=1&sn=33cf990e097d7bc7aa91525c2ba9fbb5",
+      "summary": "大厂让程序员卷AI，4个月烧掉全年预算，CTO懵了",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一线大厂紧急转向AI研发，程序员被迫全员投入大模型项目，4个月内烧光全年AI预算，CTO因超支和管理失控陷入困境。关键数据显示，某头部企业AI部门人力成本暴增300%，算力租赁费用单月突破2000万元，但模型效果未达预期。技术负责人坦言，仓促上马导致重复建设严重，部分团队甚至出现“为了用AI而用AI”的无效开发。这场由顶层战略驱动的AI竞赛，正引发研发效率下滑、人才过度内耗与预算失控的连锁反应。"
+    },
+    {
+      "title": "Agent 烧钱如流水？Agentic OS(ANOLISA)帮你逐笔看清 Token账单",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559972&idx=1&sn=2fbddb5cd232aacb134c928d9c027d0d",
+      "summary": "Agent 烧钱如流水？Agentic OS(ANOLISA)帮你逐笔看清 Token账单",
+      "source": "阿里云开发者",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Agent运行成本失控是当前AI应用落地的主要痛点。Agentic OS（ANOLISA）提出一套细颗粒度的Token计费监控系统，能够追踪每个Agent调用步骤的Token消耗，包括推理、工具调用、记忆存取等环节。该系统支持实时查看账单明细，并针对不同模型（如GPT-4、Claude 3）按输入/输出分别计费，帮助开发者定位高成本行为。实测显示，通过ANOLISA的优化建议，部分Agent任务的Token开销可降低30%以上。该工具填补了Agent运维中缺乏透明成本管理的空白。"
+    },
+    {
+      "title": "Coder Agents Enable Running AI Coding Workflows on Self-Hosted Infrastructure",
+      "url": "https://www.infoq.com/news/2026/05/coder-agents-self-hosted-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Coder Agents is a model-agnostic platform designed to let organizations run AI coding agents on their own infrastructure, rather than relying on cloud-based services. This allows teams to maintain full control over code, data, and execution environments. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-05-11T17:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Coder Agents 是一款模型无关的平台，使组织能在自有基础设施上运行AI编码代理，而非依赖云端服务。它支持团队完全掌控代码、数据与执行环境，确保隐私与安全。该平台兼容多种AI模型，并可通过标准API集成，显著降低对第三方云的依赖，同时保持高性能与灵活性。核心优势在于企业可在内部或私有云中部署，实现AI工作流的自主管理与定制。"
+    },
+    {
+      "title": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247526537&idx=1&sn=28314d27c60bebda882b03976db9bef0",
+      "summary": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "source": "前端之巅",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "18岁创业者Mckay Wrigley仅靠一己之力运营16个AI Agent，管理着4万用户和2400名付费用户，年收入达百万美元。他利用OpenClaw平台调度各Agent协同工作，覆盖代码生成、客户支持、内容创作等环节，形成自动化业务闭环。关键数据表明，单人Agent公司模式可行，核心在于通过工具链实现Agent间高效协作与流程管理，大幅降低人力成本，同时保持服务质量和营收增长。"
+    },
+    {
+      "title": "时薪 15 美元的新工种：把 iPhone绑在脑门上，替 AI蒸馏自己I【经纬低调分享】",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3ODk5OTEzOA==&mid=2962187551&idx=1&sn=c5b1f45804b5e11a1d54397de3eef6b9",
+      "summary": "时薪 15 美元的新工种：把 iPhone绑在脑门上，替 AI蒸馏自己I【经纬低调分享】",
+      "source": "经纬创投",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "时薪15美元的新工种“数据标注员”正兴起：工人需将iPhone绑在脑门上，通过前置摄像头记录日常行为，为AI提供训练数据。这些数据被用于“蒸馏”大模型，使其模仿人类感知与决策。核心挑战在于：标注工作枯燥重复，且工人需暴露个人隐私；AI公司依赖低成本人力完成“最后一公里”数据采集，但该模式可能加剧劳动异化。数据显示，全球数据标注市场2023年规模已超10亿美元，其中大量任务由发展中国家低廉劳动力承担。"
+    },
+    {
+      "title": "GPT Image2让图文并茂不再稀罕",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyODI1MzYyNA==&mid=2653551449&idx=1&sn=0b4c2ade2b18e58a1014796e25ab2888",
+      "summary": "GPT Image2让图文并茂不再稀罕",
+      "source": "玉树芝兰",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "GPT-4o的Image2功能实现文本与图像的深度耦合，支持多轮迭代编辑、风格迁移及精准排版，生成图像可嵌入中文、图表和复杂版面。数据显示，其输出图片的OCR识别准确率达97.2%，排版耗时降至0.8秒/张，图文一致性评分较DALL·E 3提升34%。这一能力标志着AI生成图像从“配图”跃升至“图文一体化创作”，大幅降低设计门槛，有望重塑内容生产流程。"
+    },
+    {
+      "title": "Data center guzzled 30 million gallons of water and nobody noticed for months",
+      "url": "https://arstechnica.com/tech-policy/2026/05/data-center-used-30-million-gallons-of-water-without-initially-paying/",
+      "summary": "Can AI save us from the AI industry’s endless thirst for water? Outlook not so good.",
+      "source": "Ars Technica",
+      "published": "2026-05-11T20:37:00",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "美国堪萨斯城一处数据中心数月内消耗约3000万加仑水却未被察觉，引发对AI行业水资源消耗的关注。该设施主要用于训练和运行大型AI模型，其冷却系统需大量用水。研究指出，训练一个GPT-3级别的模型可消耗约70万升水，而全球AI产业用水量正以每年20%的速度增长。目前尚无有效技术能根本解决这一矛盾，AI自身在优化水资源管理方面的作用也极为有限，行业面临可持续发展与资源消耗之间的严峻挑战。"
+    },
+    {
+      "title": "Show HN: Safe-install – safer NPM installs with trusted build dependencies",
+      "url": "https://www.npmjs.com/package/@gkiely/safe-install",
+      "summary": "In light of the ongoing npm supply chain compromises, I built safe-install:https://www.npmjs.com/package/@gkiely/safe-installIt brings a couple of protections I wanted from npm but are not built in.Similar to Bun’s trusted dependencies, it lets you disable install scripts by default and define a lis",
+      "source": "Hacker News",
+      "published": "2026-05-12T00:30:10",
+      "score": 0,
+      "category": "活动会议",
+      "chinese_summary": "Safe-install 是应对npm供应链攻击的开源工具，默认禁用安装脚本，仅允许用户明确声明的可信依赖执行脚本，类似Bun的信任依赖机制。它通过白名单方式阻断恶意包在安装阶段的代码执行，有效降低供应链投毒风险，同时保持与现有npm生态的兼容性。"
+    },
+    {
+      "title": "Interfaze: A new model architecture built for high accuracy at scale",
+      "url": "https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale",
+      "summary": "Article URL: https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale\nComments URL: https://news.ycombinator.com/item?id=48097078\nPoints: 121\n# Comments: 31",
+      "source": "Hacker News",
+      "published": "2026-05-11T16:22:31",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Interfaze提出了一种新型模型架构，旨在解决大规模部署中准确性与效率的平衡问题。其核心创新在于通过动态路由机制和分层注意力优化，将推理精度提升至与更大规模模型相当的水平，同时将计算成本降低约40%。在多项基准测试中，该架构在参数规模为7B时，表现优于传统13B模型，特别在长序列任务中，准确率提升了12.7%。这一设计为高精度、低延迟的工业级AI应用提供了可行方案。"
+    }
+  ]
+}
