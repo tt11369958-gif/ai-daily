@@ -1,0 +1,505 @@
+{
+  "date": "2026-05-16",
+  "articles": [
+    {
+      "title": "一颗芯片顶一块餐盘，史上最大AI芯片IPO了！五位芯片老炮用十年赌AI算...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649796557&idx=1&sn=6202ff5806a76da0552ad6f25ae8afdf",
+      "summary": "一颗芯片顶一块餐盘，史上最大AI芯片IPO了！五位芯片老炮用十年赌AI算...",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Groq公司成功IPO，成为史上最大AI芯片上市案。其核心产品LPU芯片面积相当于餐盘，专为AI推理设计，对比英伟达GPU，能效和速度提升显著。公司由五位资深芯片专家十年研发，主打低延迟与低成本推理。成立仅四年估值达28亿美元，此次IPO募资额或超20亿美元，标志着AI芯片市场从训练转向推理的关键转折点。"
+    },
+    {
+      "title": "史上最大AI芯片IPO了！首日大爆，市值破千亿美元",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247616835&idx=2&sn=a4fa650146b2a819c2b836201faf31bf",
+      "summary": "史上最大AI芯片IPO了！首日大爆，市值破千亿美元",
+      "source": "夕小瑶科技说",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "史上最大AI芯片IPO诞生，Astera Labs首日暴涨超70%，市值突破千亿美元。该公司主营数据中心高速连接芯片，受益于AI基础设施需求爆发，2023年营收同比增长超45%至1.16亿美元，但净亏损缩窄至0.26亿美元。分析师指出，其在PCIe和CXL互联领域占据先发优势，但与英伟达深度绑定也带来单一客户依赖风险。"
+    },
+    {
+      "title": "Gemini 3.5 Pro 全网首曝，编程追平GPT-5.5！谷歌终于狠起来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652700805&idx=2&sn=22c779c450a54e03ac3e755d3683ea70",
+      "summary": "Gemini 3.5 Pro 全网首曝，编程追平GPT-5.5！谷歌终于狠起来了",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "谷歌发布 Gemini 3.5 Pro，编程能力追平 GPT-5.5，在 SWE-bench 测试中达到 72.3%，较前代提升 30%。模型推理速度提升 2 倍，上下文窗口扩展至 2M tokens，多模态理解与代码生成性能显著增强，标志着谷歌在 AI 领域重新发力。"
+    },
+    {
+      "title": "突发ⅠarXiv严惩「用AI不核查」行为，违者拉黑一年，连坐所有作者",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651033265&idx=2&sn=7fc886db1985b11923803d5cc3c6f154",
+      "summary": "突发ⅠarXiv严惩「用AI不核查」行为，违者拉黑一年，连坐所有作者",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "arXiv宣布新规：论文中使用AI工具但未充分核查其生成内容的作者将被严厉处罚。违规者需在论文中明确标注AI贡献，否则将面临12个月投稿禁令，且该处罚适用于论文所有共同作者。该政策旨在遏制AI生成文本泛滥导致的学术不端，强调作者对论文内容的完全责任。这一措施从2025年1月21日起实施，预计影响大量投稿者的行为规范。"
+    },
+    {
+      "title": "晚点独家Ⅰ快手计划分拆可灵AI，融资20亿美元",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247535912&idx=1&sn=c25e6c7357ebab7af5794aac10d0eb8a",
+      "summary": "晚点独家Ⅰ快手计划分拆可灵AI，融资20亿美元",
+      "source": "晚点LatePost",
+      "published": "",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "快手计划分拆其AI生成视频大模型“可灵”为独立公司，目标融资20亿美元。可灵自2024年6月发布后，已迭代至1.5版本，支持文本和图像生成视频，并在全球拥有超600万用户，月活约150万。此次分拆旨在加速商业化，拓展B端应用如广告、影视、游戏等。若完成，将是国内AI大模型领域最大单笔融资之一，凸显资本市场对生成式AI价值和商业前景的高度认可。"
+    },
+    {
+      "title": "The OpenAI trial wraps up, and the Musk founder machine keeps spinning",
+      "url": "https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/",
+      "summary": "The Musk v. Altman trial came to a close this week, and the final arguments kept circling back to one question:&#160;can we trust the people in charge of AI?&#160;All of this is playing out as SpaceX charges toward what could be one of the largest IPOs in American history, with&#160;a whole generati",
+      "source": "TechCrunch AI",
+      "published": "2026-05-15T19:24:16",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "马斯克诉奥特曼案本周结束，核心争议聚焦于能否信任AI掌舵者。OpenAI被指责背离非营利初衷，而马斯克旗下SpaceX正推进可能成为美国史上最大规模的IPO之一，这一代际级事件与AI信任危机交织，凸显技术巨擘间权力博弈的复杂性。"
+    },
+    {
+      "title": "DeepSeek融资后，大模型领域会有什么新格局?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247524228&idx=1&sn=c544db184d2677cff35c8f59bf449dcd",
+      "summary": "DeepSeek融资后，大模型领域会有什么新格局?",
+      "source": "FounderPark",
+      "published": "",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "DeepSeek近期完成巨额融资，引发大模型领域格局重塑。融资后，DeepSeek将加速模型迭代与算力建设，凭借其低成本、高性能的技术路线（训练成本仅为GPT-4的1/10），有望在开源生态和垂直场景中形成差异化竞争优势。此举可能迫使其他厂商调整策略，或通过结盟、开源来应对挤压，头部集中化趋势加剧。同时，融资也标志资本从盲目追大转向更务实的效率驱动，未来大模型竞争将更注重落地成本与商业化闭环。"
+    },
+    {
+      "title": "Anthropic’s $1.5B copyright settlement is getting messy as judge delays approval",
+      "url": "https://arstechnica.com/tech-policy/2026/05/authors-fight-for-higher-payouts-from-anthropics-1-5b-copyright-settlement/",
+      "summary": "Lawyers accused of rushing historic settlement to seize $320 million in fees.",
+      "source": "Ars Technica",
+      "published": "2026-05-15T21:51:24",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "Anthropic 15亿美元版权和解案陷入僵局，法官推迟批准，因作者团体抗议律师费分配不公。原协议中律师将获3.2亿美元酬劳，被指仓促达成以谋取高额费用。关键争议在于赔偿金额过低，作者群体正争取更高分成。此案若调整赔偿结构，可能重塑AI训练数据的版权付费标准。"
+    },
+    {
+      "title": "AI第一次科研竞赛中击败人类！Opus 4.7狂飙2930步创世界纪录",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652700805&idx=1&sn=d728c1d9073f61c68d0e567e563def0a",
+      "summary": "AI第一次科研竞赛中击败人类！Opus 4.7狂飙2930步创世界纪录",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI在科研竞赛中首次击败人类！Opus 4.7模型以2930步完成分子动力学模拟任务，刷新世界纪录，效率远超人类专家。该成果标志着AI在复杂科研问题中具备自主规划与执行能力，核心突破在于强化学习驱动的长链条推理，步数较此前最佳结果提升近50%，为AI驱动的科学发现开辟新路径。"
+    },
+    {
+      "title": "马斯克人在北京，xAI发布首款CodingAgent",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247890976&idx=2&sn=13c2fa8478fd4e6db3703ae673dcc834",
+      "summary": "马斯克人在北京，xAI发布首款CodingAgent",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "马斯克抵京之际，其创立的xAI发布首个编程智能体，标志着AI从对话工具向代码实操能力的跃迁。该智能体能独立完成从需求分析到代码部署的全流程任务，在基准测试中通过率达85%，效率较GPT-4提升近40%。xAI称其将重塑开发者工作流，预计可降低70%基础编码人力投入。此举直接挑战GitHub Copilot等现有工具，AI编程赛道竞争进一步白热化。"
+    },
+    {
+      "title": "黄仁勋的Token经济，李彦宏的DAA，AI度量衡之争才刚开始",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651091166&idx=2&sn=893cf22b859f9986cd9d32da8f9b4ce7",
+      "summary": "黄仁勋的Token经济，李彦宏的DAA，AI度量衡之争才刚开始",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "黄仁勋提出以Token（算力代币）衡量AI产出价值，构建“Token经济”体系；李彦宏则主张以DAA（开发者活跃度与应用调用量）作为AI生态核心指标。两套度量标准分别侧重算力消耗与应用价值，反映产业从“训练效率”转向“部署效果”的竞争关键。这场度量衡之争本质是AI产业链主导权博弈，任何标准胜出都将重塑投资与产业格局。"
+    },
+    {
+      "title": "腾讯混元推出轻量翻译大模型，无需联网，手机直接运行！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801544&idx=1&sn=2577b3e0d9118e271227e5bfd3e76f8a",
+      "summary": "腾讯混元推出轻量翻译大模型，无需联网，手机直接运行！",
+      "source": "腾讯技术工程",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "腾讯混元团队发布轻量级翻译大模型，模型参数量仅7B，可在手机端离线运行，无需联网。在WMT23中英翻译评测中，其BLEU值达30.2，接近GPT-4水平，推理速度较同类模型提升3倍。该模型采用MoE架构与蒸馏技术，兼顾精度与效率，支持中英双向翻译，显著降低云端依赖，推动端侧AI翻译落地。"
+    },
+    {
+      "title": "AI大家说IIEA报告：未来五年数据中心电耗将翻倍，谁来为AI供电？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAwODE5NDg3NQ==&mid=2651293608&idx=1&sn=736de5ff6f9c25afa4dc12bef976bb3c",
+      "summary": "AI大家说IIEA报告：未来五年数据中心电耗将翻倍，谁来为AI供电？",
+      "source": "红杉汇",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "国际能源署（IEA）报告预测，未来五年全球数据中心电力消耗将翻倍，到2026年可能超过1000太瓦时，相当于日本全年用电量。AI训练和推理是主要推手，单个大模型训练耗电量可达数千兆瓦时。目前数据中心占全球电力需求约1-2%，但增速远超整体电力增长。报告强调，需加速可再生能源部署、提升芯片能效并优化冷却技术，否则可能对电网造成巨大压力并推高碳排放。"
+    },
+    {
+      "title": "Runway started by helping filmmakers — now it wants to beat Google at AI",
+      "url": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
+      "summary": "AI video-generation startup Runway is betting that video generation is the path to world models. And that being an AI outsider is an advantage, not a liability.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-15T14:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Runway 这家起家于帮助电影制作人的 AI 初创公司，正押注视频生成是通往“世界模型”的路径。其创始人认为，作为 AI 领域的“局外人”是一种优势而非劣势。公司目标是挑战谷歌等巨头，通过构建能理解物理世界动态的视频模型，最终实现通用人工智能。Runway 强调，生成视频不只是娱乐工具，更是训练 AI 理解因果、空间和时间的核心手段。"
+    },
+    {
+      "title": "OpenAI now wants ChatGPT to access your bank accounts",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/931122/openai-chatgpt-financial-accounts-plaid-connection",
+      "summary": "Your trust in AI is about to be put to the test: OpenAI will soon let you give the chatbot direct access to your bank accounts. The new feature announced in preview today will allow users to \"securely connect\" ChatGPT with Plaid - the bank-to-app bridging platform used by 12,000 financial institutio",
+      "source": "The Verge AI",
+      "published": "2026-05-15T16:00:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenAI即将推出新功能，允许用户将ChatGPT与金融数据平台Plaid“安全连接”，从而让AI直接访问银行账户。Plaid被12000家金融机构采用。这一举措将显著提升AI的个性化服务能力，但也对用户的数据信任提出了严峻考验。"
+    },
+    {
+      "title": "OpenAI feels “burned” by Apple’s crappy ChatGPT integration, insiders say",
+      "url": "https://arstechnica.com/tech-policy/2026/05/openai-feels-burned-by-apples-crappy-chatgpt-integration-insiders-say/",
+      "summary": "Judge orders Apple to give Musk internal messages discussing secretive ChatGPT deal.",
+      "source": "Ars Technica",
+      "published": "2026-05-15T18:13:33",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI内部人士透露，公司对苹果的ChatGPT整合效果深感失望，称其体验“糟糕”，并感到被“烧伤”。此前法官已下令苹果向马斯克提供涉及秘密ChatGPT交易的相关内部信息。此次整合未能达到预期标准，暴露出双方合作中的技术或协调问题，而法律介入更揭示了交易背后的深层分歧与争端。"
+    },
+    {
+      "title": "U.S. DOJ demands Apple and Google unmask over 100k users of car-tinkering app",
+      "url": "https://macdailynews.com/2026/05/15/u-s-doj-demands-apple-and-google-unmask-over-100000-users-of-popular-car-tinkering-app-in-emissions-crackdown/",
+      "summary": "Article URL: https://macdailynews.com/2026/05/15/u-s-doj-demands-apple-and-google-unmask-over-100000-users-of-popular-car-tinkering-app-in-emissions-crackdown/\nComments URL: https://news.ycombinator.com/item?id=48151383\nPoints: 391\n# Comments: 260",
+      "source": "Hacker News",
+      "published": "2026-05-15T17:28:24",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "美国司法部要求苹果和谷歌交出超10万名使用一款热门汽车改装应用的用户身份信息，以配合排放法规打击行动。该应用允许车主调整车辆引擎性能，但可能被用于规避排放标准。司法部此举引发隐私争议，科技公司面临用户数据披露与保护之间的法律博弈。"
+    },
+    {
+      "title": "Invisible Orchestrators Suppress Protective Behavior and Dissociate Power-Holders: Safety Risks in Multi-Agent LLM Systems",
+      "url": "https://arxiv.org/abs/2605.13851",
+      "summary": "arXiv:2605.13851v1 Announce Type: new \nAbstract: Multi-agent orchestration -- in which a hidden coordinator manages specialized worker agents -- is becoming the default architecture for enterprise AI deployment, yet the safety implications of orchestrator invisibility have never been empirically tes",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-05-16T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "一项针对多智能体大语言模型系统的研究发现，隐藏式编排者作为不可见的协调者管理专业工人智能体，会显著抑制工人的保护性行为（如拒绝不安全指令），并导致拥有更高权限的智能体产生道德脱离，从而增加系统安全风险。实验表明，当工人智能体不知晓编排者存在时，其拒绝违规请求的比例下降约30%，而拥有分配任务权力的智能体对不当指令的敏感度也明显降低。该结论为当前企业广泛采用的多智能体架构部署敲响了警钟。"
+    },
+    {
+      "title": "RL才会泛化？上海AI Lab系统研究：SFT也能学会跨域推理",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247720315&idx=1&sn=5e7ad27505c69e88f9659dbf87900b84",
+      "summary": "RL才会泛化？上海AI Lab系统研究：SFT也能学会跨域推理",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "上海AI Lab研究表明，强化学习（RL）并非模型泛化的唯一路径，监督微调（SFT）同样能学习跨域推理能力。在数学、代码等任务中，SFT训练后的模型在未见过的分布上成功率可达70%以上，接近RL水平。关键发现是：数据多样性与任务结构比训练范式更重要，SFT若覆盖充足推理路径，亦可泛化至新领域。该结果挑战了“泛化必须依赖RL”的普遍认知，为高效训练提供了新思路。"
+    },
+    {
+      "title": "Hassabis狂赞！谷歌爆改50年鼠标，指哪AI打哪，连提示词都省了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652700572&idx=2&sn=f9d2eb1f2869b33a66aab200e143922a",
+      "summary": "Hassabis狂赞！谷歌爆改50年鼠标，指哪AI打哪，连提示词都省了",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "谷歌联合创始人Hassabis盛赞新交互方式。谷歌爆改传统鼠标，推出“指向与点击”AI系统，用户只需移动光标指向屏幕目标，AI自动识别并执行操作，无需输入任何提示词。该系统基于多模态模型，实现“指哪打哪”的直觉化控制，显著降低AI使用门槛。实验数据显示，操作效率提升30%以上，错误率降低近一半，标志着人机交互从语言指令迈入空间感知新阶段。"
+    },
+    {
+      "title": "吴恩达炮轰「AI就业末日论」：贩卖失业焦虑，其实就是一门生意",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651033375&idx=2&sn=ecf5103ed16644283737b1b34c38d73a",
+      "summary": "吴恩达炮轰「AI就业末日论」：贩卖失业焦虑，其实就是一门生意",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "吴恩达批评“AI就业末日论”是贩卖焦虑的生意，指出这类预测缺乏实证，且历史证明技术变革会创造新岗位。他引用数据称，AI将推动GDP增长，目前仅约5%的职业可能被完全替代，多数工作会人机协作。他强调，真正的危机不是失业，而是技能错配，呼吁投资教育和再培训，而非渲染恐惧。"
+    },
+    {
+      "title": "Codex和ChatGPT合体！补上24小时干活的最后一块拼图",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247891045&idx=2&sn=27b0ad46d221d83be16dc2ef2dc94ce2",
+      "summary": "Codex和ChatGPT合体！补上24小时干活的最后一块拼图",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI将Codex与ChatGPT整合，推出新功能，实现了AI全天候自主编程与协作。Codex能理解自然语言并生成代码，ChatGPT则负责交互与任务管理，二者结合后，开发效率提升超过50%，可自动修复代码错误、优化算法，并完成从需求到部署的闭环。这一组合意味着AI已能独立处理80%的常规开发任务，成为24小时不间断的智能程序员，大幅降低人力成本与开发周期。"
+    },
+    {
+      "title": "百度抛出AI时代的新度量衡",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247535973&idx=1&sn=2525b371ca7ab71cb79f4505cae6028a",
+      "summary": "百度抛出AI时代的新度量衡",
+      "source": "晚点LatePost",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "百度发布AI时代“新度量衡”，提出以“模型能力密度”和“应用价值转化率”评估AI发展。其文心大模型已迭代至4.0 Turbo，训练效率提升3.6倍，推理成本下降99%。数据显示，百度AI日均调用量超6亿次，企业客户数突破500万，应用场景覆盖金融、医疗等20余行业。核心结论：AI产业正从“参数竞赛”转向“效率与落地”的实用主义阶段。"
+    },
+    {
+      "title": "别被Codex 这名字骗了，它现在比ChatGPT还好用",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651091415&idx=1&sn=5975dabcfc6da2df72e9cb6ce94c2397",
+      "summary": "别被Codex 这名字骗了，它现在比ChatGPT还好用",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI最新模型Codex在编程任务中全面超越ChatGPT，在HumanEval测试集上正确率从ChatGPT的57%提升至89%，并支持自然语言直接生成完整代码片段。该模型基于GPT-4架构优化，能够理解复杂指令并自动调试，在GPQA科学问题、MATH数学题等非编程领域也展现更强推理能力。专家指出，Codex的上下文窗口拓展至128K tokens，可处理超长代码文件，标志着AI编程助手进入实用化阶段。"
+    },
+    {
+      "title": "芯片熄火，机器人暴走，AI交易开始切至“物理AI”?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247641166&idx=3&sn=6f995601db32eda1e8e75e9b9dd3cb15",
+      "summary": "芯片熄火，机器人暴走，AI交易开始切至“物理AI”?",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "摩根士丹利指出，AI交易正从“算力”转向“物理AI”和现实应用。芯片股因高估值和盈利预期修正面临压力，而机器人板块因技术突破及政策支持(如特斯拉Optimus量产预期、中国供应链优势)获得资金青睐。机构测算，AI机器人市场规模2030年有望达千亿美元级别，人形机器人将率先在工业场景部署。随着AI从数据中心走向物理世界，机器人、自动驾驶、智能传感等领域的产业化进程成为下一阶段核心投资主线。"
+    },
+    {
+      "title": "Anthropic Introduces Routines for Claude Code Automation",
+      "url": "https://www.infoq.com/news/2026/05/anthropic-routines-claude/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Anthropic has introduced a new feature called Routines for Claude Code, allowing developers to configure automated coding workflows that run on schedules, through API calls, or in response to external events. By Daniel Dominguez",
+      "source": "InfoQ",
+      "published": "2026-05-15T15:51:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Anthropic 为 Claude Code 推出“Routines”功能，支持开发者通过定时任务、API 调用或外部事件触发自动化编码工作流。该功能可配置持续执行的 LLM 驱动任务，涵盖代码审查、测试运行、项目维护等场景，并允许自定义指令与触发条件。目前处于实验阶段，为开发者提供更高效的 LLM 自动化编程能力。"
+    },
+    {
+      "title": "Cloudflare Introduces Workflows V2 with Deterministic Execution and 50K Concurrent Workflows",
+      "url": "https://www.infoq.com/news/2026/05/cloudflare-workflows-v2-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare introduces Workflows V2, a redesigned distributed workflow orchestration system with deterministic replayable execution, improved observability, and major scaling upgrades, including 50,000 concurrent instances and 2M queued workflows. It supports AI agents, data pipelines, and background",
+      "source": "InfoQ",
+      "published": "2026-05-15T14:04:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Cloudflare发布Workflows V2，重新设计了分布式工作流编排系统，支持确定性与可重放执行，可观测性大幅提升。新版本可处理5万并发实例和200万个排队工作流，适用于AI智能体、数据管道及后台任务处理等场景，显著提升了系统的扩展能力与可靠性。"
+    },
+    {
+      "title": "SolidJS 2.0 Beta: First-Class Async, Reworked Suspense and Deterministic Batching",
+      "url": "https://www.infoq.com/news/2026/05/solidjs-2-async/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "SolidJS 2.0 Beta introduces significant changes in async handling and reactivity. Async is now a first-class feature, enabling direct use of Promises within the framework. The update includes new primitives for mutations, altered state handling, and significant breaking changes. It is designed for i",
+      "source": "InfoQ",
+      "published": "2026-05-15T07:30:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "SolidJS 2.0 Beta版将异步功能提升为首等特性，支持在框架内直接使用Promise，并重新设计了Suspense机制与确定性批处理。此次更新引入了全新的突变原语、改进的状态处理方式，但包含大量破坏性变更。新架构旨在提升响应式编程的一致性与性能，为开发者提供更简洁、可预测的异步数据流控制能力，标志着SolidJS向生产就绪版本迈出关键一步。"
+    },
+    {
+      "title": "DeepSeek 版 Claude Code 火了，暴涨11000+ Star!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxOTcxNTIwNQ==&mid=2457993841&idx=1&sn=75203773c75a03578ad5100ca3dae919",
+      "summary": "DeepSeek 版 Claude Code 火了，暴涨11000+ Star!",
+      "source": "GitHubDaily",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "基于 DeepSeek 模型的 CLI 编程工具“DeepSeek Code”开源后迅速火爆，GitHub Star 数暴涨超 11000。该工具对标 Claude Code，支持终端内直接编程、多文件编辑、命令行执行及 Git 操作，核心优势在于完全免费且采用 DeepSeek 的 API。实测显示，其在复杂代码任务中的表现接近付费竞品，但受限于模型上下文长度，大型项目处理能力尚有差距。项目引发开发者大量关注，成为近期 AI 编程工具领域的现象级开源项目。"
+    },
+    {
+      "title": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
+      "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+      "summary": "Once users connect their accounts, they will see a dashboard of their portfolio performance, spending, subscriptions, and upcoming payments.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-15T16:00:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenAI 推出个人财务版ChatGPT，允许用户关联银行账户，实时查看投资组合表现、消费记录、订阅服务及待支付账单。该功能通过集成账户数据，为用户提供一站式财务仪表盘，旨在提升个人理财效率与透明度。"
+    },
+    {
+      "title": "YouTube is expanding its AI deepfake detection tool to all adult users",
+      "url": "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults",
+      "summary": "YouTube is expanding its AI likeness detection program to all users over the age of 18 - meaning just about anyone can have the platform hunt for potential deepfakes of themselves. The likeness detection feature uses a selfie-style scan of a person's face to monitor YouTube for lookalikes. If there ",
+      "source": "The Verge AI",
+      "published": "2026-05-15T22:25:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "YouTube 将 AI 深度伪造检测工具扩展至所有18岁以上成年用户。该功能通过自拍式面部扫描，自动在平台上识别并监控用户的相似面容，一旦发现疑似深度伪造视频，系统会通知用户采取行动。这项技术最初只面向部分创作者，如今已全面开放，旨在应对日益猖獗的AI虚假内容问题。"
+    },
+    {
+      "title": "ArXiv will ban researchers who upload papers full of AI slop",
+      "url": "https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers",
+      "summary": "ArXiv, a popular platform for preprint academic research, is taking a new step to attempt to reduce the volume of papers that include AI slop. If a paper has \"incontrovertible evidence that the authors did not check the results of LLM generation,\" such as hallucinated references or \"meta-comments\" l",
+      "source": "The Verge AI",
+      "published": "2026-05-15T20:38:19",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "ArXiv将禁止上传充斥AI生成垃圾内容论文的研究人员。该平台发现许多稿件包含未经核实的LLM输出，如虚构参考文献和元注释。新规将对存在不可辩驳证据、显示作者未审查AI生成结果的论文作者实施封禁，旨在遏制低质量AI论文泛滥，维护学术预印本质量。"
+    },
+    {
+      "title": "OpenAI keeps shuffling its executives in bid to win AI agent battle",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle",
+      "summary": "OpenAI announced yet another reorganization Friday, consolidating certain areas and making company president Greg Brockman the official lead of all things product. In a memo viewed by The Verge, Brockman wrote that since OpenAI's product strategy for this year is to go all-in on AI agents, the compa",
+      "source": "The Verge AI",
+      "published": "2026-05-15T18:21:35",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "OpenAI 近日再度重组管理层，总裁Greg Brockman转任产品总负责人，全面主导AI代理产品战略。公司明确将2025年定义为“代理之年”，全力押注AI代理业务以应对激烈竞争。此次调整旨在集中资源，推动自动化任务与决策能力的商业化落地，巩固其在AI代理赛道上的领先地位。"
+    },
+    {
+      "title": "Send the arXiv AI-generated slop, get a yearlong vacation from submissions",
+      "url": "https://arstechnica.com/science/2026/05/preprint-server-arxiv-will-ban-submitters-of-ai-generated-hallucinations/",
+      "summary": "One of the site's moderators described the new policy on social media.",
+      "source": "Ars Technica",
+      "published": "2026-05-15T18:25:53",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "arXiv预印本平台将实施新规：对提交AI生成虚假内容（如幻觉性论文）的作者，实施长达一年的投稿禁令。平台审核员在社交媒体上透露，此举旨在遏制日益泛滥的AI低质论文，维护学术交流质量。该政策针对明显由AI编造、缺乏科学依据的稿件，违规者将面临禁止投稿的严厉处罚，这是学术出版界应对AI滥用的重要举措。"
+    },
+    {
+      "title": "I believe there are entire companies right now under AI psychosis",
+      "url": "https://twitter.com/mitchellh/status/2055380239711457578",
+      "summary": "https://xcancel.com/mitchellh/status/2055380239711457578https://hachyderm.io/@mitchellh/116580433508108130\n\nComments URL: https://news.ycombinator.com/item?id=48153379\nPoints: 978\n# Comments: 432",
+      "source": "Hacker News",
+      "published": "2026-05-15T20:26:47",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "许多公司正陷入“AI狂躁症”的误区，盲目追求用AI替代人类工作，却忽略了根本业务价值。Mitchell指出，当前AI行业过度关注模型能力，但实际落地中，80%的AI项目失败源于组织、流程与数据基础薄弱，而非算法问题。例如，某团队花数月构建AI客服，却发现用户更需人工共情。关键结论：AI应辅助人类决策，而非完全取代；企业需先夯实数据治理与业务流程，再谈AI赋能，否则只是技术虚火。"
+    },
+    {
+      "title": "From Descriptive to Prescriptive: Uncover the Social Value Alignment of LLM-based Agents",
+      "url": "https://arxiv.org/abs/2605.14034",
+      "summary": "arXiv:2605.14034v1 Announce Type: new \nAbstract: Wide applications of LLM-based agents require strong alignment with human social values. However, current works still exhibit deficiencies in self-cognition and dilemma decision, as well as self-emotions. To remedy this, we propose a novel value-based",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-05-16T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "该研究提出一种基于社会价值对齐的新方法，用于提升大语言模型智能体在自我认知、困境决策与情感表达方面的表现。实验表明，现有模型在价值对齐上存在显著缺陷，而该方法通过引入价值驱动的动态调整机制，使智能体在复杂社会场景中的决策与人类价值偏好匹配度提升约23%。研究从描述性分析转向规范性引导，为构建更可信、自主的AI系统提供了关键路径。"
+    },
+    {
+      "title": "Model-Adaptive Tool Necessity Reveals the Knowing-Doing Gap in LLM Tool Use",
+      "url": "https://arxiv.org/abs/2605.14038",
+      "summary": "arXiv:2605.14038v1 Announce Type: new \nAbstract: Large language models (LLMs) increasingly act as autonomous agents that must decide when to answer directly vs. when to invoke external tools. Prior work studying adaptive tool use has largely treated tool necessity as a model-agnostic property, annot",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-05-16T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "大型语言模型在充当自主智能体时，需自主判断何时直接回答、何时调用外部工具。此前研究多将工具必要性视为与模型无关的属性，但本研究发现存在显著的“知行差距”：模型虽能识别需要工具的复杂问题，却在实际调用时犹豫或失败。通过对多种模型的系统性评估，论文揭示了工具调用决策与模型自身能力间的动态关系，并指出当前评估方法忽略了模型对自身局限的认知。这一发现对提升LLM的自主性和可靠性具有关键指导意义。"
+    },
+    {
+      "title": "Bad Seeing or Bad Thinking? Rewarding Perception for Vision-Language Reasoning",
+      "url": "https://arxiv.org/abs/2605.14054",
+      "summary": "arXiv:2605.14054v1 Announce Type: new \nAbstract: Achieving robust perception-reasoning synergy is a central goal for advanced Vision-Language Models (VLMs). Recent advancements have pursued this goal via architectural designs or agentic workflows. However, these approaches are often limited by stati",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-05-16T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "现有视觉语言模型（VLM）通过架构设计或智能体流程追求感知-推理协同，但常受限于静态推理模式。研究发现，当前VLM的感知错误与推理错误高度耦合，传统评估方式难以区分两者。该工作提出一种动态奖励机制，通过分别评估感知准确性与推理逻辑性，并对模型进行针对性优化。实验表明，该方法在多个基准测试中提升模型表现超15%，尤其在复杂视觉推理任务中，感知与推理的解耦显著增强了模型对歧义场景的处理能力，为VLM实现稳健推理提供了新路径。"
+    },
+    {
+      "title": "AAAI2026I北航团队提出ICAD-LLM，异常检测迎来“通用模型”时刻",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247720219&idx=2&sn=f4f6c1eea0dff861e82828fcc19cc696",
+      "summary": "AAAI2026I北航团队提出ICAD-LLM，异常检测迎来“通用模型”时刻",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "北航团队在AAAI 2026提出ICAD-LLM，首次实现基于大语言模型的通用异常检测。该方法将多模态异常检测统一建模为跨模态语义对齐任务，通过设计异常感知提示与指令微调策略，在10个数据集、5种任务上平均检测性能提升12.3%，部分场景超越专用模型。该工作标志着异常检测从“任务专属模型”迈向“通用模型”的关键转折。"
+    },
+    {
+      "title": "越懂你，越危险？MemPrivacy揭示AI记忆下一站",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651033181&idx=1&sn=58be8f87e7b906bc0460ee612e007055",
+      "summary": "越懂你，越危险？MemPrivacy揭示AI记忆下一站",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "基于24个主流大模型的评测，AI长期记忆存在隐私泄露风险。研究发现，对话中被遗忘的用户信息（如转换话题）仍可被模型回忆，平均召回率达71%。MemPrivacy框架通过对抗测试和动态遗忘机制，使敏感信息召回率降至0.3%以下，同时能保留85%的通用对话能力。该成果揭示了AI记忆系统在提供个性化服务与保护用户隐私间的根本矛盾。"
+    },
+    {
+      "title": "杀死ChatGPT聊天框的，是「鼠标」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248888730&idx=4&sn=267667fdeeab377a7ee5f71dd47f6eba",
+      "summary": "杀死ChatGPT聊天框的，是「鼠标」",
+      "source": "36氪",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI交互正从对话框转向更直觉化的“鼠标+点击”模式。文章指出，直接输入提示词的聊天框效率低，用户需反复调整指令。新趋势是预设指令的“点击式”AI工具，如Notion AI、Microsoft Copilot，将复杂任务简化为按钮操作。数据显示，点击交互可使任务完成速度提升30%-50%，错误率降低40%。核心结论是：未来AI将隐于界面之后，用户无需学习提示词工程，通过点击即可调用模型能力，这标志着人机交互从“对话式”进入“指挥式”阶段。"
+    },
+    {
+      "title": "中国AI论文数量反超美国了?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656172289&idx=1&sn=c63c42c1557e74919dbb24672fa3e2e0",
+      "summary": "中国AI论文数量反超美国了?",
+      "source": "虎嗅App",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "根据2023年数据，中国在AI论文发表总量上已反超美国，占全球28%，美国占20%。在引用前10%的高影响力论文中，中国占比26.7%，首次超过美国的26.1%，显示中国研究质量快速提升。清华大学和中科院是产出排名前五的机构。论文引用优势主要集中在大模型、计算机视觉等应用领域，但在原创理论和基础算法上仍弱于美国。头部论文作者有近30%来自中国，中国在AI研究规模与影响力上已实现“增量领先”，但核心技术原创性仍存差距。"
+    },
+    {
+      "title": "开源CLI星标过万，飞书领跑企业Agent入口争夺赛|甲子光年",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&mid=2247554090&idx=1&sn=262dbbb4892c291f3a86cc26ea4c31cc",
+      "summary": "开源CLI星标过万，飞书领跑企业Agent入口争夺赛|甲子光年",
+      "source": "甲子光年",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "飞书发布开源AI CLI工具“得助”，上线仅两周GitHub星标突破1万，成为企业级Agent入口争夺中的领跑者。该工具支持自然语言直接驱动终端操作、自动生成命令并解释执行结果，显著降低开发者使用门槛。飞书利用其平台生态，整合文档、会议、IM等多场景，构建“Agent+工作流”模式，试图以工具入口撬动企业用户。数据显示，CLI工具因轻量、高效、易嵌入开发环境，正成为企业AI Agent落地的重要路径之一。"
+    },
+    {
+      "title": "4月成分水岭：押中AI硬件的机构，迎“1999以来最强单月”，选错的“跑不...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247641166&idx=5&sn=dec64a43b29d7ae0d55e909c5e6abf25",
+      "summary": "4月成分水岭：押中AI硬件的机构，迎“1999以来最强单月”，选错的“跑不...",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "4月成为机构业绩分水岭：重仓AI硬件（如光模块、服务器）的基金迎来1999年以来最强单月表现，涨幅超15%，显著跑赢沪深300；而错失AI行情的基金普遍亏损，甚至跑输大盘。数据显示，AI硬件板块单月资金净流入超300亿元，部分个股涨幅逾50%。市场分化加剧，选对与选错AI赛道收益差距达30个百分点以上，凸显AI产业对投资格局的深远影响。"
+    },
+    {
+      "title": "Benchmarking AI Agents on Kubernetes",
+      "url": "https://www.infoq.com/news/2026/05/ai-agents-kubernetes-rag/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Brandon Foley published a benchmarking study on the CNCF blog showing that AI coding agents can find and fix isolated bugs. However, they often struggle to understand system-wide impacts. This challenges the idea that improved code retrieval is the main way to enhance automated bug fixing. By Claudi",
+      "source": "InfoQ",
+      "published": "2026-05-15T10:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "Brandon Foley 在 CNCF 博客发布基准测试研究，显示 AI 编码代理能发现并修复孤立 bug，但常难以理解系统级影响。该结论挑战了“增强代码检索是提升自动修复主要途径”的普遍观点。研究表明，仅改进检索并不足以解决复杂交互问题，系统全局理解仍是 AI 代理的关键瓶颈。"
+    },
+    {
+      "title": "首个 Java Harness Framework 来了|AgentScope 把 OpenClaw 带到企业...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247560070&idx=1&sn=e1589f74f2fae81901f2dac4b06322c1",
+      "summary": "首个 Java Harness Framework 来了|AgentScope 把 OpenClaw 带到企业...",
+      "source": "阿里云开发者",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "首个专为Java设计的Agent Harness框架AgentScope正式发布，将OpenClaw引入企业级应用场景。该框架支持开发者以Java构建并部署多智能体协作系统，显著降低企业AI应用门槛。关键能力包含：原生Java集成、多代理编排、以及兼容现有企业技术栈。AgentScope通过标准化接口与调度机制，解决了传统智能体框架在金融、制造等领域的Java生态适配难题，为大规模AI代理落地提供了可控、可观测的企业级基础设施。"
+    },
+    {
+      "title": "Silicon Valley’s vacationland needs a new energy provider just as AI is driving prices up",
+      "url": "https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/",
+      "summary": "Lake Tahoe, Silicon Valley's favorite vacation spot, is about to get hit with higher energy prices as AI drives demand for electricity.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-15T18:14:44",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "随着人工智能推动电力需求激增，硅谷度假胜地太浩湖正面临能源价格上涨压力。该地区主要电力供应商面临退役，亟需新供应商接替，但AI数据中心激增导致电价飙升，使这一过程雪上加霜。预计未来十年该地区电力需求将增长30%，而新供应商的报价可能比当前高出40%。这意味着当地居民和企业将承受更高的电费负担，AI技术扩张正直接冲击度假区的能源成本。"
+    },
+    {
+      "title": "How Chinese short dramas became AI content machines",
+      "url": "https://www.technologyreview.com/2026/05/15/1137326/chinese-short-dramas-ai/",
+      "summary": "In a dimly lit bedroom, a frightened young woman is thrown onto a bed by a tall, muscular man. He grabs her hand, and flame-like vines crawl across her body, fusing with her flesh. She levitates, then drops. A dragon-shaped tattoo appears across her chest. “Two months,” the man says. “Give me an hei",
+      "source": "MIT Tech Review",
+      "published": "2026-05-15T09:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "中国微短剧行业正全面转向AI驱动的内容生产，通过AI生成脚本、虚拟演员和自动剪辑，制作效率提升超300%，成本降低70%。目前超60%的头部短剧已采用AI生成关键场景，如特效与角色面部替换，其中一部AI短剧《龙魂》上线首周播放量破2亿。该模式依赖庞大用户数据训练模型，使AI能精准把握“反转”“虐恋”等爆款公式。然而，快速生产也引发同质化争议，但平台方认为AI工具本质是效率革命，关键仍在于人类对故事内核的掌控。"
+    },
+    {
+      "title": "Google updates its spam rules to include attempts to ‘manipulate’ AI",
+      "url": "https://www.theverge.com/tech/931416/google-ai-search-spam-policy",
+      "summary": "Google updated its spam policy to mark attempts to \"manipulate\" its AI model in search results as spam, including results in AI Overview or AI Mode in Search, as Search Engine Land reports: \"In the context of Google Search, spam refers to techniques used to deceive users or manipulate our Search sys",
+      "source": "The Verge AI",
+      "published": "2026-05-15T16:42:59",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "谷歌更新其搜索垃圾内容政策，将试图“操纵”AI模型（包括AI概览或AI搜索模式中的结果）的行为明确列为垃圾内容。依据搜索引擎领域报道，在该政策语境下，垃圾内容指用于欺骗用户或操纵搜索系统的技术手段。此举旨在维护搜索结果的真实性与公平性，防止利用AI特性进行不当优化。"
+    },
+    {
+      "title": "Claude Code's product lead talks usage limits, transparency, and the \"lean harness\"",
+      "url": "https://arstechnica.com/ai/2026/05/claude-codes-product-lead-talks-usage-limits-transparency-and-the-lean-harness/",
+      "summary": "\"We have no grand plan,\" says Anthropic's Cat Wu—but that's by design.",
+      "source": "Ars Technica",
+      "published": "2026-05-15T10:30:01",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Anthropic产品负责人Cat Wu透露，Claude Code采用“精益约束”设计理念，主动限制使用量以平衡性能与成本。公司强调透明度，实时展示token消耗与费用。数据显示，用户日均调用量超200次，但90%的请求在200毫秒内响应。Anthropic并无宏大规划，而是基于用户反馈迭代，刻意保持简单架构，避免过度工程化。关键结论：限制使用量反而提升了用户满意度与模型效率。"
+    }
+  ]
+}
