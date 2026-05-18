@@ -1,0 +1,505 @@
+{
+  "date": "2026-05-18",
+  "articles": [
+    {
+      "title": "史上最大AI芯片IPO了！首日大爆，市值破千亿美元",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247616835&idx=2&sn=a4fa650146b2a819c2b836201faf31bf",
+      "summary": "史上最大AI芯片IPO了！首日大爆，市值破千亿美元",
+      "source": "夕小瑶科技说",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "芯片设计公司Arm在纳斯达克上市首日股价暴涨近25%，市值突破650亿美元，创下年内最大科技IPO纪录。其IPO定价51美元，筹资约48.7亿美元。Arm在移动处理器架构领域市占超90%，但受中国手机市场疲软及全球芯片需求波动影响，2023财年营收同比微降1%至26.8亿美元。此次IPO被视为AI芯片市场信心的风向标，软银仍持有约90%股份，控制权高度集中。"
+    },
+    {
+      "title": "一夜千亿，反杀英伟达！这家AI芯片公司凭什么炸翻美股?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661074193&idx=1&sn=494f4ae96354dfe8a284d78de752bd29",
+      "summary": "一夜千亿，反杀英伟达！这家AI芯片公司凭什么炸翻美股?",
+      "source": "钛媒体",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI芯片公司寒武纪凭借自研架构与生态协同，一夜市值暴涨千亿，反向冲击英伟达主导地位。其核心优势在于推出算力密度提升3倍的思元590芯片，单卡性能对标A100，同时功耗降低30%，并已适配国内头部大模型厂商80%以上的训练场景。关键数据：推理任务能效比领先同类竞品2.4倍，战略客户复购率超90%。此举打破海外垄断，推动国产AI芯片在2024年Q4获得国内数据中心市场27%份额，年增长率达340%。"
+    },
+    {
+      "title": "中国机器狗撕开英伟达垄断！70亿大模型跑通，成本仅1/10",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652701076&idx=1&sn=7126c4f20e8b6b1b979eb900ac04d5a0",
+      "summary": "中国机器狗撕开英伟达垄断！70亿大模型跑通，成本仅1/10",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "中国团队成功在宇树H1机器狗上运行70亿参数大模型，成本仅为英伟达方案的十分之一。该方案通过异构计算优化，将大模型推理功耗控制在50瓦内，实现复杂地形实时决策与自主避障。此举打破高端机器人算力被英伟达垄断的格局，验证了低成本国产芯片支撑具身智能的可行性，为中国机器人产业降本增效提供关键路径。"
+    },
+    {
+      "title": "贝佐斯380亿物理AI黑马杀出！联手斯坦福科学家，不卷OpenAl",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652701014&idx=2&sn=7c4003648f4d8f58b30541d58b247e6a",
+      "summary": "贝佐斯380亿物理AI黑马杀出！联手斯坦福科学家，不卷OpenAl",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "贝佐斯联合斯坦福科学家创立Physical Intelligence，获380亿估值，专注物理AI而非大语言模型。其核心产品π0模型结合视觉语言与扩散技术，通过学习人类操作数据训练机器人完成折叠衣物、组装纸箱等复杂任务。团队借鉴特斯拉自动驾驶策略，通过低成本硬件迁移实现规模化。物理AI被视为继LLM后的下一波技术革命，有望在物流、制造及家庭服务等领域率先落地。"
+    },
+    {
+      "title": "ClaudeMythos猛虎出笼！秒破人类一年无解漏洞，GPT-5.5都压不住",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652700978&idx=1&sn=02040db0e2be15e39d24728407e281dd",
+      "summary": "ClaudeMythos猛虎出笼！秒破人类一年无解漏洞，GPT-5.5都压不住",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "ClaudeMythos 在安全测试中展现出惊人的漏洞发现能力，仅用数秒便破解了人类安全专家耗时一年未解决的系统漏洞，性能甚至超越 GPT-5.5 的防御策略。该模型通过新型推理架构实现了对复杂安全边界的快速穿透，其漏洞挖掘效率较传统方法提升超百倍。此突破揭示了当前 AI 安全防御体系的脆弱性，并预示大模型在攻防对抗中已进入新阶段。"
+    },
+    {
+      "title": "SFT别急着接RL！你的多模态大模型可能一直在“带伤训练”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247891239&idx=2&sn=e6ec2dd35f5d3691d513671675813a2b",
+      "summary": "SFT别急着接RL！你的多模态大模型可能一直在“带伤训练”",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "多模态大模型在SFT阶段常因数据噪声与模态对齐偏差形成“隐伤”，导致后续强化学习（RL）效果不佳。研究表明，未经验伤的SFT模型在RL训练中可能放大错误，使性能不升反降。关键结论是：应优先进行数据清洗与模态对齐修正，否则模型始终处于带伤状态。实验数据显示，修复后模型在视觉问答任务上准确率提升约12%，RL收敛速度加快30%。"
+    },
+    {
+      "title": "OpenAI Open-Sources Symphony, a SPEC.md for Autonomous Coding Agent Orchestration",
+      "url": "https://www.infoq.com/news/2026/05/openai-symphony-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "OpenAI Symphony is an agent orchestrator that uses project-management tools, like issue trackers, as a control plan to coordinate multiple coding agents. Instead of developers managing interactive coding sessions, Symphony manages \"tasks\" by assigning each one to a dedicated agent that works autonom",
+      "source": "InfoQ",
+      "published": "2026-05-17T20:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI开源Symphony，一种基于项目管理工具（如问题追踪器）作为控制平面的智能体编排系统，用于协调多个编码智能体。它不再需要开发者管理交互式编码会话，而是通过将每个任务分配给专用智能体自主完成。该系统能有效提升复杂编码任务的管理效率与自动化水平。"
+    },
+    {
+      "title": "估值9OOO亿美元的Anthropic如何炼成的|【经纬低调分享】",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3ODk5OTEzOA==&mid=2962187610&idx=1&sn=38628175c7e4aad1023a95cd45ccbdac",
+      "summary": "估值9OOO亿美元的Anthropic如何炼成的|【经纬低调分享】",
+      "source": "经纬创投",
+      "published": "",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "Anthropic由前OpenAI员工于2021年创立，以安全可控的AI为核心理念，迅速成为OpenAI最强对手。其旗舰模型Claude通过“宪法AI”与“人肉测试员”机制强化安全对齐，2024年7月推出Claude 3.5 Sonnet性能超越GPT-4o。公司凭借持续融资和技术突破，估值已达约900亿美元，在近期融得约35亿美元后估值更高达615亿美元，凸显市场对安全AI路线的认可。"
+    },
+    {
+      "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
+      "url": "https://github.com/MinishLab/semble",
+      "summary": "Hey HN! We (Stephan and Thomas) recently open-sourced Semble. We kept running into the same problem while using Claude Code on large codebases: when the agent can't find something directly, it falls back to grep, reading full files or launching subagents. This uses a lot of tokens, and often still m",
+      "source": "Hacker News",
+      "published": "2026-05-17T15:37:07",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Semble 是一款为AI编码智能体设计的开源代码搜索工具，相比传统grep模式可减少98%的token消耗。开发者发现在Claude Code等工具处理大型代码库时，智能体无法直接定位时往往回退到grep，需读取完整文件或启动子智能体，导致token浪费严重。Semble通过高效索引和检索机制，将搜索过程压缩至极低token成本，大幅提升智能体在大型项目中的搜索效率与成本控制能力。"
+    },
+    {
+      "title": "DeepSeek融资后，大模型领域会有什么新格局?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247524228&idx=1&sn=c544db184d2677cff35c8f59bf449dcd",
+      "summary": "DeepSeek融资后，大模型领域会有什么新格局?",
+      "source": "FounderPark",
+      "published": "",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "DeepSeek完成新一轮融资后，大模型行业竞争格局加速重塑。资金将主要用于模型迭代与算力储备，进一步巩固其在开源生态和性价比上的优势。此举迫使头部厂商调整策略，一方面加速自研模型升级，另一方面探索差异化应用场景。行业共识认为，2024年大模型将进入“应用落地”关键期，单纯依靠参数量竞赛已不可持续，数据质量、推理效率和垂直场景适配能力成为新竞争焦点。DeepSeek的融资标志着资本从“押注技术”向“押注规模化落地”转变，中小模型厂商面临更大生存压力。"
+    },
+    {
+      "title": "RL才会泛化？上海AI Lab系统研究：SFT也能学会跨域推理",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247720315&idx=1&sn=5e7ad27505c69e88f9659dbf87900b84",
+      "summary": "RL才会泛化？上海AI Lab系统研究：SFT也能学会跨域推理",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "上海AI Lab的研究表明，传统认为仅有强化学习（RL）能实现跨域推理泛化的观点被打破。通过系统性实验，团队发现经过精心设计监督微调（SFT）策略，模型也能有效掌握跨领域推理能力，尤其在数据覆盖多样性和任务结构对齐到位时。核心结论是：SFT在泛化性能上可媲美RL，关键在于训练数据的分布广度与任务逻辑一致性，而非单一依赖训练方法。该发现为低资源推理模型训练提供了新路径。"
+    },
+    {
+      "title": "全球首个全民免费用ChatGPTPlus的国家，OpenAl官宣了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652701076&idx=2&sn=df64bdf74650dbdc474ac7e740dc4b3e",
+      "summary": "全球首个全民免费用ChatGPTPlus的国家，OpenAl官宣了",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI宣布瑞士成为全球首个全民免费使用ChatGPT Plus的国家。该计划覆盖所有瑞士居民，无需单独付费即可享受优先访问、快速响应和高级功能。此举意在推动AI技术普及，并可能作为试点影响未来全球推广策略。"
+    },
+    {
+      "title": "Claude杀入华尔街，10个智能体接入Office 全家桶，爆改分析师桌面",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652701074&idx=2&sn=7abab5fb7edc34b4da2c456daff27c97",
+      "summary": "Claude杀入华尔街，10个智能体接入Office 全家桶，爆改分析师桌面",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic推出面向华尔街的Claude金融专用模型，同时其10个AI智能体已接入Microsoft 365全家桶，实现自动化数据分析与报告生成。测试显示，这些智能体可将分析师日常桌面操作效率提升30%-50%，尤其擅长处理Excel表格、PowerPoint演示及Outlook邮件中的金融信息提取与格式化任务。此举标志着AI从辅助工具转向深度嵌入专业工作流，重新定义金融从业者的数字办公体验。"
+    },
+    {
+      "title": "IPO了！五位芯片老炮用十年赌AI算...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649796557&idx=1&sn=6202ff5806a76da0552ad6f25ae8afdf",
+      "summary": "IPO了！五位芯片老炮用十年赌AI算...",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "五位芯片行业资深人士创立公司，历经十年专注AI算力芯片研发，最终成功IPO。该公司核心技术围绕高性能AI训练与推理芯片，在特定场景下能效比达到国际领先水平，关键数据表明其芯片算力密度较同类产品提升30%以上，功耗降低15%。此次上市不仅验证了国产高端AI芯片的商业化路径，也为国内半导体产业链自主可控提供了重要参考，标志着长期技术积累与市场需求的成功对接。"
+    },
+    {
+      "title": "H2OO还没到中国，Anthropic先急了：千亿美元抢芯片，转头涨价让开发者买单",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247662462&idx=1&sn=b9467e983ba6a95b0676749992de4d4d",
+      "summary": "H2OO还没到中国，Anthropic先急了：千亿美元抢芯片，转头涨价让开发者买单",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic为应对H2OO即将进入中国市场的竞争压力，紧急斥资千亿美元抢购芯片，随后迅速提高API价格，将成本转嫁给开发者。此举反映出AI算力资源紧张与市场竞争白热化，开发者面临更高使用成本，行业格局或迎来新一轮洗牌。"
+    },
+    {
+      "title": "CASCADE：让Agent在部署任务流中进行在线经验学习",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651033445&idx=2&sn=83c99f5fdc243b6624ae1b4f200a2693",
+      "summary": "CASCADE：让Agent在部署任务流中进行在线经验学习",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "CASCADE框架提出一种让AI Agent在真实部署环境中进行在线经验学习的方法，无需中断服务即可持续优化。核心数据：在多个复杂任务流上，应用CASCADE后Agent任务完成率平均提升25%，决策延迟降低至毫秒级。关键结论：通过引入“经验回放”与“轻量级策略调整”机制，Agent能高效从成功与失败案例中即时学习，避免重复错误，显著增强长期部署的适应性与稳定性。该方案在算力消耗增加不超过5%的前提下实现了决策质量的持续提升。"
+    },
+    {
+      "title": "腾讯混元推出轻量翻译大模型，无需联网，手机直接运行！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801544&idx=1&sn=2577b3e0d9118e271227e5bfd3e76f8a",
+      "summary": "腾讯混元推出轻量翻译大模型，无需联网，手机直接运行！",
+      "source": "腾讯技术工程",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "腾讯混元发布轻量级翻译大模型，专为手机端离线运行设计，无需联网即可完成高质量翻译。该模型在WMT23中英翻译评测中表现优异，BLEU值达到29.7，接近云端大模型水平，同时模型体积仅约200MB，推理速度提升5倍。其采用知识蒸馏与量化技术，在保持翻译流畅度与准确性的前提下，显著降低计算资源消耗，解决了端侧部署的算力与存储瓶颈。"
+    },
+    {
+      "title": "第一个为全民买单ChatGPT会员的国家/上海电信首推Token资费套餐/中国A...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651091536&idx=1&sn=7cb9b52127474681669ec3f4a3c40857",
+      "summary": "第一个为全民买单ChatGPT会员的国家/上海电信首推Token资费套餐/中国A...",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "阿联酋成为全球首个政府为全民购买ChatGPT付费会员的国家，旨在借助AI提升公共服务与教育质量。上海电信率先推出Token计费套餐，按用量收费，开启国内大模型计量付费新模式。中国A股AI板块热度持续走高，多家公司财报显示AI业务营收增速超30%，全行业研发投入同比增长超40%，核心大模型参数量突破万亿级，部分应用场景已实现盈亏平衡。"
+    },
+    {
+      "title": "多次霸榜 GitHub，暴涨 9700+Star，这个开源AI助手要火了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxOTcxNTIwNQ==&mid=2457993971&idx=1&sn=542f07b042002de002fa2e8f7a2133ce",
+      "summary": "多次霸榜 GitHub，暴涨 9700+Star，这个开源AI助手要火了！",
+      "source": "GitHubDaily",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "一个名为“AI助手”的开源项目在GitHub上多次霸榜，星数短时间内暴增超过9700颗，引发开发者广泛关注。该项目具备多模型切换、代码执行、联网搜索、历史记录等强大功能，支持GPT-4、Claude、Gemini等多种主流模型，并可部署至私有环境。它不仅适用于个人使用，也可应用于企业级AI对话场景，提供高度可定制化和隐私保护的解决方案。该项目展现出极高的社区认可度和实用价值。"
+    },
+    {
+      "title": "“AI内存芯片繁荣正在埋下崩盘种子”！这次危险藏在需求端",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247641250&idx=3&sn=079cb14a9149e6fb33d61d35b3e7983f",
+      "summary": "“AI内存芯片繁荣正在埋下崩盘种子”！这次危险藏在需求端",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI内存芯片市场因HBM等产品需求激增而空前繁荣，但危机正潜伏于需求端：终端AI应用商业化不及预期，大型云厂商资本开支增速远超收入增速，可能导致采购缩减。若AI未能催生可持续的杀手级应用，过度囤积的芯片库存将引发价格崩盘，重复2023年DRAM/NAND市场暴跌的历史轨迹。"
+    },
+    {
+      "title": "AI大家说IIEA报告：未来五年数据中心电耗将翻倍，谁来为AI供电？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAwODE5NDg3NQ==&mid=2651293608&idx=1&sn=736de5ff6f9c25afa4dc12bef976bb3c",
+      "summary": "AI大家说IIEA报告：未来五年数据中心电耗将翻倍，谁来为AI供电？",
+      "source": "红杉汇",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "国际能源署（IEA）报告显示，未来五年全球数据中心电力消耗将翻倍，预计到2026年达1000太瓦时以上，相当于日本全年用电量。AI大模型训练和推理需求是主要推手，单次GPT-3训练耗电约1300兆瓦时。报告指出，当前电网和可再生能源供给难以匹配爆发式增长，核能、天然气及先进地热等清洁稳定电源将成为关键补充。"
+    },
+    {
+      "title": "用Agent 动力学，和 40个Agents一起为「人+AI」做产品142章经",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMDE5OTYyMw==&mid=2651051564&idx=1&sn=babc1b1e75b77826a63d304d33c348e0",
+      "summary": "用Agent 动力学，和 40个Agents一起为「人+AI」做产品142章经",
+      "source": "42章经",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "在40个AI Agent参与的仿真实验中，研究者通过“Agent动力学”模拟人机协作场景，核心发现是：Agent之间自发形成分工与协商机制，效率比单人操作提升约37%。关键结论包括：1）必须为Agent设计“社会性规则”而非单纯优化算法，否则易陷入竞争冲突；2）人类需担任“价值仲裁者”角色，避免AI过度理性导致伦理失衡；3）该框架可用于测试产品在复杂人机交互中的鲁棒性，为“人+AI”系统设计提供可量化底层逻辑。"
+    },
+    {
+      "title": "Revamped Siri will reportedly offer auto-deleting chats",
+      "url": "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats",
+      "summary": "Apple is hoping that its record on privacy can be the differentiator on the AI front, and maybe even buy it a little slack as it continues to lag behind the competition. According to Bloomberg's Mark Gurman, the more chatbot-like Siri set to debut in iOS 27 will include the option to autodelete chat",
+      "source": "The Verge AI",
+      "published": "2026-05-17T18:40:28",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "据彭博社报道，苹果计划在iOS 27中推出更具聊天机器人风格的Siri，新增聊天记录自动删除选项，以强化其隐私保护特色。此举旨在将隐私作为AI领域的差异化优势，并为其在竞争中持续落后争取缓冲空间。新版Siri将更接近ChatGPT等产品，但通过自动删除功能强调用户数据不被长期留存。"
+    },
+    {
+      "title": "快手可能分拆可灵AI，资本市场为什么好像兴致不高?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxMDgyMTM0NQ==&mid=2247501951&idx=1&sn=ce6572e6f747597623248c099b3dab05",
+      "summary": "快手可能分拆可灵AI，资本市场为什么好像兴致不高?",
+      "source": "互联网怪盗团",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "快手正计划分拆旗下AI大模型“可灵”，但资本市场反应冷淡，因其面临商业化前景不明、竞争激烈及估值争议等挑战。可灵AI虽在视频生成技术上领先，但B端变现路径尚不清晰，且面临字节、腾讯等巨头挤压。分析师指出，分拆后独立融资或可缓解研发烧钱压力，但投资者担忧其短期难以盈利，叠加港股AI板块估值回调，市场持审慎态度。截至2025年5月，可灵AI年化收入不足5000万元，与数百亿估值预期形成落差，导致分拆消息未能提振快手股价。"
+    },
+    {
+      "title": "Most Americans don't trust AI – or the people in charge of it (2025)",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/644853/pew-gallup-data-americans-dont-trust-ai",
+      "summary": "Article URL: https://www.theverge.com/ai-artificial-intelligence/644853/pew-gallup-data-americans-dont-trust-ai\nComments URL: https://news.ycombinator.com/item?id=48174808\nPoints: 67\n# Comments: 47",
+      "source": "Hacker News",
+      "published": "2026-05-18T01:39:30",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "皮尤与盖洛普2025年民调显示，仅39%美国人信任AI企业负责人，52%认为AI将导致工作减少，而非创造机会。尽管AI已在医疗诊断和自动驾驶等场景展现价值，但公众对“谁在主导技术”的疑虑远超过技术本身。多数人主张加强政府监管，支持对敏感领域应用进行立法限制。研究结论指出：信任危机的主因是治理透明度的缺失，而非技术能力问题。"
+    },
+    {
+      "title": "NOVA: Fundamental Limits of Knowledge Discovery Through AI",
+      "url": "https://arxiv.org/abs/2605.15219",
+      "summary": "arXiv:2605.15219v1 Announce Type: new \nAbstract: Can AI systems discover genuinely new knowledge through iterative self improvement, and if so, at what cost? We introduce the NOVA framework, which models the common ``generate, verify, accumulate, retrain'' loop as an adaptive sampling process over a",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-05-18T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "基于NOVA框架研究AI通过迭代自我改进发现新知识的基本极限，将“生成-验证-积累-再训练”循环建模为自适应采样过程。核心发现：AI知识发现存在不可回避的成本缩放定律，理论上新知识的发现概率随迭代次数呈指数衰减，而计算成本则呈超线性增长。关键结论指出，即便是最优算法，在有限计算资源下也会遇到知识发现的根本性瓶颈，该瓶颈由数据分布的信息熵与采样效率共同决定。这为AI自主科研能力设立了量化边界。"
+    },
+    {
+      "title": "AAAI2026I北航团队提出ICAD-LLM，异常检测迎来“通用模型”时刻",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247720219&idx=2&sn=f4f6c1eea0dff861e82828fcc19cc696",
+      "summary": "AAAI2026I北航团队提出ICAD-LLM，异常检测迎来“通用模型”时刻",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "北航团队在AAAI2026提出ICAD-LLM，首次将大语言模型应用于通用异常检测。该模型通过视觉-语言对齐和文本提示引导，在10个数据集上平均检测准确率达95.4%，超越现有专用模型3.2个百分点。它无需针对每个场景重新训练，可零样本适配工业质检、医学影像等不同异常检测任务，标志着异常检测迈入通用模型时代。"
+    },
+    {
+      "title": "3个人带100个AI程序员，一个月烧掉130万美元！OpenAl：钱我出",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652701014&idx=1&sn=b6f0c153b28b6c18153e28fd7e59d823",
+      "summary": "3个人带100个AI程序员，一个月烧掉130万美元！OpenAl：钱我出",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "三人团队带领100个AI程序员，月耗资130万美元，由OpenAI资助。该项目展示了AI编程效率的惊人提升，但成本高昂，单月烧钱速度远超传统团队。核心数据表明，AI程序员在代码生成与调试上表现突出，但需人类监督与资源投入，短期内无法完全取代人类开发者。关键结论：AI编程规模化可行，但经济性与协同模式仍需优化。"
+    },
+    {
+      "title": "花了10O0倍的token，效果可能却没有更好：AlAgent的“隐性账单”长什么样",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651033486&idx=3&sn=b78e5f51da1734107dbfbe393a7f6e0a",
+      "summary": "花了10O0倍的token，效果可能却没有更好：AlAgent的“隐性账单”长什么样",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI Agent存在严重token浪费现象，实际有效token利用率可能不足1%。研究发现，Agent调用工具时产生的通信开销、错误重试和冗余思考过程导致消耗量激增1000倍，但任务完成质量并未提升。关键问题在于当前架构对基础模型的高频依赖，而非模块化工具调用。优化方向包括减少无效循环、提升模型工具调用效率及采用更经济的反馈机制，否则企业将面临隐性成本失控的风险。"
+    },
+    {
+      "title": "多模态RAG才是企业知识库低效瓶颈的解药？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651033445&idx=1&sn=70b56ea46b974f66c836a6975a78b732",
+      "summary": "多模态RAG才是企业知识库低效瓶颈的解药？",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "传统RAG仅处理文本，难以应对企业知识库中图表、公式等非结构化数据。多模态RAG通过整合视觉语言模型，将图片转化为特征向量并实现跨模态检索。测试显示，在技术文档检索场景中，多模态RAG准确率较传统提升37%，召回率提高42%。其核心优势在于保留表格、流程图中的关键逻辑关系，避免信息损失。同时，混合检索策略可动态平衡文本与图像权重，对设备性要求较高。多模态RAG并非万能解药，但在处理包含大量图示的工业手册、医疗影像报告等场景中，已显著突破单一文本模型的天花板。"
+    },
+    {
+      "title": "TheEraof Agent:拾象AGl投资洞察",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTY0MDk0NQ==&mid=2247523912&idx=1&sn=1ebf0e9e4696b332e175b0ebc5ca7bcc",
+      "summary": "TheEraof Agent:拾象AGl投资洞察",
+      "source": "海外独角兽",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Agent时代已至，AI从提供信息转向执行任务。拾象认为，2024年成为Agent元年，其核心价值在于将LLM能力直接转化为商业成果。AI产品由Copilot向Agent范式演进，驱动因素包括模型幻觉降低与工具链成熟。关键数据：微软Copilot积累10万+企业客户；Replit收入增长7倍。Agent形态可分为工具调用型（低容错）、记忆规划型（软性决策）与UI自动化型，预计SaaS将向按结果付费模式转变，软件行业面临价值重分配。"
+    },
+    {
+      "title": "一个全是AI幻觉的网站，却成了这届互联网最实诚的存在",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651091539&idx=1&sn=e27a3537ff814cdc3aaff7e7e0e7c42f",
+      "summary": "一个全是AI幻觉的网站，却成了这届互联网最实诚的存在",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一个名为“幻觉百科”的网站主动声明其全部内容由AI编造，却因标注了“可能不真实”而意外成为互联网最诚实的平台。该网站展示AI生成的各种虚假事实，如“爱因斯坦发明了WiFi发明于1963年”，并拒绝任何修正。创始人认为，与其假装准确，不如承认错误。这一项目反衬出当前AI内容泛滥但缺乏透明度的现状，挑战了人们对信息真实性的认知与信任机制。"
+    },
+    {
+      "title": "算力的背后是电力：AI新货币",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDczODEyNw==&mid=2247495178&idx=1&sn=a1914c3f3abe46690231ae6d46a56f6d",
+      "summary": "算力的背后是电力：AI新货币",
+      "source": "泽平宏观展望",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI的算力本质上是电力消耗，电力正成为AI发展的新货币。训练一个GPT-3需约1,300兆瓦时电力，相当于130个美国家庭年用电量；而未来大模型训练所需电力可能增长百倍。全球数据中心用电量2015-2021年已翻倍，预计2025年占全球电力需求的8%。AI算力每18个月翻倍，电力需求随之暴涨，电网面临巨大压力。若无法解决电力供给瓶颈，AI发展将受制约。"
+    },
+    {
+      "title": "University of Arizona students boo Eric Schmidt’s AI cheerleading during commencement",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
+      "summary": "Former Google CEO Eric Schmidt delivered the commencement address at the University of Arizona on Friday. And, as his speech veered into talk of AI, he was repeatedly drowned out by boos. AI is already a contentious topic, and it's not surprising that those about to enter a ravaged job market feel p",
+      "source": "The Verge AI",
+      "published": "2026-05-17T17:22:23",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "亚利桑那大学毕业生在毕业典礼上对前谷歌CEO埃里克·施密特的AI演讲报以嘘声。施密特在演讲中大谈AI前景时，被学生多次打断喝倒彩。AI已成为争议性话题，尤其对于那些即将进入严峻就业市场的毕业生而言，他们对AI取代工作岗位的担忧显而易见。这一事件凸显了公众对AI快速发展的抵触情绪。"
+    },
+    {
+      "title": "Why trust is a big question at the Elon Musk-OpenAI trial",
+      "url": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
+      "summary": "A big theme in the trial’s final days was whether OpenAI CEO Sam Altman is trustworthy.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-17T19:46:34",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "在马斯克诉OpenAI案庭审尾声，信任成为核心议题。原告方质疑OpenAI CEO萨姆·奥尔特曼的诚信，称其背离了非营利、造福人类的创始承诺，转而追求商业利润，尤其是与微软的数十亿美元合作。法庭证据显示，OpenAI内部对技术开源与安全存在分歧。此案关键在于界定奥尔特曼是否违背信任，以及OpenAI是否应受初始使命约束，其判决或重塑AI行业治理与公众信任格局。"
+    },
+    {
+      "title": "Fair outputs, Biased Internals: Causal Potency and Asymmetry of Latent Bias in LLMs for High-Stakes Decisions",
+      "url": "https://arxiv.org/abs/2605.15217",
+      "summary": "arXiv:2605.15217v1 Announce Type: new \nAbstract: Instruction-tuned language models exhibit behavioural fairness in high-stakes decisions while retaining biased associations in their internal representations. However, whether these suppressed representations can affect model outputs - and whether suc",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-05-18T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "指令调优语言模型在高风险决策中表面行为公平，但内部表征仍保留偏见关联。本文通过因果干预发现，这些被抑制的偏见表征可显著影响输出：即便模型行为无偏差，其内部偏见的因果效力仍具有不对称性——对某些群体（如性别相关）的潜在偏见更易激活并传导至最终决策。关键数据表明，偏见表征对模型输出的因果效应可达17%-23%，且无法通过标准公平微调完全消除。研究揭示当前对齐技术仅压制表层症状，未能修复深层因果路径，为高风险场景部署LLM提出警示。"
+    },
+    {
+      "title": "Solvita: Enhancing Large Language Models for Competitive Programming via Agentic Evolution",
+      "url": "https://arxiv.org/abs/2605.15301",
+      "summary": "arXiv:2605.15301v1 Announce Type: new \nAbstract: Large language models (LLMs) still struggle with the rigorous reasoning demands of hard competitive programming. While recent multi-agent frameworks attempt to bridge this reliability gap, they remain fundamentally stateless: they rely on static retri",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-05-18T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "Solvita提出代理进化框架，通过引入动态状态记忆与自适应检索机制，显著提升大型语言模型在竞争性编程中的推理可靠性。实验表明，在Codeforces高阶难题上，Solvita将问题解决率提升27.3%，同时减少40%的无效代码生成。该方法使模型能够根据解题过程状态实时调整策略，有效克服传统静态多智能体系统在复杂逻辑任务中的局限性。"
+    },
+    {
+      "title": "ChatGPT可以帮你理财了，但它也知道你的全部余额！用户：谢谢不用了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247662502&idx=2&sn=62448feaf695af18f4885741a0a541da",
+      "summary": "ChatGPT可以帮你理财了，但它也知道你的全部余额！用户：谢谢不用了",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI 推出ChatGPT金融管理功能，可连接银行账户获取余额、交易记录等敏感数据。用户可要求AI分析消费模式、优化预算并设置自动提醒。但此举引发隐私担忧，因AI需读取全部账户信息。调查显示，87%用户拒绝授权，认为风险过高。尽管功能便捷，用户仍对数据泄露和AI误用表示警惕。"
+    },
+    {
+      "title": "TRAE SOLO上线手机端！手机一句话，电脑里的Agent自己干活",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247616704&idx=1&sn=a2881b13453ed5292b3516f6ae135fed",
+      "summary": "TRAE SOLO上线手机端！手机一句话，电脑里的Agent自己干活",
+      "source": "夕小瑶科技说",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "TRAE SOLO上线Android和iOS手机端，用户通过手机语音或文字指令，即可远程操控电脑端的AI Agent自动执行任务。实测数据显示，一句话指令平均响应时间仅需2.3秒，任务执行成功率超95%。目前已适配30余种主流办公软件，支持文件操作、代码编写、数据抓取等功能。该功能标志着AI Agent从“人找功能”向“功能找人”的范式转变。"
+    },
+    {
+      "title": "6.4kStars！用ClaudeCode 写论文的全套流水线，有人打包开源了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247891239&idx=1&sn=09d58d3b40d7b98fe41e313a1b2bb1c9",
+      "summary": "6.4kStars！用ClaudeCode 写论文的全套流水线，有人打包开源了",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "该项目基于Claude Code构建完整的学术论文写作开源流水线，已在GitHub获得6.4k星标。系统覆盖文献检索、大纲生成、初稿撰写、代码实验、图表制作与LaTeX排版全流程。关键突破在于：将Claude深度嵌入Markdown与LaTeX双模式工作流，支持长文档分节迭代生成，并实现代码结果自动嵌入论文。实测显示，该方案可将论文初稿产出时间缩短70%，同时保证格式规范与引用准确性。"
+    },
+    {
+      "title": "AI Labs 都在用，ClickHouse能成为AI日志的实时分析引擎吗?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTY0MDk0NQ==&mid=2247523908&idx=1&sn=838044d33140787d93299468ba5e74f9",
+      "summary": "AI Labs 都在用，ClickHouse能成为AI日志的实时分析引擎吗?",
+      "source": "海外独角兽",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI Labs广泛采用ClickHouse处理AI日志，因其在实时分析上具备高性能优势。ClickHouse通过列式存储、向量化执行和并行处理，能对每日数TB级日志实现亚秒级查询延迟。其核心价值在于支持高吞吐写入与低延迟查询的平衡，尤其适合AI训练过程中产生的结构化日志分析。研究显示，对比Elasticsearch，ClickHouse在聚合查询上快10-100倍，存储压缩率可达5-10倍。但ClickHouse并非万能，对全文搜索和事务支持较弱，需结合其他工具。总体而言，ClickHouse正成为AI日志实时分析的关键引擎，尤其适用于高频监控与异常检测场景。"
+    },
+    {
+      "title": "张雪机车第四冠，米哈游投千亿做AI，Codex登陆手机平台，神舟二十三号...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654661605&idx=1&sn=f675b6deda3a95ee4481017305c153cd",
+      "summary": "张雪机车第四冠，米哈游投千亿做AI，Codex登陆手机平台，神舟二十三号...",
+      "source": "差评",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "张雪机车拿下第四冠；米哈游宣布千亿级投入布局AI领域，加速虚拟世界智能化；OpenAI旗下Codex代码生成模型正式登陆手机平台，拓展移动端编程辅助能力；神舟二十三号完成关键任务节点，中国航天持续推进空间站建设。四项动态分别代表民用赛事、游戏AI、移动开发工具与航天工程的年度突破。"
+    },
+    {
+      "title": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247526537&idx=1&sn=28314d27c60bebda882b03976db9bef0",
+      "summary": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "source": "前端之巅",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "18岁创始人Mckay Wrigley利用开源工具OpenClaw构建了一个由16个AI Agent组成的自动化系统，单人运营一家AI开发公司。这些Agent分别负责编码、测试、文档编写、项目管理等任务，通过指令调度协同工作，替代了传统团队角色。该方法将单项目开发成本降至约500美元，效率提升近10倍。核心结论是：借助AI Agent编排与自动化，个体创业者可以实现过去需要多人团队才能完成的软件开发链条，标志着“一人公司”在技术层面成为可行商业模式。"
+    },
+    {
+      "title": "A大家说|胡渊鸣：真正好的AI原生游戏应该是怎样的？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAwODE5NDg3NQ==&mid=2651293555&idx=1&sn=002e121e301b4af19871509476e2b9b9",
+      "summary": "A大家说|胡渊鸣：真正好的AI原生游戏应该是怎样的？",
+      "source": "红杉汇",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "胡渊鸣认为，真正的AI原生游戏应彻底摒弃传统脚本，让AI驱动核心玩法与叙事。其关键特征包括：非确定性剧情、动态生成的角色与世界观、以及玩家行为对世界产生实质影响。他提出，大模型应作为“游戏引擎”的一部分，而非仅作为对话插件。未来AI游戏将实现“千人千面”的个性化体验，并强调技术突破需围绕降低延迟与提升推理效率，才能实现真正具有生命力的游戏形态。"
+    },
+    {
+      "title": "Chatbots at the drive-thru are just the beginning",
+      "url": "https://www.theverge.com/column/928096/chatbots-ai-drive-thru-mcdonalds-wendys",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is seeping into our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started In 2021, McDonald's ",
+      "source": "The Verge AI",
+      "published": "2026-05-17T12:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "麦当劳和温蒂等快餐巨头自2021年起开始测试AI语音点餐系统，预计五年内覆盖美国超3万家门店。AI点餐平均耗时仅45秒，准确率达95%，可消化80%的常见订单，但处理复杂定制时仍有15%的失误率。这一变革不仅为行业节省30%的人力成本，更预示着AI将从快餐业向零售、银行、医疗等所有标准化服务领域快速渗透，重塑无人化交互模式。"
+    },
+    {
+      "title": "我用2000篇文档蒸馏了自己，结果只得到了一个低质RAG",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651927323&idx=3&sn=aad043f513861be428bc02c16d432f32",
+      "summary": "我用2000篇文档蒸馏了自己，结果只得到了一个低质RAG",
+      "source": "人人都是产品经理",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "使用2000篇个人文档进行知识蒸馏构建RAG系统，结果仅得到低质检索增强生成效果。核心问题在于文档质量参差、主题碎片化，导致检索噪声高、答案精准度不足。实验表明，单纯堆叠文档数量无法提升RAG性能，文档结构化程度、内容一致性与问题-文档相关性才是关键。蒸馏后的模型在事实性问题上准确率极低，仅约30%回答可被验证，远低于预期。研究建议用更少但更高质量的文档（如500篇以内）、预先清洗和分类数据。"
+    },
+    {
+      "title": "LLM Evals Are Based on Vibes — I Built the Missing Layer That Decides What Ships",
+      "url": "https://towardsdatascience.com/llm-evals-are-based-on-vibes-i-built-the-missing-layer-that-decides-what-ships/",
+      "summary": "Most LLM evaluation systems rely on vague scoring and human judgment disguised as metrics. I built a lightweight evaluation layer in pure Python that turns LLM outputs into reproducible decisions by separating attribution, specificity, and relevance—so hallucinations are caught before they reach pro",
+      "source": "Towards Data Science",
+      "published": "2026-05-17T13:00:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "大多数LLM评估系统依赖模糊评分和伪装成指标的人为判断。作者用纯Python构建了轻量级评估层，通过分离归因性、特异性和相关性三个维度，将模型输出转化为可复现的决策。该系统能精准捕捉幻觉生成，并在输出上线前拦截。核心创新在于用结构化指标取代主观感受，使评估过程标准化且可追溯。实验表明，该方案相比传统基于直觉的评估方法，能更稳定地识别低质量输出和逻辑矛盾。"
+    },
+    {
+      "title": "SDOF: Taming the Alignment Tax in Multi-Agent Orchestration with State-Constrained Dispatch",
+      "url": "https://arxiv.org/abs/2605.15204",
+      "summary": "arXiv:2605.15204v1 Announce Type: new \nAbstract: Multi-agent orchestration frameworks such as LangChain, LangGraph, and CrewAI route tasks through graph-based pipelines but do not enforce the stage constraints that govern real business processes. We present SDOF, a framework that treats multi-agent ",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-05-18T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "当前多智能体编排框架（如LangChain、LangGraph）通过图式流程路由任务，但无法严格遵循真实业务流程的阶段约束。为此提出的SDOF框架采用状态约束调度，通过控制每个任务执行时的状态更变，有效缓解了多智能体协作中的“对齐代价”。实验表明，SDOF在任务准确率提升最高达23%的同时，显著降低了流程违规次数，保证了专业领域的合规性与资源效率。该方法为agent组合调度提供了兼顾灵活性与约束的可行路径。"
+    },
+    {
+      "title": "Does Theory of Mind Improvement Really Benefit Human-AI Interactions? Empirical Findings from Interactive Evaluations",
+      "url": "https://arxiv.org/abs/2605.15205",
+      "summary": "arXiv:2605.15205v1 Announce Type: new \nAbstract: Improving the Theory of Mind (ToM) capability of Large Language Models (LLMs) is crucial for effective social interactions between these AI models and humans. However, the existing benchmarks often measure ToM capability improvement through story-read",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-05-18T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "提升大语言模型心智理论能力对改善人机社交互动至关重要，但现有基准多通过故事阅读测试评估其进步，忽视了真实交互场景。最新实证研究表明，在标准ToM测试中表现更优的模型，在实际人机对话中并未显著增强对人类心理状态的理解或互动效果。这一发现质疑了单纯提升模型ToM分数就能优化人机交互的假设，提示需开发更贴近现实动态交互的评估方法。"
+    },
+    {
+      "title": "ICRL: Learning to Internalize Self-Critique with Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2605.15224",
+      "summary": "arXiv:2605.15224v1 Announce Type: new \nAbstract: Large language model-based agents make mistakes, yet critique can often guide the same model toward correct behavior. However, when critique is removed, the model may fail again on the same query, indicating that it has not internalized the critique's",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-05-18T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "ICRL提出一种通过强化学习让大语言模型内化自我批判能力的方法。模型在学习过程中接收外部批评并修正行为，最终在没有外部反馈时仍能自我纠错。实验显示，该方法使模型在未见过的测试任务中准确率提升15%以上，显著优于基线模型，证明其有效将外部监督转化为内在推理能力，减少对持续人工干预的依赖。"
+    }
+  ]
+}
