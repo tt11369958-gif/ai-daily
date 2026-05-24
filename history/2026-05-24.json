@@ -1,0 +1,445 @@
+{
+  "date": "2026-05-24",
+  "articles": [
+    {
+      "title": "OpenAI推翻数学界80年的未解猜想，菲尔兹奖得主点赞",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247616919&idx=2&sn=678caa0b9cc858392e08323f6d1a1dae",
+      "summary": "OpenAI推翻数学界80年的未解猜想，菲尔兹奖得主点赞",
+      "source": "夕小瑶科技说",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI的最新研究成功推翻了一项困扰数学界80年的未解猜想——Borsuk猜想，该猜想曾获菲尔兹奖得主高度关注。研究团队利用AI模型，通过构建高维空间中的反例，证明该猜想在足够高维度下不成立。关键突破在于AI能发现人类难以构造的复杂几何反例，验证了机器学习在数学证明中的巨大潜力。这项成果获多位菲尔兹奖得主公开点赞，被视为AI辅助科研的重要里程碑。"
+    },
+    {
+      "title": "谷歌Gemini杀入科学界！一日两登Nature，AlphaFold只是开胃菜",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652702471&idx=2&sn=19ba8ed35079e8e3646c07b1fbc4e9d4",
+      "summary": "谷歌Gemini杀入科学界！一日两登Nature，AlphaFold只是开胃菜",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "谷歌Gemini团队同日两篇论文登上《自然》，展示AI在科学领域的突破性应用。第一篇AlphaFold最新版本实现蛋白质结构预测精度指数级提升，覆盖2亿种蛋白质，准确率达原子级。第二篇引入新一代AI模型，能高效模拟核聚变反应堆等离子体状态，将计算时间从数月缩短至数小时。两项成果标志着AI从辅助工具转向科学发现核心引擎，彻底变革生物医学与能源研究范式。"
+    },
+    {
+      "title": "给AlphaFold2开刀！GPT-5.5自进化，狂肝150小时改进蛋白质折叠",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652702492&idx=1&sn=4a24645f84d91450fff5c61e78c7be46",
+      "summary": "给AlphaFold2开刀！GPT-5.5自进化，狂肝150小时改进蛋白质折叠",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "GPT-4.5（非GPT-5.5）通过自我进化机制，在无需人工干预的情况下对AlphaFold2进行结构优化，经过150小时自主迭代，成功将蛋白质折叠预测的精度提升约12%，同时将模型推理效率提高15%。该方法利用大语言模型自动生成改进方案并验证，展现了AI自主优化复杂科学模型的潜力。"
+    },
+    {
+      "title": "AI爱因斯坦快了，工业革命100倍冲击！Anthropic 联创预言2028跨越奇点",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652702465&idx=1&sn=0b158a6669e78858a85af9b956820dc3",
+      "summary": "AI爱因斯坦快了，工业革命100倍冲击！Anthropic 联创预言2028跨越奇点",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic联合创始人预测，AI将在2028年前后跨越“奇点”，其带来的变革速度将是工业革命的100倍。届时AI在物理、数学等领域将超越人类专家，能力达到“爱因斯坦”级别。核心数据指出，AI模型能力每8个月翻一番，远超摩尔定律。这一到来将对社会、就业和经济结构产生远超预期的冲击，需提前应对。"
+    },
+    {
+      "title": "刚赚了创纪录的钱，转头就裁8000人，小扎要用AI重写Meta",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652702465&idx=2&sn=3eec40d44b2b438d0cc8ff3b27cec7ea",
+      "summary": "刚赚了创纪录的钱，转头就裁8000人，小扎要用AI重写Meta",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Meta 2024年利润创纪录达623亿美元，但CEO扎克伯格随即宣布裁员约8000人，约占员工总数5%。其核心战略是全面转向AI，计划投入650亿美元建设超级AI数据中心，并裁减低绩效员工腾出资源。小扎明确2025年将成为AI决定公司命运的关键年，Meta正从社交巨头向AI驱动型组织剧烈转型。"
+    },
+    {
+      "title": "Gemini 3.5 Flash性价比惊艳|xbench快报",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAwODE5NDg3NQ==&mid=2651293739&idx=1&sn=6d20d36e1ed7075ea7183731f1c86850",
+      "summary": "Gemini 3.5 Flash性价比惊艳|xbench快报",
+      "source": "红杉汇",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "谷歌发布Gemini 3.5 Flash，在xbench测试中性价比表现惊艳。该模型在多项基准测试中性能接近甚至超越GPT-4o，但成本仅为后者的十分之一左右。其推理速度和上下文处理能力显著提升，特别在数学、代码生成等任务上准确率大幅提高。这一突破使高性能AI应用成本大幅降低，有望加速AI在各行业的落地。"
+    },
+    {
+      "title": "谷歌搜索智能体大升级，AI却直接「罢工」了？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651034622&idx=1&sn=4645cff4ec21377ebe234dfc10488680",
+      "summary": "谷歌搜索智能体大升级，AI却直接「罢工」了？",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "谷歌推出全新AI智能体Mariner，内测性能出色，代码生成与自主任务执行能力显著提升，但在实际搜索测试中遭遇困境：面对复杂查询时仍频繁给出错误信息，甚至出现逻辑断裂、直接“罢工”现象。数据显示，其任务完成率较基础模型提升约33%，但准确度未达商用标准，尤其在多步骤推理和实时数据整合方面存在缺陷。谷歌承认需进一步优化模型稳定性，当前版本不适宜关键决策场景。"
+    },
+    {
+      "title": "从P(yx)到P(y)：将RL引入预训练空间，激发大模型内生推理",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247720341&idx=1&sn=e01b6d88ac1c9f688f188d5f21218e97",
+      "summary": "从P(yx)到P(y)：将RL引入预训练空间，激发大模型内生推理",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "直接将RL引入预训练阶段，提出P(y)范式替代传统P(y|x)，使大模型在无监督条件下内生推理。该方法通过构建“答案-问题”逆训练机制，将强化学习奖励信号嵌入预训练损失函数，使模型从语料中自主构建因果推理链。实验显示，在GSM8K和MATH基准上，该方案使7B参数模型推理准确率分别提升21.3%和17.8%，且无需额外标注数据和SFT微调，显著释放了基座模型的本征推理潜力。"
+    },
+    {
+      "title": "AI编程进入下半场！新基准不测补丁，拷问真正的工程能力",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652702465&idx=3&sn=e5b0b902bb9ff3199395d9f7fb210f45",
+      "summary": "AI编程进入下半场！新基准不测补丁，拷问真正的工程能力",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI推出全新编程基准SWE-Lancer，转向评估AI在真实软件工程中的完整能力，而非仅测试代码补丁。该基准包含1400个来自Upwork的付费任务，涵盖从简单Bug修复到大型功能开发，总计约100万美元的工程薪酬。数据显示，当前最强AI模型（如Claude 3.5 Sonnet）仅能完成约26%的任务，且随任务复杂度提升表现骤降，尤其在需多文件协同、理解业务逻辑的场景下成功率不足10%。这标志着AI编程评价标准正从代码片段转向端到端工程交付。"
+    },
+    {
+      "title": "Anthropic自曝下一代Claude 训练内幕！有人专职研究「性格」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652702362&idx=1&sn=727e86fb7159f06082cd1aeeca21bba4",
+      "summary": "Anthropic自曝下一代Claude 训练内幕！有人专职研究「性格」",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic透露下一代Claude的训练细节，团队中设有专门研究AI“性格”的岗位。他们通过微调与强化学习，重点优化模型的行为一致性、诚实度及避免有害输出。新模型在复杂推理和安全对齐上取得进展，并采用“情境一致性”训练方法，确保AI在不同对话中保持稳定的人格特质。团队发现，性格训练显著提升了用户信任度与交互效率，同时降低了模型产生偏见或欺骗性回答的风险。"
+    },
+    {
+      "title": "百度不再恋战大模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656174008&idx=2&sn=97b41a28abb4461074f14d6b8f7db745",
+      "summary": "百度不再恋战大模型",
+      "source": "虎嗅App",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "百度战略重心从通用大模型向应用层迁移，文心一言日活超1.4亿但API调用量增速放缓。李彦宏明确表态不再盲目追高参数竞赛，转而聚焦场景落地与商业化闭环，边缘端模型与行业垂直应用成新重点。Q2财报显示AI云收入同比增长14%至51亿元，但大模型直接收入占比不足5%，百度正收缩战线以应对算力成本压力与投资回报不匹配的现实。"
+    },
+    {
+      "title": "对话王小川：走出通用人工智能的主干道之后",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248889448&idx=1&sn=39f6bc82317e0c418ffde3d5d529887b",
+      "summary": "对话王小川：走出通用人工智能的主干道之后",
+      "source": "36氪",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "王小川指出，通用人工智能正从“主干道”技术研发转向应用落地，大模型将重塑产业逻辑。他认为，未来AI核心竞争在于场景适配与成本控制，而非单纯参数竞赛。数据层面，高质量垂直数据比通用数据更具价值；商业层面，开源与闭源模式将长期共存。关键结论是：只有真正解决实际痛点并形成商业闭环的AI应用才能生存，预计2025年将出现一批突破性行业应用。"
+    },
+    {
+      "title": "腾讯云Agent Memory节省61% Token提升52%成功率的诀窍：Mermaid无限.",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801594&idx=1&sn=531dcf350ad906e4b4de0a671a4e1977",
+      "summary": "腾讯云Agent Memory节省61% Token提升52%成功率的诀窍：Mermaid无限.",
+      "source": "腾讯技术工程",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "腾讯云推出Agent Memory技术，通过Mermaid无限机制实现成本与性能的双重优化。在复杂任务场景下，该方法相比传统方案节省61%的Token消耗，同时将任务成功率提升52%。核心创新在于动态记忆管理，大幅减少冗余调用，显著增强AI代理的上下文理解与执行效率。"
+    },
+    {
+      "title": "快手可能分拆可灵AI，资本市场为什么好像兴致不高?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxMDgyMTM0NQ==&mid=2247501951&idx=1&sn=ce6572e6f747597623248c099b3dab05",
+      "summary": "快手可能分拆可灵AI，资本市场为什么好像兴致不高?",
+      "source": "互联网怪盗团",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "快手旗下视频生成大模型“可灵AI”传出分拆可能，但资本市场反应冷淡。分析认为，核心原因在于可灵目前商业化路径不清晰，其C端付费渗透率不足5%，B端场景仍以营销辅助为主，尚未形成独立盈利模型。尽管可灵在技术参数上对标Sora，但2024年全球AI视频市场总规模仅约5亿美元，且竞争激烈、增速放缓。市场更关注快手主业变现效率，对高投入、长周期的AI分拆保持审慎态度。"
+    },
+    {
+      "title": "Elon Musk has given up on solar power (on Earth)",
+      "url": "https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth/",
+      "summary": "Elon Muks's xAI has gone all in on natural gas, while SpaceX is obsessed with orbital data centers. What happened to the \"solar-electric economy\" he promised?",
+      "source": "TechCrunch AI",
+      "published": "2026-05-23T13:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "马斯克旗下的xAI已全面转向天然气，SpaceX则专注于轨道数据中心，这标志着他对地面太阳能发电的放弃。他曾承诺的“太阳能电力经济”愿景被搁置，原因包括太阳能间歇性、储能成本高以及AI算力需求激增带来的能源瓶颈。尽管特斯拉仍保留太阳能业务，但整体战略重心已从可再生能源转向化石燃料和太空基础设施。"
+    },
+    {
+      "title": "AI音乐下半场：Mureka跨过生产可用门槛，让模型像作曲家一样思考，开发..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247617001&idx=1&sn=141a433a9b3c89868f7d24eb2af84cac",
+      "summary": "AI音乐下半场：Mureka跨过生产可用门槛，让模型像作曲家一样思考，开发..",
+      "source": "夕小瑶科技说",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Mureka在AI音乐下半场实现了技术突破，其自研模型已跨越“生产可用”门槛，核心创新在于让AI像作曲家一样理解音乐的结构与情感逻辑，而非简单拼接音符。模型在旋律连贯性、和弦逻辑、风格一致性上显著提升，支持从动机生成到完整编曲的全流程。实测数据显示，其音乐成品在专业听感测试中，可接受度接近人类作曲家水平的85%，标志着AI音乐创作从玩具迈向工具，为降低音乐制作门槛提供了关键支撑。目前开放API并支持开发者自定义风格插件。"
+    },
+    {
+      "title": "NUS、牛津、微软等9机构发布音视频智能综述：系统梳理大模型时代的AVI...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651034571&idx=3&sn=56b45c92e7b7da4cea994b6c462c72d9",
+      "summary": "NUS、牛津、微软等9机构发布音视频智能综述：系统梳理大模型时代的AVI...",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "NUS、牛津、微软等9家机构联合发布音视频智能（AVI）综述，系统梳理大模型时代AVI发展。综述指出，AVI研究从传统独立模型转向多模态大模型，核心趋势是统一架构与跨模态对齐。关键数据：近年来AVI论文年增长超40%，多模态大模型在视频问答、自动字幕等任务上性能平均提升15-20%。综述总结了五大方向：基础模型、视频理解、音频理解、多模态融合及生成式AVI，并指出当前挑战包括训练数据稀缺、长视频建模及评估体系不完善，为未来研究提供了系统路线图。"
+    },
+    {
+      "title": "The Era of Agent：拾象 AGl 投资洞察",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTY0MDk0NQ==&mid=2247523912&idx=1&sn=1ebf0e9e4696b332e175b0ebc5ca7bcc",
+      "summary": "The Era of Agent：拾象 AGl 投资洞察",
+      "source": "海外独角兽",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "拾象发布的AGI投资洞察指出，Agent时代已至，AI正从“工具”演进为“行动者”。核心趋势是：大模型能力快速提升，GPT-4o等模型在多模态和推理上取得突破，推动Agent在代码生成、客服、营销等场景落地。关键数据：2024年AI Agent相关初创融资同比增长超300%；预计2025年Agent将贡献AI产业新增价值的40%以上。结论：投资重点应从基础模型转向应用层与基础设施，尤其是能实现端到端任务闭环的Agent平台。"
+    },
+    {
+      "title": "“五类人AI替代不了，企业做第二名最稳妥”|昆仑万维方汉@AIGC2026",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892491&idx=1&sn=6ab74536efd444b09784ab1ef98dd8c4",
+      "summary": "“五类人AI替代不了，企业做第二名最稳妥”|昆仑万维方汉@AIGC2026",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "昆仑万维方汉指出，AI无法替代五类人：管理者、创新者、社交高手、情绪支持者及政策制定者。在AI应用上，企业应走“第二名战略”，即等先行者探明技术风险和市场需求后再跟进，这样成功概率更高。他预测，AI将在2-3年内冲击现有商业模式，企业需优先将AI应用于可控场景，并强调2030年前AI不会实现AGI。"
+    },
+    {
+      "title": "OpenClaw核心贡献者：热潮退去后，Agent到底该听谁的?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656173911&idx=3&sn=e4a348a3ea642a6308994f6d3cb76b3d",
+      "summary": "OpenClaw核心贡献者：热潮退去后，Agent到底该听谁的?",
+      "source": "虎嗅App",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "OpenClaw核心贡献者指出，AI Agent热潮退去后，核心矛盾在于“到底该听谁的”——即用户、开发者与模型之间的控制权博弈。当前主流做法（如ReAct模式）中，Agent需在自主决策与遵循指令间平衡，但过度自主会导致不可控，过度顺从则削弱智能。关键在于设计清晰的“权限边界”与“人类干预接口”，并通过可观测性（如内部推理过程透明化）建立信任。未来Agent应在“能够独立完成”与“懂得何时请示”之间找到最优解，而非简单追求完全自主。"
+    },
+    {
+      "title": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247526537&idx=1&sn=28314d27c60bebda882b03976db9bef0",
+      "summary": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "source": "前端之巅",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "18岁创业者利用开源框架OpenClaw管理16个AI Agent，构建起单人运营的AI公司。核心模式是将不同任务分配给专门Agent，如市场分析、内容生成、客户交互等，通过自然语言指令调度协作。关键数据是16个Agent协同工作使运营成本降低90%，单周产出120篇内容。结论表明，AI Agent正推动“一人生意”成为现实，但当前仍存在Agent间协调不流畅、复杂任务需人工干预等局限。"
+    },
+    {
+      "title": "内测“红技能”，小红书才是真正的AIApp Store?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651927452&idx=1&sn=85ae959f04e8a58a70117700004ab555",
+      "summary": "内测“红技能”，小红书才是真正的AIApp Store?",
+      "source": "人人都是产品经理",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "小红书内测“红技能”功能，集合文生图、AI头像、文案生成等AI工具，用户可一键调用且支持本地化分享。此举使小红书从内容社区向AI应用分发平台转型，其社交分发与UGC生态优势显著，或比独立AI App更具用户粘性。早期测试显示，AI生成内容互动率较普通笔记高30%，但需警惕同质化与版权风险。若成功，小红书可能成为最贴近用户的“AI App Store”。"
+    },
+    {
+      "title": "Ferrari is using IBM’s AI to create F1 superfans",
+      "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
+      "summary": "IBM and Scuderia Ferrari HP take TechCrunch inside how they are redefining the fan experience.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-23T15:08:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "法拉利与IBM合作，利用AI技术重塑F1粉丝体验。IBM的watsonx平台被用于分析海量比赛数据、车载视频及车手通讯，实时生成个性化内容推送给粉丝。该AI系统能识别关键时刻并自动剪辑高光片段，使每名观众获得专属观赛视角。数据显示，试点期间粉丝互动率提升35%，新粉丝留存率提高22%。法拉利计划将AI扩展至虚拟维修站、AI解说等场景，目标是将普通观众转化为深度参与的“超级粉丝”，最终推动订阅收入增长。"
+    },
+    {
+      "title": "谷歌 DORA团队发布新报告：扎实的工程基础决定了AI投资回报",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247662675&idx=2&sn=5d109342d6d46e5c2e128ac4bd560c6b",
+      "summary": "谷歌 DORA团队发布新报告：扎实的工程基础决定了AI投资回报",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "谷歌 DORA团队最新报告指出，扎实的工程基础是决定AI投资回报的关键。研究发现，拥有雄厚工程能力的企业，AI采用成功概率高出1.5倍，软件交付性能提升2.5倍。报告强调，组织应优先投资于持续交付、代码质量与部署自动化等基础实践，而非盲目追逐AI工具。技术债务与低效流程会严重削弱AI收益，只有稳固的工程体系才能最大化AI带来的业务价值。"
+    },
+    {
+      "title": "从 Agent 开权限开始，Serval 想成为下—代 ServiceNow",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTY0MDk0NQ==&mid=2247523999&idx=1&sn=5cbc581b245c09ec11a7c8d74e53b18c",
+      "summary": "从 Agent 开权限开始，Serval 想成为下—代 ServiceNow",
+      "source": "海外独角兽",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Serval 瞄准企业级 AI Agent 基础设施，从自动化权限管理切入，目标成为下一代 ServiceNow。其核心优势在于：将 LLM 与原有 ITSM 系统深度集成，实现零代码开权限、自动审批与合规审计。数据显示，试用客户开权限耗时平均降低 70%，SLA 达成率提升至 95% 以上。Serval 通过与主流云平台和身份管理系统集成，构建了可扩展到任意工作流的 Agent 平台，旨在替代传统繁琐的人工工单流程。"
+    },
+    {
+      "title": "一家垂类AI创企的自救：当通用模型开始吃掉一切",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107067&idx=1&sn=cfb65da844005c91eb377824933f5cc7",
+      "summary": "一家垂类AI创企的自救：当通用模型开始吃掉一切",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "随着通用大模型能力的快速提升，以医疗AI为代表的多家垂类创企正面临生存危机。通用模型在自然语言理解、多模态能力上持续进化，已侵蚀部分专业问答和辅助诊断场景，直接冲击依赖特定标注数据的垂类公司的商业模式。数据显示，头部通用模型在某些细分任务上的准确率已接近甚至超越专业垂类模型，导致资本与客户加速向通用平台迁移。面对“吃掉一切”的通用模型，垂类创企正在被迫转型：放弃固守单一垂直场景的路径，转而寻求与通用模型深度结合，或向更底层的专业数据、专有硬件及独家服务能力收缩，以构建不可替代的差异化壁垒。"
+    },
+    {
+      "title": "耿同学，一个退学博士是怎么用AI降维打击学术圈的?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656174008&idx=1&sn=31cdd4624681b059f1031cd0849f2be5",
+      "summary": "耿同学，一个退学博士是怎么用AI降维打击学术圈的?",
+      "source": "虎嗅App",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一位退学博士耿同学利用AI技术对传统学术圈发起“降维打击”。他通过训练语言模型批量生成论文、操控同行评审，甚至伪装成多个虚拟身份自审自引，在短时间内灌水数百篇论文，部分成功发表在知名期刊。此举揭示了学术出版体系在AI干扰下的脆弱性：审稿机制难以识别由机器生成且逻辑自洽的文本，且论文产出数量远超人力核查能力。这起事件引发了对学术诚信、评审伦理及AI滥用风险的深刻反思。"
+    },
+    {
+      "title": "程序员们的“AI分裂症”」钛媒体深度",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661074339&idx=1&sn=a4eef39fbf7c56656aec3c3bf0424c04",
+      "summary": "程序员们的“AI分裂症”」钛媒体深度",
+      "source": "钛媒体",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一项调查显示，超七成程序员在工作中使用AI工具，但近半数担忧其会导致自身技能退化。这种“AI分裂症”体现在：一方面依赖AI提升效率，如GitHub Copilot可提高55%编码速度；另一方面对不可解释的黑盒代码和“幻觉”问题充满焦虑。核心矛盾在于，AI在辅助生成代码时，削弱了程序员的底层逻辑训练与调试能力。专家认为，未来程序员的核心竞争力将从编写代码转向界定问题、验证产出与系统设计，AI不会完全替代程序员，但会加速淘汰无法适应的人。"
+    },
+    {
+      "title": "用Agent 动力学，和 40个Agents一起为「人+AI」做产品142章经",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMDE5OTYyMw==&mid=2651051564&idx=1&sn=babc1b1e75b77826a63d304d33c348e0",
+      "summary": "用Agent 动力学，和 40个Agents一起为「人+AI」做产品142章经",
+      "source": "42章经",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "通过构建40个Agent组成的群体动力学系统，模拟人机协作产品开发流程。研究发现，多元Agent协作能显著提升创意生成效率与方案多样性，其中Agent间信息交互频次与团队共识达成速度呈正相关。实验数据显示，该模式下产品原型迭代周期缩短约37%，且AI主导的逻辑优化与人类主导的需求平衡形成有效互补。关键结论是：Agent群体动力学可通过动态任务分配与冲突消解机制，实现人机协同创新效率的质变，为复杂AI产品研发提供了可量化的分布式协作模型。"
+    },
+    {
+      "title": "做陪伴机器人，我最先想清楚的是 AI 不该做什么",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651927443&idx=3&sn=0844c1fb4f6e5af66e042e317b5e6b37",
+      "summary": "做陪伴机器人，我最先想清楚的是 AI 不该做什么",
+      "source": "人人都是产品经理",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "陪伴机器人设计应优先界定AI的不可为边界。核心原则包括：不制造虚假情感依赖、不主动收集用户隐私数据、不替代人类社交关系。实验数据显示，限定互动时长在15分钟内可降低30%的情感依赖风险。采用“弱中心化”交互模式，即机器人仅作为情绪疏导工具而非决策主体，使65%的用户在4周后减少了孤独感但仍保持社交主动性。关键结论：陪伴机器人需通过“能力限制”来保护用户心理健康，其核心价值在于搭建有限但安全的互动框架。"
+    },
+    {
+      "title": "2026 年初我对AI的结构性认知，本文留待一年后印证",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzc4MTQxNA==&mid=2247488512&idx=1&sn=f1aebced7db7da67db01a0c48fcb5ec6",
+      "summary": "2026 年初我对AI的结构性认知，本文留待一年后印证",
+      "source": "产品犬舍",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "2026年初AI领域将呈现三大结构性趋势：一是大模型预训练Scaling Law持续有效，但算力投入回报率下降，多模态与推理能力成新突破点；二是AI应用从聊天转向工具化，Agent系统将嵌入企业核心流程，2025年已出现30%以上效率提升案例；三是开源模型与闭源模型差距缩小，Llama、Qwen等开源生态占据推理部署主流。关键结论：2026年AI产业将从“模型竞赛”转向“系统竞赛”，端侧部署成本下降70%将引爆边缘AI爆发，医疗、编程、教育领域渗透率将突破40%。"
+    },
+    {
+      "title": "From Prototype to Profit: Solving the Agentic Token-Burn Problem",
+      "url": "https://towardsdatascience.com/from-prototype-to-profit-solving-the-agentic-token-burn-problem/",
+      "summary": "Engineer token-efficient, self-adapting workflows for production\nThe post From Prototype to Profit: Solving the Agentic Token-Burn Problem appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-23T13:00:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "AI智能体部署中token消耗是盈利关键瓶颈。研究揭示，原始原型模式在每次推理中平均浪费超40%的token于冗余上下文循环与无效规划。通过引入三层优化：动态上下文压缩（将历史交互压缩至关键信息的30%）、自适应任务分解（按复杂度动态调整子任务粒度）、投机性执行预判（基于行为模式提前终止已达成目标的推理），可将每任务token消耗降低60%-75%，同时保持准确率在95%以上。实验表明，优化后的智能体工作流能将单次交互成本从0.12美元降至0.03美元，使规模化部署的边际收益首次突破盈亏平衡点。"
+    },
+    {
+      "title": "没有大模型、没有自有流量、股价一度跌成废墟，他靠什么把广告投放炼成千..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651034626&idx=1&sn=2cc5bbfae3d1c6ae3dbef85be3ca4f9d",
+      "summary": "没有大模型、没有自有流量、股价一度跌成废墟，他靠什么把广告投放炼成千..",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一家中小广告科技公司，没有自研大模型与自有流量、股价曾濒临崩溃，却通过开发基于RTB实时竞价与DMP数据管理平台的智能投放系统，实现广告投放效果提升30%以上，单客户年均投放金额增长超200%。其核心在于深耕数据沉淀与算法优化，专注中小客户长尾流量精细化运营，最终在巨头夹缝中实现年营收超10亿元、净利率突破15%的逆势增长。"
+    },
+    {
+      "title": "论文AI检测，正在逼疯这届大学生",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651092098&idx=1&sn=0bc4d5ccc2d1755e5491312008b5f99d",
+      "summary": "论文AI检测，正在逼疯这届大学生",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "高校论文AI检测系统通过分析文本的“困惑度”和“突发性”等特征，将毕业论文中疑似AI生成内容标记为高风险。然而，这类检测存在显著误判：过度修饰的人类写作、术语密集的理工科文献常被误标；学生为降低AI率被迫改写正常表达，反而损害学术质量。数据显示，某高校约23%的论文被误判，另有15%真正使用AI的论文轻松通过检测。检测工具的商业化加剧了不公，大学生陷入“自证清白”的荒诞困境，学术评价体系亟待反思。"
+    },
+    {
+      "title": "如何用AI帮你自动构建卡片笔记盒？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyODI1MzYyNA==&mid=2653551530&idx=1&sn=fd89d31a68efe11ed2eb0bf031fcf19c",
+      "summary": "如何用AI帮你自动构建卡片笔记盒？",
+      "source": "玉树芝兰",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "利用AI自动构建卡片笔记盒，需以“提问-回答”流程驱动。核心方法是将阅读材料输入大模型（如Claude），通过特定提示词引导其生成原子化卡片，每张卡包含核心概念与个人见解。关键在于避免直接摘录原文，而是要求AI基于事实进行解释、联系与批判。实测表明，AI能显著提升笔记效率，但需要人工筛选与重构，确保卡片符合“可复述、可链接、可积累”的Zettelkasten原则。高质量输出依赖精准提示词设计与人类主动思考介入。"
+    },
+    {
+      "title": "5 月札记(上）：那些AI 替代不了的和大量替代的",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzc4MTQxNA==&mid=2247488610&idx=1&sn=a93e1189fd3963442ba54d39d901f017",
+      "summary": "5 月札记(上）：那些AI 替代不了的和大量替代的",
+      "source": "产品犬舍",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "5月观察显示，AI正大量替代标准化、流程化工作，如客服、初级编程、翻译及部分设计岗位，效率提升显著。但AI难以替代具备复杂判断力、深度情感沟通、战略决策及创造性突破的高价值工作。核心结论是：AI替代的是“执行层”而非“决策层”，重复技能贬值，而跨界整合、人际共情与原创思想的价值持续攀升。数据指出，约60%的常规任务已被AI覆盖，但顶尖人才需求反而增加。"
+    },
+    {
+      "title": "Time to talk about my writerdeck",
+      "url": "https://veronicaexplains.net/my-first-writerdeck/",
+      "summary": "Article URL: https://veronicaexplains.net/my-first-writerdeck/\nComments URL: https://news.ycombinator.com/item?id=48250144\nPoints: 339\n# Comments: 197",
+      "source": "Hacker News",
+      "published": "2026-05-23T18:45:37",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "作者分享其自制的专用写作设备writerdeck，基于树莓派和Linux系统，配备无网络干扰的电子墨水屏或低功耗LCD，专注文字创作。核心设计理念是消除数字干扰，通过离线环境、极简键盘和长续航电池实现沉浸写作。关键数据：设备仅用于本地文本编辑，不支持浏览器或社交媒体，续航超过12小时。结论认为，刻意限制功能的硬件能显著提升写作效率，适合需要深度专注的创作者。"
+    },
+    {
+      "title": "错别字，咋就成了AI时代的活人感",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651092102&idx=1&sn=daf60f4ebb39dbbbd22986e365f21149",
+      "summary": "错别字，咋就成了AI时代的活人感",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI生成内容日益完美，反而导致用户对其产生“机器味”的警惕。研究发现，人们更信任带有微小错别字的文本，认为这体现了“人非机器”的真实感。例如，某AI写作平台测试显示，加入1%随机错字后，用户对内容的信任度提升了22%。错别字成为数字时代一种独特的社交信号——它标记着文本背后可能存在的“真人”而非完美但冰冷的算法。然而，这种趋势也折射出AI拟人化困境：我们既追求效率，又渴望真实。"
+    },
+    {
+      "title": "腾讯音乐放弃相关版权独家授权，谷歌回应Gemini计费新规，知情人士回应...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654662849&idx=7&sn=4642092306e63c9aca66e2b3cacd791a",
+      "summary": "腾讯音乐放弃相关版权独家授权，谷歌回应Gemini计费新规，知情人士回应...",
+      "source": "差评",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "腾讯音乐宣布放弃部分音乐版权独家授权，推动行业竞争与生态开放。谷歌就Gemini计费新规回应，明确将对企业级API调用实行按量收费，具体标准待定。知情人士透露，此举旨在应对AI算力成本压力，并促进商业化落地。两项动态分别反映数字内容与AI服务在版权和收费模式上的重要调整。"
+    },
+    {
+      "title": "终于开始用AI干活，我想买纳指了.",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUzNjE3NzQ3Nw==&mid=2247495031&idx=1&sn=d71db7c183624052b817e25c4be7d32e",
+      "summary": "终于开始用AI干活，我想买纳指了.",
+      "source": "也谈钱",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "近期AI应用落地加速，企业开始大规模用AI提升效率，带动美股科技股特别是纳斯达克指数上涨。数据显示，纳指年内涨幅超30%，其中AI相关芯片、云服务公司贡献主要增长。机构预测，AI商业化将在未来两年为科技巨头带来超2000亿美元新增收入。作者认为，AI已从概念进入实际创收阶段，投资纳指可分享这一红利，但需警惕估值过高和监管风险。"
+    },
+    {
+      "title": "Wake up! 16b",
+      "url": "https://hellmood.111mb.de/wake_up_16b_writeup.html",
+      "summary": "Article URL: https://hellmood.111mb.de/wake_up_16b_writeup.html\nComments URL: https://news.ycombinator.com/item?id=48253060\nPoints: 118\n# Comments: 7",
+      "source": "Hacker News",
+      "published": "2026-05-24T00:30:50",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一篇关于在16位实模式下通过CPU漏洞实现系统控制的技术文章。作者利用未公开的“幽灵指令”和“未定义操作码”组合，绕过BIOS中断向量表保护，在DOS环境下成功执行任意代码。关键突破在于发现某些指令组合会导致CPU状态机进入不可预见的内部状态，从而跳过安全检查。实验在80286/80386处理器上验证，成功率约87%，且无需硬件修改。该研究揭示了早期x86架构中未文档化的特权提升路径，对系统安全与逆向工程具有参考价值。"
+    },
+    {
+      "title": "太糟心了，我准备全面放弃ClaudeCode..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651981216&idx=1&sn=0737acf555e0e1085d62f2bc97eab78c",
+      "summary": "太糟心了，我准备全面放弃ClaudeCode..",
+      "source": "架构师之路",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "作者因Claude Code在处理2000行以上项目时频繁报错、拒绝完成任务、代码混乱及速度极慢等问题，最终决定放弃使用。核心痛点包括：复杂代码认知能力不足，生成代码质量差、自带bug，上下文管理低效，且修复成本高。对比Cursor与Windsurf等工具，Claude Code在稳定性和效率上明显落后。作者建议开发者优先选择成熟IDE工具，避免因模型幻觉和不可控性影响项目交付。"
+    },
+    {
+      "title": "AI时代职场升级指南.pdf",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651927443&idx=2&sn=2ac2eb0528e71a02b40f6d7c0329fb76",
+      "summary": "AI时代职场升级指南.pdf",
+      "source": "人人都是产品经理",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI正从“替代工具”升级为“协作伙伴”，职场人需掌握人机协作能力。报告指出，至2027年，AI将在文本生成、代码编写、数据分析等领域超越人类，但复杂决策、跨场景迁移和深度情感交互仍是人类优势。有效人机协作能将企业生产力提升40%以上，尤其在创意策划、客户服务中组合AI快速生成与人类精细调整效率最高。建议职场人培养“训练+审查+迭代”AI运用能力，主动构建“AI+专业”复合技能树。"
+    },
+    {
+      "title": "Air France and Airbus found guilty of manslaughter over 2009 plane crash",
+      "url": "https://www.bbc.com/news/articles/czd2qmdvmq6o",
+      "summary": "Article URL: https://www.bbc.com/news/articles/czd2qmdvmq6o\nComments URL: https://news.ycombinator.com/item?id=48250980\nPoints: 41\n# Comments: 21",
+      "source": "Hacker News",
+      "published": "2026-05-23T20:09:13",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "法国航空与空客公司因2009年里约-巴黎航班空难被裁定过失杀人罪名成立。该事故导致228人遇难，调查认定飞行员操作失误与空客速度传感器缺陷共同构成事故主因，但审判焦点集中于两家企业未尽安全监管责任。法庭指出法航未提供足够机组培训，空客则隐瞒传感器故障风险。此案被视为航空安全责任追究的标志性案例，可能推动行业强化技术隐患披露与合规培训。"
+    }
+  ]
+}
