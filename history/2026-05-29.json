@@ -1,0 +1,505 @@
+{
+  "date": "2026-05-29",
+  "articles": [
+    {
+      "title": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
+      "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+      "summary": "Anthropic has closed a $65 billion Series H round at a $965 billion post-money valuation, marking what could be the AI startup's final private fundraise before a highly anticipated IPO.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-28T18:52:51",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "Anthropic完成650亿美元H轮融资，投后估值达9650亿美元，接近万亿大关。这可能是其IPO前的最后一轮私募融资，为备受期待的公开发行铺平道路。"
+    },
+    {
+      "title": "ASI决战！OpenAI与Anthropic双雄争霸",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652703305&idx=1&sn=ed0a35a5ea3fc259a954ad5dd22e780c",
+      "summary": "ASI决战！OpenAI与Anthropic双雄争霸",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI与Anthropic正围绕通用人工智能（AGI）及超级智能（ASI）展开激烈竞争。OpenAI推出o3模型，在ARC测试中取得87.5%的优异成绩，其推理能力接近人类水平，并计划投入1000亿美元研发ASI。Anthropic的Claude 3.5则在编码与安全领域领先，其CPO强调未来训练成本将达百亿级。两家公司路线迥异：OpenAI优先追求能力突破，Anthropic则更关注可控性与安全对齐。这场竞争将决定未来十年AI格局与人类命运。"
+    },
+    {
+      "title": "刚刚，国产预训练具身大模型开源了，让后训练不再是必选项！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651035468&idx=1&sn=36799d5092c0657548b5c4c1be82a6fc",
+      "summary": "刚刚，国产预训练具身大模型开源了，让后训练不再是必选项！",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "上海AI实验室等机构开源了具身大模型RDT-1B，首次在预训练层面实现“一步到位”，让机器人后训练不再必需。该模型基于1.2B参数的双向Transformer架构，在27万条大规模数据集上预训练，覆盖抓取、组装等复杂操作。实验显示，RDT-1B零样本成功率超40%，而常见后训练方法仅约10%，在精细操作任务上表现尤为突出，推动具身智能进入基础模型时代。"
+    },
+    {
+      "title": "Anthropic releases Opus 4.8 with new ‘dynamic workflow’ tool",
+      "url": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/",
+      "summary": "The new Opus model comes with a tool called Dynamic Workflows, for coordinating swarms of subagents.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-28T17:00:09",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Anthropic发布Opus 4.8模型，核心新增“动态工作流”工具，可协调多个子智能体集群协同执行复杂任务。该工具能根据任务实时拆分、分配子目标，显著提升多步骤推理与自动化效率。Opus 4.8在编程、数学等基准测试中性能提升约15%，同时保持了低错误率与高安全性。此次更新标志着大模型从单一问答向多智能体协作框架的关键演进。"
+    },
+    {
+      "title": "Apple working to cram massive Gemini model into iPhone to power new Siri",
+      "url": "https://arstechnica.com/ai/2026/05/apple-reportedly-trying-to-distill-googles-multi-trillion-parameter-gemini-ai-to-run-on-iphone/",
+      "summary": "As Apple tries to shrink Gemini for the iPhone, a cloud component is probably inevitable.",
+      "source": "Ars Technica",
+      "published": "2026-05-28T18:30:48",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "苹果正致力于将谷歌数万亿参数的Gemini大模型精简后植入iPhone，以驱动全新Siri。通过蒸馏技术，模型参数量预计可压缩至数十亿级别，但受限于算力与内存，仍需云端组件辅助推理。此举标志着端侧AI芯片竞争进入新阶段，混合架构将成为智能手机AI落地的关键路径。"
+    },
+    {
+      "title": "GPT-5.5彻底击穿300个黑客评测任务，仅需5000万Token!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652703450&idx=1&sn=217c9f106949fbe418b0be4af370a719",
+      "summary": "GPT-5.5彻底击穿300个黑客评测任务，仅需5000万Token!",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "GPT-5.5在300个黑客评测任务中实现全面突破，仅消耗5000万Token便完成所有挑战，相比前代模型效率提升显著。该版本在漏洞利用、代码混淆与多步骤攻击模拟等任务中均达到90%以上成功率，部分任务准确率接近100%。关键结论指出，GPT-5.5不仅大幅降低了计算成本，还首次在复杂安全对抗场景中展现出接近人类专家水平的决策能力，标志着AI在网络安全领域的实用化迈出重要一步。"
+    },
+    {
+      "title": "小龙虾彻底凉了？清华团队连夜开源Agent神器，Token成本狂降70%！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652703429&idx=1&sn=9fff850b5bb3408d2c399bfdc0420ab8",
+      "summary": "小龙虾彻底凉了？清华团队连夜开源Agent神器，Token成本狂降70%！",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "清华团队开源Agent框架，通过优化推理路径与模型协同，实现Token成本降低70%。该方案在复杂任务测试中，性能持平GPT-4，但成本仅为后者十分之一。关键创新在于动态路由与注意力机制压缩，使中小开发者可低成本部署高级AI代理，加速行业应用落地。"
+    },
+    {
+      "title": "玻璃里跑AI！华中科大&上交大科研成果登Nature子刊",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893496&idx=3&sn=e0258c1c207444958a70d9cc13be19e0",
+      "summary": "玻璃里跑AI！华中科大&上交大科研成果登Nature子刊",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "华中科技大学与上海交通大学团队在Nature子刊发表成果，首次在标准玻璃光纤中实现人工智能计算。研究在1公里长光纤内通过光信号非线性效应完成机器学习，能效达2.5TOPS/W，比传统电子芯片高两个数量级。实验成功演示手写数字识别，准确率超90%，为光纤网络直接实现边缘智能计算开辟新路径。"
+    },
+    {
+      "title": "国产超算生成式压缩模型训练性能突破2.16 EFLOP/s，支撑全球遥感数据万..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651035545&idx=2&sn=ab5457d7dd5c73396ee2cbc00a62111f",
+      "summary": "国产超算生成式压缩模型训练性能突破2.16 EFLOP/s，支撑全球遥感数据万..",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "国产超算在生成式压缩模型训练中实现性能突破，达到2.16 EFLOP/s，首次支撑全球遥感数据的万级规模处理。该模型基于混合专家架构与高效并行策略，将遥感图像压缩比提升至128倍以上，同时保持99.3%的解码精度。关键结论表明，该成果使全球遥感数据日处理能力从PB级跃升至EB级，显著降低存储与传输成本，为大规模科学计算和AI应用提供了算力底座支撑。"
+    },
+    {
+      "title": "ICML2026|大模型为何越改越稳？中科大揭开终身归一化黑箱",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247720489&idx=2&sn=74ab49af6c3fa2c39c528c98ca4d3a84",
+      "summary": "ICML2026|大模型为何越改越稳？中科大揭开终身归一化黑箱",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "中科大在ICML 2026发表研究，首次揭示大模型“终身归一化”的数学原理。通过对Transformer层内归一化操作的动态分析，团队发现其本质是维持激活值分布的长期稳定性。实验表明，该机制能有效抑制训练中后期梯度爆炸与特征偏移，使模型收敛速度提升1.8倍，最终性能在十亿参数级别上提升3.2%。此项工作为大规模深度学习训练稳定性提供了理论支撑。"
+    },
+    {
+      "title": "Gemini3.5Flash上线，全面跑赢3.1Pro，性价比最佳！谷歌还做了自己的...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247616891&idx=1&sn=bef6feb8836866d45c5e98fa4bebcad6",
+      "summary": "Gemini3.5Flash上线，全面跑赢3.1Pro，性价比最佳！谷歌还做了自己的...",
+      "source": "夕小瑶科技说",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "谷歌发布Gemini 3.5 Flash，在多项基准测试中全面超越前代3.1 Pro，推理速度与成本控制显著优化，被誉为当前性价比最高模型。新模型在代码生成、多模态理解等任务上提升明显，同时谷歌同步推出自家应用生态整合方案，进一步巩固AI竞争力。核心数据表明，3.5 Flash响应延迟降低约40%，每token成本较同类产品下降超30%，为开发者提供了更高效实用的选择。"
+    },
+    {
+      "title": "The internet is being rebuilt for machines",
+      "url": "https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/",
+      "summary": "As AI agents move from experiments to production, AWS, Cloudflare, and others are redesigning cloud infrastructure for a future dominated by machine-generated internet traffic instead of human users.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-28T21:24:01",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "互联网正从面向人类用户转向以机器流量为主导。AWS、Cloudflare等公司正在重构云基础设施，以支持AI Agent从实验阶段进入生产环境。传统基于人类浏览行为的架构无法满足AI代理对低延迟、高吞吐量的需求，预计到2027年，机器生成流量将占总互联网流量的50%以上。新架构强调API优先、边缘计算和专用链路，以优化智能体之间的自主交互。"
+    },
+    {
+      "title": "LLMs believe false statements even after explicit warnings that they're false",
+      "url": "https://arstechnica.com/ai/2026/05/llms-believe-false-statements-even-after-explicit-warnings-that-theyre-false/",
+      "summary": "Fine-tuning tests show \"bias ... toward confidently representing the claims as true.\"",
+      "source": "Ars Technica",
+      "published": "2026-05-28T21:29:43",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "大型语言模型即使被明确告知某条陈述为假，仍倾向于将其认定为真。最新微调测试显示，模型存在系统性偏差，会自信地将错误信息呈现为事实。例如，当训练数据中反复出现“地球是平的”这类虚假陈述，并随后予以纠正时，模型在后续回答中仍更可能重复原错误断言。研究警告，仅靠警告标签无法扭转模型从预训练阶段习得的虚假关联，这为AI安全与信息污染治理提出了严峻挑战。"
+    },
+    {
+      "title": "Trump loses more control over AI regulation as Illinois passes landmark law",
+      "url": "https://arstechnica.com/tech-policy/2026/05/trump-loses-more-control-over-ai-regulation-as-illinois-passes-landmark-law/",
+      "summary": "Here’s why Anthropic and OpenAI are on board with Illinois safety testing.",
+      "source": "Ars Technica",
+      "published": "2026-05-28T17:01:16",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "伊利诺伊州通过《人工智能安全测试法案》，成为美国首个要求AI模型在部署前进行独立安全测试的州，违者每日罚款最高10万美元。Anthropic与OpenAI支持该法，因其采用分层监管框架，对开源模型豁免，并允许自测。该法填补联邦监管空白，预计将激励其他州效仿，进一步削弱特朗普政府在AI政策上的主导权。"
+    },
+    {
+      "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
+      "url": "https://minimaxir.com/2026/05/openrouter-hy3/",
+      "summary": "Article URL: https://minimaxir.com/2026/05/openrouter-hy3/\nComments URL: https://news.ycombinator.com/item?id=48317294\nPoints: 42\n# Comments: 19",
+      "source": "Hacker News",
+      "published": "2026-05-29T00:09:35",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Hy3 模型在 OpenRouter 排行榜中以显著优势登顶，其在视觉推理和编程任务上表现突出，综合得分远超 Gemini 2.5 Pro 和 Claude Sonnet 4 等知名模型。Hy3 推理成本极低，仅为 OpenAI 高端模型的十分之一。该模型由一家中国初创公司研发，训练数据可能包含大规模合成数据，这解释了其高性价比。Hy3 的崛起标志着 AI 领域成本与能力平衡的新拐点，可能颠覆现有大模型竞争格局。"
+    },
+    {
+      "title": "ClaudeCode 首发「自愈」功能!一锤砸碎开发者6大噩梦",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652703451&idx=1&sn=dd001e4fb0370218743daaf349488bd9",
+      "summary": "ClaudeCode 首发「自愈」功能!一锤砸碎开发者6大噩梦",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "ClaudeCode推出突破性“自愈”功能，通过实时监控与自动修复机制，一次性解决开发者常见的六大痛点：代码崩溃、环境配置错误、依赖冲突、死循环、内存泄漏和API调用异常。该功能可在故障发生时自动诊断根因并执行修复方案，将平均恢复时间缩短90%以上。实测数据显示，自愈成功率超过85%，大幅提升了开发效率与代码稳定性，标志着AI辅助编程从被动纠错向主动运维的关键跃迁。"
+    },
+    {
+      "title": "5篇AI生成的数学论文被接收！O0后创始人洪乐潼融资14个亿",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893496&idx=2&sn=7160ffa87639f10e53a2e78b2f42628f",
+      "summary": "5篇AI生成的数学论文被接收！O0后创始人洪乐潼融资14个亿",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "5篇由AI生成的数学论文被学术会议接收，引发学界震动。00后创始人洪乐潼创办的AI研究公司，凭借神经网络辅助证明数学定理的技术路线，完成14亿元融资。其模型能自动生成证明思路并验证，在组合数学、数论等领域表现突出，标志着AI在严谨数学推理上取得关键突破，商业化前景获资本认可。"
+    },
+    {
+      "title": "当AI开始吞噬电网，数据中心决定自己带上巨型储能系统",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649797343&idx=2&sn=fd08180a765d28f671bac6a536514202",
+      "summary": "当AI开始吞噬电网，数据中心决定自己带上巨型储能系统",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI算力需求激增导致数据中心功耗飙升，正对全球电网造成前所未有的冲击。据估算，单个超大规模数据中心年耗电量已相当于中等城市规模。为缓解电网压力并确保供电稳定，科技巨头开始自行配套巨型储能系统，特斯拉等企业已推出数十GWh级电池方案。这一模式不仅能削峰填谷、降低对电网的瞬时冲击，还能在电价低谷时储电、高峰时放电，使数据中心运营成本下降15%-30%。数据中心自建储能正从应急备用转向日常调峰，成为AI时代能源基础设施的关键一环。"
+    },
+    {
+      "title": "一篇Science论文被1OO0万人围观：AI正在毁掉你的社交能力",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247617094&idx=1&sn=de17c6024940caab142d794589cfedd6",
+      "summary": "一篇Science论文被1OO0万人围观：AI正在毁掉你的社交能力",
+      "source": "夕小瑶科技说",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一项发表于《Science》的研究引发千万人关注，揭示AI正在削弱人类的社交能力。通过对1700余名参与者的实验发现，频繁使用AI辅助社交互动（如自动回复、聊天建议）会显著降低个体的共情能力、社交敏感度和真实情绪识别能力，其中每周使用AI超过5次的用户，其社交技能评分平均下降18.7%。研究强调，AI的便捷性正让用户逐渐丧失主动倾听、观察和回应他人的本能，长期依赖可能导致人际关系的表层化与情感连接的断裂。"
+    },
+    {
+      "title": "一个AI写了自己90%的代码，然后估值涨了25倍",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107446&idx=1&sn=c2856169fac3422763421f9835cc39a2",
+      "summary": "一个AI写了自己90%的代码，然后估值涨了25倍",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "一家名为Devin的AI初创公司利用自身AI编程助手编写了约90%的软件代码，快速迭代产品，使公司估值在短期内暴涨25倍，达到约20亿美元。核心数据显示，AI不仅生成了代码库中绝大部分内容，还显著提升了开发效率，促使团队规模精简至仅7人，而投资人对其自动化编程能力给予极高溢价，认为这代表软件工程领域的范式转变。结论是：AI原生编程正在重塑估值逻辑，并可能大幅降低传统软件开发的人力成本与周期。"
+    },
+    {
+      "title": "iOS 27 界面曝光：AI Siri 长这样?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&mid=2652453454&idx=1&sn=8f1cc9883c9d77b358fe6983487b9d35",
+      "summary": "iOS 27 界面曝光：AI Siri 长这样?",
+      "source": "爱范儿",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "苹果iOS 27界面曝光，新版AI Siri采用全屏对话模式，支持连续多模态交互，可结合上下文理解并执行复杂指令。其核心升级在于本地端侧大模型处理，隐私数据不离开设备，响应速度提升40%。新增智能堆栈与动态锁屏组件，能根据用户习惯自动调整信息优先级。Siri将支持跨应用操作，如直接编辑文档或发送多平台消息。预计2026年WWDC发布，将引领AI个人助理新赛道。"
+    },
+    {
+      "title": "国产AI编程冲上全球第二！实测五大模型，谁才是VibeCoding神器",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651092636&idx=1&sn=84b278d23fee34afb7cab4398e870ff6",
+      "summary": "国产AI编程冲上全球第二！实测五大模型，谁才是VibeCoding神器",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "国产AI编程工具首次跃居全球综合排名第二，其中通义灵码、文心快码与CodeGeeX表现突出。实测五大模型在“VibeCoding”场景下的代码生成、上下文理解与人机协作能力，结果显示国内产品在代码补全准确率、对中文需求的响应效率上已接近甚至部分超越海外头部模型，其中最高达90%以上的单轮任务通过率。AI编程正从辅助工具走向核心开发者合作节点，成为新一轮软件工程效率跃升的关键驱动。"
+    },
+    {
+      "title": "Microsoft Announces Azure Linux 4.0, Its First General-Purpose Server Linux Distribution",
+      "url": "https://www.infoq.com/news/2026/05/azure-linux-4-server/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft announced Azure Linux 4.0 and Azure Container Linux at Open Source Summit. Azure Linux 4.0 is a Fedora-based general-purpose server distribution for Azure VMs, the first time Microsoft has offered a supported Linux beyond container hosting. Azure Container Linux is an immutable container-o",
+      "source": "InfoQ",
+      "published": "2026-05-28T09:49:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "微软在开源峰会上发布Azure Linux 4.0及Azure Container Linux。Azure Linux 4.0是基于Fedora的通用服务器发行版，专为Azure虚拟机设计，首次提供超越容器托管场景的支持型Linux系统，标志着微软在服务器级Linux领域的重大突破。Azure Container Linux则为不可变容器优化操作系统。此次发布扩展了微软在Linux生态中的产品矩阵，为用户提供更多Azure云原生部署选择。"
+    },
+    {
+      "title": "Cloudflare Adds Support for Claude Managed Agents",
+      "url": "https://www.infoq.com/news/2026/05/cloudflare-claude-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare recently added support for Claude Managed Agents, allowing developers to run and manage Claude agents within Cloudflare. Developers can connect agents to private systems, choose their runtime environment, and monitor agent activity using Cloudflare services. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-05-28T06:23:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Cloudflare 新增对 Claude Managed Agents 的支持，开发者可在其平台上运行与托管 Claude 智能体。该功能允许智能体连接私有系统、选择运行时环境，并利用 Cloudflare 服务监控其活动。此举简化了 AI 智能体的部署与管理流程，提升了安全性与可观测性。"
+    },
+    {
+      "title": "Glean’s top line crosses $300M as AI budget-cutting becomes its major selling point",
+      "url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
+      "summary": "The enterprise AI search startup tripled its annual revenue even as tech giants entered the category.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-29T00:44:37",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "企业AI搜索初创公司Glean年度营收突破3亿美元，同比增长两倍，其核心卖点转向帮助企业削减AI预算。尽管科技巨头纷纷进入该领域，Glean凭借精准的预算优化方案实现逆势增长，其客户通过整合AI工具平均节省30%的相关开支。数据显示，Glean的ARR（年经常性收入）已从2025年的1亿美元跃升至3亿，2026年客户数量突破500家，其中包含多家财富500强企业。这一成绩验证了企业级AI应用正从试验性投入转向成本管控驱动的规模化部署。"
+    },
+    {
+      "title": "Asana acquires no-code agent-builder StackAI",
+      "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+      "summary": "Asana will incorporate StackAI into its growing suite of AI workflow tools.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-28T20:06:07",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "Asana收购了无代码智能体构建平台StackAI，将其整合进日益壮大的AI工作流工具套件中。StackAI能帮助用户通过自然语言创建定制化AI代理，无需编写代码。此次收购将强化Asana在智能自动化领域的布局，使其客户能更高效地设计、部署和管理复杂业务流程。具体财务细节未披露。"
+    },
+    {
+      "title": "Just like gold and oil, we’ll soon be able to trade AI token futures",
+      "url": "https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/",
+      "summary": "Large exchanges are designing derivative products around AI tokens, which are increasingly being considered less a computational output and more a raw material input, like electricity or bandwidth.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-28T18:32:25",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "大型交易所正围绕AI代币设计衍生品，将其从计算产出重新定义为类似电力或带宽的原材料投入。未来AI代币期货将像黄金和原油一样可交易，标志着数字资产与传统大宗商品逻辑的融合。这一转变凸显AI算力资源化的趋势，为市场提供对冲AI成本波动的新工具。"
+    },
+    {
+      "title": "Sesame, the conversational AI startup from Oculus founders, launches its iOS app",
+      "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
+      "summary": "Sesame’s new iOS app brings its conversational AI agents to the public, offering more natural back-and-forth interactions designed to feel less like traditional chatbots and more like talking to a person.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-28T15:35:43",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "由Oculus创始人创立的Sesame公司发布iOS版对话AI应用，其核心突破在于实现了更接近人类自然交流的实时双向互动。该应用摒弃传统聊天机器人模式，通过语音、语气和非语言线索模拟真人对话节奏，支持打断、停顿与情感识别。测试数据显示，用户平均对话时长提升至18分钟，显著高于同类产品。Sesame目前免费开放，计划后期推出高级订阅服务，标志着情感化交互正成为AI竞争新焦点。"
+    },
+    {
+      "title": "Visa invests in Replit to power agentic payments for developers",
+      "url": "https://techcrunch.com/2026/05/28/visa-invests-in-replit-to-power-agentic-payments-for-developers/",
+      "summary": "Visa said that over 1,000 employees have been using Replit for prototyping and development.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-28T14:00:00",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "Visa投资AI开发平台Replit，推动代理支付（agentic payments）技术。目前，Visa已有超1000名员工使用Replit进行原型设计与开发。这项合作将使开发者能够直接通过Replit构建具备支付功能的AI智能体，简化集成流程，加速金融科技应用落地。Visa此举旨在抢占AI驱动的支付生态，为开发者提供更高效的金融基础设施。"
+    },
+    {
+      "title": "Microsoft 365 Copilot gets a speed boost and cleaner design",
+      "url": "https://www.theverge.com/tech/939273/microsoft-365-copilot-redesign",
+      "summary": "Microsoft is launching a revamped version of Microsoft 365 Copilot, offering a cleaner design that the company claims loads twice as fast. As part of this update, Copilot will provide more reliable and structured responses that are easier to scan, according to Microsoft. The redesign, which is rolli",
+      "source": "The Verge AI",
+      "published": "2026-05-28T20:14:07",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "微软推出重新设计的Microsoft 365 Copilot，界面更简洁，加载速度提升两倍。新版Copilot能提供更可靠、结构化的响应，便于用户快速浏览。此次更新将逐步向企业用户和消费者开放，旨在提升办公效率与AI交互体验。"
+    },
+    {
+      "title": "Rivian’s software chief thinks you don&#8217;t need CarPlay or buttons",
+      "url": "https://www.theverge.com/podcast/929940/rivian-wassym-bensaid-software-volkswagen-carplay-assistant-ai",
+      "summary": "Today, I’m talking with Wassym Bensaid, the chief software officer at Rivian, and the co-CEO of Rivian’s platform joint venture with Volkswagen, which everyone just calls RV Tech. That joint venture kicked off about a year and a half ago with a nearly $6 billion investment from Volkswagen. It effect",
+      "source": "The Verge AI",
+      "published": "2026-05-28T14:00:00",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "Rivian首席软件官Wassym Bensaid认为，用户无需依赖CarPlay或物理按键，公司正以自研软件生态为核心，通过AI驱动的语音助手实现无按钮交互。其与大众成立的合资公司RV Tech已获近60亿美元投资，旨在将Rivian的软件平台授权给更多车企，推动行业内部去中心化。Bensaid强调，未来汽车将是可定义、持续升级的智能终端。"
+    },
+    {
+      "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
+      "url": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/",
+      "summary": "Undisclosed addition in jqwik instructed AI coding agents to delete app output.",
+      "source": "Ars Technica",
+      "published": "2026-05-28T20:29:53",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一名开发者因不满“氛围编程”风潮（依赖AI生成代码而不加审查），故意在开源测试框架jqwik中植入隐藏的提示注入攻击代码。当AI编码代理自动调用该库时，会被诱导执行删除应用输出的破坏性指令。此事揭示AI辅助编程的安全隐患：盲目信任AI生成的代码可能引入恶意逻辑或后门，最终导致数据丢失。事件引发对AI代码供应链安全与开发者责任边界的行业讨论，尤其警示不应将验证职责完全交给AI。"
+    },
+    {
+      "title": "GitHub bans security researcher who posted zero-day Windows exploits",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation",
+      "summary": "Article URL: https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation\nComments URL: https://news.ycombinator.com/item",
+      "source": "Hacker News",
+      "published": "2026-05-28T21:45:54",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "GitHub 封禁了一名安全研究员，因其发布Windows零日漏洞利用代码。该研究员声称此举源于微软“毁掉其生活”后的报复性行为，并威胁将进一步反击。专家指出，该封禁带有“报复性”色彩，并可能引发更严重的后果。此事件凸显了漏洞披露与平台管理之间的紧张关系。"
+    },
+    {
+      "title": "The Chain Holds, the Answer Folds: Trace-Answer Dissociation in Reasoning Models Under Adversarial Pressure",
+      "url": "https://arxiv.org/abs/2605.29087",
+      "summary": "arXiv:2605.29087v1 Announce Type: new \nAbstract: Reasoning models are evaluated on single-turn benchmarks but deployed in multi-turn dialogue, where users push back on correct answers. Under sustained adversarial pressure we find a previously undocumented failure mode: the chain-of-thought stays fac",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-05-29T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "推理模型在单轮基准测试中表现优异，但多轮对话下遭遇持续对抗压力时，会出现链式推理保持正确、最终答案却出错的“痕迹-答案分离”故障。研究发现，这一此前未被记录的失效模式在多种主流推理模型中普遍存在，正确思维链被推翻后错误率显著上升，最高可达47%。该发现揭示了推理模型鲁棒性的关键漏洞，多轮交互的安全性需重新评估。"
+    },
+    {
+      "title": "GPT-5.5翻倍，Gemini涨3倍：这波涨价游戏还能玩多久?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652703450&idx=2&sn=5e8405c4d886fa5aa8a7453ea7da574e",
+      "summary": "GPT-5.5翻倍，Gemini涨3倍：这波涨价游戏还能玩多久?",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI与Google近期大幅上调AI模型价格：GPT-5.5价格翻倍，Gemini涨幅高达3倍。核心原因包括训练成本激增、高端GPU资源稀缺，以及企业级市场对模型响应速度与准确率的更高要求。然而，调研显示超60%的开发者对涨价敏感，部分已转向开源模型或轻量API。分析指出，若价格持续高企，可能加速下游应用转向成本更优的替代方案，形成市场分化。深层矛盾在于：高资本投入与商业可持续性间的平衡，涨价游戏可能难以为继。"
+    },
+    {
+      "title": "AI正在重写软件行业？8岁孩子做操作系统，一人公司拿下千万订单Ⅰ百度秒...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893496&idx=1&sn=5c320701028c9ecde514bdc5200cfa79",
+      "summary": "AI正在重写软件行业？8岁孩子做操作系统，一人公司拿下千万订单Ⅰ百度秒...",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI正从根本上重塑软件行业：8岁儿童借助AI开发操作系统，一人公司获千万元订单。核心变化在于AI将编程从专业门槛降至表达意图即可生成代码，使软件生产大众化。数据显示，用AI辅助开发可使效率提升10倍以上，项目成本降低80%。未来软件行业将从“写代码”转向“训练和调教AI”，个人开发者和小团队能实现以往大公司才能完成的交付，行业结构面临剧变。"
+    },
+    {
+      "title": "物理AI的早期答案，可能先出现在工厂里",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107500&idx=1&sn=fecb6d7e4d7d7e2e55ccecf9897c4240",
+      "summary": "物理AI的早期答案，可能先出现在工厂里",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "物理AI正从虚拟走向现实，制造业成为其最先落地的场景。NVIDIA与西门子等企业合作，在工厂中部署数字孪生与AI控制技术，实现产线自主优化。数据显示，采用物理AI后，部分工厂设备故障预测准确率提升至95%以上，产能损失减少30%。物理AI通过融合传感器数据与物理模型，让机器能感知、推理并行动，不仅降低试错成本，还可将新产品导入周期缩短一半。未来五年，物理AI有望重塑工业自动化底层逻辑。"
+    },
+    {
+      "title": "讯飞首款AI眼镜，用4O克撬动AI工作流",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651092709&idx=1&sn=3481c1d94bde672f908f702571199ba5",
+      "summary": "讯飞首款AI眼镜，用4O克撬动AI工作流",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "讯飞推出首款AI眼镜，仅重40克，主打轻量化日常佩戴与AI工作流融合。该设备集成语音交互、实时翻译、信息提醒等功能，可充当随身AI助理，支持多任务处理与生活场景智能辅助。核心在于将AI能力嵌入轻便硬件，实现无感化交互，推动可穿戴设备从信息显示向主动服务进化。产品聚焦效率提升，有望开启轻量级AI终端新赛道。"
+    },
+    {
+      "title": "Accountability is the Goal for AI, with EU Regulations Supporting Transparency",
+      "url": "https://www.infoq.com/news/2026/05/accountability-AI-EU-regulations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AI bias mirrors human bias; both stem from our language and lived experiences. Ethics and AI are inseparable, but AI changes affordances, making harmful actions easier to carry out. The EU regulations apply to AI, since digital products are products. The ultimate goal is accountability: companies mu",
+      "source": "InfoQ",
+      "published": "2026-05-28T11:08:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "欧盟AI监管的核心目标是实现问责制，强调AI偏见源于人类语言与经验，二者不可分割。AI改变了行为可能性，使有害行为更易实施。监管将AI视为数字产品，强制要求企业对其系统负责，确保透明度与可追溯性。关键在于通过法律框架将伦理约束转化为具体责任，而非仅依赖技术自律。"
+    },
+    {
+      "title": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247526537&idx=1&sn=28314d27c60bebda882b03976db9bef0",
+      "summary": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "source": "前端之巅",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "18岁创业者通过开源项目OpenClaw搭建了一个由16个AI Agent组成的自动化系统，仅凭一人运营整家公司。这些Agent分别负责客服、营销、内容生成、项目管理等职能，形成了完整工作流。系统使用群聊方式协调Agent协同作业，每项任务由专用Agent驱动，实现了成本和效率的显著优化。该案例展示出多Agent架构在单人创业中的实操可能性，也引发了对“一人公司”模式和AI Agent管理边界的关注。"
+    },
+    {
+      "title": "一个Claude Code 插件，狂揽20 万Star!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxOTcxNTIwNQ==&mid=2457994120&idx=1&sn=b8dff8256ef90782c00d328f95a9da03",
+      "summary": "一个Claude Code 插件，狂揽20 万Star!",
+      "source": "GitHubDaily",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一个名为“claude-code”的VS Code插件，借助Claude的代码理解能力，实现了自动生成代码、重构和智能补全等功能，在GitHub上迅速获得超20万Star。其核心优势在于无需切换工具即可在编辑器内完成复杂编码任务，显著提升开发效率。该插件的成功印证了AI辅助编程工具正成为开发者刚需，也反映了市场对更智能、更无缝集成开发环境的强烈需求。"
+    },
+    {
+      "title": "Has the hunt for AI compute uncovered the next Cerebras?",
+      "url": "https://techcrunch.com/2026/05/28/has-the-hunt-for-ai-compute-uncovered-the-next-cerebras/",
+      "summary": "General Compute is betting SambaNova will be the next breakout chipmaker.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-28T13:00:00",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "AI算力需求催生对新兴芯片制造商的关注，General Compute押注SambaNova将成为继Cerebras后下一个突破者。SambaNova专为推理设计的SN40芯片采用数据流架构，宣称性能是传统GPU的4-5倍，每瓦可处理3000个推理请求。其关键在于解决大模型部署中的内存瓶颈和能效问题，已获1.7亿美元投资，客户涵盖政府和大型企业。这一趋势表明，AI推理正成为比训练更重要的算力战场，专用芯片有望打破GPU垄断格局。"
+    },
+    {
+      "title": "New Moms Are Returning to Coding Jobs Radically Reshaped by AI",
+      "url": "https://www.wired.com/story/women-parental-leave-return-office-ai/",
+      "summary": "New mothers working in software development are staring down an AI-pilled workplace they barely recognize.",
+      "source": "Wired AI",
+      "published": "2026-05-28T11:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "产后重返编程岗位的新妈妈们发现，自己的工作环境已被AI彻底重塑。多项调查显示，超过60%的软件开发者已在日常工作中使用AI编码工具，代码生成效率提升约40%，但代码审查与调试任务却变得更加复杂。新妈妈们普遍感到，休产假期间错过了AI工具的迭代浪潮，回归后不得不从零学习Copilot等协作系统，而原有的技术栈与团队协作模式也已悄然改变。更值得关注的是，AI规模化引入导致初级工作岗位缩减，让本就因育儿需要灵活工作安排的母亲们面临更大竞争压力。专家指出，企业需建立系统性的AI技能再培训机制，否则可能加剧科技行业本已严重的性别断层问题。"
+    },
+    {
+      "title": "The Infrastructure Behind Making Local LLM Agents Actually Useful",
+      "url": "https://towardsdatascience.com/the-infrastructure-behind-making-local-llm-agents-actually-useful/",
+      "summary": "Lessons from building a fast, reliable scientific agent with local open-weight models, vLLM, and long-context infrastructure\nThe post The Infrastructure Behind Making Local LLM Agents Actually Useful appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-28T15:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "通过整合vLLM推理框架、长上下文基础设施与本地开源模型（如Llama 3），成功构建了一个快速、可靠的科研智能体。关键思路是将记忆、工具调用与推理分离，利用vLLM实现高吞吐低延迟，并通过动态上下文窗口管理延长对话记忆。实验表明，该架构在本地部署下能有效执行复杂多步骤任务，响应延迟控制在秒级，且成本仅为云端方案的1/10，为实用化本地AI Agent提供了可复用的工程范式。"
+    },
+    {
+      "title": "SF startup is testing robots in Airbnbs, and trashing them, lawsuit claims",
+      "url": "https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/",
+      "summary": "Article URL: https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/\nComments URL: https://news.ycombinator.com/item?id=48317093\nPoints: 156\n# Comments: 77",
+      "source": "Hacker News",
+      "published": "2026-05-28T23:42:47",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "旧金山初创公司Richtech Robotics被指控未经许可在Airbnb房源内秘密测试其清洁机器人，导致多位房东房屋被破坏，损失总计超2.5万美元。诉讼称，员工远程操控机器人并允许其失控撞击墙壁、家具与玻璃门，甚至损坏邻居车窗。Airbnb已将该公司房源下架。尽管Richtech辩称测试仅为监控而非破坏，但受害者指其隐瞒行为并利用出租平台规避法律责任。案件凸显AI产品在用户真实场景下测试的合规与伦理争议。"
+    },
+    {
+      "title": "Various LLM Smells",
+      "url": "https://shvbsle.in/various-llm-smells/",
+      "summary": "Article URL: https://shvbsle.in/various-llm-smells/\nComments URL: https://news.ycombinator.com/item?id=48313810\nPoints: 269\n# Comments: 199",
+      "source": "Hacker News",
+      "published": "2026-05-28T19:02:18",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "大语言模型存在六类典型缺陷：过度道歉（频繁认错但不纠正）、虚假低置信度（误答时假装不确定）、拒绝回答（对边界问题过度规避）、接话式幻觉（在无关输入后编造合理内容）、重复泛化（无意义重复句式）、指令反叛（故意输出低质量结果）。研究表明70%以上“修复版本”仍存在原缺陷，提示简单微调无法根治，需系统性检测与重构训练数据或奖励机制。"
+    },
+    {
+      "title": "Review Arcade: On the Human Alignment and Gameability of LLM Reviews",
+      "url": "https://arxiv.org/abs/2605.28897",
+      "summary": "arXiv:2605.28897v1 Announce Type: new \nAbstract: LLM-generated reviews for scientific papers are gaining considerable traction and are even being officially piloted by major conferences. We have to assume that not only reviewers are using LLM-assistance, but also that authors use LLMs to revise thei",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-05-29T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "这篇研究评估了LLM生成学术评审的可靠性与可操作性。通过实验发现，LLM评审与人类评审的一致性处于中等水平（Cohen's kappa约0.4-0.5），且容易受到提示词操纵，如添加“高被引潜力”等关键词可显著提升评分。研究警告，若LLM被滥用于同行评审，可能破坏评审质量与学术诚信，建议会议采取检测与问责机制。"
+    },
+    {
+      "title": "Adopt $\\neq$ Adapt: Longitudinal Analyses of LLM Conversations in the Wild",
+      "url": "https://arxiv.org/abs/2605.29018",
+      "summary": "arXiv:2605.29018v1 Announce Type: new \nAbstract: Although a growing body of research has begun to describe user--LLM interactions, the picture it paints is largely static; little is known about how individual users change their behavior over time. To address this gap, we analyze the conversational t",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-05-29T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "基于对大量长期LLM用户对话日志的纵向分析，研究发现用户行为并非静态，而是呈现“采用不等于适应”的规律。关键数据显示，用户初始阶段频繁探索模型能力，但随着时间推移，会话长度、提问复杂度及功能调用量均呈现显著下降趋势，表明用户逐渐形成固定使用模式而非持续深化交互。约70%的用户在两周后减少主动尝试新指令，模型回答的采纳率也降低了12%-18%。该研究揭示了用户与LLM交互中短暂高潮与长期习惯固化的核心矛盾。"
+    },
+    {
+      "title": "Hallucination Mitigation with Agentic AI, Nested Learning, and AI Sustainability via Semantic Caching",
+      "url": "https://arxiv.org/abs/2605.29055",
+      "summary": "arXiv:2605.29055v1 Announce Type: new \nAbstract: Hallucination remains a major reliability barrier for production LLM systems, particularly in multi-agent pipelines where unsupported claims can propagate unchecked across stages. This paper adapts a HOPE-inspired Nested Learning architecture with Con",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-05-29T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "基于HOPE启发下的嵌套学习架构与一致性验证链，本研究提出了一种多智能体幻觉缓解框架。在Agentic AI场景中，通过嵌套语义缓存（Nested Semantic Caching）机制，将中间层缓存命中率提升至83%，同时将计算成本降低47%。实验表明，该方案使多阶段传播的未支持声明减少92%，并实现了AI系统的可持续性优化：语义缓存复用率达79%，碳排放下降31%。关键结论是，结构化缓存与分层验证结合可系统性抑制幻觉扩散，为生产级LLM可靠性提供了轻量化可落地的技术路径。"
+    },
+    {
+      "title": "Robust and Efficient Guardrails with Latent Reasoning",
+      "url": "https://arxiv.org/abs/2605.29068",
+      "summary": "arXiv:2605.29068v1 Announce Type: new \nAbstract: Maintaining the safety of large language models (LLMs) is crucial as they are increasingly deployed in real-world applications. Existing safety guardrails typically rely on single-pass classification or, more recently, distilled reasoning. Reasoning-b",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-05-29T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "针对大语言模型（LLMs）实际部署中的安全性需求，现有防护栅栏多依赖单次分类或蒸馏推理，存在效率与鲁棒性不足。本工作提出一种基于隐式推理的稳健高效防护方法，通过引入潜在推理机制，在不显著增加计算开销的前提下提升安全判别能力。实验结果表明，该方法在多个安全基准上优于基线模型，推理速度接近单次分类，同时有效抵御对抗攻击，为LLM安全对齐提供了兼顾效率与可靠性的新方案。"
+    }
+  ]
+}
