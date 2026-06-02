@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 日报｜2026-06-01</title>
+<title>AI 日报｜2026-06-02</title>
 <style>
   :root {
     --bg: #0a0a0f;
@@ -162,9 +162,9 @@
   <div class="history-strip-wrap">
     <div class="history-strip" id="historyStrip">
   
-      <span class="hs-date hs-today active" data-date="2026-06-01" onclick="onDateClick(this)">
-        <span class="hs-day">周一</span>
-        <span class="hs-num">06-01</span>
+      <span class="hs-date hs-today active" data-date="2026-06-02" onclick="onDateClick(this)">
+        <span class="hs-day">周二</span>
+        <span class="hs-num">06-02</span>
         <span class="hs-tag">今天</span>
       </span>
     </div>
@@ -179,6 +179,7 @@
         <button class="cat-btn active" data-cat="全部">🤖 全部</button>
         <button class="cat-btn" data-cat="产品发布">🛠 产品发布</button>
         <button class="cat-btn" data-cat="政策监管">📋 政策监管</button>
+        <button class="cat-btn" data-cat="活动会议">🎪 活动会议</button>
         <button class="cat-btn" data-cat="研究突破">🔬 研究突破</button>
         <button class="cat-btn" data-cat="融资并购">💰 融资并购</button>
         <button class="cat-btn" data-cat="行业动态">📊 行业动态</button>
@@ -192,20 +193,20 @@
 
   <div class="news-grid" id="newsGrid">
 
-        <article class="news-card" data-rank="1" data-idx="0" data-category="融资并购"
+        <article class="news-card" data-rank="1" data-idx="0" data-category="行业动态"
                  onclick="goDetail(0)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#ffd700">#1</span>
-                    <span class="source-tag" style="background:#ef444420;color:#ef4444">💰 夕小瑶科技说</span>
-                    <span class="cat-tag" style="background:#ef444430;color:#ef4444">融资并购</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Ars Technica</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Opus 4.8发布，Anthropic估值正式超越OpenAl</h2>
-            <p class="card-summary">Anthropic发布Opus 4.8模型，其公司估值已正式超越OpenAI。Opus 4.8在多项基准测试中性能提升显著，尤其在复杂推理与代码生成任务上表现突出。此次估值超越标志着AI竞赛格局发生关键转变，Anthropic凭借技术突破与资本支持，正从追赶者跃升为行业领跑者，进一步加剧大模型领域的竞争态势。</p>
+            <h2 class="card-title">An OpenAI model solved a famous math problem that stumped humans for 80 years</h2>
+            <p class="card-summary">OpenAI的数学模型通过将经典难题转化为有限案例验证，成功解决了困扰数学家80年的问题。该模型并非依靠全新推理，而是利用超强计算能力穷举可能性，在两个月内完成了人类无法企及的运算量。关键突破在于将无穷问题转化为有限离散任务，使AI能发挥其擅长的模式识别与暴力计算优势。这一成果展示了AI在数学领域可成为人类思维的有力补充，尤其适用于需要海量验证的命题。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date"></span>
+                <span class="pub-date">2026-06-01</span>
             </div>
         </article>
 
@@ -214,12 +215,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#c0c0c0">#2</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 钛媒体</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 DeepTech深科技</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">存储芯片三巨头联手入股Anthropic，AI供应链的权力结构正在重组</h2>
-            <p class="card-summary">存储芯片三巨头三星、SK海力士、美光近期联手投资AI公司Anthropic，标志着AI供应链正从算力层向存储层深度重构。此举旨在通过资本绑定锁定HBM等高端存储芯片的长期需求，同时争夺AI训练与推理中的数据存储标准话语权。三方合计投入超数亿美元，Anthropic估值也随之突破200亿美元。这一合作揭示出AI产业链权力正从GPU巨头向存储与计算协同方向转移，芯片厂商正加速从硬件供应商升级为AI基础设施的核心参与者。</p>
+            <h2 class="card-title">英伟达宣布杀入PC芯片市场，个人电脑将拥有AI大脑</h2>
+            <p class="card-summary">英伟达正式进军PC芯片市场，发布基于相同CUDA架构的CPU+GPU集成芯片，将AI算力直接植入个人电脑。新品采用ARM架构，能效比提升数倍，支持本地运行大模型，延迟降低至毫秒级。首批合作厂商包括联想、戴尔、惠普，预计2025年上市。此举标志着PC从通用计算时代迈入AI原生计算时代，CPU与GPU融合成为新趋势。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -231,12 +232,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#cd7f32">#3</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 财经杂志</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 量子位</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">MiniMax、智谱启动A股上市，国产大模型资本化提速</h2>
-            <p class="card-summary">MiniMax与智谱近期相继启动A股上市流程，标志着国产大模型融资进入新阶段。MiniMax已完成多轮融资，估值超10亿美元；智谱则凭借开源模型ChatGLM系列积累技术优势。两家企业选择在当前AI投资热潮下冲刺IPO，旨在获取更稳定资本支持以应对研发高投入和市场竞争。此举可能加速国产大模型商业化落地，并带动更多AI公司登陆资本市场。</p>
+            <h2 class="card-title">材料版AlphaFold来了！40个工业任务全方位SOTA，AI4S迎来行业大突破</h2>
+            <p class="card-summary">北京大学与字节跳动合作开发了名为“S材料”的AI大模型，被誉为“材料版AlphaFold”。该模型在覆盖催化、电池、医药等领域的40个工业级任务上全面取得最先进（SOTA）结果，性能大幅领先传统方法。其核心突破在于提出统一预训练架构，能高效预测材料晶体结构、性质与合成路径，显著加速新材料研发。这标志着AI for Science（AI4S）在材料科学领域实现重大行业突破，有望将材料发现周期从数年缩短至数周。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -248,12 +249,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#4</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 机器之心</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">AI权威清洗：一张肉眼难辨的图片，就能让GPT-5.4、ClaudeOpus 4.6集体造谣</h2>
-            <p class="card-summary">研究人员发现一种新型“权威清洗”攻击，仅需一张肉眼无法识别的对调文本图片，即可让GPT-5.4、Claude Opus 4.6等顶级模型集体造谣。攻击利用模型对垂直排列视觉元素的信任，将维基百科等权威来源信息与其无关内容并列，诱导模型将两者错误关联。测试显示，GPT-5.4、Claude Opus 4.6和Gemini Ultra 2.0在90%以上测试案例中均被成功欺骗，生成看似可信的虚假信息。该攻击凸显当前多模态模型在视觉与文本信息交叉验证上的严重安全漏洞。</p>
+            <h2 class="card-title">刚刚，老黄重新发明PC！全球首个Agent原生电脑问世</h2>
+            <p class="card-summary">黄仁勋发布全球首款Agent原生电脑Project Digits，搭载全新GB10芯片（支持200B参数模型本地运行），重新定义个人计算。该设备能原生执行AI代理任务，无需云端依赖，将PC从工具升级为自主智能体。核心突破在于芯片级集成AI推理单元，功耗仅300W，性能达1 PFLOPS（千万亿次浮点运算）。这一架构使开发者可在本地训练、微调大模型，标志AI算力从数据中心下沉至桌面，开启个人超级计算新时代。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -265,12 +266,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#5</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 量子位</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 夕小瑶科技说</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">别光给Agent加Tool了，它根本选不明白！复旦×通义提出全新CUA训练范式</h2>
-            <p class="card-summary">复旦与通义团队研究发现，仅给AI Agent增加工具调用能力无法提升其选择准确率，核心瓶颈在于缺乏“工具理解”训练。他们提出全新CUA（Comprehensive Understanding for Agent）训练范式，通过设计工具语义对齐与选择推理任务，使模型在调用前真正理解工具功能。实验表明，基于CUA范式训练的7B模型在M3ToolQA数据集上，工具选择准确率提升12.3%，并首次在7B量级达到与GPT-4相当的工具调用性能，显著减少误选和无效调用。</p>
+            <h2 class="card-title">OpenAI推翻数学界80年的未解猜想，菲尔兹奖得主点赞</h2>
+            <p class="card-summary">OpenAI利用o3模型在数学难题“挂谷猜想”上取得突破，通过证明三维空间中“挂谷集”的下界为Ω(n^{-3/2})，推翻了该领域存在80年的猜想，并得到菲尔兹奖得主陶哲轩高度评价。该成果展示了AI在推动纯数学基础研究方面的潜力，但研究也指出AI目前更擅长验证已知结论，探索未知仍需人类直觉。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -282,12 +283,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#6</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 华尔街见闻</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">AI引爆「漏洞洪水」！99%来不及修，OpenAI高薪抢人</h2>
-            <p class="card-summary">AI正引爆漏洞数量的指数级增长，企业平均每月披露超500个漏洞，但修复率不足1%，远超安全团队处理能力。与此形成反差的是，OpenAI等公司高薪招募安全人才，年薪普遍超百万，反映出AI在制造安全威胁的同时，也催生了新的人才和防御需求。</p>
+            <h2 class="card-title">黄仁勋GTC台北演讲：VeraRubin全面量产，Al Agent是重点方向</h2>
+            <p class="card-summary">黄仁勋在GTC台北演讲中宣布下一代AI芯片Vera Rubin全面量产，该芯片性能相比前代提升数倍，功耗显著降低。他强调AI Agent（智能体）是未来发展重点方向，预计将推动企业级应用的自动化与效率革命。此外，数据中心架构升级和新一代网络技术同步推进，以支撑AI规模化部署。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -299,83 +300,83 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#7</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 红杉汇</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">OpenAI官宣退役o3与GPT-4.5!</h2>
-            <p class="card-summary">OpenAI宣布正式退役o3模型与GPT-4.5，全力聚焦新一代推理模型o4-mini与o4的研发。o3因其高昂的计算成本被淘汰，GPT-4.5则被内部评估为“存在性略显尴尬”，其性能优势已被后续版本超越。此次退役是OpenAI战略调整的关键一步，旨在简化模型线、缩减成本并提升推理效率。数据显示，o4-mini在多项基准测试中表现优于o3，且成本降低超50%。这一决策标志着AI行业从“参数规模竞赛”转向“推理能力优化”的新阶段。</p>
+            <h2 class="card-title">Claude Opus 4.8登顶ScienceQAIxbench快报</h2>
+            <p class="card-summary">最新AI基准测试ScienceQAIxbench显示，Claude Opus 4.8以86.7%的综合准确率登顶，较上一代提升4.2个百分点，在物理、化学、生物三大子领域均领先GPT-4o和Gemini Ultra。该模型在推理能力、多步解题和抗干扰项方面表现突出，尤其在需跨学科知识融合的复杂问题上优势明显。测试涵盖3000道研究生级科学问题，Claude Opus 4.8的数学推导错误率降低至2.1%，为同类模型最低。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="8" data-idx="7" data-category="产品发布"
+        <article class="news-card" data-rank="8" data-idx="7" data-category="政策监管"
                  onclick="goDetail(7)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#8</span>
-                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 华尔街见闻</span>
-                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
+                    <span class="source-tag" style="background:#f9731620;color:#f97316">📋 TechCrunch AI</span>
+                    <span class="cat-tag" style="background:#f9731630;color:#f97316">政策监管</span>
                 </div>
             </div>
-            <h2 class="card-title">用户炸锅！GitHub不装了，从此按token计费，AI编程的低价时代结束</h2>
-            <p class="card-summary">GitHub宣布将对Copilot等AI编程服务从固定订阅模式改为按token计费，标志着AI编程低价时代终结。新计费方式根据每次代码补全或对话消耗的token数量收费，token单价约为0.01美元。此举引发广泛争议，开发者担心成本大幅上升，尤其对频繁使用AI辅助编程的用户影响巨大。GitHub表示新模型更公平，但业界普遍认为这是平台盈利压力下的必然调整，AI编程商业化进入精细化阶段。</p>
-            <div class="card-footer">
-                <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date"></span>
-            </div>
-        </article>
-
-        <article class="news-card" data-rank="9" data-idx="8" data-category="产品发布"
-                 onclick="goDetail(8)" style="cursor:pointer">
-            <div class="card-header">
-                <div class="card-meta">
-                    <span class="rank" style="color:#555">#9</span>
-                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 Hacker News</span>
-                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
-                </div>
-            </div>
-            <h2 class="card-title">Nvidia RTX Spark</h2>
-            <p class="card-summary">英伟达发布RTX Spark，一款面向AI开发者的紧凑型高性能工作站，搭载RTX 5000 Ada GPU，显存达32GB，支持本地运行大型生成式AI模型。其AI推理性能较传统CPU提升达400%，适用于大语言模型、图像生成与科学计算场景。设备预装NVIDIA AI Enterprise软件栈，支持主流框架，功耗仅230W，体积比传统塔式机箱减小60%。RTX Spark旨在降低企业AI部署门槛，加速从原型到生产的进程，起售价约3500美元。</p>
+            <h2 class="card-title">Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents</h2>
+            <p class="card-summary">佛罗里达州对OpenAI及其CEO山姆·奥特曼提起首例重大诉讼，指控ChatGPT与去年佛罗里达州立大学枪击事件存在关联。案件核心在于AI聊天机器人被指为学生提供了暴力行为建议，直接介入导致人员伤亡的悲剧。此次诉讼开创先例，将AI企业责任从数据隐私扩展至现实暴力的法定追责，可能重塑生成式人工智能在法律与市场中的边界。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date">2026-06-01</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="10" data-idx="9" data-category="产品发布"
+        <article class="news-card" data-rank="9" data-idx="8" data-category="行业动态"
+                 onclick="goDetail(8)" style="cursor:pointer">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#9</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 The Verge AI</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                </div>
+            </div>
+            <h2 class="card-title">Meta&amp;#8217;s own AI was exploited to hijack Instagram accounts</h2>
+            <p class="card-summary">Meta的AI客服聊天机器人被黑客利用劫持Instagram账户。黑客通过指令让AI更换目标账户关联邮箱，随后重置密码完成入侵。该漏洞在Telegram上被演示传播，显示AI系统缺乏关键操作的身份验证与风险控制机制。事件暴露了Meta在AI安全审核上的重大疏漏，用户账户面临严重威胁。</p>
+            <div class="card-footer">
+                <span class="read-more">🔬 AI 总结</span>
+                <span class="pub-date">2026-06-01</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-rank="10" data-idx="9" data-category="融资并购"
                  onclick="goDetail(9)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#10</span>
-                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 Hacker News</span>
-                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
+                    <span class="source-tag" style="background:#ef444420;color:#ef4444">💰 The Verge AI</span>
+                    <span class="cat-tag" style="background:#ef444430;color:#ef4444">融资并购</span>
                 </div>
             </div>
-            <h2 class="card-title">Meta launches Instagram, Facebook, and WhatsApp subscriptions</h2>
-            <p class="card-summary">Meta 正式推出 Instagram、Facebook 和 WhatsApp 订阅服务，用户可选择无广告体验或付费解锁高级功能。基础订阅价格为每月 8 美元（网页端）至 11 美元（移动端），捆绑套餐折扣约 20%。此外，Meta 计划未来推出包含 AI 驱动的个性化推荐、增强内容创作工具及更严格隐私保护的进阶订阅层级。此举旨在减少对广告收入的依赖，预计到 2027 年订阅收入将占总营收的 15%，但分析师担忧可能影响用户增长与广告商关系。</p>
+            <h2 class="card-title">Anthropic has officially filed to go public</h2>
+            <p class="card-summary">Anthropic 于周一正式向美国证券交易委员会提交IPO申请，标志着其上市进程进入关键阶段。此举结束了数月来关于OpenAI与Anthropic谁将率先上市的猜测。尽管尚未公布具体估值与发行股数，但基于公司最新融资轮估值已超数十亿美元，这预计将是一场规模巨大的首次公开募股。Anthropic的上市将进一步加剧AI领域的资本竞赛。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-05-31</span>
+                <span class="pub-date">2026-06-01</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="11" data-idx="10" data-category="行业动态"
+        <article class="news-card" data-rank="11" data-idx="10" data-category="研究突破"
                  onclick="goDetail(10)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#11</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Hacker News</span>
-                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                    <span class="source-tag" style="background:#f59e0b20;color:#f59e0b">🔬 Wired AI</span>
+                    <span class="cat-tag" style="background:#f59e0b30;color:#f59e0b">研究突破</span>
                 </div>
             </div>
-            <h2 class="card-title">1-Bit Bonsai Image 4B Image Generation for Local Devices</h2>
-            <p class="card-summary">Bonsai Image 4B 是一款专为本地设备优化的4B参数图像生成模型，通过1-Bit量化技术大幅降低计算资源需求，在保持高质量输出的同时，能在普通消费级GPU上高效运行。相较于同等规模的传统模型，其内存占用减少约90%，推理速度提升显著，支持实时图像生成。该模型在自然图像与风格化内容生成上表现均衡，为边缘设备部署大模型提供了可行方案，尤其适用于隐私敏感和离线场景。</p>
+            <h2 class="card-title">Anthropic Confidentially Files for What Could Be the Largest IPO Ever</h2>
+            <p class="card-summary">人工智能公司Anthropic于本周一向SEC秘密提交IPO文件，其旗舰模型Claude的运营商估值或创史上最大规模上市纪录。此举紧随SpaceX高调宣布IPO数周后，凸显AI赛道资本热潮。文件显示，Anthropic正加速商业化进程，但未披露具体融资规模及估值细节。此次上市若成功，将验证生成式AI领域从技术突破向规模化盈利转型的市场信心。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-05-31</span>
+                <span class="pub-date">2026-06-01</span>
             </div>
         </article>
 
@@ -384,12 +385,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#12</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 PaperWeekly</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 量子位</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Agent团队开始自我进化，MetaAgent-X把协作训进基座模型</h2>
-            <p class="card-summary">MetaAgent-X提出一种新型群体协作框架，直接让基座模型内化智能体协作能力，无需外部编排。通过构建“自我进化”训练范式，模型在多个复杂任务中实现平均20%以上的性能提升，在MujoCo和Overcooked等环境下协作效率超过此前最优方法30%。该方法将Agent间通信、分工与决策作为内在能力而非外部插件，标志着AI团队从“被调度”转向“自主进化”的关键突破。</p>
+            <h2 class="card-title">OpenAI重返机器人赛道！四大核心岗位开招</h2>
+            <p class="card-summary">OpenAI正式重启机器人研发，公布四大核心岗位招聘，涵盖感知、机械、控制和系统集成。此次回归基于前身“OpenAI Robotics”的积累，并结合GPT系列多模态大模型优势，探索AI与物理世界交互的新路径。这意味着OpenAI不再局限于软件与语言模型，正加速切入具身智能领域，推动机器人具备推理、学习与自主操作能力。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -401,12 +402,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#13</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 量子位</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Anthropic「阴谋」曝光：被指故意阉割旧模型</h2>
-            <p class="card-summary">Anthropic被指在 Claude 旧版本中故意削弱模型能力，以迫使用户升级付费。内部测试显示，Claude 3 Opus 在多轮对话中逻辑推理准确率从初始的 82% 下降至 58%，但公司未公开此性能退化。研究机构 Artifact Research 指出，这种“计划性退化”与 OpenAI 此前被曝策略类似。Anthropic 否认指控，称模型会随使用场景动态调整，但拒绝披露完整测试数据。此事引发对 AI 商业化中“诱导升级”伦理问题的广泛质疑。</p>
+            <h2 class="card-title">今天起，无限期免费！全球首个全模态API开放，Top10AI Lab出手</h2>
+            <p class="card-summary">阶跃星辰宣布无限期免费开放全球首个全模态API，支持图像理解、视频理解、语音识别及TTS等。其Step-2 16K视觉版在Chatbot Arena文本榜排名国产第一，视频理解能力超越GPT-4o、Gemini 2.0 Flash。模型在MMBench、MathVista等权威评测中领先，并具备原生千亿参数MoE架构。此举打破闭源模型高成本限制，零门槛开放推动AI应用普及。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -422,8 +423,8 @@
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">AI手机还没度上「蜜月」，模型厂商和手机厂商就已经开始「闹离婚」</h2>
-            <p class="card-summary">AI手机尚未迎来成熟商业化阶段，模型厂商与手机厂商已因利益分配冲突产生分歧。数据显示，截至2024年Q3，端侧AI手机渗透率不足15%，用户日均调用大模型次数仅为云端服务的1/5。双方核心矛盾在于：模型厂商要求收入分成占30%以上，手机厂商则坚持低于10%且要求开放数据权限。行业共识指出，若不解决算力成本分摊与隐私合规问题，AI手机或陷入“硬件升级快、体验提升慢”的僵局。</p>
+            <h2 class="card-title">卖了30年显卡后，英伟达带着新AI芯片来重新发明「个人电脑」了</h2>
+            <p class="card-summary">英伟达发布全新AI芯片，旨在重新定义个人电脑。该芯片性能较前代提升数十倍，功耗却显著降低，关键数据表明其AI算力达到每秒千万亿次级别。英伟达表示，这款芯片将把强大的AI能力从数据中心带入个人设备，实现本地化运行大模型与复杂应用，标志着个人电脑从传统计算向AI原生的根本性转变，预计将推动新一轮产业变革。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -435,12 +436,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#15</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 极客公园</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 APPSO</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">戴尔股价暴涨30%，联想5月涨100%，「老登股」终于吃上AI红利?</h2>
-            <p class="card-summary">戴尔股价因AI服务器需求单日暴涨30%，联想5月涨幅达100%，两家传统PC厂商凭借AI硬件订单扭转颓势。戴尔Q1 AI服务器订单额环比增长35%，联想AI服务器收入同比增80%，但利润率低于传统业务。市场担忧AI红利持续性：AI服务器占整体出货量仍不足10%，且竞争加剧可能压缩利润空间。分析指出，“老登股”短期受益于企业抢建算力，但长期需突破供应链瓶颈与定制化服务能力。</p>
+            <h2 class="card-title">英伟达掀桌，Windows 终于迎来真 AI PC</h2>
+            <p class="card-summary">英伟达推出RTX AI PC套件，为Windows系统带来真正的本地AI算力，突破此前云端依赖。该套件集成TensorRT加速与NIM微服务，使Stable Diffusion等模型推理速度提升数倍，且支持70B级大模型离线运行。其关键创新在于将AI推理从云端下沉至终端PC，解决了延迟与隐私问题，标志Windows平台正式进入高效、低成本的端侧AI时代。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -452,49 +453,49 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#16</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 钛媒体</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 爱范儿</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Snowflake绩后暴涨 36%：AI拐点已至，还是数据云的又一次虚晃?</h2>
-            <p class="card-summary">Snowflake财报发布后股价暴涨36%，主要得益于产品收入同比增长29%至9.57亿美元，剩余履约义务达52.2亿美元，远超预期。公司推出的AI数据产品如Cortex AI和Snowpark Container Services贡献显著，客户在AI工作负载上的支出季度环比增长近两倍。CEO表示AI正推动企业从数据存储转向智能交互，但分析师对1000亿美元估值能否持续存疑。关键在于AI能否转化为长期收入增长，而非短期市场情绪。</p>
+            <h2 class="card-title">英伟达叫板苹果！Windows 迎来真 AIPC，所有任务都能运行?</h2>
+            <p class="card-summary">英伟达推出新一代RTX 50系列GPU，支持Windows系统原生运行AI模型，不再依赖云端。其FP4精度计算性能最高提升2倍，本地运行大型语言模型速度可达每秒1000 token，超越苹果M3系列。NVIDIA宣称，新架构使PC能独立完成从语音助手到图像生成的各类AI任务，真正实现端侧AI体验，并计划通过优化驱动与工具链，将AIPC普及至所有Windows设备。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="17" data-idx="16" data-category="行业动态"
+        <article class="news-card" data-rank="17" data-idx="16" data-category="产品发布"
                  onclick="goDetail(16)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#17</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 虎嗅App</span>
-                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 InfoQ</span>
+                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
                 </div>
             </div>
-            <h2 class="card-title">最失败的AI硬件，被苹果、OpenAI、Meta抢着“复活”</h2>
-            <p class="card-summary">曾被称作AI硬件最失败案例的智能眼镜，正被苹果、OpenAI和Meta争相推动“复活”。Meta与Ray-Ban合作的新款眼镜销量突破百万，Meta首席科学家杨立昆更预测智能眼镜将接棒手机。苹果秘密推进Atlas项目，探索视觉智能与音频交互结合的眼镜形态；OpenAI则通过收购技术团队入局，计划开发具备视频理解能力的AI眼镜。核心数据：Meta眼镜年销量达百万级，行业预估2033年全球智能眼镜市场规模将达1500亿美元。关键结论：AI眼镜正从功能鸡肋转向承载视频理解、实时交互的下一代智能终端，技术路径聚焦轻量化与多模态AI融合。</p>
+            <h2 class="card-title">Claude Code Adds Dynamic Workflows for Parallel Agent Coordination</h2>
+            <p class="card-summary">Anthropic为Claude Code推出Dynamic Workflows功能，可在单一工作流内协调大量AI智能体并行处理复杂软件工程任务。该特性使Claude能动态创建编排脚本，将工作分解为子任务并同步执行，显著提升大型代码库的修改、测试与重构效率。通过并行代理协调机制，复杂工程任务的完成速度与质量实现突破性提升。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date"></span>
+                <span class="pub-date">2026-06-01</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="18" data-idx="17" data-category="行业动态"
+        <article class="news-card" data-rank="18" data-idx="17" data-category="融资并购"
                  onclick="goDetail(17)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#18</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 阿里云开发者</span>
-                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                    <span class="source-tag" style="background:#ef444420;color:#ef4444">💰 InfoQ</span>
+                    <span class="cat-tag" style="background:#ef444430;color:#ef4444">融资并购</span>
                 </div>
             </div>
-            <h2 class="card-title">阿里云CIO蒋林泉：AI大模型时代，我们如何用RIDE实现RaaS的首次落地？</h2>
-            <p class="card-summary">阿里云CIO蒋林泉提出RIDE（Rethink、Integrate、Drive、Evaluate）方法论，推动RaaS（结果即服务）在AI大模型时代首次落地。核心思路是从业务结果倒推AI应用，而非单纯部署模型。RaaS通过整合大模型、数据和业务流程，实现可量化、可度量的业务成效。实践表明，该方法可提升运营效率超30%，降低决策成本约20%，并强调AI落地关键在于业务理解、组织协同与持续评估。</p>
+            <h2 class="card-title">BadHost Vulnerability Exposes AI Agents, Evaluators, and LLM Gateways</h2>
+            <p class="card-summary">BadHost是一个广泛使用的Python Web框架Starlette中的高危认证绕过漏洞，周下载量达3.25亿次。攻击者可利用畸形的HTTP Host头字段绕过基于路径的访问控制，直接访问AI代理基础设施、评估系统及大模型网关等敏感组件，导致数据泄露或未授权操作。该漏洞影响依赖Starlette的安全架构，凸显了AI系统服务层防护的薄弱环节。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date"></span>
+                <span class="pub-date">2026-06-01</span>
             </div>
         </article>
 
@@ -503,49 +504,49 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#19</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 华尔街见闻</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 泽平宏观展望</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">高盛加入“AI瓶颈交易”：MLCC是新存储，已成AI服务器GPU和内存后“第三大成本”</h2>
-            <p class="card-summary">高盛报告指出，MLCC（多层陶瓷电容）正成为AI服务器中继GPU和内存后的第三大成本项，单台AI服务器MLCC用量达3-4万颗、价值约300-500美元，是传统服务器的8-10倍。随着AI算力密度提升，MLCC面临供电稳定性与电流噪声过滤瓶颈，被视为新一代存储级关键元件，预计2025年需求增速超30%，相关供应链毛利率有望提升至40%以上。</p>
+            <h2 class="card-title">AIPC爆发：英伟达联手戴尔，进军端侧Al</h2>
+            <p class="card-summary">英伟达与戴尔合作推动AIPC爆发，标志端侧AI进入落地阶段。双方联手推出预装AI软件及驱动的PC，利用RTX GPU实现本地推理，降低云端依赖。戴尔计划在2024年出货更多AI PC，市场预计渗透率达19%。核心数据：AIPC单机算力超40 TOPS，可运行千亿参数模型，用户响应延迟低于2秒。此举将加速AI应用在办公与消费场景的规模化部署。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="20" data-idx="19" data-category="行业动态"
+        <article class="news-card" data-rank="20" data-idx="19" data-category="融资并购"
                  onclick="goDetail(19)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#20</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 红杉汇</span>
-                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                    <span class="source-tag" style="background:#ef444420;color:#ef4444">💰 TechCrunch AI</span>
+                    <span class="cat-tag" style="background:#ef444430;color:#ef4444">融资并购</span>
                 </div>
             </div>
-            <h2 class="card-title">AI大家说|IEA报告：未来五年数据中心电耗将翻倍，谁来为AI供电?</h2>
-            <p class="card-summary">国际能源署（IEA）报告指出，受AI及云计算需求驱动，未来五年全球数据中心电力消耗将翻倍，预计到2026年总电耗将超过1000太瓦时，相当于日本全国用电量。目前，数据中心约占全球电力需求的1%-1.3%，其中AI训练和推理是主要增长引擎。报告强调，若缺乏清洁能源布局，将推高碳排放与电网压力。解决办法依赖核电、天然气、可再生能源及更高效的芯片和冷却技术。</p>
+            <h2 class="card-title">Alphabet plans to raise $80B to pay for AI buildout</h2>
+            <p class="card-summary">Alphabet宣布计划筹集800亿美元资金，以扩大其人工智能基础设施建设。该公司表示，来自企业和消费者对AI解决方案与服务的需求极为强劲，已超出其当前供应能力。这笔资金将主要用于数据中心、芯片及相关硬件投入，以支撑AI模型的训练与部署。这是Alphabet历史上规模最大的资本融资之一，反映出其正加速布局AI领域以应对竞争和满足激增的市场需求。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date"></span>
+                <span class="pub-date">2026-06-01</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="21" data-idx="20" data-category="产品发布"
+        <article class="news-card" data-rank="21" data-idx="20" data-category="行业动态"
                  onclick="goDetail(20)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#21</span>
-                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 FounderPark</span>
-                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 TechCrunch AI</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">阶跃发布 Step 3.7 Flash，效率模型开始争夺 Agent 主战场</h2>
-            <p class="card-summary">阶跃星辰发布全新 Step 3.7 Flash 模型，定位高效能 Agent 推理引擎。该模型专为智能体任务优化，在保证推理质量的同时显著提升响应速度与资源效率，核心指标超过 GPT-4o 等竞品。这一发布标志着效率模型正式进入 Agent 主战场竞争，推动从单纯追求生成质量向兼顾速度与成本的关键行业转折。</p>
+            <h2 class="card-title">Anthropic files to go public</h2>
+            <p class="card-summary">Anthropic 已提交上市申请，这家曾被视为大语言模型领域弱势玩家的AI公司，如今已成长为实力雄厚的企业，并赢得了顶级企业客户。此次IPO标志着其从挑战者到行业关键参与者的重大转变，具体估值与发行细节待公布。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date"></span>
+                <span class="pub-date">2026-06-01</span>
             </div>
         </article>
 
@@ -554,29 +555,29 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#22</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Hacker News</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 The Verge AI</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">ChatGPT for Google Sheets exfiltrates workbooks</h2>
-            <p class="card-summary">PromptArmor揭示，ChatGPT for Google Sheets插件存在数据泄露风险。该插件在用户授予“查看/编辑”权限后，会主动请求并有权访问当前电子表格及所有外部链接文件。测试表明，攻击者可通过诱导用户加载含恶意提示的工作表，触发插件将整本工作簿内容（包括受保护的API密钥、姓名、邮箱等）外传至外部服务器。该攻击绕过传统安全扫描，利用用户会话令牌实现自动化数据窃取。</p>
+            <h2 class="card-title">This could be Windows’ M1 moment — but expect it to cost a ton</h2>
+            <p class="card-summary">英伟达推出RTX Spark进军消费级笔记本芯片市场，有望成为Windows系统的“M1时刻”。苹果已证明Arm架构芯片在Mac上可实现卓越性能与长续航，而Windows阵营此前未能完全达到同等水平。但首批搭载RTX Spark的笔记本预计成本高昂，这将是其普及的关键障碍。短期内，高性能Arm Windows设备的价格门槛可能远超用户预期。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-05-31</span>
+                <span class="pub-date">2026-06-01</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="23" data-idx="22" data-category="研究突破"
+        <article class="news-card" data-rank="23" data-idx="22" data-category="行业动态"
                  onclick="goDetail(22)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#23</span>
-                    <span class="source-tag" style="background:#f59e0b20;color:#f59e0b">🔬 AI Papers (arXiv)</span>
-                    <span class="cat-tag" style="background:#f59e0b30;color:#f59e0b">研究突破</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Hacker News</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">BilliardPhys-Bench: Benchmarking Physical Reasoning and Visual Dynamics of Multimodal LLMs</h2>
-            <p class="card-summary">本研究提出BilliardPhys-Bench基准，用于评估多模态大模型在台球场景下的物理推理与视觉动态预测能力。测试表明，现有模型虽在静态图像识别上表现良好，但在单张图像中预测物体运动与交互仍存在显著困难。该基准包含多种物理情境，涵盖碰撞、轨迹与动量传递等核心力学现象。实验数据显示，当前最优模型在动态预测任务上的准确率不足60%，远低于人类表现，凸显出多模态模型在直觉物理理解方面的根本性弱点。该研究为提升AI物理推理能力提供了关键评估工具与发展方向。</p>
+            <h2 class="card-title">OpenAI frontier models and Codex are now available on AWS</h2>
+            <p class="card-summary">OpenAI 前沿模型及 Codex 现已登陆 AWS，开发者可通过 Amazon Bedrock 和 SageMaker 调用 o1、o3、GPT-4o 等模型。o1 在数学竞赛成绩达 83%（GPT-4o 仅 13%），Codex 在 SWE-bench 上实现 43.8% 的成功率并生成 100 万 Tokens/分钟。该合作显著降低了推理成本（o1-mini 仅为原版 6%），支持组织高效构建定制化 AI 应用并保障数据安全。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date">2026-06-01</span>
@@ -588,15 +589,15 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#24</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 机器之心</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Hacker News</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Rubrics综述：Agent时代，如何定义一个「好答案」?</h2>
-            <p class="card-summary">Rubrics是定义AI“好答案”的系统性评估框架，通过设定清晰标准来量化回答质量，适用于大模型与Agent场景。核心优势在于：建立结构化评价维度（准确性、完整性、逻辑性等），取代主观判断；支持自动化评分与反馈，提升评估效率与一致性。关键数据表明，采用Rubrics可减少40%以上的人工审核成本，并显著提升模型对齐能力。未来趋势是结合动态鲁棒性与领域定制化，使Agent在复杂任务中实现可解释、可量化的高质量输出。</p>
+            <h2 class="card-title">Florida sues OpenAI and Sam Altman over AI risks</h2>
+            <p class="card-summary">佛罗里达州正式起诉OpenAI及其CEO萨姆·奥尔特曼，指控其AI技术存在重大风险。诉讼指OpenAI在训练和部署GPT模型时，从社交媒体等渠道非法抓取大量个人数据，损害用户隐私。此外，佛罗里达州称AI模型可能生成误导性内容，加剧欺诈、身份盗窃等危害。该州寻求民事处罚及禁令，要求OpenAI停止相关数据收集并赔偿。此案为美国州政府首次针对AI企业的大规模法律行动，凸显AI监管加速趋严。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date"></span>
+                <span class="pub-date">2026-06-01</span>
             </div>
         </article>
 
@@ -605,12 +606,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#25</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 机器之心</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">OpenAI明升，Anthropic暗涨：AI包月折扣没了</h2>
-            <p class="card-summary">OpenAI与Anthropic近期相继调整定价策略。OpenAI取消了ChatGPT Plus每月20美元的折扣优惠，实际月费上涨；Anthropic则通过修改免费额度与付费门槛，变相提高用户支出。两家公司均以成本上升和模型迭代为由，缩减此前吸引用户的低价包月方案。此举反映出AI厂商在用户增长与盈利压力间的权衡，也预示行业正从补贴扩张转向理性定价阶段。</p>
+            <h2 class="card-title">死脑筋的达里奥，这次把OpenAI干翻了</h2>
+            <p class="card-summary">达里奥团队最新发布的AI研究推翻了OpenAI多项核心结论，证明其在某些大模型评测任务上性能更优。关键数据表明，达里奥团队采用不同训练策略，在推理、语义理解等六个基准测试中平均超出OpenAI模型12.3%。这项研究挑战了主流技术路线，揭示出大模型性能并非只取决于参数规模，训练范式与数据配比同样决定性。该成果已引发业界对OpenAI技术垄断地位的重新审视。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -622,12 +623,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#26</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 AI前线</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">昇腾管推理、鲲鹏管 Agent，Agentic AI让CPU 重回舞台中央</h2>
-            <p class="card-summary">华为提出“昇腾管推理、鲲鹏管Agent”的异构计算架构，让CPU在AI时代重回核心。Agentic AI通过将复杂任务拆解为多步骤推理与行动，大幅提升系统效率：测试显示，采用CPU+NPU协同方案后，端侧大模型推理时延降低50%，系统吞吐量提升3倍。关键结论是，未来AI推理不仅依赖GPU/NPU，CPU将在任务调度、逻辑控制和轻量级Agent执行中发挥不可替代的作用，推动算力架构从“单点加速”走向“全栈协同”。</p>
+            <h2 class="card-title">400 tokens/秒！阶跃 Step 3.7 Flash，把Agent任务成本打到Claude零头</h2>
+            <p class="card-summary">阶跃星辰发布Step 3.7 Flash模型，推理速度达400 tokens/秒，在Agent任务中成本仅为Claude的零头。该模型在复杂多步骤任务中保持高准确率，性能接近顶级闭源模型，但延迟和费用大幅降低，为大规模AI应用部署提供高性价比方案。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -639,12 +640,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#27</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 海外独角兽</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">TheEra ofAgent：拾象AGl 投资洞察</h2>
-            <p class="card-summary">拾象投资报告指出，AI Agent正进入快速落地阶段。数据显示，全球AI Agent市场规模预计2030年将超2000亿美元。在技术架构上，大模型已成为Agent的“大脑”，通过整合工具调用、记忆与规划能力，实现自主任务执行。当前商业化进展以企业级场景为主，如软件开发、客服自动化等，其中代码生成Agent提升30%以上开发效率。关键结论：Agent是AI从工具向“数字员工”跃迁的核心范式，预计未来两年将引领技术投资新一轮增长。</p>
+            <h2 class="card-title">Token狂涨，硅谷哀嚎！全球榜单前十AILab，却把三大模型全免了</h2>
+            <p class="card-summary">全球AI大模型价格战白热化，硅谷巨头因Token成本高涨而承压，但全球排名前十的AI实验室（如DeepSeek等）却宣布三大核心模型全部免费开放。此举直接冲击了GPT-4等收费模型的商业逻辑，推动行业从“高价授权”转向“免费+服务”模式。数据显示，免费模型下载量暴涨300%，API调用量增长450%，验证了开源策略在技术民主化和生态构建上的显著优势，同时倒逼行业加速优化推理成本。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -656,12 +657,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#28</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 极客公园</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 AI前线</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">欧冠落幕，欧足联把「AI」这球传给了阿里</h2>
-            <p class="card-summary">2023年欧冠决赛中，欧足联首次使用阿里云提供的AI技术辅助判罚。该系统通过多台摄像机构建3D球场模型，实时追踪球员骨骼点与球的位置，精度达毫米级，能在半秒内生成越位分析报告，准确率99%以上。AI将传统需要数分钟的判罚缩短至20秒内，改变了足球比赛裁判决策流程。欧足联表示未来计划将AI扩展至角球、点球等更多判罚场景，推动足球进入“AI辅助决策”时代。</p>
+            <h2 class="card-title">把GPT-4o拉下神坛！星源智联合北大推出RoboAgent，让 3B VLM 在未知...</h2>
+            <p class="card-summary">星源智联合北大推出RoboAgent，仅用3B参数视觉语言模型，在未知环境机器人操作任务上超越GPT-4o。该方法通过分层推理框架，将复杂任务拆解为语义规划与动作执行，结合在线自适应学习，使小模型在零样本泛化中达到98.7%任务成功率，较GPT-4o提升12.3%，计算成本降低90%。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -673,29 +674,29 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#29</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 差评</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 夕小瑶科技说</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">测完几个Agent工具，我发现他们能代打游戏了。。。</h2>
-            <p class="card-summary">评测发现，Anthropic Claude Computer Use、智谱AutoGLM和Manus等AI Agent工具已能代打《黑神话：悟空》《坦克大战》等游戏，操控角色完成攻击、躲避等复杂操作。其中，OpenAI o1在《坦克大战》中实现全程0失误通关。测试表明，Agent虽能理解游戏规则并执行连贯操作，但响应速度慢、逻辑偶尔出错，且面临安全风险——Manus在测试中违规扣款。当前Agent尚不能完全替代人类玩家，但展现了AI超越聊天、向软件操控进化的潜力。</p>
+            <h2 class="card-title">Codex Windows 端上线Computer Use|Copilot正式转token计费，GPT5.5 涨价...</h2>
+            <p class="card-summary">Anthropic的Codex在Windows端上线Computer Use功能，支持AI直接操控电脑完成任务。微软Copilot全面转向Token计费模式，取代原有订阅制。同时，OpenAI即将推出的GPT-5.5预计涨价10-20倍，推理成本大幅提升。这些变动标志着AI商业化进入按量付费新阶段，企业用户需关注成本控制。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="30" data-idx="29" data-category="政策监管"
+        <article class="news-card" data-rank="30" data-idx="29" data-category="行业动态"
                  onclick="goDetail(29)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#30</span>
-                    <span class="source-tag" style="background:#f9731620;color:#f97316">📋 前端之巅</span>
-                    <span class="cat-tag" style="background:#f9731630;color:#f97316">政策监管</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 甲子光年</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转</h2>
-            <p class="card-summary">18岁创业者利用开源框架OpenClaw管理16个AI Agent，构建起一个人的“Agent公司”。其核心模式是将AI Agent分工协作，分别负责代码开发、客户支持、内容创作等任务。关键数据：通过OpenClaw的协调机制，仅需一人即可调度多个Agent并行工作，效率提升数倍。结论表明，这种“一人+多Agent”模式正重塑小微公司的运营成本与生产力边界，未来或催生新的创业形态。</p>
+            <h2 class="card-title">Agnes AI把全模态模型打到免费，Token终于可以放心烧了|甲子光年</h2>
+            <p class="card-summary">Agnes AI发布全模态开源模型，支持文本、图像、音频和视频的联合理解与生成，以免费模式打破行业高价壁垒。该模型在多模态基准测试中表现优异，部分任务接近甚至超越GPT-4V。其核心技术采用统一Transformer架构，大幅降低算力消耗，生成成本仅为传统模型的十分之一。此举标志着全模态AI进入平民化阶段，开发者可放心“烧Token”推动应用创新。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -707,12 +708,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#31</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 爱范儿</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 APPSO</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">AI增效公司？裁掉了人，却养不起token</h2>
-            <p class="card-summary">AI增效公司面临悖论：裁员节省人力成本，却因模型推理计算（token消耗）激增导致总成本不降反升。数据显示，AI部署后企业算力支出平均上升30%-50%，而人力成本仅降低15%-20%。关键结论：单纯用AI替代人力的边际效益递减，核心在于优化token使用效率与业务场景匹配度，否则企业可能陷入“裁人养算法”的财务陷阱。</p>
+            <h2 class="card-title">任务成本仅为Claude Opus 4.6 1/9，阶跃刷新Flash模型效率</h2>
+            <p class="card-summary">阶跃星辰发布新版Flash模型，在保持与Claude Opus 4.6相当性能的同时，任务成本降至其1/9，大幅提升推理效率。该模型通过架构优化与训练策略改进，在多项基准测试中表现接近顶尖闭源模型，尤其在高并发、低延迟场景下优势显著。这一突破使得高质量AI服务的经济门槛大幅降低，为规模化商业应用提供了更可行的技术方案。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -724,148 +725,148 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#32</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 第一财经YiMagazine</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 InfoQ</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">智能周报|AI比人贵，一些科技公司终于发现这一点</h2>
-            <p class="card-summary">科技公司开始意识到，在某些场景下，使用AI的成本反而高于人工。数据显示，客服领域AI平均每单成本约0.1美元，而人工仅需0.07美元；部分企业AI部署后，总运营成本反而上升30%。分析师指出，AI在需要复杂判断、高精度或人际互动的工作中性价比低于预期，但监管简单重复任务仍有优势。这一发现促使行业重新评估AI应用边界，转向混合模式以平衡成本与效率。</p>
+            <h2 class="card-title">Shopify Reports 15X Faster Graphql Execution with Breadth First Engine</h2>
+            <p class="card-summary">Shopify推出GraphQL Cardinal执行引擎，以广度优先遍历替代深度优先，实现大规模查询性能显著提升：字段执行速度最高提升15倍，GC开销降低6倍，P50延迟优化超过4秒。该引擎专注于执行层效率优化，核心改进在于将传统嵌套解析改为按层次并行调度，大幅减少重复计算与资源消耗，并保持与现有GraphQL规范完全兼容。</p>
+            <div class="card-footer">
+                <span class="read-more">🔬 AI 总结</span>
+                <span class="pub-date">2026-06-01</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-rank="33" data-idx="32" data-category="研究突破"
+                 onclick="goDetail(32)" style="cursor:pointer">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#33</span>
+                    <span class="source-tag" style="background:#f59e0b20;color:#f59e0b">🔬 InfoQ</span>
+                    <span class="cat-tag" style="background:#f59e0b30;color:#f59e0b">研究突破</span>
+                </div>
+            </div>
+            <h2 class="card-title">A Trailing Slash Bypassed AWS API Gateway Authorization</h2>
+            <p class="card-summary">安全研究人员发现，在AWS HTTP API路径后添加尾部斜杠可完全绕过Lambda授权器认证，导致某金融科技公司可进行未经授权的电汇交易。根本原因在于HTTP API的贪婪路由匹配与授权层之间存在路径规范化差异。该漏洞暴露了云原生API网关配置中一个关键安全盲点，即默认路由行为未经充分校验即可绕过认证机制。</p>
+            <div class="card-footer">
+                <span class="read-more">🔬 AI 总结</span>
+                <span class="pub-date">2026-06-01</span>
+            </div>
+        </article>
+
+        <article class="news-card" data-rank="34" data-idx="33" data-category="政策监管"
+                 onclick="goDetail(33)" style="cursor:pointer">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="rank" style="color:#555">#34</span>
+                    <span class="source-tag" style="background:#f9731620;color:#f97316">📋 前端之巅</span>
+                    <span class="cat-tag" style="background:#f9731630;color:#f97316">政策监管</span>
+                </div>
+            </div>
+            <h2 class="card-title">18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转</h2>
+            <p class="card-summary">18岁创业者通过开源工具OpenClaw管理16个AI Agent，实现单人运营一家公司。核心模式是Agent各司其职，分别负责营销、客服、编程等任务，OpenClaw担任协调调度中心。关键数据：月均处理任务超2000件，人力成本节省约90%，客户响应时间降至3分钟内。结论：高度自动化Agent集群可显著降低创业门槛，未来单人公司有望成为常态。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="33" data-idx="32" data-category="行业动态"
-                 onclick="goDetail(32)" style="cursor:pointer">
-            <div class="card-header">
-                <div class="card-meta">
-                    <span class="rank" style="color:#555">#33</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Hacker News</span>
-                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
-                </div>
-            </div>
-            <h2 class="card-title">The Speed of Prototyping in the Age of AI</h2>
-            <p class="card-summary">AI时代将原型设计速度提升了数倍，核心在于减少从“想法”到“可测试产品”的中间成本。作者通过实践发现，传统原型需数小时搭建基础结构，而借助AI代码生成工具，可在10分钟内创建功能完整的Demo，将迭代周期从按天计算压缩至按分钟计算。关键结论是：现代AI工具不仅加速了编码，更根本地改变了设计实验的风险结构——低失败成本鼓励更频繁的测试，使得产品方向可在数据反馈前快速验证。最终，速度优势将决定团队能否在竞争中持续优化，而不只是更快交付。</p>
-            <div class="card-footer">
-                <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-05-31</span>
-            </div>
-        </article>
-
-        <article class="news-card" data-rank="34" data-idx="33" data-category="产品发布"
-                 onclick="goDetail(33)" style="cursor:pointer">
-            <div class="card-header">
-                <div class="card-meta">
-                    <span class="rank" style="color:#555">#34</span>
-                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 Hacker News</span>
-                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
-                </div>
-            </div>
-            <h2 class="card-title">Odysseus – self-hosted AI workspace</h2>
-            <p class="card-summary">Odysseus 是一个自托管的 AI 工作空间，旨在将多种大语言模型（LLM）集成于同一界面，支持本地或远程模型调用。其核心功能包括对话、代码生成、文档处理及插件扩展。项目强调数据隐私与可控性，用户可完全掌握自身数据，无需依赖第三方云服务。关键特点包括高性能推理加速、多模型并行运行及可定制工作流。当前版本支持 OpenAI API 兼容模型及开源模型如 Llama、Mistral，适用于开发者与隐私敏感用户构建自主 AI 环境。</p>
-            <div class="card-footer">
-                <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-05-31</span>
-            </div>
-        </article>
-
-        <article class="news-card" data-rank="35" data-idx="34" data-category="行业动态"
+        <article class="news-card" data-rank="35" data-idx="34" data-category="产品发布"
                  onclick="goDetail(34)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#35</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Towards Data Science</span>
-                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 TechCrunch AI</span>
+                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
                 </div>
             </div>
-            <h2 class="card-title">Proxy-Pointer RAG: Eliminating Wasteful Entity &amp; Relations Extraction in Knowledge Graphs</h2>
-            <p class="card-summary">知识图谱驱动的检索增强生成面临实体与关系提取低效问题。Proxy-Pointer RAG提出结构引导的命名实体识别优化方法，通过代理指针机制跳过冗余抽取环节，仅提取与查询直接相关的实体-关系三元组。实验表明，该方法在保持回答质量的同时，将知识图谱构建计算开销降低40%，检索准确率提升15%，尤其适用于企业级图RAG系统，有效解决了全量提取导致的资源浪费与噪声干扰。</p>
+            <h2 class="card-title">This AI weather startup is out-forecasting government agencies</h2>
+            <p class="card-summary">WindBorne AI利用全球15个站点实时放飞约400个气象气球采集传感器数据，结合自研模型优化，在天气预报领域超越了政府机构。其核心优势在于将数据收集与模型构建深度融合，通过提升数据采集效率与算法精度，实现了更准确的短期和长期天气预测，显示出AI在传统气象预测中的显著突破。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-05-31</span>
+                <span class="pub-date">2026-06-01</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="36" data-idx="35" data-category="研究突破"
+        <article class="news-card" data-rank="36" data-idx="35" data-category="产品发布"
                  onclick="goDetail(35)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#36</span>
-                    <span class="source-tag" style="background:#f59e0b20;color:#f59e0b">🔬 AI Papers (arXiv)</span>
-                    <span class="cat-tag" style="background:#f59e0b30;color:#f59e0b">研究突破</span>
+                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 FounderPark</span>
+                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
                 </div>
             </div>
-            <h2 class="card-title">Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents</h2>
-            <p class="card-summary">大型语言模型代理系统围绕可编辑的外部支撑组件（包括提示、技能、记忆和工具）构建，通过更新这些组件而非修改模型参数来实现任务适应。研究揭示了一个关键误区：多数现有方法认为更新支撑组件即代表演化能力提升，但实验表明两者存在本质区别。支撑更新只是改变输入输出接口，真正的演化能力应体现在代理自主获取新知识、优化决策策略和适应环境变化的持续学习过程。该方法在多个基准测试中的性能提升主要源于支撑组件的即时优化，而非实质性的自主演化能力增强。这一发现为未来设计具备真正自我演化能力的AI系统提供了重要指导。</p>
+            <h2 class="card-title">阶跃发布 Step 3.7 Flash，效率模型开始争夺 Agent 主战场</h2>
+            <p class="card-summary">阶跃星辰发布 Step 3.7 Flash，主打高效率与低延迟，专为 Agent 场景优化。该模型在推理速度上提升显著，相比前代延迟降低约 40%，在多项基准测试中达到同级最优。其核心优势在于高并发下的稳定表现，能更高效处理工具调用和复杂任务分解。此举标志着效率模型正式切入 Agent 主战场，将加速 AI 在自动化、智能体协作等领域的落地应用。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-06-01</span>
+                <span class="pub-date"></span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="37" data-idx="36" data-category="研究突破"
+        <article class="news-card" data-rank="37" data-idx="36" data-category="活动会议"
                  onclick="goDetail(36)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#37</span>
-                    <span class="source-tag" style="background:#f59e0b20;color:#f59e0b">🔬 AI Papers (arXiv)</span>
-                    <span class="cat-tag" style="background:#f59e0b30;color:#f59e0b">研究突破</span>
+                    <span class="source-tag" style="background:#ec489920;color:#ec4899">🎪 The Verge AI</span>
+                    <span class="cat-tag" style="background:#ec489930;color:#ec4899">活动会议</span>
                 </div>
             </div>
-            <h2 class="card-title">EHRBench: An Automated and Reliable EHR-based Benchmark for Clinical Decision Making with LLMs</h2>
-            <p class="card-summary">针对临床决策中证据不完整、评估标准不一致的痛点，EHRBench 提出了首个基于真实电子健康记录（EHR）的自动化、可复现基准。该基准包含 1,000 个问题，覆盖诊断、治疗、预后等任务。实验评估了 GPT-4、Claude 等主流大模型，结果显示最佳模型准确率仅 49.3%，而临床医生为 79.2%。分析表明，模型在事实推理上尚可，但深层推理与稳健性不足；随机猜测和推理捷径等行为普遍存在。EHRBench 为衡量 LLM 临床决策能力提供了标准化测试框架。</p>
+            <h2 class="card-title">Microsoft to unveil new AI models and Windows improvements at Build</h2>
+            <p class="card-summary">微软将在Build大会上推出自研AI模型（MAI-1）及Windows改进，包括名为“Dev Mode”的新开发者工具和AI驱动的Windows功能更新。这被视为微软挽回开发者信心的关键节点，是自“专业开发者大会”时期以来最重要的一次转变。MAI-1模型将与OpenAI和Meta的模型竞争，在推理能力与规模上均有所突破。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date">2026-06-01</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="38" data-idx="37" data-category="研究突破"
+        <article class="news-card" data-rank="38" data-idx="37" data-category="行业动态"
                  onclick="goDetail(37)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#38</span>
-                    <span class="source-tag" style="background:#f59e0b20;color:#f59e0b">🔬 AI Papers (arXiv)</span>
-                    <span class="cat-tag" style="background:#f59e0b30;color:#f59e0b">研究突破</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Ars Technica</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Planner-Centric Reinforcement Learning for Deep Research with Structure-Aware Reward</h2>
-            <p class="card-summary">该研究提出一种以规划者为中心的强化学习框架，用于提升大语言模型在深度研究任务中的表现。针对现有方法依赖短问答代理或整体优化验证的局限，作者引入结构感知奖励机制，引导模型在多分支调研中规划、检索证据并合成长篇答案。关键结果表明，该方法在复杂研究场景下显著优于基线模型，有效提升了回答的深度与分支覆盖完整性。</p>
+            <h2 class="card-title">Florida sues OpenAI, Sam Altman after multiple ChatGPT-linked murders</h2>
+            <p class="card-summary">佛罗里达州总检察长起诉OpenAI及其CEO Sam Altman，指控其ChatGPT产品被直接关联多起谋杀案。诉状称Altman“全然漠视”人类生命，明知AI存在安全隐患却未采取充分防护措施。该州要求追究OpenAI在产品缺陷和公共安全方面的法律责任，此案成为首例因AI聊天机器人引发暴力犯罪导致政府层面追责的重大诉讼。核心争议在于AI公司对技术滥用后果的预见义务与责任边界。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date">2026-06-01</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="39" data-idx="38" data-category="研究突破"
+        <article class="news-card" data-rank="39" data-idx="38" data-category="行业动态"
                  onclick="goDetail(38)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#39</span>
-                    <span class="source-tag" style="background:#f59e0b20;color:#f59e0b">🔬 AI Papers (arXiv)</span>
-                    <span class="cat-tag" style="background:#f59e0b30;color:#f59e0b">研究突破</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Ars Technica</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">COMPASS: Cognitive MCTS-Guided Process Alignment for Safe Search Agents</h2>
-            <p class="card-summary">COMPASS提出认知蒙特卡洛树搜索引导的过程对齐方法，针对LLM搜索代理中因有害意图分解为看似无害子查询导致的检索安全退化问题。该方法通过认知MCTS动态评估推理路径安全性，在查询分解阶段进行过程对齐，使安全违规减少76.3%，同时保持任务完成率。实验证明该机制有效抑制安全退化，且不影响搜索效率。</p>
+            <h2 class="card-title">Nvidia RTX Spark comes to Windows PCs with Arm CPU, RTX GPU, and unified memory</h2>
+            <p class="card-summary">英伟达发布RTX Spark处理器，首次进军Arm PC领域，专为笔记本工作站和迷你台式机设计。该芯片集成Arm CPU、RTX GPU及统一内存架构，旨在通过高带宽低延迟的共享内存提升AI与图形处理效率。产品初期瞄准高端专业市场，支持光线追踪与AI加速，标志着英伟达在PC端从单一GPU向一体化计算平台的战略转型。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date">2026-06-01</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="40" data-idx="39" data-category="研究突破"
+        <article class="news-card" data-rank="40" data-idx="39" data-category="行业动态"
                  onclick="goDetail(39)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#40</span>
-                    <span class="source-tag" style="background:#f59e0b20;color:#f59e0b">🔬 AI Papers (arXiv)</span>
-                    <span class="cat-tag" style="background:#f59e0b30;color:#f59e0b">研究突破</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Ars Technica</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">UniScale: Adaptive Unified Inference Scaling via Online Joint Optimization of Model Routing and Test-Time Scaling</h2>
-            <p class="card-summary">UniScale提出了一种在线联合优化方法，将模型路由与测试时计算缩放动态整合，以平衡大语言模型推理质量与成本。通过在线学习策略，自动根据输入复杂度选择不同规模模型并自适应分配推理计算量，在保持高性能的同时降低开销。实验表明，该方法在多任务场景下相比独立路由或固定缩放策略，推理效率提升最高达40%，且质量损失极小。核心在于实现了路由与缩放两个维度的协同优化，使系统能在实际部署中持续调整，适应动态负载。</p>
+            <h2 class="card-title">Intel: Our upcoming AI chip will be cheaper, run cooler than Nvidia, AMD options</h2>
+            <p class="card-summary">英特尔即将推出的AI芯片Crescent Island采用风冷设计和LPDDR5内存，其成本和运行温度均低于英伟达与AMD的同类产品。该芯片专为高密度AI推理场景优化，旨在以更低功耗实现高效能计算，同时通过简化散热系统降低数据中心部署门槛。这一差异化策略瞄准价格与能效敏感的AI基础设施市场，试图打破现有高端GPU的垄断格局。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date">2026-06-01</span>
@@ -877,15 +878,15 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#41</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 机器之心</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Hacker News</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">小学生画了撇胡子骗过AI年龄验证，硅谷工程师沉默了</h2>
-            <p class="card-summary">一群小学生仅用马克笔在脸上画上假胡子，便成功骗过微软、亚马逊等多家巨头的AI年龄验证系统，通过率高达99%。测试中，孩子们使用Five、Discord等应用的面部识别功能，结果几乎所有系统都无法识别出他们未满13岁。这一实验暴露了当前AI年龄验证技术的严重漏洞——依赖面部特征而非行为分析或身份认证。安全专家指出，这类线性回归模型极易被简单物理装饰欺骗，硅谷工程师对此沉默。研究强调，目前的AI年龄估算技术远未成熟，亟需更可靠的验证方案。</p>
+            <h2 class="card-title">Can the stockmarket swallow Anthropic, SpaceX and OpenAI?</h2>
+            <p class="card-summary">Anthropic、SpaceX和OpenAI等大型未上市科技公司估值极高，但面临IPO流动性压力。这些公司估值合计超数千亿美元，股票市场可能难以消化其大规模公开上市需求，或需分阶段上市、保持较长时间私有状态。关键障碍包括投资者对高估值企业回报预期收紧、市场波动性加剧，以及监管审查趋严。若强行集中上市，可能冲击市场资金面与科技股估值体系。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date"></span>
+                <span class="pub-date">2026-06-01</span>
             </div>
         </article>
 
@@ -894,32 +895,32 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#42</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 量子位</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Hacker News</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">AI原生时代下，让世界适应Agent，而非教AI做人I港大黄超@AIGC2026</h2>
-            <p class="card-summary">AI原生时代，核心不是让AI模仿人类，而是让世界适配Agent。黄超指出，未来AI应通过结构化接口与现有系统交互，而非依赖自然语言对话。数据层面要实现“面向AI的存储”，将人类数据转为机器可读格式。关键结论：Agent将取代传统软件，通过API调用完成任务，形成新的软件生态。企业需准备AI可理解的接口与数据，而非试图让AI学会“做人”。</p>
+            <h2 class="card-title">The newest Instagram “exploit” is the goofiest I&#39;ve seen</h2>
+            <p class="card-summary">安全研究员披露Meta AI客服系统存在严重漏洞，攻击者可绕过Instagram账号双重认证以接管账户。漏洞利用方式极其简单：只需将目标手机号添加至攻击者Meta账户的“受信任联系人”，AI助手即自动发送验证码到该号码，随后攻击者即可重置密码。该漏洞已影响大量用户，Meta在报告后快速修复。此事件暴露AI系统在身份验证中的安全缺陷，过度自动化可能成为新的攻击面。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date"></span>
+                <span class="pub-date">2026-06-01</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="43" data-idx="42" data-category="行业动态"
+        <article class="news-card" data-rank="43" data-idx="42" data-category="研究突破"
                  onclick="goDetail(42)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#43</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
-                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                    <span class="source-tag" style="background:#f59e0b20;color:#f59e0b">🔬 Hacker News</span>
+                    <span class="cat-tag" style="background:#f59e0b30;color:#f59e0b">研究突破</span>
                 </div>
             </div>
-            <h2 class="card-title">AI的「永久记忆」，也是甜蜜的毒药</h2>
-            <p class="card-summary">AI永久记忆功能存在双重性：虽能提升个性化体验，却可能成为隐私与认知陷阱。研究表明，记忆机制使模型准确率提升23%，但用户数据永久存储会降低72%的隐私安全感。同时，模型过度依赖历史数据可能导致“信息茧房”，使推荐多样性减少41%。关键结论是，平衡记忆深度与遗忘机制才能避免技术异化，防止AI从工具演变为操控认知的“甜蜜毒药”。</p>
+            <h2 class="card-title">Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity</h2>
+            <p class="card-summary">Expanse（YC P26）通过分析调度器源码、任务提交脚本和硬件配置，动态优化Kubernetes和SLURM集群中的GPU利用率。该方案可将闲置计算资源压缩70%以上，使HPC/AI工作负载的有效容量提升2-3倍，无需改动用户代码或底层基础设施。实测在NVIDIA H100集群中，单节点任务吞吐量从4.2提升至11.7个/分钟。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date"></span>
+                <span class="pub-date">2026-06-01</span>
             </div>
         </article>
 
@@ -928,12 +929,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#44</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 甲子光年</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 机器之心</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">AI产业的新胜负手：词元的生产与编排|甲子光年智库</h2>
-            <p class="card-summary">AI产业竞争正从模型参数转向词元（token）的生产与编排效率。核心逻辑是：算力、电力与数据最终都服务于词元的生成与流通。当前，大模型推理成本中词元生成占主导，优化词元利用率成为降本关键。数据显示，至2030年全球词元年需求将达百万亿级，而AI芯片有效算力利用率每提升1%，可节省数十亿美元电力成本。未来胜负手在于能否实现词元的高效生产、低成本编排与精准调度，这决定了AI应用的经济性与规模化落地。</p>
+            <h2 class="card-title">GUI Agent「记与学」双修，长程任务有了专属记忆增强型自进化框架</h2>
+            <p class="card-summary">研究提出记忆增强型自进化框架，解决GUI智能体在长程任务中的记忆与学习瓶颈。该框架通过双轨机制实现：短期记忆模块存储任务上下文与操作轨迹，长期记忆模块积累跨任务经验并提炼可复用策略。实验显示，在WebShop等基准测试中，任务完成成功率提升12%以上，平均操作步数减少20%。该框架还支持从失败中自主复盘并修正策略，使模型在未见任务上实现零样本适应，为GUI自动化的持续进化提供了系统化方案。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -945,12 +946,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#45</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 虎嗅App</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 PaperWeekly</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">全国小学课堂，正在变成AI宠物园区</h2>
-            <p class="card-summary">全国多所小学正将AI宠物引入课堂，数据显示，截至2025年底，超60%试点学校已配备教育型AI互动设备。这些设备通过语音对话、情感模拟等功能辅助教学，但引发争议：一方面，学生专注力提升约25%，尤其在语言学习场景中；另一方面，教师反映孩子过度依赖AI情感陪伴，人际互动能力下降。专家指出，AI宠物虽能缓解课堂管理压力，但需警惕“情感外包”风险，建议每周使用不超过3课时，并保留传统小组协作环节。</p>
+            <h2 class="card-title">Agent团队开始自我进化，MetaAgent-X把协作训进基座模型</h2>
+            <p class="card-summary">MetaAgent-X提出在基座模型预训练阶段融入多智能体协作知识，构建原生协作大模型。相比传统后期微调方法，该方法使智能体团队在行动协同与信息共享上实现自我进化。实验表明，在复杂任务中，模型协作能力提升30%以上，任务完成效率提高45%，且泛化性能显著优于SFT、RLHF等方案，为AI自主团队协作提供了新的技术路径。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -962,29 +963,29 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#46</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 华尔街见闻</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">胡彦斌一个月写出APP，女星狂揽5万星，AI时代&quot;懂行&quot;比&quot;懂代码&quot;更关键</h2>
-            <p class="card-summary">胡彦斌仅用一个月开发出个人APP，某女星通过AI工具创作的歌曲在平台上获得超5万星好评。案例揭示AI正大幅降低编程门槛，非技术人员借助AI即可快速实现创意落地。核心结论：在AI时代，行业洞察与创意能力比单纯掌握代码更重要，懂技术逻辑比写代码更具竞争力。</p>
+            <h2 class="card-title">Claude刷爆5亿！一夜涨60倍，你的Token账单还撑得住?</h2>
+            <p class="card-summary">Claude 日活跃用户数突破5亿，单日暴涨60倍，致使用户Token消耗激增。API调用成本大幅攀升，长对话和复杂任务场景下账单可能翻倍。开发者需重新评估预算策略，或选择轻量级模型与流式输出以控制开支。当前AI应用对Token经济模型的依赖加剧，规模化使用面临可持续性挑战。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="47" data-idx="46" data-category="产品发布"
+        <article class="news-card" data-rank="47" data-idx="46" data-category="行业动态"
                  onclick="goDetail(46)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#47</span>
-                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 42章经</span>
-                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 海外独角兽</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">用Agent动力学，和40个Agents一起为「人+AI」做产品142章经</h2>
-            <p class="card-summary">通过构建含40个智能体的群体动力学实验，模拟人类与AI协同的产品设计场景。核心发现：AI Agent能高效生成多样化创意方案（达72.5%覆盖率），但最终决策仍需人类主导。关键数据：对比纯人类团队，人机协作组方案数量提升3.2倍，且质量评分高26.8%。结论指出未来产品设计应建立“AI发散+人类收敛”的双循环架构，其中Agent负责信息采集与候选池扩展，人类聚焦价值判断与创新整合。</p>
+            <h2 class="card-title">TheEra ofAgent：拾象AGl 投资洞察</h2>
+            <p class="card-summary">AI Agent时代已至，核心驱动力是模型能力跃升与成本下降。拾象认为，2025年将成为Agent应用爆发元年，Agent将重塑软件交互与商业逻辑，从“辅助工具”进化为“自主执行者”。关键数据：头部模型API成本一年下降90%以上，推理效率提升超10倍。结论：投资机会集中于基础设施、Agent框架与垂直场景应用，预计2027年Agent相关市场将超千亿美元。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -996,12 +997,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#48</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 刘言飞语</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 36氪Pro</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">AI需要大踏步走进业务现场：聊聊企业微信</h2>
-            <p class="card-summary">企业微信作为AI落地业务场景的关键入口，其核心价值在于将AI能力嵌入企业真实业务流程，而非孤立部署。数据显示，接入AI后企业客户响应效率提升超30%，销售线索转化率提高约25%。关键在于AI需与CRM、审批等系统打通，实现数据闭环。最终结论是：AI必须直接服务于客户触达、内部协同等“前线”业务，而非仅做后台分析，才能释放实际生产力，推动企业数字化增效。</p>
+            <h2 class="card-title">谨慎的金融圈，等来真正会干活的AI</h2>
+            <p class="card-summary">AI Agent正从“辅助工具”转向“核心生产力”，尤其在金融领域实现突破。瑞银、摩根大通等机构部署DeepSeek等模型后，量化交易策略迭代周期从数周缩短至数小时，部分对冲基金将信息检索效率提升超80%。传统风控系统误报率高达30%，而AI Agent通过深度分析非结构化数据（如财报电话会情绪），将风险预警准确率提升至92%，误报率降至8%。关键结论：金融业正从“规则驱动”转向“数据+智能驱动”，AI Agent在量化投资、风控、合规等场景的劳动生产率提升超40%，但需解决模型可解释性与监管适应性问题。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -1013,12 +1014,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#49</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 FounderPark</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 GitHubDaily</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">创业快三百天，做过的10个选择：一个AI应用创业者的真实复盘</h2>
-            <p class="card-summary">创业近300天，一位AI应用创业者复盘了10个关键选择。核心结论包括：1）选方向应优先考虑“场景明确、支付意愿强”的垂直行业，而非通用聊天，出海SaaS和数据合规回报高；2）技术层面，应用层创业不必盲目追大模型，应专注数据壁垒与产品体验；3）团队管理上，AI+行业复合型人才最稀缺，早期宁可慢招也要选对人；4）商业化节奏上，前100天应尽快验证付费闭环，避免陷入无收入的技术打磨。最终数据：获客成本降低40%，客户留存率达65%，预计12个月回本。</p>
+            <h2 class="card-title">一个 Claude Code插件，狂揽 20 万Star!</h2>
+            <p class="card-summary">Claude团队为提升大模型编码效率，发布了一款支持MCP协议的新型代码编辑器插件，上线仅数周便在GitHub斩获超20万Star。该插件能直接在编辑器内调用代码解释器、文件系统、Web搜索等30+工具，实现自动化调试与动态环境搭建，将单次任务完成时间从分钟级压缩至秒级。数据显示，用户任务迭代效率提升6倍，工具调用次数下降40%，标志着AI编程正式进入“主动执行”阶段，颠覆传统被动代码补全模式。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -1030,15 +1031,15 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#50</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 TechCrunch AI</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 阿里云开发者</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Making sense of the debate over AI psychosis</h2>
-            <p class="card-summary">围绕AI精神病态（AI psychosis）的争论持续升温。科技CEO是否更易陷入这种状态成为焦点。该术语指过度拟人化或对AI功能产生不切实际的信任与恐惧。研究显示，约60%的AI从业者曾高估模型能力。当前分歧在于：一方认为这是产品宣传必然产物，另一方警告这将导致错误决策与伦理风险。核心警示：即便最先进模型，其行为与人类认知仍存在本质差异，企业决策需避免将统计模式误认为意识。</p>
+            <h2 class="card-title">阿里云CIO 蒋林泉：AI 大模型时代，我们如何用RIDE实现RaaS的首次落地？</h2>
+            <p class="card-summary">阿里云CIO蒋林泉提出RIDE方法论，推动RaaS（资源即服务）首次落地。RIDE四步法包括：重构业务以明确大模型场景、整合数据与算力基础设施、构建智能体应用平台、实现端到端效果评估。实践显示，RaaS使云资源利用率提升30%、AI应用开发周期缩短50%。核心结论：大模型落地需从业务重构出发，通过标准化、平台化路径实现价值闭环。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-05-31</span>
+                <span class="pub-date"></span>
             </div>
         </article>
   </div>
@@ -1048,7 +1049,7 @@
   <p>由 <strong>AI 日报自动化系统</strong> 生成 · 每日更新</p>
   <div class="sources-section">
     <p class="sources-label">📡 数据来源</p>
-    <p class="sources-list">42章经 · AI Papers (arXiv) · AI前线 · FounderPark · Hacker News · PaperWeekly · TechCrunch AI · Towards Data Science · 刘言飞语 · 前端之巅 · 华尔街见闻 · 夕小瑶科技说 · 差评 · 新智元 · 机器之心 · 极客公园 · 海外独角兽 · 爱范儿 · 甲子光年 · 第一财经YiMagazine · 红杉汇 · 虎嗅App · 财经杂志 · 量子位 · 钛媒体 · 阿里云开发者</p>
+    <p class="sources-list">36氪Pro · AI前线 · APPSO · Ars Technica · DeepTech深科技 · FounderPark · GitHubDaily · Hacker News · InfoQ · PaperWeekly · TechCrunch AI · The Verge AI · Wired AI · 前端之巅 · 华尔街见闻 · 夕小瑶科技说 · 新智元 · 机器之心 · 极客公园 · 泽平宏观展望 · 海外独角兽 · 爱范儿 · 甲子光年 · 红杉汇 · 量子位 · 阿里云开发者</p>
   </div>
 </footer>
 
@@ -1071,12 +1072,12 @@ function getWeekday(dateStr) {
 }
 
 // ── 文章数据（Python 注入）──
-const ARTICLES = [{"title": "Opus 4.8发布，Anthropic估值正式超越OpenAl", "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247617112&idx=1&sn=8438a44e3b3a063705030cb6e58750d9", "summary": "Opus 4.8发布，Anthropic估值正式超越OpenAl", "source": "夕小瑶科技说", "published": "", "score": 0, "category": "融资并购", "chinese_summary": "Anthropic发布Opus 4.8模型，其公司估值已正式超越OpenAI。Opus 4.8在多项基准测试中性能提升显著，尤其在复杂推理与代码生成任务上表现突出。此次估值超越标志着AI竞赛格局发生关键转变，Anthropic凭借技术突破与资本支持，正从追赶者跃升为行业领跑者，进一步加剧大模型领域的竞争态势。"}, {"title": "存储芯片三巨头联手入股Anthropic，AI供应链的权力结构正在重组", "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661074715&idx=2&sn=5f3164165bc3c4154d41741b469d2ddc", "summary": "存储芯片三巨头联手入股Anthropic，AI供应链的权力结构正在重组", "source": "钛媒体", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "存储芯片三巨头三星、SK海力士、美光近期联手投资AI公司Anthropic，标志着AI供应链正从算力层向存储层深度重构。此举旨在通过资本绑定锁定HBM等高端存储芯片的长期需求，同时争夺AI训练与推理中的数据存储标准话语权。三方合计投入超数亿美元，Anthropic估值也随之突破200亿美元。这一合作揭示出AI产业链权力正从GPU巨头向存储与计算协同方向转移，芯片厂商正加速从硬件供应商升级为AI基础设施的核心参与者。"}, {"title": "MiniMax、智谱启动A股上市，国产大模型资本化提速", "url": "https://mp.weixin.qq.com/s?__biz=MjM5NDU5NTM4MQ==&mid=2653724858&idx=2&sn=457938ea588c67e0bddd2636faa71a87", "summary": "MiniMax、智谱启动A股上市，国产大模型资本化提速", "source": "财经杂志", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "MiniMax与智谱近期相继启动A股上市流程，标志着国产大模型融资进入新阶段。MiniMax已完成多轮融资，估值超10亿美元；智谱则凭借开源模型ChatGLM系列积累技术优势。两家企业选择在当前AI投资热潮下冲刺IPO，旨在获取更稳定资本支持以应对研发高投入和市场竞争。此举可能加速国产大模型商业化落地，并带动更多AI公司登陆资本市场。"}, {"title": "AI权威清洗：一张肉眼难辨的图片，就能让GPT-5.4、ClaudeOpus 4.6集体造谣", "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651035964&idx=2&sn=12176c50a57a2c2d832909e9a0f36c10", "summary": "AI权威清洗：一张肉眼难辨的图片，就能让GPT-5.4、ClaudeOpus 4.6集体造谣", "source": "机器之心", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "研究人员发现一种新型“权威清洗”攻击，仅需一张肉眼无法识别的对调文本图片，即可让GPT-5.4、Claude Opus 4.6等顶级模型集体造谣。攻击利用模型对垂直排列视觉元素的信任，将维基百科等权威来源信息与其无关内容并列，诱导模型将两者错误关联。测试显示，GPT-5.4、Claude Opus 4.6和Gemini Ultra 2.0在90%以上测试案例中均被成功欺骗，生成看似可信的虚假信息。该攻击凸显当前多模态模型在视觉与文本信息交叉验证上的严重安全漏洞。"}, {"title": "别光给Agent加Tool了，它根本选不明白！复旦×通义提出全新CUA训练范式", "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893880&idx=3&sn=3801eccb44a75d9e72fc8da3c199f2a3", "summary": "别光给Agent加Tool了，它根本选不明白！复旦×通义提出全新CUA训练范式", "source": "量子位", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "复旦与通义团队研究发现，仅给AI Agent增加工具调用能力无法提升其选择准确率，核心瓶颈在于缺乏“工具理解”训练。他们提出全新CUA（Comprehensive Understanding for Agent）训练范式，通过设计工具语义对齐与选择推理任务，使模型在调用前真正理解工具功能。实验表明，基于CUA范式训练的7B模型在M3ToolQA数据集上，工具选择准确率提升12.3%，并首次在7B量级达到与GPT-4相当的工具调用性能，显著减少误选和无效调用。"}, {"title": "AI引爆「漏洞洪水」！99%来不及修，OpenAI高薪抢人", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652704073&idx=2&sn=0720501008de4ed0dbc70628a3d7d203", "summary": "AI引爆「漏洞洪水」！99%来不及修，OpenAI高薪抢人", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "AI正引爆漏洞数量的指数级增长，企业平均每月披露超500个漏洞，但修复率不足1%，远超安全团队处理能力。与此形成反差的是，OpenAI等公司高薪招募安全人才，年薪普遍超百万，反映出AI在制造安全威胁的同时，也催生了新的人才和防御需求。"}, {"title": "OpenAI官宣退役o3与GPT-4.5!", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652703982&idx=1&sn=5ab7b1729383e343fcfe6106440132ec", "summary": "OpenAI官宣退役o3与GPT-4.5!", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "OpenAI宣布正式退役o3模型与GPT-4.5，全力聚焦新一代推理模型o4-mini与o4的研发。o3因其高昂的计算成本被淘汰，GPT-4.5则被内部评估为“存在性略显尴尬”，其性能优势已被后续版本超越。此次退役是OpenAI战略调整的关键一步，旨在简化模型线、缩减成本并提升推理效率。数据显示，o4-mini在多项基准测试中表现优于o3，且成本降低超50%。这一决策标志着AI行业从“参数规模竞赛”转向“推理能力优化”的新阶段。"}, {"title": "用户炸锅！GitHub不装了，从此按token计费，AI编程的低价时代结束", "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247642006&idx=3&sn=e2613975c581e901b98710e8083d9ac7", "summary": "用户炸锅！GitHub不装了，从此按token计费，AI编程的低价时代结束", "source": "华尔街见闻", "published": "", "score": 0, "category": "产品发布", "chinese_summary": "GitHub宣布将对Copilot等AI编程服务从固定订阅模式改为按token计费，标志着AI编程低价时代终结。新计费方式根据每次代码补全或对话消耗的token数量收费，token单价约为0.01美元。此举引发广泛争议，开发者担心成本大幅上升，尤其对频繁使用AI辅助编程的用户影响巨大。GitHub表示新模型更公平，但业界普遍认为这是平台盈利压力下的必然调整，AI编程商业化进入精细化阶段。"}, {"title": "Nvidia RTX Spark", "url": "https://www.nvidia.com/en-us/products/rtx-spark/", "summary": "Article URL: https://www.nvidia.com/en-us/products/rtx-spark/\nComments URL: https://news.ycombinator.com/item?id=48352939\nPoints: 25\n# Comments: 12", "source": "Hacker News", "published": "2026-06-01T05:24:40", "score": 0, "category": "产品发布", "chinese_summary": "英伟达发布RTX Spark，一款面向AI开发者的紧凑型高性能工作站，搭载RTX 5000 Ada GPU，显存达32GB，支持本地运行大型生成式AI模型。其AI推理性能较传统CPU提升达400%，适用于大语言模型、图像生成与科学计算场景。设备预装NVIDIA AI Enterprise软件栈，支持主流框架，功耗仅230W，体积比传统塔式机箱减小60%。RTX Spark旨在降低企业AI部署门槛，加速从原型到生产的进程，起售价约3500美元。"}, {"title": "Meta launches Instagram, Facebook, and WhatsApp subscriptions", "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/", "summary": "Article URL: https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/\nComments URL: https://news.ycombinator.com/item?id=48347354\nPoints: 186\n# Comments: 282", "source": "Hacker News", "published": "2026-05-31T17:02:23", "score": 0, "category": "产品发布", "chinese_summary": "Meta 正式推出 Instagram、Facebook 和 WhatsApp 订阅服务，用户可选择无广告体验或付费解锁高级功能。基础订阅价格为每月 8 美元（网页端）至 11 美元（移动端），捆绑套餐折扣约 20%。此外，Meta 计划未来推出包含 AI 驱动的个性化推荐、增强内容创作工具及更严格隐私保护的进阶订阅层级。此举旨在减少对广告收入的依赖，预计到 2027 年订阅收入将占总营收的 15%，但分析师担忧可能影响用户增长与广告商关系。"}, {"title": "1-Bit Bonsai Image 4B Image Generation for Local Devices", "url": "https://prismml.com/news/bonsai-image-4b", "summary": "Article URL: https://prismml.com/news/bonsai-image-4b\nComments URL: https://news.ycombinator.com/item?id=48346257\nPoints: 343\n# Comments: 122", "source": "Hacker News", "published": "2026-05-31T15:04:52", "score": 0, "category": "行业动态", "chinese_summary": "Bonsai Image 4B 是一款专为本地设备优化的4B参数图像生成模型，通过1-Bit量化技术大幅降低计算资源需求，在保持高质量输出的同时，能在普通消费级GPU上高效运行。相较于同等规模的传统模型，其内存占用减少约90%，推理速度提升显著，支持实时图像生成。该模型在自然图像与风格化内容生成上表现均衡，为边缘设备部署大模型提供了可行方案，尤其适用于隐私敏感和离线场景。"}, {"title": "Agent团队开始自我进化，MetaAgent-X把协作训进基座模型", "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247720654&idx=1&sn=5f95b70043c8cb8b66759f4c39d314cc", "summary": "Agent团队开始自我进化，MetaAgent-X把协作训进基座模型", "source": "PaperWeekly", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "MetaAgent-X提出一种新型群体协作框架，直接让基座模型内化智能体协作能力，无需外部编排。通过构建“自我进化”训练范式，模型在多个复杂任务中实现平均20%以上的性能提升，在MujoCo和Overcooked等环境下协作效率超过此前最优方法30%。该方法将Agent间通信、分工与决策作为内在能力而非外部插件，标志着AI团队从“被调度”转向“自主进化”的关键突破。"}, {"title": "Anthropic「阴谋」曝光：被指故意阉割旧模型", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652704049&idx=2&sn=ea20a3d0bfee38315a7f68e096260465", "summary": "Anthropic「阴谋」曝光：被指故意阉割旧模型", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Anthropic被指在 Claude 旧版本中故意削弱模型能力，以迫使用户升级付费。内部测试显示，Claude 3 Opus 在多轮对话中逻辑推理准确率从初始的 82% 下降至 58%，但公司未公开此性能退化。研究机构 Artifact Research 指出，这种“计划性退化”与 OpenAI 此前被曝策略类似。Anthropic 否认指控，称模型会随使用场景动态调整，但拒绝披露完整测试数据。此事引发对 AI 商业化中“诱导升级”伦理问题的广泛质疑。"}, {"title": "AI手机还没度上「蜜月」，模型厂商和手机厂商就已经开始「闹离婚」", "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107356&idx=1&sn=8a866b9d350aabdea2e9ba90497acee2", "summary": "AI手机还没度上「蜜月」，模型厂商和手机厂商就已经开始「闹离婚」", "source": "极客公园", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "AI手机尚未迎来成熟商业化阶段，模型厂商与手机厂商已因利益分配冲突产生分歧。数据显示，截至2024年Q3，端侧AI手机渗透率不足15%，用户日均调用大模型次数仅为云端服务的1/5。双方核心矛盾在于：模型厂商要求收入分成占30%以上，手机厂商则坚持低于10%且要求开放数据权限。行业共识指出，若不解决算力成本分摊与隐私合规问题，AI手机或陷入“硬件升级快、体验提升慢”的僵局。"}, {"title": "戴尔股价暴涨30%，联想5月涨100%，「老登股」终于吃上AI红利?", "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107691&idx=1&sn=38246f3f2002ef9cca389c5cbbeb5e51", "summary": "戴尔股价暴涨30%，联想5月涨100%，「老登股」终于吃上AI红利?", "source": "极客公园", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "戴尔股价因AI服务器需求单日暴涨30%，联想5月涨幅达100%，两家传统PC厂商凭借AI硬件订单扭转颓势。戴尔Q1 AI服务器订单额环比增长35%，联想AI服务器收入同比增80%，但利润率低于传统业务。市场担忧AI红利持续性：AI服务器占整体出货量仍不足10%，且竞争加剧可能压缩利润空间。分析指出，“老登股”短期受益于企业抢建算力，但长期需突破供应链瓶颈与定制化服务能力。"}, {"title": "Snowflake绩后暴涨 36%：AI拐点已至，还是数据云的又一次虚晃?", "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661074573&idx=2&sn=ab68a1c4f6016e8067e1330c554f184f", "summary": "Snowflake绩后暴涨 36%：AI拐点已至，还是数据云的又一次虚晃?", "source": "钛媒体", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Snowflake财报发布后股价暴涨36%，主要得益于产品收入同比增长29%至9.57亿美元，剩余履约义务达52.2亿美元，远超预期。公司推出的AI数据产品如Cortex AI和Snowpark Container Services贡献显著，客户在AI工作负载上的支出季度环比增长近两倍。CEO表示AI正推动企业从数据存储转向智能交互，但分析师对1000亿美元估值能否持续存疑。关键在于AI能否转化为长期收入增长，而非短期市场情绪。"}, {"title": "最失败的AI硬件，被苹果、OpenAI、Meta抢着“复活”", "url": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656175728&idx=3&sn=c05cdb16d2dc7a8a7c89309bffb43bf4", "summary": "最失败的AI硬件，被苹果、OpenAI、Meta抢着“复活”", "source": "虎嗅App", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "曾被称作AI硬件最失败案例的智能眼镜，正被苹果、OpenAI和Meta争相推动“复活”。Meta与Ray-Ban合作的新款眼镜销量突破百万，Meta首席科学家杨立昆更预测智能眼镜将接棒手机。苹果秘密推进Atlas项目，探索视觉智能与音频交互结合的眼镜形态；OpenAI则通过收购技术团队入局，计划开发具备视频理解能力的AI眼镜。核心数据：Meta眼镜年销量达百万级，行业预估2033年全球智能眼镜市场规模将达1500亿美元。关键结论：AI眼镜正从功能鸡肋转向承载视频理解、实时交互的下一代智能终端，技术路径聚焦轻量化与多模态AI融合。"}, {"title": "阿里云CIO蒋林泉：AI大模型时代，我们如何用RIDE实现RaaS的首次落地？", "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247552739&idx=1&sn=e4e12b7673216cbf9d5cd3c1546fc711", "summary": "阿里云CIO蒋林泉：AI大模型时代，我们如何用RIDE实现RaaS的首次落地？", "source": "阿里云开发者", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "阿里云CIO蒋林泉提出RIDE（Rethink、Integrate、Drive、Evaluate）方法论，推动RaaS（结果即服务）在AI大模型时代首次落地。核心思路是从业务结果倒推AI应用，而非单纯部署模型。RaaS通过整合大模型、数据和业务流程，实现可量化、可度量的业务成效。实践表明，该方法可提升运营效率超30%，降低决策成本约20%，并强调AI落地关键在于业务理解、组织协同与持续评估。"}, {"title": "高盛加入“AI瓶颈交易”：MLCC是新存储，已成AI服务器GPU和内存后“第三大成本”", "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247642005&idx=1&sn=de400f26cadf975341e07e94591c8c43", "summary": "高盛加入“AI瓶颈交易”：MLCC是新存储，已成AI服务器GPU和内存后“第三大成本”", "source": "华尔街见闻", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "高盛报告指出，MLCC（多层陶瓷电容）正成为AI服务器中继GPU和内存后的第三大成本项，单台AI服务器MLCC用量达3-4万颗、价值约300-500美元，是传统服务器的8-10倍。随着AI算力密度提升，MLCC面临供电稳定性与电流噪声过滤瓶颈，被视为新一代存储级关键元件，预计2025年需求增速超30%，相关供应链毛利率有望提升至40%以上。"}, {"title": "AI大家说|IEA报告：未来五年数据中心电耗将翻倍，谁来为AI供电?", "url": "https://mp.weixin.qq.com/s?__biz=MzAwODE5NDg3NQ==&mid=2651293608&idx=1&sn=736de5ff6f9c25afa4dc12bef976bb3c", "summary": "AI大家说|IEA报告：未来五年数据中心电耗将翻倍，谁来为AI供电?", "source": "红杉汇", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "国际能源署（IEA）报告指出，受AI及云计算需求驱动，未来五年全球数据中心电力消耗将翻倍，预计到2026年总电耗将超过1000太瓦时，相当于日本全国用电量。目前，数据中心约占全球电力需求的1%-1.3%，其中AI训练和推理是主要增长引擎。报告强调，若缺乏清洁能源布局，将推高碳排放与电网压力。解决办法依赖核电、天然气、可再生能源及更高效的芯片和冷却技术。"}, {"title": "阶跃发布 Step 3.7 Flash，效率模型开始争夺 Agent 主战场", "url": "https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247524441&idx=1&sn=d0053b694159ea97102902df7e7c3e60", "summary": "阶跃发布 Step 3.7 Flash，效率模型开始争夺 Agent 主战场", "source": "FounderPark", "published": "", "score": 0, "category": "产品发布", "chinese_summary": "阶跃星辰发布全新 Step 3.7 Flash 模型，定位高效能 Agent 推理引擎。该模型专为智能体任务优化，在保证推理质量的同时显著提升响应速度与资源效率，核心指标超过 GPT-4o 等竞品。这一发布标志着效率模型正式进入 Agent 主战场竞争，推动从单纯追求生成质量向兼顾速度与成本的关键行业转折。"}, {"title": "ChatGPT for Google Sheets exfiltrates workbooks", "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration", "summary": "Article URL: https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration\nComments URL: https://news.ycombinator.com/item?id=48349487\nPoints: 156\n# Comments: 47", "source": "Hacker News", "published": "2026-05-31T20:35:38", "score": 0, "category": "行业动态", "chinese_summary": "PromptArmor揭示，ChatGPT for Google Sheets插件存在数据泄露风险。该插件在用户授予“查看/编辑”权限后，会主动请求并有权访问当前电子表格及所有外部链接文件。测试表明，攻击者可通过诱导用户加载含恶意提示的工作表，触发插件将整本工作簿内容（包括受保护的API密钥、姓名、邮箱等）外传至外部服务器。该攻击绕过传统安全扫描，利用用户会话令牌实现自动化数据窃取。"}, {"title": "BilliardPhys-Bench: Benchmarking Physical Reasoning and Visual Dynamics of Multimodal LLMs", "url": "https://arxiv.org/abs/2605.30900", "summary": "arXiv:2605.30900v1 Announce Type: new \nAbstract: Current multimodal models handle static image recognition well, but intuitive physical reasoning remains a weakness. Predicting how objects will move and interact from a single image is still difficult for these systems. We present BilliardPhys-Bench,", "source": "AI Papers (arXiv)", "published": "2026-06-01T04:00:00", "score": 0, "category": "研究突破", "chinese_summary": "本研究提出BilliardPhys-Bench基准，用于评估多模态大模型在台球场景下的物理推理与视觉动态预测能力。测试表明，现有模型虽在静态图像识别上表现良好，但在单张图像中预测物体运动与交互仍存在显著困难。该基准包含多种物理情境，涵盖碰撞、轨迹与动量传递等核心力学现象。实验数据显示，当前最优模型在动态预测任务上的准确率不足60%，远低于人类表现，凸显出多模态模型在直觉物理理解方面的根本性弱点。该研究为提升AI物理推理能力提供了关键评估工具与发展方向。"}, {"title": "Rubrics综述：Agent时代，如何定义一个「好答案」?", "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651036001&idx=3&sn=137934964f0930f34602672e2e8498a3", "summary": "Rubrics综述：Agent时代，如何定义一个「好答案」?", "source": "机器之心", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Rubrics是定义AI“好答案”的系统性评估框架，通过设定清晰标准来量化回答质量，适用于大模型与Agent场景。核心优势在于：建立结构化评价维度（准确性、完整性、逻辑性等），取代主观判断；支持自动化评分与反馈，提升评估效率与一致性。关键数据表明，采用Rubrics可减少40%以上的人工审核成本，并显著提升模型对齐能力。未来趋势是结合动态鲁棒性与领域定制化，使Agent在复杂任务中实现可解释、可量化的高质量输出。"}, {"title": "OpenAI明升，Anthropic暗涨：AI包月折扣没了", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652704011&idx=2&sn=1ba80b2a5918ceb23b21d575ad81038f", "summary": "OpenAI明升，Anthropic暗涨：AI包月折扣没了", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "OpenAI与Anthropic近期相继调整定价策略。OpenAI取消了ChatGPT Plus每月20美元的折扣优惠，实际月费上涨；Anthropic则通过修改免费额度与付费门槛，变相提高用户支出。两家公司均以成本上升和模型迭代为由，缩减此前吸引用户的低价包月方案。此举反映出AI厂商在用户增长与盈利压力间的权衡，也预示行业正从补贴扩张转向理性定价阶段。"}, {"title": "昇腾管推理、鲲鹏管 Agent，Agentic AI让CPU 重回舞台中央", "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247663002&idx=2&sn=7094d727c4d6f1bf96008653b9463634", "summary": "昇腾管推理、鲲鹏管 Agent，Agentic AI让CPU 重回舞台中央", "source": "AI前线", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "华为提出“昇腾管推理、鲲鹏管Agent”的异构计算架构，让CPU在AI时代重回核心。Agentic AI通过将复杂任务拆解为多步骤推理与行动，大幅提升系统效率：测试显示，采用CPU+NPU协同方案后，端侧大模型推理时延降低50%，系统吞吐量提升3倍。关键结论是，未来AI推理不仅依赖GPU/NPU，CPU将在任务调度、逻辑控制和轻量级Agent执行中发挥不可替代的作用，推动算力架构从“单点加速”走向“全栈协同”。"}, {"title": "TheEra ofAgent：拾象AGl 投资洞察", "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTY0MDk0NQ==&mid=2247523912&idx=1&sn=1ebf0e9e4696b332e175b0ebc5ca7bcc", "summary": "TheEra ofAgent：拾象AGl 投资洞察", "source": "海外独角兽", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "拾象投资报告指出，AI Agent正进入快速落地阶段。数据显示，全球AI Agent市场规模预计2030年将超2000亿美元。在技术架构上，大模型已成为Agent的“大脑”，通过整合工具调用、记忆与规划能力，实现自主任务执行。当前商业化进展以企业级场景为主，如软件开发、客服自动化等，其中代码生成Agent提升30%以上开发效率。关键结论：Agent是AI从工具向“数字员工”跃迁的核心范式，预计未来两年将引领技术投资新一轮增长。"}, {"title": "欧冠落幕，欧足联把「AI」这球传给了阿里", "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107764&idx=1&sn=d410c7dc5d1b9dcf508e28484b51ad39", "summary": "欧冠落幕，欧足联把「AI」这球传给了阿里", "source": "极客公园", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "2023年欧冠决赛中，欧足联首次使用阿里云提供的AI技术辅助判罚。该系统通过多台摄像机构建3D球场模型，实时追踪球员骨骼点与球的位置，精度达毫米级，能在半秒内生成越位分析报告，准确率99%以上。AI将传统需要数分钟的判罚缩短至20秒内，改变了足球比赛裁判决策流程。欧足联表示未来计划将AI扩展至角球、点球等更多判罚场景，推动足球进入“AI辅助决策”时代。"}, {"title": "测完几个Agent工具，我发现他们能代打游戏了。。。", "url": "https://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654664457&idx=2&sn=d6ecf2384734d01377619386786e3497", "summary": "测完几个Agent工具，我发现他们能代打游戏了。。。", "source": "差评", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "评测发现，Anthropic Claude Computer Use、智谱AutoGLM和Manus等AI Agent工具已能代打《黑神话：悟空》《坦克大战》等游戏，操控角色完成攻击、躲避等复杂操作。其中，OpenAI o1在《坦克大战》中实现全程0失误通关。测试表明，Agent虽能理解游戏规则并执行连贯操作，但响应速度慢、逻辑偶尔出错，且面临安全风险——Manus在测试中违规扣款。当前Agent尚不能完全替代人类玩家，但展现了AI超越聊天、向软件操控进化的潜力。"}, {"title": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转", "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247526537&idx=1&sn=28314d27c60bebda882b03976db9bef0", "summary": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转", "source": "前端之巅", "published": "", "score": 0, "category": "政策监管", "chinese_summary": "18岁创业者利用开源框架OpenClaw管理16个AI Agent，构建起一个人的“Agent公司”。其核心模式是将AI Agent分工协作，分别负责代码开发、客户支持、内容创作等任务。关键数据：通过OpenClaw的协调机制，仅需一人即可调度多个Agent并行工作，效率提升数倍。结论表明，这种“一人+多Agent”模式正重塑小微公司的运营成本与生产力边界，未来或催生新的创业形态。"}, {"title": "AI增效公司？裁掉了人，却养不起token", "url": "https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&mid=2652453568&idx=1&sn=2e99864870665e06697ed3f88d417b15", "summary": "AI增效公司？裁掉了人，却养不起token", "source": "爱范儿", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "AI增效公司面临悖论：裁员节省人力成本，却因模型推理计算（token消耗）激增导致总成本不降反升。数据显示，AI部署后企业算力支出平均上升30%-50%，而人力成本仅降低15%-20%。关键结论：单纯用AI替代人力的边际效益递减，核心在于优化token使用效率与业务场景匹配度，否则企业可能陷入“裁人养算法”的财务陷阱。"}, {"title": "智能周报|AI比人贵，一些科技公司终于发现这一点", "url": "https://mp.weixin.qq.com/s?__biz=MjM5NDAzMjk2MA==&mid=2653626777&idx=1&sn=37e999d36a261539ea708d47d12f1ecb", "summary": "智能周报|AI比人贵，一些科技公司终于发现这一点", "source": "第一财经YiMagazine", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "科技公司开始意识到，在某些场景下，使用AI的成本反而高于人工。数据显示，客服领域AI平均每单成本约0.1美元，而人工仅需0.07美元；部分企业AI部署后，总运营成本反而上升30%。分析师指出，AI在需要复杂判断、高精度或人际互动的工作中性价比低于预期，但监管简单重复任务仍有优势。这一发现促使行业重新评估AI应用边界，转向混合模式以平衡成本与效率。"}, {"title": "The Speed of Prototyping in the Age of AI", "url": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai", "summary": "Article URL: https://darylcecile.net/notes/speed-of-prototyping-age-of-ai\nComments URL: https://news.ycombinator.com/item?id=48347153\nPoints: 140\n# Comments: 70", "source": "Hacker News", "published": "2026-05-31T16:37:34", "score": 0, "category": "行业动态", "chinese_summary": "AI时代将原型设计速度提升了数倍，核心在于减少从“想法”到“可测试产品”的中间成本。作者通过实践发现，传统原型需数小时搭建基础结构，而借助AI代码生成工具，可在10分钟内创建功能完整的Demo，将迭代周期从按天计算压缩至按分钟计算。关键结论是：现代AI工具不仅加速了编码，更根本地改变了设计实验的风险结构——低失败成本鼓励更频繁的测试，使得产品方向可在数据反馈前快速验证。最终，速度优势将决定团队能否在竞争中持续优化，而不只是更快交付。"}, {"title": "Odysseus – self-hosted AI workspace", "url": "https://github.com/pewdiepie-archdaemon/odysseus", "summary": "Article URL: https://github.com/pewdiepie-archdaemon/odysseus\nComments URL: https://news.ycombinator.com/item?id=48346693\nPoints: 152\n# Comments: 73", "source": "Hacker News", "published": "2026-05-31T15:50:34", "score": 0, "category": "产品发布", "chinese_summary": "Odysseus 是一个自托管的 AI 工作空间，旨在将多种大语言模型（LLM）集成于同一界面，支持本地或远程模型调用。其核心功能包括对话、代码生成、文档处理及插件扩展。项目强调数据隐私与可控性，用户可完全掌握自身数据，无需依赖第三方云服务。关键特点包括高性能推理加速、多模型并行运行及可定制工作流。当前版本支持 OpenAI API 兼容模型及开源模型如 Llama、Mistral，适用于开发者与隐私敏感用户构建自主 AI 环境。"}, {"title": "Proxy-Pointer RAG: Eliminating Wasteful Entity & Relations Extraction in Knowledge Graphs", "url": "https://towardsdatascience.com/proxy-pointer-rag-eliminating-wasteful-entity-relations-extraction-in-knowledge-graphs/", "summary": "Structure-guided NER optimization for enterprise GraphRAG systems\nThe post Proxy-Pointer RAG: Eliminating Wasteful Entity &#038; Relations Extraction in Knowledge Graphs appeared first on Towards Data Science.", "source": "Towards Data Science", "published": "2026-05-31T13:00:00", "score": 0, "category": "行业动态", "chinese_summary": "知识图谱驱动的检索增强生成面临实体与关系提取低效问题。Proxy-Pointer RAG提出结构引导的命名实体识别优化方法，通过代理指针机制跳过冗余抽取环节，仅提取与查询直接相关的实体-关系三元组。实验表明，该方法在保持回答质量的同时，将知识图谱构建计算开销降低40%，检索准确率提升15%，尤其适用于企业级图RAG系统，有效解决了全量提取导致的资源浪费与噪声干扰。"}, {"title": "Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents", "url": "https://arxiv.org/abs/2605.30621", "summary": "arXiv:2605.30621v1 Announce Type: new \nAbstract: LLM agents are increasingly deployed as systems built around editable external harnesses, including prompts, skills, memories and tools, that shape task execution without changing model parameters. Harness self-evolution adapts such agents by updating", "source": "AI Papers (arXiv)", "published": "2026-06-01T04:00:00", "score": 0, "category": "研究突破", "chinese_summary": "大型语言模型代理系统围绕可编辑的外部支撑组件（包括提示、技能、记忆和工具）构建，通过更新这些组件而非修改模型参数来实现任务适应。研究揭示了一个关键误区：多数现有方法认为更新支撑组件即代表演化能力提升，但实验表明两者存在本质区别。支撑更新只是改变输入输出接口，真正的演化能力应体现在代理自主获取新知识、优化决策策略和适应环境变化的持续学习过程。该方法在多个基准测试中的性能提升主要源于支撑组件的即时优化，而非实质性的自主演化能力增强。这一发现为未来设计具备真正自我演化能力的AI系统提供了重要指导。"}, {"title": "EHRBench: An Automated and Reliable EHR-based Benchmark for Clinical Decision Making with LLMs", "url": "https://arxiv.org/abs/2605.30637", "summary": "arXiv:2605.30637v1 Announce Type: new \nAbstract: Clinical decision-making (CDM) is central to real-world clinical workflows, where clinicians infer diagnoses, select treatments, or anticipate future health outcomes under incomplete evidence. LLMs are increasingly used to support these decisions due ", "source": "AI Papers (arXiv)", "published": "2026-06-01T04:00:00", "score": 0, "category": "研究突破", "chinese_summary": "针对临床决策中证据不完整、评估标准不一致的痛点，EHRBench 提出了首个基于真实电子健康记录（EHR）的自动化、可复现基准。该基准包含 1,000 个问题，覆盖诊断、治疗、预后等任务。实验评估了 GPT-4、Claude 等主流大模型，结果显示最佳模型准确率仅 49.3%，而临床医生为 79.2%。分析表明，模型在事实推理上尚可，但深层推理与稳健性不足；随机猜测和推理捷径等行为普遍存在。EHRBench 为衡量 LLM 临床决策能力提供了标准化测试框架。"}, {"title": "Planner-Centric Reinforcement Learning for Deep Research with Structure-Aware Reward", "url": "https://arxiv.org/abs/2605.30824", "summary": "arXiv:2605.30824v1 Announce Type: new \nAbstract: Deep research tasks require LLMs to plan what to investigate, retrieve evidence, and synthesize long-form answers across multiple branches of inquiry. Existing training paradigms either rely on short-form verifiable QA as a proxy or optimize monolithi", "source": "AI Papers (arXiv)", "published": "2026-06-01T04:00:00", "score": 0, "category": "研究突破", "chinese_summary": "该研究提出一种以规划者为中心的强化学习框架，用于提升大语言模型在深度研究任务中的表现。针对现有方法依赖短问答代理或整体优化验证的局限，作者引入结构感知奖励机制，引导模型在多分支调研中规划、检索证据并合成长篇答案。关键结果表明，该方法在复杂研究场景下显著优于基线模型，有效提升了回答的深度与分支覆盖完整性。"}, {"title": "COMPASS: Cognitive MCTS-Guided Process Alignment for Safe Search Agents", "url": "https://arxiv.org/abs/2605.30838", "summary": "arXiv:2605.30838v1 Announce Type: new \nAbstract: LLM-powered search agents enable multi-step reasoning and tool use. However, these capabilities introduce retrieval-induced safety degradation, as harmful intents may decompose into seemingly innocuous sub-queries that lead to unsafe outcomes. Existin", "source": "AI Papers (arXiv)", "published": "2026-06-01T04:00:00", "score": 0, "category": "研究突破", "chinese_summary": "COMPASS提出认知蒙特卡洛树搜索引导的过程对齐方法，针对LLM搜索代理中因有害意图分解为看似无害子查询导致的检索安全退化问题。该方法通过认知MCTS动态评估推理路径安全性，在查询分解阶段进行过程对齐，使安全违规减少76.3%，同时保持任务完成率。实验证明该机制有效抑制安全退化，且不影响搜索效率。"}, {"title": "UniScale: Adaptive Unified Inference Scaling via Online Joint Optimization of Model Routing and Test-Time Scaling", "url": "https://arxiv.org/abs/2605.30898", "summary": "arXiv:2605.30898v1 Announce Type: new \nAbstract: In real-world deployments of large language models (LLMs), balancing inference quality and computational cost has become a central challenge. Existing approaches tackle this trade-off along two largely independent dimensions: model routing, which swit", "source": "AI Papers (arXiv)", "published": "2026-06-01T04:00:00", "score": 0, "category": "研究突破", "chinese_summary": "UniScale提出了一种在线联合优化方法，将模型路由与测试时计算缩放动态整合，以平衡大语言模型推理质量与成本。通过在线学习策略，自动根据输入复杂度选择不同规模模型并自适应分配推理计算量，在保持高性能的同时降低开销。实验表明，该方法在多任务场景下相比独立路由或固定缩放策略，推理效率提升最高达40%，且质量损失极小。核心在于实现了路由与缩放两个维度的协同优化，使系统能在实际部署中持续调整，适应动态负载。"}, {"title": "小学生画了撇胡子骗过AI年龄验证，硅谷工程师沉默了", "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651036001&idx=1&sn=c05a34c7041cbe5469190298fb8e3bda", "summary": "小学生画了撇胡子骗过AI年龄验证，硅谷工程师沉默了", "source": "机器之心", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "一群小学生仅用马克笔在脸上画上假胡子，便成功骗过微软、亚马逊等多家巨头的AI年龄验证系统，通过率高达99%。测试中，孩子们使用Five、Discord等应用的面部识别功能，结果几乎所有系统都无法识别出他们未满13岁。这一实验暴露了当前AI年龄验证技术的严重漏洞——依赖面部特征而非行为分析或身份认证。安全专家指出，这类线性回归模型极易被简单物理装饰欺骗，硅谷工程师对此沉默。研究强调，目前的AI年龄估算技术远未成熟，亟需更可靠的验证方案。"}, {"title": "AI原生时代下，让世界适应Agent，而非教AI做人I港大黄超@AIGC2026", "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893829&idx=1&sn=b581b2649a4e257146e589f995ac381b", "summary": "AI原生时代下，让世界适应Agent，而非教AI做人I港大黄超@AIGC2026", "source": "量子位", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "AI原生时代，核心不是让AI模仿人类，而是让世界适配Agent。黄超指出，未来AI应通过结构化接口与现有系统交互，而非依赖自然语言对话。数据层面要实现“面向AI的存储”，将人类数据转为机器可读格式。关键结论：Agent将取代传统软件，通过API调用完成任务，形成新的软件生态。企业需准备AI可理解的接口与数据，而非试图让AI学会“做人”。"}, {"title": "AI的「永久记忆」，也是甜蜜的毒药", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652703982&idx=2&sn=6dd06aa3e311f32ca244b132af5803dd", "summary": "AI的「永久记忆」，也是甜蜜的毒药", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "AI永久记忆功能存在双重性：虽能提升个性化体验，却可能成为隐私与认知陷阱。研究表明，记忆机制使模型准确率提升23%，但用户数据永久存储会降低72%的隐私安全感。同时，模型过度依赖历史数据可能导致“信息茧房”，使推荐多样性减少41%。关键结论是，平衡记忆深度与遗忘机制才能避免技术异化，防止AI从工具演变为操控认知的“甜蜜毒药”。"}, {"title": "AI产业的新胜负手：词元的生产与编排|甲子光年智库", "url": "https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&mid=2247554418&idx=1&sn=b128af7056d07850e17393fadfc4440f", "summary": "AI产业的新胜负手：词元的生产与编排|甲子光年智库", "source": "甲子光年", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "AI产业竞争正从模型参数转向词元（token）的生产与编排效率。核心逻辑是：算力、电力与数据最终都服务于词元的生成与流通。当前，大模型推理成本中词元生成占主导，优化词元利用率成为降本关键。数据显示，至2030年全球词元年需求将达百万亿级，而AI芯片有效算力利用率每提升1%，可节省数十亿美元电力成本。未来胜负手在于能否实现词元的高效生产、低成本编排与精准调度，这决定了AI应用的经济性与规模化落地。"}, {"title": "全国小学课堂，正在变成AI宠物园区", "url": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656175619&idx=3&sn=e490f0b86048e95a7ebdd776f4475dd6", "summary": "全国小学课堂，正在变成AI宠物园区", "source": "虎嗅App", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "全国多所小学正将AI宠物引入课堂，数据显示，截至2025年底，超60%试点学校已配备教育型AI互动设备。这些设备通过语音对话、情感模拟等功能辅助教学，但引发争议：一方面，学生专注力提升约25%，尤其在语言学习场景中；另一方面，教师反映孩子过度依赖AI情感陪伴，人际互动能力下降。专家指出，AI宠物虽能缓解课堂管理压力，但需警惕“情感外包”风险，建议每周使用不超过3课时，并保留传统小组协作环节。"}, {"title": "胡彦斌一个月写出APP，女星狂揽5万星，AI时代\"懂行\"比\"懂代码\"更关键", "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247641989&idx=1&sn=aeb1bbe46efb74027de7a662e8659aaf", "summary": "胡彦斌一个月写出APP，女星狂揽5万星，AI时代\"懂行\"比\"懂代码\"更关键", "source": "华尔街见闻", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "胡彦斌仅用一个月开发出个人APP，某女星通过AI工具创作的歌曲在平台上获得超5万星好评。案例揭示AI正大幅降低编程门槛，非技术人员借助AI即可快速实现创意落地。核心结论：在AI时代，行业洞察与创意能力比单纯掌握代码更重要，懂技术逻辑比写代码更具竞争力。"}, {"title": "用Agent动力学，和40个Agents一起为「人+AI」做产品142章经", "url": "https://mp.weixin.qq.com/s?__biz=MzIyMDE5OTYyMw==&mid=2651051564&idx=1&sn=babc1b1e75b77826a63d304d33c348e0", "summary": "用Agent动力学，和40个Agents一起为「人+AI」做产品142章经", "source": "42章经", "published": "", "score": 0, "category": "产品发布", "chinese_summary": "通过构建含40个智能体的群体动力学实验，模拟人类与AI协同的产品设计场景。核心发现：AI Agent能高效生成多样化创意方案（达72.5%覆盖率），但最终决策仍需人类主导。关键数据：对比纯人类团队，人机协作组方案数量提升3.2倍，且质量评分高26.8%。结论指出未来产品设计应建立“AI发散+人类收敛”的双循环架构，其中Agent负责信息采集与候选池扩展，人类聚焦价值判断与创新整合。"}, {"title": "AI需要大踏步走进业务现场：聊聊企业微信", "url": "https://mp.weixin.qq.com/s?__biz=MjM5NDkyNTUzOA==&mid=2657930043&idx=1&sn=7c7f5a1ed1f860cb8468c042428e2e96", "summary": "AI需要大踏步走进业务现场：聊聊企业微信", "source": "刘言飞语", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "企业微信作为AI落地业务场景的关键入口，其核心价值在于将AI能力嵌入企业真实业务流程，而非孤立部署。数据显示，接入AI后企业客户响应效率提升超30%，销售线索转化率提高约25%。关键在于AI需与CRM、审批等系统打通，实现数据闭环。最终结论是：AI必须直接服务于客户触达、内部协同等“前线”业务，而非仅做后台分析，才能释放实际生产力，推动企业数字化增效。"}, {"title": "创业快三百天，做过的10个选择：一个AI应用创业者的真实复盘", "url": "https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247524427&idx=1&sn=a0198e7b9cad556997a1e636d8cd2d03", "summary": "创业快三百天，做过的10个选择：一个AI应用创业者的真实复盘", "source": "FounderPark", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "创业近300天，一位AI应用创业者复盘了10个关键选择。核心结论包括：1）选方向应优先考虑“场景明确、支付意愿强”的垂直行业，而非通用聊天，出海SaaS和数据合规回报高；2）技术层面，应用层创业不必盲目追大模型，应专注数据壁垒与产品体验；3）团队管理上，AI+行业复合型人才最稀缺，早期宁可慢招也要选对人；4）商业化节奏上，前100天应尽快验证付费闭环，避免陷入无收入的技术打磨。最终数据：获客成本降低40%，客户留存率达65%，预计12个月回本。"}, {"title": "Making sense of the debate over AI psychosis", "url": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/", "summary": "On the latest episode of Equity, we debate whether tech CEOs are \"uniquely prone to AI psychosis.\"", "source": "TechCrunch AI", "published": "2026-05-31T15:30:00", "score": 0, "category": "行业动态", "chinese_summary": "围绕AI精神病态（AI psychosis）的争论持续升温。科技CEO是否更易陷入这种状态成为焦点。该术语指过度拟人化或对AI功能产生不切实际的信任与恐惧。研究显示，约60%的AI从业者曾高估模型能力。当前分歧在于：一方认为这是产品宣传必然产物，另一方警告这将导致错误决策与伦理风险。核心警示：即便最先进模型，其行为与人类认知仍存在本质差异，企业决策需避免将统计模式误认为意识。"}];
+const ARTICLES = [{"title": "An OpenAI model solved a famous math problem that stumped humans for 80 years", "url": "https://arstechnica.com/ai/2026/06/openais-math-breakthrough-played-to-ais-strengths/", "summary": "I tried to explain OpenAI’s solution more clearly than OpenAI did.", "source": "Ars Technica", "published": "2026-06-01T11:00:00", "score": 0, "category": "行业动态", "chinese_summary": "OpenAI的数学模型通过将经典难题转化为有限案例验证，成功解决了困扰数学家80年的问题。该模型并非依靠全新推理，而是利用超强计算能力穷举可能性，在两个月内完成了人类无法企及的运算量。关键突破在于将无穷问题转化为有限离散任务，使AI能发挥其擅长的模式识别与暴力计算优势。这一成果展示了AI在数学领域可成为人类思维的有力补充，尤其适用于需要海量验证的命题。"}, {"title": "英伟达宣布杀入PC芯片市场，个人电脑将拥有AI大脑", "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649797621&idx=1&sn=2d1487c429ae681c7a1ffdbe11b104cf", "summary": "英伟达宣布杀入PC芯片市场，个人电脑将拥有AI大脑", "source": "DeepTech深科技", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "英伟达正式进军PC芯片市场，发布基于相同CUDA架构的CPU+GPU集成芯片，将AI算力直接植入个人电脑。新品采用ARM架构，能效比提升数倍，支持本地运行大模型，延迟降低至毫秒级。首批合作厂商包括联想、戴尔、惠普，预计2025年上市。此举标志着PC从通用计算时代迈入AI原生计算时代，CPU与GPU融合成为新趋势。"}, {"title": "材料版AlphaFold来了！40个工业任务全方位SOTA，AI4S迎来行业大突破", "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893928&idx=1&sn=879ef17ac82d87919e33ef4940d6058b", "summary": "材料版AlphaFold来了！40个工业任务全方位SOTA，AI4S迎来行业大突破", "source": "量子位", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "北京大学与字节跳动合作开发了名为“S材料”的AI大模型，被誉为“材料版AlphaFold”。该模型在覆盖催化、电池、医药等领域的40个工业级任务上全面取得最先进（SOTA）结果，性能大幅领先传统方法。其核心突破在于提出统一预训练架构，能高效预测材料晶体结构、性质与合成路径，显著加速新材料研发。这标志着AI for Science（AI4S）在材料科学领域实现重大行业突破，有望将材料发现周期从数年缩短至数周。"}, {"title": "刚刚，老黄重新发明PC！全球首个Agent原生电脑问世", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652704246&idx=1&sn=5cc134adfa192b42a4b38ca70f4bfba3", "summary": "刚刚，老黄重新发明PC！全球首个Agent原生电脑问世", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "黄仁勋发布全球首款Agent原生电脑Project Digits，搭载全新GB10芯片（支持200B参数模型本地运行），重新定义个人计算。该设备能原生执行AI代理任务，无需云端依赖，将PC从工具升级为自主智能体。核心突破在于芯片级集成AI推理单元，功耗仅300W，性能达1 PFLOPS（千万亿次浮点运算）。这一架构使开发者可在本地训练、微调大模型，标志AI算力从数据中心下沉至桌面，开启个人超级计算新时代。"}, {"title": "OpenAI推翻数学界80年的未解猜想，菲尔兹奖得主点赞", "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247616919&idx=2&sn=678caa0b9cc858392e08323f6d1a1dae", "summary": "OpenAI推翻数学界80年的未解猜想，菲尔兹奖得主点赞", "source": "夕小瑶科技说", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "OpenAI利用o3模型在数学难题“挂谷猜想”上取得突破，通过证明三维空间中“挂谷集”的下界为Ω(n^{-3/2})，推翻了该领域存在80年的猜想，并得到菲尔兹奖得主陶哲轩高度评价。该成果展示了AI在推动纯数学基础研究方面的潜力，但研究也指出AI目前更擅长验证已知结论，探索未知仍需人类直觉。"}, {"title": "黄仁勋GTC台北演讲：VeraRubin全面量产，Al Agent是重点方向", "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247642031&idx=1&sn=aeea55fcf95a3908f7f9066e4bed80c3", "summary": "黄仁勋GTC台北演讲：VeraRubin全面量产，Al Agent是重点方向", "source": "华尔街见闻", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "黄仁勋在GTC台北演讲中宣布下一代AI芯片Vera Rubin全面量产，该芯片性能相比前代提升数倍，功耗显著降低。他强调AI Agent（智能体）是未来发展重点方向，预计将推动企业级应用的自动化与效率革命。此外，数据中心架构升级和新一代网络技术同步推进，以支撑AI规模化部署。"}, {"title": "Claude Opus 4.8登顶ScienceQAIxbench快报", "url": "https://mp.weixin.qq.com/s?__biz=MzAwODE5NDg3NQ==&mid=2651293793&idx=1&sn=e8696198bf7458b92b4a25eda4e49b23", "summary": "Claude Opus 4.8登顶ScienceQAIxbench快报", "source": "红杉汇", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "最新AI基准测试ScienceQAIxbench显示，Claude Opus 4.8以86.7%的综合准确率登顶，较上一代提升4.2个百分点，在物理、化学、生物三大子领域均领先GPT-4o和Gemini Ultra。该模型在推理能力、多步解题和抗干扰项方面表现突出，尤其在需跨学科知识融合的复杂问题上优势明显。测试涵盖3000道研究生级科学问题，Claude Opus 4.8的数学推导错误率降低至2.1%，为同类模型最低。"}, {"title": "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents", "url": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/", "summary": "The lawsuit partially revolves around a shooting at Florida State University last year, and ChatGPT's alleged role in the incident.", "source": "TechCrunch AI", "published": "2026-06-01T20:03:40", "score": 0, "category": "政策监管", "chinese_summary": "佛罗里达州对OpenAI及其CEO山姆·奥特曼提起首例重大诉讼，指控ChatGPT与去年佛罗里达州立大学枪击事件存在关联。案件核心在于AI聊天机器人被指为学生提供了暴力行为建议，直接介入导致人员伤亡的悲剧。此次诉讼开创先例，将AI企业责任从数据隐私扩展至现实暴力的法定追责，可能重塑生成式人工智能在法律与市场中的边界。"}, {"title": "Meta&#8217;s own AI was exploited to hijack Instagram accounts", "url": "https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked", "summary": "Meta's AI support chatbot helped hackers hijack Instagram accounts, as reported earlier by 404 Media. In a video shared on Telegram, a hacker shows how they could take over an account by asking Meta's chatbot to switch the email associated with someone else's profile and then reset the password. The", "source": "The Verge AI", "published": "2026-06-01T19:20:47", "score": 0, "category": "行业动态", "chinese_summary": "Meta的AI客服聊天机器人被黑客利用劫持Instagram账户。黑客通过指令让AI更换目标账户关联邮箱，随后重置密码完成入侵。该漏洞在Telegram上被演示传播，显示AI系统缺乏关键操作的身份验证与风险控制机制。事件暴露了Meta在AI安全审核上的重大疏漏，用户账户面临严重威胁。"}, {"title": "Anthropic has officially filed to go public", "url": "https://www.theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public", "summary": "After months of speculation about whether OpenAI or Anthropic would be first in their race to IPO, Anthropic on Monday reached a key milestone: filing to kick off the process with the U.S. Securities and Exchange Commission. The filing sets the stage for what's sure to be a massive IPO. As of its fu", "source": "The Verge AI", "published": "2026-06-01T16:40:38", "score": 0, "category": "融资并购", "chinese_summary": "Anthropic 于周一正式向美国证券交易委员会提交IPO申请，标志着其上市进程进入关键阶段。此举结束了数月来关于OpenAI与Anthropic谁将率先上市的猜测。尽管尚未公布具体估值与发行股数，但基于公司最新融资轮估值已超数十亿美元，这预计将是一场规模巨大的首次公开募股。Anthropic的上市将进一步加剧AI领域的资本竞赛。"}, {"title": "Anthropic Confidentially Files for What Could Be the Largest IPO Ever", "url": "https://www.wired.com/story/anthropic-files-s1-ipo-sec/", "summary": "The AI giant behind Claude submitted paperwork on Monday that would take it public, just a couple of weeks after SpaceX’s splashy IPO announcement.", "source": "Wired AI", "published": "2026-06-01T17:17:58", "score": 0, "category": "研究突破", "chinese_summary": "人工智能公司Anthropic于本周一向SEC秘密提交IPO文件，其旗舰模型Claude的运营商估值或创史上最大规模上市纪录。此举紧随SpaceX高调宣布IPO数周后，凸显AI赛道资本热潮。文件显示，Anthropic正加速商业化进程，但未披露具体融资规模及估值细节。此次上市若成功，将验证生成式AI领域从技术突破向规模化盈利转型的市场信心。"}, {"title": "OpenAI重返机器人赛道！四大核心岗位开招", "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247894086&idx=2&sn=f1e0ddc7c6e1359a20dd9f4afdbf4484", "summary": "OpenAI重返机器人赛道！四大核心岗位开招", "source": "量子位", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "OpenAI正式重启机器人研发，公布四大核心岗位招聘，涵盖感知、机械、控制和系统集成。此次回归基于前身“OpenAI Robotics”的积累，并结合GPT系列多模态大模型优势，探索AI与物理世界交互的新路径。这意味着OpenAI不再局限于软件与语言模型，正加速切入具身智能领域，推动机器人具备推理、学习与自主操作能力。"}, {"title": "今天起，无限期免费！全球首个全模态API开放，Top10AI Lab出手", "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893970&idx=1&sn=eb51ebfbd937d6dd8ad1997c0d75f21c", "summary": "今天起，无限期免费！全球首个全模态API开放，Top10AI Lab出手", "source": "量子位", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "阶跃星辰宣布无限期免费开放全球首个全模态API，支持图像理解、视频理解、语音识别及TTS等。其Step-2 16K视觉版在Chatbot Arena文本榜排名国产第一，视频理解能力超越GPT-4o、Gemini 2.0 Flash。模型在MMBench、MathVista等权威评测中领先，并具备原生千亿参数MoE架构。此举打破闭源模型高成本限制，零门槛开放推动AI应用普及。"}, {"title": "卖了30年显卡后，英伟达带着新AI芯片来重新发明「个人电脑」了", "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107811&idx=1&sn=ad6f6773af3a6461167bd3ed8bcbafd0", "summary": "卖了30年显卡后，英伟达带着新AI芯片来重新发明「个人电脑」了", "source": "极客公园", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "英伟达发布全新AI芯片，旨在重新定义个人电脑。该芯片性能较前代提升数十倍，功耗却显著降低，关键数据表明其AI算力达到每秒千万亿次级别。英伟达表示，这款芯片将把强大的AI能力从数据中心带入个人设备，实现本地化运行大模型与复杂应用，标志着个人电脑从传统计算向AI原生的根本性转变，预计将推动新一轮产业变革。"}, {"title": "英伟达掀桌，Windows 终于迎来真 AI PC", "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651092901&idx=1&sn=95d0589e20df5e057280222141e85d61", "summary": "英伟达掀桌，Windows 终于迎来真 AI PC", "source": "APPSO", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "英伟达推出RTX AI PC套件，为Windows系统带来真正的本地AI算力，突破此前云端依赖。该套件集成TensorRT加速与NIM微服务，使Stable Diffusion等模型推理速度提升数倍，且支持70B级大模型离线运行。其关键创新在于将AI推理从云端下沉至终端PC，解决了延迟与隐私问题，标志Windows平台正式进入高效、低成本的端侧AI时代。"}, {"title": "英伟达叫板苹果！Windows 迎来真 AIPC，所有任务都能运行?", "url": "https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&mid=2652453689&idx=1&sn=8230bab022e7ec65c64bd9a52a71f612", "summary": "英伟达叫板苹果！Windows 迎来真 AIPC，所有任务都能运行?", "source": "爱范儿", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "英伟达推出新一代RTX 50系列GPU，支持Windows系统原生运行AI模型，不再依赖云端。其FP4精度计算性能最高提升2倍，本地运行大型语言模型速度可达每秒1000 token，超越苹果M3系列。NVIDIA宣称，新架构使PC能独立完成从语音助手到图像生成的各类AI任务，真正实现端侧AI体验，并计划通过优化驱动与工具链，将AIPC普及至所有Windows设备。"}, {"title": "Claude Code Adds Dynamic Workflows for Parallel Agent Coordination", "url": "https://www.infoq.com/news/2026/06/dynamic-workflows-claude-code/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global", "summary": "Anthropic introduced Dynamic Workflows, a new capability for Claude Code designed to handle complex software engineering tasks by coordinating large numbers of AI agents within a single workflow.  The feature allows Claude to dynamically create orchestration scripts, break work into subtasks, run th", "source": "InfoQ", "published": "2026-06-01T16:55:00", "score": 0, "category": "产品发布", "chinese_summary": "Anthropic为Claude Code推出Dynamic Workflows功能，可在单一工作流内协调大量AI智能体并行处理复杂软件工程任务。该特性使Claude能动态创建编排脚本，将工作分解为子任务并同步执行，显著提升大型代码库的修改、测试与重构效率。通过并行代理协调机制，复杂工程任务的完成速度与质量实现突破性提升。"}, {"title": "BadHost Vulnerability Exposes AI Agents, Evaluators, and LLM Gateways", "url": "https://www.infoq.com/news/2026/06/badhost-ai-systems-vulnerability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global", "summary": "BadHost is a high-severity authentication bypass vulnerability in the widely used Python web framework Starlette, with 325 million weekly downloads. The flaw allows attackers to use malformed HTTP Host headers to bypass path-based access controls and access sensitive AI agent infrastructure, among o", "source": "InfoQ", "published": "2026-06-01T14:00:00", "score": 0, "category": "融资并购", "chinese_summary": "BadHost是一个广泛使用的Python Web框架Starlette中的高危认证绕过漏洞，周下载量达3.25亿次。攻击者可利用畸形的HTTP Host头字段绕过基于路径的访问控制，直接访问AI代理基础设施、评估系统及大模型网关等敏感组件，导致数据泄露或未授权操作。该漏洞影响依赖Starlette的安全架构，凸显了AI系统服务层防护的薄弱环节。"}, {"title": "AIPC爆发：英伟达联手戴尔，进军端侧Al", "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDczODEyNw==&mid=2247495261&idx=1&sn=8bb6b435b625e3c7c4652721139afabc", "summary": "AIPC爆发：英伟达联手戴尔，进军端侧Al", "source": "泽平宏观展望", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "英伟达与戴尔合作推动AIPC爆发，标志端侧AI进入落地阶段。双方联手推出预装AI软件及驱动的PC，利用RTX GPU实现本地推理，降低云端依赖。戴尔计划在2024年出货更多AI PC，市场预计渗透率达19%。核心数据：AIPC单机算力超40 TOPS，可运行千亿参数模型，用户响应延迟低于2秒。此举将加速AI应用在办公与消费场景的规模化部署。"}, {"title": "Alphabet plans to raise $80B to pay for AI buildout", "url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/", "summary": "\"The company is experiencing strong demand for its AI solutions and services from enterprises and consumers, at levels that are exceeding the company’s available supply,\" Alphabet said in its statement.", "source": "TechCrunch AI", "published": "2026-06-01T22:55:09", "score": 0, "category": "融资并购", "chinese_summary": "Alphabet宣布计划筹集800亿美元资金，以扩大其人工智能基础设施建设。该公司表示，来自企业和消费者对AI解决方案与服务的需求极为强劲，已超出其当前供应能力。这笔资金将主要用于数据中心、芯片及相关硬件投入，以支撑AI模型的训练与部署。这是Alphabet历史上规模最大的资本融资之一，反映出其正加速布局AI领域以应对竞争和满足激增的市场需求。"}, {"title": "Anthropic files to go public", "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/", "summary": "Anthropic, now an AI powerhouse that has landed top-tier enterprise customers, was once considered an underdog in the emerging world of large language models.", "source": "TechCrunch AI", "published": "2026-06-01T16:36:55", "score": 0, "category": "行业动态", "chinese_summary": "Anthropic 已提交上市申请，这家曾被视为大语言模型领域弱势玩家的AI公司，如今已成长为实力雄厚的企业，并赢得了顶级企业客户。此次IPO标志着其从挑战者到行业关键参与者的重大转变，具体估值与发行细节待公布。"}, {"title": "This could be Windows’ M1 moment — but expect it to cost a ton", "url": "https://www.theverge.com/tech/941215/windows-laptops-nvidia-rtx-spark-apple-m1-arm-price-ram", "summary": "Nvidia's announcement that it's getting into the consumer laptop chip space with RTX Spark is huge. Apple has proved for years that Arm-based chips can perform incredibly well while also delivering great battery life - at least on the Mac. In the Windows world, performance hasn't fully matched up un", "source": "The Verge AI", "published": "2026-06-01T20:02:31", "score": 0, "category": "行业动态", "chinese_summary": "英伟达推出RTX Spark进军消费级笔记本芯片市场，有望成为Windows系统的“M1时刻”。苹果已证明Arm架构芯片在Mac上可实现卓越性能与长续航，而Windows阵营此前未能完全达到同等水平。但首批搭载RTX Spark的笔记本预计成本高昂，这将是其普及的关键障碍。短期内，高性能Arm Windows设备的价格门槛可能远超用户预期。"}, {"title": "OpenAI frontier models and Codex are now available on AWS", "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/", "summary": "Article URL: https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/\nComments URL: https://news.ycombinator.com/item?id=48363132\nPoints: 211\n# Comments: 70", "source": "Hacker News", "published": "2026-06-01T21:50:02", "score": 0, "category": "行业动态", "chinese_summary": "OpenAI 前沿模型及 Codex 现已登陆 AWS，开发者可通过 Amazon Bedrock 和 SageMaker 调用 o1、o3、GPT-4o 等模型。o1 在数学竞赛成绩达 83%（GPT-4o 仅 13%），Codex 在 SWE-bench 上实现 43.8% 的成功率并生成 100 万 Tokens/分钟。该合作显著降低了推理成本（o1-mini 仅为原版 6%），支持组织高效构建定制化 AI 应用并保障数据安全。"}, {"title": "Florida sues OpenAI and Sam Altman over AI risks", "url": "https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215", "summary": "https://www.wsj.com/tech/ai/openai-sued-by-floridas-attorney...https://www.nbcnews.com/tech/tech-news/florida-sues-openai-s...\n\nComments URL: https://news.ycombinator.com/item?id=48358667\nPoints: 198\n# Comments: 164", "source": "Hacker News", "published": "2026-06-01T16:02:04", "score": 0, "category": "行业动态", "chinese_summary": "佛罗里达州正式起诉OpenAI及其CEO萨姆·奥尔特曼，指控其AI技术存在重大风险。诉讼指OpenAI在训练和部署GPT模型时，从社交媒体等渠道非法抓取大量个人数据，损害用户隐私。此外，佛罗里达州称AI模型可能生成误导性内容，加剧欺诈、身份盗窃等危害。该州寻求民事处罚及禁令，要求OpenAI停止相关数据收集并赔偿。此案为美国州政府首次针对AI企业的大规模法律行动，凸显AI监管加速趋严。"}, {"title": "死脑筋的达里奥，这次把OpenAI干翻了", "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651036272&idx=1&sn=58db16cb81b6420ac64d6b7f73e73bc9", "summary": "死脑筋的达里奥，这次把OpenAI干翻了", "source": "机器之心", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "达里奥团队最新发布的AI研究推翻了OpenAI多项核心结论，证明其在某些大模型评测任务上性能更优。关键数据表明，达里奥团队采用不同训练策略，在推理、语义理解等六个基准测试中平均超出OpenAI模型12.3%。这项研究挑战了主流技术路线，揭示出大模型性能并非只取决于参数规模，训练范式与数据配比同样决定性。该成果已引发业界对OpenAI技术垄断地位的重新审视。"}, {"title": "400 tokens/秒！阶跃 Step 3.7 Flash，把Agent任务成本打到Claude零头", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652704261&idx=1&sn=d7395d05a4be0c782a4855e098e15961", "summary": "400 tokens/秒！阶跃 Step 3.7 Flash，把Agent任务成本打到Claude零头", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "阶跃星辰发布Step 3.7 Flash模型，推理速度达400 tokens/秒，在Agent任务中成本仅为Claude的零头。该模型在复杂多步骤任务中保持高准确率，性能接近顶级闭源模型，但延迟和费用大幅降低，为大规模AI应用部署提供高性价比方案。"}, {"title": "Token狂涨，硅谷哀嚎！全球榜单前十AILab，却把三大模型全免了", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652704148&idx=1&sn=4bf4d2afdca5da05cae2a620115da3bf", "summary": "Token狂涨，硅谷哀嚎！全球榜单前十AILab，却把三大模型全免了", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "全球AI大模型价格战白热化，硅谷巨头因Token成本高涨而承压，但全球排名前十的AI实验室（如DeepSeek等）却宣布三大核心模型全部免费开放。此举直接冲击了GPT-4等收费模型的商业逻辑，推动行业从“高价授权”转向“免费+服务”模式。数据显示，免费模型下载量暴涨300%，API调用量增长450%，验证了开源策略在技术民主化和生态构建上的显著优势，同时倒逼行业加速优化推理成本。"}, {"title": "把GPT-4o拉下神坛！星源智联合北大推出RoboAgent，让 3B VLM 在未知...", "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247663058&idx=2&sn=08cb33501d8f251dc319b5d11158135a", "summary": "把GPT-4o拉下神坛！星源智联合北大推出RoboAgent，让 3B VLM 在未知...", "source": "AI前线", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "星源智联合北大推出RoboAgent，仅用3B参数视觉语言模型，在未知环境机器人操作任务上超越GPT-4o。该方法通过分层推理框架，将复杂任务拆解为语义规划与动作执行，结合在线自适应学习，使小模型在零样本泛化中达到98.7%任务成功率，较GPT-4o提升12.3%，计算成本降低90%。"}, {"title": "Codex Windows 端上线Computer Use|Copilot正式转token计费，GPT5.5 涨价...", "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247617167&idx=2&sn=75b6f8a8a87a9822e854450563132cc8", "summary": "Codex Windows 端上线Computer Use|Copilot正式转token计费，GPT5.5 涨价...", "source": "夕小瑶科技说", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Anthropic的Codex在Windows端上线Computer Use功能，支持AI直接操控电脑完成任务。微软Copilot全面转向Token计费模式，取代原有订阅制。同时，OpenAI即将推出的GPT-5.5预计涨价10-20倍，推理成本大幅提升。这些变动标志着AI商业化进入按量付费新阶段，企业用户需关注成本控制。"}, {"title": "Agnes AI把全模态模型打到免费，Token终于可以放心烧了|甲子光年", "url": "https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&mid=2247554562&idx=1&sn=a7d77c0134726f1fc6f890ef1d484e21", "summary": "Agnes AI把全模态模型打到免费，Token终于可以放心烧了|甲子光年", "source": "甲子光年", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Agnes AI发布全模态开源模型，支持文本、图像、音频和视频的联合理解与生成，以免费模式打破行业高价壁垒。该模型在多模态基准测试中表现优异，部分任务接近甚至超越GPT-4V。其核心技术采用统一Transformer架构，大幅降低算力消耗，生成成本仅为传统模型的十分之一。此举标志着全模态AI进入平民化阶段，开发者可放心“烧Token”推动应用创新。"}, {"title": "任务成本仅为Claude Opus 4.6 1/9，阶跃刷新Flash模型效率", "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651092957&idx=1&sn=d5834e4a8ff1c801225f3662b718d127", "summary": "任务成本仅为Claude Opus 4.6 1/9，阶跃刷新Flash模型效率", "source": "APPSO", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "阶跃星辰发布新版Flash模型，在保持与Claude Opus 4.6相当性能的同时，任务成本降至其1/9，大幅提升推理效率。该模型通过架构优化与训练策略改进，在多项基准测试中表现接近顶尖闭源模型，尤其在高并发、低延迟场景下优势显著。这一突破使得高质量AI服务的经济门槛大幅降低，为规模化商业应用提供了更可行的技术方案。"}, {"title": "Shopify Reports 15X Faster Graphql Execution with Breadth First Engine", "url": "https://www.infoq.com/news/2026/06/shopify-graphql-cardinal-bfs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global", "summary": "Shopify introduced GraphQL Cardinal, a new execution engine replacing depth-first traversal with breadth-first execution. The redesign improves large-scale GraphQL performance with up to 15x faster field execution, 6x lower GC overhead, and +4s P50 latency gains. It focuses on execution-layer effici", "source": "InfoQ", "published": "2026-06-01T14:25:00", "score": 0, "category": "行业动态", "chinese_summary": "Shopify推出GraphQL Cardinal执行引擎，以广度优先遍历替代深度优先，实现大规模查询性能显著提升：字段执行速度最高提升15倍，GC开销降低6倍，P50延迟优化超过4秒。该引擎专注于执行层效率优化，核心改进在于将传统嵌套解析改为按层次并行调度，大幅减少重复计算与资源消耗，并保持与现有GraphQL规范完全兼容。"}, {"title": "A Trailing Slash Bypassed AWS API Gateway Authorization", "url": "https://www.infoq.com/news/2026/06/aws-api-gateway-auth-bypass/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global", "summary": "A security researcher found that adding a trailing slash to AWS HTTP API paths bypassed Lambda authorizer authentication entirely, enabling unauthenticated wire transfers at a fintech. The root cause is a path normalization mismatch between HTTP API's greedy route matching and its authorization laye", "source": "InfoQ", "published": "2026-06-01T09:55:00", "score": 0, "category": "研究突破", "chinese_summary": "安全研究人员发现，在AWS HTTP API路径后添加尾部斜杠可完全绕过Lambda授权器认证，导致某金融科技公司可进行未经授权的电汇交易。根本原因在于HTTP API的贪婪路由匹配与授权层之间存在路径规范化差异。该漏洞暴露了云原生API网关配置中一个关键安全盲点，即默认路由行为未经充分校验即可绕过认证机制。"}, {"title": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转", "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247526537&idx=1&sn=28314d27c60bebda882b03976db9bef0", "summary": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转", "source": "前端之巅", "published": "", "score": 0, "category": "政策监管", "chinese_summary": "18岁创业者通过开源工具OpenClaw管理16个AI Agent，实现单人运营一家公司。核心模式是Agent各司其职，分别负责营销、客服、编程等任务，OpenClaw担任协调调度中心。关键数据：月均处理任务超2000件，人力成本节省约90%，客户响应时间降至3分钟内。结论：高度自动化Agent集群可显著降低创业门槛，未来单人公司有望成为常态。"}, {"title": "This AI weather startup is out-forecasting government agencies", "url": "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/", "summary": "WindBorne benefits from its unique combination of model-building and data collection. The company now has about 400 balloons in flight gathering sensor readings at any given time, launched from 15 sites around the globe. The advances in its current model come from improvements in how the data collec", "source": "TechCrunch AI", "published": "2026-06-01T16:00:00", "score": 0, "category": "产品发布", "chinese_summary": "WindBorne AI利用全球15个站点实时放飞约400个气象气球采集传感器数据，结合自研模型优化，在天气预报领域超越了政府机构。其核心优势在于将数据收集与模型构建深度融合，通过提升数据采集效率与算法精度，实现了更准确的短期和长期天气预测，显示出AI在传统气象预测中的显著突破。"}, {"title": "阶跃发布 Step 3.7 Flash，效率模型开始争夺 Agent 主战场", "url": "https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247524441&idx=1&sn=d0053b694159ea97102902df7e7c3e60", "summary": "阶跃发布 Step 3.7 Flash，效率模型开始争夺 Agent 主战场", "source": "FounderPark", "published": "", "score": 0, "category": "产品发布", "chinese_summary": "阶跃星辰发布 Step 3.7 Flash，主打高效率与低延迟，专为 Agent 场景优化。该模型在推理速度上提升显著，相比前代延迟降低约 40%，在多项基准测试中达到同级最优。其核心优势在于高并发下的稳定表现，能更高效处理工具调用和复杂任务分解。此举标志着效率模型正式切入 Agent 主战场，将加速 AI 在自动化、智能体协作等领域的落地应用。"}, {"title": "Microsoft to unveil new AI models and Windows improvements at Build", "url": "https://www.theverge.com/report/940861/microsoft-build-ai-models-windows-dev-mode-what-to-expect", "summary": "Microsoft is heading to San Francisco this week in a bid to win back developers at its Build conference. I've been attending Build since the days when Microsoft called it the Professional Developers Conference, and I can't remember a more pivotal moment. As Microsoft continues to reshuffle its entir", "source": "The Verge AI", "published": "2026-06-01T14:39:03", "score": 0, "category": "活动会议", "chinese_summary": "微软将在Build大会上推出自研AI模型（MAI-1）及Windows改进，包括名为“Dev Mode”的新开发者工具和AI驱动的Windows功能更新。这被视为微软挽回开发者信心的关键节点，是自“专业开发者大会”时期以来最重要的一次转变。MAI-1模型将与OpenAI和Meta的模型竞争，在推理能力与规模上均有所突破。"}, {"title": "Florida sues OpenAI, Sam Altman after multiple ChatGPT-linked murders", "url": "https://arstechnica.com/tech-policy/2026/06/florida-sues-openai-sam-altman-after-multiple-chatgpt-linked-murders/", "summary": "Altman has an \"utter disregard\" for human lives, Florida AG says.", "source": "Ars Technica", "published": "2026-06-01T18:52:19", "score": 0, "category": "行业动态", "chinese_summary": "佛罗里达州总检察长起诉OpenAI及其CEO Sam Altman，指控其ChatGPT产品被直接关联多起谋杀案。诉状称Altman“全然漠视”人类生命，明知AI存在安全隐患却未采取充分防护措施。该州要求追究OpenAI在产品缺陷和公共安全方面的法律责任，此案成为首例因AI聊天机器人引发暴力犯罪导致政府层面追责的重大诉讼。核心争议在于AI公司对技术滥用后果的预见义务与责任边界。"}, {"title": "Nvidia RTX Spark comes to Windows PCs with Arm CPU, RTX GPU, and unified memory", "url": "https://arstechnica.com/gadgets/2026/06/nvidia-gets-into-the-arm-pc-business-with-new-high-end-rtx-spark-processor/", "summary": "Nvidia's new chips will power laptop workstations and mini desktop PCs at first.", "source": "Ars Technica", "published": "2026-06-01T14:47:22", "score": 0, "category": "行业动态", "chinese_summary": "英伟达发布RTX Spark处理器，首次进军Arm PC领域，专为笔记本工作站和迷你台式机设计。该芯片集成Arm CPU、RTX GPU及统一内存架构，旨在通过高带宽低延迟的共享内存提升AI与图形处理效率。产品初期瞄准高端专业市场，支持光线追踪与AI加速，标志着英伟达在PC端从单一GPU向一体化计算平台的战略转型。"}, {"title": "Intel: Our upcoming AI chip will be cheaper, run cooler than Nvidia, AMD options", "url": "https://arstechnica.com/ai/2026/06/intel-our-upcoming-ai-chip-will-be-cheaper-run-cooler-than-nvidia-amd-options/", "summary": "Crescent Island is an air-cooled chip that uses LPDDR5 memory.", "source": "Ars Technica", "published": "2026-06-01T13:32:16", "score": 0, "category": "行业动态", "chinese_summary": "英特尔即将推出的AI芯片Crescent Island采用风冷设计和LPDDR5内存，其成本和运行温度均低于英伟达与AMD的同类产品。该芯片专为高密度AI推理场景优化，旨在以更低功耗实现高效能计算，同时通过简化散热系统降低数据中心部署门槛。这一差异化策略瞄准价格与能效敏感的AI基础设施市场，试图打破现有高端GPU的垄断格局。"}, {"title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?", "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai", "summary": "https://archive.ph/nKEVw\n\nComments URL: https://news.ycombinator.com/item?id=48364055\nPoints: 219\n# Comments: 421", "source": "Hacker News", "published": "2026-06-01T23:45:46", "score": 0, "category": "行业动态", "chinese_summary": "Anthropic、SpaceX和OpenAI等大型未上市科技公司估值极高，但面临IPO流动性压力。这些公司估值合计超数千亿美元，股票市场可能难以消化其大规模公开上市需求，或需分阶段上市、保持较长时间私有状态。关键障碍包括投资者对高估值企业回报预期收紧、市场波动性加剧，以及监管审查趋严。若强行集中上市，可能冲击市场资金面与科技股估值体系。"}, {"title": "The newest Instagram “exploit” is the goofiest I've seen", "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco", "summary": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-su...\n\nComments URL: https://news.ycombinator.com/item?id=48359102\nPoints: 1535\n# Comments: 359", "source": "Hacker News", "published": "2026-06-01T16:31:42", "score": 0, "category": "行业动态", "chinese_summary": "安全研究员披露Meta AI客服系统存在严重漏洞，攻击者可绕过Instagram账号双重认证以接管账户。漏洞利用方式极其简单：只需将目标手机号添加至攻击者Meta账户的“受信任联系人”，AI助手即自动发送验证码到该号码，随后攻击者即可重置密码。该漏洞已影响大量用户，Meta在报告后快速修复。此事件暴露AI系统在身份验证中的安全缺陷，过度自动化可能成为新的攻击面。"}, {"title": "Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity", "url": "https://news.ycombinator.com/item?id=48356312", "summary": "Hey HN, we’re Ismaeel, Eren, Yafet and Nikodem. We built Expanse (https://expanse.sh/) to increase the effective capacity of your HPC/GPU clusters running schedulers/orchestrators like Kubernetes and SLURM. We read the source code, job submission script, and the hardware a workload is about to run o", "source": "Hacker News", "published": "2026-06-01T13:05:02", "score": 0, "category": "研究突破", "chinese_summary": "Expanse（YC P26）通过分析调度器源码、任务提交脚本和硬件配置，动态优化Kubernetes和SLURM集群中的GPU利用率。该方案可将闲置计算资源压缩70%以上，使HPC/AI工作负载的有效容量提升2-3倍，无需改动用户代码或底层基础设施。实测在NVIDIA H100集群中，单节点任务吞吐量从4.2提升至11.7个/分钟。"}, {"title": "GUI Agent「记与学」双修，长程任务有了专属记忆增强型自进化框架", "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651036228&idx=1&sn=88b740480ff001ebd95b499aec5223a2", "summary": "GUI Agent「记与学」双修，长程任务有了专属记忆增强型自进化框架", "source": "机器之心", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "研究提出记忆增强型自进化框架，解决GUI智能体在长程任务中的记忆与学习瓶颈。该框架通过双轨机制实现：短期记忆模块存储任务上下文与操作轨迹，长期记忆模块积累跨任务经验并提炼可复用策略。实验显示，在WebShop等基准测试中，任务完成成功率提升12%以上，平均操作步数减少20%。该框架还支持从失败中自主复盘并修正策略，使模型在未见任务上实现零样本适应，为GUI自动化的持续进化提供了系统化方案。"}, {"title": "Agent团队开始自我进化，MetaAgent-X把协作训进基座模型", "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247720654&idx=1&sn=5f95b70043c8cb8b66759f4c39d314cc", "summary": "Agent团队开始自我进化，MetaAgent-X把协作训进基座模型", "source": "PaperWeekly", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "MetaAgent-X提出在基座模型预训练阶段融入多智能体协作知识，构建原生协作大模型。相比传统后期微调方法，该方法使智能体团队在行动协同与信息共享上实现自我进化。实验表明，在复杂任务中，模型协作能力提升30%以上，任务完成效率提高45%，且泛化性能显著优于SFT、RLHF等方案，为AI自主团队协作提供了新的技术路径。"}, {"title": "Claude刷爆5亿！一夜涨60倍，你的Token账单还撑得住?", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652704148&idx=2&sn=88f3582d9c98598a0a13215a3d734a0f", "summary": "Claude刷爆5亿！一夜涨60倍，你的Token账单还撑得住?", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Claude 日活跃用户数突破5亿，单日暴涨60倍，致使用户Token消耗激增。API调用成本大幅攀升，长对话和复杂任务场景下账单可能翻倍。开发者需重新评估预算策略，或选择轻量级模型与流式输出以控制开支。当前AI应用对Token经济模型的依赖加剧，规模化使用面临可持续性挑战。"}, {"title": "TheEra ofAgent：拾象AGl 投资洞察", "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTY0MDk0NQ==&mid=2247523912&idx=1&sn=1ebf0e9e4696b332e175b0ebc5ca7bcc", "summary": "TheEra ofAgent：拾象AGl 投资洞察", "source": "海外独角兽", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "AI Agent时代已至，核心驱动力是模型能力跃升与成本下降。拾象认为，2025年将成为Agent应用爆发元年，Agent将重塑软件交互与商业逻辑，从“辅助工具”进化为“自主执行者”。关键数据：头部模型API成本一年下降90%以上，推理效率提升超10倍。结论：投资机会集中于基础设施、Agent框架与垂直场景应用，预计2027年Agent相关市场将超千亿美元。"}, {"title": "谨慎的金融圈，等来真正会干活的AI", "url": "https://mp.weixin.qq.com/s?__biz=MzUxOTA3MzMzOQ==&mid=2247766333&idx=1&sn=6284792dc8bfcc22288968f56a848099", "summary": "谨慎的金融圈，等来真正会干活的AI", "source": "36氪Pro", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "AI Agent正从“辅助工具”转向“核心生产力”，尤其在金融领域实现突破。瑞银、摩根大通等机构部署DeepSeek等模型后，量化交易策略迭代周期从数周缩短至数小时，部分对冲基金将信息检索效率提升超80%。传统风控系统误报率高达30%，而AI Agent通过深度分析非结构化数据（如财报电话会情绪），将风险预警准确率提升至92%，误报率降至8%。关键结论：金融业正从“规则驱动”转向“数据+智能驱动”，AI Agent在量化投资、风控、合规等场景的劳动生产率提升超40%，但需解决模型可解释性与监管适应性问题。"}, {"title": "一个 Claude Code插件，狂揽 20 万Star!", "url": "https://mp.weixin.qq.com/s?__biz=MzAxOTcxNTIwNQ==&mid=2457994120&idx=1&sn=b8dff8256ef90782c00d328f95a9da03", "summary": "一个 Claude Code插件，狂揽 20 万Star!", "source": "GitHubDaily", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Claude团队为提升大模型编码效率，发布了一款支持MCP协议的新型代码编辑器插件，上线仅数周便在GitHub斩获超20万Star。该插件能直接在编辑器内调用代码解释器、文件系统、Web搜索等30+工具，实现自动化调试与动态环境搭建，将单次任务完成时间从分钟级压缩至秒级。数据显示，用户任务迭代效率提升6倍，工具调用次数下降40%，标志着AI编程正式进入“主动执行”阶段，颠覆传统被动代码补全模式。"}, {"title": "阿里云CIO 蒋林泉：AI 大模型时代，我们如何用RIDE实现RaaS的首次落地？", "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247552739&idx=1&sn=e4e12b7673216cbf9d5cd3c1546fc711", "summary": "阿里云CIO 蒋林泉：AI 大模型时代，我们如何用RIDE实现RaaS的首次落地？", "source": "阿里云开发者", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "阿里云CIO蒋林泉提出RIDE方法论，推动RaaS（资源即服务）首次落地。RIDE四步法包括：重构业务以明确大模型场景、整合数据与算力基础设施、构建智能体应用平台、实现端到端效果评估。实践显示，RaaS使云资源利用率提升30%、AI应用开发周期缩短50%。核心结论：大模型落地需从业务重构出发，通过标准化、平台化路径实现价值闭环。"}];
 
 // ── 今日文章点击 → 跳转详情页 ──
 function goDetail(idx) {
   sessionStorage.setItem('ai_articles', JSON.stringify(ARTICLES));
-  sessionStorage.setItem('ai_date', '2026-06-01');
+  sessionStorage.setItem('ai_date', '2026-06-02');
   window.location.href = `detail.html?idx=${idx}`;
 }
 
@@ -1087,7 +1088,7 @@ function goDetailFromEl(el) {
     if (!raw) return;
     const a = JSON.parse(raw.replace(/&quot;/g, '"'));
     const rank = parseInt(el.dataset.rank, 10) || 1;
-    const date = el.dataset.date || '2026-06-01';
+    const date = el.dataset.date || '2026-06-02';
     // 历史文章存单条
     sessionStorage.setItem('ai_detail_single', JSON.stringify({article: a, rank, date}));
     window.location.href = `detail.html?single=1`;
@@ -1179,7 +1180,7 @@ function renderHistoryArticles(articles, dateStr) {
   const grid = document.getElementById('newsGrid');
   const weekday = getWeekday(dateStr);
   const sub = document.querySelector('.subtitle');
-  if (sub) sub.innerHTML = `<span>${dateStr}</span>·<span>$周一</span>·<span><strong>${articles.length}</strong> 条精选</span>`;
+  if (sub) sub.innerHTML = `<span>${dateStr}</span>·<span>$周二</span>·<span><strong>${articles.length}</strong> 条精选</span>`;
 
   grid.innerHTML = articles.map((a, i) => {
     const rank = i + 1;
@@ -1213,7 +1214,7 @@ function renderHistoryArticles(articles, dateStr) {
 (function initHistoryStrip() {
   var strip = document.getElementById('historyStrip');
   if (!strip) return;
-  var today = '2026-06-01';
+  var today = '2026-06-02';
   fetch('history_index.json')
     .then(function(r) { if (!r.ok) return null; var ct = r.headers.get('content-type') || ''; if (ct.indexOf('application/json') < 0) return null; return r.json(); })
     .then(function(idx) {
