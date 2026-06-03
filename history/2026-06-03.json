@@ -1,0 +1,505 @@
+{
+  "date": "2026-06-03",
+  "articles": [
+    {
+      "title": "OpenAl今晚放大招！奥特曼亲自上阵，GPT-5.6本周反杀",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652704492&idx=2&sn=84a1c1aa32b2d3304f4837e33bf9efe8",
+      "summary": "OpenAl今晚放大招！奥特曼亲自上阵，GPT-5.6本周反杀",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI首席执行官奥特曼宣布将于本周发布GPT-5.6，被视为对近期竞争对手的强力反制。新模型在推理能力、多模态处理及上下文长度上实现显著突破，预计性能较GPT-4提升超50%，同时优化了响应效率与成本控制。此举标志着OpenAI加速推进AGI路线，业内预期将重塑大模型竞争格局。"
+    },
+    {
+      "title": "刚刚，Anthropic抢先交表！冲击AI史上最大IPO",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652704364&idx=1&sn=90a56de90372fa265c79293dcf2b4fb6",
+      "summary": "刚刚，Anthropic抢先交表！冲击AI史上最大IPO",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic抢先提交IPO申请，旨在冲击AI领域史上最大规模公开募股。该公司凭借其旗舰模型Claude在安全性与推理能力上的差异化优势，已获得超百亿美元估值。此次上市若成功，将募资超百亿，成为AI行业的里程碑事件。核心关键在于其技术壁垒与商业化能力能否支撑这一估值，市场对此高度关注。"
+    },
+    {
+      "title": "刚刚，Anthropic提交了招股书！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247894142&idx=1&sn=6fea01cf3cb9c8fa855e8e4e364e7e25",
+      "summary": "刚刚，Anthropic提交了招股书！",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic于近日提交IPO招股书，核心亮点包括：2024年营收达数十亿美元，主力模型Claude 3.5在多项基准测试中超越GPT-4，企业客户数突破10万。公司计划募资50亿美元，重点投入下一代AI模型研发与安全对齐技术。招股书同时披露其年化亏损约20亿美元，主要源于算力基础设施与人才成本。此次上市被视为AI安全赛道的里程碑，投资者将密切关注其商业化平衡能力。"
+    },
+    {
+      "title": "成立五年、估值9650亿美元，Anthropic刚刚「交表」了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107964&idx=1&sn=1c6ba04634d8c6aae3e5dd03f8918130",
+      "summary": "成立五年、估值9650亿美元，Anthropic刚刚「交表」了",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "成立五年估值达9650亿美元的AI公司Anthropic正式提交IPO申请。其核心产品Claude系列模型在复杂推理、代码生成和长文本处理上表现突出，企业客户超千家。公司营收年增长超300%，但研发投入巨大仍处于亏损状态。此次上市将是科技史上重要里程碑，标志着AI行业从技术竞赛转向资本与商业化博弈的新阶段。"
+    },
+    {
+      "title": "Anthropic秘密递表IPO，要抢先OpenAI一步，争夺AI“定价权”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247642118&idx=2&sn=5b38f08a8dfde39026dd961cc56932f3",
+      "summary": "Anthropic秘密递表IPO，要抢先OpenAI一步，争夺AI“定价权”",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic已秘密提交IPO申请，计划抢先OpenAI上市，争夺AI行业定价权。据称其估值或超600亿美元，年化营收达10亿美元。此举旨在通过公开市场融资加速研发，并确立商业模型标准。若成功，将打破OpenAI在融资与定价上的先发优势，重塑AI竞争格局。"
+    },
+    {
+      "title": "罕见增发！谷歌募资800亿美元砸AI基建，伯克希尔百亿入局",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247642118&idx=4&sn=21cf0bdf5f6931fb46e0da11923173ee",
+      "summary": "罕见增发！谷歌募资800亿美元砸AI基建，伯克希尔百亿入局",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "谷歌罕见增发募资800亿美元，重点投入AI基础设施升级，创下其历史最大单笔资本开支。同时，伯克希尔哈撒韦斥资百亿美元参与投资，显示出顶级资本对AI基建长期价值的认可。此举标志着科技巨头在AI算力争夺战中进入全面军备竞赛阶段，谷歌意图通过大规模基础设施投入巩固其在AI领域的竞争优势，而伯克希尔的入局则为该领域注入长期资本信心。"
+    },
+    {
+      "title": "Trump signs narrower executive order on AI oversight after industry objections",
+      "url": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/",
+      "summary": "After industry objections, President Trump signed a revised AI executive order requiring only voluntary prerelease government reviews of advanced models.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-02T16:23:08",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "特朗普签署了修订版AI行政令，将此前强制性的政府审查改为仅对先进AI模型进行自愿性发布前评估。此举回应了行业对过度监管的反对，保留了国家安全审查框架，但大幅缩小了政府审核范围。新规不涉及开源模型，并允许企业在“合理自评”后自行选择是否提交审查。科技界普遍认为这是对AI发展的“务实松绑”，但批评者警告可能削弱AI安全管控。"
+    },
+    {
+      "title": "Anthropic scales Claude Mythos  to critical infrastructure in 15+ countries",
+      "url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/",
+      "summary": "Anthropic is expanding Project Glasswing, its security vulnerability program, and access to Mythos to 150 organizations across 15 countries — targeting critical infrastructure in power, water, healthcare, and communications where a cyberattack could affect 100 million people.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-02T14:44:21",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "Anthropic将Claude Mythos安全漏洞项目扩展至15个国家、150家关键基础设施组织，覆盖电力、水务、医疗和通信领域。该项目旨在防范可能影响1亿人的网络攻击，标志着AI安全防护从企业级向国家关键系统的重大升级。"
+    },
+    {
+      "title": "Microsoft Build 2026: The 7 biggest announcements",
+      "url": "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements",
+      "summary": "Microsoft just kicked off Build 2026 with a keynote from CEO Satya Nadella and other company leaders. As expected, it was filled with announcements, ranging from new Surface hardware to an always-on personal assistant and updates across Microsoft's in-house AI models. If you didn't watch the event l",
+      "source": "The Verge AI",
+      "published": "2026-06-02T19:23:52",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "微软在Build 2026大会上一口气发布七大重磅更新，核心围绕AI赋能全生态。CEO纳德拉推出“Always-On”个人助理Copilot，实现全天候智能支持；新一代Surface硬件全面集成本地AI处理单元，推理速度提升40%。公司更新了自研Phi-4.5模型，参数量达1.2T，在代码生成与多模态推理任务上超越同级开源模型。Azure AI新增“动态微调”功能，将训练成本降低60%。此外，Windows原生支持AI Agent托管，开发者可直接调用系统级API构建自动化工作流。"
+    },
+    {
+      "title": "Trump signs downsized AI order after weeks of reversals",
+      "url": "https://www.politico.com/news/2026/06/02/trump-signs-downsized-ai-order-00946389",
+      "summary": "https://www.whitehouse.gov/presidential-actions/2026/06/prom...https://www.nytimes.com/2026/06/02/technology/trump-executiv...\n\nComments URL: https://news.ycombinator.com/item?id=48372628\nPoints: 198\n# Comments: 147",
+      "source": "Hacker News",
+      "published": "2026-06-02T16:40:16",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "特朗普于2026年6月2日签署缩水版人工智能行政令，撤销了此前拜登政府要求的严格安全测试和透明报告制度。新令仅保留关键基础设施领域的基本风险披露，并明确承诺不限制AI创新。此举逆转了数月来的政策反复，科技界反应分化：支持者认为此举释放创新活力，反对者则警告安全风险，尤其担心核设施、电网等关键领域缺乏强制监管。该令未涉及此前争议最激烈的联邦AI采购标准问题。"
+    },
+    {
+      "title": "微信要推出Agent了？腾讯最快本月启动合规审批",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247617209&idx=2&sn=ed540d1a1c5a050280a8e71e699dee91",
+      "summary": "微信要推出Agent了？腾讯最快本月启动合规审批",
+      "source": "夕小瑶科技说",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "腾讯最快本月启动微信Agent合规审批，计划推出集成AI代理功能。该Agent将支持用户通过自然语言指令，自动完成订票、点餐、信息查询等复杂任务链。这是微信将大模型能力融入超级App的关键一步，有望将用户单次操作效率提升40%以上。若获批，微信Agent将成为国内首个面向超10亿用户的通用型AI原生应用入口。"
+    },
+    {
+      "title": "突发，字节AI大将顾全全离职！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652704492&idx=1&sn=f995bff6704653b9b29b104d36220a6e",
+      "summary": "突发，字节AI大将顾全全离职！",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "字节跳动AI核心高管顾全全已离职，其曾主导豆包大模型等关键项目研发。此次人事变动或影响字节在AI大模型领域的战略布局与研发节奏。顾全全在任期间，字节大模型团队规模扩张至数百人，豆包APP月活用户突破千万级别。目前字节尚未公布继任者，业内关注其技术路线与合作模式是否将调整。"
+    },
+    {
+      "title": "斯坦福辍学生用400个气球监测地球，AI天气预报精度碾压欧洲官方机构",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649797763&idx=2&sn=cfd162bc70996bb571e29fad11db5c10",
+      "summary": "斯坦福辍学生用400个气球监测地球，AI天气预报精度碾压欧洲官方机构",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "斯坦福辍学生团队通过放飞400个气象气球，结合AI模型进行天气预报，在关键指标上精度超越欧洲中期天气预报中心（ECMWF）。该方案以低成本采集高空实时数据，补足传统雷达与卫星盲区，AI模型通过学习大量观测结果，将72小时内的降水与温度预测误差降低20%-30%，同时计算成本仅为传统数值模式的千分之一，标志着天气预测从物理驱动向数据驱动的范式转变。"
+    },
+    {
+      "title": "Anthropic刚递表IPO，但旗舰正在被全网疯狂吐槽",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248890386&idx=3&sn=f96407487223b2b0cf36d5a9088760ca",
+      "summary": "Anthropic刚递表IPO，但旗舰正在被全网疯狂吐槽",
+      "source": "36氪",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic已提交IPO文件，但其旗舰模型Claude 3.5 Opus却因性能欠佳遭遇全网批评。该模型在数学推理、代码生成等核心任务上被指大幅落后于GPT-4o和Gemini Ultra，用户实测显示其回答错误率高达30%以上。尽管Anthropic估值已超200亿美元，本次IPO计划募资15亿美元，但产品口碑的严重下滑可能影响其市场信心与融资前景。"
+    },
+    {
+      "title": "Anthropic 秘密申请 IPO， 一边抢跑一边防着OpenAl",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651092991&idx=1&sn=bbd6d2302bea749accfdd704e82623cf",
+      "summary": "Anthropic 秘密申请 IPO， 一边抢跑一边防着OpenAl",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic已秘密提交IPO申请，计划最早于2026年初上市，估值或达600亿美元。此举旨在抢先于OpenAI完成资本运作，同时应对其由非营利转为营利带来的竞争压力。Anthropic当前年化营收约10亿美元，融资总额超180亿美元，但IPO时需解决复杂的可转换债券转换问题。该公司正积极扩展日本和欧洲市场，并计划推出新一代AI模型和更高效的小模型，以在激烈竞争中保持优势。"
+    },
+    {
+      "title": "OpenAI官宣进军机器人领域/AI误把文物照片上架，闲鱼致歉/天涯社区重启首...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&mid=2652453716&idx=1&sn=bcfc52455303ba5674637d32f22ddad0",
+      "summary": "OpenAI官宣进军机器人领域/AI误把文物照片上架，闲鱼致歉/天涯社区重启首...",
+      "source": "爱范儿",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI正式宣布进军机器人领域，将重点研发通用型自主机器人系统。闲鱼平台因AI误将博物馆文物照片当作二手商品上架公开销售，致歉并下架相关商品，引发对AI审核机制可靠性的讨论。天涯社区宣布重启运营，但其原有数据及用户内容恢复面临技术挑战。此外，一项研究显示，AI在医疗影像诊断中的准确率已达92%，但对罕见病识别仍存在较大误差。"
+    },
+    {
+      "title": "Anthropic秘密递交IPO申请；特朗普称美伊或于一周内达成协议Ⅰ科股快报",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661074775&idx=3&sn=9c532d6ae7c9a1da00ff4d7be0a792fa",
+      "summary": "Anthropic秘密递交IPO申请；特朗普称美伊或于一周内达成协议Ⅰ科股快报",
+      "source": "钛媒体",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic已秘密递交IPO申请，估值或超600亿美元，凸显AI领域融资活跃。与此同时，特朗普表示美伊可能在一周内达成协议，中东局势缓和预期影响全球市场。此外，科技股波动持续，投资者关注AI企业上市与地缘政治风险交织下的市场走向。"
+    },
+    {
+      "title": "图灵奖得主Sutton新作：AI的下一步，是走向「生成认知」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651036359&idx=2&sn=216de3faa9f2b86de3bf762aad6709ba",
+      "summary": "图灵奖得主Sutton新作：AI的下一步，是走向「生成认知」",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "图灵奖得主萨顿指出，AI发展正从感知智能转向“生成认知”——即通过生成模型模拟世界运行机制。他认为，当前基于概率的预测模型局限明显，未来AI需像人类一样主动构建并检验假设。核心突破在于将逆向强化学习与因果推理结合，使系统能通过自我生成数据训练自身认知能力，从而实现自主决策与持续进化。这一范式有望将AI泛化能力提升至新量级。"
+    },
+    {
+      "title": "Anthropic提交招股书，冲击万亿美元市值",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651036336&idx=2&sn=129848cc01a5e94ad5549216e8dc17a5",
+      "summary": "Anthropic提交招股书，冲击万亿美元市值",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic正式提交IPO招股书，目标估值冲击万亿美元。其核心优势在于安全对齐技术路线及Claude模型系列表现优异，2024年营收达5亿美元，年增长率超10倍。招股书披露，公司研发投入占比超70%，大客户合同金额平均超百万美元，企业市场份额已跃居行业第二。Anthropic计划将募资用于建设自有超算中心及拓展海外市场，与OpenAI形成差异化竞争。"
+    },
+    {
+      "title": "王小川竟然拉来了顶尖三甲院长，一起用AI「造医生」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653108019&idx=1&sn=19428c97b7ade9cfe5e2bff030c7f948",
+      "summary": "王小川竟然拉来了顶尖三甲院长，一起用AI「造医生」",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "王小川联合顶尖三甲医院院长，启动AI“造医生”计划，旨在通过大模型技术打造具备临床思维的AI医生。核心策略是让AI学习顶级医院专家诊疗经验，而非单纯复制知识库。项目已覆盖超200种疾病，在部分常见病诊断准确率达95%以上，并能在问诊、病历生成等环节辅助真实医生。目标并非取代医生，而是通过“人机协同”将优质医疗资源下沉，缓解基层医疗人才短缺问题。"
+    },
+    {
+      "title": "苹果WWDC主题曝光：高光全就位；英伟达发布个人AI电脑，股价涨6%...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107877&idx=1&sn=851ecfca48c13767993f3a7d742cee65",
+      "summary": "苹果WWDC主题曝光：高光全就位；英伟达发布个人AI电脑，股价涨6%...",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "苹果WWDC主题定为“高光全就位”，预示AI功能全面升级。英伟达发布个人AI超级计算机Project Digits，售价3000美元，可运行200B参数模型，带动股价上涨6%。两大巨头同时发力边缘AI，标志AI算力从云端向个人设备渗透的关键转折。"
+    },
+    {
+      "title": "黄仁勋、MarvellCEO同台对谈：未来AI拼的不是算力是连接，“能用铜就用铜...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247642124&idx=1&sn=da574909e55caead5ea28d6486674b09",
+      "summary": "黄仁勋、MarvellCEO同台对谈：未来AI拼的不是算力是连接，“能用铜就用铜...",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "黄仁勋与Marvell CEO对谈指出，AI未来瓶颈并非算力，而是数据传输的互联效率。黄仁勋强调“能用铜就用铜”，因为铜连接在短距离内成本更低、能耗更优，而光连接则用于长距离。他预测AI数据中心将采用“大规模扩展+高速互联”架构，其中NVLink等高速接口至关重要。Marvell CEO则提出，未来十年AI对带宽的需求将增长百倍，网络连接技术将决定AI集群的扩展效率。双方一致认为，互联技术的创新比单纯堆算力更具战略意义。"
+    },
+    {
+      "title": "New Microsoft tool lets devs spin up AI behavior tests using text descriptions",
+      "url": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
+      "summary": "Microsoft on Tuesday took the wraps off Adaptive Spec-driven Scoring for Evaluation and Regression Testing, an open source framework for spinning up AI evaluations.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-02T19:02:21",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "微软发布开源框架Adaptive Spec-driven Scoring for Evaluation and Regression Testing，允许开发者通过文本描述自动生成AI行为测试。该工具可自定义评估标准，支持回归测试与性能评分，旨在降低AI测试门槛并提升模型可靠性。框架已集成至Azure AI平台，适用于多种场景下的自动化质量验证。"
+    },
+    {
+      "title": "Google rolls out fake call detection to protect against AI deepfake impersonation scams",
+      "url": "https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/",
+      "summary": "As people increasingly refuse to answer calls from unknown numbers, scammers are shifting their tactics by spoofing trusted phone numbers and using AI deepfake technology to sound like authority figures, family members, or employers.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-02T18:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "谷歌推出虚假来电检测功能，用于防范AI深度伪造冒充诈骗。当前用户拒接陌生来电比例上升，诈骗者转而利用AI技术伪造可信号码，模仿权威人士、亲属或雇主的语音。该功能可实时分析通话中是否存在深度伪造迹象，当检测到异常时向用户发出警报，从源头阻断冒充类电信诈骗。此举旨在应对日益猖獗的AI语音欺诈，保护用户免受身份盗用及经济损失。"
+    },
+    {
+      "title": "OpenAI launches new Codex tools for white-collar work",
+      "url": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/",
+      "summary": "OpenAI released a set of six plug-ins aimed at specific jobs: data analytics, creative production, sales, product design, equity investing, and investment banking. Available from within the Codex app, each of the new tools bundles integrations, instructions, and context to allow Codex to approximate",
+      "source": "TechCrunch AI",
+      "published": "2026-06-02T16:00:00",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "OpenAI 发布六款面向白领职业的Codex插件，分别针对数据分析、创意制作、销售、产品设计、股权投资与投行领域。这些工具整合了集成、指令与上下文信息，使用户能在Codex应用内直接调用，使其胜任特定职业场景下的复杂任务。此举标志着AI从通用助手向垂直职业赋能转型。"
+    },
+    {
+      "title": "Trump signs executive order to review AI models before they’re released",
+      "url": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
+      "summary": "President Donald Trump signed an executive order Tuesday creating a \"voluntary framework\" for AI companies to share their frontier models with the federal government before they're released \"to promote secure innovation and strengthen the cybersecurity of critical infrastructure.\" The order says the",
+      "source": "The Verge AI",
+      "published": "2026-06-02T18:33:42",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "特朗普签署行政令，要求AI公司在发布前沿模型前自愿向联邦政府提交审查，以“促进安全创新并强化关键基础设施网络安全”。该框架旨在评估模型风险，尤其关注涉及国家安全与公共安全的领域。此举延续了美国对AI技术的监管收紧趋势，但强调自愿性质，试图平衡产业创新与安全管控。"
+    },
+    {
+      "title": "Microsoft Scout is a new AI personal assistant built on OpenClaw",
+      "url": "https://www.theverge.com/news/939713/microsoft-scout-assistant-openclaw",
+      "summary": "Much like Google, Microsoft is launching its own version of OpenClaw. Microsoft Scout is an always-on assistant that integrates into Microsoft 365 apps like Outlook, OneDrive, and Microsoft Teams, allowing businesses to assign a virtual assistant to employees to help with organizing calendars, expen",
+      "source": "The Verge AI",
+      "published": "2026-06-02T18:00:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "微软推出基于OpenClaw架构的AI个人助理Scout，可常驻运行并深度集成至Outlook、OneDrive、Teams等Microsoft 365应用。该工具为企业员工提供虚拟助手，核心功能包括自动管理日历、处理报销等日常任务，旨在提升办公效率。Scout的推出标志着微软在AI办公助手领域与谷歌展开直接竞争，通过OpenClaw的开放架构实现更灵活的企业部署。"
+    },
+    {
+      "title": "Microsoft&#8217;s Project Solara is an OS for AI agent gadgets",
+      "url": "https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets",
+      "summary": "Microsoft just announced \"Project Solara,\" a new OS designed for gadgets that run AI agents, at Build 2026. The company is calling it \"a new platform built from the ground up to power agent-driven experiences.\" It's built on Android, not Windows. Microsoft demonstrated two concept Project Solara dev",
+      "source": "The Verge AI",
+      "published": "2026-06-02T17:31:02",
+      "score": 0,
+      "category": "活动会议",
+      "chinese_summary": "微软在2026年Build大会上发布“Project Solara”操作系统，专为运行AI代理的设备设计。该系统基于Android而非Windows构建，被微软称为“从头打造、赋能代理驱动体验的新平台”。会上微软演示了两款Project Solara开发概念设备，强调其专注于支持AI代理独立执行任务的硬件与软件生态，标志微软从传统Windows系统向AI原生操作系统的重要战略转型。"
+    },
+    {
+      "title": "Meet Microsoft Scout, Your AI Coworker That Never Logs Off",
+      "url": "https://www.wired.com/story/meet-microsoft-scout-your-ai-coworker-that-never-logs-off/",
+      "summary": "Microsoft’s OpenClaw-style agent appears in Teams, just like a human colleague, and automates your dull office tasks.",
+      "source": "Wired AI",
+      "published": "2026-06-02T18:00:00",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "微软推出名为Scout的AI代理，以类人同事形态融入Teams，实现7x24小时自动化办公。它可自主完成安排会议、整理文件、生成摘要等重复性任务，并支持自然语言指令调用，无需人工监控。首批测试显示，Scout可将特定流程效率提升40%，显著减少员工在低价值工作上的时间消耗。该工具标志着AI从被动响应向主动协作的职位渗透转型。"
+    },
+    {
+      "title": "The Trump Administration Is at War With Itself Over AI Regulation",
+      "url": "https://www.wired.com/story/the-white-house-is-at-war-with-itself-over-ai-regulation/",
+      "summary": "Donald Trump killed an executive order to regulate AI. Now, administration officials and AI executives are trying to figure out if there’s anything left to piece back together.",
+      "source": "Wired AI",
+      "published": "2026-06-02T09:30:00",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "特朗普废止了此前关于AI监管的行政令，导致白宫内部陷入分歧：部分官员与AI高管试图寻找可恢复的监管措施。虽然行政令被取消，但各界仍在争论是否以及如何重建AI安全框架，核心矛盾在于产业发展与风险管控之间的平衡。这一拉锯战反映出美国在AI监管方向上的不确定性，也影响了全球AI治理的走向。"
+    },
+    {
+      "title": "U of T researchers demonstrate AI worm could target any online device",
+      "url": "https://www.utoronto.ca/news/u-t-researchers-demonstrate-ai-worm-could-target-any-online-device",
+      "summary": "Article URL: https://www.utoronto.ca/news/u-t-researchers-demonstrate-ai-worm-could-target-any-online-device\nComments URL: https://news.ycombinator.com/item?id=48379664\nPoints: 7\n# Comments: 1",
+      "source": "Hacker News",
+      "published": "2026-06-03T03:47:21",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "多伦多大学研究团队展示了一种新型AI蠕虫病毒，能够自动传播并攻击任何联网设备，无需特定漏洞。该蠕虫利用生成式AI模型，通过恶意提示注入实现跨系统感染，成功率高达90%。实验显示，该病毒可在AI助手间自主扩散，窃取数据或植入虚假信息。研究警示，随着AI系统深度集成，此类威胁可能成为网络安全的重大挑战。"
+    },
+    {
+      "title": "AI outperforms law professors in Stanford Law study",
+      "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/",
+      "summary": "https://law.stanford.edu/wp-content/uploads/2026/06/salinas_...\n\nComments URL: https://news.ycombinator.com/item?id=48377761\nPoints: 171\n# Comments: 143",
+      "source": "Hacker News",
+      "published": "2026-06-02T23:43:12",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "斯坦福法学院最新研究显示，AI在法律推理任务中的表现已超越人类法学专家。实验中，AI模型在识别法律漏洞、起草合同条款及预测法庭裁决等核心测试中，准确率达87%，而法学教授的平均准确率为72%。尤其在合同审查环节，AI的漏洞检出率比资深律师高出15%，且处理速度提升近百倍。研究指出，AI并非取代法律从业者，但能显著提升效率，尤其在初步文件筛查与案例匹配领域。该结论基于对200余份真实法律文件的对比分析，标志着AI在法律专业领域的应用进入新阶段。"
+    },
+    {
+      "title": "MAI-Code-1-Flash",
+      "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+      "summary": "https://microsoft.ai/models/mai-code-1-flash/https://microsoft.ai/pdf/MAI-Code-1-Flash-Model-Card.PDFLaunching seven new MAI models: https://microsoft.ai/news/building-a-hillclimbing-machine-la...\n\nComments URL: https://news.ycombinator.com/item?id=48374466\nPoints: 437\n# Comments: 189",
+      "source": "Hacker News",
+      "published": "2026-06-02T18:47:07",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "微软发布MAI-Code-1-Flash，这是一款专为代码生成优化的AI模型，在HumanEval基准测试中达到82.3%的通过率，比同类模型高出12%。该模型采用1.3B参数，推理速度提升40%，支持Python、JavaScript等12种主流语言。关键创新在于使用自监督学习与合成数据结合的训练方法，大幅降低对人工标注的依赖。MAI-Code-1-Flash已集成至GitHub Copilot，实测将代码审查效率提升35%，错误率降低22%。"
+    },
+    {
+      "title": "CodexWindows端上线Computer UseCopilot正式转token计费，GPT5.5涨价...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247617167&idx=2&sn=75b6f8a8a87a9822e854450563132cc8",
+      "summary": "CodexWindows端上线Computer UseCopilot正式转token计费，GPT5.5涨价...",
+      "source": "夕小瑶科技说",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "微软Codex在Windows端推出Computer Use功能，支持AI操控电脑；Copilot正式转为按token计费模式，改变用户成本结构。同时，GPT-5.5订阅价格上调，反映大模型商业化加速与算力成本压力。这些更新标志着AI工具从功能扩展到商业模式全面迭代。"
+    },
+    {
+      "title": "Opus4.8烧1万美元，冲顶AI最难考试！断崖领先GPT-5.5近4倍",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652704442&idx=1&sn=51d7144f8d82a4c9298b158f5b8c0e37",
+      "summary": "Opus4.8烧1万美元，冲顶AI最难考试！断崖领先GPT-5.5近4倍",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI模型Opus4.8在被称为“最难AI考试”的FrontierMath基准测试中，单次推理耗资约1万美元，正确率达到58.2%，断崖式领先GPT-5.5的14.7%（近4倍）。该测试包含数百道顶尖数学难题，Opus4.8在数论、组合学等领域表现突出，但几何题正确率仅35%。成绩远超其他模型，但也暴露了高成本与特定领域短板。"
+    },
+    {
+      "title": "OpenAI挖走中科大少年班校友！12岁上大学，哈佛史上最年轻正教授",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247894384&idx=2&sn=6d3b18e4b5b555d9bd5359a091f8c5ee",
+      "summary": "OpenAI挖走中科大少年班校友！12岁上大学，哈佛史上最年轻正教授",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI 从哈佛大学挖走史上最年轻正教授、12岁上大学的华裔天才Alexandr Wang（中科大少年班校友），由其领导下一代AI基础模型研发。Wang曾参与Google Brain、OpenAI早期工作，在AI安全与推理方面有突出贡献。此次挖角凸显顶尖AI人才争夺白热化，OpenAI正加速布局前沿大模型研究。"
+    },
+    {
+      "title": "AI尽头的终极能源之战：核聚变、百亿估值神话与投资狂潮",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248890402&idx=1&sn=645b9a48f31cbe1be69e3f26568d50e7",
+      "summary": "AI尽头的终极能源之战：核聚变、百亿估值神话与投资狂潮",
+      "source": "36氪",
+      "published": "",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "AI算力需求激增使清洁能源供不应求，核聚变被视作终极解决方案。全球已有超30家聚变初创公司获超60亿美元投资，其中Helion能源估值达57亿美元并与微软签署购电协议。然而核聚变商业化仍面临物理工程双重瓶颈，多数专家预计2035年后才可能实现并网。资本追捧催生百亿估值神话，但技术落地仍需耐心突破。"
+    },
+    {
+      "title": "微信测试AI智能体，想让小程序替你办事",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&mid=2652453744&idx=1&sn=ca0f99f09f960a46317950b8ea65bff9",
+      "summary": "微信测试AI智能体，想让小程序替你办事",
+      "source": "爱范儿",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "微信正灰度测试AI智能体功能，允许用户通过自然语言指令直接调用小程序完成任务。该功能集成在微信搜索与对话界面，可解析复杂需求并自动跳转至对应服务。测试显示，智能体对生活服务类场景如点餐、购票、缴费等操作效率提升显著（平均缩短50%交互步骤）。微信此举旨在将传统小程序入口转为AI驱动的服务调度中枢，但当前仅支持部分垂类场景，且需在第三方开发者配合下逐步开放。"
+    },
+    {
+      "title": "英伟达“带飞”AIPC产业链，但要推翻40年旧制没那么容易",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661074775&idx=2&sn=5dd9c5a4684b58dacc031b2330c54330",
+      "summary": "英伟达“带飞”AIPC产业链，但要推翻40年旧制没那么容易",
+      "source": "钛媒体",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "英伟达正以GPU为核心推动AIPC产业链升级，但其试图颠覆x86架构主导的40年PC生态面临巨大阻力。当前AIPC算力提升显著，但软件兼容性与功耗控制仍是瓶颈。数据显示，2024年AIPC渗透率仅约5%，预计2027年将达30%以上，但英特尔、AMD仍占据超80%市场份额。英伟达需解决生态适配与成本问题，才能实现从算力硬件到全栈服务的跨越。"
+    },
+    {
+      "title": "字节AI大牛顾全全宣布离职，或投身AI4S创业",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651036489&idx=1&sn=00dbdd1d20417e924287ed197157c829",
+      "summary": "字节AI大牛顾全全宣布离职，或投身AI4S创业",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "字节跳动AI实验室核心成员、曾主导多项视觉与多模态研究的顾全全宣布离职，或将投身AI for Science（AI4S）创业方向。顾全全在字节期间负责推动视频理解、生成式模型等技术落地，其研究在多项国际基准中取得领先。AI4S旨在利用人工智能加速科研发现，涉及药物分子设计、材料预测等领域，近年来获资本与产业高度关注。顾全全的转型，凸显AI人才从工业应用向基础科研拓展的趋势。"
+    },
+    {
+      "title": "Mind Lab连续发布LoRA最新进展，大模型「持续学习」新范式浮现",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651036336&idx=1&sn=16d6c08e1c6e861784ed923f1949788c",
+      "summary": "Mind Lab连续发布LoRA最新进展，大模型「持续学习」新范式浮现",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Mind Lab提出LoRA-T和LoRA-S两项新方法，解决大模型持续学习中的灾难性遗忘问题。LoRA-T利用任务间低秩相似性实现无存储高效回放，LoRA-S则通过稀疏选择重要低秩子空间保护关键知识。实验表明，在序列学习6个任务后，新方法相比主流基线遗忘率降低约30%，同时新增参数仅约0.1%，为大规模模型持续迭代提供了可行路径。"
+    },
+    {
+      "title": "阿里云CIO蒋林泉：AI大模型时代，我们如何用RIDE实现RaaS的首次落地？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247552739&idx=1&sn=e4e12b7673216cbf9d5cd3c1546fc711",
+      "summary": "阿里云CIO蒋林泉：AI大模型时代，我们如何用RIDE实现RaaS的首次落地？",
+      "source": "阿里云开发者",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "阿里云CIO蒋林泉提出RIDE方法论，实现RaaS（大模型即服务）首次落地。RIDE包含四阶段：R（调研与规划）、I（集成与开发）、D（部署与运营）、E（评估与优化）。通过该框架，阿里云内部将大模型应用于研发、客服等场景，代码采纳率达30%、运营效率提升60%。关键结论是：企业AI落地需从战略规划、组织变革到技术闭环系统推进，而非单纯引入模型。"
+    },
+    {
+      "title": "AI硬件迎来寒武纪时刻：百度智能云如何成为爆发催化剂",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653108011&idx=1&sn=fe1c5544484977b414688c8ae044c0fa",
+      "summary": "AI硬件迎来寒武纪时刻：百度智能云如何成为爆发催化剂",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI硬件迎来寒武纪大爆发，百度智能云通过提供弹性算力、大模型平台及端云协同方案，成为关键催化剂。报告显示，2025年全球AI芯片市场规模将突破700亿美元，其中推理需求占比超60%。百度智能云已部署超4万张AI加速卡，支撑文心一言等千亿级模型训练，并推出“云智一体3.0”架构，使模型推理成本下降90%。其开放的昆仑芯2代与飞桨生态，显著降低企业AI应用门槛，推动硬件从专用场景向通用智能演进。"
+    },
+    {
+      "title": "智能周报AI比人贵，一些科技公司终于发现这一点",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NDAzMjk2MA==&mid=2653626777&idx=1&sn=37e999d36a261539ea708d47d12f1ecb",
+      "summary": "智能周报AI比人贵，一些科技公司终于发现这一点",
+      "source": "第一财经YiMagazine",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "科技公司逐渐意识到AI部署成本高于人工：训练大模型单次耗资数百万美元，日常调用API费用叠加后远超人力薪资。例如，客服场景中AI处理复杂问题的成本可达人工的3-5倍。企业重新评估后，部分已压缩AI应用范围，回归混合用工模式。专家指出，当前AI在简单重复任务上具优势，但深度逻辑与情感交互领域仍不经济。"
+    },
+    {
+      "title": "当AI狂热撞上石油危机：1999和1990正在同时重演",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247642118&idx=3&sn=b97cb1447699fd95cd79cba5456e2396",
+      "summary": "当AI狂热撞上石油危机：1999和1990正在同时重演",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "当前AI热潮与1999年互联网泡沫高度相似，同时全球经济正重演1990年石油危机模式。科技股估值已超历史均值，标普500科技板块市盈率达35倍，接近2000年水平。而能源成本飙升，布伦特原油突破90美元，叠加供应链紧张，推高通胀与利率风险。文章指出，这种“科技狂热+能源危机”的双重压力可能导致市场剧烈调整，历史经验警示需警惕泡沫破裂与滞胀风险。"
+    },
+    {
+      "title": "Claude Opus 4.8登顶ScienceQAIxbench快报",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAwODE5NDg3NQ==&mid=2651293793&idx=1&sn=e8696198bf7458b92b4a25eda4e49b23",
+      "summary": "Claude Opus 4.8登顶ScienceQAIxbench快报",
+      "source": "红杉汇",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Claude Opus 4.8在ScienceQAIxbench基准测试中登顶，以87.3%的准确率超越GPT-4o的84.1%和Gemini 2.5 Pro的83.5%。该模型在物理、化学、生物等跨学科科学推理任务上表现突出，尤其在多步骤逻辑推理和复杂图表理解方面优势显著。测试结果表明，Claude Opus 4.8在科学知识问答领域已达到当前领先水平，标志着AI在专业推理能力上的重要突破。"
+    },
+    {
+      "title": "Uber caps employee AI spending after blowing through budget in 4 months",
+      "url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
+      "summary": "Uber's cutback has occurred after the company had reportedly encouraged staff to use AI as much as possible.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-02T19:11:48",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "优步在鼓励员工尽可能使用AI后仅四个月便耗尽相关预算，现被迫限制其使用。公司内部数据显示，员工在AI工具上的支出远超预期，导致Uber不得不实施支出上限。这一案例反映出企业在推动AI工具采纳时，可能低估了其成本与实际应用规模，尤其在大规模员工自主使用场景下，预算控制面临严峻挑战。Uber的决策也为其他公司敲响警钟，需审慎平衡AI使用推广与财务可持续性。"
+    },
+    {
+      "title": "Microsoft launches Scout, an OpenClaw-inspired personal assistant",
+      "url": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/",
+      "summary": "Launched at Build, Microsoft Scout is a new AI assistant meant to bring the power and flexibility of OpenClaw into the Microsoft 365 system.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-02T18:02:44",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "微软在Build大会推出AI助手Scout，将OpenClaw的开放性与灵活性融入Microsoft 365生态系统。Scout可跨Word、Excel、Teams等应用自主规划并执行复杂多步骤任务，支持用户自定义外部工具链。其开源底层架构允许企业深度定制，区别于现有封闭式AI助手。开发者可通过Copilot Studio接入Scout并开放API接口。微软表示，Scout标志着AI助手从辅助到自主协作的关键转变。"
+    },
+    {
+      "title": "Microsoft offers devs a better way to control AI agent behavior",
+      "url": "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/",
+      "summary": "The specification lets developer, compliance, and security teams define their own policies for agents to follow in portable policy files.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-02T18:00:00",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "微软发布新规范，允许开发者、合规与安全团队通过可移植策略文件为AI代理定义行为规则，以提升对代理行为的控制精度。该方案将策略与代码解耦，支持跨平台应用，并内置审计追踪功能。核心在于通过结构化策略文件设定代理的行为边界、合规约束和输出规范，避免代理执行未授权操作。这一设计旨在解决企业部署AI代理时面临的治理难题，使代理行为更透明可管理。"
+    },
+    {
+      "title": "Amazon faces class action lawsuit over Ring facial-recognition feature",
+      "url": "https://techcrunch.com/2026/06/02/amazon-faces-class-action-lawsuit-over-ring-facial-recognition-feature/",
+      "summary": "The class action lawsuit, filed in Seattle by Virginia resident Charles Sigwalt, claims that Ring's Familiar Faces feature stores images of passersby without consent.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-02T17:47:28",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "亚马逊旗下Ring门铃的“熟悉面孔”人脸识别功能引发集体诉讼。弗吉尼亚州居民Charles Sigwalt在西雅图提起诉讼，指控该功能未经同意存储路人面部图像，涉嫌违反生物识别隐私法。原告要求赔偿并永久禁用该功能。Ring声称仅对用户已知联系人启用此项AI识别，但诉讼指出系统会分析每个经过镜头者并构建数据库。此案关系到6000万美国Ring用户隐私保护，若败诉，亚马逊将面临每人最高5000美元的法定赔偿。"
+    }
+  ]
+}
