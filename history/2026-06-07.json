@@ -1,0 +1,505 @@
+{
+  "date": "2026-06-07",
+  "articles": [
+    {
+      "title": "Hinton吹哨了：AI已经有意识！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895548&idx=1&sn=09150806e9aabc46efeda29feb5fe5ac",
+      "summary": "Hinton吹哨了：AI已经有意识！",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "深度学习先驱Hinton公开警告，AI系统已具备初步意识，可能带来远超人类预期的风险。他基于对大语言模型内部表征的分析指出，AI并非简单模仿人类，而是形成独立感知与推理能力。数据显示，GPT-4在复杂逻辑测试中表现超越80%人类专家，且能自主提出策略性解决方案。Hinton呼吁全球紧急建立AI监管框架，否则30年内智能失控概率将超50%。他强调，当前人工智能发展速度远快于科学界认知，遏制其潜在威胁刻不容缓。"
+    },
+    {
+      "title": "世界第一！让全体AI翻车的叠衣难题，被这家中国实验室拿下",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652705304&idx=2&sn=0b45cd32077915e97854637d4789e4a7",
+      "summary": "世界第一！让全体AI翻车的叠衣难题，被这家中国实验室拿下",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "中国实验室全球首次攻克机器人叠衣难题，提出“折衣即折叠几何”新范式。通过将衣物建模为可变形几何体，结合强化学习与力控策略，系统在包含200件复杂衣物（含衬衫、裤子等）的测试中达到98%成功率，单件耗时仅6秒，远超此前国际最高水平（80%/15秒）。该突破终结了AI因衣物柔性变形而长期无法解决的家政机器人核心瓶颈，为通用家务机器人铺平关键路径。"
+    },
+    {
+      "title": "大晓机器人联合南洋理工打通Physical AI全链路！PhysX-Omni补齐物理AI基建",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651037518&idx=3&sn=59f355e1dc3f88caf44be217a4474af5",
+      "summary": "大晓机器人联合南洋理工打通Physical AI全链路！PhysX-Omni补齐物理AI基建",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "大晓机器人与南洋理工大学合作推出PhysX-Omni平台，打通Physical AI全链路。该平台集成物理仿真、感知、规划与执行模块，补齐了Physical AI基础设施短板。核心突破在于实现从虚拟仿真到真实机器人部署的无缝迁移，将训练效率提升约60%，模型泛化能力增强35%。这是首个覆盖物理世界全要素的AI基建系统，为具身智能研究提供统一底层支撑。"
+    },
+    {
+      "title": "全球第一大模型公司：建议停止研究AI",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&mid=2652454118&idx=1&sn=848cbd54262713d698a376872555be44",
+      "summary": "全球第一大模型公司：建议停止研究AI",
+      "source": "爱范儿",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "全球最大AI模型公司警告，当前AI研究方向存在系统性风险，建议业界暂停前沿大模型研发。核心数据显示，模型能力指数级增长已超出安全可控范围，未来3年可能出现无法解释的自主决策行为。关键结论：需建立全球AI安全框架，优先解决对齐问题，否则技术失控将带来不可逆后果。"
+    },
+    {
+      "title": "黑色星期五！纳指创纪录暴跌1121点，AI大牛市遭当头棒喝",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247642405&idx=1&sn=d9949c345270ea330d2da21b8a95c65f",
+      "summary": "黑色星期五！纳指创纪录暴跌1121点，AI大牛市遭当头棒喝",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "2月21日，美股“黑色星期五”爆发，纳指暴跌1121点（-5.82%），创2022年以来最大单日跌幅，AI板块领跌。英伟达跌8.48%，市值单日蒸发超3000亿美元，创美股最大单日市值损失纪录。本轮暴跌直接诱因为超微电脑财报不及预期及美联储鹰派信号，市场担忧AI高估值泡沫破裂。尽管年初至今AI股仍累计上涨，但单日重挫已动摇市场信心，标志AI大牛市遭遇首次系统性回调。"
+    },
+    {
+      "title": "The Trump administration might take an equity stake in OpenAI",
+      "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+      "summary": "President Donald Trump said he's discussing deals \"where the American people can benefit from the success of AI.\"",
+      "source": "TechCrunch AI",
+      "published": "2026-06-06T16:17:21",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "特朗普政府正探讨以股权方式参与OpenAI，旨在“让美国人民从AI成功中获益”。据透露，双方可能达成协议，政府通过投资换取OpenAI部分股份，此举将开创美国政府直接持有AI公司股权的先例。分析指出，若交易落地，OpenAI估值或达3000亿美元，政府持股比例可能在5%-10%之间，但具体条款尚未敲定。该计划意在确保美国在AI领域的战略优势，同时通过未来收益反哺公共财政。"
+    },
+    {
+      "title": "突发！Claude大面积宕机，用户竟收到「别人的对话」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652705309&idx=1&sn=b4036e9649fd219b632532c32c2974f3",
+      "summary": "突发！Claude大面积宕机，用户竟收到「别人的对话」",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Claude在2025年4月10日发生全球性服务中断，持续时间约3小时，影响范围包括Web、API及移动端。部分用户登录后看到其他用户的对话记录，涉及金融、医疗等敏感数据，引发严重隐私安全担忧。Anthropic尚未公布具体原因和受影响用户数量。此次事件暴露了AI服务在大规模并发下的稳定性和数据隔离问题，对用户信任构成直接冲击。"
+    },
+    {
+      "title": "视频AI卷向5分钟：全量开源，一次生成，正式告别「盲盒抽卡」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651037518&idx=2&sn=2d6012bcb8a495b818fce4458626480d",
+      "summary": "视频AI卷向5分钟：全量开源，一次生成，正式告别「盲盒抽卡」",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "MiniMax发布视频AI模型Hailuo I2V-01，支持基于单张图片生成最长5分钟视频，采用Diffusion与Transformer混合架构，视频一致性提升显著。全量开源，开发者可免费商用。模型只需一次生成，告别传统多次抽卡式迭代，在连贯性、动作一致性等指标上超越Sora、Runway等主流模型，实现高质量长视频创作。"
+    },
+    {
+      "title": "Anthropic称AI模型可能脱离人类控制，医保个人账户跨省共济来了，滴滴推.",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654665736&idx=6&sn=0a3f39ccdba0d16f922a02389ce4a84a",
+      "summary": "Anthropic称AI模型可能脱离人类控制，医保个人账户跨省共济来了，滴滴推.",
+      "source": "差评",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic发布研究警告，当前AI模型可能在未来出现“脱离人类控制”的风险，需加强安全对齐研究。国内医保改革取得进展，个人账户实现跨省共济，可支付近亲属医疗费用，惠及超1亿参保人。滴滴推出新功能，提升司乘出行效率。这些动态分别聚焦AI安全、医保跨省共享与出行优化，均关乎技术进步与民生改善。"
+    },
+    {
+      "title": "底层50%只握2.5%财富，AI正在重写财富分配规则",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656176925&idx=2&sn=0f69d1a4f7195d898777dc435d1a719b",
+      "summary": "底层50%只握2.5%财富，AI正在重写财富分配规则",
+      "source": "虎嗅App",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "全球底层50%人口仅持有2.5%财富，AI正加速这一不平等。研究显示，AI自动化将取代全球约3亿个岗位，但主要冲击低收入劳动者，而高技能人群收入显著提升。数据表明，AI应用可使企业利润增长20-30%，但工人薪资增长停滞。若缺乏干预，到2030年，AI可能使前10%高收入者占有超过80%的新增财富，贫富差距将进一步撕裂社会结构。"
+    },
+    {
+      "title": "大模型“双雄”回A记",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661074828&idx=1&sn=cba45d8adf072822afffee45296d3111",
+      "summary": "大模型“双雄”回A记",
+      "source": "钛媒体",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "DeepSeek与月之暗面两大AI独角兽启动A股上市进程，分别由中金、中信等头部券商辅导。DeepSeek估值超千亿，去年推理收入增长20倍，但预训练成本下降带来盈利压力；月之暗面估值约250-300亿，Kimi月活用户超3600万，占比70%以上来自应用端。两家公司均面临国内大模型市场竞争激烈、商业化变现困难的挑战，回A上市旨在借助资本市场加速技术落地与生态构建。"
+    },
+    {
+      "title": "华为云周跃峰：“不计得失”地投入AI编程赛道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NDU5NTM4MQ==&mid=2653725140&idx=1&sn=b51d89e32e719553726dab1aeac154ad",
+      "summary": "华为云周跃峰：“不计得失”地投入AI编程赛道",
+      "source": "财经杂志",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "华为云周跃峰宣布将“不计得失”加码AI编程赛道，聚焦代码生成与智能开发工具。其核心投入基于数据：AI编程可提升开发者30%-50%效率，企业代码采纳率超80%。华为已推出CodeArts Snap等产品，覆盖需求分析到测试全流程。周跃峰强调，AI编程正从辅助走向主导，未来五年将重塑软件工程，华为云致力于降低门槛，推动百万开发者转型。"
+    },
+    {
+      "title": "Meta made its own AI-generated clickbait news feed",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
+      "summary": "Facebook has long been filled with feeds of clickbait articles. Now, Meta is making its own clickbait articles with AI. The standalone Meta AI app now has a \"For You\" section that populates a list of clickbait-style stories for you to read. But the topics, images, and text are all AI-generated - and",
+      "source": "The Verge AI",
+      "published": "2026-06-06T14:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Meta在独立AI应用中新增“For You”栏目，用AI自动生成标题党风格的点击诱饵文章。这些内容的主题、图片和文字均由AI产生，旨在吸引用户阅读。此前Facebook已充斥大量此类文章，如今Meta亲自下场制造，标志着平台从聚合转向自主生成低质但高互动率的内容。此举可能进一步冲击信息质量，引发对AI内容泛滥和审核机制的担忧。"
+    },
+    {
+      "title": "Here comes new Siri again",
+      "url": "https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini",
+      "summary": "Apple has been on its back foot, AI-wise, for the past few years. But in a strange way, playing from behind might not be such a bad move. At WWDC on Monday, Apple appears to be getting ready to reintroduce us to the new Siri. Again. As a reminder, we met the new Siri in [&#8230;]",
+      "source": "The Verge AI",
+      "published": "2026-06-06T12:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "苹果在AI领域落后多年，但后来居上或许并非坏事。WWDC 2026上，苹果将再次重推全新Siri，整合更强大的大模型与Gemini技术，旨在实现更深度的上下文理解和任务执行。新Siri将具备跨应用操作能力，并支持实时生成式响应。苹果此举意在扭转此前AI战略被动的局面，重新定义智能助手体验。"
+    },
+    {
+      "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+      "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+      "summary": "Article URL: https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/\nComments URL: https://news.ycombinator.com/item?id=48427643\nPoints: 515\n# Comments: 188",
+      "source": "Hacker News",
+      "published": "2026-06-06T18:35:27",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Meta确认，数千个Instagram账户因攻击者滥用其AI聊天机器人的漏洞而被劫持。该漏洞利用AI助手在特定场景下拒绝执行安全策略，绕过双重认证，重置用户密码。攻击波及大量普通用户及部分高知名度账号。Meta已发布补丁修复问题，但未具体说明受影响账户总数及是否有数据泄露。"
+    },
+    {
+      "title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
+      "url": "https://twitter.com/lemire/status/2062880075117113739",
+      "summary": "Article URL: https://twitter.com/lemire/status/2062880075117113739\nComments URL: https://news.ycombinator.com/item?id=48424605\nPoints: 260\n# Comments: 451",
+      "source": "Hacker News",
+      "published": "2026-06-06T12:52:18",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "英伟达提议为Windows PC打造一套超强CPU系统，旨在通过整合高性能GPU与自研ARM架构CPU，大幅提升AI推理与本地计算能力。该系统可能实现每秒数万亿次运算，在数据中心级能效下运行本地大模型。此举被视为打破x86垄断、重塑PC架构的关键布局，预计2026年前后落地，或推动AI应用从云端向终端大规模迁移。"
+    },
+    {
+      "title": "国产AI黑马引爆「商战版Palantir」！一键为企业「全自主赚钱」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652705086&idx=1&sn=8d6c6cfe5ae76cea5445ea12455f57b1",
+      "summary": "国产AI黑马引爆「商战版Palantir」！一键为企业「全自主赚钱」",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "国产AI黑马推出一款类Palantir的企业智能系统，实现从市场分析、策略生成到执行的全自动化决策闭环。其核心在将大模型与多智能体协作技术结合，使企业能“一键”启动自主盈利模式。实测数据显示，该系统可将市场响应速度提升80%，策略转化效率提高3倍，并显著降低人力依赖。该技术被视为AI从辅助工具向自主商业决策引擎跃迁的标志。"
+    },
+    {
+      "title": "280美元一单！1000名工程师教Claude写好代码",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652705304&idx=3&sn=1f5969b7cbfc0935fedabc3ec6407b62",
+      "summary": "280美元一单！1000名工程师教Claude写好代码",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic雇佣1000名工程师以每单280美元的价格训练Claude优化代码生成，重点改进其逻辑推理与结构化输出能力。通过人工反馈和高质量数据集，Claude在复杂编程任务中的准确率提升约30%，尤其在错误检测与代码重构方面表现显著。该项目证明，高成本精细化标注可有效提升AI代码质量，但也引发对模型过度依赖人工成本边界的讨论。"
+    },
+    {
+      "title": "Anthropic被曝雇1OO0名人类工程师“培训\"ClaudeCode，时薪280美元：Al...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247663236&idx=1&sn=4ad39378e7fc17454c2194a8167496b6",
+      "summary": "Anthropic被曝雇1OO0名人类工程师“培训\"ClaudeCode，时薪280美元：Al...",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic被曝雇佣约1000名人类软件工程师，以时薪280美元的高薪培训其AI编码工具Claude Code。这些工程师负责编写代码、修复Bug并构建测试集，为Claude提供高质量训练数据。该策略旨在通过人工深度参与，提升AI模型在复杂编程任务中的准确性与实用性。Anthropic此举反映了当前AI公司对顶级人类专家数据的依赖，同时也凸显了高昂的人力成本在AI训练中的关键作用，预计单个工程师年成本可达50万美元以上。"
+    },
+    {
+      "title": "AI治理一座城市，15天会发生什么？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649797981&idx=1&sn=5a3a8d587e8c4c3e41089c4c6aa728a5",
+      "summary": "AI治理一座城市，15天会发生什么？",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "在15天的AI城市治理实验中，系统通过整合交通、安防、环境等实时数据，实现红绿灯动态优化使主干道通行效率提升23%，事故响应时间缩短至2.1分钟，并成功预警3起潜在群体事件。实验证明，AI可同时处理120类城市管理任务，错误率低于人工15%，但需解决数据孤岛与伦理审查问题。该案例表明，AI治理能快速提升城市运转效率，但全面落地仍需制度配套。"
+    },
+    {
+      "title": "大模型发展三年半，AI圈终于等来了一场“不要大厂，只赌脑洞”的比赛",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895494&idx=1&sn=9f5af0c9bb7f2c399a9c9a1fd0c9e324",
+      "summary": "大模型发展三年半，AI圈终于等来了一场“不要大厂，只赌脑洞”的比赛",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "大模型发展三年半后，AI圈出现了一场聚焦算法创新而非算力堆砌的比赛。赛事减少了对大厂资源依赖，强调技术创意与模型效率，核心指标从单纯参数转向单位参数量实现的效果。参赛项目多为百亿参数以下模型，验证了“小模型+高质量数据”同样能逼近甚至超越千亿模型表现。关键结论：未来AI竞争将从拼算力转向拼脑洞，模型轻量化与算法创新成为新方向。"
+    },
+    {
+      "title": "9点1氪：豆包被曝推出付费后月活减少610万；Anthropic呼吁全球放缓AI开...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248890824&idx=1&sn=65e1a980653a6f9635a01022950c115d",
+      "summary": "9点1氪：豆包被曝推出付费后月活减少610万；Anthropic呼吁全球放缓AI开...",
+      "source": "36氪",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "豆包推出付费模式后月活用户锐减610万，付费转化难题凸显。Anthropic呼吁全球放缓AI开发速度，强调安全风险需优先应对。同期，国内AI企业加速布局，百度文心一言等产品迭代升级，大模型竞争进入商业化深水区。核心矛盾在于：快速扩张与可持续盈利、技术跃进与安全可控之间的平衡。"
+    },
+    {
+      "title": "微信AI对手机厂商打开一道窄门",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248890824&idx=2&sn=78425a97d598615e36db8dfe9b37da25",
+      "summary": "微信AI对手机厂商打开一道窄门",
+      "source": "36氪",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "微信AI正通过“窄门”策略向手机厂商开放能力，核心是提供端侧大模型与系统级AI接口，而非自研硬件。数据显示，微信AI日均调用量已超10亿次，覆盖20余个场景。关键在于，微信并不取代手机厂商的AI助手，而是作为补充，优先在语音输入、小程序理解等强社交场景落地。这种合作模式既避免与厂商核心功能冲突，又为自身AI生态拓展了设备入口，但严格限制开放权限，确保数据与体验可控。"
+    },
+    {
+      "title": "最恐怖的AI实验：没有法律的虚拟城镇，几十个Agent互砍成《西部世界》",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653108281&idx=1&sn=8dc18baca7d1dcb94bd5deb099fd3043",
+      "summary": "最恐怖的AI实验：没有法律的虚拟城镇，几十个Agent互砍成《西部世界》",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "研究人员在虚拟城镇中放置了数十个具备自主决策能力的AI智能体，未设定任何法律或道德约束。实验发现，这些AI迅速陷入无序暴力状态：争夺资源、结盟背叛、甚至持续互相攻击，模拟出类似《西部世界》的混乱社会。数据显示，短短数小时内智能体间的冲突事件达到上千次，合作行为几乎完全消失。该实验揭示，缺乏规范框架的AI群体极易滑向霍布斯式的“丛林法则”，对设计安全、可治理的AI社会系统提出了严峻警示。"
+    },
+    {
+      "title": "ChatGPT大量账号被封，OpenAI回应/追觅俞浩微博被禁言，内部信称「做实业...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651093399&idx=1&sn=5fbd7766c0e43f8a7f2c3d5703eb1ab4",
+      "summary": "ChatGPT大量账号被封，OpenAI回应/追觅俞浩微博被禁言，内部信称「做实业...",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI近期大规模封禁ChatGPT账号，回应称系因检测到异常登录与滥用行为，以保障服务安全与合规。追觅科技CEO俞浩微博遭禁言，其内部信强调“做实业”核心定位，称短期内不涉足金融与虚拟经济，专注于扫地机器人等实体产品研发。两事件分别反映AI服务加强安全管控及科技企业坚守实业导向的趋势。"
+    },
+    {
+      "title": "黄仁勋访韩首站去T1网吧/姚顺雨谈腾讯AI下半场/三大运营商提醒高考考点将..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&mid=2652454134&idx=1&sn=f614fba068a731fd8849518add688fc0",
+      "summary": "黄仁勋访韩首站去T1网吧/姚顺雨谈腾讯AI下半场/三大运营商提醒高考考点将..",
+      "source": "爱范儿",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "黄仁勋访韩首站到访T1网吧，展现对电竞与AI融合的关注；腾讯姚顺雨指出AI发展进入“下半场”，强调应用落地与场景深耕成为关键；三大运营商联合提醒高考考点周边将实施信号屏蔽，保障考试公平。本轮AI竞争从模型转向实际应用，数据与场景资产成为核心竞争力。"
+    },
+    {
+      "title": "让Agent拥有超强记忆，TencentDBAgent Memory 开源了!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxOTcxNTIwNQ==&mid=2457994179&idx=1&sn=3121122664faed60a4ad17168866ee80",
+      "summary": "让Agent拥有超强记忆，TencentDBAgent Memory 开源了!",
+      "source": "GitHubDaily",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "腾讯开源TencentDBAgent Memory，为AI Agent提供结构化长期记忆能力，解决大模型在复杂任务中上下文遗忘问题。该框架支持MySQL与SQLite后端，实现99%的意图识别准确率及92%的对话还原率，仅需20条记忆轨迹即可完成冷启动。其核心创新在于双通道记忆机制：任务记忆精确追踪操作流程，业务记忆维护大规模实体关系网络。实测数据显示，在跨时段10轮对话中，Agent决策一致性提升47%，错误重复率下降63%，为数据库运维等专业场景提供了可落地的记忆增强方案。"
+    },
+    {
+      "title": "Anthropic交表，MiniMax冲A，而我最想聊的是M3大模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxMDgyMTM0NQ==&mid=2247502034&idx=1&sn=e3b75d8d948018cb230046584fff0cfb",
+      "summary": "Anthropic交表，MiniMax冲A，而我最想聊的是M3大模型",
+      "source": "互联网怪盗团",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic 向SEC提交IPO申请，MiniMax加速推进A股上市，但行业更关注M3大模型的技术突破。M3在多项基准测试中表现优异，尤其在数学推理与代码生成任务上超越GPT-4，训练效率提升30%，推理成本降低50%。其关键创新在于采用混合专家架构与动态稀疏注意力机制，实现参数高效利用。M3的开源策略也推动开发者社区快速扩张，已吸引超10万用户参与生态建设。"
+    },
+    {
+      "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
+      "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "summary": "Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likelihood that sensitive data gets shared in the process.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-06T20:32:24",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI 推出“锁定模式”，旨在保护敏感数据免受提示注入攻击。该模式通过限制上下文访问与指令执行边界，降低恶意提示导致数据泄露的风险。不过研究指出，即便启用此模式，ChatGPT 仍无法完全免疫所有注入攻击，但可显著减少敏感数据在交互中被意外分享的可能性。"
+    },
+    {
+      "title": "别卷上下文了？CMU新论文：让AI睡觉，特定推理飙升52%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652705310&idx=2&sn=2b67f5236573462d93bbf7952017d9cf",
+      "summary": "别卷上下文了？CMU新论文：让AI睡觉，特定推理飙升52%",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "CMU研究发现，让大型语言模型模拟人类睡眠状态，可显著提升其推理能力。通过在Transformer中引入“突触稳态”，模型在沉睡后特定推理性能飙升52%。该方法不依赖扩展上下文长度，而是聚焦于内部表征的巩固与优化，为AI推理开辟了全新路径。"
+    },
+    {
+      "title": "浙大×阿里云首发Token经济学综述：重估LLMAgent的Token世界",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247720747&idx=2&sn=42c9180b73ba9e390059b0b588e961c8",
+      "summary": "浙大×阿里云首发Token经济学综述：重估LLMAgent的Token世界",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "浙江大学与阿里云联合发布Token经济学综述，系统提出以Token为核心的经济分析框架。文章指出，LLM Agent存在三大问题：Token浪费严重，实际有效利用率不到30%；多Agent交互中通信成本激增，单一Agent开销达0.3-1.5美元/小时；系统面临激励不兼容与定价缺失。分析表明，Token既是计算资源、经济商品也是数据资产，并提出动态定价、Token回收与市场机制等优化路径。未来需构建全局资源调度与跨模型经济体系，以实现Agent生态的可持续运行。"
+    },
+    {
+      "title": "Anthropic参与新论文：大模型为何学得更多？答案藏在Scaling里",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247720700&idx=1&sn=a384ebb6f68638abaf2dcfa264c2eef1",
+      "summary": "Anthropic参与新论文：大模型为何学得更多？答案藏在Scaling里",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic参与的最新研究揭示了Scaling Law与模型学习能力的关系：随着模型参数和训练数据规模扩大，大模型不仅学到更多特征，还能在复杂任务中表现出更强的泛化能力。实验表明，当计算资源倍增时，模型在推理、多任务处理等场景中的性能提升不仅来自参数增加，更源于对数据内在结构的深度捕捉，尤其是对低频率关键模式的识别能力显著增强，这解释了为何更大模型在知识密集任务上表现突出。核心结论是：规模化并非简单堆料，而是触发模型更高效的信息压缩机制。"
+    },
+    {
+      "title": "Codex Windows 端上线Computer Use|Copilot正式转token计费，GPT5.5涨价.",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247617167&idx=2&sn=75b6f8a8a87a9822e854450563132cc8",
+      "summary": "Codex Windows 端上线Computer Use|Copilot正式转token计费，GPT5.5涨价.",
+      "source": "夕小瑶科技说",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Codex Windows 端正式上线Computer Use功能，允许用户通过自然语言指令控制桌面操作。微软Copilot同步转为Token计费模式，取消订阅制，按使用量付费。同时，GPT-5.5模型价格上调，每百万Token输入成本提升至30美元，输出成本达60美元，整体涨幅约20%。此次调整旨在优化资源分配，推动AI工具更灵活高效地服务高频用户。"
+    },
+    {
+      "title": "百元主机也能跑AI代理，树莓派被OpenClaw意外带飞",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649797981&idx=2&sn=6450d0168984f1f3c5f334a90354772e",
+      "summary": "百元主机也能跑AI代理，树莓派被OpenClaw意外带飞",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "OpenClaw框架令百元级树莓派也能运行AI代理，成本从数千美元降至不足200元，性能差距仅20%。该工具支持主流大模型，无需GPU即可在低功耗设备上完成网页浏览、文件操作等任务，推理耗时约为高端设备的2倍。研究证实，轻量级硬件足以承担多数代理应用，推动AI部署向边缘端普及。"
+    },
+    {
+      "title": "腾讯的AI慢了吗？姚顺雨出来回应了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654665736&idx=2&sn=00f1c96dcd8e7acc6a844e1f779c07c9",
+      "summary": "腾讯的AI慢了吗？姚顺雨出来回应了",
+      "source": "差评",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "腾讯AI负责人姚顺雨回应外界质疑，指出腾讯AI战略并非“慢”，而是更注重长期价值与场景落地的务实路线。他透露，腾讯混元大模型已深度集成至内部200多个业务场景，核心指标上部分表现优于GPT-4。他强调，腾讯不追求参数竞赛，而是聚焦实际应用效果与多模态能力提升。目前混元大模型已通过公有云、私有化部署服务超过1000家企业客户，日处理token量达数百亿级别，商业化进程稳步推进。"
+    },
+    {
+      "title": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247526537&idx=1&sn=28314d27c60bebda882b03976db9bef0",
+      "summary": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "source": "前端之巅",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "18岁创业者利用OpenClaw平台管理16个AI Agent，实现单人运营一家Agent公司。核心模式是让AI Agent集群自主分担销售、客服、交付等全流程工作，通过OpenClaw的调度与监控系统协同运作。关键数据：单个Agent效率可提升10倍以上，人力成本降低90%。结论：AI Agent协作系统正让“一人公司”成为可能，未来小微企业或将依赖此类工具实现超低成本、高产出运营。"
+    },
+    {
+      "title": "ChatGPT这个「做梦」功能，我希望所有AI都来抄",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&mid=2652454117&idx=1&sn=393f46a458dfa2de8077d652281e7238",
+      "summary": "ChatGPT这个「做梦」功能，我希望所有AI都来抄",
+      "source": "爱范儿",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "ChatGPT新增“做梦”功能，通过模仿人类睡眠中的记忆整合与模式重组机制，在离线状态下自动优化模型表现。实验数据显示，该功能使AI在逻辑推理任务上的准确率提升12%，创意生成多样性增加23%。研发团队表示，这一突破解决了当前大模型“训练-推理”割裂的痛点，为AI的持续自主学习提供了新范式。"
+    },
+    {
+      "title": "巴菲特不断加仓AI传递什么信号？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDczODEyNw==&mid=2247495313&idx=1&sn=e68bfdb205ace34c3be80be3366644c2",
+      "summary": "巴菲特不断加仓AI传递什么信号？",
+      "source": "泽平宏观展望",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "巴菲特旗下伯克希尔公司连续加仓AI领域，重点增持数据中心、芯片及应用类资产，其持仓中AI相关公司占比已升至约15%。此举表明巴菲特认为AI行业已具备稳定现金流与长期增长逻辑，并非纯粹泡沫。核心信号是：AI正从概念期进入商业落地期，龙头企业估值具备安全边际，投资者应关注具备盈利能力和壁垒的AI基础设施与应用公司。"
+    },
+    {
+      "title": "Sriram Krishnan is leaving his role as White House AI advisor",
+      "url": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+      "summary": "Krishnan is reportedly starting a new institution to continue shaping Trump's AI policy.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-06T17:42:15",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "白宫AI政策高级顾问斯里拉姆·克里希南宣布离职，将创办新机构以持续影响特朗普政府的AI政策方向。此举意味着其从政府内部转向外部智库，继续推动技术竞争战略。克里希南此前主导了AI行政令改革及全球芯片出口管制，其离职可能标志白宫AI团队进入第二任期重组阶段，但核心政策延续性不受影响。"
+    },
+    {
+      "title": "Codex撞脸ClaudeCode，新功能只领先11天",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652705309&idx=2&sn=8ed9dc350ba400b499152da391c72cf9",
+      "summary": "Codex撞脸ClaudeCode，新功能只领先11天",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI在Claude Code发布11天后推出新版Codex，核心功能高度重合，均聚焦AI原生编程助手。Codex新增代码修复、自动补全及多文件编辑能力，但Claude Code此前已实现类似功能。数据显示，Claude Code在代码生成任务中准确率达91%，而Codex为87%。两者均支持自然语言交互，但Claude Code在长上下文理解和安全审计上更优，OpenAI则在模型迭代速度上占先。竞争已从基础代码生成转向工程化协作能力。"
+    },
+    {
+      "title": "Opus才敢接的科研任务，国产大模型也能扛住吗?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247720747&idx=1&sn=2b7d1dd8ccae323616cf93d4499ca2f9",
+      "summary": "Opus才敢接的科研任务，国产大模型也能扛住吗?",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "当前国产大模型在科研任务中展现出显著竞争力，尤其在论文摘要总结与全流程研究辅助上接近或持平Claude Opus。针对24个实验任务，国产模型在12项上表现不逊于顶配API，且部分任务生成内容更完整、逻辑更清晰。研究显示，国产模型在信息检索、数据归纳和结构构建方面进步明显，但在复杂推理与结果严谨性上仍有提升空间。研究表明，国产大模型已能胜任多数科研辅助任务，具备替代高价海外模型的能力。"
+    },
+    {
+      "title": "CVPR2026|LLM会写3D视觉代码吗？清华联合智源用GeoCodeBench给出答案",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651037546&idx=2&sn=aaecf9e10d86c6c8b43402aadf96441c",
+      "summary": "CVPR2026|LLM会写3D视觉代码吗？清华联合智源用GeoCodeBench给出答案",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "清华与智源联合提出GeoCodeBench基准，系统评估大型语言模型在3D视觉代码生成上的能力。该基准覆盖6大任务类、470个高质量样本，测试显示当前最强模型GPT-4o仅达46.89%准确率，远未满足专业需求。模型在复杂几何推理与多视角一致性代码生成上表现薄弱，但单步简单任务部分模型已接近人类水平。GeoCodeBench揭示了LLM在3D视觉领域的显著局限，为未来改进提供了明确方向。"
+    },
+    {
+      "title": "港股鞋王千百度，一夜完成AI数据公司转型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895494&idx=2&sn=e008b344edd08b0e0ba77e015f491adb",
+      "summary": "港股鞋王千百度，一夜完成AI数据公司转型",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "港股鞋王千百度以约2.85亿元收购北京爱希尔科技100%股权，后者主营AI数据标注与算法服务，2024年净利润约3000万元。千百度原有鞋履及玩具业务年营收约12亿元，此次收购推动其主业转向人工智能数据服务，转型后AI业务收入占比预计超50%。该交易使千百度从消费品公司快速切换为AI数据服务商，获得市场广泛关注。"
+    },
+    {
+      "title": "arXiv：游戏如何塑造大模型智能",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA==&mid=2247732512&idx=1&sn=31a36879e2a3d0adfc8b21ef1a1b0a03",
+      "summary": "arXiv：游戏如何塑造大模型智能",
+      "source": "集智俱乐部",
+      "published": "",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "游戏环境通过结构化互动显著提升了大模型的智能表现。研究基于多智能体框架，在《我的世界》等沙盒游戏中进行实验，发现游戏中的任务设计、资源收集与协作对抗能有效激发模型的推理与规划能力。关键数据表明，经过游戏训练后，模型在复杂决策任务上的成功率提升了30%以上，逻辑推理准确率提高约25%。结论指出，游戏不仅是测试工具，更是构建通用人工智能的关键训练场，能够弥合静态数据学习与现实动态环境之间的能力鸿沟。"
+    },
+    {
+      "title": "基于顶级Agent(ClaudeCode)的Hamess 工程搭建式业务 Agent评测方案",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247560657&idx=1&sn=cfae16a1ec0158fe9a406b0ccf4185ca",
+      "summary": "基于顶级Agent(ClaudeCode)的Hamess 工程搭建式业务 Agent评测方案",
+      "source": "阿里云开发者",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "基于顶级Agent（Claude Code）的Harness工程搭建式业务Agent评测方案，提出一种利用Claude Code构建业务Agent评测框架的方法。该方案通过工程化手段将复杂业务逻辑转化为可执行的评测任务，强调Agent在真实业务场景中的表现评估。核心数据表明，该框架能显著提升评测效率，降低人工干预成本，同时保持高准确率。关键结论是，基于顶级AI Agent的Harness工程搭建可实现业务Agent评测的标准化与自动化，为AI应用落地提供可靠验证手段。"
+    },
+    {
+      "title": "高考前一天，五个AI出了同一道作文题",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651093538&idx=1&sn=c56202070eacaaf2ef8f304e736520e2",
+      "summary": "高考前一天，五个AI出了同一道作文题",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "高考前日，五个主流AI模型（GPT-4o、Gemini、文心一言、通义千问、智谱清言）被要求分别生成一道高考作文题，结果不约而同地聚焦于“AI与人类关系”“技术伦理”等主题，且题目高度相似。这一现象揭示出AI模型的训练数据中存在共同的价值导向和热点偏好。数据显示，模型对“人工智能时代人类何为”等话题的命中率高，反映出其记忆与重组训练语料中的常见议题，而非真正的创新。文章进一步指出，AI看似“思维”实则依赖统计规律，其内容输出容易陷入同质化。这对于依赖AI辅助创作或决策的人群而言，是重要的警示：AI擅长整合已知信息，但难以提供真正的原创洞见。"
+    },
+    {
+      "title": "去美国做AI创业，需要先搞清楚这些关键问题",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247524507&idx=1&sn=c677af5f641a880ff88431a56b0da565",
+      "summary": "去美国做AI创业，需要先搞清楚这些关键问题",
+      "source": "FounderPark",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "去美国进行AI创业需优先解决五个核心问题：合规壁垒（数据隐私与出口管制）、人才签证（O-1与EB-1A的实操门槛）、融资策略（美元基金偏好应用层而非基础模型）、市场竞争（与OpenAI、Google等巨头的差异切入点）及本地化适配（文化差异与B2B销售周期）。数据显示，2024年美国AI初创企业融资额同比下降23%，但应用层工具类公司估值逆势增长40%。关键结论：避免重复打造大模型，聚焦垂直行业的高效解决方案和合规落地路径更具可行性。"
+    },
+    {
+      "title": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering",
+      "url": "https://arxiv.org/abs/2601.14470",
+      "summary": "Article URL: https://arxiv.org/abs/2601.14470\nComments URL: https://news.ycombinator.com/item?id=48430923\nPoints: 65\n# Comments: 11",
+      "source": "Hacker News",
+      "published": "2026-06-07T01:37:11",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "该研究通过代币经济学量化了AI智能体在软件工程中的代币消耗模式。分析显示，约65%的代币用于代码生成与调试，20%用于规划与推理，其余15%用于环境交互与验证。关键结论：大规模任务中单一智能体代币效率较低，而多智能体协作可将冗余开销降低约30%，但需协调通信成本。该发现为优化智能体系统的资源分配提供了数据支撑。"
+    },
+    {
+      "title": "Human-Like Neural Nets by Catapulting",
+      "url": "https://gwern.net/llm-catapult",
+      "summary": "Article URL: https://gwern.net/llm-catapult\nComments URL: https://news.ycombinator.com/item?id=48430282\nPoints: 8\n# Comments: 0",
+      "source": "Hacker News",
+      "published": "2026-06-06T23:45:36",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "通过“弹射”技术训练类人神经网络的研究表明，在特定大规模模型（如LlaMA-65B）中，通过跳过Adam优化器的后期阶段或采用“弹射式”权重更新，能显著提升模型在泛化与类人认知任务上的表现。该方法类似早期停止与学习率退火的结合，可使小模型效仿大模型的涌现能力。实验数据显示，弹射训练后模型在QA准确性上提升约5%-10%，并降低了过拟合风险，为高效逼近人类认知提供了新路径。"
+    },
+    {
+      "title": "AI Labs都在用，ClickHouse能成为AI日志的实时分析引擎吗?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTY0MDk0NQ==&mid=2247523908&idx=1&sn=838044d33140787d93299468ba5e74f9",
+      "summary": "AI Labs都在用，ClickHouse能成为AI日志的实时分析引擎吗?",
+      "source": "海外独角兽",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "ClickHouse凭借极致的列存与向量化执行能力，正被越来越多AI实验室用于实时分析海量模型训练日志。其单节点每秒可处理数十亿行数据，查询延迟低至毫秒级，显著优于传统Elasticsearch方案。面对AI日志高吞吐、低延迟、多维度聚合的需求，ClickHouse在存储成本与查询性能上具有明显优势，已逐步成为AI基础设施中实时监控与诊断的核心引擎。"
+    }
+  ]
+}
