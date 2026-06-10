@@ -191,6 +191,14 @@ def _generate_and_upload_cover(articles, config, api_base, h, user, repo):
         if img_resp.status_code == 200 and len(img_resp.content) > 1000:
             img_b64 = base64.b64encode(img_resp.content).decode("ascii")
             cover_path = f"assets/cover-{today}.png"
+
+            # ✅ 同时保存到本地 output/assets/，确保被 GitHub Pages artifact 打包进去
+            local_assets = os.path.join(os.path.dirname(os.path.dirname(__file__)), "output", "assets")
+            os.makedirs(local_assets, exist_ok=True)
+            with open(os.path.join(local_assets, f"cover-{today}.png"), "wb") as f:
+                f.write(img_resp.content)
+            print(f"  ✓ 封面图已保存到本地: output/assets/cover-{today}.png")
+
             r = _upload_file(api_base, h, cover_path, img_b64, f"🖼️ 封面图 {today}")
             if r.status_code in (200, 201):
                 cover_gh_url = f"https://{user}.github.io/{repo}/{cover_path}"
