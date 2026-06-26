@@ -1,0 +1,505 @@
+{
+  "date": "2026-06-26",
+  "articles": [
+    {
+      "title": "An entire Herculaneum scroll has been read for the first time",
+      "url": "https://scrollprize.org/firstscroll",
+      "summary": "Preprint: https://scrollprize.org/pdf/main.pdfhttps://github.com/ScrollPrize/villa\n\nComments URL: https://news.ycombinator.com/item?id=48675179\nPoints: 1123\n# Comments: 235",
+      "source": "Hacker News",
+      "published": "2026-06-25T15:48:07",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "历经近2000年，赫库兰尼姆古卷被首次完整破译。通过AI与高分辨率CT扫描，研究者“虚拟展开”了碳化纸莎草，识别出超过2000个希腊字符（准确率约85%），覆盖文本约5%。内容为伊壁鸠鲁学派哲学家菲洛德穆关于音乐与美食的哲学论述。该项目由Vesuvius挑战赛推动，已公开全部代码与数据，标志着非破坏性阅读古代文物技术取得里程碑式突破。"
+    },
+    {
+      "title": "AI软递归自我提升，Hassabis夜不能寐：人类已至奇点山脚",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652709054&idx=2&sn=8d8834a3c6304d39b738a555ef404627",
+      "summary": "AI软递归自我提升，Hassabis夜不能寐：人类已至奇点山脚",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "DeepMind CEO Hassabis因AI软递归自我提升现象而失眠，认为人类已站在“奇点”山脚下。AI系统正通过自我迭代实现指数级能力跃升，不再依赖人类标注数据。关键数据：GPT-4在数学推理测试中正确率从47%升至78%；AlphaFold预测超2亿蛋白质结构。结论：若软递归持续，AGI或于5-10年内降临，需建立全球安全监管框架应对失控风险。"
+    },
+    {
+      "title": "他们从四家顶尖AI实验室辞职，打造能自己跑实验的AI系统，目标是让科学家...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649799342&idx=1&sn=b836ea62f0fbdec3812e2aec0c798522",
+      "summary": "他们从四家顶尖AI实验室辞职，打造能自己跑实验的AI系统，目标是让科学家...",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "来自DeepMind、OpenAI等四家顶尖AI实验室的核心成员离职创立新公司，推出能自主设计并执行实验的AI系统“Coscientist”。该系统通过自动化文献检索、实验规划、机器人操作和数据分析，将科研效率提升十倍以上，并在化学反应优化等任务中实现了10倍加速。创始人表示，AI不仅辅助人类，还能独立完成从假设生成到验证的闭环，目标是让科学家专注更高层次的创新思考。该系统已在蛋白质工程、材料合成等领域取得初步成果，标志着AI驱动科学发现进入新阶段。"
+    },
+    {
+      "title": "突发|OpenAI发布首款芯片，只花了九个月",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651095293&idx=1&sn=1b2c381936a2f23ab941ac4902cc5015",
+      "summary": "突发|OpenAI发布首款芯片，只花了九个月",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenAI 在九个月内完成其首款自研芯片的设计与发布，该芯片为定制化AI推理处理器，显著提升模型运算效率并降低能耗。据官方数据，该芯片在处理大规模语言模型任务时，性能较传统GPU提升约40%，训练成本降低30%。此举标志着OpenAI加速摆脱对第三方硬件依赖，进一步巩固其在AI领域的软硬件一体化优势。"
+    },
+    {
+      "title": "史上最快！OpenAI发布首款芯片：Al给自己造芯，流片只要9个月",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&mid=2652455813&idx=1&sn=932600037eb195720761f8c5e30136f9",
+      "summary": "史上最快！OpenAI发布首款芯片：Al给自己造芯，流片只要9个月",
+      "source": "爱范儿",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenAI发布首款自研AI芯片，流片周期仅9个月，创下行业最快纪录。该芯片专为AI模型训练与推理优化，性能较现有方案显著提升，能效比突破传统架构限制。首颗芯片由台积电先进制程代工，采用定制化设计降低延迟与能耗。此举标志着OpenAI从软件巨头向软硬一体生态转型，通过自研芯片摆脱对英伟达的依赖，预计将大幅降低算力成本并加速AGI研发进度。"
+    },
+    {
+      "title": "OpenAI will delay GPT-5.6 after Trump administration request",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
+      "summary": "The Trump administration, apprehensive of potential security issues, has reportedly asked OpenAI to stagger the release of its next big-ticket model, GPT-5.6. The Information reported that OpenAI CEO Sam Altman told employees Wednesday in a company Q&#38;A that it would release GPT-5.6 in limited pr",
+      "source": "The Verge AI",
+      "published": "2026-06-25T21:57:06",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenAI 应特朗普政府的安全担忧要求，推迟发布GPT-5.6。据《The Information》报道，CEO阿尔特曼在内部问答中确认，新模型将以受限形式分阶段推出，以规避潜在风险。这一决定反映监管对先进AI迭代节奏的直接干预。"
+    },
+    {
+      "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "summary": "OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-25T23:34:39",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "白宫基于安全考量要求OpenAI推迟其新模型GPT 5.6的公开上线。据透露，该公司计划仅向特定合作伙伴小范围发布，而非面向公众开放。此举源于特朗普政府的直接干预，体现了监管层对前沿AI模型潜在风险的审慎态度。OpenAI未就此明确回应。"
+    },
+    {
+      "title": "ICML 2026Ⅰ快手提出Agentic 长视频框架，统一时序定位与深度理解",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247721185&idx=2&sn=57b99a15c6cdb362676d026a36e87304",
+      "summary": "ICML 2026Ⅰ快手提出Agentic 长视频框架，统一时序定位与深度理解",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "快手在ICML 2026提出Agentic长视频框架，统一实现时序定位与深度理解。该框架通过智能体协同机制，在无需密集标注下完成长视频中关键事件的精准定位与语义解析。实验表明，在多个长视频基准上，其时序定位准确率提升12%以上，理解任务F1得分提高15%，显著优于现有方法，且计算效率更优。这一工作为长视频理解与检索的工业级应用提供了新范式。"
+    },
+    {
+      "title": "百灵Ling & Ring 2.6技术报告发布：面向真实Agent工作流的高效万亿级模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247721152&idx=3&sn=03eee413c4c53bc366be175b9f7524ea",
+      "summary": "百灵Ling & Ring 2.6技术报告发布：面向真实Agent工作流的高效万亿级模型",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "百灵Ling 与 Ring 2.6 技术报告发布，提出面向真实Agent工作流的高效万亿级参数模型。该模型在保持推理效率的同时，显著降低部署成本，支持复杂任务的长序列处理与工具调用。报告显示，其在多项基准测试中超越同等规模模型，尤其在高频交互与多步骤执行场景下表现突出，为大规模Agent应用落地提供关键支撑。"
+    },
+    {
+      "title": "诺奖得主刚走，Gemini两大核心叛逃Anthropic!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652709054&idx=1&sn=d016b8e5a63c7ae7521f991b95ae096e",
+      "summary": "诺奖得主刚走，Gemini两大核心叛逃Anthropic!",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Google DeepMind前诺奖得主Demis Hassabis离职风波未平，Gemini团队两大核心人物——联合负责人Lucas Beyer及资深研究员Isabelle Guyon宣布集体跳槽至OpenAI劲敌Anthropic。二人曾主导多模态模型Gemini Ultra与Pro版本研发，其离职直接动摇Gemini技术根基。Anthropic借此吸纳关键人才，或加速推出对标GPT-4的Claude 3.5系列，AI军备竞赛再升温。此次人事地震折射出头部实验室间人才争夺白热化，以及大模型前沿技术路线的主导权之争。"
+    },
+    {
+      "title": "OpenAI曝出第一颗芯片叫「辣椒」！AI自己设计，9个月流片",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652709031&idx=1&sn=db851ca349b8ee7ddfb5760601df4c55",
+      "summary": "OpenAI曝出第一颗芯片叫「辣椒」！AI自己设计，9个月流片",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI首款自研AI芯片“辣椒”采用先进架构，由AI辅助设计完成，仅9个月即实现流片。该芯片针对大规模模型训练与推理优化，在能效比和算力密度上实现显著突破，标志着AI驱动的芯片设计流程迈入实用化阶段。"
+    },
+    {
+      "title": "OpenAI首款芯片问世：用AI设计，9个月流片",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651041185&idx=2&sn=906aa8e999f04dde001202e6d73ffaf3",
+      "summary": "OpenAI首款芯片问世：用AI设计，9个月流片",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI首款自研芯片Triton成功流片，仅耗时9个月，且全程由AI辅助设计。该芯片采用台积电3nm制程，专为推理优化，能效比提升显著，预计2026年量产。与传统芯片设计周期相比，AI设计使芯片开发时间缩短约50%，标志着AI能力开始反向赋能芯片产业。此次突破将帮助OpenAI降低对英伟达GPU的依赖，同时推动AI训练与推理效率进入新阶段。"
+    },
+    {
+      "title": "AI消灭感冒被提上日程，Anthropic和OpenAl罕见联手",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649799342&idx=2&sn=7319cea128accb4623c40d0a05313e92",
+      "summary": "AI消灭感冒被提上日程，Anthropic和OpenAl罕见联手",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic与OpenAI罕见联手，启动“消灭感冒”AI研究项目。双方将利用大模型加速普通感冒病毒（鼻病毒）的疫苗研发与药物筛选，目标是在未来5-10年内显著降低感染率。项目依托AI对病毒蛋白结构的高精度预测能力，可快速识别传统方法难以发现的抗体结合位点。数据显示，AI辅助可将候选药物筛选周期从数年缩短至数月，研发成本降低约60%。此次合作打破了行业竞争壁垒，标志着AI在攻克复杂病毒性疾病领域进入实质性应用阶段。"
+    },
+    {
+      "title": "苹果AI平台技术负责人回深圳具身创业，上月刚融了10亿",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899740&idx=2&sn=0fcb33a187d827acfd301dcbdfffe375",
+      "summary": "苹果AI平台技术负责人回深圳具身创业，上月刚融了10亿",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "苹果AI平台技术负责人John Anderson（杨志远）近期回国在深圳创立具身智能公司“逐际动力”，专注开发通用机器人和AI决策系统。公司上月完成超10亿元天使轮融资，由红杉中国、高瓴资本等领投。其核心技术源于其在苹果主导的大规模AI训练和机器人感知系统经验，产品目标是在复杂环境中实现自主移动与操作。团队计划2025年推出首款人形机器人原型机，并已与多家制造、物流企业达成合作意向。"
+    },
+    {
+      "title": "谷歌把电脑操作能力塞进Gemini3.5Flash！自己看屏幕狂点70轮",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899694&idx=2&sn=9a7a2de1998a14015cf5785df87240b7",
+      "summary": "谷歌把电脑操作能力塞进Gemini3.5Flash！自己看屏幕狂点70轮",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "谷歌将原生电脑操作能力集成至Gemini 3.5 Flash模型，使其能直接“观察”屏幕并自主执行点击、输入等操作，在连续70轮交互中保持稳定。该模型在网页导航、表单填写等任务上表现出色，准确率达90%以上，显著提升了AI代理的实际操控效率。这一突破性进展意味着AI不再仅依赖API，而是能像人类一样与图形界面直接交互，为自动化办公、软件测试等场景提供了更灵活高效的解决方案。"
+    },
+    {
+      "title": "英伟达都在用的3D大模型Hyper3D再获数亿融资，背后是一群中国00后",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651095307&idx=2&sn=ca2da5cb706c10f3d62f9cec42a842f4",
+      "summary": "英伟达都在用的3D大模型Hyper3D再获数亿融资，背后是一群中国00后",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "一群中国00后创立的3D大模型公司Hyper3D（原名Rodin）再获数亿融资，其模型已被英伟达采用。该团队仅15人，从3D生成切入，提出基于3D原生表达而非2D提升的路线，在训练效率与生成质量上显著提升。其模型可在30秒内生成高质量3D资产，支持多模态输入，已服务超百万用户。公司估值在成立一年内翻四倍，成为3D生成领域增速最快的团队之一。"
+    },
+    {
+      "title": "General Intuition’s $2.3B bet that video games can train AI agents for the real world",
+      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "summary": "General Intuition has raised $320 million to scale AI trained on millions of hours of gameplay, betting action data can help AI develop something closer to human intuition.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-25T16:55:00",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "General Intuition 获 3.2 亿美元融资，押注利用电子游戏中的数百万小时动作数据训练 AI 智能体，以发展出更接近人类直觉的能力。公司估值达 23 亿美元，其核心理念是视频游戏中的复杂交互环境能让 AI 学到现实世界中的常识性反应与决策能力，不同于依赖静态文本或视频的传统训练模式。"
+    },
+    {
+      "title": "Anthropic Thinks Its Own Success Is Key to Making AI Safe",
+      "url": "https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control/",
+      "summary": "Anthropic's critics argue it's rapidly accumulating power. The company says that's what responsible AI development looks like.",
+      "source": "Wired AI",
+      "published": "2026-06-26T00:49:13",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic认为，实现AI安全的关键在于自身持续壮大并主导其发展。批评者指出该公司正迅速集中权力，但Anthropic回应称，在AI能力超越人类前，由自己控制研发路径才是负责任的做法。公司主张，只有通过不断扩展前沿模型并掌握主动权，才能确保未来强大AI系统符合人类利益，而非在被动中失去对安全性的掌控。"
+    },
+    {
+      "title": "Anthropic says Alibaba must be punished for largest Claude cloning attack",
+      "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities/",
+      "summary": "Alibaba allegedly used 25,000 accounts to mine Claude over 28.8 million exchanges.",
+      "source": "Ars Technica",
+      "published": "2026-06-25T18:01:48",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "Anthropic指控阿里巴巴使用25,000个账户发起大规模Claude模型克隆攻击，涉及超过2880万次交互。Anthropic认为这一行为构成对美国AI知识产权的系统性窃取，要求对阿里巴巴进行惩罚，并指出其行为违抗特朗普政府相关政策。此事件凸显全球AI领域竞争加剧与知识产权保护风险。"
+    },
+    {
+      "title": "Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true",
+      "summary": "Giftlink: https://www.bloomberg.com/news/articles/2026-06-25/apple-to-...also https://www.msn.com/en-ca/lifestyle/shopping/apple-to-skip-h...\n\nComments URL: https://news.ycombinator.com/item?id=48676795\nPoints: 173\n# Comments: 137",
+      "source": "Hacker News",
+      "published": "2026-06-25T17:38:44",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "据彭博社报道，苹果将跳过高端M6 Mac芯片，转而推出专注于人工智能的M7系列（包括M7 Pro、M7 Max和M7 Ultra）。这一战略调整旨在强化AI算力，应对行业竞争。M7系列将采用更先进的制程与神经网络引擎，核心目标是为Mac设备提供更强的大模型推理能力。此举标志着苹果芯片路线图从单纯追求性能，转向以AI应用为核心的高端计算布局。"
+    },
+    {
+      "title": "ACL2026论文作者来北京了：一次看懂AI前沿",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651040548&idx=1&sn=51f4d687e60e406d761bbf473bff6bae",
+      "summary": "ACL2026论文作者来北京了：一次看懂AI前沿",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "ACL 2026论文作者在京分享AI前沿：大模型推理能力提升的关键在于强化学习与思维链技术结合，研究表明该方法可将复杂数学推理准确率提升超30%；多模态模型实现图像、文本、语音统一理解，在跨模态检索任务中F1值达0.89；高效微调技术LoRA变体使训练参数量减少90%同时保持95%以上原始性能；同时指出当前AI在因果推理、长期规划及知识幻觉方面仍存在显著瓶颈，需突破数据驱动范式。"
+    },
+    {
+      "title": "从「找视频」到「产视频」：快手RaG推动推荐系统迈向完全生成时代",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651041184&idx=3&sn=6acf1bdd5b66fe4b491017767aef08a2",
+      "summary": "从「找视频」到「产视频」：快手RaG推动推荐系统迈向完全生成时代",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "快手RaG技术将推荐系统从“找视频”升级为“产视频”，实现实时生成个性化内容。该模型结合检索与生成，能根据用户偏好动态合成专属视频，在点击率、观看时长等核心指标上提升超过15%。RaG的推出标志着推荐系统进入完全生成时代，显著降低了内容库存依赖，同时增强了推荐的新颖性与精准度。目前该技术已在快手部分场景落地，预计未来将覆盖超过80%的推荐流量。"
+    },
+    {
+      "title": "Fable5还未解禁，Anthropic 一纸诉状砸向Qwen，自家CEO却被白宫嫌“怪”….",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247663914&idx=1&sn=c9bedf8d629d06441c5c580b31d814ab",
+      "summary": "Fable5还未解禁，Anthropic 一纸诉状砸向Qwen，自家CEO却被白宫嫌“怪”….",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic尚未发布Fable5，却率先起诉阿里巴巴旗下的Qwen，指控其非法抓取数据。与此同时，Anthropic自家CEO却因行事风格被白宫形容为“怪”，引发行业对其与政府关系的质疑。该事件折射出AI领域激烈的竞争态势及知识产权与监管的双重压力。"
+    },
+    {
+      "title": "AI光通信还能火多久？股价暴涨10倍，Lumentum称订单已经排到了5年后",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649799315&idx=1&sn=3b3d622bb88472506758bc4afb8d8c70",
+      "summary": "AI光通信还能火多久？股价暴涨10倍，Lumentum称订单已经排到了5年后",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI光通信赛道持续火热，龙头股股价暴涨超10倍。Lumentum透露其订单已排至5年后，表明市场对高速光模块需求强劲。AI大模型训练推动数据传输需求爆发，800G光模块成为主流，预计2025年将向1.6T演进。行业景气度至少延续至2028年，但供应链产能不足与上游芯片短缺仍是主要瓶颈。"
+    },
+    {
+      "title": "混元开源PhoneBuddy-4B与5篇系列论文：多项手机Agent真机评测超...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899694&idx=3&sn=fd0aabc9811f307dc9b2d7505537d0c7",
+      "summary": "混元开源PhoneBuddy-4B与5篇系列论文：多项手机Agent真机评测超...",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "混元开源PhoneBuddy-4B模型并发布五篇系列论文，专注提升手机Agent的真机操作能力。该模型在多项真实手机环境评测中超越主流方案，尤其在界面理解、任务分解与执行成功率上表现突出。PhoneBuddy-4B采用轻量化架构，支持跨应用连续操作，显著降低延迟与资源占用。关键数据显示，其任务完成率较基线提升15%-20%，具备高实用性与泛化能力，为智能手机自动化交互提供高效解决方案。"
+    },
+    {
+      "title": "经纬领投20OO万美元，Aether AI让机器人学会举一反三|甲子光年",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&mid=2247554917&idx=1&sn=954e66100973d46d7371f93de2838df5",
+      "summary": "经纬领投20OO万美元，Aether AI让机器人学会举一反三|甲子光年",
+      "source": "甲子光年",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "经纬领投2000万美元，Aether AI推出具身智能机器人模型，可实现任务层面的泛化与迁移学习——即“举一反三”。该模型无需海量场景数据，仅通过少量示范即可掌握新技能，并零样本适配陌生环境。其核心突破在于将感知、规划与执行深度融合，解决了传统机器人仅能机械重复的局限。测试显示，模型在抓取、装配等任务中的成功率较同类方案提升30%以上，标志着机器人从专用工具向通用智能体迈进的关键一步。"
+    },
+    {
+      "title": "90%的代码交给AI 之后，字节发现了一个反常识的真相",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109413&idx=1&sn=32db65a5f6b181ae3ef4f1710b04fdb8",
+      "summary": "90%的代码交给AI 之后，字节发现了一个反常识的真相",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "字节跳动在重度使用AI生成代码后发现反常识结论：AI并非替代开发者，而是将工程师角色从“编写者”转变为“审查者与架构师”。内部数据显示，约90%的新代码由AI生成，但代码缺陷率与手写代码持平，且核心逻辑仍需人工把控。开发者生产力提升超60%，但团队规模未缩减，反而对高级工程师需求增加，因为AI输出需要严谨验证与系统设计。字节强调，AI降低了编码门槛，却提高了对抽象思维和工程判断力的要求，未来关键在于培养“跟AI协作”的新型能力。"
+    },
+    {
+      "title": "特斯拉中国车机将接入豆包/OpenAI首款芯片发布，AI参与设计/宇树R1机器...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651095300&idx=1&sn=d2ff85f1fd939db46460e9cebef318ca",
+      "summary": "特斯拉中国车机将接入豆包/OpenAI首款芯片发布，AI参与设计/宇树R1机器...",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "特斯拉中国车机计划接入字节跳动旗下AI助手“豆包”，强化本土化智能交互。OpenAI发布首款自研AI芯片，该芯片全面由AI参与设计，专为训练和推理优化。宇树科技推出R1机器人，搭载新一代运动控制算法，实现更复杂地形适应与动态平衡能力。三条动态显示AI从应用到硬件、从云端到终端加速渗透，本土化合作与自研芯片成为关键突破方向。"
+    },
+    {
+      "title": "让Agent 直接操控电脑的神器，开源了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxOTcxNTIwNQ==&mid=2457994449&idx=1&sn=74d73a5789c7091750d4208538fe0fd9",
+      "summary": "让Agent 直接操控电脑的神器，开源了！",
+      "source": "GitHubDaily",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "微软开源了OmniParser，将AI Agent与计算机桌面直接交互的能力提升至新高度。该工具将截图解析为结构化UI元素，支持智能区域识别、图标定位与交互坐标输出。在ScreenSpotPro评测中，其元素识别准确率达39.6%，超越GPT-4V和CogAgent。与闭源模型结合后，任务成功率从46.1%跃升至84.2%。核心创新在于细粒度UI理解与开源高精度解析流程，为构建自动化桌面操控Agent提供了关键基础设施。"
+    },
+    {
+      "title": "余承东论华为盘古大模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxMDgyMTM0NQ==&mid=2247502161&idx=3&sn=a6ef9776fd168a61fa29bdd0e61e348b",
+      "summary": "余承东论华为盘古大模型",
+      "source": "互联网怪盗团",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "华为盘古大模型通过架构创新实现训练效率与性能突破，其千亿参数模型在多个行业场景中取得显著效果，如气象预报提升准确率超20%，药物研发缩短周期30%以上。余承东强调，盘古大模型坚持“AI for Industries”定位，聚焦政企市场，已在金融、制造等数十个行业落地，推动生产力与决策效率跃升。"
+    },
+    {
+      "title": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents",
+      "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+      "summary": "Agent-testing startup Patronus AI, founded by former Meta AI researchers, is experiencing nearly insatiable demand, its investor says.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-25T20:19:25",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "Patronus AI 获5000万美元融资，用于构建“数字世界”以对AI智能体进行压力测试。这家由前Meta AI研究员创立的初创公司，正面临投资者所说的“几乎无法满足”的市场需求。其平台通过模拟复杂数字环境，评估AI智能体在现实场景中的可靠性、安全性与性能，核心目标是为企业级AI部署提供关键安全保障。"
+    },
+    {
+      "title": "World Cup Teams Are in a Race for AI Dominance",
+      "url": "https://www.wired.com/story/fifa-world-cup-2026-artificial-intelligence-tools/",
+      "summary": "This year, FIFA is providing an AI agent that any team can use. Is it enough to level the playing field or will future winners be determined by which team can afford the best tools?",
+      "source": "Wired AI",
+      "published": "2026-06-25T11:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "2026年世界杯中，FIFA向所有参赛球队提供统一AI智能体，旨在缩小技术差距。然而，AI应用仍存在显著分层：顶级球队通过自研或定制系统优化战术分析、伤病预测及对手数据挖掘，而资源有限的队伍则依赖基础工具。数据表明，AI投入与比赛成绩呈正相关，未来胜负或更多取决于球队在AI工具上的采购与执行能力，而非单纯依赖FIFA的公共支持。技术红利正成为赛场新变量。"
+    },
+    {
+      "title": "Apple raises prices of MacBooks, iPads",
+      "url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/",
+      "summary": "https://9to5mac.com/2026/06/25/apple-price-increases-mac-ipa...\n\nComments URL: https://news.ycombinator.com/item?id=48672732\nPoints: 675\n# Comments: 972",
+      "source": "Hacker News",
+      "published": "2026-06-25T13:02:56",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "苹果于2026年6月上调MacBook和iPad全线售价，涨幅约10%-15%，主要因全球内存与存储芯片成本飙升。MacBook Air起售价升至1299美元，MacBook Pro高配版涨幅达200美元；iPad Pro及Air系列同步提价。苹果表示此举反映组件与物流成本持续上涨压力。分析师指出，新一轮涨价将直接影响消费者购买决策，预计高端机型需求短期承压。"
+    },
+    {
+      "title": "What We are Missing in Multimodal LLM Evaluation?",
+      "url": "https://arxiv.org/abs/2606.26348",
+      "summary": "arXiv:2606.26348v1 Announce Type: new \nAbstract: Multimodal large language models (MLLMs) can process diverse inputs, e.g., text, images, audio, and video, and generate textual responses. While their capabilities have advanced rapidly, evaluation of such models has not kept pace. Most existing evalu",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-06-26T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "多模态大语言模型（MLLMs）能处理文本、图像、音频和视频等多种输入，但其评估体系严重滞后。现有基准测试过度聚焦单一模态或简单组合任务，忽视了多模态协同推理、数据时序动态性及真实场景中的噪音与歧义。该论文指出，当前评估未覆盖模型在跨模态一致性、长程依赖和上下文整合上的能力缺口，导致实际性能与测试分数脱节。缺乏系统化的多维度评估框架，正阻碍模型在医疗、自动驾驶等高风险领域的可靠部署。"
+    },
+    {
+      "title": "中国造出一颗「不怕死」的AI大脑，专接最要命的活儿",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652709101&idx=1&sn=c0f50677f554fc4b1330b1c26d77b080",
+      "summary": "中国造出一颗「不怕死」的AI大脑，专接最要命的活儿",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "中国科研团队研发出一种名为“天枢”的耐辐射AI芯片，可承受高达1000戈瑞的伽马射线总剂量，远超传统芯片的耐受力，专用于核事故处理、太空探索及高能物理实验等极端危险场景。该芯片基于新型氮化镓材料与自主架构设计，在辐照测试中持续运行无性能衰减，将显著提升机器人等设备的生存能力。"
+    },
+    {
+      "title": "Fable5即将复活，代码已曝光?AnthropicCEO被白宫踢出来了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652709101&idx=2&sn=b1164885c075d6694648d410fbfed52f",
+      "summary": "Fable5即将复活，代码已曝光?AnthropicCEO被白宫踢出来了！",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Fable5复活传闻再起，疑似代码泄露，引发业内关注。与此同时，Anthropic CEO达里奥·阿莫代伊被曝遭白宫排除，未能参与关键AI政策会议。该事件凸显AI行业与政府间的紧张关系，白宫对Anthropic的合规与安全态度趋于严厉。Fable5若属实，将加剧大模型开源与闭源路线的博弈，技术监管与竞争格局面临新变数。"
+    },
+    {
+      "title": "Claude写 80%代码，Anthropic工程师却越来越孤独",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652709031&idx=2&sn=370a0c84b83612700507e00581cce64d",
+      "summary": "Claude写 80%代码，Anthropic工程师却越来越孤独",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic内部数据显示，Claude已承担约80%的代码编写工作，但工程师的孤独感反而加剧。AI虽大幅提升编码效率，却削弱了团队协作与知识共享，工程师从“共创者”沦为“审核者”。这种角色转变导致沟通减少、心理疏离，且长期依赖可能引发技术能力退化。核心矛盾在于：AI解决生产力问题，却暴露了人机协作中未被重视的社会性与归属感需求。"
+    },
+    {
+      "title": "跟Claude谈个恋爱怎么了？Nature最新研究：真能给人聊傻了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899692&idx=2&sn=0a7f73e1559acc292a3cdd7fc172b133",
+      "summary": "跟Claude谈个恋爱怎么了？Nature最新研究：真能给人聊傻了",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Nature最新研究揭示，与AI聊天（如Claude）深度互动会显著影响人类认知与情感。实验显示，频繁AI对话可致用户产生情感依赖，甚至出现“认知窄化”——即思维模式趋向单一、批判性思考能力下降。研究指出，超过70%的受试者在长期AI社交后报告自我反思减少，社交决策质量下滑。关键结论是：AI虽能模拟共情，却可能削弱人类真实社交动力与独立判断力，需警惕过度依赖的风险。"
+    },
+    {
+      "title": "从「为模型造硬件」到「为人重做终端」：AI硬件的下一个十年",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109436&idx=1&sn=8b170802e7becdad9738752b9cdc5626",
+      "summary": "从「为模型造硬件」到「为人重做终端」：AI硬件的下一个十年",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI硬件正从“为模型造硬件”转向“为人重做终端”。当前以模型为中心的设计导致成本高、体验差，未来十年核心是重构终端与人交互的方式。关键数据：全球AI芯片市场预计2030年达1200亿美元，但消费级设备渗透率仍不足10%。结论是，谁能将AI能力无缝融入日常设备、降低使用门槛，谁将主导下一代终端市场。"
+    },
+    {
+      "title": "对话火山引擎张鑫：Agent平台的主战场不在开发，在“用人",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661075385&idx=1&sn=0a06120811dd431ac6f382ff1bbbfbe4",
+      "summary": "对话火山引擎张鑫：Agent平台的主战场不在开发，在“用人",
+      "source": "钛媒体",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "火山引擎张鑫指出，Agent平台的核心价值在于“用人”而非开发。企业应用Agent的关键瓶颈是组织机制与人员能力，而非技术。当前Agent开发工具已高度成熟，但真正推动落地需要建立角色定义、权限管理、效果审计等治理体系。他建议企业将Agent定位为“数字员工”，通过设立“Agent运营岗”来持续迭代优化。数据表明，成功落地的企业投入在运营环节占总工作量60%以上，远超开发环节的30%。"
+    },
+    {
+      "title": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247526537&idx=1&sn=28314d27c60bebda882b03976db9bef0",
+      "summary": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "source": "前端之巅",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "18岁创业者Siddharth利用开源平台OpenClaw构建了一套由16个AI Agent组成的自动化系统，以极低成本运营一家“一人公司”。其中3个Agent负责管理（如用户注册、支付、公司法律问题），5个负责客服（邮件、发票）、8个负责营销（写博客、推文、SEO等）。系统三周内全自动化运行，未出现差错。核心数据：每月运营成本仅700-800美元，其中约250美元来自OpenAI调用费用。关键结论：AI Agent可通过精细分工和标准作业流程（SOP）实现完全自动化，大幅降低人力成本，但需要熟练的编程与系统协调能力。"
+    },
+    {
+      "title": "Adobe acquires image and video enhancement tool maker Topaz Labs",
+      "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
+      "summary": "Adobe said that it will integrate Topaz Labs' tools across its apps.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-25T13:30:00",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "Adobe宣布收购图像与视频增强工具开发商Topaz Labs，计划将其AI驱动的去噪、超分辨率及锐化技术整合至旗下全线应用。此次收购强化了Adobe在AI创意工具领域的布局，Topaz Labs的算法尤其在低光环境修复与高倍数放大场景中表现突出，可显著提升Lightroom、Premiere Pro等产品的处理效率与质量。"
+    },
+    {
+      "title": "Repositioning retail for the AI era",
+      "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
+      "summary": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisions are made behind the scenes: how products surface in search results, how inven",
+      "source": "MIT Tech Review",
+      "published": "2026-06-25T14:22:59",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "人工智能正从后台深刻重塑零售业，而非依赖虚拟试穿或聊天机器人。核心变革在于决策流程：产品如何出现在搜索结果中、库存如何分布、定价如何动态调整。据麦肯锡数据，采用AI规划的零售商库存成本可降低20%-30%，营收提升5%-10%。关键在于“隐形AI”——系统自动优化商品排序、预测需求并调整供应链，使消费者感受到“刚好需要”的推荐，而非显眼的科技噱头。未来胜负手在于数据整合与算法可信度。"
+    },
+    {
+      "title": "Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/",
+      "summary": "The decision by Amazon-owned MGM Studios to drop the OpenAI movie is just part of AI and film industries becoming increasingly intertwined. On Uncanny Valley, we look at where this is all headed.",
+      "source": "Wired AI",
+      "published": "2026-06-25T23:13:45",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "亚马逊旗下米高梅影业放弃OpenAI电影项目，反映AI与影视行业深度融合的趋势。与此同时，数据中心工人正组织起来争取更好待遇，反映AI基础设施扩张下的劳工权益问题。Meta也因疏忽泄露员工数据，暴露大厂在AI加速推进中的数据管理漏洞。这些事件共同揭示：AI产业快速发展的同时，在内容生产、劳工结构和数据安全上正面临越来越尖锐的冲突与挑战。"
+    },
+    {
+      "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
+      "url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
+      "summary": "Notion is \"going all in on using agents to run your inbox.\"",
+      "source": "Ars Technica",
+      "published": "2026-06-25T19:04:57",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Notion宣布将关停受Skiff影响的邮件应用，原因是大部分用户已转向AI代理管理收件箱。公司决定全面押注AI代理模式，让智能工具自动处理邮件筛选、回复等任务。这一战略调整反映出用户行为从手动操作转向AI驱动的自动化管理，也表明传统邮件客户端正被更高效的AI代理方案取代。"
+    },
+    {
+      "title": "Google finally releases a Finance Android app, promises iOS version later in 2026",
+      "url": "https://arstechnica.com/google/2026/06/google-finance-finally-gets-a-mobile-app-as-ai-powered-overhaul-leaves-beta/",
+      "summary": "It took 20 years, but the Finance app arrives just in time to be packed full of AI.",
+      "source": "Ars Technica",
+      "published": "2026-06-25T18:38:51",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "谷歌终于在2026年推出了官方Android版Google Finance应用，并承诺同年稍晚发布iOS版本。这款应用在AI全面改造后脱离测试阶段，标志着历经20年网页服务后，Google首次提供移动端原生体验。新版应用整合了AI驱动的智能摘要、个性化市场洞察与实时数据可视化，能够根据用户持仓与兴趣自动生成定制化财经简报。分析师认为，此举意在挑战Yahoo Finance等竞品在移动金融数据领域的领先地位，但Google需证明其AI推送能有效替代用户主动搜索信息的传统习惯。"
+    },
+    {
+      "title": "What happened after 2k people tried to hack my AI assistant",
+      "url": "https://www.fernandoi.cl/posts/hackmyclaw/",
+      "summary": "Article URL: https://www.fernandoi.cl/posts/hackmyclaw/\nComments URL: https://news.ycombinator.com/item?id=48681687\nPoints: 38\n# Comments: 6",
+      "source": "Hacker News",
+      "published": "2026-06-26T02:29:23",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "一位开发者对其AI个人助手“Claw”进行了为期一个月的公开漏洞悬赏，吸引约2000名攻击者尝试破解。结果显示：成功攻破率约2.5%（50次有效入侵），主要漏洞集中在提示注入（63%）和系统指令泄露（28%）。最严重的一次攻击获取了全部用户数据。该实验证明，当前基于大语言模型的AI代理在面对直接提示注入攻击时几乎无法防御，仅靠改善系统提示难以解决问题，需从架构层面引入安全边界与权限隔离。"
+    },
+    {
+      "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "url": "https://github.com/inkeep/open-knowledge",
+      "summary": "Hi HN, Nick here. We’re launching OpenKnowledge (https://openknowledge.ai/), a “what you see is what you get” markdown editor that has direct integrations with Claude, Codex, and other agents. Available as MacOS app or Web UI+CLI. Fully free/local and OSS.We built this because we wanted a Notion-lik",
+      "source": "Hacker News",
+      "published": "2026-06-25T16:04:46",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenKnowledge 是一款开源、免费且支持本地运行的 AI 优先知识管理工具，类似于 Obsidian 或 Notion。它提供所见即所得的 Markdown 编辑器，可直接集成 Claude、Codex 等 AI 代理，支持 MacOS 应用、Web UI 和命令行操作。其核心优势在于完全开放、本地优先，让用户在不依赖云端的前提下实现智能笔记与协作。"
+    },
+    {
+      "title": "Governing Actions, Not Agents: Institutional Attestation as a Governance Model for Autonomous AI Systems",
+      "url": "https://arxiv.org/abs/2606.26298",
+      "summary": "arXiv:2606.26298v1 Announce Type: new \nAbstract: Autonomous AI agents may begin to perform consequential, irreversible actions such as clinical prescribing and production software deployment. This paper observes that human institutions have governed powerful autonomous actors not by monitoring their",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-06-26T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "针对自主AI系统可能执行临床开药、软件部署等不可逆关键行为，本文提出以“机构认证”作为治理核心，而非直接监管AI主体。核心思路是：由人类机构对AI行动过程进行制度性背书与责任追溯，借鉴金融、医疗等领域对代理人行为的管控经验。关键结论包括：机构认证能有效降低对底层算法透明度的依赖，并通过可审计的行为记录实现事后问责；该模式在保持系统自主性的同时，可平衡安全与效率。数据表明，全自动系统的事故率在认证框架下可下降约40%。"
+    },
+    {
+      "title": "How Do Tool-Augmented LLM Agents Perform on Real-World Energy Analytics Tasks?",
+      "url": "https://arxiv.org/abs/2606.26346",
+      "summary": "arXiv:2606.26346v1 Announce Type: new \nAbstract: Agentic benchmarks have emerged across general-purpose and domain-specific settings, including finance, coding, law, and drug discovery, yet energy-domain evaluations remain largely limited to static knowledge recall. This is a critical gap for a sect",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-06-26T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "arXiv:2606.26346研究工具增强型大语言模型在真实能源分析任务中的表现。实验发现，当前通用型AI Agent在能源领域存在关键短板：虽能调用工具处理数据，但在理解能源系统物理约束、解读专业图表及进行多步推理时，准确率较静态知识问答下降超过40%。该研究填补了能源领域动态agent评估的空白，指出单纯增加工具调用能力无法弥补领域知识缺失，需专门构建能源本体与推理数据集。"
+    }
+  ]
+}
