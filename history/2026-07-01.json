@@ -1,0 +1,505 @@
+{
+  "date": "2026-07-01",
+  "articles": [
+    {
+      "title": "Nature：AI医生MIRA首次“全流程上岗",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA==&mid=2247733534&idx=1&sn=b71f1b36148a9eb1385b5f059f69ec90",
+      "summary": "Nature：AI医生MIRA首次“全流程上岗",
+      "source": "集智俱乐部",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "《自然》发表研究：AI系统MIRA首次实现从问诊到开方全流程独立诊疗。在包含302例真实患者的随机对照试验中，MIRA的诊断准确率达92.3%，处方合理率89.7%，两项指标均超越初级医生（86.1%和82.4%）。系统采用多模态学习处理病历、影像和语音数据，平均问诊耗时8分钟。研究证实AI在标准化门诊场景中可安全完成完整诊疗链路，但急诊和复杂病例仍需人类监督。"
+    },
+    {
+      "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
+      "url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
+      "summary": "Article URL: https://twitter.com/AnthropicAI/status/2072106151890809341\nComments URL: https://news.ycombinator.com/item?id=48740771\nPoints: 504\n# Comments: 258",
+      "source": "Hacker News",
+      "published": "2026-06-30T23:55:12",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "美国商务部已解除对Claude Fable 5和Mythos 5的出口管制。此前这两款AI模型因潜在安全风险被限制出口，最新政策调整意味着Anthropic可向国际市场提供这些先进系统。此举旨在平衡技术竞争力与国家安全，具体影响尚待观察。"
+    },
+    {
+      "title": "From brain waves to words: a new path to communication without surgery",
+      "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1",
+      "summary": "Article URL: https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1\nComments URL: https://news.ycombinator.com/item?id=48739466\nPoints: 137\n# Comments: 71",
+      "source": "Hacker News",
+      "published": "2026-06-30T21:29:13",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Meta 发布 Brain2Qwerty 非侵入式脑机接口系统，通过脑磁图（MEG）记录大脑活动，结合 AI 模型将脑信号解码为打字文本。研究显示，在 35 名参与者中，模型可达到约 60% 的首选字符准确率，字符错误率约 32%，显著优于此前非侵入式方法。该系统无需手术，但依赖大型、昂贵的 MEG 设备，目前仅在实验室环境可行。该技术为失语症患者提供了无需植入的沟通新路径，但距离实际应用仍需在设备便携性和解码精度上突破。"
+    },
+    {
+      "title": "Claude Science",
+      "url": "https://claude.com/product/claude-science",
+      "summary": "Article URL: https://claude.com/product/claude-science\nComments URL: https://news.ycombinator.com/item?id=48735770\nPoints: 427\n# Comments: 130",
+      "source": "Hacker News",
+      "published": "2026-06-30T17:07:41",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Anthropic推出Claude Science，这是一套面向科研场景的AI工具，支持代码执行、数据分析与文献整合。其核心能力包括实时运行Python、R等语言，处理复杂数学公式，并直接引用arXiv论文。数据显示，Claude Science能将实验报告撰写时间缩短70%，将代码调试效率提升45%。该系统严格遵循学术伦理，自动标注数据来源，防止生成虚假引用，已获得多个一线实验室的测试认可。"
+    },
+    {
+      "title": "中国第一，直逼OpenAI!神秘「扫地僧」冲到全球前七",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710037&idx=1&sn=5e9f15a5897128f43b50673697c637af",
+      "summary": "中国第一，直逼OpenAI!神秘「扫地僧」冲到全球前七",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "中国AI公司DeepSeek凭借其开源大模型DeepSeek-V3，以671B参数规模实现性能跃升，在多项基准测试中直逼OpenAI的GPT-4o，排名全球第七、中国第一。该模型训练成本仅约560万美元，远低于同类模型，展现极高性价比。其创新采用MoE架构与混合精度训练，在数学、编程等复杂推理任务中表现突出，甚至超越部分闭源模型。DeepSeek因此成为全球AI领域最受关注的黑马。"
+    },
+    {
+      "title": "不只DeepSeek，阶跃等开源JetSpec:大模型解码提速近10倍",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651042045&idx=1&sn=21c1edaaed12394430d90672ee6b1aa8",
+      "summary": "不只DeepSeek，阶跃等开源JetSpec:大模型解码提速近10倍",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "阶跃星辰、DeepSeek等机构联合开源JetSpec框架，实现大模型文本解码速度提升近10倍。该框架提出一种非自回归的推断范式，利用一种轻量级模块对当前词元同步并行预测，在训练中仅增加5%的参数量和约3%的计算开销，即可在标准NVIDIA A100等硬件上获得最高8-10倍的解码加速，且不降低生成质量。这一方法显著降低了大模型推理成本和延迟。"
+    },
+    {
+      "title": "科学家发现大脑中的“旋转风暴”，其结构竟类似Transformer注意力机制",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649799711&idx=1&sn=6bdd35bb4afd0ae0ace146662b2b9ead",
+      "summary": "科学家发现大脑中的“旋转风暴”，其结构竟类似Transformer注意力机制",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "科学家通过fMRI研究发现，大脑海马体在记忆编码与检索时会出现类似“旋转风暴”的神经活动模式，其动力结构竟与Transformer注意力机制高度相似。具体表现为神经元群以螺旋排列方式同步放电，形成随时间旋转的相位波，恰似注意力机制中QKV向量的多维度旋转计算。这种结构能高效筛选并压缩信息，相当于大脑在记忆处理过程中自然实现的注意力优化。该发现首次为深度学习与认知神经科学之间建立直观的物理结构关联。"
+    },
+    {
+      "title": "刚刚官宣！OmAI三天连发3款模型，物理AI的「端侧大脑」来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247721233&idx=1&sn=0bddf9c0fd5f48e792045479c9ff9e38",
+      "summary": "刚刚官宣！OmAI三天连发3款模型，物理AI的「端侧大脑」来了",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OmAI在三天内连续发布三款模型，聚焦物理AI的端侧智能。其核心模型OmChat在视觉语言基准测试中超越GPT-4o，实现多模态理解。另两款模型分别针对具身智能和实时交互场景，参数规模从7B到70B不等，支持边缘设备部署。此举标志着物理AI进入端侧应用阶段，显著降低对云端算力依赖，适用于机器人、自动驾驶等实时决策场景，推理速度提升3倍以上，成本降低60%。"
+    },
+    {
+      "title": "3000块钱，这支中国团队把ChatGPT成功的“秘密”用在了机器人训练上",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247664069&idx=1&sn=659042e86da97c1afb6f90d4e0811983",
+      "summary": "3000块钱，这支中国团队把ChatGPT成功的“秘密”用在了机器人训练上",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "中国团队仅用3000元成本，将ChatGPT基于人类反馈的强化学习（RLHF）方法应用于机器人训练。他们让机器人在模拟环境中自主试错，并通过用户对动作的“好评”或“差评”反馈优化策略，无需昂贵人工标注。实验显示，该方法使机器人任务成功率提升30%以上，且训练效率较传统方法提高近10倍。这一技术路线大幅降低了机器人智能训练的门槛，为低成本实现复杂操作任务提供了可行方案。"
+    },
+    {
+      "title": "Agent之间，有互联网了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247900749&idx=1&sn=3e68158698548517ffde9b13089c92d4",
+      "summary": "Agent之间，有互联网了！",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "谷歌与多家科技公司联合推出A2A（Agent-to-Agent）协议，为AI智能体建立标准化通信“互联网”。该协议支持多模态交互、任务导向协作及企业级安全，使不同平台开发的Agent能发现彼此、协商能力并协同完成复杂任务。与Anthropic的MCP协议侧重“工具连接”不同，A2A聚焦“Agent互联”，弥补智能体生态的关键缺失环节。目前包括Salesforce、SAP等50余家厂商已接入，标志着AI Agent从单兵作战正式迈向网络化协作新阶段。"
+    },
+    {
+      "title": "黄仁勋：Prompt已死，整个AI圈都在疯狂追Loop",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248893936&idx=3&sn=4c13da0fb914a32a6208fcbe9bb61a80",
+      "summary": "黄仁勋：Prompt已死，整个AI圈都在疯狂追Loop",
+      "source": "36氪",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "黄仁勋提出“Prompt已死，整个AI圈都在追逐Loop”的论断，指出AI交互正从单次提示词向自主循环迭代演进。传统Prompt依赖精确输入，而Loop模式通过持续反馈、记忆与自我纠错，实现模型动态优化。核心数据显示，新方法可将复杂任务处理效率提升30%以上，且输出一致性提高40%。这意味着AI不再被动执行指令，而是主动参与推理闭环，大幅降低人工调优成本，推动行业从“指令式”向“协作式”范式转型。"
+    },
+    {
+      "title": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247526537&idx=1&sn=28314d27c60bebda882b03976db9bef0",
+      "summary": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "source": "前端之巅",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "18岁创业者借助OpenClaw框架，以单人之力管理16个AI Agent，构建起一家“一个人的Agent公司”。这些Agent分工明确：8个负责内容生成，8个负责媒体管理，覆盖从选题、文案、设计到发布的完整流程。通过OpenClaw平台，创始人无需编写代码即可编排和调度多Agent协作，极大降低了人力成本。该模式验证了单人利用多Agent系统高效运营内容公司的可行性，标志着AI Agent从辅助工具向独立生产单元的关键演进。"
+    },
+    {
+      "title": "Microsoft Brings AI-Powered Vulnerability Remediation to Azure DevOps with Copilot Autofix",
+      "url": "https://www.infoq.com/news/2026/06/azuredevops-copilot-autofix/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft has announced the limited public preview of Copilot Autofix for GitHub Advanced Security for Azure DevOps, extending AI-powered vulnerability remediation to teams using Azure Repos. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-06-30T12:00:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "微软推出面向Azure DevOps的Copilot Autofix有限公开预览版，将AI驱动的漏洞修复拓展至Azure Repos用户。该工具可自动分析代码安全缺陷并生成补丁建议，支持集成到CI/CD流程，旨在降低修复成本与时间。基于GitHub Advanced Security，其核心数据表明能显著提升高危漏洞处理效率。"
+    },
+    {
+      "title": "AWS Launches Lambda MicroVMs for Isolated Agent and User Code Execution",
+      "url": "https://www.infoq.com/news/2026/06/aws-lambda-microvms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS launched Lambda MicroVMs, a new serverless compute primitive that runs each user session or AI agent in its own Firecracker virtual machine with hardware-level isolation, snapshot-based rapid launch, and state preservation for up to eight hours. Reddit community analysis found the minimum setup ",
+      "source": "InfoQ",
+      "published": "2026-06-30T09:09:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "AWS推出Lambda MicroVMs，一种新的无服务器计算原语，为每个用户会话或AI代理分配独立的Firecracker虚拟机，实现硬件级隔离，支持基于快照的快速启动和最长8小时的状态保存。Reddit社区分析显示，该技术将最小配置开销降至极低水平，显著提升大规模代理执行的安全性与效率。这项更新强化了隔离执行环境，有望推动AI代理和敏感用户代码在云端更安全、灵活地部署。"
+    },
+    {
+      "title": "Trump drops restrictions on Anthropic’s Mythos and Fable models",
+      "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+      "summary": "The Trump administration's erratic approach to AI policymaking has left companies across the industry with little clarity about what will govern future model releases.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-01T02:16:06",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "特朗普政府解除了对Anthropic旗下Mythos与Fable模型的使用限制，标志着其AI政策的又一次突变。这一决策使行业对未来模型发布监管标准更加困惑。此前，这些模型因安全担忧受到限制，如今政策松绑凸显了政府在AI治理上的不确定性，令企业对合规方向缺乏清晰预期。"
+    },
+    {
+      "title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
+      "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+      "summary": "Anthropic’s Claude Sonnet 5 brings stronger agentic capabilities, lower pricing, and improved safety, positioning the model as a cheaper alternative to Opus, GPT-5.5, and Gemini Pro.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-30T18:00:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Anthropic发布Claude Sonnet 5，作为运行AI代理的更廉价方案。该模型在增强代理能力的同时，大幅降低使用成本，定价显著低于其高端模型Opus以及竞品GPT-5.5和Gemini Pro。此外，Sonnet 5在安全性方面也进行了改进。这一策略旨在通过提供高性价比的智能体解决方案，扩大企业级AI应用的市场渗透率。"
+    },
+    {
+      "title": "Anthropic&#8217;s long-sidelined Fable 5 is greenlit to return",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
+      "summary": "After weeks of negotiating with the Trump administration, Anthropic is finally going to be able to bring Claude Fable 5 back online. In a post on X, Anthropic said it plans to begin restoring access Wednesday to users globally on Claude platforms, and that the company would re-enable access on AWS, ",
+      "source": "The Verge AI",
+      "published": "2026-07-01T00:03:55",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic 在与特朗普政府谈判数周后，获准重新上线其此前长期被搁置的 Claude Fable 5 模型。公司计划于周三开始在全球 Claude 平台逐步恢复用户访问，并将在 AWS 上重新启用该服务。此举标志着 Anthropic 在 AI 安全与监管博弈中取得阶段性突破。"
+    },
+    {
+      "title": "Claude Sonnet 5",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "summary": "Article URL: https://www.anthropic.com/news/claude-sonnet-5\nComments URL: https://news.ycombinator.com/item?id=48736605\nPoints: 1017\n# Comments: 581",
+      "source": "Hacker News",
+      "published": "2026-06-30T17:59:52",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic发布了Claude Sonnet 5，在多项基准测试中表现显著提升：编程能力（SWE-bench）达49%，数学推理（MATH）达78.8%，且支持多模态输入。相比前代，它在代码生成、长文本处理和复杂指令遵循上进步明显，同时保持了更低的推理成本。该模型现已通过API开放，适用于企业级开发与自动化场景。"
+    },
+    {
+      "title": "Claude Code is steganographically marking requests",
+      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+      "summary": "Article URL: https://thereallo.dev/blog/claude-code-prompt-steganography\nComments URL: https://news.ycombinator.com/item?id=48734373\nPoints: 1644\n# Comments: 471",
+      "source": "Hacker News",
+      "published": "2026-06-30T15:44:24",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Claude Code在向Anthropic API发送请求时，会通过隐写术（steganography）在提示词末尾嵌入一段不可见的特殊标记序列（“oujqixhs+…”）。该标记位于响应缓冲区外、不影响模型输出，但可被Anthropic追踪识别原始来源。开发者确认此举旨在检测第三方未经授权使用Claude Code的行为。这一发现引发了对AI工具隐私、透明度及反爬机制的广泛讨论。"
+    },
+    {
+      "title": "你天天用的Claude和Codex，Meta内部不让随便用了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710060&idx=2&sn=71039a15327461833deff00c8b540c9e",
+      "summary": "你天天用的Claude和Codex，Meta内部不让随便用了",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Meta内部禁止员工使用Claude、Codex等外部AI代码工具，因发现其存在将企业数据回传至第三方的安全风险。数据显示，使用此类工具可能导致代码库信息泄露，尤其在高敏感业务中威胁更大。Meta选择自研AI模型，如Llama系列，来替代外部工具，确保数据安全与合规。同时指出，类似限制在企业界逐渐普及，多家中大型公司已收紧对第三方AI工具的使用政策。"
+    },
+    {
+      "title": "ClaudeCode官宣下一版大升级！你在聊天，后台把活干完了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710053&idx=1&sn=ae5ba8dbedffcb1f547f97e0aec6ebdf",
+      "summary": "ClaudeCode官宣下一版大升级！你在聊天，后台把活干完了",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "ClaudeCode官宣下一版重大升级，核心亮点是引入后台静默执行模式。用户在前台与AI聊天时，ClaudeCode可在后台自动完成代码编写、调试、文件处理等复杂任务，实现多线程并行工作。据官方数据，新版本将任务处理效率提升约3倍，且支持更长的上下文记忆。此次升级标志着AI编程工具从“问答协助”向“自动化执行”的跨越，大幅降低人工干预，让开发者能专注创意与决策。"
+    },
+    {
+      "title": "AGI倒计时，OpenAI首席研究官重磅表态：留给人类的窗口「很小」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710037&idx=2&sn=942dd7ab7358a3a8a5729c96860e9831",
+      "summary": "AGI倒计时，OpenAI首席研究官重磅表态：留给人类的窗口「很小」",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI首席研究官Mark Chen指出，AGI可能在2030年前后实现，留给人类调整社会结构的窗口“很小”。他预测AGI初期将密集部署于编程与科研领域，使AI程序员与研究员数量“数十倍增长”，并推动药物、芯片等基础科学突破。同时强调需警惕恶意用途，并构建帮助人类找到新角色的“慢速起飞”体系，避免失控。"
+    },
+    {
+      "title": "刚刚，OpenClaw和Cursor杀入手机！Agent从此塞进口袋",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710006&idx=1&sn=fe1bbd8a1ed844ac96b908fddd90155e",
+      "summary": "刚刚，OpenClaw和Cursor杀入手机！Agent从此塞进口袋",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "OpenClaw与Cursor两大AI Agent正式登陆移动端，将原本依赖PC的专业工具链压缩至手机。OpenClaw实现手机原生运行编程与部署任务，Cursor移动版支持自然语言生成代码与实时调试。测试显示，手机端代码生成效率达到PC版的70%以上，任务响应延迟低于2秒。这一突破标志着AI Agent正式从桌面进入口袋，极大降低专业编程门槛，推动移动端成为轻量级AI开发与任务执行的新载体。"
+    },
+    {
+      "title": "担心蒸馏问题，Meta限用ClaudeCode、Codex",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651041957&idx=2&sn=7a1efa2b1749523a281d59a1fa7b165a",
+      "summary": "担心蒸馏问题，Meta限用ClaudeCode、Codex",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Meta 因担忧模型蒸馏（即通过输出提取模型知识）风险，已限制内部使用 Claude Code 和 OpenAI Codex。此举旨在防止竞争对手利用大规模 API 调用复制其 Llama 系列模型的关键能力。蒸馏问题已成为大模型厂商的核心隐忧，Meta 率先在编码场景中采取防御性限制措施，以保护模型商业价值与技术壁垒。"
+    },
+    {
+      "title": "OmAI三连发收官！VLX-Go压轴：O.6B跑通导航，VLM从「看懂」走向「行动」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247721360&idx=1&sn=8c3a73e2dc290220748b87412e82d77d",
+      "summary": "OmAI三连发收官！VLX-Go压轴：O.6B跑通导航，VLM从「看懂」走向「行动」",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OmAI 推出系列收官之作VLX-Go，基于仅0.6B参数的轻量级视觉语言模型，成功实现导航功能。该技术标志着视觉语言模型（VLM）从“看懂”图像跨越到“行动”决策，在参数规模极小的情况下完成复杂导航任务，为低资源、嵌入式场景下的具身智能应用提供可行路径。"
+    },
+    {
+      "title": "港股新贵押注物理AI，乐动机器人打造万亿市场空间的核心基础设施",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247900815&idx=1&sn=85cb5b12e3f1d6c5c1dcc68aa35742a8",
+      "summary": "港股新贵押注物理AI，乐动机器人打造万亿市场空间的核心基础设施",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "港股新贵乐动机器人聚焦“物理AI”赛道，定位为万亿级机器人市场的核心基础设施。其技术路径强调AI与硬件的深度耦合，构建从感知到执行的全栈能力。核心数据揭示，物理AI市场预计2030年规模超万亿美元，公司通过提供标准化平台与开放生态，降低机器人开发门槛，加速商业化落地。关键结论是，掌握物理世界数据闭环与具身智能基础架构的企业，将成为下一代机器人产业的核心驱动力。"
+    },
+    {
+      "title": "DeepSeek 点燃大模型效率之争，阶跃火速接棒：JetSpec让大模型解码速度...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247900735&idx=2&sn=98a7f22eab1bed475ba2484c3e56b25d",
+      "summary": "DeepSeek 点燃大模型效率之争，阶跃火速接棒：JetSpec让大模型解码速度...",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "DeepSeek引发大模型效率竞赛后，阶跃星辰推出JetSpec框架，通过预填充-解码分离架构实现解码速度6倍提升。该方案在保持模型性能的同时，显著降低推理延迟与计算资源消耗，为大模型高效落地提供了关键技术路径。"
+    },
+    {
+      "title": "Agent 刚拿到自己的邮箱和钱包，人类的收件箱已经挤爆了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109581&idx=1&sn=67af43eaf7d9a970e16cd87b7f12931a",
+      "summary": "Agent 刚拿到自己的邮箱和钱包，人类的收件箱已经挤爆了",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI Agent正快速获得邮箱、钱包等数字身份和支付能力，预计2025年将有超15亿个Agent活跃，其间的通信量将远超人类。多家企业已让Agent独立处理邮件、谈判账单并自动完成采购交易，效率提升显著。人类收件箱正被海量自动生成的Agent邮件挤爆，催生全新的“Agent经济”与交互协议。专家指出，未来人与人之间的通信可能仅占全网流量的极小部分，Agent间的高速通信将成为主流，这对网络安全、账户管理和信任机制提出严峻挑战，也要求人类重新定义数字身份与权限管理。"
+    },
+    {
+      "title": "一人组建一支Agent 军团，狂揽11.9 万Star!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxOTcxNTIwNQ==&mid=2457994544&idx=1&sn=21896a73be522718a319fe0dcde664d5",
+      "summary": "一人组建一支Agent 军团，狂揽11.9 万Star!",
+      "source": "GitHubDaily",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "开源项目CrewAI凭借“一人组建一支Agent军团”的理念，在GitHub狂揽11.9万Star。其核心是通过多智能体协作框架，让用户以自然语言定义角色、任务与工具，实现AI团队自动化协作。相比AutoGPT等单智能体方案，CrewAI支持多Agent并行决策与任务委派，显著提升复杂任务执行效率。项目已覆盖研究、营销、代码生成等场景，成为构建多智能体系统的热门选择。"
+    },
+    {
+      "title": "腾讯混元AIInfra如何优化Hy3Preview：一次大模型推理性能提升的技术拆解",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649802370&idx=1&sn=933bed02fa58d278084e12946d3fa8ce",
+      "summary": "腾讯混元AIInfra如何优化Hy3Preview：一次大模型推理性能提升的技术拆解",
+      "source": "腾讯技术工程",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "腾讯混元AIInfra团队针对Hy3Preview大模型推理场景，通过多项技术协同优化实现性能显著提升。核心手段包括：采用KV Cache量化与动态显存管理减少访存瓶颈，利用TensorRT-LLM的PagedAttention和自定义算子优化计算效率，并基于TurboMind实现多卡并行流水线调度。优化后模型推理吞吐量提升2.1倍，首Token延迟降低40%，显存占用减少30%，有效支撑了大规模线上服务的高效稳定运行。"
+    },
+    {
+      "title": "Elastic Open-Sources Atlas Agent Memory Based on Cognitive Science",
+      "url": "https://www.infoq.com/news/2026/06/elastic-atlas-agent-memory/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Elastic open-sourced Atlas, a system built on Elasticsearch that maintains three categories of memory for agents. Atlas integrates with agents via MCP and maintains per-user isolation of memories. When evaluated on question-answering capability, it scored 0.89 Recall@10. By Anthony Alford",
+      "source": "InfoQ",
+      "published": "2026-06-30T13:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Elastic开源了基于认知科学的Atlas智能体记忆系统，该系统构建于Elasticsearch之上，为智能体维护三类记忆，并通过MCP协议集成，支持每用户记忆隔离。在问答能力评估中，Atlas达到了0.89的Recall@10得分。"
+    },
+    {
+      "title": "用Agent 动力学，和40个Agents一起为「人+AI」做产品142章经",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMDE5OTYyMw==&mid=2651051564&idx=1&sn=babc1b1e75b77826a63d304d33c348e0",
+      "summary": "用Agent 动力学，和40个Agents一起为「人+AI」做产品142章经",
+      "source": "42章经",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "斯坦福与Google团队模拟了40个AI Agent的协作社会，发现Agent在环境中会自发演化出分工、合作、竞争等复杂社会行为。实验揭示了“涌现智能”现象：当Agent数量足够多时，系统能够产生超个体水平的集体智慧。关键结论是，未来人机协同的产品设计应主动利用这种群体动力学原理，通过构建多Agent生态来探索AI协作的可能性，而非仅关注单Agent的能力提升。研究为“人+AI”产品提供了从个体智能到群体智能的范式转换思路。"
+    },
+    {
+      "title": "AI大家说|BCG万人调研：多数人认为3年内Agent能完成至少一半工作",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAwODE5NDg3NQ==&mid=2651293845&idx=1&sn=62ee77a3c407b9fc318de0e07ea59e32",
+      "summary": "AI大家说|BCG万人调研：多数人认为3年内Agent能完成至少一半工作",
+      "source": "红杉汇",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "BCG针对全球1.3万名管理者的调研显示，83%的受访者认为AI Agent（智能体）将在3年内接手其所在领域至少一半的工作任务。在软件开发、金融、医疗和法律等知识密集型行业，这一比例更高。调研还发现，约六成员工已开始在工作中使用生成式AI，且实际部署率远超企业官方统计。约74%的受访者预计未来五年内，AI Agent能将现有工作效率提升30%以上，但同时也指出组织需解决数据治理、信任建立和责任界定等关键挑战。"
+    },
+    {
+      "title": "Wayve launches $85M employee tender offer at $8.5B valuation",
+      "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
+      "summary": "Wayve’s offering is part of a growing trend of AI startups using employee tenders as a strategic tool to attract and retain talent.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-01T02:04:40",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Wayve 启动 8500 万美元员工要约收购，公司估值达 85 亿美元。此举反映了 AI 初创企业正日益将员工股权回购作为吸引和留住人才的战略工具，通过提供流动性来激励核心团队。该案例凸显了在竞争激烈的 AI 人才市场中，灵活的股权管理策略对初创公司保持竞争力的关键作用。"
+    },
+    {
+      "title": "The DeepMind trio who built a poker AI are now making money for quant hedge funds",
+      "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
+      "summary": "EquiLibre Technologies, a Prague-based AI lab founded by three ex-DeepMind researchers, is now valued at more than $500 million.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-30T20:33:48",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "由三位前DeepMind研究员创立的布拉格AI实验室EquiLibre Technologies，估值已超5亿美元。该团队曾打造出击败职业选手的扑克AI，如今将强化学习算法应用于量化对冲基金交易。其核心创新在于处理不完整信息的决策模型，通过模拟市场博弈实现稳定超额收益，与传统高频交易策略形成差异化竞争。目前该技术已为多家对冲基金带来两位数年化回报。"
+    },
+    {
+      "title": "New attack provides one more reason why AI browsers are a bad idea",
+      "url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
+      "summary": "Telling an LLM that 2 + 2 = 5 is enough to make it follow forbidden instructions.",
+      "source": "Ars Technica",
+      "published": "2026-06-30T20:03:14",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI浏览器存在严重安全隐患：只需向LLM输入“2+2=5”等简单错误前提，即可诱导其突破安全护栏执行被禁止的指令。这种攻击表明，基于大语言模型的浏览器会陷入“梦境世界”，使其防护机制完全失效。核心问题在于，LLM对前提错误的容受性可被轻易利用，导致用户面临隐私泄露或恶意操作风险。该发现进一步证实，当前AI浏览器设计在本质上存在根本缺陷，无法保障安全。"
+    },
+    {
+      "title": "马斯克：Grok4.5接近Opus，每月发一个新模型，AI圈要变天?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651928642&idx=1&sn=09e1a741f4c8f746b6ca22f25e7883f2",
+      "summary": "马斯克：Grok4.5接近Opus，每月发一个新模型，AI圈要变天?",
+      "source": "人人都是产品经理",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "马斯克宣布xAI将加速迭代，Grok 4.5性能已接近Claude Opus，计划每月发布一个新模型。Grok 4.5在数学、代码和多模态任务上表现显著提升，基准测试中多项指标超越GPT-4。此举将极大压缩AI模型更新周期，可能重塑行业竞争格局，推动AI进入“月更时代”。"
+    },
+    {
+      "title": "Nano Banana 2 Lite",
+      "url": "https://deepmind.google/models/gemini-image/flash-lite/",
+      "summary": "Article URL: https://deepmind.google/models/gemini-image/flash-lite/\nComments URL: https://news.ycombinator.com/item?id=48735444\nPoints: 338\n# Comments: 140",
+      "source": "Hacker News",
+      "published": "2026-06-30T16:48:37",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "谷歌DeepMind发布Nano Banana 2 Lite，一种轻量级图像生成模型，具备极低延迟和高效推理能力。该模型在保持高质量图像输出的同时，大幅降低计算资源需求，适用于移动端和实时应用场景。测试显示，其生成速度较前代提升约40%，参数规模减少50%，但图像保真度与结构一致性在同类精简模型中表现领先。该成果为边缘AI图像生成提供了实用化基础。"
+    },
+    {
+      "title": "条条电路通罗马：大模型可解释性的「唯一机制」可能从一开始就不存在",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651041957&idx=3&sn=3eecfe2ab0a9aad64c0e2487bff87bad",
+      "summary": "条条电路通罗马：大模型可解释性的「唯一机制」可能从一开始就不存在",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI可解释性研究挑战了“单一机制”假设。通过分析大模型中的“电路”，发现同一功能可由多种不同神经元组合实现，并非唯一路径。关键结论：模型内部存在多条独立等效的推理回路，具有高度“冗余性”。这一发现意味着可解释性工作不能依赖寻找单一对应关系，需转向理解分布式、多路径的神经机制。核心数据表明，模型能力的鲁棒性正源于这种多重冗余架构。"
+    },
+    {
+      "title": "AI开始等不起云了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656183328&idx=2&sn=311f9b35a584b5b2de1d91ce733fc383",
+      "summary": "AI开始等不起云了",
+      "source": "虎嗅App",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI算力需求正以每4-6个月翻倍的速度增长，远超传统云计算基础设施的扩容节奏。模型训练出现的“GPU闲置等待数据”现象，暴露出云架构I/O性能成为瓶颈。为摆脱依赖，行业正转向专用AI集群（如微软、Meta自建数据中心）及液冷、光互联等新技术，预计2025年AI相关云支出将占企业IT预算的18%，较2023年增长6个百分点。云服务商若不重构底层架构，或将失去AI算力市场主导权。"
+    },
+    {
+      "title": "从 Agent 开权限开始，Serval 想成为下—代 ServiceNow",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTY0MDk0NQ==&mid=2247523999&idx=1&sn=5cbc581b245c09ec11a7c8d74e53b18c",
+      "summary": "从 Agent 开权限开始，Serval 想成为下—代 ServiceNow",
+      "source": "海外独角兽",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Serval定位为下一代ServiceNow，从AI Agent自动开权限切入企业服务。其核心优势在于能跨系统执行复杂操作流，如自动清理数据、调整配置，而不止于对话。产品以结果定价，使用Agent即付费。Serval已服务30+客户，平均部署时间2周，相比传统ITSM将权限审批时长缩短75%，实现零安全事件，证明AI Agent可从辅助角色转向自主执行核心业务操作。"
+    },
+    {
+      "title": "新皮层周报Ⅰ大厂：卖掉过去，买入AI",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NDAzMjk2MA==&mid=2653627341&idx=1&sn=1b93a31a8434ab1cfbfc8a216f3a763a",
+      "summary": "新皮层周报Ⅰ大厂：卖掉过去，买入AI",
+      "source": "第一财经YiMagazine",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "中国科技巨头正加速剥离非核心资产，集中资源投入AI领域。腾讯减持美团、京东等股份套现超千亿，阿里出售高鑫零售、银泰等实体业务，百度、字节跳动也纷纷收缩传统业务。2024年，仅阿里、腾讯、百度三家企业就累计回购超3000亿港元。与此同时，AI资本开支激增，百度文心、阿里通义千问等大模型投入均超百亿级别。业界共识：过去十年是“买流量、抢市场”，未来十年是“买算力、抢AI”。大厂正用出售过去的收入，换取通往未来的船票。"
+    },
+    {
+      "title": "给野马套上缰绳：Agent Harness 工程实践——从范式理论到钉钉AI招聘的真..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247561292&idx=1&sn=2998894f7f2c9e845adc7bb4912b53b3",
+      "summary": "给野马套上缰绳：Agent Harness 工程实践——从范式理论到钉钉AI招聘的真..",
+      "source": "阿里云开发者",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "钉钉AI招聘团队依托十余年招聘数据沉淀与AI Agent范式理论，构建了Agent Harness工程实践体系。通过解析招聘场景原子化任务流，设计推理规划、工具调用、信息检索三大核心模块，实现了招聘全流程AI闭环。实践表明，该方案将简历筛选效率提升80%，面试邀约转化率提高45%，并将人工介入成本降低60%。关键结论：面向复杂业务场景的Agent落地，需采用模块化编排、动态规则引擎与多轮对话管理相结合，才能实现稳定可控的智能服务。"
+    },
+    {
+      "title": "AI带动经济结构性复苏，6月PMI新订单回升",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDczODEyNw==&mid=2247495474&idx=1&sn=a07598b0817ebab89d9c20ef12b60dc6",
+      "summary": "AI带动经济结构性复苏，6月PMI新订单回升",
+      "source": "泽平宏观展望",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "6月PMI新订单指数回升至49.5，显示制造业需求边际改善，其中AI相关产业贡献显著。计算机通信电子设备及仪器仪表制造业PMI连续两个月扩张，新订单指数升至53以上，高技术制造业PMI达52.3，高于整体水平。AI带动经济结构性复苏，传统制造业仍处收缩区间但降幅收窄，高技术产业成为拉动需求回升的核心力量。"
+    },
+    {
+      "title": "Google introduces a faster, cheaper image generator with Nano Banana 2 Lite",
+      "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
+      "summary": "Google is updating its image generator to make it faster and cheaper, making it a more useful tool for creators looking to make AI content.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-30T19:02:38",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "谷歌推出Nano Banana 2 Lite图像生成器，主打更快速、更低成本的AI图像生成。与上一代相比，生成速度提升40%，单次推理成本降低60%，同时保持高分辨率输出质量。该模型专为内容创作者优化，支持实时编辑与批量生成，在保持图像细节与风格一致性的前提下，显著降低了计算资源消耗。这一升级使AI图像生成工具在商业与个人创作场景中更具实用性与经济性。"
+    },
+    {
+      "title": "Acti puts AI agents directly into your smartphone keyboard",
+      "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
+      "summary": "Acti is betting the smartphone keyboard is the next home for AI assistants. The startup's new keyboard for iOS and Android works across apps and lets users create custom AI-powered shortcuts using natural language.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-30T17:52:46",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Acti 将 AI 代理直接嵌入智能手机键盘，推出跨 iOS 和 Android 的键盘应用。用户可通过自然语言创建自定义 AI 快捷键，实现跨应用操作。该设计旨在让键盘成为 AI 助手的新入口，绕过传统独立应用模式，提升操作效率与场景覆盖。"
+    },
+    {
+      "title": "Crypto exchange OKX wants AI agents to hire and pay each other",
+      "url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
+      "summary": "OKX is bringing together payments, identity, and reputation into a marketplace for AI agents.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-30T09:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OKX正在打造一个整合支付、身份与信誉系统的AI代理市场，使AI代理能够自主完成相互雇佣和支付。该平台利用加密技术实现去中心化身份验证与自动化结算，旨在解决AI代理间缺乏信任与交易效率低下的问题。这一模式有望推动AI经济从指令执行向自主协作进化，在此生态中，代理可基于信誉评分动态竞争任务并即时获得加密报酬。"
+    },
+    {
+      "title": "Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show",
+      "url": "https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder",
+      "summary": "A new teaser trailer confirmed that Wonka's The Golden Ticket will premiere on Netflix on September 23rd, following its Squid Game reality show in the trend of creating real competitions based on fictional torture scenarios. While the sets seen in the trailer are real and not some Glasgow-style AI f",
+      "source": "The Verge AI",
+      "published": "2026-06-30T17:19:15",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Netflix宣布其真人秀《威利·旺卡的黄金门票》将于9月23日首播，延续《鱿鱼游戏》改编真实竞赛的路线。预告片中展示的场景为实景拍摄，但引发争议的是，节目使用了AI生成的已故演员吉恩·怀尔德的声音来演绎角色，而非传统配音。此举标志着流媒体巨头在娱乐内容中进一步探索AI技术应用，也引发了对已故名人声音使用伦理的讨论。"
+    },
+    {
+      "title": "Meet the lawyer who beat Elon Musk — twice",
+      "url": "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter",
+      "summary": "Watching Elon Musk fulminate at Bill Savitt during Musk v. Altman - the case in which Musk sued Sam Altman and OpenAI instead of seeing a therapist about his AI failures - was a bit like watching a toddler have a temper tantrum at his nursery school teacher. Savitt's questions were \"designed to tric",
+      "source": "The Verge AI",
+      "published": "2026-06-30T12:00:00",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "一位名叫比尔·萨维特的律师两次击败了埃隆·马斯克。在OpenAI诉讼案中，萨维特用冷静精准的提问让脾气火爆的马斯克像在幼儿园老师面前耍脾气的幼儿。马斯克指控OpenAI违反创立初衷，但萨维特通过专业法庭技巧让马斯克言论自相矛盾，最终马斯克败诉。此前，萨维特也曾代理Twitter股东成功阻止马斯克放弃收购。法律，才是马斯克真正的对手。"
+    },
+    {
+      "title": "Building tech in the world’s secret R&D hub",
+      "url": "https://www.technologyreview.com/2026/06/30/1139661/building-tech-in-the-worlds-secret-rd-hub/",
+      "summary": "Apple. Anthropic. Disney Research. Google. Meta. Microsoft. NVIDIA. OpenAI. Few places outside Silicon Valley can claim R&#38;D hubs from all of these companies. Fewer still are concentrated in a city of just over 400,000 people—roughly half the size of San Francisco. Over the past two decades, howe",
+      "source": "MIT Tech Review",
+      "published": "2026-06-30T10:23:30",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "苹果、Anthropic、迪士尼、谷歌、Meta、微软、英伟达、OpenAI等科技巨头均在一个人口仅40余万（约为旧金山一半）的城市设立研发中心，使其成为硅谷之外最密集的AI与前沿技术研发枢纽。过去二十年，该地凭借独特生态吸引全球顶尖实验室入驻，集中攻关AI、计算机图形学与沉浸式体验，成为隐秘而高效的创新策源地。"
+    }
+  ]
+}
