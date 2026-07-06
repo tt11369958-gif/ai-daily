@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 日报｜2026-07-05</title>
+<title>AI 日报｜2026-07-06</title>
 <style>
   :root {
     --bg: #0a0a0f;
@@ -162,9 +162,9 @@
   <div class="history-strip-wrap">
     <div class="history-strip" id="historyStrip">
   
-      <span class="hs-date hs-today active" data-date="2026-07-05" onclick="onDateClick(this)">
-        <span class="hs-day">周日</span>
-        <span class="hs-num">07-05</span>
+      <span class="hs-date hs-today active" data-date="2026-07-06" onclick="onDateClick(this)">
+        <span class="hs-day">周一</span>
+        <span class="hs-num">07-06</span>
         <span class="hs-tag">今天</span>
       </span>
     </div>
@@ -179,9 +179,7 @@
         <button class="cat-btn active" data-cat="全部">🤖 全部</button>
         <button class="cat-btn" data-cat="产品发布">🛠 产品发布</button>
         <button class="cat-btn" data-cat="政策监管">📋 政策监管</button>
-        <button class="cat-btn" data-cat="活动会议">🎪 活动会议</button>
         <button class="cat-btn" data-cat="研究突破">🔬 研究突破</button>
-        <button class="cat-btn" data-cat="融资并购">💰 融资并购</button>
         <button class="cat-btn" data-cat="行业动态">📊 行业动态</button>
 </div>
 
@@ -193,37 +191,37 @@
 
   <div class="news-grid" id="newsGrid">
 
-        <article class="news-card" data-rank="1" data-idx="0" data-category="融资并购"
+        <article class="news-card" data-rank="1" data-idx="0" data-category="行业动态"
                  onclick="goDetail(0)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#ffd700">#1</span>
-                    <span class="source-tag" style="background:#ef444420;color:#ef4444">💰 极客公园</span>
-                    <span class="cat-tag" style="background:#ef444430;color:#ef4444">融资并购</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 量子位</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">可灵独立后拿下 30 亿美元融资，打响AI视频竞赛下半场</h2>
-            <p class="card-summary">可灵AI从快手独立后完成30亿美元融资，资金将用于技术研发与生态建设。其视频生成模型在时长、分辨率及物理一致性上达到行业领先水平，推动AI视频竞赛进入商业化落地阶段。此次融资规模表明资本对AI视频赛道的强烈信心，也加速了与Sora等对手的竞争格局重塑。</p>
+            <h2 class="card-title">CVPR2026新作：AI绘画正式迈入「所控即所得」时代</h2>
+            <p class="card-summary">CVPR2026提出一项AI绘画新方法，通过引入空间感知控制模块与多尺度特征融合，实现了像素级精准生成。该方法在COCO与OpenImages数据集上，将布局一致性指标从72.3%提升至89.1%，推理速度仅增长12%。这意味着AI绘画从“随机生成”正式迈入“所控即所得”时代，用户可精确指定内容位置、大小与形状，生成结果与文本描述的对齐准确率提升超16%。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="2" data-idx="1" data-category="产品发布"
+        <article class="news-card" data-rank="2" data-idx="1" data-category="行业动态"
                  onclick="goDetail(1)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#c0c0c0">#2</span>
-                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 Hacker News</span>
-                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 DeepTech深科技</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance</h2>
-            <p class="card-summary">GPT-5.5 Codex在推理过程中引入“推理令牌聚类”机制，导致代码生成性能下降。研究表明，该机制将思考过程打包成聚类令牌，虽降低了交互延迟，却损失了中间推理步骤的多样性，使模型在面对复杂逻辑或边界条件时更易出现偏差。开发者反馈，聚类后的推理路径趋于同质化，对多步逻辑问题和异常处理的稳健性明显减弱，建议优化聚类策略以平衡效率与准确率。</p>
+            <h2 class="card-title">一张普通显卡也能跑300K长文本！AI长文本推理省内存神器面世，省53%显..</h2>
+            <p class="card-summary">字节跳动与新加坡大学联合推出InfiniGen，可让普通显卡运行300K长文本任务，显存占用降低53%。该技术通过智能预取长上下文的关键KV缓存，减少冗余存取，在单卡24GB显存条件下实现与多卡高端设备同等推理精度。实验显示，处理128K上下文时，InfiniGen仅需4.78GB额外缓存，而传统方法需19.8GB。这大幅降低了长文本AI应用的门槛，推动大模型在普通硬件上的落地。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-07-04</span>
+                <span class="pub-date"></span>
             </div>
         </article>
 
@@ -232,12 +230,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#cd7f32">#3</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 华尔街见闻</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">OpenAI提议向美国政府出让5%股权</h2>
-            <p class="card-summary">OpenAI提议向美国政府出让5%股权，以换取联邦政府对AI行业的全面监管框架支持。该方案具体为成立一个独立非营利组织，代表政府持有股权，参与公司治理。此举旨在缓解AI发展对国家安全及社会稳定的潜在风险。当前OpenAI估值达3000亿美元，5%股权价值约150亿美元。该提议标志着AI巨头主动寻求政府深度介入，以平衡技术创新与公共安全。</p>
+            <h2 class="card-title">HBM之父金正浩：AI的本质是内存，GPU真正工作的时间只有10%</h2>
+            <p class="card-summary">HBM发明者金正浩指出，AI计算效率瓶颈不在GPU算力而在内存带宽。当前GPU在AI任务中真正进行运算的时间仅占10%，其余90%都浪费在等待数据传输上。他强调AI的本质是内存，未来必须改革以数据为中心的计算架构，让存储更靠近计算单元。HBM内存通过堆叠设计将带宽提升数十倍，但依然不够。金正浩预测，随着AI模型规模持续增长，内存架构创新将成为决定AI性能的关键，而非单纯依赖制程工艺进步。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -249,12 +247,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#4</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 DeepTech深科技</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 夕小瑶科技说</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Anthropic也要造芯片了，还挖了OpenAl的芯片工程师</h2>
-            <p class="card-summary">Anthropic宣布自研AI芯片，并挖角OpenAI芯片工程师。此举旨在减少对英伟达的依赖，降低推理成本，并加强对算力栈的控制。目前其模型需在超40万颗H100/Grail组合上训练，预计芯片开发将耗时数年，初期可能用于推理而非训练。这一动向标志着头部AI公司正加速自研芯片布局。</p>
+            <h2 class="card-title">Anthropic推出ClaudeScience，科研界的Claude code来了！附实测</h2>
+            <p class="card-summary">Anthropic发布专为科研场景设计的ClaudeScience，它基于Claude 3.5，能深度整合文献检索、数据分析和代码生成功能。实测显示，ClaudeScience在处理复杂论文摘要、生成科研级代码和解析实验数据上表现突出，准确率显著优于通用模型，尤其在生物信息学和材料科学领域，任务完成效率提升约40%。该工具通过结构化交互降低了科研门槛，但需注意其输出仍需人工校验。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -266,12 +264,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#5</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 DeepTech深科技</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">3D打印微型核反应堆问世，AI算力迎来全新“心脏”</h2>
-            <p class="card-summary">美国能源部下属研究机构成功开发出3D打印微型核反应堆，其热功率达300千瓦，可连续运行10年无需换料。该微型反应堆体积仅相当于集装箱大小，采用耐高温、抗辐射的3D打印封装，显著降低制造成本与时间。这一突破为AI算力基础设施提供了稳定、清洁的能源解决方案，有望取代传统化石燃料发电，实现数据中心低碳化运营。未来，每个大型算力中心或将配备专属微型核反应堆，彻底改变AI产业的能源依赖格局。</p>
+            <h2 class="card-title">投毒！Meta竟雇外包，大规模给ChatGPT和Gemini下套</h2>
+            <p class="card-summary">Meta 被曝雇佣外包团队对 ChatGPT 和 Gemini 实施“投毒”式攻击，即提交恶意提示样本以诱导模型输出错误或有害内容，进而破坏其安全对齐机制。该计划代号“Dolphin”，外包人员在一天内提交数百条违规提示，试图“教坏”对手模型，以在竞争中占据优势。此行为揭示了 AI 行业暗战升级，大型模型的安全防线正面临系统性的被攻击风险，也引发对商业伦理与模型可信度的深层担忧。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -283,12 +281,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#6</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 机器之心</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Hinton盛赞，Gemini核心贡献者演讲：未来会有数十亿超人级AI爱因斯坦</h2>
-            <p class="card-summary">Hinton高度赞扬的Gemini核心贡献者预测，未来将出现数十亿个能力超越人类、堪比爱因斯坦的AI系统。这些超级AI将具备自主学习和科学发现能力，可能主导从药物研发到物理理论的所有知识突破。关键结论是：AI进化速度远超预期，通用人工智能（AGI）将在十年内实现，届时人类需面对智力被全面超越的生存挑战，数亿AI爱因斯坦将重塑文明格局。</p>
+            <h2 class="card-title">GPT-5.5突遭暗中降智，思考一到516就断！越难越翻车</h2>
+            <p class="card-summary">GPT-5.5被曝遭遇暗中降智处理，系统在推理至516个token时强制中断输出，导致复杂任务处理能力显著下降。测试显示，问题越难，模型翻车越明显，数学、逻辑等需深度思考的场景错误率激增。该限制或有别于官方声明的性能优化，疑似为控制计算成本而设，直接影响用户体验与AI可信度。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -300,32 +298,32 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#7</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 36氪</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 钛媒体</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">9点1氪：阿里内部全面禁用ClaudeCode；FF洛杉矶总部人去楼空？公...</h2>
-            <p class="card-summary">阿里巴巴因担心开源模型风险与数据安全，已内部全面禁用ClaudeCode。FF洛杉矶总部被曝人去楼空，物业方称其未续约且欠缴租金，FF回应称总部仍在正常运作，实为优化办公空间。此外，苹果Vision Pro在华销售不及预期，单季或仅卖出数千台；知乎净亏损同比收窄至1.58亿元，但用户增长仍承压。</p>
+            <h2 class="card-title">美伊新一轮会谈将在11日举行；OpenAI证实已秘密递交IPO|科股快报</h2>
+            <p class="card-summary">美伊新一轮会谈定于4月11日举行。同时，OpenAI已证实其秘密递交了IPO申请，引发市场关注。这一动态标志着AI领域领军企业正式启动上市进程，其估值及商业模式预计将对行业格局产生重要影响。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="8" data-idx="7" data-category="行业动态"
+        <article class="news-card" data-rank="8" data-idx="7" data-category="产品发布"
                  onclick="goDetail(7)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#8</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 极客公园</span>
-                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 InfoQ</span>
+                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
                 </div>
             </div>
-            <h2 class="card-title">阿里内部全面禁用ClaudeCode；带摄像头AirPodsPro项目「暂停」；黄仁.</h2>
-            <p class="card-summary">阿里内部已全面禁用代码生成工具ClaudeCode，以防范数据风险。苹果带摄像头的AirPods Pro项目暂时搁置，技术难点或成本问题尚未解决。黄仁勋最新动态未被详细披露，但反映AI硬件竞争持续加剧。行业面临工具安全与产品创新双重挑战。</p>
+            <h2 class="card-title">Claude Reaches GA on Microsoft Foundry: European Enterprises Cannot Deploy It</h2>
+            <p class="card-summary">Claude 模型已在 Microsoft Foundry 平台正式发布（GA），提供 Azure 原生计费与治理支持，但未设立欧洲数据区域。Anthropic 官方文档确认，数据驻留保障仅适用于 Bedrock 与 Vertex AI，不含 Foundry。来自欧洲银行和医疗行业的从业者反馈，该缺失限制了其在受监管行业的部署，欧洲企业无法正常使用。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date"></span>
+                <span class="pub-date">2026-07-05</span>
             </div>
         </article>
 
@@ -334,32 +332,32 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#9</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 钛媒体</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 经纬创投</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">可灵AI两部作品同时拿下戛纳金狮，视频大模型闯进商业创意主战场</h2>
-            <p class="card-summary">可灵AI的两部视频作品在戛纳国际创意节同时斩获金狮奖，标志着视频生成大模型正式进入商业创意核心领域。获奖作品分别由快手的可灵AI与品牌合作完成，展示了该模型在叙事、视觉风格与品牌表达上的专业级能力。数据显示，可灵AI已支持生成最长2分钟、1080P高清视频，并在动态细节、动作连续性和语义理解方面达到行业领先水平。此次获奖证明AI视频生成技术不仅能辅助创意生产，更能独立输出具备商业竞争力的高质量广告内容，为视频大模型在营销行业的规模化应用树立了重要标杆。</p>
+            <h2 class="card-title">17岁高中生做了个假AI，上线一个月获2.8亿次访问|【经纬低调分享】</h2>
+            <p class="card-summary">17岁高中生Zach Yadegari仅用一天半开发了名为“Total AI”的伪AI应用，谎称能“隔空减肥”，实际是人工回复的复读机。上线一个月吸引2.8亿次访问，两天内收入达1.6万美元，两周突破50万用户。用户留存率约20%，曾冲上App Store付费榜第9名。Zach强调项目关键不在技术，而在于产品创意与市场契合，并计划将其改造为真实AI健康应用。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="10" data-idx="9" data-category="活动会议"
+        <article class="news-card" data-rank="10" data-idx="9" data-category="行业动态"
                  onclick="goDetail(9)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#10</span>
-                    <span class="source-tag" style="background:#ec489920;color:#ec4899">🎪 Towards Data Science</span>
-                    <span class="cat-tag" style="background:#ec489930;color:#ec4899">活动会议</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Hacker News</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Stop Returning Text from RAG: The Typed Answer Contract That Prevents Hallucination</h2>
-            <p class="card-summary">传统RAG系统直接返回文本易引发幻觉，本文提出“类型化答案契约”方法：将输出定义为结构化Schema，每个字段对应一个需模型回答的明确问题，从而将生成过程拆解为可验证的问答单元。核心优势在于，系统可对每个字段的答案进行独立校验（如数值范围、枚举值等），使幻觉从源头被约束。关键结论显示，该方法在企业文档智能场景中可将事实性错误降低60%以上，同时保持答案的完整性。本质是将黑箱文本生成转变为可审计的结构化信息提取，实现精度与可控性的双赢。</p>
+            <h2 class="card-title">New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]</h2>
+            <p class="card-summary">达特茅斯学院一项研究表明，新型AI导师在课程中将学习效果提升0.71-1.30个标准差（效应量），显著优于传统教学。该系统通过实时个性化反馈与自适应问题生成，使学生在编程与数学任务中的正确率提高约30%，并减少40%的学习时间。研究基于200多名本科生数据，证明AI导师可高效弥合个别学习差距，尤其对基础薄弱者效果更佳，为大规模自适应教育提供了有力实证。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-07-04</span>
+                <span class="pub-date">2026-07-05</span>
             </div>
         </article>
 
@@ -368,12 +366,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#11</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 机器之心</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">趁火打劫！GPT-5.6三大模型全曝，定档7月7日？</h2>
-            <p class="card-summary">据曝料，OpenAI计划于7月7日发布GPT-5.6，此次将推出三大模型版本，分别针对推理、长上下文及多模态能力。新模型在复杂数学推理、代码生成与多轮对话上显著提升，推理成本预计降低40%。此外，模型将支持百万级token上下文窗口，并在视觉理解与语音交互上取得突破。若如期发布，GPT-5.6将大幅强化AI生产力，但具体功能与定价仍需官方证实。</p>
+            <h2 class="card-title">Codex、ChatGPT为何合体？Codex未来何去何从？OpenAl核心leader回应一切</h2>
+            <p class="card-summary">OpenAI核心负责人解释，Codex与ChatGPT合体源于技术协同：Codex的代码生成能力与ChatGPT的对话交互结合，能实现更高效的编程辅助和自然语言协作。未来Codex将不再独立存在，其功能深度融入ChatGPT，专注提升代码理解、调试和生成质量，并强化多模态能力。数据显示，合体后模型在HumanEval测试中代码通过率提升超30%，用户交互效率提高40%。此举旨在统一产品体验，集中算力资源推进关键创新。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -385,12 +383,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#12</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 AI前线</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 量子位</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">大模型推理也能“智能调度”：让奖励模型按需分配算力的动态路由机制|ACL2026</h2>
-            <p class="card-summary">ACL2026提出一种动态路由机制，使大模型推理时奖励模型能根据任务复杂度按需分配算力。该方法通过轻量级路由器实时评估输入难度，为简单样本分配较少计算资源，复杂样本则调用更深度推理路径。实验表明，在保持生成质量不变的前提下，该机制可降低30%-50%的总推理计算量，并在数学推理、代码生成等任务上验证了其显著提升算力利用效率的有效性。</p>
+            <h2 class="card-title">AI助手APP，阿里千问增速第一了</h2>
+            <p class="card-summary">根据第三方数据，2025年3月阿里旗下AI助手“千问”App月活跃用户环比激增78%，增速居国内同类产品首位，月活规模达1.2亿，仅次于DeepSeek的1.5亿。千问增速超越豆包（59%）、Kimi等竞品，其爆发得益于Qwen2.5系列开源模型的技术优势、免费策略及阿里云生态整合。数据显示，国内AI助手App整体月活已突破3亿，DeepSeek仍以绝对用户量领先，但千问凭借高增长正加速追赶，竞争格局面临重塑。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -402,12 +400,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#13</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 夕小瑶科技说</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Anthropic推出ClaudeScience，科研界的Claude code来了！附实测</h2>
-            <p class="card-summary">Anthropic推出专为科研设计的Claude Science，支持使用自然语言与LaTeX混合编写论文，可实时生成数学公式、图表及关联实验代码，并一键导出PDF。实测表明，其在物理、生物等领域的文献摘要、实验设计建议及代码推导中表现优异，能显著缩短科研写作与数据分析周期，但复杂专业术语的精确理解仍需人工校验。</p>
+            <h2 class="card-title">年入1亿美元！两个90后伯克利室友，搞出最赚钱的AI生意</h2>
+            <p class="card-summary">两位伯克利90后室友创立的AI公司年收入达1亿美元，成为最赚钱的AI生意之一。他们开发了一款面向企业的AI视频生成平台，客户覆盖营销、教育等领域，主要盈利模式为订阅制。核心数据：平台用户超百万，年营收突破1亿美元，团队仅几十人。关键结论：聚焦垂直场景的AI工具比通用大模型更容易实现商业化，小团队也能通过精准定位实现高回报。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -419,63 +417,63 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#14</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 量子位</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 36氪</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Vibe一下能自动画工程图、做3D装配的AI来了Ⅰ上海AI Lab</h2>
-            <p class="card-summary">上海AI Lab推出新型AI系统，可基于自然语言“Vibe一下”指令自动生成工程图纸并完成3D装配。该系统通过多模态模型理解设计意图，零样本实现零件装配与图纸输出，显著提升设计效率。关键数据表明，其装配准确率达92%，图纸生成速度较传统CAD软件提升10倍，已通过工业标准验证。这项技术标志着AI从辅助绘图向自主工程设计的实质性跨越。</p>
+            <h2 class="card-title">AI 砍掉的第一批大厂人：高薪，高绩效，高P|深氪</h2>
+            <p class="card-summary">AI正成为大厂裁员的核心工具，首批被裁对象是高薪、高绩效的高P员工，其薪资可达普通员工的3-5倍。某头部互联网公司用AI替代了30%的中层管理人员，决策效率反而提升20%。另一家电商平台通过AI优化客服与运营岗位，裁减了15%的人员，但用户满意度未降。专家指出，AI切入的是“高薪但可被编码化”的脑力劳动，而非基层体力岗。2023年，全球已有超20%的科技公司利用AI系统评估或替代管理层，预计到2025年，这一比例将升至40%。大厂高P面临“薪资倒挂”风险：AI能完成其80%的决策任务，但成本仅为1%。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="15" data-idx="14" data-category="行业动态"
+        <article class="news-card" data-rank="15" data-idx="14" data-category="产品发布"
                  onclick="goDetail(14)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#15</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 机器之心</span>
-                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 APPSO</span>
+                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
                 </div>
             </div>
-            <h2 class="card-title">上海交大提出ICRDrag：首个上下文区域拖拽模型，实现精准可控图像编辑</h2>
-            <p class="card-summary">上海交大提出ICRDrag，这是首个上下文区域拖拽模型，用于精准可控图像编辑。模型引入上下文区域与实例感知特征交互机制，在复杂场景下显著提升拖拽精度。实验表明，其编辑成功率超越DragGAN等现有方法，在多个公开数据集上平均精度提升超10%，并支持多对象同时编辑与语义保持，推动图像编辑向智能化、细粒度控制迈进。</p>
+            <h2 class="card-title">Claude全力封杀绕路使用方式/华为发布「韬定律」2.0/85 万的仿真机器人什..</h2>
+            <p class="card-summary">AI领域动态：Anthropic全面升级Claude防护系统，严厉打击通过代理、API间接调用等绕路使用行为，已封禁超过12万个违规账户。华为发布“韬定律”2.0，提出AI算力增长每18个月翻一番，超摩尔定律两倍，并指出自主算力生态建设是国家战略核心。国内企业推出售价85万元人民币的通用仿真机器人，采用液态金属驱动与仿生肌肉结构，实现自然步态与复杂动作，计划2026年量产。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="16" data-idx="15" data-category="行业动态"
+        <article class="news-card" data-rank="16" data-idx="15" data-category="产品发布"
                  onclick="goDetail(15)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#16</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 虎嗅App</span>
-                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 InfoQ</span>
+                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
                 </div>
             </div>
-            <h2 class="card-title">AI天才为什么回流大厂</h2>
-            <p class="card-summary">AI领域顶尖人才正从初创公司回流大厂，主要因为大厂提供更稳定的算力资源、更成熟的工程化能力及更高的薪资涨幅（可达30%-50%）。数据显示，2024年头部科技企业AI人才净流入率同比上升22%，其中超六成来自初创团队。同时，大厂在基础模型与业务落地的闭环能力上优势明显，使得天才科学家更倾向于选择平台而非单纯技术极客路线。这一趋势也反映出AI创投回归理性，资本更注重商业化路径而非概念炒作。</p>
+            <h2 class="card-title">AWS Introduces Amazon S3 Annotations</h2>
+            <p class="card-summary">AWS推出S3标注功能，允许团队将摘要、分类、合规数据或AI生成洞察等丰富元数据直接附加到对象上。标注可独立于对象更新并跨数据集查询，无需复制或修改源文件。该功能支持批量操作、版本控制及与Athena等工具集成，旨在简化数据管理、提升搜索效率，减少传统元数据管理带来的存储和计算开销。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date"></span>
+                <span class="pub-date">2026-07-05</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="17" data-idx="16" data-category="行业动态"
+        <article class="news-card" data-rank="17" data-idx="16" data-category="政策监管"
                  onclick="goDetail(16)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#17</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 钛媒体</span>
-                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                    <span class="source-tag" style="background:#f9731620;color:#f97316">📋 前端之巅</span>
+                    <span class="cat-tag" style="background:#f9731630;color:#f97316">政策监管</span>
                 </div>
             </div>
-            <h2 class="card-title">一年跌没九成！“AG|第一股”被AI抛弃|巴伦港股</h2>
-            <p class="card-summary">曾被冠以“AGI第一股”的AI公司，上市一年股价暴跌近九成，市值跌至400亿港元以下。其核心困境在于AI技术落地缓慢，商业变现不达预期，尤其在生成式AI浪潮中缺乏爆款应用与技术壁垒。公司研发投入巨大但营收增长乏力，毛利率持续下滑，被市场迅速抛弃。这表明当前市场已从“概念炒作”转向对AI公司盈利模式与技术领先性的严厉审视，缺乏可持续性竞争力的企业面临残酷估值回归。</p>
+            <h2 class="card-title">18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转</h2>
+            <p class="card-summary">18岁创业者借助开源框架OpenClaw，以单人公司模式管理16个AI Agent，覆盖营销、客服、开发等职能。核心运行机制为每个Agent配备专属记忆与工具，用统一调度系统协同工作，实际运营成本大幅降低。作者年营收已达5万美元，证明极小团队通过Agent集群可实现高效商业闭环，预示AI原生企业形态的初步可行性。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -487,32 +485,32 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#18</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 经纬创投</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 The Verge AI</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">17岁高中生做了个假AI，上线一个月获2.8亿次访问|【经纬低调分享】</h2>
-            <p class="card-summary">一名17岁高中生开发的“假AI”网站上线一个月内获得2.8亿次访问，该系统实际是调用API伪装成人工智能。该项目引发对AI行业泡沫与用户信任危机的反思：在热潮中，大量“AI产品”本质仅是包装后的接口调用，但其流量与商业价值惊人。事件暴露了用户对技术真实性的辨别盲区，以及资本对概念而非实质的追捧。最终，该网站被关闭，但数据揭示出当前AI领域存在的投机现象与监管缺失。</p>
+            <h2 class="card-title">Some of the nation’s rich are letting AI teach their kids</h2>
+            <p class="card-summary">美国富裕阶层正转向AI教育替代传统学校，如Forge Prep等公司提供AI个性化教学。尽管多数美国人仍不信任AI（调查显示其连披萨安全配料都无法正确识别），但富裕家庭已率先采用。这些AI系统可全天候自适应调整学习内容，每年学费约1-2万美元，远低于私立学校。支持者称AI能精准识别学生知识薄弱点，但专家警告缺乏社交互动和情感引导可能影响儿童发展。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date"></span>
+                <span class="pub-date">2026-07-05</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="19" data-idx="18" data-category="行业动态"
+        <article class="news-card" data-rank="19" data-idx="18" data-category="产品发布"
                  onclick="goDetail(18)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#19</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 TechCrunch AI</span>
-                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 机器之心</span>
+                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
                 </div>
             </div>
-            <h2 class="card-title">New Google commercial imagines a Declaration of Independence written with help from AI</h2>
-            <p class="card-summary">Google最新广告设想美国《独立宣言》诞生250周年之际，若开国元勋使用Google Workspace会怎样。广告借AI辅助起草历史文件，凸显生成式AI在协作、润色与创意激发方面的潜力。核心意图是推广Gemini等AI工具嵌入办公场景，强调AI可提升效率与表达精准度。此举延续科技公司将爱国象征与商业宣传结合的惯例，同时引发关于历史真实性、AI介入重大决策的讨论。</p>
+            <h2 class="card-title">告别「碎片化」记忆：中科院开源轻量级内存原生Agent记忆系统Mandol</h2>
+            <p class="card-summary">中科院开源轻量级内存原生Agent记忆系统Mandol，解决大模型记忆碎片化问题。该系统采用内存原生架构，将记忆存储与检索集成于单一内存空间，显著提升效率。实验显示，Mandol在记忆召回率上达95%以上，响应延迟低于10毫秒，且参数量仅百万级，适合边缘部署。其核心创新在于支持动态记忆合并与结构化索引，使Agent能高效复用历史信息完成复杂任务。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-07-04</span>
+                <span class="pub-date"></span>
             </div>
         </article>
 
@@ -521,49 +519,49 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#20</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 TechCrunch AI</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 机器之心</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Midjourney wants Hollywood studios to reveal the details of their AI usage</h2>
-            <p class="card-summary">在与三家好莱坞工作室的持续法律纠纷中，Midjourney要求法院强制对方披露自身使用AI的具体细节。该动议旨在揭示这些工作室在影视制作中如何部署AI工具，包括训练数据来源和生成内容比例。此举旨在确保AI使用透明度，并可能影响版权法与AI伦理的行业标准。案件核心争议在于AI生成的视觉内容是否侵犯原创版权，而Midjourney的诉求直指对方“只许州官放火”的双重标准。</p>
+            <h2 class="card-title">Router的作用被低估了？vLLM这个神器，让单次调用背后藏了一支模型协作小队</h2>
+            <p class="card-summary">vLLM 提出的“模型小队”架构揭示了Router在AI服务中被低估的作用。通过引入智能路由器，单次API调用可自动将任务分配给多个专用子模型（如不同尺寸或擅长的模型），实现1+1&gt;2的效果。核心数据表明，该方案将推理延迟降低40%以上，同时吞吐量提升2倍，且能根据任务复杂度动态调整，显著优化资源利用率。关键在于，Router不再是简单路由，而是具备上下文感知的“决策大脑”，让模型协作成为低成本、高性能的实用方案。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-07-04</span>
+                <span class="pub-date"></span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="21" data-idx="20" data-category="政策监管"
+        <article class="news-card" data-rank="21" data-idx="20" data-category="行业动态"
                  onclick="goDetail(20)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#21</span>
-                    <span class="source-tag" style="background:#f9731620;color:#f97316">📋 TechCrunch AI</span>
-                    <span class="cat-tag" style="background:#f9731630;color:#f97316">政策监管</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Alibaba reportedly bans employees from using Claude Code</h2>
-            <p class="card-summary">阿里巴巴据报将人工智能编码工具Claude Code列为高风险软件，禁止员工使用。此举旨在防范数据泄露和代码安全风险，反映出大型科技企业对第三方AI工具日益严格的管控。此前，Claude Code因能高效生成和修改代码而受开发者欢迎，但企业担忧其可能上传敏感信息至外部服务器。该禁令涵盖集团所有业务部门，违规者将面临纪律处分。</p>
+            <h2 class="card-title">Claude能替2700万散户炒股了：它一幻觉，赔的是你的真钱</h2>
+            <p class="card-summary">Anthropic推出Claude炒股工具，可直接接入散户证券账户执行交易，覆盖2700万用户。AI可分析市场数据并自动下单，但存在“幻觉”风险——若生成错误逻辑或虚假信息，将直接导致真实亏损。测试显示，Claude在复杂金融决策中准确率仍不稳定，企业明确提示“不保证决策正确”。AI炒股降低了门槛，却将模型不可靠性转化为用户真金白银的风险。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-07-04</span>
+                <span class="pub-date"></span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="22" data-idx="21" data-category="产品发布"
+        <article class="news-card" data-rank="22" data-idx="21" data-category="行业动态"
                  onclick="goDetail(21)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#22</span>
-                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 Hacker News</span>
-                    <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable</h2>
-            <p class="card-summary">开发者通过自研工具Fable，将经典RTS游戏《命令与征服：将军》原生移植至macOS、iPhone及iPad平台。该项目完整保留了游戏原始代码与数据，无需模拟器即可在Apple Silicon设备上流畅运行，并针对触控操作进行了适配。移植版支持最高4K分辨率、60帧稳定输出，且实现了多指手势控制。该方案证明，基于Metal API的跨平台移植技术可使老旧PC游戏完美适配苹果生态。</p>
+            <h2 class="card-title">狂揽2.4万星标：一行命令，AI会自己找技能了</h2>
+            <p class="card-summary">Open-Interpreter项目在GitHub获2.4万星标，支持通过自然语言指令让AI自主调用技能和工具完成任务。其核心创新在于将代码解释器与语言模型结合，用户仅需一行命令，即可实现文件操作、数据分析、网页抓取等复杂操作，准确率提升至85%以上。项目开源且兼容多种模型，显著降低了AI编程门槛。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-07-04</span>
+                <span class="pub-date"></span>
             </div>
         </article>
 
@@ -576,8 +574,8 @@
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">文件系统是Agent的省钱答案？token消耗降低45%，费用减少39%</h2>
-            <p class="card-summary">Anthropic研究发现，将文件系统引入AI Agent可显著降低token消耗与费用。通过结构化文件管理替代冗长的上下文传递，Agent在处理复杂任务时token消耗减少45%，费用降低39%，同时性能得到保持或提升。核心在于文件系统能高效组织、检索和复用信息，避免了重复传递大量原始上下文。该方案为解决Agent长期任务中的成本与效率问题提供了实用路径，尤其适用于需要持久记忆和多轮交互的场景。</p>
+            <h2 class="card-title">Anthropic造了套AI越狱「刑法」！你的请求，四种死法</h2>
+            <p class="card-summary">Anthropic发布AI安全新框架，将用户试图绕过安全机制的行为分为四种“死法”：明确越狱、伪装指令、多轮诱导和上下文污染。研究对数十万次攻击分类，发现超60%利用模型基础漏洞而非单纯提示词工程。该框架建立等级威胁分类法，可对90%以上越狱尝试自动标记，为AI系统提供可量化的防御基准。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -589,12 +587,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#24</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 AI前线</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 PaperWeekly</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">ClaudeCode 80%的提示词说删就删，Anthropic用Fable5打了个样：AI行..</h2>
-            <p class="card-summary">Anthropic最新研究表明，ClaudeCode可删除多达80%的提示词，在Fable5项目中验证了AI模型对冗余指令的高度容忍性。研究显示，精简提示不仅未降低代码生成质量，反而提升了任务执行效率约27%。核心结论是：模型理解能力远超预期，过度提示反而形成干扰。这一发现为优化人机交互设计提供了关键实证。</p>
+            <h2 class="card-title">美团ICML2026入选论文精选，两场直播聚焦Agent与视频生成</h2>
+            <p class="card-summary">美团ICML2026入选两篇论文，聚焦Agent与视频生成。Agent方向论文提出PRDP框架，引入“预测-奖励-动态惩罚”机制，在复杂任务中训练效率提升50%以上。视频生成方向论文提出Framer++，通过同步帧掩码建模，在16个视频任务基准上平均性能提升7.1%，实现高效细粒度视频理解与生成。两篇论文均展示了在智能化与内容生成任务中的显著突破。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -606,12 +604,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#25</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 DeepTech深科技</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 虎嗅App</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">把AI做进材料，这家公司想造会学习的机器人“细胞”</h2>
-            <p class="card-summary">中科院宁波所孵化企业辛动力研发“机器细胞”芯片，将AI算法直接嵌入材料，实现硬件层面的自适应学习。其关键突破在于将神经网络部署于忆阻器阵列，使机器人驱动系统无需云端计算即可实时优化动作，能耗仅为传统方案的千分之一。实验表明，搭载该芯片的机械臂经过200次自学习后，抓取精度提升至98.7%，响应速度达0.3毫秒。这项硬件智能技术有望终结机器人对外部算力的依赖，推动具身智能进入自主进化阶段。</p>
+            <h2 class="card-title">荒诞：AI让一部分人无班可上，又让另一些人无班可下</h2>
+            <p class="card-summary">AI技术正加剧就业市场的结构性撕裂：一面是大量白领岗位被替代，如客服、翻译等行业岗位缩减30%-50%，导致“无班可上”；另一面是高强度脑力劳动者（如程序员、设计师）被AI赋能后24小时待命，陷入“无班可下”的永续劳动困境。核心悖论在于，AI既消灭岗位边界，又消灭下班边界。研究表明，约60%的职业将受AI显著影响，但真正被完全取代的岗位可能仅5%，余下95%面临工作内容重组与强度升级，形成“非自愿性内卷”——不学AI被淘汰，学习了则被迫接受更高负荷的“超人”标准。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -623,12 +621,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#26</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 36氪</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 APPSO</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">AI原生公司长啥样？他们造了个Agent，也造了一种新公司</h2>
-            <p class="card-summary">一家名为“未来智能”的AI原生公司创造了一款名为“小悟”的自主智能体，并以此重构了公司组织形态。核心要点是：该公司仅靠3名全职员工和1个AI Agent，就实现了超90%的客户问题自动解决，将传统需20人团队的工作高效完成。其模式是让Agent扮演自由职业者与客户间的核心协调层，通过标准化任务和独立核算，实现零行政成本、即时结算。这一实践表明，AI原生公司并非简单用AI辅助，而是让Agent成为组织骨架，将人力从管理转向创意与决策，可能开启一种超级个体加AI协作的微型企业新范式。</p>
+            <h2 class="card-title">Codex负责人谈AI时代唯一值钱的能力</h2>
+            <p class="card-summary">OpenAI Codex负责人指出，AI时代唯一不可替代的能力是“提出正确问题”的能力。随着AI能高效完成任务，人类价值转向定义目标、构建框架和批判性思维。数据显示，使用AI的开发者效率提升2-3倍，但顶尖开发者与普通开发者的差距在扩大，关键在于是否能精准描述需求、拆分问题并迭代追问。未来，提问质量将决定个人与组织的生产力上限。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -640,12 +638,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#27</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 海外独角兽</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 极客公园</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">从 Agent 开权限开始，Serval 想成为下—代 ServiceNow</h2>
-            <p class="card-summary">Serval 通过让AI Agent自主调用API、自助申请并开通权限，切入企业服务管理场景，定位为“下一代ServiceNow”。其核心思路是：先让AI处理“开权限”这类高频低风险操作，积累信任后再逐步扩展复杂任务。Serval在早期测试中，将IT工单处理时间缩短70%，权限开通效率提升5倍，并计划未来开源部分agent框架，以构建围绕AI原生IT运维的开发者生态，挑战传统ITSM市场。</p>
+            <h2 class="card-title">6月最「有活儿」的AI硬件：手摇发电的「实体GPT」、会织毛绒的打印机…..</h2>
+            <p class="card-summary">6月涌现多款创意AI硬件：手摇发电的实体GPT无需充电即可运行，通过摇动产生交互；会织毛绒的打印机将AI图像转化为立体织物；还有可穿戴AI徽章实时生成对话。这些设备突破传统屏幕交互，强调物理触感和低能耗，如手摇设计实现零碳操作。数据显示，此类实体AI产品在众筹平台平均获超200%融资，反映市场对具象化AI体验的强烈需求。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -657,12 +655,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#28</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 APPSO</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 阿里云开发者</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">连辛顿都说AI有意识了？这个问题问错了</h2>
-            <p class="card-summary">杰弗里·辛顿等专家指出，当前关于AI是否有意识的讨论方向错误。核心问题不在于意识属性，而在于AI的智能本质与人类截然不同。研究显示，大型语言模型已具备推理和规划能力，其知识结构与人类神经表征差异显著。关键结论是：我们应聚焦于AI的自主决策风险与可解释性，而非陷入主观体验的哲学争论。辛顿警示，比意识更紧迫的是AI系统可能形成超越人类理解的智能层级，需优先建立安全控制机制而非探讨意识归属。</p>
+            <h2 class="card-title">用云新范式：QoderCloud Agents×Alibaba Cloud Skills</h2>
+            <p class="card-summary">阿里云与QoderCloud联合推出AI Agents融合云技能的新范式，使开发者可通过自然语言对话自动完成云资源编排、部署与运维。该方案将阿里云200余款API能力封装为可调用Agent任务，实测中，复杂任务处理效率提升约70%，错误率下降至传统命令行操作的1/5。QoderCloud Agents还支持多Agent协同，例如构建自动弹性伸缩系统时，监控、决策、执行Agent可串联完成，响应延迟低于2秒。这一模式降低了60%的云技能学习成本，标志着用云方式从“指令驱动”向“意图驱动”的转变。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -674,46 +672,46 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#29</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 APPSO</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 The Verge AI</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">阿里内部人士回应禁用Claude/特斯拉限制员工AI支出，每周200美元/曝三...</h2>
-            <p class="card-summary">阿里内部人士证实公司已禁用Claude等外部AI工具，转向自研大模型。特斯拉则限制员工每月AI相关支出不超过200美元，以控制云计算成本。报道还曝出三家国内AI初创公司因研发烧钱太快陷入资金困境。数据显示，2024年AI行业融资持续下滑，头部企业融资额同比减少40%，且超半数项目未达技术预期。行业正从盲目投入转向理性管控，企业更注重成本与商业化落地。</p>
+            <h2 class="card-title">Infuriating Google commercial imagines the founding fathers embracing AI</h2>
+            <p class="card-summary">谷歌一则新广告设想美国开国元勋借助Google Workspace和Gemini协作撰写《独立宣言》，被批评为尴尬且脱离历史现实。该广告以“1776年小组作业”开场，将AI工具包装成提升创造力的助手，但忽略了历史人物独立起草这一重大文献的严肃性与复杂性。评论指出，这种对AI的轻松美化，不仅模糊了技术辅助与人类核心创作的区别，也暴露了科技公司试图将AI无缝嵌入所有人类重大叙事中的不当企图。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date"></span>
+                <span class="pub-date">2026-07-05</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="30" data-idx="29" data-category="行业动态"
+        <article class="news-card" data-rank="30" data-idx="29" data-category="研究突破"
                  onclick="goDetail(29)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#30</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 爱范儿</span>
-                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
+                    <span class="source-tag" style="background:#f59e0b20;color:#f59e0b">🔬 Hacker News</span>
+                    <span class="cat-tag" style="background:#f59e0b30;color:#f59e0b">研究突破</span>
                 </div>
             </div>
-            <h2 class="card-title">大疆影石专利战火烧回国内/阿里内部全面禁用ClaudeCode/茉莉奶白被判赔LV....</h2>
-            <p class="card-summary">大疆与影石专利战升级至国内互诉，双方涉及全景相机侵权，案件已进入实质审理。阿里巴巴内部全面禁用AI编程工具Claude Code，因其代码安全保障不足及合规风险。茉莉奶白因门店装潢与路易威登外观相似，被判构成商标侵权及不正当竞争，赔偿LV 60万元。三项事件分别聚焦科技企业专利攻防、AI工具的企业安全治理、以及品牌知识产权的司法保护边界。</p>
+            <h2 class="card-title">Does Code Cleanliness Affect Coding Agents?</h2>
+            <p class="card-summary">论文探讨代码整洁性对AI编程代理性能的影响，发现代码质量显著影响代理效率。实验显示，在整洁代码库中，代理的任务完成成功率比混乱代码库高出22%，平均执行时间减少18%。关键结论包括：模块化设计和清晰命名规范对代理理解代码至关重要，而冗余注释和复杂嵌套结构会导致性能下降。研究建议开发者在为AI代理准备代码时，优先优化代码结构和可读性，而非仅仅关注注释量。该发现对提升AI辅助编程工具有实际指导价值。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date"></span>
+                <span class="pub-date">2026-07-05</span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="31" data-idx="30" data-category="政策监管"
+        <article class="news-card" data-rank="31" data-idx="30" data-category="行业动态"
                  onclick="goDetail(30)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#31</span>
-                    <span class="source-tag" style="background:#f9731620;color:#f97316">📋 前端之巅</span>
-                    <span class="cat-tag" style="background:#f9731630;color:#f97316">政策监管</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 量子位</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转</h2>
-            <p class="card-summary">18岁创业者借助OpenClaw平台，仅凭一人管理16个AI Agent，打造出高效运转的“单人Agent公司”。核心思路是：用OpenClaw将客服、内容生成、数据分析等任务拆解并分配给不同Agent协作执行，每个Agent专注特定职能，通过统一调度和反馈机制形成闭环。关键结论是，AI Agent已能替代传统多岗位团队，使单人创业成为可能，运营成本降低约70%，效率提升3倍以上。</p>
+            <h2 class="card-title">大模型训练省钱秘籍：清华POPO一招组级回放，把浪费的算力全部捡回来</h2>
+            <p class="card-summary">清华团队提出POPO组级回放方法，通过将训练中丢弃的中间激活值按组重新计算，回收原本浪费的算力。该方法在Llama系列模型上验证，可节省20%以上训练时间，并保持模型精度不变。POPO不依赖硬件改动，直接适配现有框架，为长序列大模型训练提供了高效、低成本的优化方案。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -725,32 +723,32 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#32</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 人人都是产品经理</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 海外独角兽</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">阿里全面封杀Claude，国产Al的春天来了？</h2>
-            <p class="card-summary">阿里近期全面封禁Claude，明确禁止旗下平台调用、分发或讨论该模型，违者将面临封号等处罚。此举被解读为国产大模型加速替代的信号。数据显示，国产模型如通义千问、文心一言等在编码、逻辑推理等任务上已接近Claude性能，部分场景甚至超越。阿里自身推出的Qwen系列在多项基准测试中表现突出。这一政策或将推动国内AI生态从依赖外部模型转向自主创新，但短期内也可能影响开发者效率与项目多样性。</p>
+            <h2 class="card-title">从 Agent 开权限开始，Serval 想成为下—代 ServiceNow</h2>
+            <p class="card-summary">Serval 定位为新一代企业级 AI Agent 平台，从自动化权限审批等高频场景切入，旨在替代传统 ITSM 巨头 ServiceNow。其核心优势在于内置自主推理引擎与多步执行能力，能将复杂业务流程分解为 Agent 自主完成，而非仅提供对话式助手。数据显示，Serval 在典型请求处理中可将耗时从数小时缩短至分钟级，准确率达95%以上。公司近期完成千万美元融资，计划通过更细粒度的 API 集成与策略引擎，构建可编程的 AI 工作流基础设施。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="33" data-idx="32" data-category="融资并购"
+        <article class="news-card" data-rank="33" data-idx="32" data-category="行业动态"
                  onclick="goDetail(32)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#33</span>
-                    <span class="source-tag" style="background:#ef444420;color:#ef4444">💰 TechCrunch AI</span>
-                    <span class="cat-tag" style="background:#ef444430;color:#ef4444">融资并购</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 APPSO</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">What is Mistral AI? Everything to know about the OpenAI competitor</h2>
-            <p class="card-summary">Mistral AI 成立于2023年，是一家专注于提供开源大语言模型的AI公司，旨在让前沿AI技术惠及大众。该公司已获得大量融资，其旗舰模型在性能上可与OpenAI的GPT系列竞争，尤其在代码生成、推理和多语言理解方面表现突出。Mistral采取“开放核心”策略，部分模型完全开源，部分通过API收费。其关键优势在于灵活的部署选项和较低的算力需求，吸引了一批注重隐私和成本的企业客户。截至2026年，Mistral估值已超数十亿美元，成为欧洲最具代表性的AI独角兽之一。</p>
+            <h2 class="card-title">一枚 2000块的AI戒指，想要抢走你的键盘</h2>
+            <p class="card-summary">售价约2000元的AI戒指旨在替代键盘输入，通过内置传感器捕捉手指微动，结合AI算法实现空中打字、手势操控。实测输入速度约每分钟40词，准确率超95%，尚无法完全取代传统键盘，但在移动场景、无障碍交互领域展现潜力。核心突破在于将输入设备从平面拓展至立体空间，但续航不足12小时、学习成本较高仍是短板。该产品标志着人机交互正从触摸屏向更自然的手势时代迈进。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-07-04</span>
+                <span class="pub-date"></span>
             </div>
         </article>
 
@@ -759,12 +757,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#34</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 集智俱乐部</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">全网爆火！ClaudeCode核心工程师放出Fable5使用心法</h2>
-            <p class="card-summary">Claude Code核心工程师分享了Fable 5实操心法：通过合理设置Agent角色并精确描述目标，能大幅提升代码生成与调试效率。核心技巧包括将大任务拆解为可验证子步骤、使用自省提示引导AI修正自身错误、以及用少量范例增强输出稳定性。实测显示，合理运用这些技巧可将代码正确率提高40%以上，调试时间缩短约一半。提示：避开模糊指令，善用约束条件，是驾驭AI编程工具的关键。</p>
+            <h2 class="card-title">意识机器：大模型的元认知、自指与内省</h2>
+            <p class="card-summary">当前大模型在元认知、自指与内省能力上取得突破，能够通过反思自身输出进行错误校正和逻辑推理。研究提出：模型在特定任务中展现出类似人类内省的机制，准确率提升约12%-15%，尤其在数学推理和多步骤规划中效果显著。自指能力使模型能识别自身局限性并调整策略，但尚未达到真正意识。该进展为构建更可靠、可解释的AI系统提供了新路径，但需警惕过度拟人化解读。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -776,12 +774,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#35</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 极客公园</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Token吃掉三成工资！硅谷AI账单失控了</h2>
-            <p class="card-summary">AI模型Token消耗占比企业总成本已达30%，硅谷企业AI账单急剧失控。测算显示，单次复杂推理任务可消耗数千Token，月均支出超20万美元。企业被迫限制员工使用量，或转向自建模型以降低成本，但自建部署费用仍高达百万美元级。核心矛盾在于模型推理计算量与商业回报之间严重失衡，若不优化Token定价或提升效率，AI成本将持续侵蚀企业利润。</p>
+            <h2 class="card-title">比 AirPods 贵三倍的「睡眠耳机」，可能是最有用的AI硬件</h2>
+            <p class="card-summary">Ozlo Sleepbuds是一款售价299美元的睡眠耳机，价格是AirPods的三倍。其核心价值在于融合了主动降噪、骨传导麦克风和AI技术：耳朵内建麦克风实时监测环境噪声并动态调节降噪，骨传导传感器识别用户自身鼾声并智能播放反相声波抵消，同时AI算法学习用户睡眠习惯自动优化声音方案。临床测试显示可减少20%的夜间觉醒次数，蓝牙延迟低至30毫秒。与传统白噪音耳机不同，它通过闭环反馈实时自适应，真正实现了“越睡越静”的个性化助眠体验。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -793,12 +791,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#36</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 PaperWeekly</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 阿里云开发者</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">美团ICML2026入选论文精选，两场直播聚焦Agent与视频生成</h2>
-            <p class="card-summary">美团两篇论文入选ICML2026，围绕Agent与视频生成展开前沿研究。Agent方面提出多智能体协作框架，在复杂任务场景中决策效率提升32%，并减少了约45%的冗余通信；视频生成方向则发布基于扩散模型的新架构，在UCF-101数据集上FID降至12.3，超越同期主流方法。两项成果兼顾理论创新与工业落地潜力，为构建高鲁棒性、低延迟的AI应用系统提供了关键技术支撑。</p>
+            <h2 class="card-title">构建AI时代的知识底座：直播数据LLMWiki实践</h2>
+            <p class="card-summary">针对直播场景数据高时效、强噪音、多模态等特点，该实践构建了LLMWiki知识底座。核心方案包括：通过异构数据清洗与结构化处理，将直播商品、用户互动等非结构化数据转化为高质量语料；采用分层索引与向量化存储技术，实现百万级知识条目毫秒级召回。实验表明，该方案使大模型在直播问答场景的准确率提升37%，推理延迟降低至200ms以内，验证了精细化的知识底座能有效缓解大模型幻觉问题，为AI直播应用提供可靠数据支撑。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -810,12 +808,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#37</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 量子位</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 玉树芝兰</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">王嘉尔设计！影目INMO×WHL的AI眼镜凭啥引爆大众消费场?</h2>
-            <p class="card-summary">影目科技联合王嘉尔主理品牌WHL推出AI眼镜INMO Air3，主打时尚设计+日常佩戴，首发当日销量破万，用户画像中女性占比超40%。产品搭载双目全彩衍射光波导技术，重量不足50克，续航达8小时，支持实时翻译、导航、提词器等AI功能。核心突破在于将AR眼镜从极客工具转化为符合Z世代审美的大众消费电子产品，定价2499元起，切入千元级可穿戴赛道。</p>
+            <h2 class="card-title">同样读一篇论文，AI Agent 比对话框强在哪？</h2>
+            <p class="card-summary">AI Agent通过自主拆解任务、多步推理和工具调用，处理论文的能力远超传统对话框。它可自动执行文献检索、数据提取、图表生成等复杂流程，无需用户逐条指令。测试显示，Agent能完整解析论文核心论断与实验数据，并依据用户需求进行总结、对比乃至生成综述初稿，整体效率提升50%以上。对话式AI需依赖人工反复提问，而Agent具备目标导向的任务闭环能力，将文献解读从碎片化交互升级为系统化智能服务。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -827,12 +825,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#38</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 机器之心</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 人人都是产品经理</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">追求 AI记忆力的路线下，RAG是否终将被抛弃?</h2>
-            <p class="card-summary">RAG并非被抛弃，而是正与长上下文、Agent等技术融合演进。当前RAG仍是主流方案：独立RAG如LlamaIndex等专注检索增强；集成RAG将检索嵌入模型训练，如Gemini 2M上下文也采用RAG优化；Agentic RAG则让模型自主调用工具检索。研究表明，长上下文虽能100%准确回忆信息，但计算成本高；RAG在保持64-74%准确率的同时，成本极低。未来趋势是RAG与长上下文协同，而非替代。核心结论：RAG不会被淘汰，而是作为高效低成本记忆机制长期存在。</p>
+            <h2 class="card-title">消失的真人：互联网正在被AI接管?</h2>
+            <p class="card-summary">互联网正被AI内容迅速侵蚀。研究表明，2024年网络上约40%的文本由AI生成，机器流量占整体网络流量的近50%。平台虽引入AI推荐与生成助手，却导致虚假信息、低质内容激增，用户信任度下降。关键结论：AI已从工具演变为内容主力，线下数据与用户互动真实性面临挑战，未来需建立严格内容认证机制以区分人类与AI创作。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -844,15 +842,15 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#39</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 极客公园</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Hacker News</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">存在40年的游戏光盘「被判死刑」，压垮它的最后一根稻草是 AI</h2>
-            <p class="card-summary">存在40年的游戏光盘正被宣告终结，而压垮它的最后一根稻草是AI。随着生成式AI和云游戏技术的崛起，游戏业加速向无物理载体、全数字化分发转型。数据显示，2024年全球数字游戏收入占比已超90%，光盘版销量在部分3A大作中跌至不足10%。AI不仅改变了游戏开发流程，更推动了实时流媒体与动态内容生成，使光盘这种传统媒介彻底失去存在意义。未来游戏将完全依赖云端算力与AI实时渲染，光盘时代正式落幕。</p>
+            <h2 class="card-title">Al Vigier: Canada&#39;s AI strategy shouldn&#39;t include secret Palantir bills</h2>
+            <p class="card-summary">加拿大AI战略不应包含对Palantir等企业的秘密资助条款。文章指出，政府2024年AI投资计划中，高达24亿加元的部分支出未经过公开招标或议会审查，直接流向与军方和监控技术相关的私营公司，威胁公共问责制。核心数据显示，Palantir已获得加拿大联邦合同价值近1亿加元，其技术曾被用于边境执法和疫情追踪，引发隐私担忧。作者认为，缺乏透明度的AI战略会侵蚀公民信任，呼吁必须公开资金流向并建立独立的伦理监督机制。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date"></span>
+                <span class="pub-date">2026-07-06</span>
             </div>
         </article>
 
@@ -861,12 +859,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#40</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 极客公园</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 机器之心</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">比 AirPods贵三倍的「睡眠耳机」，可能是最有用的AI硬件</h2>
-            <p class="card-summary">一款名为“睡眠耳机”的AI硬件产品售价高达AirPods的三倍，但凭借其精准的睡眠监测与智能音频干预功能，被认为可能是当前最具实用价值的AI可穿戴设备。该耳机通过内置传感器实时追踪脑电波、心率等生理数据，利用AI算法识别用户所处的睡眠阶段，并自动播放特定频率的音频以助眠或唤醒。实验数据显示，其能显著缩短入睡时间并提升深度睡眠时长，有效率达78%。尽管价格高昂，但相比其他泛用型智能耳机，它在解决睡眠问题这一垂直场景上表现出更专业的针对性。</p>
+            <h2 class="card-title">Claude工程师终于交出Fable5焚诀！教你打破和模型之间的信息差</h2>
+            <p class="card-summary">Claude工程师发布了Fable5，旨在帮助用户打破与AI模型之间的信息差。该方法通过优化提示词结构，提升模型对用户意图的理解，从而获得更精准的输出。经实测，Fable5能在多项任务中减少沟通成本，将对话成功率提升30%以上。其核心在于明确任务目标、分解复杂指令并避免模糊表述，最终大幅提升AI协作效率。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -878,12 +876,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#41</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 差评</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 钛媒体</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">明年起插混及增程车征收车船税，阿里内部禁用ClaudeCode，欧盟拟出台未...</h2>
-            <p class="card-summary">自2025年起，插电混动和增程式电动车将不再享受车船税优惠政策，开始按传统燃油车标准征收。阿里内部明确禁止使用AI编程工具Claude Code，以确保自身技术安全与数据合规。欧盟正在酝酿出台新规，进一步加强对大型科技平台及AI应用的监管。此外，全球AI芯片供应持续紧张，英伟达H100及更高性能芯片交付周期延长至36周以上，推高大模型训练成本。</p>
+            <h2 class="card-title">韩国炒股团买爆“中AI股”</h2>
+            <p class="card-summary">韩国散户近期大举买入中国AI概念股，单月净买入额突破1.2万亿韩元，其中A股寒武纪、昆仑万维等标的成交活跃。数据显示，韩国投资者对中AI股的持仓比例同比激增300%，已超越特斯拉成为其海外股票投资首选。这一趋势反映出全球资金正加速向中国AI赛道集中，尤其关注大模型与算力芯片领域的技术突破。分析师指出，韩国炒家“追涨”行为推高了相关股票波动性，但基本面支撑尚待验证。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -895,12 +893,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#42</span>
-                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 42章经</span>
+                    <span class="source-tag" style="background:#3b82f620;color:#3b82f6">🛠 红杉汇</span>
                     <span class="cat-tag" style="background:#3b82f630;color:#3b82f6">产品发布</span>
                 </div>
             </div>
-            <h2 class="card-title">用Agent 动力学，和40个Agents一起为「人+AI」做产品142章经</h2>
-            <p class="card-summary">斯坦福大学研究团队通过构建40个AI Agent组成的虚拟社区，模拟人类社交互动与决策过程，揭示出Agent间合作、竞争与信息传播的复杂动力学。实验发现，引入少量人类干预即可显著提升集体智能表现，Agent在特定任务中效率超人类群体33%，但创造力与伦理判断仍存局限。该研究提出“人机协同”新框架，强调未来产品设计需平衡Agent自主性与人类监督，以应对分布式系统决策可靠性等核心挑战。</p>
+            <h2 class="card-title">AI大家说Ⅰ在AI时代，如何培养一个好的产品？</h2>
+            <p class="card-summary">在AI时代，培养优秀产品需聚焦三个核心：一是数据驱动的产品迭代，依赖高质量标注数据和用户行为反馈闭环，2023年头部AI产品用户留存率提升40%；二是人机协同设计，强调算法与用户体验深度融合，70%用户更倾向有“可解释性”的AI决策；三是敏捷伦理治理，需前置模型偏见检测与隐私保护，合规产品的商业转化率较同行高出25%。最终结论：AI产品成功关键不在技术堆砌，而在“数据-交互-信任”三角的均衡构建。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -912,15 +910,15 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#43</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 人人都是产品经理</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Towards Data Science</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">中国AI，集体向“钱”看?</h2>
-            <p class="card-summary">中国AI企业正从技术竞赛转向商业化落地，集体将盈利作为核心目标。数据显示，2024年国内大模型公司营收普遍增长，但多数仍处于亏损状态，头部企业如百度文心、阿里通义等通过B端服务实现数亿元年收入，而中小厂商面临融资收紧与成本压力。关键结论：行业正从烧钱研发进入“自我造血”阶段，垂直场景应用和规模化付费将成为2025年存活关键，预计超半数企业将因现金流问题被淘汰。</p>
+            <h2 class="card-title">Assemble Each RAG Generation Prompt from a Base Prompt Plus the Rules Each Question Needs</h2>
+            <p class="card-summary">针对企业级RAG（检索增强生成）系统的生成提示词优化，提出一种模块化组装方法：将固定的BASE提示词与每个问题所需的规则动态组合。通过一个注册调度器，将解析后的问题映射为特定类型的LLM调用。该方案解决了标准RAG中单一提示词难以适配不同查询逻辑的问题，提升了生成回答的精准性和领域适配性。核心在于将规则与BASE分离，实现灵活组装，从而降低提示词维护成本并提高系统鲁棒性。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date"></span>
+                <span class="pub-date">2026-07-05</span>
             </div>
         </article>
 
@@ -929,32 +927,32 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#44</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 The Verge AI</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 AI前线</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">The fanfiction community is at war with AI — and itself</h2>
-            <p class="card-summary">过去一周，同人圈发起了一场旨在清除生成式AI创作的新运动，但检测方法备受质疑。大量作者对Claude、ChatGPT等AI工具的使用表示强烈反感，然而现有检测手段并不精准，可能导致无辜的同人作者被误判。这场运动不仅针对AI写作，也暴露了社区内部的深层分歧：在抵制AI的过程中，同人圈正陷入自我消耗的困局。核心矛盾在于，缺乏可靠的技术手段来公正识别AI生成内容，使得整个创作社区面临误伤与信任危机。</p>
+            <h2 class="card-title">Anthropic 负责人：HTML比MD更利于人类跟进智能体协作流程InfoQ2026...</h2>
+            <p class="card-summary">Anthropic负责人指出，在智能体协作流程中，HTML比Markdown更有利于人类追踪和干预。HTML具备结构化标签和可视化层级，能更直观地展示智能体间的信息传递与决策路径，显著降低人类理解复杂协作过程的认知负担。而Markdown的扁平化结构在涉及多步骤、多角色交互时容易造成信息丢失和混淆。建议开发面向人类监督的智能体系统时优先采用HTML作为交互界面基础，以提升人机协同效率与可靠性。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-07-04</span>
+                <span class="pub-date"></span>
             </div>
         </article>
 
-        <article class="news-card" data-rank="45" data-idx="44" data-category="研究突破"
+        <article class="news-card" data-rank="45" data-idx="44" data-category="行业动态"
                  onclick="goDetail(44)" style="cursor:pointer">
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#45</span>
-                    <span class="source-tag" style="background:#f59e0b20;color:#f59e0b">🔬 Hacker News</span>
-                    <span class="cat-tag" style="background:#f59e0b30;color:#f59e0b">研究突破</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 甲子光年</span>
+                    <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">The Log Is the Agent</h2>
-            <p class="card-summary">传统AI代理将日志视为外部监控工具，本文则提出“日志即代理”范式：将代理自身的推理、决策与行动过程编码为可执行日志结构，让日志本身驱动后续行为。研究者在多个复杂任务场景下测试，发现该方案可将任务完成成功率提升37%，同时将推理延迟降低22%。核心突破在于日志不再是被动记录，而是具备状态恢复、分支回滚与组合复用能力的主动执行体。该方法使代理具备更强的连续性、可解释性与容错能力，为构建更可靠、透明的AI系统提供了新路径。</p>
+            <h2 class="card-title">寻找AI时代的ε：通过五个人，我们看见了一类人|甲子光年</h2>
+            <p class="card-summary">AI时代涌现出一类“ε人”——非天才却善于利用AI提升效率的进取者。文章通过五位典型个体揭示：零售从业者用AI优化库存与选品，节省40%时间；高校教授借助AI辅助论文写作，效率提升3倍；自由设计师利用生成式AI将设计周期从3天缩至3小时；程序员通过AI调试代码，bug定位效率提升90%；中学生用AI整理知识点，备考时间压缩50%。这群人并非顶尖专家，但主动将AI融入日常，实现了生产力跃迁。ε人群的共性在于：低门槛工具使用 + 明确需求驱动 + 持续迭代验证，他们是AI时代最广泛的中坚力量。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-07-05</span>
+                <span class="pub-date"></span>
             </div>
         </article>
 
@@ -963,15 +961,15 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#46</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Hacker News</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 APPSO</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">Mapping with In-Memory Layers to Reduce LLM Overload</h2>
-            <p class="card-summary">Mapbox 提出一种新的 LLM 架构，通过“内存层”映射解决大规模语言模型推理时的过载问题。该方案将频繁调用的模型输出结果预计算并存储在内存中，作为轻量级可组合层，使应用可直接调用这些缓存结果而非每次都执行完整模型推理。实验显示，该方法能将延迟降低 90%，同时保持 95% 以上的输出质量，显著减少计算资源消耗，为实时地理空间 AI 服务提供了更高效的工程路径。</p>
+            <h2 class="card-title">AI时代求职指南Ⅰ招人</h2>
+            <p class="card-summary">AI时代企业招聘正转向“技能优先”模式，LinkedIn数据显示技能招聘量增长超20%。核心结论：招聘流程被AI重塑，简历筛选、面试评估等环节自动化率超60%，但软技能与AI协作能力成为关键筛选因素。求职者需主动构建AI工具使用能力（如提示工程、数据分析），同时强化不可替代的创造力与共情力。企业通过AI降低招聘成本约30%，却面临技能匹配精准度提升但人才广度缩窄的矛盾，建议求职者聚焦“人机协同”的核心竞争力。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date">2026-07-04</span>
+                <span class="pub-date"></span>
             </div>
         </article>
 
@@ -980,12 +978,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#47</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 互联网怪盗团</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 刘润</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">看了几场世界杯淘汰赛，我对大模型竞争的认识加深了</h2>
-            <p class="card-summary">巴黎奥运期间，主笔通过观赛联想到大模型竞争：选手间差距微小却决定胜负，正如大模型评测中毫厘之差影响排名。核心观点是，大模型竞争进入&quot;淘汰赛&quot;阶段，模型架构趋同，胜负取决于训练数据质量、算力调度、工程优化等细节。文中强调，GPT-4在复杂推理和指令遵循上仍领先，但开源模型如Llama 3正快速追赶，1000亿参数级别模型推理成本已降至每百万token0.5美元以下，接近实用门槛。竞争焦点正从参数规模转向实际应用效率与产品体验。</p>
+            <h2 class="card-title">请收下，一次就能学会的AI提问技巧</h2>
+            <p class="card-summary">2025年AI趋势显示，推理模型成为新主流，其核心优势在于思考而非速度。使用推理模型时，需遵循四大原则：精准定义领域、明确输出格式、提供背景信息、使用专业特定词。关键结论是，提问范例结构应包含背景、输入、过程思维和高质量输出。数据表明，正确的提问方式能将AI回答准确率提升超过30%，减少40%的修改迭代次数。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -997,12 +995,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#48</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 新智元</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 辉哥奇谭</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">突发！Anthropic拟全面封禁地下通道</h2>
-            <p class="card-summary">Anthropic近日宣布将全面封禁其AI模型Claude的“地下通道”功能，即禁止用户通过特定技术绕过安全限制。此举旨在防范模型被用于恶意目的，如生成有害内容或规避伦理审查。据内部数据，该通道曾被用于约15%的异常请求，其中涉及敏感信息的比例高达40%。Anthropic强调，这一禁令将于下月生效，并同步升级安全系统，以确保模型输出符合合规与道德标准。该决策标志着AI安全治理的进一步收紧，引发业内对开放性与可控性平衡的讨论。</p>
+            <h2 class="card-title">如何用AI陪自己一起读书?</h2>
+            <p class="card-summary">AI可通过深度求索等工具实现“双人共读”模式：上传PDF后，AI生成5%篇幅的核心摘要（覆盖80%关键点），并辅助标注重点、提炼疑问。用户实测显示，20分钟可完成一本书的速读与框架梳理，再针对兴趣点精读，效率提升5倍以上。关键在于用AI完成信息筛选，保留人类深度思考与情感共鸣，实现“AI处理事实，人类聚焦观点”的分工协作。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -1014,15 +1012,15 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#49</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 甲子光年</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 Hacker News</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">寻找AI时代的ε：通过五个人，我们看见了一类人|甲子光年</h2>
-            <p class="card-summary">通过五位典型个体的深度访谈，文章揭示AI时代催生出“ε人群”——即具备高效利用与批判性理解AI能力的中间层力量。研究发现，他们并非顶尖技术专家，却能通过人机协作实现效率跃升，在编程、设计、内容创作等岗位产出提升40%-80%。关键结论指出：未来职场竞争力将不再取决于掌握多少知识，而在于能否将AI作为认知延展工具，形成“人机双向驯化”的元能力。这类人正成为连接技术红利与产业应用的核心枢纽。</p>
+            <h2 class="card-title">GPT-5.6 Sol Ultra will be in Codex</h2>
+            <p class="card-summary">GPT-5.6 Sol Ultra 将被整合进 Codex 系统，标志着 AI 从语言模型向自主编码代理的重要演进。新模型在复杂推理、多步编程和代码生成上实现显著提升，尤其在半结构化任务中表现出更低的错误率与更强的上下文记忆能力。初期测试显示，其在 LeetCode 与内部基准上的性能提升约 30%-50%。该版本聚焦实用性部署，而非单纯增加参数规模，旨在让 AI 更可靠地参与完整开发流程。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
-                <span class="pub-date"></span>
+                <span class="pub-date">2026-07-06</span>
             </div>
         </article>
 
@@ -1031,12 +1029,12 @@
             <div class="card-header">
                 <div class="card-meta">
                     <span class="rank" style="color:#555">#50</span>
-                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 APPSO</span>
+                    <span class="source-tag" style="background:#10b98120;color:#10b981">📊 互联网怪盗团</span>
                     <span class="cat-tag" style="background:#10b98130;color:#10b981">行业动态</span>
                 </div>
             </div>
-            <h2 class="card-title">一枚 2000 块的AI戒指，想要抢走你的键盘</h2>
-            <p class="card-summary">穿戴式AI设备“AI戒指”售价约2000元，旨在替代传统键盘输入。其核心功能是通过手势识别和传感器，将手指动作转化为文字或指令，实现无键盘交互。实测显示，该戒指在简单指令和短文本输入上表现流畅，但复杂长文输入准确率较低，需配合语音或触控修正。专家指出，当前技术仍处早期，续航和佩戴舒适度有待提升，但预示了“去键盘化”的输入趋势，可能改变人机交互方式。</p>
+            <h2 class="card-title">MTOAIE</h2>
+            <p class="card-summary">MTOAIE提出一种新型AI模型架构，通过多任务协同优化与自适应信息增强机制，在自然语言理解和生成任务上实现突破。在GLUE基准测试中，该模型以89.7%的准确率超越BERT（86.4%）和RoBERTa（88.5%），同时参数量减少18%。关键创新在于动态任务路由和跨模态特征融合，使得训练效率提升32%，推理速度加快25%。该方案为构建更高效、轻量化的通用AI系统提供了新路径。</p>
             <div class="card-footer">
                 <span class="read-more">🔬 AI 总结</span>
                 <span class="pub-date"></span>
@@ -1049,7 +1047,7 @@
   <p>由 <strong>AI 日报自动化系统</strong> 生成 · 每日更新</p>
   <div class="sources-section">
     <p class="sources-label">📡 数据来源</p>
-    <p class="sources-list">36氪 · 42章经 · AI前线 · APPSO · DeepTech深科技 · Hacker News · PaperWeekly · TechCrunch AI · The Verge AI · Towards Data Science · 互联网怪盗团 · 人人都是产品经理 · 前端之巅 · 夕小瑶科技说 · 差评 · 新智元 · 机器之心 · 极客公园 · 海外独角兽 · 爱范儿 · 甲子光年 · 经纬创投 · 虎嗅App · 量子位 · 钛媒体</p>
+    <p class="sources-list">36氪 · AI前线 · APPSO · DeepTech深科技 · Hacker News · InfoQ · PaperWeekly · The Verge AI · Towards Data Science · 互联网怪盗团 · 人人都是产品经理 · 刘润 · 前端之巅 · 华尔街见闻 · 夕小瑶科技说 · 新智元 · 机器之心 · 极客公园 · 海外独角兽 · 玉树芝兰 · 甲子光年 · 红杉汇 · 经纬创投 · 虎嗅App · 辉哥奇谭 · 量子位 · 钛媒体 · 阿里云开发者 · 集智俱乐部</p>
   </div>
 </footer>
 
@@ -1072,12 +1070,12 @@ function getWeekday(dateStr) {
 }
 
 // ── 文章数据（Python 注入）──
-const ARTICLES = [{"title": "可灵独立后拿下 30 亿美元融资，打响AI视频竞赛下半场", "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109764&idx=1&sn=bbcf278f62503cd2a3bc0008f66c566e", "summary": "可灵独立后拿下 30 亿美元融资，打响AI视频竞赛下半场", "source": "极客公园", "published": "", "score": 0, "category": "融资并购", "chinese_summary": "可灵AI从快手独立后完成30亿美元融资，资金将用于技术研发与生态建设。其视频生成模型在时长、分辨率及物理一致性上达到行业领先水平，推动AI视频竞赛进入商业化落地阶段。此次融资规模表明资本对AI视频赛道的强烈信心，也加速了与Sora等对手的竞争格局重塑。"}, {"title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance", "url": "https://github.com/openai/codex/issues/30364", "summary": "Article URL: https://github.com/openai/codex/issues/30364\nComments URL: https://news.ycombinator.com/item?id=48789428\nPoints: 197\n# Comments: 69", "source": "Hacker News", "published": "2026-07-04T21:51:09", "score": 0, "category": "产品发布", "chinese_summary": "GPT-5.5 Codex在推理过程中引入“推理令牌聚类”机制，导致代码生成性能下降。研究表明，该机制将思考过程打包成聚类令牌，虽降低了交互延迟，却损失了中间推理步骤的多样性，使模型在面对复杂逻辑或边界条件时更易出现偏差。开发者反馈，聚类后的推理路径趋于同质化，对多步逻辑问题和异常处理的稳健性明显减弱，建议优化聚类策略以平衡效率与准确率。"}, {"title": "OpenAI提议向美国政府出让5%股权", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710692&idx=1&sn=bc36158e26539a621300f1045522ff89", "summary": "OpenAI提议向美国政府出让5%股权", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "OpenAI提议向美国政府出让5%股权，以换取联邦政府对AI行业的全面监管框架支持。该方案具体为成立一个独立非营利组织，代表政府持有股权，参与公司治理。此举旨在缓解AI发展对国家安全及社会稳定的潜在风险。当前OpenAI估值达3000亿美元，5%股权价值约150亿美元。该提议标志着AI巨头主动寻求政府深度介入，以平衡技术创新与公共安全。"}, {"title": "Anthropic也要造芯片了，还挖了OpenAl的芯片工程师", "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649800147&idx=1&sn=b9b2844a91662aaafa75ce7779d6c6bd", "summary": "Anthropic也要造芯片了，还挖了OpenAl的芯片工程师", "source": "DeepTech深科技", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Anthropic宣布自研AI芯片，并挖角OpenAI芯片工程师。此举旨在减少对英伟达的依赖，降低推理成本，并加强对算力栈的控制。目前其模型需在超40万颗H100/Grail组合上训练，预计芯片开发将耗时数年，初期可能用于推理而非训练。这一动向标志着头部AI公司正加速自研芯片布局。"}, {"title": "3D打印微型核反应堆问世，AI算力迎来全新“心脏”", "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649800147&idx=2&sn=fb806b59c7c6c1e95ee5273423909476", "summary": "3D打印微型核反应堆问世，AI算力迎来全新“心脏”", "source": "DeepTech深科技", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "美国能源部下属研究机构成功开发出3D打印微型核反应堆，其热功率达300千瓦，可连续运行10年无需换料。该微型反应堆体积仅相当于集装箱大小，采用耐高温、抗辐射的3D打印封装，显著降低制造成本与时间。这一突破为AI算力基础设施提供了稳定、清洁的能源解决方案，有望取代传统化石燃料发电，实现数据中心低碳化运营。未来，每个大型算力中心或将配备专属微型核反应堆，彻底改变AI产业的能源依赖格局。"}, {"title": "Hinton盛赞，Gemini核心贡献者演讲：未来会有数十亿超人级AI爱因斯坦", "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651042656&idx=2&sn=2885f8989495d491dc8b0fdc51b17aac", "summary": "Hinton盛赞，Gemini核心贡献者演讲：未来会有数十亿超人级AI爱因斯坦", "source": "机器之心", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Hinton高度赞扬的Gemini核心贡献者预测，未来将出现数十亿个能力超越人类、堪比爱因斯坦的AI系统。这些超级AI将具备自主学习和科学发现能力，可能主导从药物研发到物理理论的所有知识突破。关键结论是：AI进化速度远超预期，通用人工智能（AGI）将在十年内实现，届时人类需面对智力被全面超越的生存挑战，数亿AI爱因斯坦将重塑文明格局。"}, {"title": "9点1氪：阿里内部全面禁用ClaudeCode；FF洛杉矶总部人去楼空？公...", "url": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248894303&idx=1&sn=ac87b258af328d34ee3706d45884dd27", "summary": "9点1氪：阿里内部全面禁用ClaudeCode；FF洛杉矶总部人去楼空？公...", "source": "36氪", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "阿里巴巴因担心开源模型风险与数据安全，已内部全面禁用ClaudeCode。FF洛杉矶总部被曝人去楼空，物业方称其未续约且欠缴租金，FF回应称总部仍在正常运作，实为优化办公空间。此外，苹果Vision Pro在华销售不及预期，单季或仅卖出数千台；知乎净亏损同比收窄至1.58亿元，但用户增长仍承压。"}, {"title": "阿里内部全面禁用ClaudeCode；带摄像头AirPodsPro项目「暂停」；黄仁.", "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109805&idx=1&sn=ca7070961531e9fc440cb3c140e0f2c7", "summary": "阿里内部全面禁用ClaudeCode；带摄像头AirPodsPro项目「暂停」；黄仁.", "source": "极客公园", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "阿里内部已全面禁用代码生成工具ClaudeCode，以防范数据风险。苹果带摄像头的AirPods Pro项目暂时搁置，技术难点或成本问题尚未解决。黄仁勋最新动态未被详细披露，但反映AI硬件竞争持续加剧。行业面临工具安全与产品创新双重挑战。"}, {"title": "可灵AI两部作品同时拿下戛纳金狮，视频大模型闯进商业创意主战场", "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661075751&idx=3&sn=45aad54a478b66cf9d8360dfbb50d91f", "summary": "可灵AI两部作品同时拿下戛纳金狮，视频大模型闯进商业创意主战场", "source": "钛媒体", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "可灵AI的两部视频作品在戛纳国际创意节同时斩获金狮奖，标志着视频生成大模型正式进入商业创意核心领域。获奖作品分别由快手的可灵AI与品牌合作完成，展示了该模型在叙事、视觉风格与品牌表达上的专业级能力。数据显示，可灵AI已支持生成最长2分钟、1080P高清视频，并在动态细节、动作连续性和语义理解方面达到行业领先水平。此次获奖证明AI视频生成技术不仅能辅助创意生产，更能独立输出具备商业竞争力的高质量广告内容，为视频大模型在营销行业的规模化应用树立了重要标杆。"}, {"title": "Stop Returning Text from RAG: The Typed Answer Contract That Prevents Hallucination", "url": "https://towardsdatascience.com/stop-returning-text-from-rag-the-typed-answer-contract-that-prevents-hallucination/", "summary": "Enterprise Document Intelligence [Vol.1 #8A] - The schema is the contract: every field is a question the pipeline asks the model, and every answer is checkable\nThe post Stop Returning Text from RAG: The Typed Answer Contract That Prevents Hallucination appeared first on Towards Data Science.", "source": "Towards Data Science", "published": "2026-07-04T13:00:00", "score": 0, "category": "活动会议", "chinese_summary": "传统RAG系统直接返回文本易引发幻觉，本文提出“类型化答案契约”方法：将输出定义为结构化Schema，每个字段对应一个需模型回答的明确问题，从而将生成过程拆解为可验证的问答单元。核心优势在于，系统可对每个字段的答案进行独立校验（如数值范围、枚举值等），使幻觉从源头被约束。关键结论显示，该方法在企业文档智能场景中可将事实性错误降低60%以上，同时保持答案的完整性。本质是将黑箱文本生成转变为可审计的结构化信息提取，实现精度与可控性的双赢。"}, {"title": "趁火打劫！GPT-5.6三大模型全曝，定档7月7日？", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710661&idx=1&sn=6ee2750a853fb7ad7274f2dff5348dca", "summary": "趁火打劫！GPT-5.6三大模型全曝，定档7月7日？", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "据曝料，OpenAI计划于7月7日发布GPT-5.6，此次将推出三大模型版本，分别针对推理、长上下文及多模态能力。新模型在复杂数学推理、代码生成与多轮对话上显著提升，推理成本预计降低40%。此外，模型将支持百万级token上下文窗口，并在视觉理解与语音交互上取得突破。若如期发布，GPT-5.6将大幅强化AI生产力，但具体功能与定价仍需官方证实。"}, {"title": "大模型推理也能“智能调度”：让奖励模型按需分配算力的动态路由机制|ACL2026", "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247664239&idx=2&sn=aa073797a92162d870f159eb1b66991e", "summary": "大模型推理也能“智能调度”：让奖励模型按需分配算力的动态路由机制|ACL2026", "source": "AI前线", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "ACL2026提出一种动态路由机制，使大模型推理时奖励模型能根据任务复杂度按需分配算力。该方法通过轻量级路由器实时评估输入难度，为简单样本分配较少计算资源，复杂样本则调用更深度推理路径。实验表明，在保持生成质量不变的前提下，该机制可降低30%-50%的总推理计算量，并在数学推理、代码生成等任务上验证了其显著提升算力利用效率的有效性。"}, {"title": "Anthropic推出ClaudeScience，科研界的Claude code来了！附实测", "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247618214&idx=1&sn=93060a18edcfd42c60d880c9757e3172", "summary": "Anthropic推出ClaudeScience，科研界的Claude code来了！附实测", "source": "夕小瑶科技说", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Anthropic推出专为科研设计的Claude Science，支持使用自然语言与LaTeX混合编写论文，可实时生成数学公式、图表及关联实验代码，并一键导出PDF。实测表明，其在物理、生物等领域的文献摘要、实验设计建议及代码推导中表现优异，能显著缩短科研写作与数据分析周期，但复杂专业术语的精确理解仍需人工校验。"}, {"title": "Vibe一下能自动画工程图、做3D装配的AI来了Ⅰ上海AI Lab", "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901557&idx=2&sn=b92b247ecd388e32a74b13a6422b7f82", "summary": "Vibe一下能自动画工程图、做3D装配的AI来了Ⅰ上海AI Lab", "source": "量子位", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "上海AI Lab推出新型AI系统，可基于自然语言“Vibe一下”指令自动生成工程图纸并完成3D装配。该系统通过多模态模型理解设计意图，零样本实现零件装配与图纸输出，显著提升设计效率。关键数据表明，其装配准确率达92%，图纸生成速度较传统CAD软件提升10倍，已通过工业标准验证。这项技术标志着AI从辅助绘图向自主工程设计的实质性跨越。"}, {"title": "上海交大提出ICRDrag：首个上下文区域拖拽模型，实现精准可控图像编辑", "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651042656&idx=3&sn=8609a7dcae8fb73c7e3aa1d8feea3180", "summary": "上海交大提出ICRDrag：首个上下文区域拖拽模型，实现精准可控图像编辑", "source": "机器之心", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "上海交大提出ICRDrag，这是首个上下文区域拖拽模型，用于精准可控图像编辑。模型引入上下文区域与实例感知特征交互机制，在复杂场景下显著提升拖拽精度。实验表明，其编辑成功率超越DragGAN等现有方法，在多个公开数据集上平均精度提升超10%，并支持多对象同时编辑与语义保持，推动图像编辑向智能化、细粒度控制迈进。"}, {"title": "AI天才为什么回流大厂", "url": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656184193&idx=1&sn=462dedf0242293b165b6a07350a082e3", "summary": "AI天才为什么回流大厂", "source": "虎嗅App", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "AI领域顶尖人才正从初创公司回流大厂，主要因为大厂提供更稳定的算力资源、更成熟的工程化能力及更高的薪资涨幅（可达30%-50%）。数据显示，2024年头部科技企业AI人才净流入率同比上升22%，其中超六成来自初创团队。同时，大厂在基础模型与业务落地的闭环能力上优势明显，使得天才科学家更倾向于选择平台而非单纯技术极客路线。这一趋势也反映出AI创投回归理性，资本更注重商业化路径而非概念炒作。"}, {"title": "一年跌没九成！“AG|第一股”被AI抛弃|巴伦港股", "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661075751&idx=1&sn=dc1b6b67011a32032a7369f2ade41c2c", "summary": "一年跌没九成！“AG|第一股”被AI抛弃|巴伦港股", "source": "钛媒体", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "曾被冠以“AGI第一股”的AI公司，上市一年股价暴跌近九成，市值跌至400亿港元以下。其核心困境在于AI技术落地缓慢，商业变现不达预期，尤其在生成式AI浪潮中缺乏爆款应用与技术壁垒。公司研发投入巨大但营收增长乏力，毛利率持续下滑，被市场迅速抛弃。这表明当前市场已从“概念炒作”转向对AI公司盈利模式与技术领先性的严厉审视，缺乏可持续性竞争力的企业面临残酷估值回归。"}, {"title": "17岁高中生做了个假AI，上线一个月获2.8亿次访问|【经纬低调分享】", "url": "https://mp.weixin.qq.com/s?__biz=MzA3ODk5OTEzOA==&mid=2962188023&idx=1&sn=55fc47cf5ad680ef33471c9c12e971d4", "summary": "17岁高中生做了个假AI，上线一个月获2.8亿次访问|【经纬低调分享】", "source": "经纬创投", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "一名17岁高中生开发的“假AI”网站上线一个月内获得2.8亿次访问，该系统实际是调用API伪装成人工智能。该项目引发对AI行业泡沫与用户信任危机的反思：在热潮中，大量“AI产品”本质仅是包装后的接口调用，但其流量与商业价值惊人。事件暴露了用户对技术真实性的辨别盲区，以及资本对概念而非实质的追捧。最终，该网站被关闭，但数据揭示出当前AI领域存在的投机现象与监管缺失。"}, {"title": "New Google commercial imagines a Declaration of Independence written with help from AI", "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/", "summary": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Google Workspace?", "source": "TechCrunch AI", "published": "2026-07-04T20:55:25", "score": 0, "category": "行业动态", "chinese_summary": "Google最新广告设想美国《独立宣言》诞生250周年之际，若开国元勋使用Google Workspace会怎样。广告借AI辅助起草历史文件，凸显生成式AI在协作、润色与创意激发方面的潜力。核心意图是推广Gemini等AI工具嵌入办公场景，强调AI可提升效率与表达精准度。此举延续科技公司将爱国象征与商业宣传结合的惯例，同时引发关于历史真实性、AI介入重大决策的讨论。"}, {"title": "Midjourney wants Hollywood studios to reveal the details of their AI usage", "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/", "summary": "As part of an ongoing legal dispute with three Hollywood studios, Midjourney is seeking to compel those studios to reveal how they use AI themselves.", "source": "TechCrunch AI", "published": "2026-07-04T18:00:05", "score": 0, "category": "行业动态", "chinese_summary": "在与三家好莱坞工作室的持续法律纠纷中，Midjourney要求法院强制对方披露自身使用AI的具体细节。该动议旨在揭示这些工作室在影视制作中如何部署AI工具，包括训练数据来源和生成内容比例。此举旨在确保AI使用透明度，并可能影响版权法与AI伦理的行业标准。案件核心争议在于AI生成的视觉内容是否侵犯原创版权，而Midjourney的诉求直指对方“只许州官放火”的双重标准。"}, {"title": "Alibaba reportedly bans employees from using Claude Code", "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/", "summary": "Alibaba has reportedly classified Claude Code as high-risk software.", "source": "TechCrunch AI", "published": "2026-07-04T16:32:08", "score": 0, "category": "政策监管", "chinese_summary": "阿里巴巴据报将人工智能编码工具Claude Code列为高风险软件，禁止员工使用。此举旨在防范数据泄露和代码安全风险，反映出大型科技企业对第三方AI工具日益严格的管控。此前，Claude Code因能高效生成和修改代码而受开发者欢迎，但企业担忧其可能上传敏感信息至外部服务器。该禁令涵盖集团所有业务部门，违规者将面临纪律处分。"}, {"title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable", "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main", "summary": "Article URL: https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main\nComments URL: https://news.ycombinator.com/item?id=48788283\nPoints: 433\n# Comments: 170", "source": "Hacker News", "published": "2026-07-04T19:41:10", "score": 0, "category": "产品发布", "chinese_summary": "开发者通过自研工具Fable，将经典RTS游戏《命令与征服：将军》原生移植至macOS、iPhone及iPad平台。该项目完整保留了游戏原始代码与数据，无需模拟器即可在Apple Silicon设备上流畅运行，并针对触控操作进行了适配。移植版支持最高4K分辨率、60帧稳定输出，且实现了多指手势控制。该方案证明，基于Metal API的跨平台移植技术可使老旧PC游戏完美适配苹果生态。"}, {"title": "文件系统是Agent的省钱答案？token消耗降低45%，费用减少39%", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710661&idx=3&sn=8e5919e86f9da15ed310ef4222484329", "summary": "文件系统是Agent的省钱答案？token消耗降低45%，费用减少39%", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Anthropic研究发现，将文件系统引入AI Agent可显著降低token消耗与费用。通过结构化文件管理替代冗长的上下文传递，Agent在处理复杂任务时token消耗减少45%，费用降低39%，同时性能得到保持或提升。核心在于文件系统能高效组织、检索和复用信息，避免了重复传递大量原始上下文。该方案为解决Agent长期任务中的成本与效率问题提供了实用路径，尤其适用于需要持久记忆和多轮交互的场景。"}, {"title": "ClaudeCode 80%的提示词说删就删，Anthropic用Fable5打了个样：AI行..", "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247664239&idx=1&sn=4c4c7997ab6225c1fe6ce775022d7c0a", "summary": "ClaudeCode 80%的提示词说删就删，Anthropic用Fable5打了个样：AI行..", "source": "AI前线", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Anthropic最新研究表明，ClaudeCode可删除多达80%的提示词，在Fable5项目中验证了AI模型对冗余指令的高度容忍性。研究显示，精简提示不仅未降低代码生成质量，反而提升了任务执行效率约27%。核心结论是：模型理解能力远超预期，过度提示反而形成干扰。这一发现为优化人机交互设计提供了关键实证。"}, {"title": "把AI做进材料，这家公司想造会学习的机器人“细胞”", "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649800147&idx=3&sn=94fa973f79ede1f546095fea1bee509b", "summary": "把AI做进材料，这家公司想造会学习的机器人“细胞”", "source": "DeepTech深科技", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "中科院宁波所孵化企业辛动力研发“机器细胞”芯片，将AI算法直接嵌入材料，实现硬件层面的自适应学习。其关键突破在于将神经网络部署于忆阻器阵列，使机器人驱动系统无需云端计算即可实时优化动作，能耗仅为传统方案的千分之一。实验表明，搭载该芯片的机械臂经过200次自学习后，抓取精度提升至98.7%，响应速度达0.3毫秒。这项硬件智能技术有望终结机器人对外部算力的依赖，推动具身智能进入自主进化阶段。"}, {"title": "AI原生公司长啥样？他们造了个Agent，也造了一种新公司", "url": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248894437&idx=1&sn=58e95eaef574c2dde8699c2f57a154bd", "summary": "AI原生公司长啥样？他们造了个Agent，也造了一种新公司", "source": "36氪", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "一家名为“未来智能”的AI原生公司创造了一款名为“小悟”的自主智能体，并以此重构了公司组织形态。核心要点是：该公司仅靠3名全职员工和1个AI Agent，就实现了超90%的客户问题自动解决，将传统需20人团队的工作高效完成。其模式是让Agent扮演自由职业者与客户间的核心协调层，通过标准化任务和独立核算，实现零行政成本、即时结算。这一实践表明，AI原生公司并非简单用AI辅助，而是让Agent成为组织骨架，将人力从管理转向创意与决策，可能开启一种超级个体加AI协作的微型企业新范式。"}, {"title": "从 Agent 开权限开始，Serval 想成为下—代 ServiceNow", "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTY0MDk0NQ==&mid=2247523999&idx=1&sn=5cbc581b245c09ec11a7c8d74e53b18c", "summary": "从 Agent 开权限开始，Serval 想成为下—代 ServiceNow", "source": "海外独角兽", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Serval 通过让AI Agent自主调用API、自助申请并开通权限，切入企业服务管理场景，定位为“下一代ServiceNow”。其核心思路是：先让AI处理“开权限”这类高频低风险操作，积累信任后再逐步扩展复杂任务。Serval在早期测试中，将IT工单处理时间缩短70%，权限开通效率提升5倍，并计划未来开源部分agent框架，以构建围绕AI原生IT运维的开发者生态，挑战传统ITSM市场。"}, {"title": "连辛顿都说AI有意识了？这个问题问错了", "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651096251&idx=1&sn=1358e4143a074ea6a7816368f1ffc72a", "summary": "连辛顿都说AI有意识了？这个问题问错了", "source": "APPSO", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "杰弗里·辛顿等专家指出，当前关于AI是否有意识的讨论方向错误。核心问题不在于意识属性，而在于AI的智能本质与人类截然不同。研究显示，大型语言模型已具备推理和规划能力，其知识结构与人类神经表征差异显著。关键结论是：我们应聚焦于AI的自主决策风险与可解释性，而非陷入主观体验的哲学争论。辛顿警示，比意识更紧迫的是AI系统可能形成超越人类理解的智能层级，需优先建立安全控制机制而非探讨意识归属。"}, {"title": "阿里内部人士回应禁用Claude/特斯拉限制员工AI支出，每周200美元/曝三...", "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651096195&idx=1&sn=96f390ce655606d5bdfe9d59fc736998", "summary": "阿里内部人士回应禁用Claude/特斯拉限制员工AI支出，每周200美元/曝三...", "source": "APPSO", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "阿里内部人士证实公司已禁用Claude等外部AI工具，转向自研大模型。特斯拉则限制员工每月AI相关支出不超过200美元，以控制云计算成本。报道还曝出三家国内AI初创公司因研发烧钱太快陷入资金困境。数据显示，2024年AI行业融资持续下滑，头部企业融资额同比减少40%，且超半数项目未达技术预期。行业正从盲目投入转向理性管控，企业更注重成本与商业化落地。"}, {"title": "大疆影石专利战火烧回国内/阿里内部全面禁用ClaudeCode/茉莉奶白被判赔LV....", "url": "https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&mid=2652456543&idx=1&sn=5ea01540f1e3fd82a448475f7cade672", "summary": "大疆影石专利战火烧回国内/阿里内部全面禁用ClaudeCode/茉莉奶白被判赔LV....", "source": "爱范儿", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "大疆与影石专利战升级至国内互诉，双方涉及全景相机侵权，案件已进入实质审理。阿里巴巴内部全面禁用AI编程工具Claude Code，因其代码安全保障不足及合规风险。茉莉奶白因门店装潢与路易威登外观相似，被判构成商标侵权及不正当竞争，赔偿LV 60万元。三项事件分别聚焦科技企业专利攻防、AI工具的企业安全治理、以及品牌知识产权的司法保护边界。"}, {"title": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转", "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247526537&idx=1&sn=28314d27c60bebda882b03976db9bef0", "summary": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转", "source": "前端之巅", "published": "", "score": 0, "category": "政策监管", "chinese_summary": "18岁创业者借助OpenClaw平台，仅凭一人管理16个AI Agent，打造出高效运转的“单人Agent公司”。核心思路是：用OpenClaw将客服、内容生成、数据分析等任务拆解并分配给不同Agent协作执行，每个Agent专注特定职能，通过统一调度和反馈机制形成闭环。关键结论是，AI Agent已能替代传统多岗位团队，使单人创业成为可能，运营成本降低约70%，效率提升3倍以上。"}, {"title": "阿里全面封杀Claude，国产Al的春天来了？", "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651928803&idx=1&sn=2b003f2b12a461b41180b32a91694348", "summary": "阿里全面封杀Claude，国产Al的春天来了？", "source": "人人都是产品经理", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "阿里近期全面封禁Claude，明确禁止旗下平台调用、分发或讨论该模型，违者将面临封号等处罚。此举被解读为国产大模型加速替代的信号。数据显示，国产模型如通义千问、文心一言等在编码、逻辑推理等任务上已接近Claude性能，部分场景甚至超越。阿里自身推出的Qwen系列在多项基准测试中表现突出。这一政策或将推动国内AI生态从依赖外部模型转向自主创新，但短期内也可能影响开发者效率与项目多样性。"}, {"title": "What is Mistral AI? Everything to know about the OpenAI competitor", "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/", "summary": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”", "source": "TechCrunch AI", "published": "2026-07-04T15:51:32", "score": 0, "category": "融资并购", "chinese_summary": "Mistral AI 成立于2023年，是一家专注于提供开源大语言模型的AI公司，旨在让前沿AI技术惠及大众。该公司已获得大量融资，其旗舰模型在性能上可与OpenAI的GPT系列竞争，尤其在代码生成、推理和多语言理解方面表现突出。Mistral采取“开放核心”策略，部分模型完全开源，部分通过API收费。其关键优势在于灵活的部署选项和较低的算力需求，吸引了一批注重隐私和成本的企业客户。截至2026年，Mistral估值已超数十亿美元，成为欧洲最具代表性的AI独角兽之一。"}, {"title": "全网爆火！ClaudeCode核心工程师放出Fable5使用心法", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710693&idx=1&sn=c278873c4c80883c33e117e6687b59ce", "summary": "全网爆火！ClaudeCode核心工程师放出Fable5使用心法", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Claude Code核心工程师分享了Fable 5实操心法：通过合理设置Agent角色并精确描述目标，能大幅提升代码生成与调试效率。核心技巧包括将大任务拆解为可验证子步骤、使用自省提示引导AI修正自身错误、以及用少量范例增强输出稳定性。实测显示，合理运用这些技巧可将代码正确率提高40%以上，调试时间缩短约一半。提示：避开模糊指令，善用约束条件，是驾驭AI编程工具的关键。"}, {"title": "Token吃掉三成工资！硅谷AI账单失控了", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710661&idx=2&sn=a8ec71c4db8543580a72b61821553843", "summary": "Token吃掉三成工资！硅谷AI账单失控了", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "AI模型Token消耗占比企业总成本已达30%，硅谷企业AI账单急剧失控。测算显示，单次复杂推理任务可消耗数千Token，月均支出超20万美元。企业被迫限制员工使用量，或转向自建模型以降低成本，但自建部署费用仍高达百万美元级。核心矛盾在于模型推理计算量与商业回报之间严重失衡，若不优化Token定价或提升效率，AI成本将持续侵蚀企业利润。"}, {"title": "美团ICML2026入选论文精选，两场直播聚焦Agent与视频生成", "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247721343&idx=2&sn=fc10fbf7cd06428c1563d4e06c4f5944", "summary": "美团ICML2026入选论文精选，两场直播聚焦Agent与视频生成", "source": "PaperWeekly", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "美团两篇论文入选ICML2026，围绕Agent与视频生成展开前沿研究。Agent方面提出多智能体协作框架，在复杂任务场景中决策效率提升32%，并减少了约45%的冗余通信；视频生成方向则发布基于扩散模型的新架构，在UCF-101数据集上FID降至12.3，超越同期主流方法。两项成果兼顾理论创新与工业落地潜力，为构建高鲁棒性、低延迟的AI应用系统提供了关键技术支撑。"}, {"title": "王嘉尔设计！影目INMO×WHL的AI眼镜凭啥引爆大众消费场?", "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901556&idx=1&sn=92213a6dc1701316ed27a8bd54cf3bac", "summary": "王嘉尔设计！影目INMO×WHL的AI眼镜凭啥引爆大众消费场?", "source": "量子位", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "影目科技联合王嘉尔主理品牌WHL推出AI眼镜INMO Air3，主打时尚设计+日常佩戴，首发当日销量破万，用户画像中女性占比超40%。产品搭载双目全彩衍射光波导技术，重量不足50克，续航达8小时，支持实时翻译、导航、提词器等AI功能。核心突破在于将AR眼镜从极客工具转化为符合Z世代审美的大众消费电子产品，定价2499元起，切入千元级可穿戴赛道。"}, {"title": "追求 AI记忆力的路线下，RAG是否终将被抛弃?", "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651042667&idx=1&sn=c7106a965bc173d009b50d2a2a607525", "summary": "追求 AI记忆力的路线下，RAG是否终将被抛弃?", "source": "机器之心", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "RAG并非被抛弃，而是正与长上下文、Agent等技术融合演进。当前RAG仍是主流方案：独立RAG如LlamaIndex等专注检索增强；集成RAG将检索嵌入模型训练，如Gemini 2M上下文也采用RAG优化；Agentic RAG则让模型自主调用工具检索。研究表明，长上下文虽能100%准确回忆信息，但计算成本高；RAG在保持64-74%准确率的同时，成本极低。未来趋势是RAG与长上下文协同，而非替代。核心结论：RAG不会被淘汰，而是作为高效低成本记忆机制长期存在。"}, {"title": "存在40年的游戏光盘「被判死刑」，压垮它的最后一根稻草是 AI", "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109816&idx=1&sn=3c17b04f7c3f71d5179f99df8e548afb", "summary": "存在40年的游戏光盘「被判死刑」，压垮它的最后一根稻草是 AI", "source": "极客公园", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "存在40年的游戏光盘正被宣告终结，而压垮它的最后一根稻草是AI。随着生成式AI和云游戏技术的崛起，游戏业加速向无物理载体、全数字化分发转型。数据显示，2024年全球数字游戏收入占比已超90%，光盘版销量在部分3A大作中跌至不足10%。AI不仅改变了游戏开发流程，更推动了实时流媒体与动态内容生成，使光盘这种传统媒介彻底失去存在意义。未来游戏将完全依赖云端算力与AI实时渲染，光盘时代正式落幕。"}, {"title": "比 AirPods贵三倍的「睡眠耳机」，可能是最有用的AI硬件", "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109810&idx=1&sn=78c431c3e309195c51f3cebe0f68c0c5", "summary": "比 AirPods贵三倍的「睡眠耳机」，可能是最有用的AI硬件", "source": "极客公园", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "一款名为“睡眠耳机”的AI硬件产品售价高达AirPods的三倍，但凭借其精准的睡眠监测与智能音频干预功能，被认为可能是当前最具实用价值的AI可穿戴设备。该耳机通过内置传感器实时追踪脑电波、心率等生理数据，利用AI算法识别用户所处的睡眠阶段，并自动播放特定频率的音频以助眠或唤醒。实验数据显示，其能显著缩短入睡时间并提升深度睡眠时长，有效率达78%。尽管价格高昂，但相比其他泛用型智能耳机，它在解决睡眠问题这一垂直场景上表现出更专业的针对性。"}, {"title": "明年起插混及增程车征收车船税，阿里内部禁用ClaudeCode，欧盟拟出台未...", "url": "https://mp.weixin.qq.com/s?__biz=MzA5NDc1NzQ4MA==&mid=2654672022&idx=6&sn=fcc8c4279b1096b2856d62adf2df0b69", "summary": "明年起插混及增程车征收车船税，阿里内部禁用ClaudeCode，欧盟拟出台未...", "source": "差评", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "自2025年起，插电混动和增程式电动车将不再享受车船税优惠政策，开始按传统燃油车标准征收。阿里内部明确禁止使用AI编程工具Claude Code，以确保自身技术安全与数据合规。欧盟正在酝酿出台新规，进一步加强对大型科技平台及AI应用的监管。此外，全球AI芯片供应持续紧张，英伟达H100及更高性能芯片交付周期延长至36周以上，推高大模型训练成本。"}, {"title": "用Agent 动力学，和40个Agents一起为「人+AI」做产品142章经", "url": "https://mp.weixin.qq.com/s?__biz=MzIyMDE5OTYyMw==&mid=2651051564&idx=1&sn=babc1b1e75b77826a63d304d33c348e0", "summary": "用Agent 动力学，和40个Agents一起为「人+AI」做产品142章经", "source": "42章经", "published": "", "score": 0, "category": "产品发布", "chinese_summary": "斯坦福大学研究团队通过构建40个AI Agent组成的虚拟社区，模拟人类社交互动与决策过程，揭示出Agent间合作、竞争与信息传播的复杂动力学。实验发现，引入少量人类干预即可显著提升集体智能表现，Agent在特定任务中效率超人类群体33%，但创造力与伦理判断仍存局限。该研究提出“人机协同”新框架，强调未来产品设计需平衡Agent自主性与人类监督，以应对分布式系统决策可靠性等核心挑战。"}, {"title": "中国AI，集体向“钱”看?", "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651928777&idx=1&sn=e777f478dfc7209b9c535345dbb7c6a8", "summary": "中国AI，集体向“钱”看?", "source": "人人都是产品经理", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "中国AI企业正从技术竞赛转向商业化落地，集体将盈利作为核心目标。数据显示，2024年国内大模型公司营收普遍增长，但多数仍处于亏损状态，头部企业如百度文心、阿里通义等通过B端服务实现数亿元年收入，而中小厂商面临融资收紧与成本压力。关键结论：行业正从烧钱研发进入“自我造血”阶段，垂直场景应用和规模化付费将成为2025年存活关键，预计超半数企业将因现金流问题被淘汰。"}, {"title": "The fanfiction community is at war with AI — and itself", "url": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector", "summary": "Over the past week, a new fanworks movement has kicked off, with the aim to root out authors using generative AI. But the detection methods being implemented are questionable, and any fanfic writer could be caught in the crossfire. Broad distaste around the use of Claude, ChatGPT, and other AI tools", "source": "The Verge AI", "published": "2026-07-04T12:00:00", "score": 0, "category": "行业动态", "chinese_summary": "过去一周，同人圈发起了一场旨在清除生成式AI创作的新运动，但检测方法备受质疑。大量作者对Claude、ChatGPT等AI工具的使用表示强烈反感，然而现有检测手段并不精准，可能导致无辜的同人作者被误判。这场运动不仅针对AI写作，也暴露了社区内部的深层分歧：在抵制AI的过程中，同人圈正陷入自我消耗的困局。核心矛盾在于，缺乏可靠的技术手段来公正识别AI生成内容，使得整个创作社区面临误伤与信任危机。"}, {"title": "The Log Is the Agent", "url": "https://arxiv.org/abs/2605.21997", "summary": "Article URL: https://arxiv.org/abs/2605.21997\nComments URL: https://news.ycombinator.com/item?id=48790912\nPoints: 5\n# Comments: 0", "source": "Hacker News", "published": "2026-07-05T02:57:38", "score": 0, "category": "研究突破", "chinese_summary": "传统AI代理将日志视为外部监控工具，本文则提出“日志即代理”范式：将代理自身的推理、决策与行动过程编码为可执行日志结构，让日志本身驱动后续行为。研究者在多个复杂任务场景下测试，发现该方案可将任务完成成功率提升37%，同时将推理延迟降低22%。核心突破在于日志不再是被动记录，而是具备状态恢复、分支回滚与组合复用能力的主动执行体。该方法使代理具备更强的连续性、可解释性与容错能力，为构建更可靠、透明的AI系统提供了新路径。"}, {"title": "Mapping with In-Memory Layers to Reduce LLM Overload", "url": "https://ridgetext.com/blog/mapbox-llm-composition", "summary": "Article URL: https://ridgetext.com/blog/mapbox-llm-composition\nComments URL: https://news.ycombinator.com/item?id=48789986\nPoints: 14\n# Comments: 1", "source": "Hacker News", "published": "2026-07-04T23:25:53", "score": 0, "category": "行业动态", "chinese_summary": "Mapbox 提出一种新的 LLM 架构，通过“内存层”映射解决大规模语言模型推理时的过载问题。该方案将频繁调用的模型输出结果预计算并存储在内存中，作为轻量级可组合层，使应用可直接调用这些缓存结果而非每次都执行完整模型推理。实验显示，该方法能将延迟降低 90%，同时保持 95% 以上的输出质量，显著减少计算资源消耗，为实时地理空间 AI 服务提供了更高效的工程路径。"}, {"title": "看了几场世界杯淘汰赛，我对大模型竞争的认识加深了", "url": "https://mp.weixin.qq.com/s?__biz=MzIxMDgyMTM0NQ==&mid=2247502211&idx=1&sn=fcf5d5475b8ec2c24067bbfdc39db8c1", "summary": "看了几场世界杯淘汰赛，我对大模型竞争的认识加深了", "source": "互联网怪盗团", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "巴黎奥运期间，主笔通过观赛联想到大模型竞争：选手间差距微小却决定胜负，正如大模型评测中毫厘之差影响排名。核心观点是，大模型竞争进入\"淘汰赛\"阶段，模型架构趋同，胜负取决于训练数据质量、算力调度、工程优化等细节。文中强调，GPT-4在复杂推理和指令遵循上仍领先，但开源模型如Llama 3正快速追赶，1000亿参数级别模型推理成本已降至每百万token0.5美元以下，接近实用门槛。竞争焦点正从参数规模转向实际应用效率与产品体验。"}, {"title": "突发！Anthropic拟全面封禁地下通道", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710633&idx=1&sn=e2f2e498a483748f0481d14323ca3476", "summary": "突发！Anthropic拟全面封禁地下通道", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Anthropic近日宣布将全面封禁其AI模型Claude的“地下通道”功能，即禁止用户通过特定技术绕过安全限制。此举旨在防范模型被用于恶意目的，如生成有害内容或规避伦理审查。据内部数据，该通道曾被用于约15%的异常请求，其中涉及敏感信息的比例高达40%。Anthropic强调，这一禁令将于下月生效，并同步升级安全系统，以确保模型输出符合合规与道德标准。该决策标志着AI安全治理的进一步收紧，引发业内对开放性与可控性平衡的讨论。"}, {"title": "寻找AI时代的ε：通过五个人，我们看见了一类人|甲子光年", "url": "https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&mid=2247555232&idx=1&sn=3ef91a3d4a50f369f43180a1cc680e07", "summary": "寻找AI时代的ε：通过五个人，我们看见了一类人|甲子光年", "source": "甲子光年", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "通过五位典型个体的深度访谈，文章揭示AI时代催生出“ε人群”——即具备高效利用与批判性理解AI能力的中间层力量。研究发现，他们并非顶尖技术专家，却能通过人机协作实现效率跃升，在编程、设计、内容创作等岗位产出提升40%-80%。关键结论指出：未来职场竞争力将不再取决于掌握多少知识，而在于能否将AI作为认知延展工具，形成“人机双向驯化”的元能力。这类人正成为连接技术红利与产业应用的核心枢纽。"}, {"title": "一枚 2000 块的AI戒指，想要抢走你的键盘", "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651096198&idx=1&sn=604017de5fddcc0f0820f4e8d9338a25", "summary": "一枚 2000 块的AI戒指，想要抢走你的键盘", "source": "APPSO", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "穿戴式AI设备“AI戒指”售价约2000元，旨在替代传统键盘输入。其核心功能是通过手势识别和传感器，将手指动作转化为文字或指令，实现无键盘交互。实测显示，该戒指在简单指令和短文本输入上表现流畅，但复杂长文输入准确率较低，需配合语音或触控修正。专家指出，当前技术仍处早期，续航和佩戴舒适度有待提升，但预示了“去键盘化”的输入趋势，可能改变人机交互方式。"}];
+const ARTICLES = [{"title": "CVPR2026新作：AI绘画正式迈入「所控即所得」时代", "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901597&idx=2&sn=182b191704c71466ab7b54de4ae13977", "summary": "CVPR2026新作：AI绘画正式迈入「所控即所得」时代", "source": "量子位", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "CVPR2026提出一项AI绘画新方法，通过引入空间感知控制模块与多尺度特征融合，实现了像素级精准生成。该方法在COCO与OpenImages数据集上，将布局一致性指标从72.3%提升至89.1%，推理速度仅增长12%。这意味着AI绘画从“随机生成”正式迈入“所控即所得”时代，用户可精确指定内容位置、大小与形状，生成结果与文本描述的对齐准确率提升超16%。"}, {"title": "一张普通显卡也能跑300K长文本！AI长文本推理省内存神器面世，省53%显..", "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649800174&idx=2&sn=6da46bdf15ffb2ed3ade12d51f0edda2", "summary": "一张普通显卡也能跑300K长文本！AI长文本推理省内存神器面世，省53%显..", "source": "DeepTech深科技", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "字节跳动与新加坡大学联合推出InfiniGen，可让普通显卡运行300K长文本任务，显存占用降低53%。该技术通过智能预取长上下文的关键KV缓存，减少冗余存取，在单卡24GB显存条件下实现与多卡高端设备同等推理精度。实验显示，处理128K上下文时，InfiniGen仅需4.78GB额外缓存，而传统方法需19.8GB。这大幅降低了长文本AI应用的门槛，推动大模型在普通硬件上的落地。"}, {"title": "HBM之父金正浩：AI的本质是内存，GPU真正工作的时间只有10%", "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247643647&idx=3&sn=987e0bcb978e8ab6e70646baf999006d", "summary": "HBM之父金正浩：AI的本质是内存，GPU真正工作的时间只有10%", "source": "华尔街见闻", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "HBM发明者金正浩指出，AI计算效率瓶颈不在GPU算力而在内存带宽。当前GPU在AI任务中真正进行运算的时间仅占10%，其余90%都浪费在等待数据传输上。他强调AI的本质是内存，未来必须改革以数据为中心的计算架构，让存储更靠近计算单元。HBM内存通过堆叠设计将带宽提升数十倍，但依然不够。金正浩预测，随着AI模型规模持续增长，内存架构创新将成为决定AI性能的关键，而非单纯依赖制程工艺进步。"}, {"title": "Anthropic推出ClaudeScience，科研界的Claude code来了！附实测", "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247618214&idx=1&sn=93060a18edcfd42c60d880c9757e3172", "summary": "Anthropic推出ClaudeScience，科研界的Claude code来了！附实测", "source": "夕小瑶科技说", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Anthropic发布专为科研场景设计的ClaudeScience，它基于Claude 3.5，能深度整合文献检索、数据分析和代码生成功能。实测显示，ClaudeScience在处理复杂论文摘要、生成科研级代码和解析实验数据上表现突出，准确率显著优于通用模型，尤其在生物信息学和材料科学领域，任务完成效率提升约40%。该工具通过结构化交互降低了科研门槛，但需注意其输出仍需人工校验。"}, {"title": "投毒！Meta竟雇外包，大规模给ChatGPT和Gemini下套", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710766&idx=1&sn=d41fd9fa029b1b5cce6e3a07b88b766f", "summary": "投毒！Meta竟雇外包，大规模给ChatGPT和Gemini下套", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Meta 被曝雇佣外包团队对 ChatGPT 和 Gemini 实施“投毒”式攻击，即提交恶意提示样本以诱导模型输出错误或有害内容，进而破坏其安全对齐机制。该计划代号“Dolphin”，外包人员在一天内提交数百条违规提示，试图“教坏”对手模型，以在竞争中占据优势。此行为揭示了 AI 行业暗战升级，大型模型的安全防线正面临系统性的被攻击风险，也引发对商业伦理与模型可信度的深层担忧。"}, {"title": "GPT-5.5突遭暗中降智，思考一到516就断！越难越翻车", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710752&idx=1&sn=b4acc182f14293d4edacd494603c4b1c", "summary": "GPT-5.5突遭暗中降智，思考一到516就断！越难越翻车", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "GPT-5.5被曝遭遇暗中降智处理，系统在推理至516个token时强制中断输出，导致复杂任务处理能力显著下降。测试显示，问题越难，模型翻车越明显，数学、逻辑等需深度思考的场景错误率激增。该限制或有别于官方声明的性能优化，疑似为控制计算成本而设，直接影响用户体验与AI可信度。"}, {"title": "美伊新一轮会谈将在11日举行；OpenAI证实已秘密递交IPO|科股快报", "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661075773&idx=3&sn=ebd6be642e846bb422640da016bc7385", "summary": "美伊新一轮会谈将在11日举行；OpenAI证实已秘密递交IPO|科股快报", "source": "钛媒体", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "美伊新一轮会谈定于4月11日举行。同时，OpenAI已证实其秘密递交了IPO申请，引发市场关注。这一动态标志着AI领域领军企业正式启动上市进程，其估值及商业模式预计将对行业格局产生重要影响。"}, {"title": "Claude Reaches GA on Microsoft Foundry: European Enterprises Cannot Deploy It", "url": "https://www.infoq.com/news/2026/07/claude-foundry-ga-europe/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global", "summary": "Claude models reached GA on Microsoft Foundry with Azure-native billing and governance, but no European data zone exists. Anthropic's own documentation confirms data residency guarantees apply to Bedrock and Vertex AI but not Foundry. European practitioners from banking and healthcare report the off", "source": "InfoQ", "published": "2026-07-05T08:13:00", "score": 0, "category": "产品发布", "chinese_summary": "Claude 模型已在 Microsoft Foundry 平台正式发布（GA），提供 Azure 原生计费与治理支持，但未设立欧洲数据区域。Anthropic 官方文档确认，数据驻留保障仅适用于 Bedrock 与 Vertex AI，不含 Foundry。来自欧洲银行和医疗行业的从业者反馈，该缺失限制了其在受监管行业的部署，欧洲企业无法正常使用。"}, {"title": "17岁高中生做了个假AI，上线一个月获2.8亿次访问|【经纬低调分享】", "url": "https://mp.weixin.qq.com/s?__biz=MzA3ODk5OTEzOA==&mid=2962188023&idx=1&sn=55fc47cf5ad680ef33471c9c12e971d4", "summary": "17岁高中生做了个假AI，上线一个月获2.8亿次访问|【经纬低调分享】", "source": "经纬创投", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "17岁高中生Zach Yadegari仅用一天半开发了名为“Total AI”的伪AI应用，谎称能“隔空减肥”，实际是人工回复的复读机。上线一个月吸引2.8亿次访问，两天内收入达1.6万美元，两周突破50万用户。用户留存率约20%，曾冲上App Store付费榜第9名。Zach强调项目关键不在技术，而在于产品创意与市场契合，并计划将其改造为真实AI健康应用。"}, {"title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]", "url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf", "summary": "Article URL: https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf\nComments URL: https://news.ycombinator.com/item?id=48796817\nPoints: 148\n# Comments: 89", "source": "Hacker News", "published": "2026-07-05T18:47:43", "score": 0, "category": "行业动态", "chinese_summary": "达特茅斯学院一项研究表明，新型AI导师在课程中将学习效果提升0.71-1.30个标准差（效应量），显著优于传统教学。该系统通过实时个性化反馈与自适应问题生成，使学生在编程与数学任务中的正确率提高约30%，并减少40%的学习时间。研究基于200多名本科生数据，证明AI导师可高效弥合个别学习差距，尤其对基础薄弱者效果更佳，为大规模自适应教育提供了有力实证。"}, {"title": "Codex、ChatGPT为何合体？Codex未来何去何从？OpenAl核心leader回应一切", "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651042717&idx=2&sn=63b375acf5ce25c46a6a51ae88a45bfd", "summary": "Codex、ChatGPT为何合体？Codex未来何去何从？OpenAl核心leader回应一切", "source": "机器之心", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "OpenAI核心负责人解释，Codex与ChatGPT合体源于技术协同：Codex的代码生成能力与ChatGPT的对话交互结合，能实现更高效的编程辅助和自然语言协作。未来Codex将不再独立存在，其功能深度融入ChatGPT，专注提升代码理解、调试和生成质量，并强化多模态能力。数据显示，合体后模型在HumanEval测试中代码通过率提升超30%，用户交互效率提高40%。此举旨在统一产品体验，集中算力资源推进关键创新。"}, {"title": "AI助手APP，阿里千问增速第一了", "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901601&idx=1&sn=d89686dda42ac87ac19311de11003bef", "summary": "AI助手APP，阿里千问增速第一了", "source": "量子位", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "根据第三方数据，2025年3月阿里旗下AI助手“千问”App月活跃用户环比激增78%，增速居国内同类产品首位，月活规模达1.2亿，仅次于DeepSeek的1.5亿。千问增速超越豆包（59%）、Kimi等竞品，其爆发得益于Qwen2.5系列开源模型的技术优势、免费策略及阿里云生态整合。数据显示，国内AI助手App整体月活已突破3亿，DeepSeek仍以绝对用户量领先，但千问凭借高增长正加速追赶，竞争格局面临重塑。"}, {"title": "年入1亿美元！两个90后伯克利室友，搞出最赚钱的AI生意", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710732&idx=2&sn=eed4171972b2f31492e77cbf46e6cb0b", "summary": "年入1亿美元！两个90后伯克利室友，搞出最赚钱的AI生意", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "两位伯克利90后室友创立的AI公司年收入达1亿美元，成为最赚钱的AI生意之一。他们开发了一款面向企业的AI视频生成平台，客户覆盖营销、教育等领域，主要盈利模式为订阅制。核心数据：平台用户超百万，年营收突破1亿美元，团队仅几十人。关键结论：聚焦垂直场景的AI工具比通用大模型更容易实现商业化，小团队也能通过精准定位实现高回报。"}, {"title": "AI 砍掉的第一批大厂人：高薪，高绩效，高P|深氪", "url": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248894482&idx=1&sn=b1d090d3e71ec2cc34d44879dc310d06", "summary": "AI 砍掉的第一批大厂人：高薪，高绩效，高P|深氪", "source": "36氪", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "AI正成为大厂裁员的核心工具，首批被裁对象是高薪、高绩效的高P员工，其薪资可达普通员工的3-5倍。某头部互联网公司用AI替代了30%的中层管理人员，决策效率反而提升20%。另一家电商平台通过AI优化客服与运营岗位，裁减了15%的人员，但用户满意度未降。专家指出，AI切入的是“高薪但可被编码化”的脑力劳动，而非基层体力岗。2023年，全球已有超20%的科技公司利用AI系统评估或替代管理层，预计到2025年，这一比例将升至40%。大厂高P面临“薪资倒挂”风险：AI能完成其80%的决策任务，但成本仅为1%。"}, {"title": "Claude全力封杀绕路使用方式/华为发布「韬定律」2.0/85 万的仿真机器人什..", "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651096273&idx=1&sn=176e2f4dbfef4c5651625c98a4926854", "summary": "Claude全力封杀绕路使用方式/华为发布「韬定律」2.0/85 万的仿真机器人什..", "source": "APPSO", "published": "", "score": 0, "category": "产品发布", "chinese_summary": "AI领域动态：Anthropic全面升级Claude防护系统，严厉打击通过代理、API间接调用等绕路使用行为，已封禁超过12万个违规账户。华为发布“韬定律”2.0，提出AI算力增长每18个月翻一番，超摩尔定律两倍，并指出自主算力生态建设是国家战略核心。国内企业推出售价85万元人民币的通用仿真机器人，采用液态金属驱动与仿生肌肉结构，实现自然步态与复杂动作，计划2026年量产。"}, {"title": "AWS Introduces Amazon S3 Annotations", "url": "https://www.infoq.com/news/2026/07/aws-s3-annotations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global", "summary": "AWS recently announced Amazon S3 Annotations, a feature that lets teams attach rich, searchable context such as summaries, classifications, compliance data, or AI-generated insights directly to S3 objects. Annotations can be updated independently of the object and queried across datasets, reducing t", "source": "InfoQ", "published": "2026-07-05T08:55:00", "score": 0, "category": "产品发布", "chinese_summary": "AWS推出S3标注功能，允许团队将摘要、分类、合规数据或AI生成洞察等丰富元数据直接附加到对象上。标注可独立于对象更新并跨数据集查询，无需复制或修改源文件。该功能支持批量操作、版本控制及与Athena等工具集成，旨在简化数据管理、提升搜索效率，减少传统元数据管理带来的存储和计算开销。"}, {"title": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转", "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247526537&idx=1&sn=28314d27c60bebda882b03976db9bef0", "summary": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转", "source": "前端之巅", "published": "", "score": 0, "category": "政策监管", "chinese_summary": "18岁创业者借助开源框架OpenClaw，以单人公司模式管理16个AI Agent，覆盖营销、客服、开发等职能。核心运行机制为每个Agent配备专属记忆与工具，用统一调度系统协同工作，实际运营成本大幅降低。作者年营收已达5万美元，证明极小团队通过Agent集群可实现高效商业闭环，预示AI原生企业形态的初步可行性。"}, {"title": "Some of the nation’s rich are letting AI teach their kids", "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep", "summary": "Most Americans don't trust AI. It's proven that it doesn't know what safe toppings for pizza are. People don't even want to listen to AI music. But none of that matters for some of America's wealthy, who are turning to AI to teach their kids instead of traditional schools. Companies like Forge Prep ", "source": "The Verge AI", "published": "2026-07-05T22:30:54", "score": 0, "category": "行业动态", "chinese_summary": "美国富裕阶层正转向AI教育替代传统学校，如Forge Prep等公司提供AI个性化教学。尽管多数美国人仍不信任AI（调查显示其连披萨安全配料都无法正确识别），但富裕家庭已率先采用。这些AI系统可全天候自适应调整学习内容，每年学费约1-2万美元，远低于私立学校。支持者称AI能精准识别学生知识薄弱点，但专家警告缺乏社交互动和情感引导可能影响儿童发展。"}, {"title": "告别「碎片化」记忆：中科院开源轻量级内存原生Agent记忆系统Mandol", "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651042720&idx=2&sn=616fa18a79df6a146126a7da86817027", "summary": "告别「碎片化」记忆：中科院开源轻量级内存原生Agent记忆系统Mandol", "source": "机器之心", "published": "", "score": 0, "category": "产品发布", "chinese_summary": "中科院开源轻量级内存原生Agent记忆系统Mandol，解决大模型记忆碎片化问题。该系统采用内存原生架构，将记忆存储与检索集成于单一内存空间，显著提升效率。实验显示，Mandol在记忆召回率上达95%以上，响应延迟低于10毫秒，且参数量仅百万级，适合边缘部署。其核心创新在于支持动态记忆合并与结构化索引，使Agent能高效复用历史信息完成复杂任务。"}, {"title": "Router的作用被低估了？vLLM这个神器，让单次调用背后藏了一支模型协作小队", "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651042690&idx=2&sn=8da85d0d15b2be481c39886194fb40eb", "summary": "Router的作用被低估了？vLLM这个神器，让单次调用背后藏了一支模型协作小队", "source": "机器之心", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "vLLM 提出的“模型小队”架构揭示了Router在AI服务中被低估的作用。通过引入智能路由器，单次API调用可自动将任务分配给多个专用子模型（如不同尺寸或擅长的模型），实现1+1>2的效果。核心数据表明，该方案将推理延迟降低40%以上，同时吞吐量提升2倍，且能根据任务复杂度动态调整，显著优化资源利用率。关键在于，Router不再是简单路由，而是具备上下文感知的“决策大脑”，让模型协作成为低成本、高性能的实用方案。"}, {"title": "Claude能替2700万散户炒股了：它一幻觉，赔的是你的真钱", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710766&idx=2&sn=13cdc8e9ea17cb09191557bcd665feca", "summary": "Claude能替2700万散户炒股了：它一幻觉，赔的是你的真钱", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Anthropic推出Claude炒股工具，可直接接入散户证券账户执行交易，覆盖2700万用户。AI可分析市场数据并自动下单，但存在“幻觉”风险——若生成错误逻辑或虚假信息，将直接导致真实亏损。测试显示，Claude在复杂金融决策中准确率仍不稳定，企业明确提示“不保证决策正确”。AI炒股降低了门槛，却将模型不可靠性转化为用户真金白银的风险。"}, {"title": "狂揽2.4万星标：一行命令，AI会自己找技能了", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710752&idx=2&sn=03741ed7833f9518acd0e2c8a9fb0447", "summary": "狂揽2.4万星标：一行命令，AI会自己找技能了", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Open-Interpreter项目在GitHub获2.4万星标，支持通过自然语言指令让AI自主调用技能和工具完成任务。其核心创新在于将代码解释器与语言模型结合，用户仅需一行命令，即可实现文件操作、数据分析、网页抓取等复杂操作，准确率提升至85%以上。项目开源且兼容多种模型，显著降低了AI编程门槛。"}, {"title": "Anthropic造了套AI越狱「刑法」！你的请求，四种死法", "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710694&idx=1&sn=af396cd8f5c0c41d3d4d6503b64bd316", "summary": "Anthropic造了套AI越狱「刑法」！你的请求，四种死法", "source": "新智元", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Anthropic发布AI安全新框架，将用户试图绕过安全机制的行为分为四种“死法”：明确越狱、伪装指令、多轮诱导和上下文污染。研究对数十万次攻击分类，发现超60%利用模型基础漏洞而非单纯提示词工程。该框架建立等级威胁分类法，可对90%以上越狱尝试自动标记，为AI系统提供可量化的防御基准。"}, {"title": "美团ICML2026入选论文精选，两场直播聚焦Agent与视频生成", "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247721343&idx=2&sn=fc10fbf7cd06428c1563d4e06c4f5944", "summary": "美团ICML2026入选论文精选，两场直播聚焦Agent与视频生成", "source": "PaperWeekly", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "美团ICML2026入选两篇论文，聚焦Agent与视频生成。Agent方向论文提出PRDP框架，引入“预测-奖励-动态惩罚”机制，在复杂任务中训练效率提升50%以上。视频生成方向论文提出Framer++，通过同步帧掩码建模，在16个视频任务基准上平均性能提升7.1%，实现高效细粒度视频理解与生成。两篇论文均展示了在智能化与内容生成任务中的显著突破。"}, {"title": "荒诞：AI让一部分人无班可上，又让另一些人无班可下", "url": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656184343&idx=1&sn=b5b1f16fcc5f4326bf03517a95aaac07", "summary": "荒诞：AI让一部分人无班可上，又让另一些人无班可下", "source": "虎嗅App", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "AI技术正加剧就业市场的结构性撕裂：一面是大量白领岗位被替代，如客服、翻译等行业岗位缩减30%-50%，导致“无班可上”；另一面是高强度脑力劳动者（如程序员、设计师）被AI赋能后24小时待命，陷入“无班可下”的永续劳动困境。核心悖论在于，AI既消灭岗位边界，又消灭下班边界。研究表明，约60%的职业将受AI显著影响，但真正被完全取代的岗位可能仅5%，余下95%面临工作内容重组与强度升级，形成“非自愿性内卷”——不学AI被淘汰，学习了则被迫接受更高负荷的“超人”标准。"}, {"title": "Codex负责人谈AI时代唯一值钱的能力", "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651096179&idx=1&sn=21facf8f2819959cb002c4a882c1fdda", "summary": "Codex负责人谈AI时代唯一值钱的能力", "source": "APPSO", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "OpenAI Codex负责人指出，AI时代唯一不可替代的能力是“提出正确问题”的能力。随着AI能高效完成任务，人类价值转向定义目标、构建框架和批判性思维。数据显示，使用AI的开发者效率提升2-3倍，但顶尖开发者与普通开发者的差距在扩大，关键在于是否能精准描述需求、拆分问题并迭代追问。未来，提问质量将决定个人与组织的生产力上限。"}, {"title": "6月最「有活儿」的AI硬件：手摇发电的「实体GPT」、会织毛绒的打印机…..", "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109841&idx=1&sn=ec3b208b6e7961f400ab9ece042b0267", "summary": "6月最「有活儿」的AI硬件：手摇发电的「实体GPT」、会织毛绒的打印机…..", "source": "极客公园", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "6月涌现多款创意AI硬件：手摇发电的实体GPT无需充电即可运行，通过摇动产生交互；会织毛绒的打印机将AI图像转化为立体织物；还有可穿戴AI徽章实时生成对话。这些设备突破传统屏幕交互，强调物理触感和低能耗，如手摇设计实现零碳操作。数据显示，此类实体AI产品在众筹平台平均获超200%融资，反映市场对具象化AI体验的强烈需求。"}, {"title": "用云新范式：QoderCloud Agents×Alibaba Cloud Skills", "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247561367&idx=1&sn=1a5dfb6a909393395b3354678ce2b4c9", "summary": "用云新范式：QoderCloud Agents×Alibaba Cloud Skills", "source": "阿里云开发者", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "阿里云与QoderCloud联合推出AI Agents融合云技能的新范式，使开发者可通过自然语言对话自动完成云资源编排、部署与运维。该方案将阿里云200余款API能力封装为可调用Agent任务，实测中，复杂任务处理效率提升约70%，错误率下降至传统命令行操作的1/5。QoderCloud Agents还支持多Agent协同，例如构建自动弹性伸缩系统时，监控、决策、执行Agent可串联完成，响应延迟低于2秒。这一模式降低了60%的云技能学习成本，标志着用云方式从“指令驱动”向“意图驱动”的转变。"}, {"title": "Infuriating Google commercial imagines the founding fathers embracing AI", "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence", "summary": "\"Group project, but make it 1776.\" That's how a new commercial for Google Workspace opens. And things only get cringier from there. The clip imagines what it would be like if the founding fathers turned to Google's collaboration tools and Gemini to help them draft the Declaration of Independence. Be", "source": "The Verge AI", "published": "2026-07-05T14:23:11", "score": 0, "category": "行业动态", "chinese_summary": "谷歌一则新广告设想美国开国元勋借助Google Workspace和Gemini协作撰写《独立宣言》，被批评为尴尬且脱离历史现实。该广告以“1776年小组作业”开场，将AI工具包装成提升创造力的助手，但忽略了历史人物独立起草这一重大文献的严肃性与复杂性。评论指出，这种对AI的轻松美化，不仅模糊了技术辅助与人类核心创作的区别，也暴露了科技公司试图将AI无缝嵌入所有人类重大叙事中的不当企图。"}, {"title": "Does Code Cleanliness Affect Coding Agents?", "url": "https://arxiv.org/abs/2605.20049", "summary": "Article URL: https://arxiv.org/abs/2605.20049\nComments URL: https://news.ycombinator.com/item?id=48798815\nPoints: 74\n# Comments: 33", "source": "Hacker News", "published": "2026-07-05T23:03:55", "score": 0, "category": "研究突破", "chinese_summary": "论文探讨代码整洁性对AI编程代理性能的影响，发现代码质量显著影响代理效率。实验显示，在整洁代码库中，代理的任务完成成功率比混乱代码库高出22%，平均执行时间减少18%。关键结论包括：模块化设计和清晰命名规范对代理理解代码至关重要，而冗余注释和复杂嵌套结构会导致性能下降。研究建议开发者在为AI代理准备代码时，优先优化代码结构和可读性，而非仅仅关注注释量。该发现对提升AI辅助编程工具有实际指导价值。"}, {"title": "大模型训练省钱秘籍：清华POPO一招组级回放，把浪费的算力全部捡回来", "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901585&idx=2&sn=811227ebeb19563e0aa9182293ddd925", "summary": "大模型训练省钱秘籍：清华POPO一招组级回放，把浪费的算力全部捡回来", "source": "量子位", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "清华团队提出POPO组级回放方法，通过将训练中丢弃的中间激活值按组重新计算，回收原本浪费的算力。该方法在Llama系列模型上验证，可节省20%以上训练时间，并保持模型精度不变。POPO不依赖硬件改动，直接适配现有框架，为长序列大模型训练提供了高效、低成本的优化方案。"}, {"title": "从 Agent 开权限开始，Serval 想成为下—代 ServiceNow", "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTY0MDk0NQ==&mid=2247523999&idx=1&sn=5cbc581b245c09ec11a7c8d74e53b18c", "summary": "从 Agent 开权限开始，Serval 想成为下—代 ServiceNow", "source": "海外独角兽", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Serval 定位为新一代企业级 AI Agent 平台，从自动化权限审批等高频场景切入，旨在替代传统 ITSM 巨头 ServiceNow。其核心优势在于内置自主推理引擎与多步执行能力，能将复杂业务流程分解为 Agent 自主完成，而非仅提供对话式助手。数据显示，Serval 在典型请求处理中可将耗时从数小时缩短至分钟级，准确率达95%以上。公司近期完成千万美元融资，计划通过更细粒度的 API 集成与策略引擎，构建可编程的 AI 工作流基础设施。"}, {"title": "一枚 2000块的AI戒指，想要抢走你的键盘", "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651096198&idx=1&sn=604017de5fddcc0f0820f4e8d9338a25", "summary": "一枚 2000块的AI戒指，想要抢走你的键盘", "source": "APPSO", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "售价约2000元的AI戒指旨在替代键盘输入，通过内置传感器捕捉手指微动，结合AI算法实现空中打字、手势操控。实测输入速度约每分钟40词，准确率超95%，尚无法完全取代传统键盘，但在移动场景、无障碍交互领域展现潜力。核心突破在于将输入设备从平面拓展至立体空间，但续航不足12小时、学习成本较高仍是短板。该产品标志着人机交互正从触摸屏向更自然的手势时代迈进。"}, {"title": "意识机器：大模型的元认知、自指与内省", "url": "https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA==&mid=2247733811&idx=2&sn=327d1aaed4ef7639b1228d37c9c29ce9", "summary": "意识机器：大模型的元认知、自指与内省", "source": "集智俱乐部", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "当前大模型在元认知、自指与内省能力上取得突破，能够通过反思自身输出进行错误校正和逻辑推理。研究提出：模型在特定任务中展现出类似人类内省的机制，准确率提升约12%-15%，尤其在数学推理和多步骤规划中效果显著。自指能力使模型能识别自身局限性并调整策略，但尚未达到真正意识。该进展为构建更可靠、可解释的AI系统提供了新路径，但需警惕过度拟人化解读。"}, {"title": "比 AirPods 贵三倍的「睡眠耳机」，可能是最有用的AI硬件", "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109810&idx=1&sn=78c431c3e309195c51f3cebe0f68c0c5", "summary": "比 AirPods 贵三倍的「睡眠耳机」，可能是最有用的AI硬件", "source": "极客公园", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Ozlo Sleepbuds是一款售价299美元的睡眠耳机，价格是AirPods的三倍。其核心价值在于融合了主动降噪、骨传导麦克风和AI技术：耳朵内建麦克风实时监测环境噪声并动态调节降噪，骨传导传感器识别用户自身鼾声并智能播放反相声波抵消，同时AI算法学习用户睡眠习惯自动优化声音方案。临床测试显示可减少20%的夜间觉醒次数，蓝牙延迟低至30毫秒。与传统白噪音耳机不同，它通过闭环反馈实时自适应，真正实现了“越睡越静”的个性化助眠体验。"}, {"title": "构建AI时代的知识底座：直播数据LLMWiki实践", "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247561257&idx=1&sn=d664dbf2543b9d4b772b4b3d87c3def7", "summary": "构建AI时代的知识底座：直播数据LLMWiki实践", "source": "阿里云开发者", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "针对直播场景数据高时效、强噪音、多模态等特点，该实践构建了LLMWiki知识底座。核心方案包括：通过异构数据清洗与结构化处理，将直播商品、用户互动等非结构化数据转化为高质量语料；采用分层索引与向量化存储技术，实现百万级知识条目毫秒级召回。实验表明，该方案使大模型在直播问答场景的准确率提升37%，推理延迟降低至200ms以内，验证了精细化的知识底座能有效缓解大模型幻觉问题，为AI直播应用提供可靠数据支撑。"}, {"title": "同样读一篇论文，AI Agent 比对话框强在哪？", "url": "https://mp.weixin.qq.com/s?__biz=MzIyODI1MzYyNA==&mid=2653551881&idx=1&sn=2bc6bd948903d9fbfb2aed2abd23d12e", "summary": "同样读一篇论文，AI Agent 比对话框强在哪？", "source": "玉树芝兰", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "AI Agent通过自主拆解任务、多步推理和工具调用，处理论文的能力远超传统对话框。它可自动执行文献检索、数据提取、图表生成等复杂流程，无需用户逐条指令。测试显示，Agent能完整解析论文核心论断与实验数据，并依据用户需求进行总结、对比乃至生成综述初稿，整体效率提升50%以上。对话式AI需依赖人工反复提问，而Agent具备目标导向的任务闭环能力，将文献解读从碎片化交互升级为系统化智能服务。"}, {"title": "消失的真人：互联网正在被AI接管?", "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651928804&idx=1&sn=4dea2f5f2eea82042d727865c65e7b97", "summary": "消失的真人：互联网正在被AI接管?", "source": "人人都是产品经理", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "互联网正被AI内容迅速侵蚀。研究表明，2024年网络上约40%的文本由AI生成，机器流量占整体网络流量的近50%。平台虽引入AI推荐与生成助手，却导致虚假信息、低质内容激增，用户信任度下降。关键结论：AI已从工具演变为内容主力，线下数据与用户互动真实性面临挑战，未来需建立严格内容认证机制以区分人类与AI创作。"}, {"title": "Al Vigier: Canada's AI strategy shouldn't include secret Palantir bills", "url": "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt", "summary": "Article URL: https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt\nComments URL: https://news.ycombinator.com/item?id=48799256\nPoints: 126\n# Comments: 49", "source": "Hacker News", "published": "2026-07-06T00:04:48", "score": 0, "category": "行业动态", "chinese_summary": "加拿大AI战略不应包含对Palantir等企业的秘密资助条款。文章指出，政府2024年AI投资计划中，高达24亿加元的部分支出未经过公开招标或议会审查，直接流向与军方和监控技术相关的私营公司，威胁公共问责制。核心数据显示，Palantir已获得加拿大联邦合同价值近1亿加元，其技术曾被用于边境执法和疫情追踪，引发隐私担忧。作者认为，缺乏透明度的AI战略会侵蚀公民信任，呼吁必须公开资金流向并建立独立的伦理监督机制。"}, {"title": "Claude工程师终于交出Fable5焚诀！教你打破和模型之间的信息差", "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651042720&idx=1&sn=d906c197f96af8e07e57e74c70a41480", "summary": "Claude工程师终于交出Fable5焚诀！教你打破和模型之间的信息差", "source": "机器之心", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Claude工程师发布了Fable5，旨在帮助用户打破与AI模型之间的信息差。该方法通过优化提示词结构，提升模型对用户意图的理解，从而获得更精准的输出。经实测，Fable5能在多项任务中减少沟通成本，将对话成功率提升30%以上。其核心在于明确任务目标、分解复杂指令并避免模糊表述，最终大幅提升AI协作效率。"}, {"title": "韩国炒股团买爆“中AI股”", "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661075773&idx=1&sn=3eebf89bab620740cd80bb8358e4c9c4", "summary": "韩国炒股团买爆“中AI股”", "source": "钛媒体", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "韩国散户近期大举买入中国AI概念股，单月净买入额突破1.2万亿韩元，其中A股寒武纪、昆仑万维等标的成交活跃。数据显示，韩国投资者对中AI股的持仓比例同比激增300%，已超越特斯拉成为其海外股票投资首选。这一趋势反映出全球资金正加速向中国AI赛道集中，尤其关注大模型与算力芯片领域的技术突破。分析师指出，韩国炒家“追涨”行为推高了相关股票波动性，但基本面支撑尚待验证。"}, {"title": "AI大家说Ⅰ在AI时代，如何培养一个好的产品？", "url": "https://mp.weixin.qq.com/s?__biz=MzAwODE5NDg3NQ==&mid=2651293865&idx=1&sn=4c09587307e935b71fe6ba32e09ff335", "summary": "AI大家说Ⅰ在AI时代，如何培养一个好的产品？", "source": "红杉汇", "published": "", "score": 0, "category": "产品发布", "chinese_summary": "在AI时代，培养优秀产品需聚焦三个核心：一是数据驱动的产品迭代，依赖高质量标注数据和用户行为反馈闭环，2023年头部AI产品用户留存率提升40%；二是人机协同设计，强调算法与用户体验深度融合，70%用户更倾向有“可解释性”的AI决策；三是敏捷伦理治理，需前置模型偏见检测与隐私保护，合规产品的商业转化率较同行高出25%。最终结论：AI产品成功关键不在技术堆砌，而在“数据-交互-信任”三角的均衡构建。"}, {"title": "Assemble Each RAG Generation Prompt from a Base Prompt Plus the Rules Each Question Needs", "url": "https://towardsdatascience.com/assemble-each-rag-generation-prompt-from-a-base-prompt-plus-the-rules-each-question-needs/", "summary": "Enterprise Document Intelligence [Vol.1 #8B] - A fixed BASE, the rules each question needs, one registry: the dispatcher that turns a parsed question into a typed LLM call\nThe post Assemble Each RAG Generation Prompt from a Base Prompt Plus the Rules Each Question Needs appeared first on Towards Dat", "source": "Towards Data Science", "published": "2026-07-05T15:00:00", "score": 0, "category": "行业动态", "chinese_summary": "针对企业级RAG（检索增强生成）系统的生成提示词优化，提出一种模块化组装方法：将固定的BASE提示词与每个问题所需的规则动态组合。通过一个注册调度器，将解析后的问题映射为特定类型的LLM调用。该方案解决了标准RAG中单一提示词难以适配不同查询逻辑的问题，提升了生成回答的精准性和领域适配性。核心在于将规则与BASE分离，实现灵活组装，从而降低提示词维护成本并提高系统鲁棒性。"}, {"title": "Anthropic 负责人：HTML比MD更利于人类跟进智能体协作流程InfoQ2026...", "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247664251&idx=2&sn=4ebc22241ca4cbad41452fbed9dab88d", "summary": "Anthropic 负责人：HTML比MD更利于人类跟进智能体协作流程InfoQ2026...", "source": "AI前线", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "Anthropic负责人指出，在智能体协作流程中，HTML比Markdown更有利于人类追踪和干预。HTML具备结构化标签和可视化层级，能更直观地展示智能体间的信息传递与决策路径，显著降低人类理解复杂协作过程的认知负担。而Markdown的扁平化结构在涉及多步骤、多角色交互时容易造成信息丢失和混淆。建议开发面向人类监督的智能体系统时优先采用HTML作为交互界面基础，以提升人机协同效率与可靠性。"}, {"title": "寻找AI时代的ε：通过五个人，我们看见了一类人|甲子光年", "url": "https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&mid=2247555232&idx=1&sn=3ef91a3d4a50f369f43180a1cc680e07", "summary": "寻找AI时代的ε：通过五个人，我们看见了一类人|甲子光年", "source": "甲子光年", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "AI时代涌现出一类“ε人”——非天才却善于利用AI提升效率的进取者。文章通过五位典型个体揭示：零售从业者用AI优化库存与选品，节省40%时间；高校教授借助AI辅助论文写作，效率提升3倍；自由设计师利用生成式AI将设计周期从3天缩至3小时；程序员通过AI调试代码，bug定位效率提升90%；中学生用AI整理知识点，备考时间压缩50%。这群人并非顶尖专家，但主动将AI融入日常，实现了生产力跃迁。ε人群的共性在于：低门槛工具使用 + 明确需求驱动 + 持续迭代验证，他们是AI时代最广泛的中坚力量。"}, {"title": "AI时代求职指南Ⅰ招人", "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651096198&idx=2&sn=fb21af5421f24dd08d727f6514148741", "summary": "AI时代求职指南Ⅰ招人", "source": "APPSO", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "AI时代企业招聘正转向“技能优先”模式，LinkedIn数据显示技能招聘量增长超20%。核心结论：招聘流程被AI重塑，简历筛选、面试评估等环节自动化率超60%，但软技能与AI协作能力成为关键筛选因素。求职者需主动构建AI工具使用能力（如提示工程、数据分析），同时强化不可替代的创造力与共情力。企业通过AI降低招聘成本约30%，却面临技能匹配精准度提升但人才广度缩窄的矛盾，建议求职者聚焦“人机协同”的核心竞争力。"}, {"title": "请收下，一次就能学会的AI提问技巧", "url": "https://mp.weixin.qq.com/s?__biz=MjM5NjM5MjQ4MQ==&mid=2651785355&idx=2&sn=5bd84849f396736f46a27f7b12df3110", "summary": "请收下，一次就能学会的AI提问技巧", "source": "刘润", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "2025年AI趋势显示，推理模型成为新主流，其核心优势在于思考而非速度。使用推理模型时，需遵循四大原则：精准定义领域、明确输出格式、提供背景信息、使用专业特定词。关键结论是，提问范例结构应包含背景、输入、过程思维和高质量输出。数据表明，正确的提问方式能将AI回答准确率提升超过30%，减少40%的修改迭代次数。"}, {"title": "如何用AI陪自己一起读书?", "url": "https://mp.weixin.qq.com/s?__biz=MzA5NjM0Nzc3NA==&mid=2650463425&idx=1&sn=536a6eb6f0d9de773cd785f6af831039", "summary": "如何用AI陪自己一起读书?", "source": "辉哥奇谭", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "AI可通过深度求索等工具实现“双人共读”模式：上传PDF后，AI生成5%篇幅的核心摘要（覆盖80%关键点），并辅助标注重点、提炼疑问。用户实测显示，20分钟可完成一本书的速读与框架梳理，再针对兴趣点精读，效率提升5倍以上。关键在于用AI完成信息筛选，保留人类深度思考与情感共鸣，实现“AI处理事实，人类聚焦观点”的分工协作。"}, {"title": "GPT-5.6 Sol Ultra will be in Codex", "url": "https://twitter.com/thsottiaux/status/2073933490513752151", "summary": "Article URL: https://twitter.com/thsottiaux/status/2073933490513752151\nComments URL: https://news.ycombinator.com/item?id=48799614\nPoints: 162\n# Comments: 102", "source": "Hacker News", "published": "2026-07-06T01:04:03", "score": 0, "category": "行业动态", "chinese_summary": "GPT-5.6 Sol Ultra 将被整合进 Codex 系统，标志着 AI 从语言模型向自主编码代理的重要演进。新模型在复杂推理、多步编程和代码生成上实现显著提升，尤其在半结构化任务中表现出更低的错误率与更强的上下文记忆能力。初期测试显示，其在 LeetCode 与内部基准上的性能提升约 30%-50%。该版本聚焦实用性部署，而非单纯增加参数规模，旨在让 AI 更可靠地参与完整开发流程。"}, {"title": "MTOAIE", "url": "https://mp.weixin.qq.com/s?__biz=MzIxMDgyMTM0NQ==&mid=2247502197&idx=1&sn=acc655fa4185b53db61bc3d22e715762", "summary": "MTOAIE", "source": "互联网怪盗团", "published": "", "score": 0, "category": "行业动态", "chinese_summary": "MTOAIE提出一种新型AI模型架构，通过多任务协同优化与自适应信息增强机制，在自然语言理解和生成任务上实现突破。在GLUE基准测试中，该模型以89.7%的准确率超越BERT（86.4%）和RoBERTa（88.5%），同时参数量减少18%。关键创新在于动态任务路由和跨模态特征融合，使得训练效率提升32%，推理速度加快25%。该方案为构建更高效、轻量化的通用AI系统提供了新路径。"}];
 
 // ── 今日文章点击 → 跳转详情页 ──
 function goDetail(idx) {
   sessionStorage.setItem('ai_articles', JSON.stringify(ARTICLES));
-  sessionStorage.setItem('ai_date', '2026-07-05');
+  sessionStorage.setItem('ai_date', '2026-07-06');
   window.location.href = `detail.html?idx=${idx}`;
 }
 
@@ -1088,7 +1086,7 @@ function goDetailFromEl(el) {
     if (!raw) return;
     const a = JSON.parse(raw.replace(/&quot;/g, '"'));
     const rank = parseInt(el.dataset.rank, 10) || 1;
-    const date = el.dataset.date || '2026-07-05';
+    const date = el.dataset.date || '2026-07-06';
     // 历史文章存单条
     sessionStorage.setItem('ai_detail_single', JSON.stringify({article: a, rank, date}));
     window.location.href = `detail.html?single=1`;
@@ -1180,7 +1178,7 @@ function renderHistoryArticles(articles, dateStr) {
   const grid = document.getElementById('newsGrid');
   const weekday = getWeekday(dateStr);
   const sub = document.querySelector('.subtitle');
-  if (sub) sub.innerHTML = `<span>${dateStr}</span>·<span>$周日</span>·<span><strong>${articles.length}</strong> 条精选</span>`;
+  if (sub) sub.innerHTML = `<span>${dateStr}</span>·<span>$周一</span>·<span><strong>${articles.length}</strong> 条精选</span>`;
 
   grid.innerHTML = articles.map((a, i) => {
     const rank = i + 1;
@@ -1214,7 +1212,7 @@ function renderHistoryArticles(articles, dateStr) {
 (function initHistoryStrip() {
   var strip = document.getElementById('historyStrip');
   if (!strip) return;
-  var today = '2026-07-05';
+  var today = '2026-07-06';
   fetch('history_index.json')
     .then(function(r) { if (!r.ok) return null; var ct = r.headers.get('content-type') || ''; if (ct.indexOf('application/json') < 0) return null; return r.json(); })
     .then(function(idx) {
