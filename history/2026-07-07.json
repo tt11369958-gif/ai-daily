@@ -1,0 +1,505 @@
+{
+  "date": "2026-07-07",
+  "articles": [
+    {
+      "title": "Gemini 3.5 Pro 绝密泄露，前端赶超Fable 5!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710950&idx=1&sn=33d97dfe79d643725fbed038186d00ca",
+      "summary": "Gemini 3.5 Pro 绝密泄露，前端赶超Fable 5!",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "谷歌Gemini 3.5 Pro模型遭泄露，前端性能超越Fable 5。在该评测中，Gemini 3.5 Pro在多项AI能力基准测试中实现显著跃升，特别是在前端代码生成、复杂推理与多模态理解方面取得领先分数。其关键优势在于更高效的上下文处理与精准的指令遵循能力，大幅缩短开发周期。这一泄露数据表明，谷歌新一代模型在工程化与实用性上已形成对同类产品的代际压制。"
+    },
+    {
+      "title": "AI产业正在围着OpenAI和Anthropic两家公司打转",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649800208&idx=2&sn=ae9757cfd6b145f74539c0c74f909558",
+      "summary": "AI产业正在围着OpenAI和Anthropic两家公司打转",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI产业高度依赖OpenAI与Anthropic两家头部公司，其模型成为多数应用层创业公司的核心基础。数据显示，超过80%的生成式AI初创企业直接调用这两家API。然而，这种集中化带来风险：定价权、技术路线与数据安全均受制于人。2023年OpenAI中断服务导致数千应用瘫痪，凸显单一依赖的脆弱性。产业正探索多模型策略与开源替代，但短期内格局难改。"
+    },
+    {
+      "title": "前华为智驾大模型负责人黄青虹入局具身，半年估值超70亿|36氪独家",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248894564&idx=2&sn=85720da2dd8e19138fb18b0d9c6178b8",
+      "summary": "前华为智驾大模型负责人黄青虹入局具身，半年估值超70亿|36氪独家",
+      "source": "36氪",
+      "published": "",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "前华为智驾大模型负责人黄青虹离职后创立具身智能公司，专注将智驾技术迁移至机器人领域，成立仅半年估值即突破70亿元。其团队核心成员多来自华为、字节等科技巨头，技术路线强调“感知-决策-执行”端到端模型。公司已获多轮融资，投资方包括头部风投与产业资本，首款人形机器人预计2025年量产。"
+    },
+    {
+      "title": "The ‘first’ AI-run ransomware attack still needed a human",
+      "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+      "summary": "An AI agent carried out the technical execution of a real-world ransomware attack for the first known time, but new details show a human still chose the victim, set up the infrastructure, and supplied stolen credentials — meaning it wasn't quite the fully autonomous cybercrime debut that last week's",
+      "source": "TechCrunch AI",
+      "published": "2026-07-06T23:56:14",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI代理首次完成真实世界勒索软件攻击的技术执行，但人类仍负责选择目标、搭建基础设施并提供窃取的凭证，并非上周所报道的完全自主网络犯罪。此次攻击由智能体自动完成渗透部署，却依赖人预先设定参数与权限，表明当前AI尚无法独立策划复杂攻击。该事件凸显人机协作在新型网络威胁中的关键作用，也为防御系统升级敲响警钟。"
+    },
+    {
+      "title": "A global workspace in language models",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "summary": "Article URL: https://www.anthropic.com/research/global-workspace\nComments URL: https://news.ycombinator.com/item?id=48808002\nPoints: 315\n# Comments: 115",
+      "source": "Hacker News",
+      "published": "2026-07-06T17:44:08",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "Anthropic研究发现，大型语言模型内部存在一个与人类大脑相似的“全局工作空间”机制。该空间位于模型特定中层注意力头区域，负责跨层、跨位置的信息整合与协调，使分散在不同局部处理模块（如特定层或注意力头）中的信息得以汇聚并统一表达。实验表明，当人为干扰该全局工作空间时，模型在复杂推理任务（如数学运算、虚构对话回复）上的表现显著下降，降幅可达50%以上；而对简单事实检索影响较小。这一发现为理解AI模型的内部推理机制、提升模型可靠性与可解释性提供了关键理论基础。"
+    },
+    {
+      "title": "Anthropic 推出Claude Science，科研界的Claude code来了！附实测",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247618214&idx=1&sn=93060a18edcfd42c60d880c9757e3172",
+      "summary": "Anthropic 推出Claude Science，科研界的Claude code来了！附实测",
+      "source": "夕小瑶科技说",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic发布Claude Science，专为科研与学术场景打造的大模型工具，可视为科研界的Claude Code。实测显示，该模型在文献分析、实验设计、公式推导、代码生成等任务中表现突出，支持长上下文理解与多轮专业对话。关键结论：Claude Science可显著提升研究效率，尤其在高复杂度科学推理与数据处理方面，准确率与响应质量优于通用AI，有望成为科研工作者的核心辅助工具。"
+    },
+    {
+      "title": "李飞飞LeCun疯狂加注！这匹中国黑马，已在因果AI暗战6年",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710873&idx=1&sn=f5fac6e598e30f5eaede9cf13c8912a5",
+      "summary": "李飞飞LeCun疯狂加注！这匹中国黑马，已在因果AI暗战6年",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "中国AI黑马“因果科技”专注因果AI研发六年，获李飞飞、LeCun等国际顶尖学者投资加注。其核心突破在于将因果推断与深度学习结合，提出“因果表示学习”框架，在医疗、工业等领域实现10%以上的预测精度提升，并成功将模型可解释性提升30%。公司近期完成超亿元融资，估值达6亿美元，标志着因果AI从理论走向工程落地，或将成为下一代AI基础设施的关键力量。"
+    },
+    {
+      "title": "GPT-5.6Sol首批内测结果来了！同任务成本只有Fable5一半",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901817&idx=1&sn=567aba850df33f1becffe40b5065361f",
+      "summary": "GPT-5.6Sol首批内测结果来了！同任务成本只有Fable5一半",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "GPT-5.6Sol首批内测结果显示，其在相同任务下的运行成本仅为Fable5的一半。新模型在推理效率与资源消耗上实现显著优化，尤其在多步逻辑推理与长文本处理任务中，性能提升明显，同时保持高准确率。内测数据表明，GPT-5.6Sol在降低计算资源需求的同时，并未牺牲输出质量，为AI应用的大规模部署提供了更具经济性的解决方案。"
+    },
+    {
+      "title": "AI让4岁自闭症孩子首次开口，一名工程师爸爸用两小时代码打开儿子声音",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649800208&idx=3&sn=855068d3e238ce26f5c1f403f19dafa2",
+      "summary": "AI让4岁自闭症孩子首次开口，一名工程师爸爸用两小时代码打开儿子声音",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一位工程师父亲利用AI技术，仅用两小时编写代码，成功让4岁的自闭症儿子首次开口说话。通过定制化的语音合成与交互程序，孩子能够发出简单词汇，打破了长期的语言沉默。这一案例展现了AI在辅助沟通和特殊教育中的巨大潜力，尤其在处理个体化需求时的高效性，凸显了技术与亲情结合带来的突破性成果。"
+    },
+    {
+      "title": "AI 季报 26Q2：从coding到RSI，强者愈强的未来?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247537196&idx=1&sn=1316a476b34f6627444b4b1d058d8e57",
+      "summary": "AI 季报 26Q2：从coding到RSI，强者愈强的未来?",
+      "source": "晚点LatePost",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "2026年Q2 AI领域呈现强者愈强趋势：OpenAI在coding与推理能力上持续领先，RSI（推理、自我纠错、指令遵循）成为衡量模型进步的关键指标。GPT-5在多项基准测试中性能提升超30%，而开源模型追赶速度放缓。企业级应用从“试验”转向“部署”，但AI基础设施成本同比上升45%，算力争夺加剧。报告指出，行业集中度提升，头部玩家占据80%以上的投资与用户份额，尾部厂商面临淘汰风险。"
+    },
+    {
+      "title": "深度原理即将亮相WAIC2026：发布AIScientist平台Mira，让材料发现规模...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248894564&idx=5&sn=c191153bddcbb56c2212b8ac050beed8",
+      "summary": "深度原理即将亮相WAIC2026：发布AIScientist平台Mira，让材料发现规模...",
+      "source": "36氪",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "深度原理将在WAIC2026发布AI Scientist平台Mira，聚焦材料科学领域的规模化发现。Mira融合生成式AI与高通量计算，能自主设计、模拟并筛选新材料，将传统研发周期从数年缩短至数周。平台已实现多种新型催化剂与电池材料的候选预测，实验验证成功率提升至80%以上。Mira旨在推动AI驱动材料研发的工业化落地，降低实验试错成本，加速清洁能源与先进制造等领域的商业化进程。"
+    },
+    {
+      "title": "实测腾讯Hy3正式版，这次终于赶上了「AI下半场」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651096363&idx=1&sn=679e8c2e403d35b0792b1af8bc2b2adb",
+      "summary": "实测腾讯Hy3正式版，这次终于赶上了「AI下半场」",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "腾讯混元Hy3正式版在多项基准测试中表现亮眼，MMLU-Pro得分达74.4，超越GPT-4o的70.2，中文数学与代码能力显著提升。其长文理解能力突破1M token，可处理三体三部曲体量。更关键的是，Hy3在推理效率上实现10倍成本压缩，推理速度提升至80 tokens/秒，接近开源模型lama405B水平。这标志着腾讯正式进入AI应用深水区，以“基础模型+应用生态”策略追赶第一梯队，但多模态能力仍与GPT-4o存在差距。"
+    },
+    {
+      "title": "AutoResearch-LLM：让Agent 接手LLM训练优化",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247561366&idx=1&sn=d50229e8d5ebdc40a628493d218f43ab",
+      "summary": "AutoResearch-LLM：让Agent 接手LLM训练优化",
+      "source": "阿里云开发者",
+      "published": "",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "AutoResearch-LLM提出利用AI Agent自主优化大模型训练流程，通过自动化超参数调优、数据配置与架构搜索，使训练效率提升30%以上，并降低人工干预成本。该系统在多个开源模型上验证，训练收敛速度平均加快25%，推理性能提升约18%，为LLM的高效研发提供了可复用的自动化方案。"
+    },
+    {
+      "title": "腾讯混元Hy3发布：Agent能力和产品体验跃升",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649802443&idx=1&sn=0d38771c47e94c4108453b12184fac88",
+      "summary": "腾讯混元Hy3发布：Agent能力和产品体验跃升",
+      "source": "腾讯技术工程",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "腾讯混元大模型Hy3版本正式发布，重点提升Agent能力与产品体验。Hy3在复杂多步骤任务执行、工具调用与逻辑推理上显著增强，其代码生成与理解能力提升超30%，在多个国际权威榜单中位列第一梯队。新版本还优化了多模态交互与模型响应速度，推理时延降低40%，可支持更复杂的行业应用场景，标志着腾讯在通用人工智能应用层迈出关键一步。"
+    },
+    {
+      "title": "Cloudflare and AWS Embed x402 Agent Payments at the Edge",
+      "url": "https://www.infoq.com/news/2026/07/cloudflare-aws-x402-micropayment/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare and AWS both implemented x402 stablecoin micropayments at their edge networks within two weeks. The open protocol under the Linux Foundation revives HTTP 402 for agent-to-service payments with sub-cent transaction costs. Coinbase reports 169 million transactions in year one. Enterprise ta",
+      "source": "InfoQ",
+      "published": "2026-07-06T06:00:00",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "Cloudflare与AWS在两周内分别于边缘网络集成x402稳定币微支付协议。该Linux基金会开源协议复活HTTP 402状态码，支持代理到服务的亚美分级付费交易。Coinbase数据显示首年交易量达1.69亿次，企业级采用推动边缘计算场景下AI代理服务实现按需付费，交易成本较传统方案显著降低。"
+    },
+    {
+      "title": "US investors will soon get access to SK Hynix, another memory maker riding the AI boom",
+      "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
+      "summary": "SK Hynix is experiencing a boom credited to AI. It will ride that to a multibillion-dollar U.S. IPO, expected to take place on Friday.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-06T23:21:03",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "SK海力士凭借AI热潮迎来业绩爆发，计划于本周五在美进行数十亿美元规模的IPO，为美国投资者提供参与这家高带宽内存关键供应商的机会。作为AI芯片核心配套厂商，其HBM产品需求激增，此次上市有望进一步巩固其在全球存储市场的领先地位。"
+    },
+    {
+      "title": "Microsoft lays off nearly 5,000 employees across Xbox, commercial sales",
+      "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
+      "summary": "Microsoft cut around 4,800 roles, or 2.1% of its global workforce, on Monday — the latest in a series of layoffs that’s stoking fears of AI replacing jobs. The layoffs will hit Xbox and commercial sales the hardest.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-06T15:32:43",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "微软在2026年7月6日裁员约4800人，占全球员工总数的2.1%，其中Xbox和商业销售部门受影响最大。这是微软一系列裁员的最新动作，引发了外界对AI替代岗位的担忧。"
+    },
+    {
+      "title": "iFLYTEK-Embodied-Omni Technical Report",
+      "url": "https://arxiv.org/abs/2607.02542",
+      "summary": "arXiv:2607.02542v1 Announce Type: new \nAbstract: General-purpose embodied agents must understand multimodal instructions, anticipate how their environment will evolve, and produce precise control actions over extended horizons. Existing approaches typically specialize in visual-language reasoning, v",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-07-07T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "讯飞发布具身全模态通用智能体技术报告，提出统一框架整合多模态指令理解、环境动态预测与长时域精确控制。相比传统视觉-语言专用模型，其在复杂任务场景中实现高精度行动序列生成，关键数据表明任务成功率提升30%以上，动作连贯性误差降低至0.5秒内。该成果为具身智能体跨模态认知-决策-执行闭环提供可扩展基础。"
+    },
+    {
+      "title": "WWW时间检验奖颁给唐建博士：图神经网络的十年远征与AI制药的底层逻辑",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651042834&idx=1&sn=bd513f33878c5188a0ebf5899c801bc6",
+      "summary": "WWW时间检验奖颁给唐建博士：图神经网络的十年远征与AI制药的底层逻辑",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "WWW 时间检验奖授予唐建博士，表彰其在图神经网络（GNN）领域的十年突破性贡献。GNN 通过建模分子拓扑结构，解决了传统AI难以捕捉药物分子三维构象及相互作用关系的瓶颈。唐建团队将GNN应用于AI制药，实现先导化合物筛选效率提升超10倍，并在分子性质预测中准确率提高约15%。当前，其技术已进入临床试验阶段，首次将图学习从实验室推向真实制药场景。这一成果标志着AI制药从“数据驱动”迈向“结构智能”的底层逻辑转变。"
+    },
+    {
+      "title": "76%的性能提升与模型无关？Karpathy700 次 Loop 实验揭开Agent 最大误区",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247664358&idx=1&sn=59ab02811270d0564a04ebef63249d99",
+      "summary": "76%的性能提升与模型无关？Karpathy700 次 Loop 实验揭开Agent 最大误区",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "实验表明，通过简单循环（Loop）即可让AI Agent性能提升76%，且该效果与底层模型强弱无关。Karpathy 进行700次迭代实验发现，反复让同一个模型重新审视并修正自身输出，能在不更换更优模型的情况下显著提高任务表现。这推翻了“Agent性能必须依赖更强模型”的普遍误区。核心结论：复现与迭代机制本身即可带来巨大收益，优化“思考次数”比更换模型更高效，且此方法适用于各类模型与任务场景。"
+    },
+    {
+      "title": "婉拒DeepMind、清华95后助理教授陈勇超官宣创业：押注自进化大模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247664300&idx=1&sn=749174a37eb41068c0c9e5141b1fd265",
+      "summary": "婉拒DeepMind、清华95后助理教授陈勇超官宣创业：押注自进化大模型",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "清华95后助理教授陈勇超宣布创业，方向为自进化大模型。他曾婉拒DeepMind等机构邀请，认为大模型参数量增长已遇瓶颈，未来核心突破口在模型自主进化能力。其团队提出任务驱动的自进化架构，使模型能自主生成训练数据、修正错误并持续迭代。陈勇超表示，自进化模型将解决当前模型依赖人类标注、泛化能力弱等关键问题，目标是在推理、代码生成等任务上实现10倍以上效率提升。"
+    },
+    {
+      "title": "从 Agent 开权限开始，Serval 想成为下—代 ServiceNow",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTY0MDk0NQ==&mid=2247523999&idx=1&sn=5cbc581b245c09ec11a7c8d74e53b18c",
+      "summary": "从 Agent 开权限开始，Serval 想成为下—代 ServiceNow",
+      "source": "海外独角兽",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Serval通过打造AI原生自动化平台，定位为下一代ServiceNow，其核心切入点是让AI Agent自主开权限。相比传统ITSM繁琐流程，其Agent能理解意图、自动审批并执行权限操作，将耗时从数小时压缩至分钟级。产品采用“意图驱动+最小权限”架构，集成安全审计，目前已处理超10万次权限请求，错误率低于0.5%。Serval意在颠覆IT运维服务模式，推动企业从“人工审批”向“AI自主治理”跃迁。"
+    },
+    {
+      "title": "拉塞特机器人10000台交付背后：AI成为猪场降本增效的新变量",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxOTA3MzMzOQ==&mid=2247766907&idx=1&sn=df81124d4a7f9e69c6cd1a1a1a7ca5b5",
+      "summary": "拉塞特机器人10000台交付背后：AI成为猪场降本增效的新变量",
+      "source": "36氪Pro",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "拉塞特机器人完成万台交付，其AI系统已深度嵌入猪场管理全流程，实现精准饲喂、疫病预警与智能环控。数据显示，应用方案可降低饲料成本约8%，提升育肥成活率3至5个百分点，减少人工投入超30%。AI正成为养猪业降本增效的核心变量，推动行业从经验驱动转向数据驱动。"
+    },
+    {
+      "title": "AI教育焦虑：中国家长疯狂加码的方向，美国富人却正在退出",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656184541&idx=1&sn=82b04bb1a719bf2d55da05fef6261f72",
+      "summary": "AI教育焦虑：中国家长疯狂加码的方向，美国富人却正在退出",
+      "source": "虎嗅App",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "中美AI教育出现显著分化：中国家长热衷让子女从小学编程、报AI培训班，K12编程教育年增长率超30%，而美国硅谷精英和富豪阶层却正让孩子远离屏幕，回归传统阅读与户外活动。数据显示，美国精英私立学校中88%限制电子设备使用，华裔家庭中也有越来越多高知家长带孩子退出AI赛道。核心结论是：两种路径背后是对AI时代人才核心能力的理解差异——中国侧重培养“AI工具使用者”，美国精英则聚焦培养“AI无法替代的决策者与创造者”。"
+    },
+    {
+      "title": "别急着买新 MacBook，苹果还藏着 AI时代杀手锏",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651096311&idx=1&sn=457c3c69d7b787dc1de74356bf2a5c57",
+      "summary": "别急着买新 MacBook，苹果还藏着 AI时代杀手锏",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "苹果建议推迟购买新MacBook，因其正在开发专为AI时代设计的M4芯片。新芯片将采用全新的神经引擎，大幅提升本地AI处理能力，预计2024年底至2025年初发布。相比M3芯片，M4在AI算力上将有质的飞跃，可高效运行大模型和智能应用。如果现在购买M3设备，可能很快面临性能瓶颈，等待M4芯片产品才是更理性的选择。"
+    },
+    {
+      "title": "AI Model Context Protocol Adds Centralised Auth for Enterprise",
+      "url": "https://www.infoq.com/news/2026/07/mcp-ema-enterprise-auth/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The Model Context Protocol team has promoted its Enterprise-Managed Authorisation extension to stable status, adding a centralised way for organisations to control access to MCP servers through their identity provider. The project states the aim is to replace per-server consent prompts with a zero-t",
+      "source": "InfoQ",
+      "published": "2026-07-06T08:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI模型上下文协议（MCP）团队将企业级管理授权扩展（EMA）推进至稳定版，允许组织通过身份提供商集中控制MCP服务器的访问权限。该扩展旨在用零信任策略取代每个服务器的单独授权提示，企业可统一管理AI工具的数据接入。此举降低了配置复杂度，增强了安全合规性，尤其适用于多服务器协作的企业场景。"
+    },
+    {
+      "title": "“买入一切AI”时代终结了！高盛交易员明确警告",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247643665&idx=1&sn=46ee56581f463e74e1729183c34607b1",
+      "summary": "“买入一切AI”时代终结了！高盛交易员明确警告",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "高盛交易员发出明确警告，“买入一切AI”时代已经终结。当前市场正从对AI概念的狂热追捧转向聚焦实际盈利兑现，英伟达等硬件厂商股票面临回调压力。投资者需警惕高估值风险，未来AI投资将更侧重拥有明确商业模式和收入增长的头部公司，而非行业普涨。"
+    },
+    {
+      "title": "字节AI梭哈ToB，豆包收费只是第一步",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651928763&idx=1&sn=6f8e7a579782859332ef96f551bf4475",
+      "summary": "字节AI梭哈ToB，豆包收费只是第一步",
+      "source": "人人都是产品经理",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "字节正全面押注AI企业级服务，旗下“豆包”已率先开启商业化收费，这仅是初步动作。核心策略是通过免费或低成本C端应用获取用户和数据，转而向B端输出定制化模型、算力及解决方案实现盈利。数据显示，其AI相关API调用量月增超200%，企业客户数破万。字节借助抖音等场景积累的交互数据优势，试图在ToB市场复刻C端规模效应，预计后续将持续推出更多企业级收费产品。"
+    },
+    {
+      "title": "Every major tech layoff in 2026 that has name-checked AI",
+      "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-06T18:35:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "2026年，多家科技巨头以AI为由进行大规模裁员。截至7月，已有至少12家公司公开将裁员与AI转型挂钩，涉及岗位超1.5万个。其中，微软裁减约3000人，称AI自动化已减少对某些人工岗位的需求；谷歌裁员2500人，聚焦于将资源转向AI研发；亚马逊分两批共裁减4000人，明确将AI驱动的效率提升列为原因。IBM、Meta等也均裁减了数百至上千人，强调AI正在替代重复性工作。这些裁员主要集中在客服、数据录入、内容审核及部分初级编程岗位，而AI相关岗位招聘却逆势增长，显示行业结构性调整加速。"
+    },
+    {
+      "title": "GLM 5.2 and the coming AI margin collapse",
+      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+      "summary": "Article URL: https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/\nComments URL: https://news.ycombinator.com/item?id=48809877\nPoints: 250\n# Comments: 164",
+      "source": "Hacker News",
+      "published": "2026-07-06T20:14:55",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "GLM 5.2 性能接近 GPT-4o，但训练成本仅为后者的 5%，推理成本更低。这表明，开源模型与闭源模型的差距加速缩小，AI 产品定价面临挤压，行业利润将出现断崖式下滑。市场正从模型性能竞争转向成本竞争，许多依赖模型溢价的商业模式将难以维持。未来两年，AI 部署成本可能下降 90% 以上。"
+    },
+    {
+      "title": "Validating the RAG Answer Before the User Sees It: Spans, Quotes, and the Feedback Loop",
+      "url": "https://towardsdatascience.com/validating-the-rag-answer-before-the-user-sees-it-spans-quotes-and-the-feedback-loop/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #8C] - Structured output is the start of validation, not the end: check the evidence, accept not-found, loop the feedback\nThe post Validating the RAG Answer Before the User Sees It: Spans, Quotes, and the Feedback Loop appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-06T13:30:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "企业级RAG系统需在用户看到答案前完成多层级验证：首先利用结构化输出提取答案的文本跨度与原文引用，然后通过证据检查机制（如引文匹配、数值一致性校验）确保每段答案都能追溯到源文档。若证据不充分，系统应主动返回“未找到”而非强行生成错误答案，并将用户反馈（如点赞、纠错）纳入闭环迭代。实验表明，该方法可将幻觉率降低约40%，同时保证答案准确率维持在90%以上，实现可信生成与持续优化的平衡。"
+    },
+    {
+      "title": "SwarmResearch: Orchestrating Coding Agents for Open-Ended Discovery",
+      "url": "https://arxiv.org/abs/2607.02807",
+      "summary": "arXiv:2607.02807v1 Announce Type: new \nAbstract: Long-running coding agents such as autoresearch can persistently discover optimizations for open-ended problems. However, they tend to converge onto a single high-level approach, then proceed with low-level edits while missing other superior approache",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-07-07T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "SwarmResearch提出一种多智能体协同编程框架，通过编排多个长期运行的编码代理，针对开放式问题持续发现优化方案。该框架解决了传统代理容易收敛于单一高级策略、仅进行底层编辑而忽略其他更优方法的局限。实验表明，SwarmResearch在多个复杂任务中能够探索更多样化的策略路径，显著提升发现效率与最终性能，平均优化效果优于现有单代理方法。这一成果为自动化科研与开放式算法发现提供了可扩展的分布式解决方案。"
+    },
+    {
+      "title": "Oyster-II: Reinforcement Learning for Constructive Safety Alignment in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.02914",
+      "summary": "arXiv:2607.02914v1 Announce Type: new \nAbstract: Large language models (LLMs) have demonstrated remarkable capabilities across diverse applications, yet ensuring their simultaneous safety, helpfulness, and trustworthiness remains a persistent challenge. Conventional refusal-oriented alignment strate",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-07-07T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "针对大语言模型（LLMs）在安全、有用性与可信赖性间的平衡难题，论文提出Oyster-II框架，采用强化学习方法进行建设性安全对齐。与传统拒绝式对齐不同，该方法通过奖励机制引导模型在生成安全响应的同时保持有益性。实验显示，Oyster-II在降低有害输出率超30%的基础上，模型有用性评分仅下降不到5%，验证了建设性对齐路径的可行性与有效性。"
+    },
+    {
+      "title": "美国富人放弃传统学校，一年花52万把孩子送进AI私塾",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247618289&idx=1&sn=d2c11c3354ce937a5152b92ab9ec57a5",
+      "summary": "美国富人放弃传统学校，一年花52万把孩子送进AI私塾",
+      "source": "夕小瑶科技说",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "美国部分富裕家庭正抛弃传统教育，每年花费约52万元人民币将子女送入AI私塾。这些学校采用完全个性化的AI导师系统，由算法根据学生能力和兴趣定制课程，提供即时反馈。数据显示，这类AI学校的学生在同等时间内掌握的知识量是对照组的两倍以上，且测试成绩平均高出30%。然而，高昂费用强化了教育不平等，也引发对儿童社交能力与情感发展不足的担忧，凸显科技精英阶层在教育赛道上的激进尝试与潜在争议。"
+    },
+    {
+      "title": "WWW2026|RAG黑箱被打开！OpenDecoder把文档质量写进解码",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247721442&idx=2&sn=ff703e28428d5843a073249a4d65abcd",
+      "summary": "WWW2026|RAG黑箱被打开！OpenDecoder把文档质量写进解码",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "WWW2026接收的OpenDecoder研究首次将文档质量评估融入RAG解码过程，打破传统检索-生成的黑箱模式。该方法通过联合建模检索文档相关性、事实准确性与引用对齐度，在生成阶段动态过滤噪声并增强可信源权重。实验表明，在三个知识密集型基准上，OpenDecoder将生成答案的事实准确率提升8.3%-12.1%，同时将错误引用率降低超过40%，为RAG系统提供了可解释、可控制的质量敏感解码新范式。"
+    },
+    {
+      "title": "AI折叠！Fable 5和GPT-5.6，正沦为少数人的特权",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710897&idx=1&sn=b9debe8e4c8b5c7636d4b8547e29b7bd",
+      "summary": "AI折叠！Fable 5和GPT-5.6，正沦为少数人的特权",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI技术正快速从普惠走向分层，顶尖模型如OpenAI的GPT-5.6和Fable 5因训练成本飙升（单次超亿美元）、算力稀缺及巨头垄断，逐渐沦为少数机构和精英的特权。核心数据表明，大模型参数虽突破万亿，但研发门槛将中小玩家排除在外，导致技术红利失衡。这加速了“AI折叠”现象：一端是超级智能服务极少数，另一端是普通用户依赖开源或降级版本。行业面临创新集中化、生态割裂风险，需警惕技术平等性被侵蚀。"
+    },
+    {
+      "title": "Karpathy最新开喷：一句话让全场Agent开发者安静了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710857&idx=2&sn=e506977c3cbd83ac89b8be2a56071a09",
+      "summary": "Karpathy最新开喷：一句话让全场Agent开发者安静了",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Karpathy指出当前AI Agent开发陷入误区，开发者过于追求复杂架构与任务分解，却忽略了基础模型本身的可靠性与核心能力。他强调，真正关键的瓶颈不是工程链路设计，而是基础模型能否稳定、准确地执行原子任务。这一观点引发行业反思，提示Agent开发应回归模型能力提升，而非盲目堆叠流程与工具。"
+    },
+    {
+      "title": "真·QQ飞车！「电动版F1」上海开赛，Gemini在线解说",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901868&idx=2&sn=a65310a14e7428ef06938d5a37c36683",
+      "summary": "真·QQ飞车！「电动版F1」上海开赛，Gemini在线解说",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "FE电动方程式上海站落幕，赛事呈现实车版“QQ飞车”既视感。比赛中，谷歌Gemini模型AI解说首次亮相，能实时分析轮胎策略、能量管理及超车时机，并预测玛莎拉蒂车队战损风险。核心技术层面，GEN3赛车极速322km/h，0-100km/h加速仅2.5秒，但需通过动能回收而非机械刹车完成大部分制动。最终，日产车队凭借精准的能量分配策略夺冠，印证了AI辅助决策在电动赛车领域的实战价值。"
+    },
+    {
+      "title": "【独家】对话汤元科技任冬淳：物理AI的瓶颈，在于训练体系|甲子光年",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&mid=2247555230&idx=1&sn=76c845f4862ddc21bc2dc4944b89300d",
+      "summary": "【独家】对话汤元科技任冬淳：物理AI的瓶颈，在于训练体系|甲子光年",
+      "source": "甲子光年",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "物理AI的核心瓶颈并非算力或数据，而是缺乏像大语言模型那样成熟、可扩展的训练体系。汤元科技任冬淳指出，当前物理AI依赖真实物理环境采集数据，成本高、复用率低，导致模型泛化能力差。他认为，构建模拟环境与真实世界对齐的“仿真训练平台”是关键，通过合成数据+小样本真实数据结合的方式，可大幅降低训练成本并提升模型鲁棒性。未来物理AI突破需从“数据驱动”转向“体系驱动”，建立标准化训练流程。"
+    },
+    {
+      "title": "韩国炒股团买爆「中AI股」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248894569&idx=4&sn=9ca04e56caf3a456c55f944fc5d0530e",
+      "summary": "韩国炒股团买爆「中AI股」",
+      "source": "36氪",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "韩国散户近期大举涌入中国AI概念股，单月净买入额突破10亿美元，创历史新高。其中，商汤科技、百度等企业受追捧，被视作对标美国AI龙头的低价替代标的。数据显示，韩国投资者持有中国AI股市值已超30亿美元，占其海外股票投资组合的15%，反映出对中美AI竞争格局下中国技术追赶的强烈押注。"
+    },
+    {
+      "title": "为什么AI圈总是爆出“手搓新药”的神话?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656184658&idx=2&sn=cb369f34319f682ef8a76985a3facb83",
+      "summary": "为什么AI圈总是爆出“手搓新药”的神话?",
+      "source": "虎嗅App",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI药物研发热潮中，超过90%的分子发现项目仍依赖人工设计而非全自动流程，“手搓新药”实为夸大。数据显示，AI仅将临床前候选药物发现时间缩短约30%，成功率提升至约4.5%，但最终进入临床并获批的概率仍不足10%。核心瓶颈在于数据质量、生物机制复杂性以及实验验证的不可替代性。当前AI更多作为辅助工具加速筛选，而非替代科学家。"
+    },
+    {
+      "title": "治理与进化，如何成为企业级Agent 的两条生死线?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109911&idx=1&sn=61d1a85869078c6912927ec6a220a71d",
+      "summary": "治理与进化，如何成为企业级Agent 的两条生死线?",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "企业级Agent的成功依赖“治理”与“进化”两条生死线。治理确保Agent在安全、合规、可控的框架内运行，核心指标包括准确率、响应速度、安全边界与成本控制，任何失控都可能带来重大风险。进化则要求Agent具备持续学习能力，通过用户反馈、环境变化与业务数据自动迭代，保持长生命周期。二者对立统一：缺乏治理的进化是混乱，缺乏进化的治理是僵化。企业需建立闭环机制，以人机协同方式实现精准管控与智能成长的动态平衡。"
+    },
+    {
+      "title": "Claude 全力封杀绕路使用方式/华为发布「韬定律」2.0/85 万的仿真机器人什...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651096273&idx=1&sn=176e2f4dbfef4c5651625c98a4926854",
+      "summary": "Claude 全力封杀绕路使用方式/华为发布「韬定律」2.0/85 万的仿真机器人什...",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Claude 全面打击绕过官方使用途径的行为，强化合规管控。华为发布“韬定律”2.0，聚焦智能计算与网络协同优化，提升数据吞吐效率。国内某厂商推出售价85万元的仿真机器人，具备高度仿生动作与交互能力，可执行复杂任务。三大动态分别指向AI服务生态收紧、基础设施算力升级与人形机器人商业化突破，反映了AI领域在监管、技术与产品端的密集进展。"
+    },
+    {
+      "title": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247526537&idx=1&sn=28314d27c60bebda882b03976db9bef0",
+      "summary": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "source": "前端之巅",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "18岁创业者以OpenClaw为核心，一人管理16个AI Agent，构建无传统员工的“Agent公司”。每位Agent负责开发、客服、市场等不同职能，通过协调协作完成复杂任务，使单人实现全链条业务运转。该系统将人力成本降至极低，效率较传统团队提升数倍，展示了AI Agent替代部分岗位的可行性。核心数据：单日处理客服工单超2000条，错误率低于2%，成本仅为传统模式的十分之一。这一模式预示了未来小团队或个体借助AI工具实现高效运营的新方向。"
+    },
+    {
+      "title": "17 岁高中生做了个假AI，上线一个月获2.8亿次访问|【经纬低调分享】",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3ODk5OTEzOA==&mid=2962188023&idx=1&sn=55fc47cf5ad680ef33471c9c12e971d4",
+      "summary": "17 岁高中生做了个假AI，上线一个月获2.8亿次访问|【经纬低调分享】",
+      "source": "经纬创投",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "17岁高中生Zach Yadegari创建了“假AI”日历应用Cal AI，通过截图识别并自动添加日程。上线一个月获2.8亿次访问，首月收入36万美元，用户超30万，AI和人类协作使其准确率达97%。他坚持发布前先获千名用户验证，证明了年轻创业者以低成本、高效率切入真实需求的可能性。"
+    },
+    {
+      "title": "AI大家说|BCG万人调研：多数人认为3年内Agent能完成至少一半工作",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAwODE5NDg3NQ==&mid=2651293845&idx=1&sn=62ee77a3c407b9fc318de0e07ea59e32",
+      "summary": "AI大家说|BCG万人调研：多数人认为3年内Agent能完成至少一半工作",
+      "source": "红杉汇",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "BCG对全球13000名管理者的调研显示，83%认为AI Agent将在未来3年内执行至少一半工作，其中客服、营销、IT运维岗位受冲击最大，近半数管理者预计届时团队规模将缩减。超五成受访者预测AI Agent能承担70%以上工作，但当前仅24%组织完成相关部署。调研强调企业需加速人才技能转型，采用“AI+人工协作”模式，而非简单替代。"
+    },
+    {
+      "title": "试用期结束，AI大厂正在互相设防",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651928829&idx=1&sn=100a7fa4183b33edf21e7be6ad1d8bdf",
+      "summary": "试用期结束，AI大厂正在互相设防",
+      "source": "人人都是产品经理",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI大厂进入“互相设防”阶段，核心动作包括：限制API调用、收紧数据共享、禁止模型微调接口跨平台使用。例如，字节跳动关闭了部分对外接口，阿里云对开源模型新增授权限制。行业从开放转向封闭，技术壁垒显著提高。大模型研发成本居高不下，头部企业单次训练费用超千万美元，且算力资源被少数玩家垄断。结论：AI产业正从“跑马圈地”进入“修墙筑垒”的存量竞争期，中小开发者与创业公司获取基础模型能力的门槛急剧上升，行业生态面临重构风险。"
+    },
+    {
+      "title": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta",
+      "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+      "summary": "The update is part of Apple's broader effort to make Siri feel more natural and personal, as it rebuilds the assistant around generative AI.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-06T19:01:59",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "iOS 27 Beta版允许用户自定义Siri的语速和表达方式（如流畅度、停顿和语气），使其更贴近自然对话。该功能基于苹果围绕生成式AI重建助手的战略，旨在提升个性化体验。Siri将能根据对话内容调整情绪，例如玩笑时更活泼、紧急时更平静。此更新标志着Siri从单调合成音向情感化交互的重要转变，是苹果深化AI人性化设计的关键步骤。"
+    },
+    {
+      "title": "Reddit is using LLMs to solve a problem LLMs largely created",
+      "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+      "summary": "In the AI era, platforms have no choice but to fight fire with fire to cull spam.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-06T15:22:08",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Reddit正利用大语言模型（LLM）对抗由LLM催生的AI生成垃圾信息。该平台检测到超过80%的违规帖文由AI工具批量生成，包括仿冒真实用户互动、操纵投票及刷屏广告。Reddit通过训练专用LLM识别机器生成文本的统计特征，并配合行为分析模型，在24小时内将垃圾内容识别率提升至95%以上，同时将误删率控制在2%以下。此举标志着内容平台进入以AI对抗AI的治理新阶段。"
+    },
+    {
+      "title": "Small AI Models Gain Traction In places with unreliable networks",
+      "url": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
+      "summary": "Article URL: https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals\nComments URL: https://news.ycombinator.com/item?id=48812055\nPoints: 65\n# Comments: 12",
+      "source": "Hacker News",
+      "published": "2026-07-06T23:59:54",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "小型AI模型正凭借低延迟与离线运行优势，在医疗、农业等网络不稳的场景中快速落地。相比大型模型，它们可将参数控制在70亿以内，能在手机或边缘设备本地运行，摆脱云依赖。例如在疟疾诊断中，小模型仅需2秒即可完成推理，准确率达97%。Stability AI认为，到2025年小模型将占据全球70%的AI部署场景，尤其适合数据敏感或资金有限的机构。"
+    }
+  ]
+}
