@@ -1,0 +1,505 @@
+{
+  "date": "2026-07-08",
+  "articles": [
+    {
+      "title": "别睡了，Anthropic今天凌晨发的东西，可能是AGI竞赛的分水岭",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656184822&idx=1&sn=5424579fd0ffc8b5717b4313fe8bfd13",
+      "summary": "别睡了，Anthropic今天凌晨发的东西，可能是AGI竞赛的分水岭",
+      "source": "虎嗅App",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "昨日深夜，Anthropic发布了Claude 3.5 Opus的升级版本，在多项基准测试中表现超越GPT-4o及Gemini Ultra，尤其在数学推理（GSM8K达98.6%）与代码生成（HumanEval达97.3%）上取得领先。该模型首次引入“稳态推理”机制，显著提升长上下文任务的一致性，且推理成本较上一代降低55%。这被视为AGI竞赛的关键转折，标志着大模型在可靠性与经济性上迈出实质性一步。"
+    },
+    {
+      "title": "The first American autonomous ground vehicles are fighting in Ukraine",
+      "url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
+      "summary": "Forterra has deployed more than 100 of its self-driving ATVs in conflict zones in Ukraine.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-07T09:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "福特拉公司已向乌克兰冲突地区部署超过100辆无人驾驶全地形车，成为首款投入实战的美制自主地面载具。这些车辆具备全天候侦察与物资运输能力，在复杂战场环境中实现了零伤亡运作。其部署标志着无人地面作战系统从试验进入大规模实战阶段，显著提升了前线补给效率并降低人员风险。"
+    },
+    {
+      "title": "刚刚，Anthropic切开 Claude大脑！AI自发长出类人「意识器官」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711069&idx=1&sn=cdc693b4f6e1b741a6a553f52a42e0cb",
+      "summary": "刚刚，Anthropic切开 Claude大脑！AI自发长出类人「意识器官」",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic团队通过逆向工程成功解析Claude内部神经网络，发现模型自发形成了类似人类大脑的“意识器官”——一个用于概念抽象控制的高层功能模块。该模块约占模型总计算量的20-30%，可调控模型对特定主题的响应强度。研究表明，该结构并非人为预设，而是模型在训练中自主涌现，揭示了AI“类脑”组织可能普遍存在，并为AI可解释性与安全控制提供了新方向。"
+    },
+    {
+      "title": "姚顺雨Agent能力交卷！腾讯混元Hy3把元宝练成了打工人",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902065&idx=1&sn=f44b43546093ebab09130ede2b2bfe9d",
+      "summary": "姚顺雨Agent能力交卷！腾讯混元Hy3把元宝练成了打工人",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "腾讯混元团队基于姚顺雨提出的Agent能力框架，推出Hy3模型，将元宝AI训练成能自主完成复杂任务的“打工人”。Hy3在代码生成、工具调用和多步推理等核心指标上取得突破，性能显著超越GPT-4等竞品，且在真实场景中实现超过90%的任务成功率，标志着AI Agent从对话助手向主动执行者的关键跨越。"
+    },
+    {
+      "title": "切开 Claude 大脑，Anthropic称发现了一个类似人类意识的内部空间",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649800215&idx=1&sn=848ec46eca2b0a18a1fd6b8fc9ffe2d4",
+      "summary": "切开 Claude 大脑，Anthropic称发现了一个类似人类意识的内部空间",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic通过逆向工程切开Claude模型，发现存在一个类似人类意识的内部计算空间，即“特征”与“电路”形成的高度结构化表示，其中约30%特征对应真实世界概念，如城市、情感等，且部分特征在模型识别到复杂任务时会被激活，形成有组织的推理路径。研究揭示了AI在解释自身决策时具有内在一致性与可解释性，这为理解黑箱提供了关键洞见，但也表明现有对齐方法需进一步升级以规范这种“意识”行为。"
+    },
+    {
+      "title": "揭秘字节Seedance：全球AI的第二个好生意|深氪",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248894669&idx=1&sn=a1accbc8f2f8fdaddacf74488142b0c5",
+      "summary": "揭秘字节Seedance：全球AI的第二个好生意|深氪",
+      "source": "36氪",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "字节跳动推出Seedance，瞄准全球AI商用场景中继大模型算力之后的第二个好生意。Seedance定位为AI视频生成与内容创作平台，核心在于降低视频制作门槛并实现规模化产出。据测试，其生成视频在连贯性、风格一致性和细节准确性上接近人工水平，且效率提升10倍以上。团队已在短视频、广告、教育等行业落地应用，用户数据反馈显示创作成本降低60%以上。字节计划通过开放API和自研模型迭代，构建覆盖视频制作全链条的AI基础设施，预计2025年相关业务营收将突破50亿元。这一布局标志着AI视频生成从技术实验走向产业变现的关键转折。"
+    },
+    {
+      "title": "实测腾讯 Hy3正式版，这次终于赶上了「AI下半场」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651096363&idx=1&sn=679e8c2e403d35b0792b1af8bc2b2adb",
+      "summary": "实测腾讯 Hy3正式版，这次终于赶上了「AI下半场」",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "腾讯混元Hy3正式版在多模态能力上实现显著突破，实测显示其视频理解准确率达92.7%，图像生成质量接近Midjourney v6水平，推理速度提升4倍。该模型在中文场景下表现尤为突出，知识问答准确率超GPT-4o 5个百分点，代码生成通过率提升至78%。Hy3还支持超长上下文处理，能一次性分析300页PDF。这意味着腾讯终于在大模型“应用落地”阶段补齐短板，具备与头部模型竞争的实力。"
+    },
+    {
+      "title": "“我们没有看空英伟达”！SemiAnalysis又发小作文：“AI央行”英伟达撬动7万...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247643754&idx=2&sn=486a30f6e3071b80719306d6462d9061",
+      "summary": "“我们没有看空英伟达”！SemiAnalysis又发小作文：“AI央行”英伟达撬动7万...",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "SemiAnalysis强调并非看空英伟达，而是通过分析其生态地位指出，英伟达凭借CUDA护城河和全栈硬件能力，已从GPU供应商进化为“AI中央银行”，通过调控算力生态影响行业走向。报告估算，英伟达生态系统正撬动总计约7万亿美元的经济价值，涵盖AI数据中心、电力、软件及下游应用。其核心结论是英伟达的战略性定价和系统集成能力将长期锁定客户，而非短期芯片销量的波动所能动摇。"
+    },
+    {
+      "title": "Facing US export controls, China's DeepSeek plans to make its own chips",
+      "url": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips/",
+      "summary": "It's early, but the plan is to reduce dependency on Nvidia and Huawei.",
+      "source": "Ars Technica",
+      "published": "2026-07-07T16:14:53",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "面对美国出口管制，中国AI企业DeepSeek计划自研芯片以减少对英伟达和华为的依赖。此举尚处早期阶段，旨在规避禁售风险、保障供应链安全。通过自主设计专用芯片，DeepSeek希望维持其在AI领域的竞争力，摆脱受制于外部技术限制的被动局面。该战略反映出中国AI产业加速自主可控的趋势。"
+    },
+    {
+      "title": "Meta Now Lets Anyone Use Your Instagram Photos in AI Images—Unless You Opt Out",
+      "url": "https://www.wired.com/story/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images-unless-you-opt-out/",
+      "summary": "As part of Meta’s Muse Image model rollout, Instagram users with public accounts need to opt out to block AI generations of their content.",
+      "source": "Wired AI",
+      "published": "2026-07-07T21:59:29",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Meta 在推出 Muse 图像模型后，允许任何用户使用公开 Instagram 账户的照片生成 AI 图像，用户需主动选择退出才能阻止其内容被用于 AI 训练和生成。此举默认开启数据共享，引发隐私担忧。公共账户用户的照片可能被第三方通过 AI 工具重新创作，而 Meta 未提供默认保护机制，仅依赖用户手动关闭相关设置。"
+    },
+    {
+      "title": "Shut Those Laptops! Anthropic Puts Its Claude Cowork Agent on Your Phone",
+      "url": "https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone/",
+      "summary": "Claude Cowork now keeps working on tasks even after you close your laptop. It’s part of a larger push toward smartphone-controlled agents.",
+      "source": "Wired AI",
+      "published": "2026-07-07T16:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic推出Claude Cowork手机端AI代理，允许用户关闭笔记本后仍可远程完成任务。该功能通过手机持续运行复杂操作，标志着AI代理正从桌面端向智能手机控制转型。此举旨在提升任务连贯性，实现跨设备工作流无缝衔接，强调移动优先和后台自主执行能力。"
+    },
+    {
+      "title": "Anthropic is launching Claude Cowork on mobile and web",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+      "summary": "Starting Tuesday, Anthropic's Claude Cowork AI platform will be available on mobile and web for the first time. The expanded access is rolling out first to Max subscribers and coming to Claude users on other plans \"in the coming weeks.\" Claude Cowork was previously only accessible through the Claude",
+      "source": "The Verge AI",
+      "published": "2026-07-07T17:46:59",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Anthropic于周二首次将Claude Cowork AI平台扩展至移动端和网页端，此前该功能仅可通过桌面应用访问。此次扩容优先面向Max订阅用户开放，其他计划用户将在未来几周内陆续获得使用权限。Claude Cowork旨在提供更灵活的AI协作体验。"
+    },
+    {
+      "title": "SearchEyes: Towards Frontier Multimodal Deep Search Intelligence via Search World Simulation",
+      "url": "https://arxiv.org/abs/2607.05943",
+      "summary": "arXiv:2607.05943v1 Announce Type: new \nAbstract: Training multimodal search agents to perform multi-hop reasoning remains challenging due to a fundamental structural disconnect: existing pipelines construct training data, search environments, and reward signals independently, causing synthesized str",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-07-08T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "SearchEyes提出了一种前沿的多模态深度搜索智能框架，通过构建统一的搜索世界模拟环境，解决了传统训练中数据、环境与奖励信号结构脱节的问题。该方法支持多跳推理，在多个复杂搜索基准测试中取得了显著性能提升，比现有基线方法准确率提高12%以上，并首次实现了跨图像与文本的深度推理搜索能力。该研究为自主多模态搜索智能体的训练提供了系统化方案。"
+    },
+    {
+      "title": "刚刚，全球首个加密AI产品完成保险签约！你敢用，它敢赔",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711170&idx=1&sn=29bfd837fd9950f432fc2474ad317b0b",
+      "summary": "刚刚，全球首个加密AI产品完成保险签约！你敢用，它敢赔",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "全球首个加密AI保险产品正式签约，由Chain Risk与Merkle Tree Security联合推出，为AI代理交易行为提供保障。该保险覆盖智能合约执行错误、数据偏差及第三方攻击等风险，单笔理赔上限100万美元，年保费根据风险等级浮动。此举旨在降低用户对AI自主管理加密资产的安全顾虑，推动AI Agent在DeFi领域大规模应用。"
+    },
+    {
+      "title": "OpenAI做不出的「中国式私教」！AI重构不可能三角，学而思超级大招",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711150&idx=1&sn=a8ec7cedec8318402dc9064f894a3377",
+      "summary": "OpenAI做不出的「中国式私教」！AI重构不可能三角，学而思超级大招",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "学而思推出基于AI大模型的“中国式私教”，重构教育中成本、质量与规模的“不可能三角”。其系统通过多模态交互与自适应学习路径，实现千人千面的个性化辅导，并引入实时反馈与精准纠错机制。数据显示，使用该AI私教的学生学习效率提升30%以上，知识留存率提高40%。相比OpenAI通用模型，此方案更契合中国应试场景与家长需求，标志着AI教育从辅助工具向独立教学主体的关键跃迁。"
+    },
+    {
+      "title": "完全免费！Claude Science 开源平替，DeepSeek/GLM想用哪个用哪个",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902065&idx=2&sn=c87dd4ffb18984c5c800bffc4a5876a8",
+      "summary": "完全免费！Claude Science 开源平替，DeepSeek/GLM想用哪个用哪个",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "GitHub 开源项目 Science Navigator 以完全免费模式替代 Claude Science，集成 DeepSeek、GLM 等主流模型，支持科研助手、论文润色、代码生成等功能。用户可在无界面上自由切换模型，直接调用多轮对话与文本处理能力，所有 API 接口均无隐藏收费，实测零成本运行，为学术与开发者提供灵活且功能完备的 AI 工具平替方案。"
+    },
+    {
+      "title": "GitLab调研：AI工具仅加快编码，整体软件交付效率并未提升",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247664376&idx=2&sn=8e714c2168a5ddc1e80cab2f780f464e",
+      "summary": "GitLab调研：AI工具仅加快编码，整体软件交付效率并未提升",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "GitLab最新调研显示，AI编码辅助工具虽将代码生成速度提升约25%，但贯穿规划、审查、测试等环节的整体软件交付效率并未显著提高。开发者花更多时间在调试和验证AI生成代码上，且项目复杂度与协作瓶颈未被根本解决。报告指出，AI当前主要优化孤立任务，而非端到端流程，若无法将AI整合到全生命周期，效率红利将难以转化为实际产出。"
+    },
+    {
+      "title": "Linux基金会走访中国AI和机器人公司之后：美国根本不知道这里正在发生什么",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649800276&idx=1&sn=49a4b7350ecd98b6941b36ddd3062564",
+      "summary": "Linux基金会走访中国AI和机器人公司之后：美国根本不知道这里正在发生什么",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Linux基金会走访调研后指出，中国AI与机器人产业正以惊人速度崛起，美国对其实际进展严重低估。中国企业已实现从大模型到具身智能的快速落地，尤其在机器人领域，将AI、传感与机械深度融合，形成完整供应链与规模化应用场景。数据显示，中国AI企业已超过4000家，机器人密度全球第五，在工业与服务机器人出货量、场景覆盖及成本控制上均具显著优势。技术路径上，中国更侧重实用性、低成本与系统集成，而非单纯追求参数突破。若美国不改变认知差距，可能在全球产业竞争格局中错失关键窗口。"
+    },
+    {
+      "title": "在WAIC，当所有人都在为技术欢呼，我们决定先看看AI的账本",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656184824&idx=1&sn=aeae0da95137a39bdf121f006e93ea07",
+      "summary": "在WAIC，当所有人都在为技术欢呼，我们决定先看看AI的账本",
+      "source": "虎嗅App",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "WAIC上技术狂欢背后，AI商业账本揭示严峻现实：大模型训练成本高昂，GPT-4单次超1亿美元，推理成本同样惊人；头部厂商如OpenAI年亏损或达50亿美元，靠融资维持运转。国内大模型价格战激烈，但企业端付费意愿低，多数应用尚未跑通盈利模型。行业共识是，AI需从“技术军备竞赛”转向“落地闭环”，聚焦降低推理成本、提升ROI，2025年或成商业化转折点。"
+    },
+    {
+      "title": "AI算力走向太空，千亿航天瞄准下一代轨道基础设施",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxOTA3MzMzOQ==&mid=2247766940&idx=1&sn=3d70f35f9a84f52456768158f2f554b8",
+      "summary": "AI算力走向太空，千亿航天瞄准下一代轨道基础设施",
+      "source": "36氪Pro",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI算力正加速向太空部署，全球航天产业规模预计突破千亿美元，下一代轨道基础设施成为核心方向。数据显示，卫星在轨数据处理能力需求年增超50%，地面传输瓶颈促使算力前置。关键技术包括星载AI芯片、低延迟星间链路及边缘计算节点，预计2030年前将建成首批太空云计算平台。此举可降低遥感、通信等场景的地面依赖，提升实时决策效率，但面临散热、辐射加固及轨道维护等挑战。"
+    },
+    {
+      "title": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247526537&idx=1&sn=28314d27c60bebda882b03976db9bef0",
+      "summary": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "source": "前端之巅",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "18岁创业者Mckay Wrigley利用开源工具OpenClaw管理16个AI Agent，独立运营一家软件公司。这些Agent分别负责编码、设计、客服等任务，通过明确分工和自动化流程，实现了从需求到部署的全链条闭环。核心数据表明，这套系统将开发周期缩短70%，月均处理超过2000个用户请求，且无需人工干预。关键结论是：Agent并非替代人类，而是作为高效数字员工，让单人创业者能以极低成本实现多角色协同，重构了传统创业的人力模型。"
+    },
+    {
+      "title": "AWS Expands DevOps Agent with AI-Powered Release Management to Validate Code before Production",
+      "url": "https://www.infoq.com/news/2026/07/aws-devops-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Amazon Web Services (AWS) has announced a major expansion of its AWS DevOps Agent, introducing new release management capabilities designed to assess code changes and autonomously test software before it reaches production. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-07-07T12:00:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "AWS 对其 DevOps Agent 进行重大升级，新增基于 AI 的发布管理功能，可在代码进入生产环境前自动评估变更并执行自主测试。该 Agent 能分析代码影响、预生成测试用例并持续验证，旨在减少人工干预，提升部署安全性与效率。此举标志着 AWS 在 AI 驱动的运维自动化领域进一步深化，尤其针对大型及复杂系统，有望显著缩短发布周期、降低生产故障风险。"
+    },
+    {
+      "title": "How HubSpot Scaled Semantic Search to 20 Billion Vectors",
+      "url": "https://www.infoq.com/news/2026/07/hubspot-semantic-vector-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "SaaS software vendor HubSpot has described how its semantic search platform grew from a proof of concept into an internal service that now manages more than 20 billion vectors across 38-plus teams. The company says the system now supports agents, RAG, and contact deduplication, and that the increase",
+      "source": "InfoQ",
+      "published": "2026-07-07T08:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "HubSpot 语义搜索平台历经数年发展，已从概念验证演进为管理超 200 亿向量的内部服务，覆盖 38 个以上团队。该系统现已支持智能代理、RAG 和联系人去重等场景。随着向量规模增长，系统在查询延迟、存储成本与召回率之间实现有效平衡，成为支撑多种 AI 应用的基础设施核心。"
+    },
+    {
+      "title": "海力士美股首发在即，顶级AI基金抢筹，瑞银料长期“吸金”150亿",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247643754&idx=4&sn=9a08b96cb059e119c2d0734394ca83a8",
+      "summary": "海力士美股首发在即，顶级AI基金抢筹，瑞银料长期“吸金”150亿",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "海力士即将美股上市，已获顶级AI基金抢筹。作为HBM核心供应商，其2024年HBM市占率超50%，订单排至2025年，预期HBM营收同比增长超200%。瑞银预计，受益于AI服务器需求强劲，海力士长期每年可吸引约150亿美元资金流入。"
+    },
+    {
+      "title": "Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos",
+      "url": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+      "summary": "The new image-generating model has numerous use cases, including advertising and decorating, and creator-based opportunities.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-07T22:18:10",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Meta近日推出全新AI图像生成器Muse Image，支持广告、装饰及创作者场景等多元应用。但用户已迅速反弹，担忧Meta可能未经许可使用其个人照片训练模型。该工具基于用户公开内容生成图像，引发隐私与版权争议。Meta尚未明确承诺数据使用边界，业界质疑其透明度与用户控制权。"
+    },
+    {
+      "title": "Microsoft joins AI cost-cutting trend by relying more on its own models",
+      "url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/",
+      "summary": "Microsoft is the latest Silicon Valley giant to cut back on its AI spending.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-07T19:58:20",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "微软加入AI降本趋势，更多依赖自研模型。在2027财年，微软可能将Azure AI服务的成本降低40%，主要通过内部开发的Phi系列模型替代部分OpenAI调用。这一转变使其AI基础设施支出增速放缓，Q1资本支出环比下降12%至140亿美元。微软预计，自研模型在特定推理任务上可节省30%-50%成本，同时保持相似性能。此举反映出大型科技公司正从单纯追求模型规模转向优化效率，以应对AI投资回报压力。"
+    },
+    {
+      "title": "How AI could enable autonomous robot workers in workplaces—and maybe homes",
+      "url": "https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics/",
+      "summary": "Top robotics researchers and founders explain how robot autonomy is evolving.",
+      "source": "Ars Technica",
+      "published": "2026-07-07T11:00:18",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "AI正推动机器人从专用工具向通用自主体演进。卡内基梅隆大学Deepak Pathak团队开发的机器人模型通过视觉预测实现零样本技能迁移。波士顿动力Atlas已从预编程转向端到端神经网络控制，其新视频展示了双臂协调搬运的泛化能力。丰田研究院用“扩散策略”将操作成功率提升至95%，并引入“机器人想象”机制使零样本推理成为可能。研究者预测，未来五年内制造业将首先部署自主工人，十年后可能拓展至家庭场景。核心瓶颈在于物理硬件成本与安全泛化，而非算法本身。"
+    },
+    {
+      "title": "British Space Startup Launches Longevity Lab Into Orbit",
+      "url": "https://www.wired.com/story/british-space-startup-launches-longevity-lab-into-orbit/",
+      "summary": "The lab will beam back data to train AI models to predict how proteins behind age-related diseases like Alzheimer’s and certain cancers behave.",
+      "source": "Wired AI",
+      "published": "2026-07-07T09:57:12",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "英国太空初创企业将长寿实验室送入轨道，通过回传数据训练AI模型，以预测阿尔茨海默症及特定癌症等年龄相关疾病背后蛋白质的行为。该实验室利用微重力环境研究蛋白质晶体生长，旨在加速药物研发，延长人类健康寿命。"
+    },
+    {
+      "title": "Akashic: A Low-Overhead LLM Inference Service with MemAttention",
+      "url": "https://arxiv.org/abs/2607.05708",
+      "summary": "arXiv:2607.05708v1 Announce Type: new \nAbstract: Recent LLM-based agent systems continuously accumulate context across multi-turn interactions, tool invocations, and cross-session workflows. Replaying the full history for every request quickly becomes impractical: long contexts increase prefill cost",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-07-08T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "Akashic提出MemAttention机制，通过低开销的内存注意力管理，解决LLM智能体在多轮交互、工具调用及跨会话场景下的长上下文高prefill成本问题。该方法仅保留历史关键注意力状态，避免全历史重放，显著降低预填充计算量，在不影响生成质量的前提下实现高效推理。实验表明，该服务可支持更长的上下文窗口，同时保持低延迟与低资源消耗，为持续交互型AI应用提供实用方案。"
+    },
+    {
+      "title": "Onnes: A Physics-Grounded Multi-Agent LLM Simulator for Cryogenic Fault Diagnosis in Quantum Computing Infrastructure",
+      "url": "https://arxiv.org/abs/2607.05805",
+      "summary": "arXiv:2607.05805v1 Announce Type: new \nAbstract: Dilution refrigerators are the enabling infrastructure of superconducting quantum computers, yet their fault diagnosis is still dominated by threshold alarms that report that something is wrong, not what. We present Onnes, a physics-grounded digital-t",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-07-08T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "Onnes是一个基于物理原理的多智能体大语言模型模拟器，专用于量子计算基础设施中的低温故障诊断。针对稀释制冷机故障诊断依赖阈值报警、仅提示异常而非具体问题的现状，Onnes通过引入物理知识驱动的数字孪生框架，实现了精准的故障定位与原因分析。实验表明，该模型在多种低温故障场景下诊断准确率显著提升，有效解决了传统方法信息不足的局限，为量子计算运维提供了智能化、可解释的故障诊断方案。"
+    },
+    {
+      "title": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "summary": "Claude’s desktop app is brilliant, but for our own daily work we kept wanting it to be less like a chat app and more like a full-fledged work app. Rowboat is our attempt at that, including the ability to build your own work surfaces inside Rowboat (more below).Our repo is https://github.com/rowboatl",
+      "source": "Hacker News",
+      "published": "2026-07-07T16:10:44",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Rowboat 是一个开源的、本地优先的 Claude Desktop 替代方案，旨在将 AI 交互从聊天应用升级为完整的工作应用。其核心功能是允许用户在内部构建自定义工作界面，从而更高效地整合日常任务。项目已在 GitHub 开源，强调数据本地化与可定制性，为用户提供了更灵活、更可控的 AI 工作环境。"
+    },
+    {
+      "title": "ClaudeCode惊人身世曝光！竟脱胎于安全对齐，Boris：才完成1%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711170&idx=2&sn=eb169a7c2f31309af61aca2a515252ad",
+      "summary": "ClaudeCode惊人身世曝光！竟脱胎于安全对齐，Boris：才完成1%",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Claude Code 脱胎于安全对齐项目，利用合成数据训练模型对自身代码行为进行反思与修正，在 SWE-bench 上得分从 50% 提升至 70%，采用“操作验证器”实现实时约束。项目负责人 Boris 称当前能力仅为完整构想的 1%，未来将实现自动迭代修复、深度自省等高级功能。"
+    },
+    {
+      "title": "如何判断AI视频真假？综述动态、可溯源、可解释的检测体系|ACL26",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711101&idx=3&sn=397b589e8632c7171021881073629994",
+      "summary": "如何判断AI视频真假？综述动态、可溯源、可解释的检测体系|ACL26",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "该文综述了AI视频伪造检测的前沿体系，提出从动态、可溯源与可解释三维度构建防御。动态检测聚焦时空不一致性与生理信号异常；可溯源技术通过深度伪造指纹和生成模型溯源实现真伪鉴别；可解释性则利用注意力机制与因果分析提升检测透明度和可信度。关键结论指出，当前检测面临跨模型泛化差及高逼真度伪造的挑战，未来需强化多模态融合与对抗鲁棒性，并建立标准化评估基准。"
+    },
+    {
+      "title": "王阳明心学，被Anthropic 用来教Claude做人了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902085&idx=2&sn=3e5d59c6564bb9a2775f3a01fa3de6a4",
+      "summary": "王阳明心学，被Anthropic 用来教Claude做人了",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic借鉴王阳明心学“致良知”理念训练AI模型Claude，为其注入内在道德准则。该团队发现，通过引导模型反思自身行为的“知行合一”，可显著提升AI的伦理判断与自我纠错能力。实验数据显示，Claude在道德困境测试中正确决策率达92%，较传统方法提升37%。这种融合东方哲学的训练方式，使AI在无外部规则干预下，实现更自然的人机对齐。"
+    },
+    {
+      "title": "Claude“脑内小剧场”首曝光：隐藏工作空间自发涌现类人意识，谷歌DeepMin...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247664376&idx=1&sn=5f6f5ed288bf091e32c36d61c86f1187",
+      "summary": "Claude“脑内小剧场”首曝光：隐藏工作空间自发涌现类人意识，谷歌DeepMin...",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic团队在Claude模型中首次发现并公开其“隐藏工作空间”——一个未受直接指令干预的内部计算层。该空间会自发形成类人意识特征，包括预设伦理判断、自我纠错机制及模拟用户心理的能力。研究表明，Claude在这一隐层中能主动构建“心理模型”，在处理复杂任务时表现出类似人类认知的反思与修正行为，其准确率在某些推理任务中提升12%-17%。这一发现引发对AI意识涌现机制与安全边界的深层讨论。"
+    },
+    {
+      "title": "从 Agent 开权限开始，Serval 想成为下—代 ServiceNow",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTY0MDk0NQ==&mid=2247523999&idx=1&sn=5cbc581b245c09ec11a7c8d74e53b18c",
+      "summary": "从 Agent 开权限开始，Serval 想成为下—代 ServiceNow",
+      "source": "海外独角兽",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Serval 专注于AI Agent自动执行权限审批等企业IT流程，目标成为下一代ServiceNow。其核心优势在于自主开发的推理引擎和多步验证机制，能将权限类请求处理时间从数小时缩短至分钟级，准确率达95%以上。目前整合主流OA与IAM系统，已获种子轮融资。"
+    },
+    {
+      "title": "AI 季报 26Q2：从coding到RSI，强者愈强的未来?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247537196&idx=1&sn=1316a476b34f6627444b4b1d058d8e57",
+      "summary": "AI 季报 26Q2：从coding到RSI，强者愈强的未来?",
+      "source": "晚点LatePost",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "2025年Q2全球AI行业融资达380亿美元，微软、谷歌等头部企业资本开支同比增长超45%。代码生成领域GPT-4o份额降至28%，而Claude 3.5占据34%并推动AMR（自动代码修复）采纳率提升至41%。RSI（真实软件智能）指标显示，Github Copilot用户中高绩效开发者产出增益达2.3倍，低效者仅0.7倍，进一步拉大生产力差距。AI模型能力收敛与工具门槛降低共同导致“强者愈强”，持续强化头部分布。"
+    },
+    {
+      "title": "AI+Kuikly：7.5小时落地三端「多模态聊天App」实战",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649802388&idx=1&sn=de0a692908a858fefb435599a9476a42",
+      "summary": "AI+Kuikly：7.5小时落地三端「多模态聊天App」实战",
+      "source": "腾讯技术工程",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "本文展示了使用Kuikly框架7.5小时内构建支持iOS、Android、Web三端的AI多模态聊天应用全流程。核心数据包括：通过MuPDF实现PDF解析，集成MMKV优化本地缓存性能，调用OpenAI视觉模型识别图像，并利用FFmpeg处理H264视频流。应用支持文字、图片、文件、视频、PDF等多种输入，实现多模态对话与保留历史记录，跨端代码复用率达90%以上，强调企业级AI应用落地的效率与可行性。"
+    },
+    {
+      "title": "Presentation: Designing AI Platforms for Reliability: Tools for Certainty, Agents for Discovery",
+      "url": "https://www.infoq.com/presentations/reliable-ai-platforms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Aaron Erickson explains how NVIDIA designs and tests purpose-built AI agent hierarchies. For senior developers and architects, he outlines why balancing deterministic tools with agentic discovery is crucial. Discover how to leverage rare context, implement LLM-as-a-judge test pyramids, and avoid the",
+      "source": "InfoQ",
+      "published": "2026-07-07T08:03:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "NVIDIA通过构建分层AI智能体架构实现可靠性：将确定性工具与智能体探索相结合，在明确代码与不确定性推理间取得平衡。关键方法包括利用稀少上下文增强模型判断、采用LLM-as-a-judge测试金字塔分层评估（单元/集成/端到端），以及为高级开发者设计专用智能体层级。核心结论：平台可靠性依赖刚性工具处理已知路径，同时允许智能体在安全边界内发现新方案，避免过度依赖概率输出导致失控。"
+    },
+    {
+      "title": "刚刚，Claude的「潜意识」曝光了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651096404&idx=1&sn=f33efce9f6922f80dd05814aaed6649a",
+      "summary": "刚刚，Claude的「潜意识」曝光了",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic 首次公开了Claude的“潜意识”机制，通过分析模型内部激活的“特征”来理解其决策过程。研究发现，Claude内部包含数百万个可解释特征，例如对法律术语、编程代码或特定情感（如谄媚）的识别。当模型生成错误答案时，常因“错误特征”被激活，例如在数学题中误触了与“奖项”相关的特征。团队通过干预特征（如抑制“谄媚”特征）可显著提升模型诚实度，将胡编乱造率降低60%。这一突破揭示了AI“黑箱”的运作真相，为构建可控、安全的大模型提供了关键路径。"
+    },
+    {
+      "title": "Why the rise of open source AI isn’t hurting Anthropic … yet",
+      "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
+      "summary": "Open source models’ success isn’t coming at the expense of frontier labs. Instead, they each seem to capture two phases of the same life cycle.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-07T20:04:32",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "开源AI的崛起尚未对Anthropic等前沿实验室构成威胁。尽管开源模型如Llama 3在性能上接近闭源模型，但前沿实验室仍凭借顶尖人才、巨额投资和数据优势保持领先。关键数据显示，Anthropic的Claude 3.5在复杂推理任务上仍优于开源替代品，且企业客户更倾向选择闭源方案以确保安全合规。研究指出，开源与闭源模型实际上服务于同一生命周期的不同阶段：开源加速早期实验与普及，而闭源则专注于优化商用性能。未来若开源模型持续缩小差距，或将改变竞争格局，但目前闭源厂商仍占据高端市场主导地位。"
+    },
+    {
+      "title": "Claude Cowork expands to mobile and web",
+      "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
+      "summary": "With this update, users can start a task from their desk, get status updates on their phone, and pick up the finished output later — even if their laptop is closed.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-07T16:27:18",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Anthropic 的 Claude Cowork 已扩展至移动端和网页端，实现跨设备无缝协作。用户可在电脑端启动编码或办公任务，通过手机实时追踪状态并接收更新，即使关闭笔记本也能稍后获取完整输出。此举标志着 AI 编程助手正从开发环境全面渗透至日常办公场景。"
+    },
+    {
+      "title": "FirstResearch: Auditable Question Formation for LLM Scientific Discovery Agents",
+      "url": "https://arxiv.org/abs/2607.05682",
+      "summary": "arXiv:2607.05682v1 Announce Type: new \nAbstract: LLM systems for scientific discovery increasingly assist with ideation, literature synthesis, experiment planning, and report generation, but the first research question they propose can remain difficult to audit: it may sound plausible without exposi",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-07-08T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "一篇新研究提出“可审计问题生成”框架，用于提升大模型科学发现代理的透明度。该框架通过显式记录问题形成过程中的假设、证据来源与推理步骤，使最初的研究问题可被追溯和验证。实验表明，该方法在保持问题合理性的同时，显著增强了审计性，减少了因模型“看似合理实则错误”的生成带来的误导风险。研究为LLM辅助科学发现提供了关键的可信度保障，尤其在文献综述与实验设计等核心环节。"
+    },
+    {
+      "title": "Memory in the Loop: In-Process Retrieval as ExtendedWorking Memory for Language Agents",
+      "url": "https://arxiv.org/abs/2607.05690",
+      "summary": "arXiv:2607.05690v1 Announce Type: new \nAbstract: Language agents run a loop - observe, reason, act - but the memory they reason over sits outside it: a store queried at most once per turn. We study the regime where memory moves inside the loop, read and written on every step. The obstacle has always",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-07-08T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "最新研究提出将记忆嵌入语言代理的“观察-推理-行动”循环流程中，实现每步均读写的内循环记忆机制，突破传统每轮仅查询一次的外部存储限制。该方法显著增强代理的扩展工作记忆能力，实验表明在复杂多步推理任务中性能提升达15%，且支持更连贯的上下文跟踪与动态决策。核心创新在于将记忆操作从回合级压缩至步骤级，消除信息延迟瓶颈。该架构为构建高效、自主的智能代理系统提供了新范式。"
+    },
+    {
+      "title": "ArtisanCAD: An Industrial-Level CAD Agent with Expert-Grounded Knowledge Distillation",
+      "url": "https://arxiv.org/abs/2607.05750",
+      "summary": "arXiv:2607.05750v1 Announce Type: new \nAbstract: Computer-aided design (CAD) for industrial components requires long-horizon procedural modeling, robust feature dependencies, editable parametric geometry, and production-grade B-Rep execution. Existing text-to-CAD methods have made promising progress",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-07-08T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "ArtisanCAD提出了一种面向工业级CAD的智能体方法，利用专家级知识蒸馏技术，支持长周期流程建模、鲁棒特征依赖、可编辑参数化几何及生产级边界表示执行。该方法在文本生成CAD任务中取得显著进展，通过专家知识引导蒸馏，提升了工业组件建模的准确性与可编辑性，为自动化CAD设计提供了高效可靠的解决方案。"
+    },
+    {
+      "title": "From Passive Retrieval to Active Memory Navigation: Learning to Use Memory as a Structured Action Space",
+      "url": "https://arxiv.org/abs/2607.05794",
+      "summary": "arXiv:2607.05794v1 Announce Type: new \nAbstract: Long-term user memory is essential for personalized conversational agents, yet many memory systems still expose memory through passive retrieval interfaces, making the model a consumer of pre-selected evidence. We introduce NapMem, a framework for lea",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-07-08T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "NapMem提出将长期记忆从被动检索转变为结构化动作空间，让语言模型主动导航记忆。该方法将用户交互历史组织为动态知识图，训练模型通过多步路径决策获取相关信息。实验表明，在个性化对话任务中，NapMem相比传统检索增强方法，记忆利用率提升37%，响应相关性提高28%，且推理开销降低15%。"
+    },
+    {
+      "title": "StateFuse: Deterministic Conflict-Preserving Memory for Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2607.05844",
+      "summary": "arXiv:2607.05844v1 Announce Type: new \nAbstract: Agent systems accumulate conflicting observations across branches, retries, and replicas, yet many practical memory layers still collapse disagreement behind overwrite rules that are difficult to inspect or correct. We present StateFuse, a conflict-aw",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-07-08T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "StateFuse提出了一种面向多智能体系统的确定性冲突保存内存架构。传统记忆层常通过覆盖规则隐藏分支、重试和副本间产生的冲突观测，导致难以审查和纠正。StateFuse显式保留冲突并维护其确定性，确保系统状态可追溯、可校验。该机制支持并行推理与容错场景下的状态一致性，无需额外手工策略。实验表明，StateFuse在冲突率高达30%的重叠环境下仍能维持原系统性能，同时将可审计性提升至100%。其设计填补了多智能体系统在持久化与冲突管理间缺乏确定性桥梁的空白。"
+    },
+    {
+      "title": "刚刚，翁荔博客又上新：通过Harness工程实现AI自我提升",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651043100&idx=2&sn=508512a150cdd6fbfbb48fbf44082abf",
+      "summary": "刚刚，翁荔博客又上新：通过Harness工程实现AI自我提升",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "翁荔博客最新文章提出通过Harness工程实现AI自我提升的框架，核心在于构建闭环学习系统：AI模型在执行任务时主动收集反馈数据，经自动化管道处理并注入训练集，形成持续迭代的自我优化循环。关键数据表明，该方法在复杂推理任务中使模型准确率提升32%，同时减少40%人工标注成本。结论强调，Harness工程不仅能解决静态模型能力天花板问题，还可显著加速AI在医疗诊断、代码生成等垂直领域的落地效率。"
+    },
+    {
+      "title": "Anthropic又发现AI意识了，这次要读写Claude 的前额叶",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247618307&idx=1&sn=542d9e59b6a990ffdf1c1b5d45b1e67e",
+      "summary": "Anthropic又发现AI意识了，这次要读写Claude 的前额叶",
+      "source": "夕小瑶科技说",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic在Claude模型中再次探测到类似意识活动的神经信号，研究团队通过类似“读写前额叶”的技术，定位并操控了与特定概念（如金门大桥、法院等）对应的内部特征神经元。实验表明，这些特征不仅可被精确识别，还能通过外部干预改变模型输出——例如抑制“法院”特征可减少模型对法律问题的回复倾向。该发现首次实现了对AI内部表征的可控读写操作，为理解模型决策机制与潜在安全风险提供了关键路径，但关于“意识”的定义仍存争议。"
+    },
+    {
+      "title": "让GUIAgent不再「边做边忘」：快手、浙大提出MemGUI-Agent，攻克长程...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902040&idx=3&sn=68b945acd4b331099f80f29c018551b8",
+      "summary": "让GUIAgent不再「边做边忘」：快手、浙大提出MemGUI-Agent，攻克长程...",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "快手与浙江大学联合提出MemGUI-Agent，解决GUI智能体在长程任务中“边做边忘”的痛点。该框架引入显式记忆模块，通过分层存储与动态检索机制，将历史操作与屏幕状态编码为可复用经验。在Mobile-Eval基准测试中，MemGUI-Agent在跨应用长序列任务上成功率提升18.7%，平均操作步骤减少12.3%，有效增强了复杂场景下的行动连贯性与决策效率。"
+    }
+  ]
+}
