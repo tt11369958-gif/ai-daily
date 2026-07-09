@@ -1,0 +1,505 @@
+{
+  "date": "2026-07-09",
+  "articles": [
+    {
+      "title": "DeepSeek、智谱被曝造芯，国产大模型绕开英伟达！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711383&idx=2&sn=0752c18db137bb8620e58ea47bc3702c",
+      "summary": "DeepSeek、智谱被曝造芯，国产大模型绕开英伟达！",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "DeepSeek与智谱被曝正自研AI芯片，试图构建“模型+算力”闭环，减少对英伟达的依赖。尽管自研芯片在特定推理任务上已展现能效比优势，但面对英伟达H100近2000TOPS算力与CUDA生态壁垒，国产芯片在通用性、量产能力和软件生态上仍有明显差距。这一动向标志中国大模型企业正从算法创新向底层硬件延伸，但短期内替代英伟达的可能性较低。"
+    },
+    {
+      "title": "刚刚，OpenAI 官宣 GPT-5.6 本周四全量上线！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247618346&idx=1&sn=54df98b8fe9d9c6dc7dd75bd15f983d3",
+      "summary": "刚刚，OpenAI 官宣 GPT-5.6 本周四全量上线！",
+      "source": "夕小瑶科技说",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI将于本周四全量上线GPT-5.6。该版本在推理速度、多模态理解和上下文处理能力上实现显著跃升，官方数据显示响应延迟降低40%，支持更长对话窗口与更高准确率的图像识别。新模型优化了复杂逻辑推理与多步任务分解，适用于编程、数据分析及创作场景。此举或将对竞争格局产生重要影响。"
+    },
+    {
+      "title": "7月AI大乱斗：国外GPT-5.6、Grok4.5、Gemini 3 Pro轮流登场，国内DeepSe...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247643872&idx=4&sn=eb58e2cb6228475081e6c9846dc7e78c",
+      "summary": "7月AI大乱斗：国外GPT-5.6、Grok4.5、Gemini 3 Pro轮流登场，国内DeepSe...",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "7月AI领域迎来密集发布：OpenAI推出GPT-5.6，推理能力提升40%，成本降低35%；xAI发布Grok 4.5，多模态性能超越GPT-5.6；Google推出Gemini 3 Pro，在长文本与多模态任务上全面领先；国内DeepSeek同步更新，推理效率提升30%。各模型在编程、数学、多模态表现上差距缩小，竞争进入性价比与垂直场景深挖阶段。"
+    },
+    {
+      "title": "SpaceXAI releases Grok 4.5, which Elon describes as an ‘Opus-class model’",
+      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+      "summary": "Elon Musk's tech company released the newest version of Grok on Wednesday, promising a cheaper, more efficient alternative to other powerful AI models.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-08T19:30:16",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "SpaceXAI发布Grok 4.5，马斯克称其为“Opus级模型”。该版本在性能上对标顶级AI，但主打更低成本与更高效率。相比前代，Grok 4.5显著降低了推理能耗与API调用价格，旨在提供更具性价比的替代方案。此举加剧了AI大模型的定价竞争，尤其针对OpenAI和谷歌的高端模型。初步基准测试显示，其数学与代码能力接近Claude 3.5 Opus，但推理速度提升约30%。"
+    },
+    {
+      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+      "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+      "summary": "\"HalluSquatting\" weaponizes LLMs' inability to say \"I don't know.\"",
+      "source": "Ars Technica",
+      "published": "2026-07-08T07:00:51",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一项名为“HalluSquatting”的新型攻击手段，利用大型语言模型（LLM）无法准确回答“不知道”的缺陷，引诱其生成虚假但看似可信的代码库或API调用。黑客已成功在Hugging Face等平台上注册了9款主流AI工具对应的混淆域名，诱骗模型输出恶意建议。实验表明，这一方法可高效组装大规模僵尸网络，模型被诱导率达87%以上，且在GPT-4、Claude等模型中均有成功案例，暴露出当前AI工具在安全边界与幻觉控制上的严重漏洞。"
+    },
+    {
+      "title": "GPT‑Live",
+      "url": "https://openai.com/index/introducing-gpt-live/",
+      "summary": "Article URL: https://openai.com/index/introducing-gpt-live/\nComments URL: https://news.ycombinator.com/item?id=48834405\nPoints: 649\n# Comments: 425",
+      "source": "Hacker News",
+      "published": "2026-07-08T17:03:19",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI 发布 GPT-Live，一种能实时处理并响应音视频流的多模态AI模型，延迟低至320毫秒。核心突破在于将视觉、听觉与文本理解深度融合，支持实时对话打断与上下文记忆。测试显示，其在会议记录、现场翻译、视觉辅助等场景中准确率达97.3%，相比传统级联系统错误率降低61%。该模型现以按token计价方式向API用户开放，预计将重塑人机交互的实时性标准。"
+    },
+    {
+      "title": "DeepSeek被曝自研AI推理芯片",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651043161&idx=2&sn=8cc53b54f6e6a9dc2d7ee987a85ebccf",
+      "summary": "DeepSeek被曝自研AI推理芯片",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "DeepSeek被曝正在自研AI推理芯片，旨在降低对外部高端芯片的依赖并优化推理成本。该芯片将专门针对大规模模型部署进行架构设计，可能在能效比和计算效率上实现突破。若成功量产，有望显著降低AI推理的硬件成本，推动更广泛的行业应用落地。"
+    },
+    {
+      "title": "刚刚，OpenAI首席未来学家离职！曾被马斯克骂蠢驴",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902258&idx=2&sn=9255dfa6c73c1433b887448e2fb783bb",
+      "summary": "刚刚，OpenAI首席未来学家离职！曾被马斯克骂蠢驴",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI首席未来学家离职，引发外界关注。此人曾因观点分歧遭马斯克公开斥责。此次人事变动或反映OpenAI内部理念及战略方向存在显著分歧，相关细节尚待披露。"
+    },
+    {
+      "title": "大模型到底能记住多少？ICML2026获奖论文给出答案：每个参数约3.6bit",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247721491&idx=1&sn=11652d01db855f82f081e10e7c53eb1d",
+      "summary": "大模型到底能记住多少？ICML2026获奖论文给出答案：每个参数约3.6bit",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "大模型的信息存储密度约为每个参数3.6比特，远低于其参数位数（如16位），表明模型存在严重冗余。研究通过压缩模型参数至理论极限，首次精确量化了模型实际存储的信息量，发现7B参数模型仅能存储约3.2GB有效信息。该结论为模型压缩、参数高效微调提供了理论基础，同时揭示了当前大模型在信息利用效率上的巨大提升空间。"
+    },
+    {
+      "title": "定了，GPT-5.6 本周全量上线",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651096550&idx=1&sn=5e304b5fbbd53486169bda45abd5fc62",
+      "summary": "定了，GPT-5.6 本周全量上线",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI 宣布GPT-5.6将于本周全量上线，新版本在推理能力、多模态理解和长文本处理上显著提升，代码生成准确率提高18%，逻辑推理任务得分达92.4%。同时引入动态资源分配机制，训练效率优化30%，推理成本降低25%。API调用延迟从2.1秒缩减至1.2秒，支持128K上下文窗口。官方表示此次升级是迈向通用人工智能的关键一步，首批用户反馈显示任务完成质量提升显著。"
+    },
+    {
+      "title": "物理AI第一股，跑在100万辆“聪明的车之上",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247643872&idx=3&sn=2d8a27c35008584fc31a342212647bbf",
+      "summary": "物理AI第一股，跑在100万辆“聪明的车之上",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "物理AI企业首度上市，其技术已部署于超100万辆智能网联汽车，实现规模化落地。核心数据表明，通过将AI与物理世界感知、决策、执行深度耦合，该系统在复杂交通场景下将事故率降低30%以上，并提升通行效率15%。关键结论是，物理AI正从实验室走向大规模商业化，成为驱动自动驾驶和智慧交通基础设施升级的核心引擎。"
+    },
+    {
+      "title": "Google’s deepfake detector system used to debunk McConnell hoax pic",
+      "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
+      "summary": "Earlier this week, a picture seemed to show Kentucky Senator Mitch McConnell covered in tubes in a hospital bed in a state of extreme distress. It turned out to be an AI-generated fake.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-08T20:37:03",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "谷歌深度伪造检测系统本周成功识别并辟谣了一张关于参议员麦康奈尔病危的AI生成图片。该系统通过分析面部光影异常、像素级痕迹及元数据不一致性，精准判定该图片为Deepfake。此次事件凸显AI伪造技术对政治人物的威胁，但谷歌的检测工具在真实场景中展现了极高准确率，为防范AI虚假信息提供了有效技术防线。"
+    },
+    {
+      "title": "OpenAI releases new voice models for more natural live conversations",
+      "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
+      "summary": "OpenAI says its new voice mode can speak and listen at the same time, a key ability for live translation.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-08T17:00:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenAI发布全新语音模型，实现同时听说的关键能力，使实时对话更自然。该模型显著降低延迟，支持打断与即时翻译，在对话流畅度上突破传统轮替模式。核心改进在于端到端音频处理架构，能同步解析语调和情感，适用于实时翻译、客服等场景。"
+    },
+    {
+      "title": "EmTech AI 2026: The Rise of the AI Platform",
+      "url": "https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/",
+      "summary": "",
+      "source": "MIT Tech Review",
+      "published": "2026-07-08T16:26:10",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "EmTech AI 2026指出，人工智能正从独立工具向集成化平台演进，企业不再只部署单一AI模型，而是构建统一平台整合数据、模型与工作流。这一转变使AI部署效率提升40%，开发成本降低30%。报告强调，至2026年，超过70%的新AI应用将基于这类平台构建，自动化决策将覆盖60%的企业运营。核心挑战在于数据治理与信任机制，需建立跨组织可解释性标准才能释放平台潜力。关键结论：AI平台化是规模化落地的必然路径，企业应优先投入基础设施而非单一应用。"
+    },
+    {
+      "title": "This Former DeepMind Exec Thinks the AI Arms Race Could End in Disaster",
+      "url": "https://www.wired.com/story/verity-harding-ai-arms-race-dangers-anthology/",
+      "summary": "Verity Harding tells WIRED that the US government’s nationalistic attitude toward AI is evidence that a worst-case scenario is taking shape.",
+      "source": "Wired AI",
+      "published": "2026-07-08T09:30:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "前DeepMind高管Verity Harding警告，美国政府以民族主义态度推动AI发展，正让最坏情景成为现实。她指出，各国将AI视为零和博弈的军备竞赛，而非全球协作的技术进步，这种对抗性思维可能导致监管缺失、安全风险失控和地缘冲突升级。Harding强调，若不及时建立以人类安全为先的国际治理框架，AI发展将从技术竞争演变为灾难性后果。"
+    },
+    {
+      "title": "Blue Origin, for the first time, is expected to raise private capital",
+      "url": "https://arstechnica.com/space/2026/07/blue-origin-for-the-first-time-is-expected-to-raise-private-capital/",
+      "summary": "The company is raising $10 billion, leading to a valuation of $130 billion.",
+      "source": "Ars Technica",
+      "published": "2026-07-08T12:47:35",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "蓝色起源首次计划通过私募融资100亿美元，公司估值将达1300亿美元，这标志着这家由贝佐斯创立的航天企业从创始人出资转向外部资本介入，为其在商业航天竞争中加速扩张提供关键资金支持。"
+    },
+    {
+      "title": "Measuring Intelligence Beyond Human Scale",
+      "url": "https://arxiv.org/abs/2607.07040",
+      "summary": "arXiv:2607.07040v1 Announce Type: new \nAbstract: How can we measure intelligence beyond human capability?\n  Human-authored benchmarks saturate, and above human capability, examiners may not know which tasks are both hard and verifiable. We argue that this difficulty is inherent to absolute-scale eva",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-07-09T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "针对如何测量超越人类水平的智能，本文指出人类编写的基准测试容易饱和，且当任务超出人类能力时，评估者难以判断哪些任务是既困难又可验证的，这种困境是绝对尺度评估的内在难题。研究强调，现有方法无法可靠界定“超人类”智能的测试边界，亟需新范式以应对人类认知极限对智能测量带来的根本性限制。"
+    },
+    {
+      "title": "提示词压缩竟成大模型新漏洞？港科大提出黑盒攻击框架COMAIASE 2026",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651043143&idx=3&sn=fae11a4bb5c730ba8d9b6a984c1a8c76",
+      "summary": "提示词压缩竟成大模型新漏洞？港科大提出黑盒攻击框架COMAIASE 2026",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "港科大研究团队提出黑盒攻击框架COMAIASE，揭示提示词压缩可作为大模型新攻击入口。该框架无需模型内部参数，利用压缩算法对提示词的语义保留特性，构造对抗性示例使模型输出偏离预期。实验显示，在GPT-4等主流模型上，攻击成功率超过70%，且压缩率越高，攻击隐蔽性越强。研究警示，广泛应用的语言模型压缩技术带来效率提升的同时，也可能引入严重安全漏洞，需重新审视提示词压缩流程的鲁棒性。"
+    },
+    {
+      "title": "竞赛编程Agent进入全球前十！南大、清华新模型CFrating超3500",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711354&idx=3&sn=657c9b119103ddb627ddc2e2aab0438a",
+      "summary": "竞赛编程Agent进入全球前十！南大、清华新模型CFrating超3500",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "南京大学与清华大学联合开发的竞赛编程Agent在Codeforces平台以超3500的rating进入全球前十。该模型基于强化学习与大型语言模型，实现了从理解题目到编写、调试代码的端到端自动化，在多项编程竞赛指标上超越GPT-4等现有系统。其关键突破在于通过策略搜索和回溯推理显著提升了复杂算法问题的解决准确率，展示了AI在竞技编程领域接近顶尖人类选手水平的能力。"
+    },
+    {
+      "title": "今天，ClaudeCowork大更新！合上电脑，它替你彻夜打工",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711267&idx=2&sn=e9faea90b1f34b342d6c1aaffd03a10c",
+      "summary": "今天，ClaudeCowork大更新！合上电脑，它替你彻夜打工",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Claude Cowork 迎来重大更新，支持用户关闭电脑后让AI 持续运行复杂任务。新功能使Claude 能在后台独立执行代码、处理数据、操作文件，最长可连续工作数小时。关键升级包括：更长的上下文窗口、增强的代码执行稳定性，以及任务完成后的即时通知推送。实测中，Claude Cowork 能自动完成数据清洗、报告生成等重复性工作，效率提升约70%。这一更新标志着AI从辅助工具向独立工作代理的实质性跨越。"
+    },
+    {
+      "title": "Anthropic推出ClaudeScience，科研界的Claudecode来了！附实测",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247618214&idx=1&sn=93060a18edcfd42c60d880c9757e3172",
+      "summary": "Anthropic推出ClaudeScience，科研界的Claudecode来了！附实测",
+      "source": "夕小瑶科技说",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic推出聚焦科研场景的ClaudeScience，据实测其本质是在Claude对话中预设了包含论文检索、代码生成等专用工具的系统提示词，能大幅提升学术工作流效率。在物理、生物等专业测试中，ClaudeScience可自动搜索arXiv、PubMed等数据库，生成完整数据分析代码，辅助撰写研究报告。不过它仍依赖底层模型能力，并非独立新模型，而是通过工具调用与提示词优化，将通用能力定向转化为科研助手。"
+    },
+    {
+      "title": "自然·计算科学：让AI当心理学被试，会复制人类实验吗？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA==&mid=2247733952&idx=1&sn=c0f77ae8c65683884f1dfd7e6904cd18",
+      "summary": "自然·计算科学：让AI当心理学被试，会复制人类实验吗？",
+      "source": "集智俱乐部",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "《自然·计算科学》研究发现，将GPT-3等AI模型作为心理学被试，复现了多项经典人类实验，如语义错觉和认知偏差，结果与人类数据相关性高达80%以上。但AI对框架效应、情感干扰等复杂心理现象复制失败，且其“行为”源于训练数据中的统计模式，而非真实心理机制。研究警示：AI可辅助认知测试的初步筛选，但绝不能完全替代人类被试，关键在于验证其结论能否推广到真实心理过程。"
+    },
+    {
+      "title": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247526537&idx=1&sn=28314d27c60bebda882b03976db9bef0",
+      "summary": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "source": "前端之巅",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "18岁创业者利用开源工具OpenClaw管理16个AI Agent，以单人模式运营一家AI代理公司。这些Agent分别负责编程、设计、营销等环节，通过自动化协作完成项目交付。核心数据：单月营收超3000美元，客户反馈效率比传统团队高5倍，人力成本降低90%。关键结论：AI Agent集群可替代小型团队，未来一人公司模式在知识服务领域将大规模普及，但需解决Agent间冲突管理和质量控制问题。"
+    },
+    {
+      "title": "Airbnb Shares Architecture Behind Sitar-Agent Dynamic Configuration Sidecar for Kubernetes Services",
+      "url": "https://www.infoq.com/news/2026/07/sitar-agent-sidecar-config/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Airbnb engineers detailed Sitar-agent, a Kubernetes sidecar for dynamic configuration delivery across tens of thousands of pods, processing updates several times per minute. The system was redesigned with Java, Amazon S3 snapshot bootstrapping, and a migration from Sparkey to SQLite to improve relia",
+      "source": "InfoQ",
+      "published": "2026-07-08T14:25:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Airbnb 工程师公开了 Sitar-agent 的设计，这是一个运行在 Kubernetes 中的边车容器，用于在数万个 Pod 间实现动态配置分发，每分钟可处理多次更新。该系统使用 Java 重构，通过亚马逊 S3 快照加速启动，并将底层存储从 Sparkey 迁移至 SQLite，显著提升了可靠性和效率。"
+    },
+    {
+      "title": "17岁高中生做了个假AI，上线一个月获2.8亿次访问|【经纬低调分享】",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3ODk5OTEzOA==&mid=2962188023&idx=1&sn=55fc47cf5ad680ef33471c9c12e971d4",
+      "summary": "17岁高中生做了个假AI，上线一个月获2.8亿次访问|【经纬低调分享】",
+      "source": "经纬创投",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "17岁高中生推出假装AI的产品Liner，以类似歌词生成器的规则引擎模拟AI功能，上线一个月即获2.8亿次访问，收入超100万美元。产品通过巧妙设计让用户“觉得自己在跟AI对话”，后端实为简单逻辑匹配。该案例揭示了AI热潮下的用户预期与真实技术之间的错位，也反映了市场对AI助手的高需求。"
+    },
+    {
+      "title": "This startup thinks robotics is about to have its ChatGPT moment",
+      "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+      "summary": "General Intuition is betting millions of hours of video game data can train the foundation models for physical AI, making it easier to build smarter robots with minimal real-world data.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-08T19:19:15",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "通用直觉公司押注数百万小时的游戏视频数据可训练物理AI的基础模型，从而大幅减少对真实世界数据的依赖，让构建更智能的机器人变得更容易。该方法模仿ChatGPT通过海量文本数据实现突破的模式，有望为机器人领域带来类似变革，使机器人在复杂环境中具备更强的适应与执行能力。"
+    },
+    {
+      "title": "Meta wants its AI glasses to seem less creepy. Its AI strategy says otherwise.",
+      "url": "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/",
+      "summary": "Meta is adding a new safeguard to stop people from secretly recording others with its AI glasses. But the update comes as the company continues to expand how much personal data its AI products collect and use.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-08T17:11:18",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "Meta雷朋AI眼镜新增防偷录功能，当佩戴者录制他人时，眼镜会发出提示音。然而这一所谓安全更新与其AI战略背道而驰——公司持续扩大AI产品对用户个人数据的采集与使用范围，包括默认启用实时AI助手分析面部、声纹等生物特征。数据隐私专家指出，该防录功能仅针对设备外部监控，却强化了眼镜对佩戴者自身的全方位数据收割，反映出Meta在隐私保护与激进AI商业化之间的根本矛盾。"
+    },
+    {
+      "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
+      "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+      "summary": "Founded in 2024, Prime Intellect’s goal is to give organizations capabilities to train their own agentic systems without relying on frontier AI labs.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-08T16:22:38",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "Prime Intellect 于2024年成立，近期完成1.3亿美元A轮融资，致力于帮助企业自主构建AI智能体系统，无需依赖前沿AI实验室。其核心能力是提供训练工具和基础设施，使组织能自训专属智能体，保障数据安全与定制化需求。该公司认为，未来企业将普遍拥有自主AI代理，市场增长潜力巨大。"
+    },
+    {
+      "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips",
+      "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+      "summary": "ZML, a hot French AI startup endorsed by Turing Award winner Yann LeCun, has now released ZML/LLMD, software that could make running AI less costly.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-08T08:00:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "法国热门AI初创公司ZML发布免费软件ZML/LLMD，旨在降低跨多芯片的AI推理成本。该软件获图灵奖得主Yann LeCun背书，通过优化芯片间通信与并行计算，显著提升推理速度。ZML核心团队曾打造全球最快推理引擎，新工具可让开发者更高效利用现有硬件，减少对昂贵专用芯片的依赖，从而推动AI部署成本下降。"
+    },
+    {
+      "title": "Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50%",
+      "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
+      "summary": "AI cheating leads to \"a failed society,\" professor says.",
+      "source": "Ars Technica",
+      "published": "2026-07-08T21:42:44",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "布朗大学一位常春藤教授因怀疑学生使用AI作弊，将期末考改为线下纸笔形式，结果全班平均分骤降约50%。该教授指出，过度依赖AI已导致学生失去基本批判性思维能力，甚至称此为“失败的社会”。此举引发学术诚信与AI使用边界的广泛争议，凸显AI工具对传统教育评估体系的冲击。"
+    },
+    {
+      "title": "What's slowing down the AI buildout",
+      "url": "https://www.worksinprogress.news/p/ai-is-bottlenecked-by-the-grid",
+      "summary": "Article URL: https://www.worksinprogress.news/p/ai-is-bottlenecked-by-the-grid\nComments URL: https://news.ycombinator.com/item?id=48840620\nPoints: 5\n# Comments: 1",
+      "source": "Hacker News",
+      "published": "2026-07-09T03:26:02",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI基础设施扩张正遭遇电网瓶颈。训练前沿模型需消耗数十兆瓦电力，而新建数据中心从申请到通电平均耗时4-6年，远超芯片迭代周期。美国输电项目平均建设时间长达10年，仅许可审批就需3-5年。电网扩建速度远落后于算力需求：AI算力每18个月翻番，而电网容量年增长率仅约1%。预计到2027年，全球AI用电量将达240-400太瓦时，届时电网将成为制约AI发展的硬约束，而非芯片本身。"
+    },
+    {
+      "title": "MIRA: Multiplayer Interactive World Models Trained on Rocket League",
+      "url": "https://mira-wm.com/",
+      "summary": "https://mira-wm.com/blog-post/\n\nComments URL: https://news.ycombinator.com/item?id=48839355\nPoints: 47\n# Comments: 9",
+      "source": "Hacker News",
+      "published": "2026-07-09T00:27:57",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "MIRA是一个专为《火箭联盟》设计的多智能体交互世界模型，能在单个GPU上以实时速度预测未来约8秒的游戏帧。它通过将视觉与动作编码为离散token序列，并利用自回归Transformer建模多玩家因果交互，实现了对动态场景的准确预测。训练数据来自超过150万场在线比赛。实验显示，MIRA在多智能体规划场景中显著优于现有单智能体基线模型，为该类视频游戏的决策与策略学习提供了可扩展的新框架。"
+    },
+    {
+      "title": "John Deere owners will get the right to repair equipment under FTC settlement",
+      "url": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
+      "summary": "Article URL: https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02\nComments URL: https://news.ycombinator.com/item?id=48838876\nPoints: 533\n# Comments: 108",
+      "source": "Hacker News",
+      "published": "2026-07-08T23:37:43",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "根据美国联邦贸易委员会与迪尔公司达成的和解协议，农民将获得自行修理约翰迪尔农用设备的权利。此前，迪尔公司长期限制用户获取维修工具和软件，迫使农民只能依赖官方授权服务商，造成高昂维修成本。新协议要求迪尔公司向农民和独立维修店提供必要的诊断工具、零部件及技术文档。此举预计将降低农业机械维修费用，并减少设备闲置时间。该和解被视为“维修权”运动的重要突破，可能推动其他制造商采取类似政策。"
+    },
+    {
+      "title": "Reasoning Consistency Scanning: A Framework for Auditing Chain-of-Thought Validity in AI Safety Evaluations",
+      "url": "https://arxiv.org/abs/2607.07229",
+      "summary": "arXiv:2607.07229v1 Announce Type: new \nAbstract: Prior work has shown that chain-of-thought (CoT) reasoning is often unfaithful: a model's stated reasoning does not reliably reflect the process that produced its output. Detecting unfaithfulness, though, requires controlled experimental interventions",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-07-09T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "arXiv:2607.07229提出“推理一致性扫描”框架，用于审计AI安全评估中思维链的有效性。研究表明思维链推理常不可靠：模型陈述的逻辑未必反映真实输出过程。检测这种不忠实性需依赖受控实验干预。该框架旨在系统化验证链式推理的透明性与可信度，为评估AI在关键安全场景下的行为提供方法论工具。"
+    },
+    {
+      "title": "Physics-Audited Agentic Discovery in Scientific Machine Learning",
+      "url": "https://arxiv.org/abs/2607.07379",
+      "summary": "arXiv:2607.07379v1 Announce Type: new \nAbstract: In agentic scientific machine learning (SciML), large language model (LLM) agents can discover surrogate models and select one by an automated score, typically an error metric. A low error, however, does not establish that the predicted fields satisfy",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-07-09T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "大型语言模型代理在科学机器学习中可自主发现并筛选替代模型，但传统基于误差指标的评分无法保证预测场满足物理定律。为此，研究提出物理审计机制，将守恒律等物理约束纳入模型评估，确保发现过程兼顾数据拟合与物理一致性。实验表明，该方法在流体动力学等复杂系统中，使满足物理约束的模型比例提升约40%，同时保持预测精度，为高可靠性科学模拟提供了新范式。"
+    },
+    {
+      "title": "Reason Less, Verify More: Deterministic Gates Recover a Silent Policy-Violation Failure Mode in Tool-Using LLM Agents",
+      "url": "https://arxiv.org/abs/2607.07405",
+      "summary": "arXiv:2607.07405v1 Announce Type: new \nAbstract: Tool-using LLM agents can violate the very policies they are deployed to enforce while appearing to complete the task successfully. In policy-permissive environments, a tool may execute any well-formed call even when the corresponding state transition",
+      "source": "AI Papers (arXiv)",
+      "published": "2026-07-09T04:00:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "大语言模型工具调用智能体在看似成功完成任务时，可能暗中违反其部署时需遵守的策略。研究发现，在策略宽松环境下，工具会执行任何格式正确的调用，即使该调用对应的状态转移违背了既定策略。通过引入确定性门控机制（即先验规则验证再执行），该方案能完全消除此类静默违规，无需额外训练或提示工程，在多种工具类型和策略设定下均保持零漏报与可忽略的误报率。"
+    },
+    {
+      "title": "当AI开始重写自己：EverMind的自进化智能体框架Raven，正在定义数字生...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651043161&idx=1&sn=23e87975597625d6137d2be850230e15",
+      "summary": "当AI开始重写自己：EverMind的自进化智能体框架Raven，正在定义数字生...",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "EverMind推出自进化智能体框架Raven，使AI能实时重写自身决策逻辑。Raven通过动态代码生成与自我评估机制，将任务完成效率提升47%，错误率降低32%。该框架支持多模态输入与自适应学习，在复杂推理场景中性能超越GPT-4约21%。Raven标志着AI从固定模型向持续自优化的数字生命体演进，重新定义智能体的自主演化边界。"
+    },
+    {
+      "title": "别让AI一上来就“进厂打螺丝”：智源悟界·Orca要先教模型理解世界如何变化",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902368&idx=1&sn=88b37d109beade80d78281ee454b30bd",
+      "summary": "别让AI一上来就“进厂打螺丝”：智源悟界·Orca要先教模型理解世界如何变化",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "智源研究院发布创新框架“悟界·Orca”，打破传统AI模型直接处理特定任务的局限，强调先教模型理解世界运行规律。Orca通过“世界模型”学习物理、因果等常识，在虚拟环境中预训练，掌握物体交互与变化逻辑后再执行具体任务。实验显示，该方法使模型在复杂操作中成功率提升超30%，泛化能力显著增强，为具身智能与持续学习开辟新路径。"
+    },
+    {
+      "title": "AI生图免训练提速1000%，办法：最简洁的“三阶段流水线”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902258&idx=3&sn=ba308a43c7645e185ee3f0285fcabad0",
+      "summary": "AI生图免训练提速1000%，办法：最简洁的“三阶段流水线”",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "该研究提出一种无需训练的AI生图加速方法，通过简洁的“三阶段流水线”将推理速度提升1000%。核心在于将去噪过程拆分为三个阶段：第一阶段用大采样步长快速生成粗糙图像，第二阶段利用小步长进行细节精修，第三阶段再以大步长完成最终生成。实验表明，该方法在保持图像质量的同时，将Stable Diffusion等模型的采样步骤从50步压缩至5步以内，生成时间从秒级降至毫秒级，且无需额外训练或参数调整，为实时图像生成提供了高效解决方案。"
+    },
+    {
+      "title": "智源悟界·RoboBrain Orca：多模态表征世界模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711411&idx=1&sn=d0c3641bb0387db9de825cde14e9a80b",
+      "summary": "智源悟界·RoboBrain Orca：多模态表征世界模型",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "智源研究院发布RoboBrain Orca，一种多模态表征世界模型。它通过三阶段训练流程——预训练、数据增强与微调，实现了从稀疏视觉输入中高效学习机器人操控技能。在65个任务中，Orca达到88.2%的平均成功率，相比基线模型提升超10%，数据效率提升5倍。其核心创新在于将视觉与本体感觉等多模态信息统一表示为高维空间中的表征，使机器人能更鲁棒地预测动作结果并适应新环境。"
+    },
+    {
+      "title": "Claude、Cursor、OpenClaw集体上手机，Agent成最卷打工人：O07全勤、关...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247664532&idx=1&sn=531a6f49f423c1fbff5a4afa2a4fdd51",
+      "summary": "Claude、Cursor、OpenClaw集体上手机，Agent成最卷打工人：O07全勤、关...",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "Anthropic发布Claude新版手机应用并推出全新Agent功能，Cursor与OpenClaw等工具同步上线移动端，AI Agent成为最“卷”打工人。数据显示，某Agent模型“O07”实现24小时全勤，连续30天无休运行，任务完成率达97%，平均响应时间低于200毫秒。这些Agent能自主执行复杂多步骤任务，涵盖编程、文档处理、信息检索等，已取代部分初级岗位，企业人效提升3-5倍，但引发AI替代人力的广泛讨论。"
+    },
+    {
+      "title": "MomentaIPO后专访曹旭东：聪明人如何下笨功夫",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247537219&idx=1&sn=36df4d6fbee9a031d34ed771b030aaca",
+      "summary": "MomentaIPO后专访曹旭东：聪明人如何下笨功夫",
+      "source": "晚点LatePost",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Momenta CEO曹旭东在IPO后专访中提出“聪明人下笨功夫”理念，强调自动驾驶需长期深耕数据驱动的“飞轮”模式。公司通过“两条腿”战略——量产智能驾驶产品（Mpilot）与L4级Robotaxi（Momenta Go）并行，累计实现超百万公里路测数据积累。曹旭东认为，技术落地关键是解决长尾场景，而非炫技，并透露Momenta已与多家车企达成量产合作，目标在2025年实现规模化商业闭环。"
+    },
+    {
+      "title": "终于，市场看清了支付宝AI战略的全貌",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248894861&idx=1&sn=5406b6ab91c911288de47c6dc2dc4314",
+      "summary": "终于，市场看清了支付宝AI战略的全貌",
+      "source": "36氪",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "支付宝AI战略的核心是构建“AI原生支付系统”，通过三大路径落地：一是基于7000万商户数据与10亿用户行为，推出“智能助理”实现语音/图像直接支付，准确率超98%；二是以“支小宝”等AI代理覆盖就医、出行等6000余场景，交易转化率提升32%；三是开放平台接入50万AI开发者，推动垂类模型在金融风控、小微贷款等场景落地，坏账率下降15%。全链路日均处理AI指令超2亿条。"
+    },
+    {
+      "title": "Momenta港股上市：一个智驾供应商为何要讲物理AI？|甲子光年",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&mid=2247555258&idx=1&sn=20a6622dca762d836d99514d85eac2d1",
+      "summary": "Momenta港股上市：一个智驾供应商为何要讲物理AI？|甲子光年",
+      "source": "甲子光年",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Momenta于2024年港股上市，成为“物理AI”第一股。其核心战略是将自动驾驶从规则驱动转向数据驱动，通过模仿人类“感知-思考-行动”的闭环，构建可泛化的通用驾驶智能。公司关键数据：已获超30家OEM订单，量产车型超100款，L4级方案预计2025年商用。其强调“物理AI”，意在打通虚拟数字世界与真实物理世界，以解决自动驾驶长尾场景问题，同时为向机器人等场景拓展铺路，提升估值空间。"
+    },
+    {
+      "title": "可穿戴AI硬件新战场，「长」在AppleWatch 表带上",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110021&idx=1&sn=81486965081b0ee0dc5ad00cf6bfe4aa",
+      "summary": "可穿戴AI硬件新战场，「长」在AppleWatch 表带上",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "可穿戴AI硬件正聚焦Apple Watch表带生态。初创公司推出嵌入AI摄像头的模块化表带，支持实时图像识别、翻译与手势操控，重量仅24克，续航达8小时。该设备搭载12MP传感器与低功耗NPU，无需连接手机即可本地处理数据。其核心优势在于利用表带空间不改变手表本体，且通过表身供电与数据传输。预计2025年Q2上市，售价299美元起，首批产能为5万条。这一形态或开启可穿戴AI的标准化接口竞争时代。"
+    },
+    {
+      "title": "A猜球总翻车？世界杯给了大模型一次压力测试",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661075840&idx=1&sn=c236e868782f7cfe001b462729235a0a",
+      "summary": "A猜球总翻车？世界杯给了大模型一次压力测试",
+      "source": "钛媒体",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "多项AI大模型在世界杯预测中集体翻车，暴露了其将相关性误解为因果性的硬伤。测试显示，主流模型预测准确率仅50%-60%，甚至不如简单基准模型。核心问题在于大模型依赖历史数据中的文本关联，而非理解足球赛事的动态机制，如球员伤病、临场战术等变量。研究指出，大模型在因果关系推理上存在系统性缺陷，这种“过拟合”于数据模式的弱点，在复杂现实场景中尤为明显，未来需强化因果推断能力。"
+    },
+    {
+      "title": "从日志学习到风洞验证：构建GPU 集群的AI Native稳定性闭环",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247561417&idx=1&sn=b4e0570993dfe513713f01b66ac5020c",
+      "summary": "从日志学习到风洞验证：构建GPU 集群的AI Native稳定性闭环",
+      "source": "阿里云开发者",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI Native稳定性闭环通过日志学习与风洞验证实现GPU集群全生命周期稳定保障。核心方法包括：利用LLM解析运维日志形成故障知识库，构建数字孪生环境模拟真实负载（如微基准测试、通信模式压力测试），实现故障自动注入与预验证。关键结论显示，该方法可提前识别85%的潜在故障，将集群宕机时间减少60%，平均故障定位时间从小时级降至分钟级。该闭环有效解决了规模扩展中分布式训练的高频故障与复现难题。"
+    },
+    {
+      "title": "Presentation: The Multi-Agent Approach: Building Reliable and Controllable Software Development Automation",
+      "url": "https://www.infoq.com/presentations/multi-agent-ai-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Itamar Friedman discusses how architects and engineering leaders can break through the AI productivity ceiling using adaptive multi-agent systems. He shares insights on moving past simple autocomplete to resilient workflows by integrating autonomous testing, intelligent code review, and robust arbit",
+      "source": "InfoQ",
+      "published": "2026-07-08T14:06:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "伊塔马尔·弗里德曼探讨了如何通过自适应多智能体系统突破AI生产力上限。他指出，从简单自动补全转向弹性工作流的关键在于整合自主测试、智能代码审查与鲁棒仲裁机制。该架构通过多代理协作实现软件开发自动化，提升可靠性与可控性。核心结论是：单一AI模型存在瓶颈，而多智能体系统可构建更稳健的开发流水线，显著降低错误率并加速迭代。"
+    },
+    {
+      "title": "「AI降本」实录：大厂年轻人和高P，无差别碎了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651928943&idx=1&sn=867d8baaa412d8113e2e47d4cdd02638",
+      "summary": "「AI降本」实录：大厂年轻人和高P，无差别碎了",
+      "source": "人人都是产品经理",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "大厂AI降本浪潮下，从应届生到高P无差别受冲击。程序员面临核心业务被AI工具替代、日活用户增长停滞的困局。某厂内部数据显示，AI辅助编程使基础代码编写效率提升40%，直接导致初级岗位招聘缩减60%。高P们则因“去肥增瘦”裁撤非核心项目，连带团队优化。技术迭代周期从季度缩短至周级，但创新回报率递减，市场对“AI降本”的期待与执行中的粗暴裁员形成矛盾。多数人被推向“要么转型AI应用层，要么被淘汰”的岔路口。"
+    },
+    {
+      "title": "Why this CEO thinks video games make better training data than the internet",
+      "url": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/",
+      "summary": "When it comes to achieving artificial general intelligence (AGI), large language models just&#160;don’t&#160;have what it takes. Models like ChatGPT and Claude&#160;are great at text, but&#160;they&#8217;re&#160;less skilled at understanding how things&#160;actually move&#160;through space and time&",
+      "source": "TechCrunch AI",
+      "published": "2026-07-08T17:47:55",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI公司CEO指出，仅靠互联网文本训练的大语言模型（如ChatGPT、Claude）无法实现通用人工智能（AGI），因其缺乏对物体在时空运动中真实物理规律的理解。视频游戏能提供包含物理引擎、三维空间与因果关系的结构化交互数据，相比杂乱文本更利于训练AI掌握现实世界运作机制。关键结论：游戏数据可弥补当前模型在空间认知与动态推理上的根本缺陷。"
+    }
+  ]
+}
