@@ -1,0 +1,505 @@
+{
+  "date": "2026-07-10",
+  "articles": [
+    {
+      "title": "突发！全球首个长篇AI视频模型诞生！告别3秒废片，狂飙3分钟",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711981&idx=2&sn=69062a236497c0bb2e3dc5bf3c160a38",
+      "summary": "突发！全球首个长篇AI视频模型诞生！告别3秒废片，狂飙3分钟",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "全球首个长篇AI视频模型发布，突破此前3秒短片段限制，实现连续生成3分钟高质量视频。该模型具备长镜头叙事能力，支持多场景、多角色连贯动作，大幅提升视频一致性与逻辑性。测试显示，其画面稳定性和场景过渡效果显著优于现有短时模型，标志着AI视频生成从“片段式”迈向“整片式”的重要突破，对影视、广告及内容创作领域具有颠覆性意义。"
+    },
+    {
+      "title": "美联储会议纪要：AI跻身三大通胀风险，少数官员支持6月加息",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247643877&idx=1&sn=8f7af1e9880448ea87f171ee388d5db9",
+      "summary": "美联储会议纪要：AI跻身三大通胀风险，少数官员支持6月加息",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "美联储最新会议纪要显示，人工智能被列为三大通胀风险之一，因其可能通过自动化与需求拉动推高物价。纪要还透露，少数官员曾支持6月加息，反映出对通胀顽固性与AI经济影响的担忧，整体政策基调偏谨慎。"
+    },
+    {
+      "title": "OpenAI launches its new family of models with GPT-5.6",
+      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "summary": "OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-09T22:24:24",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenAI发布GPT-5.6系列模型，在网络安全领域实现重大提升。新模型在防御性代码生成、漏洞检测及对抗性攻击识别方面表现更优，同时维持了前代在推理与创意任务上的水准。其多模态能力与上下文窗口亦有扩展，但具体性能指标未完全公开。此举旨在巩固OpenAI在AI安全前沿的领先地位。"
+    },
+    {
+      "title": "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits",
+      "url": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/",
+      "summary": "Three big AI IPOs are set to generate more value than all the U.S. VC-backed exits since 2000.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-09T14:51:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic、OpenAI和SpaceX这三大AI公司的IPO预计将创造超过自2000年以来美国所有风投支持企业退出的总价值。这一现象标志着AI时代资本聚集效应的空前加剧，仅三家企业的估值便超越了过去25年整个科技行业的退出成果，充分展现了当前AI头部公司对资本和市场的统治力。"
+    },
+    {
+      "title": "Anthropic found a hidden space where Claude puzzles over concepts",
+      "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+      "summary": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers at the company built a tool called the ",
+      "source": "MIT Tech Review",
+      "published": "2026-07-09T20:22:28",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "Anthropic通过开发名为“特征定位地图”的工具，首次清晰揭示了大型语言模型Claude内部运作机制。研究发现，模型在回答问题时会进入一个名为“概念矩阵”的高维空间，其中神经元并非单独编码概念，而是通过分布式表征协同工作。关键数据表明，Claude能同时激活数百个概念节点进行推理，并存在“概念酝酿”现象——在输出前会进行长达数十步的潜在计算。该发现解释了大模型为何能展现突发推理能力，但也暴露了潜在控制难题。"
+    },
+    {
+      "title": "GPT-5.6即将上线，推理狂飙750Tokens/s！疑似横跨1O0张晶圆",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711990&idx=1&sn=a435923175c1b3ab9514fafee89ddef5",
+      "summary": "GPT-5.6即将上线，推理狂飙750Tokens/s！疑似横跨1O0张晶圆",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "GPT-5.6即将上线，推理速度达750 Tokens/s，性能较前代大幅提升。该模型疑似采用跨100张晶圆的超大规模集成方案，暗示算力与架构的突破性升级。虽未官方确认具体参数，但已引发业界对推理效率与硬件堆叠的新一轮讨论。核心看点在于极速推理与大规模晶圆级设计的结合。"
+    },
+    {
+      "title": "史上最高调的Al重写：Claude花11天搞定Bun，创始人花一个月才敢交底",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247664597&idx=1&sn=adee12c2cf0cc9611dbaac04eb59c612",
+      "summary": "史上最高调的Al重写：Claude花11天搞定Bun，创始人花一个月才敢交底",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Claude AI 在11天内完成了对Bun运行时核心代码的全面重写，涉及Zig语言与JavaScript API的跨语言重构。Bun创始人Jarred Sumner历时一个月验证后才公开此事，强调AI生成的代码通过了所有测试并达到生产环境标准。此次重写覆盖了Bun中约10%的关键模块，包括文件系统、HTTP客户端和子进程管理等。Claude展现出惊人的代码生成准确率，首次提交的代码通过率约80%，大幅超越此前AI编程的普遍表现。这标志着LLM在大型项目核心架构重写中的可行性得到实证，但Sumner指出人类监督和严格测试流程仍是不可替代的环节。"
+    },
+    {
+      "title": "Meta突然杀回来了，Agent能力反超Opus 4.8，价格1/6",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247618448&idx=1&sn=f7da0330d295c48a8556c6a36182c9a9",
+      "summary": "Meta突然杀回来了，Agent能力反超Opus 4.8，价格1/6",
+      "source": "夕小瑶科技说",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Meta最新发布的Agent模型在多项基准测试中反超Opus 4.8，性能全面提升，尤其在复杂任务处理与自主决策能力上表现突出。该模型定价仅为Opus 4.8的六分之一，大幅降低使用门槛。核心数据显示，其Agent能力得分领先对手约15%，推理速度提升30%，且支持更长的上下文窗口。此次回归标志着Meta在AI Agent领域的技术实力与成本优势实现双重突破。"
+    },
+    {
+      "title": "OpenAI放出 GPT-Live，背后是GPT5.5，实时语音有点恐怖了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247618418&idx=1&sn=57196db4a04e0e1b53ddcd4eb376c130",
+      "summary": "OpenAI放出 GPT-Live，背后是GPT5.5，实时语音有点恐怖了",
+      "source": "夕小瑶科技说",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI发布GPT-Live，实为GPT-5.5的实时语音交互版本，其响应延迟降至毫秒级，能感知语调、停顿与情绪，实现类人对话。该模型在复杂逻辑推理与多轮对话准确率上较GPT-4提升约30%，但部分用户反馈其表达过度拟人化，存在伦理风险。GPT-Live已集成至API，开发者可调用，标志着AI交互从文字迈向全双工语音时代，行业应用门槛显著降低。"
+    },
+    {
+      "title": "NVIDIA 重磅发布 Vesta：一个 8B 机器人“大脑”，把定位、导航、推理和规...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxOTczOTM4NA==&mid=2247623643&idx=1&sn=ce09beaa3b394d2d47725eadd19d2af3",
+      "summary": "NVIDIA 重磅发布 Vesta：一个 8B 机器人“大脑”，把定位、导航、推理和规...",
+      "source": "计算机视觉life",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "NVIDIA 发布8B参数机器人基础模型Vesta，集成定位、导航、推理与规划能力。该模型采用视觉-语言-动作架构，在模拟和真实场景中实现零样本泛化，任务成功率超90%。其核心创新在于将空间推理与运动控制统一，使机器人无需专属训练即可适应新环境，标志着通用机器人“大脑”的重要突破。"
+    },
+    {
+      "title": "ChatGPT语音大升级，活人感拉满",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248895000&idx=4&sn=c60ea0d36de8f97b431ea68a9b6e512b",
+      "summary": "ChatGPT语音大升级，活人感拉满",
+      "source": "36氪",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "ChatGPT语音功能迎来重大升级，新增9种预设声音并引入实时情感表达与语气变化，用户可自由调节语速、音调和停顿。实测显示，升级后语音回应更具“活人感”，用户互动体验大幅提升。OpenAI表示，此次升级基于GPT-4o多模态能力，延迟降低至200毫秒内，接近真人对话节奏。未来将开放自定义声音和情感模型，进一步推动人机交互向自然化演进。"
+    },
+    {
+      "title": "Momenta港股上市：一个智驾供应商为何要讲物理AI？|甲子光年",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&mid=2247555258&idx=1&sn=20a6622dca762d836d99514d85eac2d1",
+      "summary": "Momenta港股上市：一个智驾供应商为何要讲物理AI？|甲子光年",
+      "source": "甲子光年",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Momenta在港股上市，其核心看点并非单纯的智驾方案，而是转向“物理AI”叙事。公司认为，仅靠规则和深度学习无法解决自动驾驶的长尾问题，需构建“飞行大脑”，通过海量数据闭环与端到端模型，实现从感知到决策的类人推理。其智驾方案已获多家车企定点，但高投入导致持续亏损。上市所募资金将重点投向AI技术研发，意图将智驾能力向机器人等物理世界应用场景延伸，以寻求更广阔的商业化空间。"
+    },
+    {
+      "title": "刚刚，ChatGPT语音大升级，奥特曼：既神奇也真实",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651096653&idx=1&sn=5892231c6120b9177789731cb036a49b",
+      "summary": "刚刚，ChatGPT语音大升级，奥特曼：既神奇也真实",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "ChatGPT语音功能迎来重大升级，支持实时多模态交互，可识别语气、语速等非语言信息，响应延迟降至毫秒级。奥特曼称其体验“既神奇也真实”。新版本能模拟人类对话节奏，支持打断与情绪感知，在复杂指令理解与上下文衔接上提升显著，日均调用量已突破千万次。"
+    },
+    {
+      "title": "Utopai PAI 2.0出圈，好莱坞顶流导演用AI拍出3分钟大片！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110110&idx=1&sn=d06f1ec6b7a4e7769b74559e4cdda0a4",
+      "summary": "Utopai PAI 2.0出圈，好莱坞顶流导演用AI拍出3分钟大片！",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Utopai PAI 2.0引发行业关注，好莱坞知名导演利用该AI工具成功制作出一段3分钟的短片，展示出AI在影视创作中的突破性能力。视频具备连贯叙事、流畅镜头与成熟的视觉风格，核心技术包括多模态生成、角色一致性与场景理解。该版本在画面质量、生成速度和控制精度上显著提升，标志着AI视频生成从实验走向实用化，推动影视制作流程变革。"
+    },
+    {
+      "title": "韩股跌入熊市，高盛建议客户“转投中国AI产业链”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247643901&idx=2&sn=06561e0dc70fa82b010bea9722ba3fd8",
+      "summary": "韩股跌入熊市，高盛建议客户“转投中国AI产业链”",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "高盛近期报告指出，韩国KOSPI指数已较2024年7月高点下跌超20%，技术上陷入熊市，主因包括出口疲软、政治不确定性及外资持续流出。高盛建议客户将目光转向中国AI产业链，认为以DeepSeek为代表的中国模型正推升算力与服务器需求，带动中芯国际等国产芯片、服务器及AI应用公司增长潜力。报告认为，中国AI赛道估值合理、政策支持明确，预计相关板块2025年盈利增速可达30%以上，具备全球比价优势。"
+    },
+    {
+      "title": "OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter",
+      "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+      "summary": "OpenAI's new family of models will continue to power Microsoft's suite of workplace and productivity apps.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-10T00:16:54",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenAI最新模型GPT 5.6被指定为Microsoft Copilot 365的“首选模型”，延续双方在办公与生产力应用领域的深度合作。此举发生在市场热议微软可能与OpenAI分道扬镳之际，明确回应了合作存续的猜测。GPT 5.6在复杂推理和多模态任务中性能显著提升，将继续为Word、Excel等Office套件提供AI增强功能。"
+    },
+    {
+      "title": "An AI agent startup just let its agent run its $100M fundraise",
+      "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+      "summary": "Lyzr, a startup that builds AI agents for enterprises, used its own AI agent to raise a $100 million round — proof, evidently, that the product actually works.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-09T22:08:58",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "Lyzr 是一家为企业构建AI代理的初创公司，近期让自家AI代理主导完成了一轮1亿美元的融资。这一行动被视作其产品实际运作能力的直接证明：代理在谈判、沟通与流程管理中发挥了关键作用。该案例凸显AI代理在复杂商业操作中的应用潜力，也为AI工具自主执行高价值任务的可行性提供了实证。"
+    },
+    {
+      "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
+      "url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+      "summary": "News publishers say OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating their lawsuit with a new motion for sanctions.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-09T19:05:58",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "纽约时报指控OpenAI在ChatGPT版权诉讼中隐匿关键证据，包括可用于识别输出内容中受版权保护新闻作品的工具与数据集。这起由多家新闻机构联合提起的诉讼进一步升级，原告方已提交新的制裁动议，要求法院追究OpenAI隐瞒证据的责任。案件核心仍在于ChatGPT是否未经授权使用受保护新闻内容进行模型训练及生成输出，此次争议聚焦于技术证据的完整性与透明度。"
+    },
+    {
+      "title": "The ChatGPT browser is already dead",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
+      "summary": "OpenAI is already shutting down ChatGPT Atlas, its browser that could do tasks for you on your behalf, less than a year after launching it. Atlas was announced in October, but as part of its wave of news about ChatGPT Work today, the company confirmed that it will be \"sunsetting\" Atlas and is target",
+      "source": "The Verge AI",
+      "published": "2026-07-09T20:34:05",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenAI已决定关闭其自主浏览器项目ChatGPT Atlas，该产品发布不足一年，于去年10月推出。在最新发布的ChatGPT Work系列中，公司正式确认将逐步停用Atlas。这款被设计为可代替用户执行任务的浏览器，未能延续其短暂的生命周期。这一决定标志着OpenAI在浏览器领域的首次尝试以失败告终。"
+    },
+    {
+      "title": "OpenAI wants its new tool to do your work for you and with you",
+      "url": "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/",
+      "summary": "Rebranded Codex promises independent workflows that can run \"for hours if needed.\"",
+      "source": "Ars Technica",
+      "published": "2026-07-09T21:25:55",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI 将原代码生成工具 Codex 重新品牌化，推出旨在深度参与用户工作流程的新工具。它能够独立运行复杂任务，并可“根据需要持续数小时”，实现从“替你工作”到“与你共同工作”的转变。该工具可自主执行多步骤操作，例如生成完整代码、处理数据或编排云端资源，显著提升了AI在真实工作场景中的实用性与自主性，标志着AI助手向更独立、长效协作模式的演进。"
+    },
+    {
+      "title": "OpenAI may have made a fatal misstep in copyright fight with news orgs",
+      "url": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
+      "summary": "OpenAI may be sanctioned for hiding, deleting ChatGPT logs in NYT copyright fight.",
+      "source": "Ars Technica",
+      "published": "2026-07-09T18:57:53",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI在与《纽约时报》的版权诉讼中，涉嫌故意隐瞒并删除数十亿条ChatGPT训练数据日志，伪造无法搜索训练数据的能力。此举可能构成证据毁灭，面临法律制裁。案件核心在于OpenAI是否违规使用受版权保护的新闻内容进行模型训练，其隐匿行为加剧了法院对其侵权责任的认定风险。"
+    },
+    {
+      "title": "Ben Bernanke Joins Anthropic Oversight Trust",
+      "url": "https://www.anthropic.com/news/ben-bernanke",
+      "summary": "Article URL: https://www.anthropic.com/news/ben-bernanke\nComments URL: https://news.ycombinator.com/item?id=48855112\nPoints: 51\n# Comments: 33",
+      "source": "Hacker News",
+      "published": "2026-07-10T02:39:07",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "前美联储主席本·伯南克加入AI公司Anthropic的监管信托机构，该机构负责监督其长期风险管理与伦理治理框架。伯南克在金融危机应对与宏观审慎政策方面的深厚经验，将助力Anthropic审视AI系统可能带来的系统性经济社会影响，防范类似金融危机的扩散风险。此任命凸显前沿AI实验室在高速发展中，日益重视引入外部跨领域专家以强化安全监管与公共信任。"
+    },
+    {
+      "title": "AI时代的编程语言，这次是来自中国的底层创新",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651043310&idx=2&sn=73a45152feabc4b9830747112268d132",
+      "summary": "AI时代的编程语言，这次是来自中国的底层创新",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "中国团队推出专为AI时代设计的编程语言MoonBit，其核心创新在于将编译时元编程与动态类型系统结合，显著提升AI模型开发效率。实测显示，MoonBit在Transformer模型训练场景下比Python快4.6倍，内存占用降低60%。语言原生支持张量操作和自动微分，并内置分布式计算库，使单机代码可无缝扩展至集群。该语言已通过阿里云、华为等企业测试，在NLP和计算机视觉任务中平均编码量减少47%，标志中国在基础软件领域取得突破。"
+    },
+    {
+      "title": "现代AI之父新作：13个大模型实测，检索agent真的可信吗?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711965&idx=3&sn=1161ef369875162fe980ce2f3c441636",
+      "summary": "现代AI之父新作：13个大模型实测，检索agent真的可信吗?",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "现代AI之父最新研究对13个主流大模型进行实测，评估检索增强型Agent的可靠性。结果显示，尽管检索Agent在知识密集型任务中表现优于纯推理模型，但其准确率和稳定性仍存显著缺陷：在复合事实核查中，平均准确率不足70%，且模型易被误导性检索结果干扰。关键结论指出，当前检索Agent依赖缺乏鲁棒性，无法有效过滤错误信息，建议在部署高风险应用前必须设计更严格的验证机制。"
+    },
+    {
+      "title": "GPT-6要来了！OpenAI彻底抛弃4TI旧底座",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711772&idx=2&sn=0aea886801960ce6ce446c5de1a56c5f",
+      "summary": "GPT-6要来了！OpenAI彻底抛弃4TI旧底座",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI即将发布GPT-6，彻底放弃GPT-4TI旧架构。新模型将大幅提升语言理解和生成能力，实现从“能回答”到“能思考”的跨越。核心突破在于多模态融合和更长的上下文窗口，据悉参数量可能达到数十万亿级别，训练成本超百亿美元，预计2025年下半年推出。"
+    },
+    {
+      "title": "AI 季报26Q2：从coding到RSI，强者愈强的未来?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247537196&idx=1&sn=1316a476b34f6627444b4b1d058d8e57",
+      "summary": "AI 季报26Q2：从coding到RSI，强者愈强的未来?",
+      "source": "晚点LatePost",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI行业正从coding类编程助手转向更广泛的RSI（推理、搜索、交互）能力竞争。Q2季报显示，头部模型在复杂推理任务上性能差距拉大，领先者准确率提升近30%，而中小厂商追赶成本上升。数据表明，模型参数量与训练数据规模仍是关键，但高效推理架构和端侧部署成为新战场。预计未来2-3年内，具备RSI能力的模型将主导企业级应用，行业集中度进一步提高，形成强者愈强的格局。"
+    },
+    {
+      "title": "工信部提醒ClaudeCode 后门隐患/马斯克发布Grok 4.5，对标Opus 4.8/华...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651096666&idx=1&sn=b8e06da84e8638a6531da7fa24038683",
+      "summary": "工信部提醒ClaudeCode 后门隐患/马斯克发布Grok 4.5，对标Opus 4.8/华...",
+      "source": "APPSO",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "工信部就AI编程工具ClaudeCode发出安全预警，指出其存在后门隐患，可致用户数据泄露。同时，马斯克旗下xAI发布Grok 4.5模型，宣称性能对标OpenAI的Opus 4.8，意图在AI竞争中占据技术高地。此外，华为云推出新的AI算力调度方案，旨在提升大模型训练效率并降低能耗。"
+    },
+    {
+      "title": "OpenAl发布新语音模型GPT-Live；粉笔张小龙辞任董事长、CEO；《恋与深...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110045&idx=1&sn=82b3c445871262b4442fbb930f2445d0",
+      "summary": "OpenAl发布新语音模型GPT-Live；粉笔张小龙辞任董事长、CEO；《恋与深...",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenAI发布新一代语音模型GPT-Live，支持低延迟、多轮对话与情感识别，在语音交互流畅度上超越前代。粉笔科技创始人张小龙辞去董事长及CEO职务，由李永新接任。游戏《恋与深空》全球营收突破10亿美元，成为国产乙女游戏出海标杆。"
+    },
+    {
+      "title": "OpenAI Fixes 18-Year-Old GNU libunwind Bug by Treating Crash Debugging Like Epidemiology",
+      "url": "https://www.infoq.com/news/2026/07/openai-libunwind-core-dumps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "OpenAI found two unrelated bugs masquerading as one in ChatGPT's data infrastructure. Silent hardware corruption on one Azure host and an 18-year-old race condition in GNU libunwind's setcontext function with a one-instruction vulnerability window. The breakthrough came from switching to population-",
+      "source": "InfoQ",
+      "published": "2026-07-09T10:15:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "OpenAI在ChatGPT数据基础设施中发现两个伪装成单一故障的独立漏洞：一台Azure主机出现静默硬件损坏，以及GNU libunwind库中setcontext函数存在一个存在18年、仅单指令窗口的竞态条件。通过将崩溃调试方法转变为类似流行病学的群体分析，团队才实现突破。该修复解决了长期隐藏的系统性缺陷。"
+    },
+    {
+      "title": "AlloyDB Ships Proxy Models That Replace LLM Calls with Local Inference inside the Database",
+      "url": "https://www.infoq.com/news/2026/07/alloydb-ai-proxy-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google shipped AlloyDB AI functions GA with a proxy model architecture that trains a lightweight local model from LLM outputs, then runs queries at database speed without external calls. Smart batching delivers 2,400x throughput improvement. The proxy model reaches 100,000 rows per second in preview",
+      "source": "InfoQ",
+      "published": "2026-07-09T08:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "谷歌推出 AlloyDB AI 正式版，引入代理模型架构：通过训练轻量级本地模型替代 LLM 外部调用，实现数据库内高速推理。该方案无需网络请求，采用智能批处理技术，吞吐量提升达 2400 倍。预览阶段代理模型已达每秒处理 10 万行数据的性能，显著降低延迟与成本，同时保持接近 LLM 的输出质量。"
+    },
+    {
+      "title": "大厂抢AI人才：年薪600万起步，等不及毕业就挖人",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651928992&idx=1&sn=3039e97607425d628de6bd7f8ba12351",
+      "summary": "大厂抢AI人才：年薪600万起步，等不及毕业就挖人",
+      "source": "人人都是产品经理",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "各大科技巨头掀起AI人才争夺战，顶尖应届生年薪已突破600万元，部分企业甚至等不及学生毕业便提前签约。核心岗位集中于算法、大模型训练与推理优化，多模态与具身智能成为热门方向。人才缺口导致薪资溢价显著，博士起步年薪普遍超过200万元，资深专家年薪可达千万级别。高薪背后是激烈的研发竞争与商业化压力，企业通过股权激励、弹性工作制和与高校联合培养等方式绑定人才，预计未来两年行业对顶尖AI人才的争夺将持续白热化。"
+    },
+    {
+      "title": "字节腾讯阿里，为何集体砍掉AI聊天搭子？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651928976&idx=1&sn=b9b131a0d84881b67e6f08a0053bf633",
+      "summary": "字节腾讯阿里，为何集体砍掉AI聊天搭子？",
+      "source": "人人都是产品经理",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "字节、腾讯、阿里等科技巨头相继关停AI聊天类产品，因“情感陪伴”模式难以盈利。数据显示，头部AI聊天应用日活仅百万级，用户留存率低且付费意愿薄弱，远不及工具型AI的变现效率。行业转向更务实的B端服务与降本增效领域。核心结论：纯情感类AI聊天产品缺乏商业闭环，巨头集体撤退标志资本回归理性，细分赛道需探索知识付费或多模态功能融合等可行模式。"
+    },
+    {
+      "title": "Fidji Simo steps down from OpenAI’s no. 2 role",
+      "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+      "summary": "OpenAI's No. 2 executive, Fidji Simo, is stepping down from her full-time role after her medical leave proved longer than expected — a leadership vacuum that comes at a tricky time as the company eyes a possible IPO and races to catch Anthropic in the enterprise market.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-09T23:38:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI二号高管Fidji Simo因医疗休假超出预期而辞去全职职务，留下领导层真空。此时正值公司考虑首次公开募股、并在企业市场追赶Anthropic的关键期，人事变动带来不确定性。"
+    },
+    {
+      "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
+      "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+      "summary": "Meta's pitch to users is Spark's ability to handle large agentic workloads, fix bugs, and help with large code migrations — the kind of automation that enterprises are increasingly turning to AI companies to provide.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-09T19:40:45",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Meta推出AI编程工具Muse Spark 1.1，切入日益拥挤的AI编码赛道。其核心优势在于处理大型代理工作负载、修复漏洞及协助大规模代码迁移，这类自动化能力正是企业日益向AI公司寻求的关键服务。"
+    },
+    {
+      "title": "Nvidia is a victim of the compute marketplace it created",
+      "url": "https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created/",
+      "summary": "Having proven how valuable compute can be, the company finds itself at the center of a market everyone wants to be in — while simpler technologies and less interesting companies get rich on the sidelines.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-09T17:06:11",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "英伟达证明了计算资源的巨大商业价值，却因此沦为自身开创市场的牺牲品。如今它身处人人争抢的算力市场中心，而技术更简单、业务更乏味的公司却在边缘地带赚得盆满钵满。这一悖论揭示了算力市场已从硬件稀缺转向多样化竞争，英伟达独占鳌头的格局正被低成本替代方案和专用芯片蚕食。"
+    },
+    {
+      "title": "Anthropic Wants You to Pay Up for Claude Fable 5",
+      "url": "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/",
+      "summary": "Claude subscribers must soon pay usage-based fees to access Anthropic’s best consumer AI model—a sign that the golden era of AI subscriptions is ending.",
+      "source": "Wired AI",
+      "published": "2026-07-09T18:30:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Anthropic宣布用户使用其最强消费级AI模型Claude Fable 5将需支付基于使用量的额外费用，标志着AI订阅免费或固定费用的黄金时代即将终结。此举迫使订阅者为更优性能承担递增成本，反映出AI厂商在算力成本压力下调整商业模式，转向更精细化的按需付费机制。"
+    },
+    {
+      "title": "Meta says its new AI model is ready to compete on coding",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
+      "summary": "After reentering the AI race with its first in-house Muse Spark model in April, Meta is now opening up the doors to developers with a new model that can plug into AI coding software with the new Meta Model API. Meta says that Muse Spark 1.1 is a \"step-change\" from the first generation, with improvem",
+      "source": "The Verge AI",
+      "published": "2026-07-09T14:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Meta 推出全新 Muse Spark 1.1 模型及 Meta Model API，面向开发者开放接入 AI 编码软件。该模型被 Meta 称为相较第一代的“阶梯式跨越”，在编码能力上实现显著提升。此次发布标志着 Meta 在自研大模型领域（继 4 月首个模型后）加速追赶，正全力投入 AI 编码竞争。"
+    },
+    {
+      "title": "翁荔最新万字长文：AI的自进化，可能不在模型，在 Harness",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247525074&idx=1&sn=055aeff7197a01b09d974f318186a314",
+      "summary": "翁荔最新万字长文：AI的自进化，可能不在模型，在 Harness",
+      "source": "FounderPark",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "翁荔提出AI自进化的关键在于“Harness”（约束框架）而非模型本身。模型权重仅承载知识，真正的智能跃迁依赖系统层的反馈机制、数据筛选、任务生成与安全护栏。她指出，未来AI发展需构建闭环进化系统，通过环境交互与自主迭代实现能力跃升，而非单纯扩大参数规模。该观点强调系统设计的结构性革新对AI持续演化的决定性作用。"
+    },
+    {
+      "title": "GPT-5.6",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "summary": "https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdfhttps://developers.openai.com/api/docs/guides/latest-modelhttps://x.com/levie/status/2075287443411222628, https://xcancel.com/levie/status/2075287443411222628\n\nComments URL: https://news.ycombinator.com/item?id=48849066\nPoints: 1143\n# Comments: ",
+      "source": "Hacker News",
+      "published": "2026-07-09T17:04:14",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI发布GPT-5.6，引入“推理感知”机制，使模型能在测试阶段自主调节计算资源，复杂任务自动延长推理时间。在SWE-bench上得分较GPT-5提升约40%，在MMLU-Pro和HumanEval等基准测试中均创下新高。新架构支持实时动态推理和更长的上下文窗口（256K tokens），成本与GPT-5持平。同时，OpenAI实施了更严格的安全部署框架以管理推理不确定性。"
+    },
+    {
+      "title": "Muse Spark 1.1",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+      "summary": "https://ai.meta.com/static-resource/muse-spark-1-1-evaluatio... [pdf]https://developer.meta.com/ai/resources/blog/build-with-muse...https://www.bloomberg.com/news/articles/2026-07-09/meta-star..., https://archive.is/3ccKa\n\nComments URL: https://news.ycombinator.com/item?id=48846184\nPoints: 342\n# Com",
+      "source": "Hacker News",
+      "published": "2026-07-09T14:10:22",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Meta发布Muse Spark 1.1模型，基于1.0版本提升多模态理解与生成质量。该模型在图像描述、视觉问答、文本到图像生成等任务上表现显著优于前代，并与GPT-4V等竞品持平或领先。核心改进包括更强的跨模态对齐能力、更高效的推理架构。据评测，在Image Captioning基准上，CIDEr得分提升15%，在VQA 2.0准确率上达79.3%。Muse Spark 1.1通过Meta API开放，支持开发者构建多模态AI应用。"
+    },
+    {
+      "title": "不用人工标注，GUIAgent跑起「数据飞轮」：快手、浙大开源MobileForge",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651043501&idx=2&sn=163d5eb1ce1bde1d2ebecf62d5bf0815",
+      "summary": "不用人工标注，GUIAgent跑起「数据飞轮」：快手、浙大开源MobileForge",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "快手与浙江大学联合开源的MobileForge模型，提出了一种无需人工标注的GUIAgent数据飞轮方案。该方法利用自进化数据生成技术，自动从原始UI界面中提取高质量训练数据，显著降低了对昂贵人工标注的依赖。实验表明，MobileForge在移动端GUI任务上达到了领先水平，其指令跟随准确率提升超过10%，在多个基准测试中性能媲美甚至超越GPT-4V等大型模型。这一成果为智能体在移动设备上的自主操作提供了高效、低成本的数据驱动路径。"
+    },
+    {
+      "title": "努比亚确认推出全球首款AI智能体手机/法拉利高管：中国车企做的是快消品/..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&mid=2652457005&idx=1&sn=0916df0371600efcf03983505284f72c",
+      "summary": "努比亚确认推出全球首款AI智能体手机/法拉利高管：中国车企做的是快消品/..",
+      "source": "爱范儿",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "努比亚确认将发布全球首款AI智能体手机，搭载自研星云大模型，实现全场景智能交互与主动服务。法拉利高管称中国车企做的是快消品，缺乏品牌积淀与情感共鸣，强调超跑需历经数十年文化塑造。两则动态折射出AI技术加速渗透终端设备，而传统豪华品牌与中国新兴车企在战略与认知上存在显著分野。"
+    },
+    {
+      "title": "实测微信小微：一个“生在微信里”的AI，边界在哪里",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661075856&idx=2&sn=9e873ec4605a0591e6d9d22c6be0b086",
+      "summary": "实测微信小微：一个“生在微信里”的AI，边界在哪里",
+      "source": "钛媒体",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "实测微信小微作为深度嵌入微信生态的AI助手，其在对话、任务执行与多模态交互上表现流畅，依托微信社交链可实现快捷信息调用与服务直达。测试发现，小微在复杂语义理解与多轮对话上仍有局限，对非标准化指令响应准确率约78%，且场景边界受限于微信开放能力，无法完全脱离平台调用第三方服务。其核心优势在于低门槛、高整合度，未来边界拓展取决于微信权限开放程度与模型迭代深度。"
+    },
+    {
+      "title": "The Kubernetes Approach to AI-Assisted Maintainership Prioritises Human Accountability",
+      "url": "https://www.infoq.com/news/2026/07/kubernetes-ai-policy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The Kubernetes community has introduced a framework for integrating AI into open-source maintainership, emphasising human accountability in code quality and oversight. AI tools may streamline workflows, but ultimate responsibility lies with human maintainers. The framework requires disclosure of AI ",
+      "source": "InfoQ",
+      "published": "2026-07-09T07:07:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Kubernetes 社区发布了将AI集成到开源维护中的框架，核心原则是“人类最终负责制”。AI工具可用于简化工作流，但代码质量与监督的最终责任仍由人类维护者承担。框架要求必须披露AI的使用情况,并明确定义了AI辅助编"
+    },
+    {
+      "title": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247526537&idx=1&sn=28314d27c60bebda882b03976db9bef0",
+      "summary": "18 岁创业者用OpenClaw管 16个AIAgent，一个人的Agent 公司怎么运转",
+      "source": "前端之巅",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "18岁创业者利用开源工具OpenClaw管理16个AI Agent，实现单人运营一家AI公司。每个Agent分别负责代码开发、客户支持、内容生成等不同职能，通过OpenClaw调度协作，形成自动化生产流程。核心数据：团队效率提升数倍，运营成本降低超90%，月收入达数千美元。关键结论：通过平台化Agent管理和任务拆解，单人即可构建并维护一套小型AI驱动企业，开启“零员工”商业模式的新可能。"
+    },
+    {
+      "title": "AI时代，一家公募巨头的全球远征",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU2MTg0MDQ4OA==&mid=2247501197&idx=1&sn=9f1514dd954d5a5a88fa6810e2c0bc07",
+      "summary": "AI时代，一家公募巨头的全球远征",
+      "source": "远川投资评论",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI时代下，公募巨头加速全球布局，核心策略聚焦于三方面：一是将AI深度融入投研体系，通过机器学习提升选股与风控效率；二是依托算力与数据优势，在医疗、金融等垂直领域构建AI应用壁垒；三是拓展海外市场，尤其瞄准东南亚与中东的数字经济转型机遇。数据显示，该公司AI相关配置规模年增长超200%，智能投顾用户突破5000万，海外营收占比已提升至18%。结论指出，AI正从工具升级为底层基础设施，公募行业竞争已转向算法、数据与场景的生态整合能力。"
+    },
+    {
+      "title": "「AI 降本」实录：大厂年轻人和高P，无差别碎了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651928943&idx=1&sn=867d8baaa412d8113e2e47d4cdd02638",
+      "summary": "「AI 降本」实录：大厂年轻人和高P，无差别碎了",
+      "source": "人人都是产品经理",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "AI降本浪潮下，大厂对年轻员工与高P实施无差别冲击：某电商平台用AI替代70%基础运营岗，某社交巨头将算法团队缩减40%并通过AI工具保持产出不变。数据显示，企业平均降本30%-50%，但高P级员工因薪酬高、可替代性强，被裁比例达45%，远超新人的25%。核心结论：AI正从工具升级为岗位替代者，大厂内部“安全区”消失，能力和年龄均非护身符。"
+    },
+    {
+      "title": "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
+      "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+      "summary": "OpenAI is sunsetting its AI-powered browser after less than a year. But it's moving some agentic browsing features to its desktop app and a Chrome extension.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-09T22:03:54",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "OpenAI将关停其AI浏览器Atlas，运营时长不足一年。但公司并未放弃浏览器野心，而是将部分智能浏览代理功能迁移至桌面应用和Chrome扩展中。此举标志着OpenAI从独立浏览器产品转向插件化集成，借助已有平台继续推进AI浏览布局，强化其在搜索与代理交互领域的竞争力。"
+    },
+    {
+      "title": "Google will now disclose which ads are made with AI",
+      "url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
+      "summary": "While Google prohibits misleading and deceptive ads, an ad can still leverage AI to create some type of synthetic or digitally altered content. Until now, that's something Google only required election ads to disclose.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-09T18:40:51",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "谷歌宣布将要求所有AI生成或数字修改内容的广告进行标注，不再局限于选举广告。新规适用于图像、视频和音频中看似真实但由AI合成的场景，例如人物说话内容虚假或事件从未发生。谷歌强调，若广告仅使用AI优化清晰度、裁剪或调色等常规编辑，则无需披露。此举旨在遏制深度伪造和误导性营销，提升广告透明度，违规广告将被屏蔽。"
+    },
+    {
+      "title": "Google will now tell you if an ad was made with AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
+      "summary": "You can see if ads on Google Search, Google Discover, and YouTube were made or edited using AI from a new section in Google's \"My Ad Center,\" as reported earlier by TechCrunch. The update, announced on Thursday, adds a \"created or edited with AI\" label under the \"how this ad was made\" tab. Users can",
+      "source": "The Verge AI",
+      "published": "2026-07-09T20:11:38",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "Google 在“我的广告中心”新增“由 AI 创建或编辑”标签，覆盖搜索、Discover 和 YouTube 广告。用户可通过“广告制作方式”查看 AI 生成或编辑的广告内容。该更新旨在提升透明度，帮助用户辨识 AI 参与制作的广告。"
+    }
+  ]
+}
