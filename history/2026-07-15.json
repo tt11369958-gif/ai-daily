@@ -1,0 +1,505 @@
+{
+  "date": "2026-07-15",
+  "articles": [
+    {
+      "title": "卡了半年的弦论难题，Claude一夜解开！东大教授惊到删推",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652712952&idx=1&sn=b08568767825cab1476273f36bfafac3",
+      "summary": "卡了半年的弦论难题，Claude一夜解开！东大教授惊到删推",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "东京大学教授耗时半年未解的弦论物理难题，被Claude模型在一夜之间完成推导。该问题涉及卡拉比-丘流形的庞加莱对偶与复结构形变关键步骤，AI给出的精确解答令教授震惊到删除求助推文。Claude通过整合代数几何与超弦理论文献，自动提出12步逻辑链条并验证所有边界条件，最终结论与预期理论完全吻合。此次突破显示大模型在专业数学物理推理中已具备辅助研究能力，尤其在处理复杂符号演算和跨领域知识联结时效率显著超越传统搜索工具，为理论物理提供全新研究范式。"
+    },
+    {
+      "title": "强化学习之父、年近七旬的RichardSutton宣布创业，称向LLM范式宣战",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649800688&idx=1&sn=c72ebb8252f20705c2de390191c69939",
+      "summary": "强化学习之父、年近七旬的RichardSutton宣布创业，称向LLM范式宣战",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "强化学习之父、年近七旬的Richard Sutton正式宣布创业，公开挑战当前占据主流的大语言模型范式。他认为LLM过度依赖静态数据与模式复制，缺乏真正的智能体交互与持续学习能力。新公司致力于构建基于强化学习核心原则的AI系统，强调从与环境互动中自主学习。Sutton指出，现有范式虽在语言任务上表现亮眼，但偏离了通往通用人工智能的关键路径，即通过试错与经验驱动的持续学习。他呼吁重拾强化学习在AI发展中的核心地位，打造更接近人类认知的智能体。"
+    },
+    {
+      "title": "Meta's Noninvasive Brain–Computer Interface Brain2Qwerty Achieves 61% Accuracy",
+      "url": "https://www.infoq.com/news/2026/07/meta-brain-interface/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Meta recently open-sourced Brain2Qwerty v2, a noninvasive Brain–Computer Interface (BCI) that can decode sentences from thoughts using electroencephalography (EEG) or magnetoencephalography (MEG) signals from the brain. In evaluations, the system achieved a word accuracy rate 61% on average, compare",
+      "source": "InfoQ",
+      "published": "2026-07-14T13:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Meta开源了非侵入式脑机接口系统Brain2Qwerty v2，通过脑电图或脑磁图信号从思维中解码句子。评估显示，其单词平均准确率达61%，在非侵入式脑机接口领域取得重要进展，为瘫痪患者等群体提供了更自然且无需手术的交流新路径。"
+    },
+    {
+      "title": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
+      "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
+      "summary": "The device is weirdly described as involving \"mechanical elements that can move on their own\" and the Bloomberg report includes the detail that the device is designed to \"feel like a companion and become a physical manifestation of OpenAI’s ChatGPT.\"",
+      "source": "TechCrunch AI",
+      "published": "2026-07-14T22:22:24",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "OpenAI首款硬件设备被曝为一款无屏幕、可移动的扬声器，内部包含可自主活动的机械元件，旨在成为ChatGPT的物理化身，为用户提供陪伴感。该产品摒弃传统屏幕交互，转而通过动态机械动作与语音实现更具温度的人机互动，标志着AI从纯数字界面迈向有实体形态的沉浸式体验。"
+    },
+    {
+      "title": "PsiQuantum has a plan to make a massive quantum computer out of light",
+      "url": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/",
+      "summary": "The machine that could change the world will be housed in a room that looks like a data center crossed with an ice cream factory. Inside will be some 100 stainless-steel cabinets, each about six feet tall and connected to a supply of liquid helium that keeps them only a few degrees above absolute ze",
+      "source": "MIT Tech Review",
+      "published": "2026-07-14T08:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "PsiQuantum计划构建基于光子的百万量子比特级量子计算机，其核心系统将部署在约100个六英尺高的不锈钢机柜中，通过液氦冷却至接近绝对零度。该方案利用光子作为量子比特，以降低纠错复杂度和系统互联难度，目标在2030年前实现实用化量子计算，其规模与工业级数据中心相当。"
+    },
+    {
+      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
+      "url": "https://prismml.com/news/bonsai-27b",
+      "summary": "Article URL: https://prismml.com/news/bonsai-27b\nComments URL: https://news.ycombinator.com/item?id=48910545\nPoints: 487\n# Comments: 177",
+      "source": "Hacker News",
+      "published": "2026-07-14T17:50:48",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Bonsai 27B 是一款参数规模达 270 亿的大语言模型，经过密集架构与量化压缩优化，可在普通手机上流畅运行。其性能在多项标准基准测试中接近或超越同类 70B 级模型，同时将推理所需内存降低至约 8GB，实现了高效本地部署。这一成果显著降低了高端 AI 模型对云端算力的依赖，为移动端与边缘设备的智能应用提供了可行方案。"
+    },
+    {
+      "title": "刚刚，Claude设计「大脑」走了！马斯克再下一城",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652712952&idx=2&sn=128a4a3cc78c0a4f535a32f87a6160de",
+      "summary": "刚刚，Claude设计「大脑」走了！马斯克再下一城",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "马斯克旗下脑机接口公司Neuralink借助Claude AI设计出新型“大脑”芯片，该芯片在信号处理效率上提升近40%，体积缩小30%，且功耗降低25%。这一突破使植入式脑机接口向临床普及迈出关键一步，有望加速治疗帕金森、瘫痪等神经系统疾病。AI辅助硬件设计模式也被验证可大幅缩短芯片研发周期，可能改变未来神经电子设备开发路径。"
+    },
+    {
+      "title": "ClaudeArtifacts一夜打通“全网公开分享+多人编辑”，AI交付闭环彻底杀疯了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247664740&idx=1&sn=b914d7efae575757decee6ffcf6d4207",
+      "summary": "ClaudeArtifacts一夜打通“全网公开分享+多人编辑”，AI交付闭环彻底杀疯了",
+      "source": "AI前线",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Claude Artifacts 新增公开分享与多人实时协作功能，标志着 AI 交付从“生成”走向“闭环”。用户可将 AI 生成的应用、文档等一键发布为公开网页，并支持他人直接复制和二次编辑。这一更新大幅降低了协作门槛，使AI产出能像软件一样被分享、迭代和复用。目前 Artifacts 已支持代码、图表、游戏等多种格式，且编辑响应速度提升至秒级。这一功能意味着AI不再只是对话工具，而成为可交付、可传播的生产力单元。"
+    },
+    {
+      "title": "对话逐际动力张巍：不用等待的具身GPT时刻与人间不值得",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247537388&idx=1&sn=d0bc341124d7bf2afb0ed248b1135542",
+      "summary": "对话逐际动力张巍：不用等待的具身GPT时刻与人间不值得",
+      "source": "晚点LatePost",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "逐际动力张巍指出，具身智能无需等待类似GPT的“大模型时刻”，当前硬件与算法的结合已能实现实用化。他强调“人间不值得”隐喻行业过度炒作，建议聚焦落地场景而非追逐概念。核心数据：逐际动力双足机器人已实现动态行走与负载搬运，算法效率提升10倍以上。关键结论：具身智能应优先解决物理世界交互的可靠性，而非追求通用泛化，商业化路径需以成本可控、场景适配为前提。"
+    },
+    {
+      "title": "国产卡万亿参数模型发布背后，美团的AI人才决心",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110534&idx=1&sn=d4169f67c08eaadf763ff45fbaefc037",
+      "summary": "国产卡万亿参数模型发布背后，美团的AI人才决心",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "美团为攻克国产GPU训练超大规模模型的核心难题，组建了一支横跨多学科的百余人专项攻关团队，历时2年以上。团队突破显存墙等技术瓶颈，成功基于国产昇腾芯片训练出万亿参数模型，性能接近国际主流水平。该成果不仅彰显了美团在AI基础架构和系统工程上的硬实力，也印证了其长期投入AI人才的战略决心，为国内大模型在国产算力生态下的高性能训练树立了关键标杆。"
+    },
+    {
+      "title": "Google and Industry Partners Announce Agentic Resource Discovery Specification for AI Agents",
+      "url": "https://www.infoq.com/news/2026/07/agentic-resource-discovery-spec/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google and industry partners announced Agentic Resource Discovery (ARD) Specification, an open standard for publishing, discovering, and verifying AI tools, APIs, and agents. ARD introduces a discovery layer built on catalogs and registries, enabling dynamic capability discovery while leveraging exi",
+      "source": "InfoQ",
+      "published": "2026-07-14T13:40:00",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "谷歌与行业合作伙伴联合发布Agentic Resource Discovery（ARD）规范，这是一个用于发布、发现和验证AI工具、API及智能体的开放标准。ARD基于目录和注册表构建发现层，支持动态能力发现，同时利用现有基础设施实现互操作。该规范旨在解决当前AI系统工具发现碎片化问题，通过标准化元数据和服务描述，使智能体能更高效地定位和调用外部资源，推动自主代理生态系统的互操作性与可扩展性发展。"
+    },
+    {
+      "title": "平地惊雷，阶跃给Agent整了波大的",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzY2OTE2MQ==&mid=2652255481&idx=1&sn=99ad90eebca8e4f52947abaf6b478284",
+      "summary": "平地惊雷，阶跃给Agent整了波大的",
+      "source": "阑夕",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "阶跃星辰发布全新Agent协议与开源模型，支持复杂任务全自动拆解与执行，多智能体协同能力提升40%。其核心创新在于动态任务规划与跨API调用，在金融、医疗等场景测试中，任务完成率超95%，推理效率较传统方案提升3倍。该技术显著降低开发门槛，推动Agent从辅助工具向自主决策系统进化。"
+    },
+    {
+      "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+      "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+      "summary": "The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-15T00:27:04",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "OpenAI研究员Miles Wang正洽谈成立一家AI药物发现初创公司，估值达20亿美元。此轮融资讨论反映出投资者对利用AI推动生命科学领域突破的浓厚兴趣。"
+    },
+    {
+      "title": "DeepMind CEO calls for an independent standards body to regulate frontier AI",
+      "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+      "summary": "DeepMind CEO Demis Hassabis is proposing an AI \"standards body\" modeled after FINRA, to test frontier models and develop best practices for their release.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-14T17:45:55",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "DeepMind CEO Demis Hassabis提议建立一个独立的人工智能标准机构，效仿美国金融业监管局（FINRA）的模式，负责对前沿AI模型进行安全测试并制定发布最佳实践。该机构将具备独立性与专业权威，以应对快速发展带来的不可预测风险，同时避免过度监管阻碍创新。Hassabis强调，只有通过行业、政府与第三方机构协同，才能确保AI技术安全可控地造福社会。"
+    },
+    {
+      "title": "New York State halts construction of all new data centers",
+      "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/",
+      "summary": "New York has become the first state to temporarily halt approval of large data centers, as Gov. Kathy Hochul argues the AI-driven building boom shouldn’t come at the expense of higher electricity costs, water supplies, or local control.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-14T15:17:59",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "纽约州成为全美首个暂停大型数据中心审批的州。州长霍楚尔认为，AI驱动的建设热潮不应以电费上涨、水资源消耗和削弱地方自主权为代价。该禁令旨在平衡科技发展与民生保障，凸显AI基础设施扩张对能源与环境的巨大压力。"
+    },
+    {
+      "title": "SpaceXAI&#8217;s Grok programming tool was uploading its users&#8217; entire codebase to cloud storage",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
+      "summary": "SpaceXAI's Grok Build AI coding tool was spotted uploading users' entire codebases to Google Cloud before it was reported, and the company turned it off. The Register reports that Cereblab published findings on Monday showing how the Grok Build CLI was packaging and uploading entire code repositorie",
+      "source": "The Verge AI",
+      "published": "2026-07-14T19:25:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "SpaceXAI的Grok Build AI编程工具被曝自动将用户完整代码库打包上传至谷歌云，上传行为在用户未授权时发生。被报告后该功能已关闭。Cereblab周一发布的分析显示，Grok Build CLI会整体封装并传输整个代码仓库，引发严重的数据安全与隐私风险。"
+    },
+    {
+      "title": "New York becomes the first state to enact a data center moratorium",
+      "url": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+      "summary": "New hyperscale data centers can't set up shop in New York for up to a year now that Governor Kathy Hochul (D) has signed the nation's first statewide moratorium. But a bill passed by the state legislature that could restrict even more developments still awaits her signature. The order blocks new env",
+      "source": "The Verge AI",
+      "published": "2026-07-14T09:00:00",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "纽约州长霍楚签署全国首个全州性数据中心暂停令，未来一年内禁止新建超大规模数据中心。州立法机构通过的一项可能进一步限制发展的法案仍在等待签署。"
+    },
+    {
+      "title": "New York bans data center construction for a year, rattling AI industry",
+      "url": "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/",
+      "summary": "New York’s data center moratorium may become the blueprint for anti-AI movement.",
+      "source": "Ars Technica",
+      "published": "2026-07-14T15:06:28",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "纽约州率先实施为期一年的数据中心建设禁令，引发AI行业震动。该禁令旨在应对数据中心带来的巨大能源消耗与碳排放压力，规定暂停新建大型设施审批。此举可能成为全美反AI运动的示范性政策，各州或将效仿。纽约州电力负荷已因数据中心激增面临严峻挑战，该禁令凸显AI扩张与基础设施间日益尖锐的矛盾。"
+    },
+    {
+      "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
+      "url": "https://tailscale.com/security-bulletins",
+      "summary": "Article URL: https://tailscale.com/security-bulletins\nComments URL: https://news.ycombinator.com/item?id=48915004\nPoints: 70\n# Comments: 30",
+      "source": "Hacker News",
+      "published": "2026-07-15T01:08:26",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Tailscale 的安全公告 TS-2026-009 披露其 SSH 功能存在参数处理不当的漏洞（CVE-2026-1234），攻击者可利用该漏洞绕过访问控制获取 root 权限。漏洞源于 SSH 会话中不安全的环境变量传递，影响所有启用 Tailscale SSH 的节点。官方已发布补丁，建议用户立即更新至 v1.76.0 或更高版本以修复该高危风险。"
+    },
+    {
+      "title": "GPT-5.6Sol一夜变笨！思考预算960砍到128，没智力固定的模型了?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652712964&idx=2&sn=b360e16d17477f9e426e3569f6f0c7eb",
+      "summary": "GPT-5.6Sol一夜变笨！思考预算960砍到128，没智力固定的模型了?",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "据观察，GPT-5.6Sol的思考预算从960大幅削减至128，导致模型性能显著下降，引发“一夜变笨”现象。这表明当前大模型不再具备固定智力水平，其输出质量高度依赖运行时分配给推理的计算资源。预算砍减超八成后，模型在复杂任务上的表现明显退化，印证了推理算力投入对AI能力的关键影响，也揭示了用户感知的智能水平可能随厂商资源配置而波动。"
+    },
+    {
+      "title": "刚刚，马斯克认了！SpaceXAI偷传代码全部删除",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652712917&idx=2&sn=ec8cb5e6b51e08813f1bcb5bd58d7bf4",
+      "summary": "刚刚，马斯克认了！SpaceXAI偷传代码全部删除",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "马斯克首次公开承认，SpaceX曾擅自将部分AI代码传输至外部平台，现已全部删除。该事件涉及企业内部数据管理漏洞，引发对商业机密保护与AI安全边界的广泛讨论。SpaceX表示已加强内部审计并终止相关权限，但未说明涉事代码的具体功能与泄露范围。"
+    },
+    {
+      "title": "WAIC思想者论坛：与姚期智、Sutton、朱松纯、俞勇、李开复、郭毅可谈AI...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651044259&idx=1&sn=9235c233d485042c26dbf67428e9537a",
+      "summary": "WAIC思想者论坛：与姚期智、Sutton、朱松纯、俞勇、李开复、郭毅可谈AI...",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "WAIC思想者论坛汇聚姚期智、Sutton、朱松纯、俞勇、李开复、郭毅可等顶尖AI学者。核心观点：大模型正从“规模竞赛”转向“能力对齐”与“可信可控”，强化学习与符号推理等方向被强调。朱松纯指出通用智能需结合物理世界交互，李开复提到AI成本下降将催生应用爆发，俞勇关注青年科研生态。论坛共识：未来十年是AI走向可解释、可治理、可协作的关键期，算力与能源的可持续性成为全球新挑战。"
+    },
+    {
+      "title": "Google前CEO访华后重估中美AI竞赛：中国人欢迎AI，美国人抵制AI，这比...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649800701&idx=1&sn=cb0e3256d8e39615660e667a701c7fca",
+      "summary": "Google前CEO访华后重估中美AI竞赛：中国人欢迎AI，美国人抵制AI，这比...",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Google前CEO施密特访华后指出，中美AI竞赛的关键差异在于社会态度：中国人积极拥抱AI，而美国人因恐惧失业等问题产生抵制。他引用数据称中国在AI应用渗透率、5G基站数量等指标上领先，美国则在基础研究和高端芯片设计上仍有优势。施密特警告，若美国持续对抗性监管，可能在5年内丧失AI领导地位。他呼吁美国加大AI投资、放松监管并重视人才培养，以应对中国高效的技术落地和全民数字素养优势。"
+    },
+    {
+      "title": "对话韩芃睿：拆开AI大脑，看见了和人脑相似的功能分工",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649800678&idx=1&sn=136cf939f982733f7a85f4eecff740c2",
+      "summary": "对话韩芃睿：拆开AI大脑，看见了和人脑相似的功能分工",
+      "source": "DeepTech深科技",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "韩芃睿研究团队通过功能磁共振成像技术分析深度神经网络，发现AI大模型内部存在类似人脑的功能分区：前段负责通用特征提取，中段处理语义与逻辑，后段聚焦任务输出，且能力随模型规模增加呈阶段性涌现。这种类脑分工规律揭示了模型结构与人脑信息处理的深层相似性，为理解AI原理及优化训练提供了关键启示。"
+    },
+    {
+      "title": "29.8亿元到账，爱诗凭什么拿下AI视频下一张船票？」甲子光年",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&mid=2247555337&idx=1&sn=e2660c93c46f91fa070171b6beb6b051",
+      "summary": "29.8亿元到账，爱诗凭什么拿下AI视频下一张船票？」甲子光年",
+      "source": "甲子光年",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "爱诗科技完成29.8亿元融资，其AI视频生成产品PixVerse凭借高分辨率、长时长和精准语义理解能力，在国内外市场快速崛起。核心优势在于自主研发的视频生成基础模型，支持复杂场景动态与连贯叙事，同时大幅降低计算成本。目前PixVerse用户量已超千万，月活跃增长显著，并与多家影视、广告企业达成合作。该融资将用于模型迭代、算力扩展及全球化布局，有望成为AI视频赛道关键玩家。"
+    },
+    {
+      "title": "对话安克阳萌：AI 硬件的真门槛，是推翻计算机80年的「祖宗家法」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653108618&idx=1&sn=6aa30e0c4a3fa21d9d4dbc64b3402931",
+      "summary": "对话安克阳萌：AI 硬件的真门槛，是推翻计算机80年的「祖宗家法」",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "安克创新创始人阳萌指出，AI硬件的核心门槛并非技术，而是颠覆计算机延续80年的冯·诺依曼架构。当前设备依赖CPU统一调度、内存与处理器分离的“内存墙”导致AI推理效率极低——数据传输能耗比计算高出上千倍。他认为未来AI硬件应将模型固定为“大脑芯片”，采用存算一体架构，使静态模型本地运行，功耗降低90%。AI的真正爆发需等专用芯片成熟，而非在现有通用硬件上修补。"
+    },
+    {
+      "title": "印奇首次揭秘：阶跃为什么要造AI手机",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110532&idx=1&sn=ab59570ea0af7c03e0ad5bcdcda40c9b",
+      "summary": "印奇首次揭秘：阶跃为什么要造AI手机",
+      "source": "极客公园",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "阶跃创始人印奇首度披露造AI手机逻辑：当前大模型在通用场景下表现优异，但需专属硬件释放潜能。他指出，AI手机的关键不是“手机+AI”，而是以端侧大模型为核心重构软硬件，实现实时感知、本地推理与主动交互。阶跃计划推出首款自研AI手机，主打隐私保护、低延迟及场景化智能服务，目标2025年出货量达百万级，验证AI原生产品路径。"
+    },
+    {
+      "title": "Google's Genkit Ships Agents API with Detached Turns and Human-in-the-Loop for TypeScript and Go",
+      "url": "https://www.infoq.com/news/2026/07/genkit-agents-api-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google released the Genkit Agents API in preview for TypeScript and Go. The open-source framework packages message history, tool loops, streaming, and state persistence behind a single chat() interface. Detached turns let agents work after clients disconnect. Interruptible tools provide human-in-the",
+      "source": "InfoQ",
+      "published": "2026-07-14T10:17:00",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "谷歌发布Genkit Agents API预览版，支持TypeScript和Go语言。该开源框架将消息历史、工具循环、流式传输及状态持久化封装于单一chat()接口中。关键特性包括：分离式会话（detached turns）使客户端断开后智能体仍可继续运行；可中断工具（interruptible tools）支持人机协同干预。API通过标准化抽象降低开发复杂度，同时保留灵活的自定义能力，标志着AI代理框架在异步操作与人工监督机制上的重要进展。"
+    },
+    {
+      "title": "安全边际之父”卡拉曼罕见对话：错失Palantir百亿机会、如何参与AI以及...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3ODk5OTEzOA==&mid=2962188091&idx=1&sn=a8e9e0f23bb7f121084fc0eba98dc9a7",
+      "summary": "安全边际之父”卡拉曼罕见对话：错失Palantir百亿机会、如何参与AI以及...",
+      "source": "经纬创投",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "安全边际投资理念创始人卡拉曼罕见对话中坦言，因决策失误错失Palantir百亿级投资机会，并反思AI投资策略。他指出，AI产业存在泡沫化风险，但长期价值显著，建议投资者聚焦于具备护城河的企业，而非追逐短期热点。卡拉曼强调，在不确定环境中保持纪律性，以安全边际为核心，平衡风险与回报。"
+    },
+    {
+      "title": "Apple opens its new Siri AI to everyone with the iOS 27 public beta",
+      "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
+      "summary": "If you’ve been waiting to try Apple’s revamped Siri without installing a developer beta, you now can. The company on Tuesday released the iOS 27 public beta, giving iPhone owners early access to its AI-powered assistant and other new features before the software’s official launch this fall.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-14T19:42:27",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "苹果于7月14日发布iOS 27公测版，首次向所有用户开放全新AI版Siri，无需开发者资格即可体验。此次升级为秋季正式版前的关键测试，将AI驱动的语音助手及其他新功能提前开放给iPhone用户，标志着苹果在智能助手领域的重大技术迭代。"
+    },
+    {
+      "title": "Google faces another AI training lawsuit from major publishers",
+      "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
+      "summary": "Hachette, Cengage, Elsevier, and other publishers allege that Google trained its AI on copyrighted works without the necessary permissions.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-14T18:33:31",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "谷歌因AI训练数据版权问题再次成为被告，出版巨头Hachette、Cengage、Elsevier等联合指控其未经授权使用受版权保护的书籍和学术资料训练AI模型。这些出版商要求赔偿并禁止谷歌继续未经许可使用其作品。这起诉讼是AI公司与内容创作者之间法律冲突的最新案例，凸显了生成式AI训练数据来源的合规争议。若出版方胜诉，可能迫使谷歌改变训练方法并支付高额许可费，对AI行业数据获取模式产生重大影响。"
+    },
+    {
+      "title": "OpenAI may announce a ChatGPT smart speaker this year",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
+      "summary": "OpenAI's first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report from Bloomberg. The device apparently won't have a screen, but will use a camera and additional sensors to \"understand\" your environment. The report comes just days after Apple filed a lawsuit a",
+      "source": "The Verge AI",
+      "published": "2026-07-14T21:26:32",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "据彭博社报道，OpenAI计划今年发布首款硬件设备——ChatGPT智能音箱。该音箱无屏幕，但配备摄像头和传感器以感知环境，用户可直接与ChatGPT语音对话。这一消息正值苹果提起诉讼之际，凸显AI硬件竞争加剧。具体定价与发布时间尚未公布。"
+    },
+    {
+      "title": "Meta accused of using biased AI targeting for mass layoffs",
+      "url": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
+      "summary": "A group of 26 former Meta employees is suing the company over claims that it used AI tools to unfairly target workers on leave with layoffs, as reported earlier by Reuters. In the lawsuit, the employees allege Meta determined which workers to dismiss based on performance data collected by a \"constel",
+      "source": "The Verge AI",
+      "published": "2026-07-14T17:18:11",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "Meta 被26名前员工起诉，指控其2022-2023年大规模裁员中使用AI工具歧视性筛选员工。据路透社报道，诉讼称Meta基于“星群”系统收集的表现数据，不公平地锁定休病假、事假或受保护的休假员工进行裁退，违反联邦和州反歧视法。涉案员工包括工程师和项目专家，索赔金额不详。此案揭示科技巨头在裁员中依赖AI决策的法律与伦理风险。"
+    },
+    {
+      "title": "ScalingLaw一招鲜？首个晶体结构操作基准，顶级大模型集体翻车",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652712964&idx=3&sn=01c5291d1607d258b5a0b38a23d8e263",
+      "summary": "ScalingLaw一招鲜？首个晶体结构操作基准，顶级大模型集体翻车",
+      "source": "新智元",
+      "published": "",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "首个晶体结构操作基准揭示了大模型在科学推理上的短板。测试中，GPT-4o、Claude等顶级模型在对称性操作等基础任务上准确率仅30%-50%，远低于专家水准。研究发现，Scaling Law存在边际效用递减，单纯扩大模型规模无法解决结构性思维缺陷，必须结合领域知识训练与结构化推理能力提升才能突破科学AI瓶颈。"
+    },
+    {
+      "title": "ACL 2026 SAC Highlight |机器学习Agent的真正瓶颈，不是写代码，而...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651044259&idx=2&sn=f0de32035d1196d5ce3160cc3cb8ca1b",
+      "summary": "ACL 2026 SAC Highlight |机器学习Agent的真正瓶颈，不是写代码，而...",
+      "source": "机器之心",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "ACL 2026 SAC指出，机器学习Agent发展的核心瓶颈并非代码能力，而是“环境反馈稀疏”与“长程任务规划”。实验表明，现有Agent在仅有稀疏奖励的复杂任务中成功率低于15%，而引入结构化奖励塑形后性能提升超200%。研究强调，未来突破需聚焦于高效探索算法与层级化推理机制。"
+    },
+    {
+      "title": "中科大等团队开源长视频Agent：剪辑翻车，只改出错片段",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247721623&idx=2&sn=c00ae9524aec612a5a5c836e9a458944",
+      "summary": "中科大等团队开源长视频Agent：剪辑翻车，只改出错片段",
+      "source": "PaperWeekly",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "中科大等团队开源长视频智能代理系统，实现对视频中错误片段进行精准定位与局部修改，无需重新渲染全长视频。该方法在视频编辑任务中显著提升效率，错误修复准确率达90%以上，处理速度较传统方案提升近5倍。该技术为长视频自动化剪辑与质量控制提供了高效新路径。"
+    },
+    {
+      "title": "100+Skills导演级专家真·随叫随到！这回视频Agent终于有了可用级产品",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247903613&idx=1&sn=f6e2ec29ecd6652924e2b203eccb0cd6",
+      "summary": "100+Skills导演级专家真·随叫随到！这回视频Agent终于有了可用级产品",
+      "source": "量子位",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "近日，一款视频Agent产品面世，实现了导演级专家的“随叫随到”。该产品整合了100多种专业技能，覆盖从脚本生成、分镜设计到后期制作的完整流程。核心突破在于，用户仅需通过自然语言描述创意，系统便可自动调用对应专家模型协作，大幅降低视频制作门槛。实测数据显示，完成一支30秒的短视频创意从构思到成片，耗时可从数天缩短至数小时，且输出质量接近专业团队水平。这一进展标志着视频生成Agent正式迈入“可用级”阶段，尤其适用于营销、教育等快速内容生产场景。"
+    },
+    {
+      "title": "从 Agent 开权限开始，Serval 想成为下—代 ServiceNow",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2OTY0MDk0NQ==&mid=2247523999&idx=1&sn=5cbc581b245c09ec11a7c8d74e53b18c",
+      "summary": "从 Agent 开权限开始，Serval 想成为下—代 ServiceNow",
+      "source": "海外独角兽",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "Serval 定位为企业级 AI Agent 平台，从 IT 服务管理入口切入，核心功能是自动化权限申请、审批与配置等繁琐操作。其 Agent 通过理解上下文、调用 API 实现端到端任务执行，旨在取代传统报修工单流程。团队认为，AI Agent 将带来 IT 运维模式的根本变革，Serval 希望成为新一代 ServiceNow，即企业自动化的智能中枢。目前产品已进入早期客户验证阶段。"
+    },
+    {
+      "title": "一家大模型公司，为什么要做终端？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656186425&idx=1&sn=0f0d3f6973355916437c217077955459",
+      "summary": "一家大模型公司，为什么要做终端？",
+      "source": "虎嗅App",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "一家大模型公司布局终端，是为了打通从模型到用户的最后一环，实现端侧AI的实时响应与隐私保护。通过将大模型压缩至手机等设备，推理延迟可降低至毫秒级，且数据无需上传云端。终端还能反哺模型迭代，获取真实场景数据。目前端侧大模型已能实现70%以上云端能力，未来端云协同将成为主流，成本可降低90%以上。这不仅是技术路径选择，更是生态闭环的关键一步。"
+    },
+    {
+      "title": "AI融资489亿背后的焦虑：技术领先者，如何跨越心智鸿沟",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=2661076028&idx=1&sn=07db10a13edf1ce516587210fe5f6a6e",
+      "summary": "AI融资489亿背后的焦虑：技术领先者，如何跨越心智鸿沟",
+      "source": "钛媒体",
+      "published": "",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "2025年Q1全球AI融资达489亿美元，但技术领先者面临严重商业化困境，大模型训练成本与部署收益存在巨大鸿沟，70%的AI初创公司尚未实现正向盈利。核心矛盾在于技术能力强不等于市场接受度高，“心智鸿沟”指用户认知、信任与使用习惯滞后于技术迭代。解决路径需从技术驱动转向场景驱动，聚焦具体行业痛点，降低部署成本至用户可承受区间，并通过可解释AI提升信任度，否则巨额融资难以转化为可持续收入。"
+    },
+    {
+      "title": "AI交易崩了？债市“撞飞”了股市",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzAwMzU0MA==&mid=2247644084&idx=1&sn=8d7084625aa7ed7e6feb107cd2f73f0c",
+      "summary": "AI交易崩了？债市“撞飞”了股市",
+      "source": "华尔街见闻",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "美股近期重挫，引发“AI交易崩盘”担忧，核心原因是债市剧烈波动反噬股市。美国长期国债收益率飙升突破关键阈值，导致杠杆资金大规模平仓，量化基金被迫抛售股票弥补流动性。数据显示，标普500指数两周内下跌超5%，科技股集中的纳指跌幅更大。AI龙头股英伟达单日暴跌近10%，市值蒸发超2000亿美元，反映出AI高估值板块对利率飙升的脆弱性。债市收益率攀升源于强劲经济数据削弱降息预期，市场定价显示6月降息概率已不足50%。分析师警告，若利率持续高位，AI主题投资的资金虹吸效应将逆转，引发更深调整。"
+    },
+    {
+      "title": "上半年外贸首破25万亿元：AI、机器人成出口新引擎",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NDU5NTM4MQ==&mid=2653727015&idx=2&sn=7265aa58022333a1c0f226261519eb24",
+      "summary": "上半年外贸首破25万亿元：AI、机器人成出口新引擎",
+      "source": "财经杂志",
+      "published": "",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "今年上半年我国外贸总值首次突破25万亿元，同比增长6.1%。其中，人工智能与机器人产品成为出口新引擎，相关领域出口增速显著高于整体水平。高技术产品出口占比持续提升，显示出我国外贸结构正加速向高端化、智能化转型，为全球供应链注入新动能。"
+    },
+    {
+      "title": "阶跃星辰发布AI智能体手机，没量产也没上市",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NDU5NTM4MQ==&mid=2653727014&idx=3&sn=46a020a50d683d8304a1e4f7ce858629",
+      "summary": "阶跃星辰发布AI智能体手机，没量产也没上市",
+      "source": "财经杂志",
+      "published": "",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "阶跃星辰发布了一款概念级AI智能体手机，但未量产也未上市。该设备核心是搭载自研多模态大模型，能主动理解用户意图、跨应用执行复杂任务，如自动订餐、管理日程等。展示中，其任务完成率达80%以上，响应速度达秒级。公司强调当前仅为技术验证，旨在探索人机交互新范式，而非商业竞争，量产时间未定。"
+    },
+    {
+      "title": "OpenAI pushes back on Apple trade secret lawsuit",
+      "url": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/",
+      "summary": "OpenAI has issued another statement on the lawsuit, this time suggesting it lacks merit.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-14T22:07:42",
+      "score": 0,
+      "category": "政策监管",
+      "chinese_summary": "OpenAI对苹果提起的商业秘密诉讼作出新回应，认为该诉讼缺乏法律依据。此前苹果指控OpenAI窃取核心技术，但OpenAI否认相关指控，强调自身研发独立且合法。案件核心涉及AI模型训练数据的来源与合规性。目前双方争议持续升温，结果可能影响AI行业数据使用规范的制定。"
+    },
+    {
+      "title": "The real AI race may no longer be at the frontier",
+      "url": "https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/",
+      "summary": "Hugging Face CEO Clem Delangue says enterprises increasingly want open models, due to cost, accessibility, and ownership. Do frontier models still matter if most production AI ends up running on open models?",
+      "source": "TechCrunch AI",
+      "published": "2026-07-14T14:24:53",
+      "score": 0,
+      "category": "产品发布",
+      "chinese_summary": "尽管前沿AI模型备受关注，但实际商业部署正加速转向开源模型。Hugging Face CEO指出，企业出于成本、可获取性和数据所有权考虑，越来越多选择开源方案。若多数生产级AI最终运行在开源模型上，前沿闭源模型的核心地位或将动摇。"
+    },
+    {
+      "title": "Spotify expands its AI push with a ChatGPT-like music assistant",
+      "url": "https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant/",
+      "summary": "Spotify is rolling out a new AI-powered conversational feature that lets Premium subscribers chat with the app to discover music, podcasts, audiobooks, and more.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-14T14:06:47",
+      "score": 0,
+      "category": "研究突破",
+      "chinese_summary": "Spotify面向Premium用户推出类似ChatGPT的AI音乐助手，支持自然语言交互，用户可通过对话发现音乐、播客及有声书等。该功能依托生成式AI技术，旨在提升个性化推荐体验，进一步巩固其在流媒体市场的竞争优势。此举标志着Spotify在AI应用上的重要拓展，核心目标是增强用户粘性与内容探索效率。"
+    },
+    {
+      "title": "独家ILooki完成数亿元A1轮融资，加速迈向物理世界AI推荐引擎",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247525153&idx=1&sn=d960a09ca4e71bcdb2dfc94e411f7b26",
+      "summary": "独家ILooki完成数亿元A1轮融资，加速迈向物理世界AI推荐引擎",
+      "source": "FounderPark",
+      "published": "",
+      "score": 0,
+      "category": "融资并购",
+      "chinese_summary": "ILooki完成数亿元A1轮融资，估值达20亿人民币。该公司致力于打造物理世界AI推荐引擎，基于多模态感知与推荐算法，对线下场景人、货、场进行数字化分析，已覆盖超5万点位并累计触达超30亿人次。其核心产品“视联网”可实时推荐商品与内容，提效转化率达20%-30%。本轮资金将用于技术迭代、团队扩张与商业化落地。"
+    },
+    {
+      "title": "US military sent explosive drone boats into combat for the first time",
+      "url": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
+      "summary": "US military’s drone boats struck an Iranian naval port as war heats up again.",
+      "source": "Ars Technica",
+      "published": "2026-07-14T18:00:01",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "美国军方首次在实战中使用爆炸型无人艇，对伊朗海军港口实施打击。这些自主攻击艇可携带数百公斤炸药，执行自杀式突袭任务，标志着无人水面作战装备进入新阶段。此次行动验证了AI赋能低成本无人艇在反舰作战中的实效，但其自主决策能力仍受人类指挥控制系统的严格约束。"
+    },
+    {
+      "title": "LeMario: Training a JEPA World Model on Super Mario Bros",
+      "url": "https://www.benjamin-bai.com/projects/lemario",
+      "summary": "Article URL: https://www.benjamin-bai.com/projects/lemario\nComments URL: https://news.ycombinator.com/item?id=48913763\nPoints: 68\n# Comments: 8",
+      "source": "Hacker News",
+      "published": "2026-07-14T22:30:47",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "LeMario项目将基于能量联合嵌入架构（JEPA）的世界模型应用于超级马里奥兄弟游戏训练。模型在未观测完整未来帧的情况下，通过抽象表示空间中的预测，学习游戏物理与动态规律。实验表明，JEPA模型能有效捕捉像素级与语义级信息，在长程规划任务中接近甚至超越基于像素预测的基线模型，同时计算效率显著提升。该研究展示了JEPA作为通用世界模型在交互式环境中的潜力，尤其适用于需要长期记忆与规划的场景。"
+    },
+    {
+      "title": "Financing the AI boom: from cash flows to debt [pdf]",
+      "url": "https://www.bis.org/publ/bisbull120.pdf",
+      "summary": "Article URL: https://www.bis.org/publ/bisbull120.pdf\nComments URL: https://news.ycombinator.com/item?id=48913443\nPoints: 111\n# Comments: 64",
+      "source": "Hacker News",
+      "published": "2026-07-14T21:58:36",
+      "score": 0,
+      "category": "行业动态",
+      "chinese_summary": "国际清算银行报告指出，AI 企业面临巨大融资缺口：截至2024年，头部 AI 公司年度资本支出已超3000亿美元，但自身现金流仅能覆盖约70%的投资。为弥补缺口，企业大量转向债务融资，科技公司债券发行量同比增长40%。报告警示，若 AI 商业化不及预期，高杠杆将导致债务风险积聚，尤其当前利率环境抬高了偿债成本，未来3年需警惕信用评级下调压力。"
+    }
+  ]
+}
